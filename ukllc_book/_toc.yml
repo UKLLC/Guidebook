@@ -1,0 +1,24 @@
+# ===== Main Landing Page ========================================
+format: jb-book
+root: docs/intro
+parts:
+  - chapters:
+    - title: NHS England
+      file: docs/linked_health_data/NHS_England/NHSE_intro.md
+      sections:
+        - title: Processing and linkage
+          file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
+        - title: Coded variables
+          file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
+        - title: Hospital datasets
+          file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
+          sections:
+            - title: HES APC
+              file: docs/linked_health_data/NHS_England/HES datasets/Admitted Patient Care/HES_APC.md
+            - title: HES OP
+              file: docs/linked_health_data/NHS_England/HES datasets/Outpatient/HES_OP.md
+#    - title: Linked Geospatial data
+#      file: docs/linked_geo_data/geo_data_test.ipynb
+#      sections:
+#        - title: Linkage and processing
+#          file: docs/linked_geo_data/Linkage and processing/geo_linkage.md
