@@ -14,9 +14,9 @@ parts:
           file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
           sections:
             - title: HES APC
-              file: docs/linked_health_data/NHS_England/HES datasets/Admitted Patient Care/HES_APC.md
+              file: docs/linked_health_data/NHS_England/HES datasets/Admitted Patient Care/HESAPC.ipynb
             - title: HES OP
-              file: docs/linked_health_data/NHS_England/HES datasets/Outpatient/HES_OP.md
+              file: docs/linked_health_data/NHS_England/HES datasets/Outpatient/HESOP.ipynb
 #    - title: Linked Geospatial data
 #      file: docs/linked_geo_data/geo_data_test.ipynb
 #      sections:

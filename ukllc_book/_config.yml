@@ -31,7 +31,13 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_navbar: Visit our <a href="https://github.com/UKLLC/jupyter-book">GitHub Repository</a>
+    <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>
 
 parse:
   myst_enable_extensions:
     - html_image
+
+sphinx:
+  extra_extensions:
+      - 'sphinx_panels'
