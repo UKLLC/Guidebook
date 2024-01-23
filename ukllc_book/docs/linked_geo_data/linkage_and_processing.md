@@ -1,8 +1,10 @@
-# Linkage to geospatial measures
+# Geocoding and processing 
 ## Overview
 UK LLC links to geospatial measures using the same Trusted Third Party (TTP), Digital Health and Care Wales (DHCW), used for health data linkage. DHCW send participant's address information where permissions allow to University of Leicester (UoL). Before data is sent to UoL, the UK LLC also prepare and join a batch of 'masking' addresses. 
 
-## DATA FLOW DIAGRAM
+<img src="../images/geo_basic_data_flow.jpg" width="600"/>
+
+**Figure 1** Data flow of UK LLC address and geo/environmental data
 
 ## Masking address
 The masking addresses are true address but they do not neccessarly belong to UK LLC participants. The masking address are appended to the real address at DHCW before being supplied to UoL. Masking addresses at generated at a ratio of 3:1 (Masking:Real). The purpose of this is to minimise disclosure risk associated with location based information. The Masking addresses are proportionally selected (at random) from OS AddressBase Plus based on key attributes about the Longtiduinal Population Studies (LPS) that have participants with permission to link. The key attributes include number of participants, age of cohort, and spatial buffers aligned with their catchment areas. This allows the masking address to more accurately represent the UK LLC population as a whole. Therefore studies with geographically constrainted populations e.g. EXCEED (Leicester) drive the generation of more masking addresses around the Leicester area. 
@@ -18,6 +20,30 @@ Geocoding is the assigning of geographical coordinates to a location. The follow
 * Address line 4 (Town)
 * Address line 5 (Administrative Area)
 * Postcode
-These data are then matched using a database lookup to convert the physical address into geographical coordinates.
+These data are then matched using a database lookup to convert the physical address into geographical coordinates where permissions allow full address to flow. Where permissions are set to postcode only, only the postcode is used in the geocoding process.
 
-## Experian...
+## Geocoding using Experian
+
+### Overview
+UK LLC addresses are verified and geocoded to 1m accuracy using Experian QAS Batch API software programme (formally QAS QuickAddress Batch API Software). In summary, the QAS Batch API software geocodes address records by verifying them against the official postal addresses using Ordnance Survey (OS) AddressBase Premium. Cleaned records are then assigned a match result based on the accuracy of the original address. The Experian QAS geocoding process follows five main stages:  External pre-processing, Match Country, Match Street, Organisation, PO Box and Place, Match Premises and Select Best Match (Figure 2) (Experian, 2019).
+
+<img src="../images/experian_process.jpg" width="600"/>
+
+**Figure 2** QAS Batch API process
+
+### Unmatched addresses
+If no match is achieved, the output address is returned and a ‘partial address found’ match code is assigned to the address (Figure 3). If an address has been fully verified at premise level it is assigned a ‘quality score’ depending on whether address was partially matched or has multiple matches (i.e., multiple addresses identified with High Street). Lastly, a match confidence level (0 - low, 5 - intermediate, 9 - high) is allocated to each address depending on how confident QAS Batch API is about the match it has returned. A low confidence indicates that essential matching rules were not satisfied, while intermediate confidence shows that the less important rules were not satisfied or another check failed, I.e., input address is not in the expected order (Experian, 2019).
+Once any interactive cleaning has been made to the returned addresses, the full input address record and filtered address record according to the following match success rating: ‘Verified and Good Full matches’, ‘Verified and Good Premise matches’ and ‘Tentative and Poor full matches’ are exported for further post-processing checks. 
+
+<img src="../images/experian_match_codes.jpg" width="600"/>
+
+**Figure 3** Returned match code indicators (Experian, 2019)
+
+### Post processing 
+Post-processing checks are undertaken to ensure that the output addresses are correctly matched and returned with the relevant grid information. Firstly, the ‘full’ returned address data was imported into ArcGIS Pro 3.0 to convert the file into SpatialPointDataFrame. This process removes any addresses with no returned coordinates. The spatial address file was then intersected with a UK Census Geography file to add relevant Output Area (OA) and Lower Layer Super Output Area (LSOA) level information.
+
+## Linkage of geocodes to environmental
+Once geocoding has been completed, UoL store the geocoded information to be linked to geo/environmental data e.g. air and noise pollution, greenness and greenspace. These datasets...
+
+
+

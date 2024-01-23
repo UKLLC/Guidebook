@@ -38,6 +38,3 @@ parse:
   myst_enable_extensions:
     - html_image
 
-sphinx:
-  extra_extensions:
-      - 'sphinx_panels'
