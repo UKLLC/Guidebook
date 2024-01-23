@@ -37,7 +37,7 @@ The hospital datasets date back to 1989, although **hospital data in the UK LLC 
 <sup>1</sup>Data about critically ill patients were previously collected in the HES Augmented Care Periods (HESAPC_ACP) dataset.  
 <sup>2</sup>Data from 01/10/2017 will flow into the UK LLC TRE shortly.  
 <sup>3</sup>Emergency care data were previously collected in the HES Accident & Emergency (HESAE) dataset.  
-**Note**: we assume the discrepancies in data availability in the UK LLC TRE and that stated in the 'From' and 'Until' columns is a consequence of the transition between datasets, e.g. HESAPC_ACP was officially collected until 31/03/2006, but data in the UK LLC TRE extend to 31/03/2008 when the HESCC dataset was adopted.
+**Note**: we assume discrepancies in data availability in the UK LLC TRE and that stated in the 'From' and 'Until' columns is a consequence of the transition between datasets, e.g. HESAPC_ACP was officially collected until 31/03/2006, but data in the UK LLC TRE extend to 31/03/2008 when the HESCC dataset was adopted.
 
 ## Clinical classifications in hospital datasets
 **OPCS** and **ICD-10 codes** are used in the HESOP and HESAPC datasets, while **SNOMED CT codes** are used in the ECDS. See the **Coded variables in NHS England datasets guide** for further details.
