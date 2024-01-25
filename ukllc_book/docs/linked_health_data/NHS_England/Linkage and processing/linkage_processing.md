@@ -5,7 +5,7 @@ Datasets are submitted by health and social care organisations via a range of pa
 ## Flow of LPS participants' NHS England data into the UK LLC TRE
 Flows of data from contributing Longitudinal Population Studies (LPS) and NHS England are conducted through a ‘split file’ protocol where the **flow of LPS participants' identifiers (File 1s)** is entirely separate from the **flow of LPS participants' NHS England data (File 2s)** - see figure 1. Updates to NHS England datasets flow on a **quarterly basis** into the UK LLC TRE. 
 
-<img src="../../../images/Linkage_UKLLCDataFlows_Figure1.jpg" width="600"/>
+<img src="../../../images/Linkage_UKLLCDataFlows_Figure1b.jpg" width="600"/>
 
 **Figure 1** An overview of the flow of LPS participants' NHS England data into the UK LLC TRE  
 
