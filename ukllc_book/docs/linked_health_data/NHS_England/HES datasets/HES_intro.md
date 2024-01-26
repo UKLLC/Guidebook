@@ -40,7 +40,7 @@ The hospital datasets date back to 1989, although **hospital data in the UK LLC 
 **Note**: we assume discrepancies in data availability in the UK LLC TRE and that stated in the 'From' and 'Until' columns is a consequence of the transition between datasets, e.g. HESAPC_ACP was officially collected until 31/03/2006, but data in the UK LLC TRE extend to 31/03/2008 when the HESCC dataset was adopted.
 
 ## Clinical classifications in hospital datasets
-**OPCS** and **ICD-10 codes** are used in the HESOP and HESAPC datasets, while **SNOMED CT codes** are used in the ECDS. See the **Coded variables in NHS England datasets guide** for further details.
+**OPCS** and **ICD-10 codes** are used in the HESOP and HESAPC datasets, while **SNOMED CT codes** are used in the ECDS. See the [**Coded variables guide**](../NHS_England/Coding/coding_intro.md) for further details.
 
 ## Production of hospital datasets for research purposes
 

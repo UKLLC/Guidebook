@@ -10,7 +10,7 @@ In **hospital settings**, specialist clinical coders translate medical informati
 
 
 **Figure 1** Scopes of the clinical classification systems used in NHS England datasets  
-**Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [An Introduction to Clinical Codes and Terminology.](https://www.bennett.ox.ac.uk/blog/2023/06/)
+**Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [An Introduction to Clinical Codes and Terminology.](https://www.bennett.ox.ac.uk/blog/2023/06/an-introduction-to-clinical-codes-and-terminology-systems/)
 ## Classification systems
 
 Table 1 lists the systems you'll encounter in each NHS England dataset in the UK LLC TRE. Beneath the table we summarise the key aspects of each system.  
