@@ -42,7 +42,7 @@ The NHS England datasets cover a **variety of domains and time periods** as summ
 <sup>2</sup>NPEX and IELISA cover England, Northern Ireland, Scotland and Wales.  
 <sup>3</sup>Other mental health datasets that will be available are (i) Mental Health Minimum Data Set (MHMDS; 01/04/2006-31/08/2014); and (ii) Mental Health and Learning Disabilities Data Set (MHLDDS; 01/09/2014-31/12/2015).  
 <sup>4</sup>MORTALITY and DEMOGRAPHICS cover England and Wales.  
-DHSC: Department of Health and Social Care; NDRS: National Disease Registration Service; NHSE: NHS England; ONS: Office for National Statistics
+DHSC: Department of Health and Social Care; NHSE: NHS England; ONS: Office for National Statistics
 
 
 
