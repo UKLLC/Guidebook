@@ -19,25 +19,25 @@ The hospital datasets cover **inpatient admissions, outpatient appointments** an
 
 **The hospital datasets do not include** all mental health or maternity-specific hospital activity – see the Mental Health Services Data Set (MHSDS) guide and Maternity Services Data Set (MSDS) guide, respectively.  
 
-The hospital datasets date back to 1989, although **hospital data in the UK LLC TRE are only available from 1997**, when the use of unique 10-digit NHS numbers was mandated; this made linkage much more accurate. Two datasets have been retired and replaced by others; **all seven hospital datasets are available in the UK LLC TRE**. 
+The hospital datasets date back to 1989, although **hospital data in the UK LLC TRE are only available from 1998**, when the use of unique 10-digit NHS numbers was mandated; this made linkage much more accurate. Two datasets have been retired and replaced by others; **all seven hospital datasets are available in the UK LLC TRE**. 
   
-**Table 1** Names, temporal coverage (dates from NHS England sources) and availability of hospital datasets in the UK LLC TRE (datasets in italics are retired)
+**Table 1** Names, temporal coverage and availability of hospital datasets in the UK LLC TRE (the datasets in italics are retired)
 
-| **Dataset name in TRE** | **Domain** |**From**   | **Until**  | **Data available in TRE** |
+| **Dataset name in TRE** | **Domain** |**From**   | **Until**  | **Data available in TRE<sup>1</sup>** |
 |---|:---:|:---:|:---:|:---:|
-| **HESOP** |Outpatients| 01/04/2003 | Ongoing | 01/04/2003 onwards |
-| **HESAPC** |Admitted patients| 01/04/1989 | Ongoing | 01/04/1997 onwards|
-| - **HESAPC_MAT** |- Maternity| 01/04/2000 | Ongoing | 01/04/1997 onwards |
-| - **HESCC** |- Critical care| 01/04/2008 | Ongoing | 01/04/2008 onwards|
-| - ***HESAPC_ACP***<sup>1</sup> |*- Critical care*| *01/04/1997* | *31/03/2006* | *01/04/1997 to 31/03/2008* |
-| **ECDS**<sup>2</sup> |A & E patients| 01/10/2017 | Ongoing | 01/01/2020 onwards |
-| ***HESAE***<sup>3</sup> |*A & E patients*| *01/04/2007* | *31/03/2020* | *01/04/2007 to 31/10/2021* |
+|**HESOP**|Outpatients|01/04/2003|Ongoing|01/04/2003 onwards|
+|**HESAPC**|Admitted patients|01/04/1989|Ongoing |01/04/1998 onwards|
+|- **HESAPC_MAT**|- Maternity|01/04/2000|Ongoing|01/04/2000 onwards|
+|- **HESCC**|- Critical care| 01/04/2008|Ongoing|01/04/2008 onwards|
+|- ***HESAPC_ACP***<sup>2</sup>|*- Critical care*|*01/04/1997*|*31/03/2006*|*01/04/1997 to 31/03/2006*|
+|**ECDS**|A & E patients|01/10/2017|Ongoing|01/10/2017 onwards|
+|***HESAE***<sup>3</sup>|*A & E patients*|*01/04/2007*|*31/03/2020*|*01/04/2007 to 31/03/2020*|
  |
 
-<sup>1</sup>Data about critically ill patients were previously collected in the HES Augmented Care Periods (HESAPC_ACP) dataset.  
-<sup>2</sup>Data from 01/10/2017 will flow into the UK LLC TRE shortly.  
+<sup>1</sup>As documented in the data sharing agreement.  
+<sup>2</sup>Data about critically ill patients were previously collected in the HES Augmented Care Periods (HESAPC_ACP) dataset.  
 <sup>3</sup>Emergency care data were previously collected in the HES Accident & Emergency (HESAE) dataset.  
-**Note**: we assume discrepancies in data availability in the UK LLC TRE and that stated in the 'From' and 'Until' columns is a consequence of the transition between datasets, e.g. HESAPC_ACP was officially collected until 31/03/2006, but data in the UK LLC TRE extend to 31/03/2008 when the HESCC dataset was adopted.
+
 
 ## Clinical classifications in hospital datasets
 **OPCS** and **ICD-10 codes** are used in the HESOP and HESAPC datasets, while **SNOMED CT codes** are used in the ECDS. See the [**Coded variables guide**](../NHS_England/Coding/coding_intro.md) for further details.
