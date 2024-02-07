@@ -10,7 +10,7 @@ In **hospital settings**, specialist clinical coders translate medical informati
 
 
 **Figure 1** Scopes of the clinical classification systems used in NHS England datasets  
-**Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [An Introduction to Clinical Codes and Terminology.](https://www.bennett.ox.ac.uk/blog/2023/06/)
+**Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [An Introduction to Clinical Codes and Terminology.](https://www.bennett.ox.ac.uk/blog/2023/06/an-introduction-to-clinical-codes-and-terminology-systems/)
 ## Classification systems
 
 Table 1 lists the systems you'll encounter in each NHS England dataset in the UK LLC TRE. Beneath the table we summarise the key aspects of each system.  
@@ -36,11 +36,11 @@ Table 1 lists the systems you'll encounter in each NHS England dataset in the UK
 | **PCM**| &cross; | &cross; | &cross; | &cross;| &cross; |  &cross;| &check;| &check;|  &cross; |&cross;|
 | **CANCER** | &cross; |&cross; | &check;| &check;|&cross;| &cross; | &cross; | &check;| &cross; |&cross; |
 | **MSDS** | &check; | &check; | &check; | &cross; |&check; | &check;| &cross; | &check; |  &cross; | &cross; | &cross;
-| **MORTALITY*** |  &cross;| &cross; | &cross; | &cross; | &cross;| &cross; | &cross;| &cross;| &cross;| &cross;|&cross;  
+| **MORTALITY*** |  &cross;| &cross; | &check; | &check; | &cross;| &cross; | &cross;| &cross;| &cross;| &cross;|&cross;  
 |**DEMOGRAPHICS*** |  &cross; | &cross; | &cross;| &cross;| &cross; | &cross; | &cross;| &cross;| &cross;| &cross; |
 |  |  |  |  |  |  |  |  |   |
 
-**Note:** The information in the table was obtained from the NHS England API, apart from the two datasets marked with an asterisk, for which there was no information. We are aware that the information from the API is not comprehensive and in due course we will update this table accordingly.  
+**Note:** The information in the table was obtained from the NHS England API, apart from the two datasets marked with an asterisk (*) - for these two datasets information was obtained from the [NHS England Metadata dashboard.](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard) We are aware that the information from the API is not comprehensive and in due course we will update this table accordingly.  
 
  ### **1. Clinical classifications**
 **SNOMED CT:**  Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT) is an international system used to classify many types of medical data, including diagnoses, procedures, symptoms, family history, assessment tools, observations and medications. The UK edition of SNOMED CT contains the UK extensions, which include UK-specific screening procedures and assessment scales. In contrast to OPCS-4 and ICD-10, SNOMED CT is designed for direct management and care of patients. Codes are in numeric format, e.g. '85189001' represents ‘Acute appendicitis’. All NHS healthcare providers in England must now use SNOMED CT for capturing clinical terms within EPR systems. [Click here to browse SNOMED CT codes.](https://termbrowser.nhs.uk/?)  
