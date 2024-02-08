@@ -17,6 +17,9 @@ parts:
               file: docs/linked_health_data/NHS_England/HES datasets/Admitted Patient Care/HESAPC.ipynb
             - title: HES OP
               file: docs/linked_health_data/NHS_England/HES datasets/Outpatient/HESOP.ipynb
+        - title: Registration datasets
+          file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
+          #sections:
     - title: Geospatial data
       file: docs/linked_geo_data/linkage_and_processing.md
 #      sections:
