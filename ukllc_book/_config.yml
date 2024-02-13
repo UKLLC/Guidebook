@@ -2,8 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: UK LLC Dataset Documentation
-author: UK LLC data team
-logo: ukllc_logo.png
+author: UK LLC Data Team
+logo: docs/images/ukllc_logo1.jpg
 email: support@ukllc.ac.uk
 
 # Force re-execution of notebooks on each build.
