@@ -24,6 +24,6 @@ parts:
           #sections:
     - title: Geospatial data
       file: docs/linked_geo_data/linkage_and_processing.md
-#      sections:
-#        - title: Linkage and processing
-#          file: docs/linked_geo_data/Linkage and processing/geo_linkage.md
+      sections:
+        - title: Air pollution
+          file: docs/linked_geo_data/datasets/air_pollution_pm25_no2.md

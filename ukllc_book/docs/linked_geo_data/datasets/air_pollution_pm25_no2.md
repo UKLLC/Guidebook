@@ -8,6 +8,6 @@ Continuous annual-average NO2 and PM2.5 exposure surfaces are available across G
 
 ## Created surface
 The NO2 and PM2.5 surfaces were created at a national scale using:
-1) a high spatial resolution annual average pollutant surfaces produced by Wang et al. (2022), and;
+1) a high spatial resolution annual average pollutant surfaces produced by {cite}`WANG2022101506` and {cite}`ruby`
 2) DEFRA’s high temporal resolution background concentration surfaces for 2010 to 2019.
-creating a high spatial-temporal exposure surface.
+creating high spatial-temporal exposure raster surfaces.  
