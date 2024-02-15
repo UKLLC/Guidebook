@@ -22,11 +22,19 @@ creating high spatial-temporal exposure raster surfaces.
 UK LLC participants residenital address points are linked to the raster surfaces containing the air pollution measures using a spatial join and (programme and package - R or ArcGIS??? and exact method e.g. NN, IDW?). This involves overlaying the address points over the raster images and assigning the ...
 
 ## Understanding the data
-### 
+### table structure
 The data is split over 2 tables/datasets:
 1) GEO_air_pollution_hh where addresses are geocoded to the household level
 2) GEO_air_pollution_pc where addresses are geocoded to the postcode level
-see {doc}`geo linkage and processing page <../linkage_and_processing.md>` for further info on linkage resolution.
+see [geo linkage and processing page](../linkage_and_processing.md) for further info on linkage resolution.
+
+
+
+```{bibliography}
+```
+
+
+
 
 
 

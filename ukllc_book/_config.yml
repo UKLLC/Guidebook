@@ -11,6 +11,9 @@ email: support@ukllc.ac.uk
 execute:
   execute_notebooks: force
 
+bibtex_bibfiles:
+   - _bibliography/references.bib
+
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
@@ -41,6 +44,4 @@ sphinx:
   config                    :  # key-value pairs to directly over-ride the Sphinx configuration
     html_show_copyright     : false
 
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-    - _bibliography/references.bib
+
