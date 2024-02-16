@@ -16,7 +16,7 @@ NO2 and PM2.5 geospatial surface were created at a national scale using 2 existi
 **High spatial-temporal resolution environmental exposure surfaces were created** across the UK, using the spatial granularity of Wang’s NO2 and PM2.5 exposure surface and temporal regularity of the DEFRA background concentration maps. 
 
 ## Linkage to addresses
-**KATHRYN** to update... UK LLC participant residenital address points were linked to the geospatial surface data using a spatial join and (programme and package - R or ArcGIS??? and exact method e.g. NN, IDW?). This involves overlaying the address points over the raster images and assigning the ... creating a dataset (format?) with the air pollution measures. 
+UK LLC participant residenital address points were linked to the geospatial surface data using ArcGIS Pro ['Extract Values to Points'](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/extract-values-to-points.htm) tool. This assigns the surface cell value (air pollution measure) that the address point falls on. All annual average air pollution measures were then rounded to integers to minimise disclosure risk.
 
 ## Understanding the data
 ### Dataset/table split
