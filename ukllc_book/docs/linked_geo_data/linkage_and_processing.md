@@ -33,13 +33,15 @@ Addresses are verified and **geocoded to one metre accuracy using Experian QAS B
 **Figure 2** The QAS Batch API process
 
 ### Unmatched addresses
-If no match is achieved, the output address is returned and a ‘partial address found’ match code is assigned to the address (see Figure 3). If an address has been fully verified at premises level, it is assigned a ‘quality score’ depending on whether the address was partially matched or has multiple matches (e.g. multiple addresses identified with High Street). Lastly, a match confidence level (0 - low, 5 - intermediate, 9 - high) is allocated to each address depending on how confident the QAS Batch API is about the match it has returned. A low confidence indicates that essential matching rules were not satisfied, while intermediate confidence shows that the less important rules were not satisfied or another check failed, i.e. input address is not in the expected order (Experian, 2019).  
+If no match is achieved, the output address is returned and a ‘partial address found’ match code is assigned to the address (see Figure 3). If an address has been fully verified at premises level, it is assigned a ‘quality score’ depending on whether the address was partially matched or has multiple matches (e.g. multiple addresses identified with High Street). Lastly, a match confidence level (0 - low, 5 - intermediate, 9 - high) is allocated to each address depending on how confident the QAS Batch API is about the match it has returned. A low confidence indicates that essential matching rules were not satisfied, while intermediate confidence shows that the less important rules were not satisfied or another check failed, i.e. input address is not in the expected order (Experian, 2019). For documenation on how to interpret the Experian matchcode see the [experian documentation](https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success)
 
 Once any interactive cleaning has been made to the returned addresses, the full input address record and filtered address record are exported for further post-processing checks, according to the following match success rating: ‘Verified and good full matches’, ‘Verified and good premise matches’ and ‘Tentative and poor full matches’. 
 
 <img src="../images/experian_match_codes.jpg" width="600"/>
 
 **Figure 3** Returned match code indicators (Experian, 2019)
+
+
 
 ### Post processing 
 Post-processing checks are undertaken to ensure that the output addresses are correctly matched and returned with the relevant grid information. First, the ‘full’ returned address data are imported into ArcGIS Pro 3.0 to convert the file into SpatialPointDataFrame. This process removes any addresses with no returned coordinates. The spatial address file is then intersected with a UK Census Geography file to **add relevant Output Area (OA) and Lower Layer Super Output Area (LSOA) level information**.
