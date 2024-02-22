@@ -1,49 +1,49 @@
-# Background
-These datasets contain continuous annual-average **nitrogen dioxide (NO2)** and **fine particulate matter (PM2.5)** exposure data, covering the **years 2010 - 2019** for all residential address points where a UK LLC participant has permissions in place.
+# Introduction
+The air pollution datasets contain continuous annual-average **nitrogen dioxide (NO2)** and **fine particulate matter (PM2.5)** exposure data, covering the **years 2010-2019** for all residential address points where a UK LLC participant has permissions in place.
 
 ## Nitrogen dioxide (NO2)
-NO2 gas is mainly produced during combustion of fossil fuels. Short term exposure to elevated concentrations of **NO2 can have adverse health impacts** such as inflammation of the airways and increased susceptibility to respiratory infections and allergens. NO2 can exacerbate symptoms of those suffering from heart of lung conditions {cite}`GOVNO2`.
+NO2 gas is mainly produced during combustion of fossil fuels. Short term exposure to elevated concentrations of **NO2 can have adverse health impacts** such as inflammation of the airways and increased susceptibility to respiratory infections and allergens. NO2 can exacerbate symptoms of those suffering from heart or lung conditions {cite}`GOVNO2`.
 
 ## Fine particulate matter (PM)
-Particulate Matter (PM) is everything in the air that is not a gas and as such it is made up from a huge variety of chemical compounds and materials. PM is classified according to size. The UK currently focuses on estimating the fractions of PM emissions where particles are less than 10 micrometres in diameter (PM10) and less than 2.5 micrometres in diameter (PM2.5). Some PM is toxic and due to the small size of the particles, some toxins can enter the bloodstream and can be transported around the body, entering the heart, brain and other organs {cite}`GOVPM25`.
+Particulate matter (PM) is everything in the air that is not a gas and as such it is made up from a huge variety of chemical compounds and materials. PM is classified according to size. The UK currently focuses on estimating the fractions of PM emissions where particles are less than 10 micrometres in diameter (PM10) and less than 2.5 micrometres in diameter (PM2.5). Some PM is toxic and due to the small size of the particles, some toxins can enter the bloodstream and can be transported around the body, entering the heart, brain and other organs {cite}`GOVPM25`.
 
 ## Geospatial surface data 
-NO2 and PM2.5 geospatial surface were created at a national scale using 2 existing surfaces:
+NO2 and PM2.5 geospatial surface data were created at a national scale using two existing surfaces:
 
-1) The UK government, Department for Environment, Food & Rural Affairs **(DEFRA)** have modelled background **annual-average air pollution concentrations** since 2001 (1 x 1km resolution). These surfaces approximate **changes in air pollution over time** and provide exposure estimates between the UK Automatic Urban and Rural Network (AURN). These are typically 10 - 100's kms apart and with higher numbers in urban areas. 
-2) **High spatial resolution** annual average pollutant surfaces at 25x25m resolution produced by Wang et al. (2022) {cite}`WANG2022101506`. Unlike the DEFRA surfaces these surfaces do not capture the temporal change in exposures. However, they do capture variability within and between streets. 
+1) The UK government, Department for Environment, Food & Rural Affairs **(DEFRA)** has modelled background **annual-average air pollution concentrations** since 2001 (1 x 1km resolution). These surfaces approximate **changes in air pollution over time** and provide exposure estimates between the UK Automatic Urban and Rural Network (AURN). These are typically 10 to 100s kms apart and with higher numbers in urban areas. 
+2) **High spatial resolution** annual average pollutant surfaces at 25x25m resolution produced by Wang et al. (2022) {cite}`WANG2022101506`. Unlike the DEFRA surfaces, these surfaces do not capture the temporal change in exposures. However, they do capture variability within and between streets. 
 
 **High spatial-temporal resolution environmental exposure surfaces were created** across the UK, using the spatial granularity of Wang’s NO2 and PM2.5 exposure surface and temporal regularity of the DEFRA background concentration maps. 
 
 ## Linkage to addresses
-UK LLC participant residenital address points were linked to the geospatial surface data using ArcGIS Pro ['Extract Values to Points'](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/extract-values-to-points.htm) tool. This assigns the surface cell value (air pollution measure) that the address point falls on. All annual average air pollution measures were then rounded to integers to minimise disclosure risk.
+UK LLC participant residential address points were linked to the geospatial surface data using ArcGIS Pro ['Extract Values to Points'](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/extract-values-to-points.htm) tool. This assigns the surface cell value (air pollution measure) that the address point falls on. All annual average air pollution measures were then rounded to integers to minimise disclosure risk.
 
 ## Understanding the data
 ### Dataset/table split
-The data is split over 2 tables/datasets:
-1) **GEO_air_pollution_hh** where addresses are geocoded to the household (hh) level
-2) **GEO_air_pollution_pc** where addresses are geocoded to the postcode (pc) level
+The data are split over 2 tables/datasets:
+1) **GEO_air_pollution_hh** where addresses are geocoded to the household (hh) level.
+2) **GEO_air_pollution_pc** where addresses are geocoded to the postcode (pc) level.
 
-See [geo linkage and processing page](../linkage_and_processing.md) for further info on geo-linkage resolution. Variables are common between the household and postcode level datasets to allow the datasets to be easily unioned/appended. 
+See the [Linkage and processing of address data guide](../linkage_and_processing.md) for further information on geo-linkage resolution. Variables are common between the household and postcode level datasets to allow the datasets to be easily unioned/appended. 
 
 ### Address start and end dates
-Address start and end dates are provided by each LPS to indicate when the participant moved into and out of each address location. In many cases these **dates are null, address periods are not contiguous**, and do not cover the full time periods where participants are part of a LPS. These are **data quality issues**, and the UK LLC data team are exploring solutions to improve the usability of these data. This documentation will be updated accordingly once these improvements are in place.  
+Address start and end dates are provided by each LPS to indicate when the participant moved into and out of each address location. In many cases these **dates are null, address periods are not contiguous**, and do not cover the full time periods where participants are part of an LPS. These are **data quality issues** and the UK LLC Data Team is exploring solutions to improve the usability of these data. This documentation will be updated once these improvements are in place.  
 
 ### Matchcodes
-The files contain a *matchcode* variable which indicates how successfully the Experian geocoding software was able to match the address. The *matchcode* also contains an indicator for confidence and whether any actions took place to correct postcode or address elements during the geocoding process. See [geo linkage and processing page](../linkage_and_processing.md) for background on this. For full documenation on how to interpret the Experian *matchcode* see the [Experian documentation](https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success). 
+The files contain a *matchcode* variable which indicates how successfully the Experian geocoding software was able to match the address. The *matchcode* also contains an indicator for confidence and whether any actions took place to correct postcode or address elements during the geocoding process. See the [Linkage and processing of address data guide](../linkage_and_processing.md) for background information on this. For full documenation on how to interpret the Experian *matchcode* see the [Experian documentation](https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success). 
 
 ### Air pollution variables
-Air pollution variables in the form *no2_YYYY/pm_YYYY* are annual averages. These should be used in **conjunction with the address start and end dates** to assign the annual averages for the years that correspond to when the participant was at that address. Note, UK LLC data team will build a transformed version of this dataset with this pre-processing step already completed in due course. This documentation will be updated accordingly when this is place.
+Air pollution variables in the form *no2_YYYY/pm_YYYY* are annual averages. These should be used in **conjunction with the address start and end dates** to assign the annual averages for the years that correspond to when the participant was at that address. Note, the UK LLC Data Team will build a transformed version of this dataset with this pre-processing step already completed in due course. This documentation will be updated when this is place.
 
 ### Geographical units
-Additional to the air pollution measures, these data contain a number of geographic units/levels:
-* UK Region
+Additional to the air pollution measures, these data contain a number of geographical units/levels:
+* UK region
 * Lower Super Output Area (LSOA) encrypted
-* Middle Super Output Area (MSOA) encrptyed 
+* Middle Super Output Area (MSOA) encrypted 
 * Postcode encrypted
-* Unique Property Reference Number (UPRN) encrypted
+* Unique Property Reference Number (UPRN) encrypted.
 
-These allow participants to be **grouped into common geographically units**. The encryption is a disclosure control measure due to the elavated risk in providing individual level geolocation data. However, statistics about the encrypted LSOA can be added by linking to table/dataset **CORE_lsoa11_geo_indicators** on variable *lsoa11_e*. This dataset is available to all research data users in the UK LLC SeRP. It contains deciles of Indices of Multiple Deprivation (IMD) including sub domains, population density, and an urban rural indicator. When linked to the air pollution dataset, this will enable **additional economic and environmental insight** in the geographical area.
+These allow participants to be **grouped into common geographical units**. The encryption is a disclosure control measure due to the elevated risk in providing individual level geolocation data. However, statistics about the encrypted LSOA can be added by linking to table/dataset **CORE_lsoa11_geo_indicators** on variable *lsoa11_e*. This dataset is available to all researchers working in the UK LLC TRE. It contains deciles of Indices of Multiple Deprivation (IMD) including sub domains, population density, and an urban rural indicator. When linked to the air pollution dataset, this will enable **additional economic and environmental insight** into the geographical area.
 
 ## References
 ```{bibliography}
