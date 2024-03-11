@@ -1,5 +1,8 @@
 import requests
 import json
+import os
+import sqlalchemy
+import pandas as pd
 
 class DocHelper:
     def __init__(self, datasource, dataset, version, filepath):
@@ -9,10 +12,12 @@ class DocHelper:
         ----------
         datasource : str
             data source of target table/dataset
-        dataset : TYPE
+        dataset : str
             dataset/table name of target table/dataset
-        version : TYPE
+        version : str
             version number of target table/dataset
+        filepath : str
+            filepath of py scripts and NHS pid lookups
 
         Returns
         -------
@@ -30,9 +35,13 @@ class DocHelper:
         self.pid = self.get_pid()
         # get api data
         self.api_data = self.get_api_data() 
+        # open DB connection
+        self.cnxn = self.connect()
+
         
     def load_pids(self):
         '''
+        
         Uses json of HDRUK provided persistent ids (dataset level)
 
         Returns
@@ -41,7 +50,7 @@ class DocHelper:
             persistent IDs for all available NHS datasets available via API
 
         '''
-        #pid_loc = pathlib.Path(sys.argv[0]).parent / 'datasets_pids_lookup.json'
+        
         pid_loc = self.fp + 'datasets_pids_lookup.json'
         with open(pid_loc, "r") as f:
             pids = json.load(f)
@@ -49,7 +58,7 @@ class DocHelper:
     
     def get_pid(self):
         '''
-    
+        
         Returns
         -------
         pid : str
@@ -78,3 +87,75 @@ class DocHelper:
         # convert to json and return 
         metadata = json.loads(data)
         return(metadata['data'])
+
+    def connect(self):
+        '''
+        
+        Raises
+        ------
+        Exception
+            Database connection failure
+
+        Returns
+        -------
+        cnxn : database connection
+            connection to heroku database with metrics
+
+        '''
+        # attempt db connection
+        try:
+            db_str = os.environ['CLEARDB_DATABASE_URL'].replace("mysql", "mysql+pymysql", 1).replace('?reconnect=true', '', 1)
+            cnxn = sqlalchemy.create_engine(db_str, pool_recycle=300).connect()
+            return cnxn
+        # raise exception if connection failure
+        except Exception as e:
+            print("Connection to database failed, retrying.")
+            raise Exception("DB connection failed")
+            
+    def get_extract_count(self):
+        '''
+
+        Returns
+        -------
+        extract_cnt : df
+            dataframe containing counts of records by extract dates
+
+        '''
+        # build query
+        q = '''SELECT cohort as extract_date, count
+        FROM heroku_9146b3bcb7a2912.nhs_dataset_extracts
+        where dataset = '{}_{}'
+        order by cohort;'''.format(self.data, self.version)
+        # pull data from database and return
+        extract_cnt = pd.read_sql(q, self.cnxn)
+        return extract_cnt
+    
+    def get_cohort_count(self):
+        '''
+
+        Returns
+        -------
+        cnt : df
+            dataframe containing counts of participants by LPS
+
+        '''
+        # build query
+        q = '''SELECT cohort, count
+        FROM heroku_9146b3bcb7a2912.nhs_dataset_cohort_linkage
+        where dataset = '{}_{}'
+        and cohort not in ('GENSCOT', 'NICOLA', 'SABRE')
+        order by cohort;'''.format(self.data, self.version)
+        # pull data from database and return
+        cnt = pd.read_sql(q, self.cnxn)
+        # convert to ensure counts are numeric
+        cnt['count'] = cnt['count'].astype(int)
+        # get total
+        total = cnt.sum(numeric_only = True).iloc[0]
+        # add total to df and return
+        cnt.loc[len(cnt)] = ['TOTAL', total]
+        return cnt
+    
+
+    
+
+    
