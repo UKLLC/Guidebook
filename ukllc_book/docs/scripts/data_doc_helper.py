@@ -152,10 +152,9 @@ class DocHelper:
         # get total
         total = cnt.sum(numeric_only = True).iloc[0]
         # add total to df and return
-        cnt.loc[len(cnt)] = ['TOTAL', total]
+        cnt.loc[len(cnt)] = ['total', total]
         return cnt
     
 
-    
 
     
