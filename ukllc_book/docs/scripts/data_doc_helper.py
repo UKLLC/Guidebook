@@ -155,9 +155,5 @@ class DocHelper:
         cnt.loc[len(cnt)] = ['total', total]
         return cnt
     
-document = DocHelper('NHSD', 'NPEX', 'V0002', 'C:/Users/rt17581/OneDrive - University of Bristol/MyFiles-Migrated/Documents/github/jupyter-book/ukllc_book/docs/scripts/')
-t1 = document.connect()
-    
-
 
     
