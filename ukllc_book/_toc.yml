@@ -3,7 +3,7 @@ format: jb-book
 root: docs/intro
 parts:
   - chapters:
-    - title: NHS England
+    - title: NHS England data
       file: docs/linked_health_data/NHS_England/NHSE_intro.md
       sections:
         - title: Processing and linkage
@@ -21,9 +21,15 @@ parts:
           file: docs/linked_health_data/NHS_England/COVID datasets/COVID_datasets.md
         - title: Registration datasets
           file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
-          #sections:
     - title: Geospatial data
       file: docs/linked_geo_data/linkage_and_processing.md
       sections:
         - title: Air pollution
           file: docs/linked_geo_data/datasets/air_pollution_pm25_no2.md
+    - title: TRE user guide
+      file: docs/user_guide/Introduction.md
+      sections:
+        - title: Logging in 
+          file: docs/user_guide/1.LoggingIn.md
+        - title: Getting started
+          file: docs/user_guide/2.GettingStarted.md
