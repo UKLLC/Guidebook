@@ -33,3 +33,22 @@ parts:
           file: docs/user_guide/1.LoggingIn.md
         - title: Getting started
           file: docs/user_guide/2.GettingStarted.md
+        - title: Using software
+          file: docs/user_guide/3.UsingSoftware.md
+        - title: Using Git
+          file: docs/user_guide/4.TeamDataScience.md
+        - title: Moving files in and out
+          file: docs/user_guide/5.MovingFilesInAndOut.md
+        - title: Requesting an amendment
+          file: docs/user_guide/6.RequestingAnAmendment.md
+        - title: Finishing your project
+          file: docs/user_guide/7.FinishingYourProject.md
+        - title: Publishing your research
+          file: docs/user_guide/8.PublishingYourResearch.md
+        - title: User support
+          file: docs/user_guide/9.UserSupport.md
+        - title: FAQs
+          file: docs/user_guide/10.FAQs.md
+        - title: Rules for researchers
+          file: docs/user_guide/11.RulesForResearchers.md
+          
