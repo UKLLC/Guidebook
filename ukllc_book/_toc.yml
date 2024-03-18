@@ -33,7 +33,7 @@ parts:
           file: docs/user_guide/1.LoggingIn.md
         - title: Getting started
           file: docs/user_guide/2.GettingStarted.md
-        - title: Using software
+        - title: Available software
           file: docs/user_guide/3.UsingSoftware.md
         - title: Using Git
           file: docs/user_guide/4.TeamDataScience.md
