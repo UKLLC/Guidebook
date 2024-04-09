@@ -5,5 +5,5 @@ To understand more about the **linked datasets** available to you, please click 
 
 Also available in the TRE user guide is a list of **FAQs** that we've compiled from researcher enquiries and a summary of the **rules** you have agreed to abide by when working in the UK LLC TRE. 
 
-If there are any aspects you feel could be **better explained** or would benefit from **more detail**, please email the UK LLC Data Team at [**support@ukllc.ac.uk**](support@ukllc.ac.uk). We are committed to making your time in the UK LLC TRE as efficient and productive as possible and very much **welcome feedback from researchers**.
+If there are any aspects you feel could be **better explained** or would benefit from **more detail**, please email the UK LLC Data Team at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). We are committed to making your time in the UK LLC TRE as efficient and productive as possible and very much **welcome feedback from researchers**.
 
