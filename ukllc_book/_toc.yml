@@ -22,6 +22,7 @@ parts:
         - title: Registration datasets
           file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
         - title: Other datasets
+          file: docs/linked_health_data/NHS_England/Other datasets/Other_datasets.md
     - title: Geospatial data
       file: docs/linked_geo_data/linkage_and_processing.md
       sections:
