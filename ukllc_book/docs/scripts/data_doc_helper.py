@@ -147,34 +147,19 @@ class DocHelper:
         order by cohort;'''.format(self.data, self.version)
         # pull data from database and return
         cnt = pd.read_sql(q, self.cnxn)
+        # treat <10 as 0
+        cnt['count1'] = cnt['count'].replace('<10', '0')
         # convert to ensure counts are numeric
-        cnt['count'] = cnt['count'].astype(int)
+        cnt['count1'] = cnt['count1'].astype(int)
         # get total
         total = cnt.sum(numeric_only = True).iloc[0]
+        # drop temp column
+        cnt = cnt.drop(columns = ['count1'])
         # add total to df and return
         cnt.loc[len(cnt)] = ['total', total]
         return cnt
     
     
-#temp - DELETE THIS ONCE DB HAS BEEN UPDATED AND ALL WORKING
-# schema = 'nhsd'
-# table = 'HESAPC'
-# version = 'v0002'
-# fp = 'C:/Users/rt17581/OneDrive - University of Bristol/MyFiles-Migrated/Documents/github/jupyter-book/ukllc_book/docs/scripts/'
-
-# t1 = DocHelper(schema, table, version, fp)
-# cnxn = t1.connect()
-# t4 = t1.get_extract_count()
-# t5 = t1.get_cohort_count()
-
-# q = '''SELECT * FROM heroku_9146b3bcb7a2912.nhs_dataset_cohort_linkage
-# where dataset_stem like 'HESAPC'
-# and cohort not in ('GENSCOT', 'NICOLA', 'SABRE')'''
-# t1 = pd.read_sql(q, cnxn)
-
-# q = '''SELECT * FROM heroku_9146b3bcb7a2912.nhs_dataset_extracts
-# '''
-# t2 = pd.read_sql(q, cnxn)
 
 
 
