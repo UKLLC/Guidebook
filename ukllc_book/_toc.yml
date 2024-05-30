@@ -13,16 +13,58 @@ parts:
         - title: Hospital datasets
           file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
           sections:
-            - title: HES APC
-              file: docs/linked_health_data/NHS_England/HES datasets/APC/HESAPC.ipynb
             - title: HES OP
               file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
+            - title: HES APC
+              file: docs/linked_health_data/NHS_England/HES datasets/APC/HESAPC.ipynb
+            - title: HES CC
+              file: docs/linked_health_data/NHS_England/HES datasets/CC/HESCC.ipynb
+            - title: ECDS
+              file: docs/linked_health_data/NHS_England/HES datasets/ECDS/ECDS.ipynb
+            - title: HES AE
+              file: docs/linked_health_data/NHS_England/HES datasets/AE/HESAE.ipynb
         - title: COVID-19 datasets
           file: docs/linked_health_data/NHS_England/COVID datasets/COVID_datasets.md
+          sections:
+            - title: COVIDSGSS
+              file: docs/linked_health_data/NHS_England/COVID datasets/COVIDSGSS/COVIDSGSS.ipynb
+            - title: IELISA
+              file: docs/linked_health_data/NHS_England/COVID datasets/IELISA/IELISA.ipynb
+            - title: NPEX
+              file: docs/linked_health_data/NHS_England/COVID datasets/NPEX/NPEX.ipynb
+            - title: CHESS
+              file: docs/linked_health_data/NHS_England/COVID datasets/CHESS/CHESS.ipynb
+            - title: CVS
+              file: docs/linked_health_data/NHS_England/COVID datasets/CVS/CVS.ipynb
+            - title: CVAR
+              file: docs/linked_health_data/NHS_England/COVID datasets/CVAR/CVAR.ipynb
+            - title: GDPPR
+              file: docs/linked_health_data/NHS_England/COVID datasets/GDPPR/GDPPR.ipynb
         - title: Registration datasets
           file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
+          sections:
+            - title: CANCER
+              file: docs/linked_health_data/NHS_England/Registration datasets/CANCER/CANCER.ipynb
+            - title: DEMOGRAPHICS
+              file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb
+            - title: MORTALITY
+              file: docs/linked_health_data/NHS_England/Registration datasets/MORTALITY/MORTALITY.ipynb
+        - title: Mental health datasets
+          file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
+          sections:
+            - title: MHSDS
+              file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.ipynb
+            - title: IAPT
+              file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
         - title: Other datasets
           file: docs/linked_health_data/NHS_England/Other datasets/Other_datasets.md
+          sections:
+            - title: MSDS
+              file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.ipynb
+            - title: CSDS
+              file: docs/linked_health_data/NHS_England/Other datasets/CSDS/CSDS.ipynb
+            - title: PCM
+              file: docs/linked_health_data/NHS_England/Other datasets/PCM/PCM.ipynb
     - title: Geospatial data
       file: docs/linked_geo_data/linkage_and_processing.md
       sections:

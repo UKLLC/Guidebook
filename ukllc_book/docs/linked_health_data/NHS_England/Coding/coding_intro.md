@@ -10,7 +10,7 @@ In **hospital settings**, specialist clinical coders translate medical informati
 
 
 **Figure 1** Scopes of the clinical classification systems used in NHS England datasets  
-**Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [An Introduction to Clinical Codes and Terminology.](https://www.bennett.ox.ac.uk/blog/2023/06/an-introduction-to-clinical-codes-and-terminology-systems/)
+**Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [**An Introduction to Clinical Codes and Terminology**.](https://www.bennett.ox.ac.uk/blog/2023/06/an-introduction-to-clinical-codes-and-terminology-systems/)
 ## Classification systems
 
 Table 1 lists the systems you'll encounter in each NHS England dataset in the UK LLC TRE. Beneath the table we summarise the key aspects of each system.  
@@ -40,26 +40,26 @@ Table 1 lists the systems you'll encounter in each NHS England dataset in the UK
 |**DEMOGRAPHICS*** |  &cross; | &cross; | &cross;| &cross;| &cross; | &cross; | &cross;| &cross;| &cross;| &cross; |
 |  |  |  |  |  |  |  |  |   |
 
-**Note:** The information in the table was obtained from the NHS England API, apart from the two datasets marked with an asterisk (*) - for these two datasets information was obtained from the [NHS England Metadata dashboard.](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard) We are aware that the information from the API is not comprehensive and in due course we will update this table accordingly.  
+**Note:** The information in the table was obtained from the NHS England API, apart from the two datasets marked with an asterisk (*) - for these two datasets information was obtained from the [**NHS England Metadata dashboard**.](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard) We are aware that the information from the API is not comprehensive and in due course we will update this table accordingly.  
 
  ### **1. Clinical classifications**
-**SNOMED CT:**  Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT) is an international system used to classify many types of medical data, including diagnoses, procedures, symptoms, family history, assessment tools, observations and medications. The UK edition of SNOMED CT contains the UK extensions, which include UK-specific screening procedures and assessment scales. In contrast to OPCS-4 and ICD-10, SNOMED CT is designed for direct management and care of patients. Codes are in numeric format, e.g. '85189001' represents ‘Acute appendicitis’. All NHS healthcare providers in England must now use SNOMED CT for capturing clinical terms within EPR systems. [Click here to browse SNOMED CT codes.](https://termbrowser.nhs.uk/?)  
+**SNOMED CT:**  Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT) is an international system used to classify many types of medical data, including diagnoses, procedures, symptoms, family history, assessment tools, observations and medications. The UK edition of SNOMED CT contains the UK extensions, which include UK-specific screening procedures and assessment scales. In contrast to OPCS-4 and ICD-10, SNOMED CT is designed for direct management and care of patients. Codes are in numeric format, e.g. '85189001' represents ‘Acute appendicitis’. All NHS healthcare providers in England must now use SNOMED CT for capturing clinical terms within EPR systems. [**Click here to browse SNOMED CT codes**.](https://termbrowser.nhs.uk/?)  
 
 **Read/CTV3:** Read/Clinical Terms Version 3 (CTV3) codes are classed by NHS England as a deprecated standard that should be replaced by SNOMED CT. They were used in England in primary care until around 2018 and they were permitted for use in secondary care, including mental health care settings, until March 2020. SNOMED CT was formed by a merger of Read codes with SNOMED RT (the original SNOMED Reference Terminology). Read codes are in alphanumeric format. NHS England no longer supports a browser.   
 
-**ICD-10:** World Health Organization’s International Classification of Diseases (ICD), version 10, is used to classify diagnosis information. Codes are in alphanumeric format, e.g. 'K351' represents 'Acute appendicitis'. ICD-9 was superseded in 1995 by ICD-10. ICD-11 officially came into effect in January 2022, but is not expected to be mandated across the NHS until April 2026. [Click here to browse ICD-10 codes.](https://classbrowser.nhs.uk/#/)  
+**ICD-10:** World Health Organization’s International Classification of Diseases (ICD), version 10, is used to classify diagnosis information. Codes are in alphanumeric format, e.g. 'K351' represents 'Acute appendicitis'. ICD-9 was superseded in 1995 by ICD-10. ICD-11 officially came into effect in January 2022, but is not expected to be mandated across the NHS until April 2026. [**Click here to browse ICD-10 codes**.](https://classbrowser.nhs.uk/#/)  
 
-**OPCS-4:** Office of Population Censuses and Surveys (OPCS), 4th revision, is used to classify treatments and procedures in the UK. Codes are in alphanumeric format, e.g. 'H01' represents 'Emergency excision of appendix'. OPCS-4 is updated every three years; the current version is OPCS-4.10, which was implemented across the NHS in April 2023. [Click here to browse OPCS-4 codes.](https://classbrowser.nhs.uk/#/)
+**OPCS-4:** Office of Population Censuses and Surveys (OPCS), 4th revision, is used to classify treatments and procedures in the UK. Codes are in alphanumeric format, e.g. 'H01' represents 'Emergency excision of appendix'. OPCS-4 is updated every three years; the current version is OPCS-4.10, which was implemented across the NHS in April 2023. [**Click here to browse OPCS-4 codes**.](https://classbrowser.nhs.uk/#/)
 
 **NHS national codes:**
-NHS national codes are used to record the specialised service within which a patient is treated. [Click here to browse NHS national codes.](https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html)
+NHS national codes are used to record the specialised service within which a patient is treated. [**Click here to browse NHS national codes**.](https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html)
 
-**dm+d:** This is the NHS Dictionary of Medicines and Devices (dm+d) licensed for use in the UK. The scope is currently limited to medicines only. All unique identifiers used in the dm+d are SNOMED CT codes. Codes are in numeric format, e.g. '39732311000001104' represents 'Amoxicillin 250mg capsules'. [Click here to browse dm+d codes.](https://dmd-browser.nhsbsa.nhs.uk/code-lookup)
+**dm+d:** This is the NHS Dictionary of Medicines and Devices (dm+d) licensed for use in the UK. The scope is currently limited to medicines only. All unique identifiers used in the dm+d are SNOMED CT codes. Codes are in numeric format, e.g. '39732311000001104' represents 'Amoxicillin 250mg capsules'. [**Click here to browse dm+d codes**.](https://dmd-browser.nhsbsa.nhs.uk/code-lookup)
 
 ### **2. Other classifications**
 
 
-**ODS:** Organisation Data Service (ODS) codes are used to identify organisations across health and social care. [Click here to browse ODS codes](https://odsportal.digital.nhs.uk/Organisation/Search). In most cases in the UK LLC TRE, ODS codes are encrypted to strategic health authority or NHS region.   
+**ODS:** Organisation Data Service (ODS) codes are used to identify organisations across health and social care. [**Click here to browse ODS codes**.](https://odsportal.digital.nhs.uk/Organisation/Search) In most cases in the UK LLC TRE, ODS codes are encrypted to strategic health authority or NHS region.   
 
 **Variable-specific codes**: Some variables have their own specific set of codes as detailed in the value labels available to you in the UK LLC TRE.
 
@@ -69,5 +69,5 @@ In England, clinical coding is key to hospitals being reimbursed and so emphasis
 
 ## Code lists
 For help in creating clinical code lists for your analyses, you may wish to use the following resources:
-* [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/)
-* [OpenCodelists.](https://www.opencodelists.org/)
+* [**HDR UK Phenotype Library**](https://phenotypes.healthdatagateway.org/)
+* [**OpenCodelists**.](https://www.opencodelists.org/)

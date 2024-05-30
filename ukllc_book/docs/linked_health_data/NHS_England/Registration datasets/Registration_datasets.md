@@ -18,17 +18,17 @@ Table 1 summarises the **temporal and geographical coverage** of each of the thr
 ONS: Office for National Statistics  
 
 
-### **Cancer Registration dataset**
+## Cancer Registration dataset
 Data are collected by the **National Cancer Registration and Analysis Service (NCRAS)**, which is part of NHS England's [**National Disease Registration Service (NDRS)**](https://digital.nhs.uk/ndrs/).  
 
 The Cancer Registration dataset is a subset of the **Cancer Outcomes and Services Dataset (COSD)**, which is the national standard for collecting cancer data in the NHS. The Cancer Registration dataset includes **all patients** (adults and children) **diagnosed with or receiving cancer treatment** in or funded by the NHS in **England since 1971**. Data collected include **demographic characteristics** and information about **diagnoses and treatments**.  
 
 Data are collected under **section 251 of the NHS Act 2006**. Patients may opt out of the Cancer Registry, but this is different from the [**National data opt out**](https://digital.nhs.uk/services/national-data-opt-out). NCRAS works closely with cancer charities to promote the value of population-based cancer registration; **<1 in 10,000 cancer patients opt out of the registry**. For further information see the [**National Cancer Registration Dataset Data Resource Profile**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7124503/pdf/dyz076.pdf). 
 
-### **Demographics dataset**  
+## Demographics dataset  
 The Demographics dataset is derived from the [**Personal Demographics Service (PDS) database**](https://digital.nhs.uk/services/personal-demographics-service), which is the national database of all **NHS patients** in **England, Wales** and the **Isle of Man** in or after **2004**. People born in these areas are registered and issued an NHS number at birth; people moving into these areas are registered when they first interact with an NHS care setting. Data collected include NHS numbers and basic **demographic details** such as date of birth, name, sex and address. The PDS does not hold any clinical information. NHS healthcare professionals use the PDS to accurately identify patients so they can find their correct medical records.
 
-### **Civil Registration of Deaths dataset**
+## Civil Registration of Deaths dataset
 The Civil Registrations of Death dataset is collected by the [**Office for National Statistics**](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths). 
 It is a legal requirement to report a death to a register office within five days. The informant provides **demographic details** to the registrar about the deceased, including occupation, sex, usual address, date and place of birth, marital status, date of death and place of death. If applicable, the informant also provides details about the **deceased's spouse**. If the deceased was a child, the full names and occupations of the parents are required. The informant usually also gives the **Medical Certificate of Cause of Death (MCCD)** to the registrar, which is a form completed by a medical practitioner when a death is certified. The MCCD includes information such as whether the body was seen after death, cause of death, when the deceased was last seen alive and whether a post-mortem was carried out. In instances where deaths are referred to and sometimes then investigated by a coroner, the coroner sends information to the registrar and this is used instead of the MCCD.  
 

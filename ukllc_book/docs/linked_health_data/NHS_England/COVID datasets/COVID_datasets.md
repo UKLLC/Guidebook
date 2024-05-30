@@ -1,6 +1,8 @@
 # COVID-19 datasets
 ## Introduction  
-NHS England flows extracts of **seven COVID-19 datasets** into the UK LLC TRE - see Table 1. Researchers are permitted access to these seven datasets **only for research related to COVID-19**.
+NHS England flows extracts of **seven COVID-19 datasets** into the UK LLC TRE - see Table 1. Researchers are permitted access to these seven datasets under the following specific terms set by NHS England:
+1. Research must be related to **COVID-19**.
+2. **GDPPR data** must not be used for any form of performance management of General Practices.
 
 
 ## Coverage of COVID-19 datasets
@@ -10,7 +12,7 @@ As explained in the overarching [**NHS England datasets guide**](../NHS_England/
 
 **Table 1** Names, coverage, availability and ownership of COVID-19 datasets in the UK LLC TRE
 
-| **Name in TRE**|**Full name**|**Other name**|**Domain**|**Coverage**|**From**|**Data available in TRE**|**Owner**|
+| **Name in TRE**|**Full name**|**Other name**|**Domain**|**Coverage**|**From**|**Data available in TRE<sup>1</sup>**|**Owner**|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**COVIDSGSS**|COVID-19 Second Generation Surveillance System|N/A|Testing|England|06/04/2020 onwards|06/04/2020 onwards|NHSE|
 |**IELISA**|Enzyme-Linked Immunosorbent Assay|Covid-19 UK Non-hospital Antibody Testing Results|Testing|UK|01/09/2020 onwards|01/09/2020 onwards|DHSC|
@@ -19,9 +21,10 @@ As explained in the overarching [**NHS England datasets guide**](../NHS_England/
 |**CVS**|COVID-19 Vaccination Status|N/A|Vaccination|England|08/12/2020 onwards|08/12/2020 onwards|NHSE|
 |**CVAR**|COVID-19 Vaccination Adverse Reactions|N/A|Vaccination|England|08/12/2020 onwards|08/12/2020 onwards|NHSE|
 |**GDPPR**|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research|N/A|Primary care|England|01/06/2020 onwards|01/06/2020 onwards|NHSE|
-|  |
+|  
 
 DHSC: Department of Health and Social Care  
+<sup>1</sup>As documented in the data sharing agreement.  
 
 ## COVID-19 testing datasets
 The focus of **COVIDSGSS, IELISA** and **NPEX** is **testing**. As explained in the DHSC's [**COVID-19 Scaling up our testing programmes**](https://assets.publishing.service.gov.uk/media/5e888f05e90e0707799498b3/coronavirus-covid-19-testing-strategy.pdf), **four pillars** comprised the UK government's approach to testing for SARS-CoV-2. In Table 2 we summarise the aim of each pillar and list the COVID-19 dataset(s) that apply to each. For further details see the DHSC's [**COVID-19 testing data: methodology note**.](https://www.gov.uk/government/publications/coronavirus-covid-19-testing-data-methodology/covid-19-testing-data-methodology-note)
@@ -60,7 +63,7 @@ The CVS records individual vaccination events. Data collected include **demograp
 ### 2. CVAR dataset
 The CVAR includes information relating to patients who have had any **adverse reaction to a COVID-19 vaccination**, which occurs within the first 15 minutes after administration of the vaccine. Data collected include **demographic information** and **adverse reaction details**. For a full list of variables see the [**NHS England Metadata dashboard**.](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard)
 
-## COVID-19 primary care datset
+## COVID-19 primary care dataset
 The existing General Practice Extraction Service (GPES) is used to run regular extracts from **General Practices in England that have opted into contributing to the GDPPR dataset**. Included in the extracts are all patients currently registered with a GP or with a date of death on or after 1 November 2019 whose health record contains **coded information relevant to pandemic planning and research**. Data collected include **demographic information, diagnoses and findings, medications and other prescribed items, investigations, tests and results, treatments and outcomes**, and **vaccinations and immunisations**.
 
 For a full list of variables see the [**NHS England Metadata dashboard**.](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard)
