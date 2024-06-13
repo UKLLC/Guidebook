@@ -13,32 +13,32 @@ parts:
         - title: Hospital datasets
           file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
           sections:
-            - title: HES OP
+            - title: HESOP (outpatient)
               file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
-            - title: HES APC
+            - title: HESAPC (inpatient)
               file: docs/linked_health_data/NHS_England/HES datasets/APC/HESAPC.ipynb
-            - title: HES CC
+            - title: HESCC (inpatient critical care)
               file: docs/linked_health_data/NHS_England/HES datasets/CC/HESCC.ipynb
-            - title: ECDS
+            - title: ECDS (emergency)
               file: docs/linked_health_data/NHS_England/HES datasets/ECDS/ECDS.ipynb
-            - title: HES AE
+            - title: HESAE (emergency)
               file: docs/linked_health_data/NHS_England/HES datasets/AE/HESAE.ipynb
         - title: COVID-19 datasets
           file: docs/linked_health_data/NHS_England/COVID datasets/COVID_datasets.md
           sections:
-            - title: COVIDSGSS
+            - title: COVIDSGSS (testing)
               file: docs/linked_health_data/NHS_England/COVID datasets/COVIDSGSS/COVIDSGSS.ipynb
-            - title: IELISA
+            - title: IELISA (testing)
               file: docs/linked_health_data/NHS_England/COVID datasets/IELISA/IELISA.ipynb
-            - title: NPEX
+            - title: NPEX (testing)
               file: docs/linked_health_data/NHS_England/COVID datasets/NPEX/NPEX.ipynb
-            - title: CHESS
+            - title: CHESS (hospitalisation)
               file: docs/linked_health_data/NHS_England/COVID datasets/CHESS/CHESS.ipynb
-            - title: CVS
+            - title: CVS (vaccination)
               file: docs/linked_health_data/NHS_England/COVID datasets/CVS/CVS.ipynb
-            - title: CVAR
+            - title: CVAR (vaccination)
               file: docs/linked_health_data/NHS_England/COVID datasets/CVAR/CVAR.ipynb
-            - title: GDPPR
+            - title: GDPPR (primary care)
               file: docs/linked_health_data/NHS_England/COVID datasets/GDPPR/GDPPR.ipynb
         - title: Registration datasets
           file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
@@ -52,18 +52,18 @@ parts:
         - title: Mental health datasets
           file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
           sections:
-            - title: MHSDS
+            - title: MHSDS (general)
               file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.ipynb
-            - title: IAPT
+            - title: IAPT (talking therapies)
               file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
         - title: Other datasets
           file: docs/linked_health_data/NHS_England/Other datasets/Other_datasets.md
           sections:
-            - title: MSDS
+            - title: MSDS (maternity)
               file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.ipynb
-            - title: CSDS
+            - title: CSDS (community)
               file: docs/linked_health_data/NHS_England/Other datasets/CSDS/CSDS.ipynb
-            - title: PCM
+            - title: PCM (medicines)
               file: docs/linked_health_data/NHS_England/Other datasets/PCM/PCM.ipynb
     - title: Geospatial data
       file: docs/linked_geo_data/linkage_and_processing.md
