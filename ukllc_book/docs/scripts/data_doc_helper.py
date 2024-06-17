@@ -36,7 +36,7 @@ class DocHelper:
         # get api data
         self.api_data = self.get_api_data() 
         # open DB connection
-        self.cnxn = self.connect()
+        #self.cnxn = self.connect()
 
         
     def load_pids(self):
@@ -65,8 +65,16 @@ class DocHelper:
             persistent ID retreived from pid:shortname lookup   
 
         '''
+        
+        # deal with multi tables where 1 API record but more than 1 table
+        multi = ['IAPT', 'CSDS']
+        if any(i in self.data for i in multi):
+            datamain = self.data[:4]
+        else:
+            datamain = self.data
+            
         for pid, ds_name in self.pids.items():
-            if ds_name == self.data:
+            if ds_name == datamain:
                 return(pid)
                 
     def get_api_data(self):
@@ -112,23 +120,23 @@ class DocHelper:
             print("Connection to database failed, retrying.")
             raise Exception("DB connection failed")
             
-    def get_extract_count(self):
-        '''
+    # def get_extract_count(self):
+    #     '''
 
-        Returns
-        -------
-        extract_cnt : df
-            dataframe containing counts of records by extract dates
+    #     Returns
+    #     -------
+    #     extract_cnt : df
+    #         dataframe containing counts of records by extract dates
 
-        '''
-        # build query
-        q = '''SELECT date as extract_date, count
-        FROM heroku_9146b3bcb7a2912.nhs_dataset_extracts
-        where dataset = '{}_{}'
-        order by date;'''.format(self.data, self.version)
-        # pull data from database and return
-        extract_cnt = pd.read_sql(q, self.cnxn)
-        return extract_cnt
+    #     '''
+    #     # build query
+    #     q = '''SELECT date as extract_date, count
+    #     FROM heroku_9146b3bcb7a2912.nhs_dataset_extracts
+    #     where dataset = '{}_{}'
+    #     order by date;'''.format(self.data, self.version)
+    #     # pull data from database and return
+    #     extract_cnt = pd.read_sql(q, self.cnxn)
+    #     return extract_cnt
     
     def get_cohort_count(self):
         '''
@@ -139,14 +147,17 @@ class DocHelper:
             dataframe containing counts of participants by LPS
 
         '''
-        # build query
-        q = '''SELECT cohort, count
+
+        # build query (like used to pickup reg dataset which have date)
+        q = '''
+        SELECT cohort, count
         FROM heroku_9146b3bcb7a2912.nhs_dataset_cohort_linkage
-        where dataset = '{}_{}'
+        where dataset like '{}_{}%%'
         and cohort not in ('GENSCOT', 'NICOLA', 'SABRE')
         order by cohort;'''.format(self.data, self.version)
         # pull data from database and return
-        cnt = pd.read_sql(q, self.cnxn)
+        with self.connect() as cnxn:
+            cnt = pd.read_sql(q, cnxn)
         # treat <10 as 0
         cnt['count1'] = cnt['count'].replace('<10', '0')
         # convert to ensure counts are numeric
@@ -158,7 +169,6 @@ class DocHelper:
         # add total to df and return
         cnt.loc[len(cnt)] = ['total', total]
         return cnt
-    
     
 
 

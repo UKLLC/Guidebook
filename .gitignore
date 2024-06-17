@@ -1,3 +1,4 @@
 ukllc_book/_build/*
 .ipynb_checkpoints
 __pycache__/
+Thumbs.db
