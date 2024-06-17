@@ -46,23 +46,23 @@ parts:
             - title: CANCER
               file: docs/linked_health_data/NHS_England/Registration datasets/CANCER/CANCER.ipynb
             - title: DEMOGRAPHICS
-              file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb
+              file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/Demographics.md
             - title: MORTALITY
               file: docs/linked_health_data/NHS_England/Registration datasets/MORTALITY/MORTALITY.ipynb
         - title: Mental health datasets
           file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
           sections:
             - title: MHSDS (general)
-              file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.ipynb
+              file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.md
             - title: IAPT (talking therapies)
               file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
         - title: Other datasets
           file: docs/linked_health_data/NHS_England/Other datasets/Other_datasets.md
           sections:
-            - title: MSDS (maternity)
-              file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.ipynb
             - title: CSDS (community)
               file: docs/linked_health_data/NHS_England/Other datasets/CSDS/CSDS.ipynb
+            - title: MSDS (maternity)
+              file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.md
             - title: PCM (medicines)
               file: docs/linked_health_data/NHS_England/Other datasets/PCM/PCM.ipynb
     - title: Geospatial data

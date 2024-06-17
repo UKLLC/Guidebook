@@ -9,9 +9,7 @@ As detailed in Figure 1, the three primary hospital datasets are the **HES Outpa
 
 **Figure 1** The five datasets that make up NHS England's hospital datasets  
 
-**OPCS** and **ICD-10 codes** are used in the HESOP and HESAPC datasets, while **SNOMED CT codes** are used in the ECDS. See the [**Coded variables guide**](coding_intro.md) for further details. 
-
-
+**OPCS** and **ICD-10 codes** are used in the HESOP and HESAPC datasets, while **SNOMED CT codes** are used in the ECDS. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details. 
 
 
 ## Coverage of hospital datasets
@@ -27,13 +25,13 @@ The hospital datasets date back to 1989, although **hospital data in the UK LLC 
 
 | **Dataset name in TRE** | **Domain** |**From**   | **Until**  | **Data available in TRE<sup>1</sup>** |
 |---|:---:|:---:|:---:|:---:|
-|**HESOP**|Outpatients|01/04/2003|Ongoing|01/04/2003 onwards|
-|**HESAPC**|Inpatients|01/04/1989|Ongoing |01/04/1998 onwards|
+|[**HESOP**](../HES%20datasets/OP/HESOP.ipynb)|Outpatients|01/04/2003|Ongoing|01/04/2003 onwards|
+|[**HESAPC**](../HES%20datasets/APC/HESAPC.ipynb)|Inpatients|01/04/1989|Ongoing |01/04/1998 onwards|
 |- **HESAPC_MAT**|- Maternity|01/04/2000|Ongoing|01/04/2000 onwards|
-|- **HESCC**|- Critical care| 01/04/2008|Ongoing|01/04/2008 onwards|
+|- [**HESCC**](../HES%20datasets/CC/HESCC.ipynb)|- Critical care| 01/04/2008|Ongoing|01/04/2008 onwards|
 |- ***HESAPC_ACP***<sup>2</sup>|*- Critical care*|*01/04/1997*|*31/03/2006*|*01/04/1997 to 31/03/2006*|
-|**ECDS**|A & E patients|01/10/2017|Ongoing|01/10/2017 onwards|
-|***HESAE***<sup>3</sup>|*A & E patients*|*01/04/2007*|*31/03/2020*|*01/04/2007 to 31/03/2020*| |
+|[**ECDS**](../HES%20datasets/ECDS/ECDS.ipynb)|A & E patients|01/10/2017|Ongoing|01/10/2017 onwards|
+|[***HESAE***<sup>3</sup>](../HES%20datasets/AE/HESAE.ipynb)|*A & E patients*|*01/04/2007*|*31/03/2020*|*01/04/2007 to 31/03/2020*| |
 
 <sup>1</sup>As documented in the data sharing agreement.  
 <sup>2</sup>Data about critically ill patients were previously collected in the HES Augmented Care Periods (HESAPC_ACP) dataset.  
