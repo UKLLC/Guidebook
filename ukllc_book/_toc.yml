@@ -70,6 +70,11 @@ parts:
       sections:
         - title: Air pollution
           file: docs/linked_geo_data/datasets/air_pollution_pm25_no2.md
+    - title: Core data
+      file: docs/core/core_summary.md
+      sections:
+        - title: Core datasets
+          file: docs/core/core_data/core_datasets.md
     - title: TRE user guide
       file: docs/user_guide/Introduction.md
       sections:
