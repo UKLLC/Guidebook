@@ -3,7 +3,7 @@
 ## Introduction  
 NHS England flows extracts of two **mental health datasets** into the UK LLC TRE - see Table 1. When we refer to the **Mental Health Services Data Set (MHSDS)** we include its **two precursors**, the Mental Health and Learning Disabilities Data Set (MHLDDS) and the Mental Health Minimum Data Set (MHMDS), which were retired in 2016 and 2015, respectively.  
 
-The MHSDS and IAPT are increasingly using clinical terminology to capture clinical information, primarily through **SNOMED-CT** - see the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
+The MHSDS and Improving Access to Psychological Therapies (IAPT) dataset are increasingly using clinical terminology to capture clinical information, primarily through **SNOMED-CT** - see the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
 
 The mental health datasets are **complex** and **change in scope** on a typically annual basis. UK LLC is collaborating with experts to improve documentation of these datasets and updates will be released in due course.
 
@@ -20,5 +20,5 @@ Table 1 summarises the **temporal coverage** of the two mental health datasets. 
 |[**IAPT**](../Mental%20health%20datasets/IAPT/IAPT.ipynb)|Improving Access to Psychological Therapies<sup>2</sup>|01/04/2012|Ongoing|01/04/2012 to 31/03/2023|
 
 <sup>1</sup>As documented in the data sharing agreement.  
-<sup>2</sup>Shortly to be renamed the NHS Talking Therapies for Anxiety and Depression dataset.
+<sup>2</sup>In mid-2024 re-named the NHS Talking Therapies for Anxiety and Depression dataset.
 

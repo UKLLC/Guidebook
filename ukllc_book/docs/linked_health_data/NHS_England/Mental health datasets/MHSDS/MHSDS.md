@@ -21,5 +21,5 @@ Current and past MHSDS data models, user guidance and technical output specifica
 
 
 ## Data quality issues
-Overall, data quality in the **MHSDS** is sufficient for analysing data in relation to activity. However, other aspects of the MHSDS are poor, particularly where submission of data items is not mandated. Data can be resubmitted up until the end of the financial year to fix known data quality issues. See the [**MHSDS data quality dashboard.**](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/mental-health-data-hub/data-quality/mental-health-services-dataset---data-quality-dashboard) 
+Overall, data quality in the **MHSDS** is sufficient for analysing data in relation to activity. However, other aspects of the MHSDS are poor, particularly where submission of data items is not mandated. Data can be resubmitted by providers up until the end of the financial year to fix known data quality issues. See the [**MHSDS data quality dashboard.**](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/mental-health-data-hub/data-quality/mental-health-services-dataset---data-quality-dashboard) 
 
