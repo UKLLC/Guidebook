@@ -1,6 +1,8 @@
->Last modified: 02 Jul 2024
+
 
 # Introduction
+>Last modified: 02 Jul 2024
+
 Welcome to **UK LLC Guidebook**, the home of UK LLC’s **linked data documentation** and **user guide**.
 
 UK Longitudinal Linkage Collaboration (UK LLC) is the **national Trusted Research Environment (TRE)** for the **UK's longitudinal research community**. UK LLC brings together **de-identified data** from **Longitudinal Population Studies (LPS)** and systematically links these data to participants' **health, non-health administrative** (e.g. education, employment, tax and benefits) and **geospatial** records in the UK LLC TRE.
