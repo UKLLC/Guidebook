@@ -1,4 +1,8 @@
 # Linkage and processing of address data
+
+>Last modified: 
+
+
 ## Overview
 UK LLC links to geospatial measures using the same Trusted Third Party, **Digital Health and Care Wales (DHCW)**, used for health data linkage. DHCW sends participants' address information, where permissions allow, to **University of Leicester (UoL)**, who have been commissioned by UK LLC to model environmental exposure estimates. Before data are sent to UoL, UK LLC prepares a batch of 'masking' addresses. See figure 1 for an overview of the dataflow. 
 
