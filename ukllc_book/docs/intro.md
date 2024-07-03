@@ -14,7 +14,10 @@ For information about LPS datasets, please visit **Explore**, UK LLC's discovera
 # Contribute to UK LLC Guidebook 
 We welcome all contributions to UK LLC Guidebook.
 
-As detailed in the flow diagram there are several steps that contributors must follow. You will need to have Git installed on your computer [**https://git-scm.com/**](https://git-scm.com/) and you need to be familiar with Git ways of working - see the [**Using Git guide**](../../ukllc_book/docs/user_guide/4.TeamDataScience.md) and [**GitHub Docs**](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) for further details.   
+As detailed in the flow diagram there are several steps that contributors must follow. You will need to have Git installed on your computer [**https://git-scm.com/**](https://git-scm.com/) and you need to be familiar with Git ways of working - see the [**Using Git guide**](../docs/user_guide/4.TeamDataScience.md) and [**GitHub Docs**](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) for further details.   
+
+
+The [**Processing and linkage guide**](../NHS_England/Linkage%20and%20processing/linkage_processing.md)
 
 <img src="../../../images/Contributor_Guidebook.jpg" width="700"/>
 
