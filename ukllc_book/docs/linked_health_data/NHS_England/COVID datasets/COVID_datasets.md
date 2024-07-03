@@ -1,5 +1,5 @@
 # COVID-19 datasets
->Last modified: 19 Jun 2024
+>Last modified: 27 Jun 2024
 ## Introduction  
 NHS England flows extracts of **seven COVID-19 datasets** into the UK LLC TRE - see Table 1. Researchers are permitted access to these seven datasets under the following specific terms set by NHS England:
 1. Research must be related to **COVID-19**.
@@ -8,7 +8,7 @@ NHS England flows extracts of **seven COVID-19 datasets** into the UK LLC TRE - 
 NHS England introduced new dm+d and SNOMED codes during the COVID-19 pandemic, which were mapped to the World Health Organization's [**Emergency use ICD codes for COVID-19 disease outbreak**.](https://www.who.int/standards/classifications/classification-of-diseases/emergency-use-icd-codes-for-covid-19-disease-outbreak) Primarily, **SNOMED codes** are used in the **COVID-19 datasets** - see the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
 
 ## Coverage of COVID-19 datasets
-Table 1 summarises the **temporal and geographical coverage** of each of the seven COVID-19 datasets.  
+Table 1 summarises the **temporal and geographical coverage** of each of the seven COVID-19 datasets. 
 
 As explained in the overarching [**NHS England datasets guide**](../NHSE_intro.md), the UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE, apart from **SGSS** where we added COVID in front of it to distinguish it from the UK Health Security Agency’s (UKHSA's) generalised Second Generation Surveillance System (SGSS). Some datasets have been renamed by NHS England, e.g. **CHESS** is now called the **Severe Acute Respiratory Infection (SARI-Watch) surveillance system** dataset and some datasets have alternative names, e.g. **NPEX** is also called the **Covid-19 UK Non-hospital Antigen Testing Results** dataset. We receive the data from NHS England as the CHESS and NPEX datasets and these are the names researchers will see in the UK LLC TRE. Therefore, we refer to them by these names in our documentation. 
 
