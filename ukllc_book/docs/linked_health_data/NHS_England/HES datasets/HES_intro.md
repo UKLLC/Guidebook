@@ -1,5 +1,5 @@
-# Hospital datasets
->Last modified: 19 Jun 2024
+# NHS England hospital datasets
+>Last modified: 05 Jul 2024
 ## Introduction
 The NHS England hospital datasets comprise the **Hospital Episode Statistics (HES) datasets** and the **Emergency Care Data Set (ECDS)**. The hospital datasets **do not include** all mental health or maternity-specific hospital activity. Much of this information is included in the Mental Health Services Data Set (MHSDS) and Maternity Services Data Set (MSDS), respectively. 
 
