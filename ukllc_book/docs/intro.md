@@ -1,7 +1,7 @@
 
 
 # Introduction
->Last modified: 02 Jul 2024
+>Last modified: 05 Jul 2024
 
 Welcome to **UK LLC Guidebook**, the home of UK LLC’s **linked data documentation** and **user guide**.
 
@@ -31,9 +31,10 @@ We suggest you read the summary below and then, if need be, follow the more deta
 
 1. Go to the UK LLC Guidebook repo: [**https://github.com/UKLLC/Guidebook**](https://github.com/UKLLC/Guidebook) and **fork the repository**. The repo will be created in your own account. 
 2. Use GitBash to **clone the repository** into a local folder of your choice (we recommend the HTTPS method) - click on the green Code button. You need to type 'git clone' into GitBash followed by the https path.   
-3. Go to your forked repo and **create a branch**, giving it a meaningful name. To switch to the branch you need to type 'git branch' into GitBash followed by the branch name followed by Enter and then type 'git checkout' followed by the branch name and Enter.  
-4. **Make changes** to a guide(s) using e.g. MS Visual Studio Code.
-5. **Prepare to submit a pull request** to UK LLC. Type 'git add .' in GitBash followed by Enter and then type 'git commit -m " " (add a short description of the change between " "). Then type 'git push'. If the push doesn't work and there is a message saying the current branch has no upstream branch, copy the suggested text (git push --set-upstream origin 'File name') and press Enter. 
-6. Go to your forked repo and **submit a pull request**. Click on 'Contribute' and then submit your request. 
-7. Your request will be **reviewed by UK LLC** and you will be notified by email of the outcome. 
+3. Go to your forked repo and **create a branch**, giving it a meaningful name. To switch to the branch you need to type 'git branch' into GitBash followed by the branch name [Enter] and then type 'git checkout' followed by the branch name [Enter].  
+4. **Make changes** to a guide(s) using e.g. [**MS Visual Studio Code**](https://code.visualstudio.com/Download).
+5. If you make many changes to a guide(s) it is a good idea to build a local version of Guidebook in an **Anaconda test environment**. You need to install [**Anaconda**](https://www.anaconda.com/download/success) and then open Anaconda Prompt where you will see your base environment. Enter cd followed by the file path to your Guidebook. Type conda create --name jupbook [Enter]; press y when asked if you want to proceed; type conda activate jupbook [Enter]; type conda install pip [Enter]; press y when asked if you want to proceed; type pip install jupyter-book [Enter]; type pip install pandas [Enter]. You are then ready to build a local version of Guidebook. Open Anaconda Prompt and type cd followed by the file path to your Guidebook; type conda activate jupbook; type jb build ukllc_book. Then click on the index.html file which is in the html folder within the _build folder. Guidebook will open in your browser.
+6. When you're happy with the changes you've made you then **prepare to submit a pull request** to UK LLC. Type 'git add .' in GitBash [Enter] and then type 'git commit -m " " (add a short description of the change between " "). Then type 'git push'. If the push doesn't work and there is a message saying the current branch has no upstream branch, copy the suggested text (git push --set-upstream origin 'File name') and [Enter]. 
+7. Go to your forked repo and **submit a pull request**. Click on 'Contribute' and then submit your request. 
+8. Your request will be **reviewed by UK LLC** and you will be notified by email of the outcome. 
 
