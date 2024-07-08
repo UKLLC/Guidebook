@@ -3,7 +3,7 @@ format: jb-book
 root: docs/intro
 parts:
   - chapters:
-    - title: NHS England data
+    - title: NHS England datasets
       file: docs/linked_health_data/NHS_England/NHSE_intro.md
       sections:
         - title: Processing and linkage
@@ -65,12 +65,29 @@ parts:
               file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.md
             - title: PCM (medicines)
               file: docs/linked_health_data/NHS_England/Other datasets/PCM/PCM.ipynb
-    - title: Geospatial data
+    - title: NHS Wales datasets
+      file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
+      sections:
+        - title: Processing and linkage
+          file: docs/linked_health_data/NHS_Wales/Linkage and processing/linkage_processing_NHSW.md
+        - title: Coded variables
+          file: docs/linked_health_data/NHS_Wales/Coding/coding_intro_NHSW.md
+        - title: Hospital datasets
+          file: docs/linked_health_data/NHS_Wales/Hospital datasets/Hospital_datasets_NHSW.md
+        - title: COVID-19 datasets
+          file: docs/linked_health_data/NHS_Wales/COVID datasets/COVID_datasets_NHSW.md
+        - title: Registration datasets
+          file: docs/linked_health_data/NHS_Wales/Registration datasets/Registration_datasets_NHSW.md
+        - title: Primary care datasets
+          file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
+        - title: Other datasets
+          file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md
+    - title: Geospatial datasets
       file: docs/linked_geo_data/linkage_and_processing.md
       sections:
         - title: Air pollution
           file: docs/linked_geo_data/datasets/air_pollution_pm25_no2.md
-    - title: Core data
+    - title: Core datasets
       file: docs/core/core_summary.md
       sections:
         - title: Core datasets
