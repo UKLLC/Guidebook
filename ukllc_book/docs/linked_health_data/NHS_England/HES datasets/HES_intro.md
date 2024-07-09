@@ -24,19 +24,20 @@ The hospital datasets date back to 1989, although **hospital data in the UK LLC 
   
 **Table 1** Names, temporal coverage and availability of hospital datasets in the UK LLC TRE (the datasets in italics are retired)
 
-| **Dataset name in TRE** | **Domain** |**From**   | **Until**  | **Data available in TRE<sup>1</sup>** |
-|---|:---:|:---:|:---:|:---:|
-|[**HESOP**](../HES%20datasets/OP/HESOP.ipynb)|Outpatients|01/04/2003|Ongoing|01/04/2003 onwards|
-|[**HESAPC**](../HES%20datasets/APC/HESAPC.ipynb)|Inpatients|01/04/1989|Ongoing |01/04/1998 onwards|
-|- **HESAPC_MAT**|- Maternity|01/04/2000|Ongoing|01/04/2000 onwards|
-|- [**HESCC**](../HES%20datasets/CC/HESCC.ipynb)|- Critical care| 01/04/2008|Ongoing|01/04/2008 onwards|
-|- ***HESAPC_ACP***<sup>2</sup>|*- Critical care*|*01/04/1997*|*31/03/2006*|*01/04/1997 to 31/03/2006*|
-|[**ECDS**](../HES%20datasets/ECDS/ECDS.ipynb)|A & E patients|01/10/2017|Ongoing|01/10/2017 onwards|
-|[***HESAE***<sup>3</sup>](../HES%20datasets/AE/HESAE.ipynb)|*A & E patients*|*01/04/2007*|*31/03/2020*|*01/04/2007 to 31/03/2020*| |
+| **Name in TRE**|**Full name**|**Domain**|**From**|**Until**|**Data available in TRE<sup>1</sup>** |
+|---|:---:|:---:|:---:|:---:|:---:|
+|[**HESOP**](../HES%20datasets/OP/HESOP.ipynb)|HES Outpatients|Outpatients|01/04/2003|Ongoing|01/04/2003 onwards|
+|[**HESAPC**<sup>2</sup>](../HES%20datasets/APC/HESAPC.ipynb)|HES Admitted Patient Care|Inpatients|01/04/1989|Ongoing |01/04/1998 onwards|
+|- **HESAPC_MAT**|HES APC Maternity|Maternity|01/04/2000|Ongoing|01/04/2000 onwards|
+|[- **HESCC**](../HES%20datasets/CC/HESCC.ipynb)|HES Critical Care|Critical care| 01/04/2008|Ongoing|01/04/2008 onwards|
+|- ***HESAPC_ACP***|*HESAPC Augmented Care Periods*|*Critical care*|*01/04/1997*|*31/03/2006*|*01/04/1997 to 31/03/2006*|
+|[**ECDS**](../HES%20datasets/ECDS/ECDS.ipynb)|Emergency Care Data Set|A & E patients|01/10/2017|Ongoing|01/10/2017 onwards|
+|[***HESAE***](../HES%20datasets/AE/HESAE.ipynb)|*HES Accident & Emergency*|*A & E patients*|*01/04/2007*|*31/03/2020*|*01/04/2007 to 31/03/2020*| |
 
 <sup>1</sup>As documented in the data sharing agreement.  
-<sup>2</sup>Data about critically ill patients were previously collected in the HES Augmented Care Periods (HESAPC_ACP) dataset.  
-<sup>3</sup>Emergency care data were previously collected in the HES Accident & Emergency (HESAE) dataset.  
+<sup>2</sup>The HESAPC dataset encompasses HESAPC_MAT, HESCC and HESAPC_ACP.
+
+HES: Hospital Episode Statistics  
 
 For further details see the [**NHS England monthly provisional and annual reports**](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics#hes-publications), [**HES processing cycle and data quality checks**](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics/hes-processing-cycle-and-data-quality-checks) and [**Processing cycle and ECDS data quality**](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/emergency-care-data-set-ecds/data-quality) webpages.
 

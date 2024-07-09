@@ -10,11 +10,11 @@ Table 1 summarises the **temporal and geographical coverage** of each of the thr
 
 **Table 1** Names, coverage, availability and ownership of registration datasets in the UK LLC TRE
 
-| **Dataset name in TRE**|**Coverage**|**From**|**Until**|**Data available in TRE**|**Owner**|
-|---|:---:|:---:|:---:|:---:|:---:|
-|[**CANCER**](../Registration%20datasets/CANCER/CANCER.ipynb)|England|01/01/1971|Ongoing|01/01/1971 onwards|NHSE|
-|[**DEMOGRAPHICS**](../Registration%20datasets/DEMOGRAPHICS/Demographics.md)|England & Wales|01/06/2004|Ongoing|01/06/2004 onwards|NHSE|
-|[**MORTALITY**](../Registration%20datasets/MORTALITY/MORTALITY.ipynb)|England & Wales|01/01/1993|Ongoing|01/01/1993 onwards|ONS|  |  
+| **Name in TRE**|**Full name**|**Coverage**|**From**|**Until**|**Data available in TRE**|**Owner**|
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+|[**CANCER**](../Registration%20datasets/CANCER/CANCER.ipynb)|Cancer Registration Data|England|01/01/1971|Ongoing|01/01/1971 onwards|NHSE|
+|[**DEMOGRAPHICS**](../Registration%20datasets/DEMOGRAPHICS/Demographics.md)|Demographics Registration Data|England & Wales|01/06/2004|Ongoing|01/06/2004 onwards|NHSE|
+|[**MORTALITY**](../Registration%20datasets/MORTALITY/MORTALITY.ipynb)|Civil Registrations of Death|England & Wales|01/01/1993|Ongoing|01/01/1993 onwards|ONS|  |  
 
 ONS: Office for National Statistics  
 
