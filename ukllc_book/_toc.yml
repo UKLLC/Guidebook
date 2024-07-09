@@ -78,7 +78,7 @@ parts:
           file: docs/linked_health_data/NHS_Wales/COVID datasets/COVID_datasets_NHSW.md
         - title: Registration datasets
           file: docs/linked_health_data/NHS_Wales/Registration datasets/Registration_datasets_NHSW.md
-        - title: Primary care datasets
+        - title: Primary care dataset
           file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
         - title: Other datasets
           file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md

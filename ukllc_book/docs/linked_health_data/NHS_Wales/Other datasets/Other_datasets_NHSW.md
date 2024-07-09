@@ -8,7 +8,7 @@ Table 1 summarises the **temporal coverage** of the seven datasets. All seven da
 
 **Table 1** Names, temporal coverage and availability of datasets in the UK LLC TRE (the dataset in italics is retired)
 
-| **Dataset name in TRE**|**Full dataset name**|**Domain**|**From**|**Until**|**Data available in TRE<sup>1</sup>**|
+| **Name in TRE**|**Full name**|**Domain**|**From**|**Until**|**Data available in TRE<sup>1</sup>**|
 |---|:---:|:---:|:---:|:---:|:---:|
 |**OPRD**|Outpatient Referral|Outpatients|01/04/2009|Ongoing|TBC|
 |**MIDS**|Maternity Indicators Dataset|Maternity|01/04/2014|Ongoing|TBC|
