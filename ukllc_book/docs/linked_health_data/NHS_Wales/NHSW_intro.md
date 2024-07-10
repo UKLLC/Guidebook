@@ -1,7 +1,7 @@
 # NHS Wales datasets
 >Last modified: 08 Jul 2024
 ## Introduction  
-**Data from NHS Wales will soon be available in the UK LLC TRE** - see details of the **21 datasets** in Table 1. 
+**Data from NHS Wales will soon be available in the UK LLC TRE** - see details of the **17 datasets** in Table 1. 
 
 Although NHS Wales is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS Wales datasets.  
 
@@ -16,7 +16,7 @@ We have organised our NHS Wales data documentation into four tiers as explained 
 **Figure 1** UK LLC documentation of the NHS Wales datasets is across four tiers, starting with this overview and culminating in the individual dataset guides
 
 ## Overview of NHS Wales datasets
-The NHS Wales datasets cover a **variety of domains and time periods** as summarised in Table 1. Their **geographic coverage is restricted to Wales**, apart from those listed in the footnotes. The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE.      
+The NHS Wales datasets cover a **variety of domains and time periods** as summarised in Table 1. Their **geographic coverage is restricted to Wales**, apart from ADDE. The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE.      
 
 **Table 1** Names, temporal coverage and availability of NHS Wales datasets in the UK LLC TRE (the datasets in italics are retired) 
 |**Dataset name in TRE**|**Full dataset name**|**Primary domain**|**Secondary domain**|**Data available in TRE<sup>1</sup>**|**Data owner**|
@@ -26,10 +26,9 @@ The NHS Wales datasets cover a **variety of domains and time periods** as summar
 |**EDDS**|Emergency Department Dataset|Hospital|A & E patients|TBC|NHSW|
 |**CCDS**|Critical Care Dataset|Hospital|Critical care patients|TBC|NHSW|
 |**ICNC**|Intensive Care National Audit and Research Centre|Hospital|Critical care patients|TBC|NHSW|
-|***DSRD***|*Daily Situation Report Data*|*COVID*|*Hospital capacity*|*TBC*|*NHSW*|
-|***CVLF***|*Covid Lateral Flow Test*|*COVID*|*Testing*|*TBC*|*NHSW*|
 |***PATD***|*COVID-19 Test Results*|*COVID*|*Testing*|*TBC*|*NHSW*|
 |***CTTP***|*COVID-19 Test Trace and Protect*|*COVID*|*Testing & tracing*|*TBC*|*NHSW*|
+|***CVSP***|*COVID-19 Shielded People List*|*COVID*|*Shielding*|*TBC*|*NHSW*|
 |***CVVD***|*Covid Vaccination Dataset*|*COVID*|*Vaccination*|*TBC*|*NHSW*|
 |**WCISU**|Welsh Cancer Intelligence and Surveillance Unit|Registration|Cancer|TBC|NHSW|
 |**WDSD**|Welsh Demographic Service Dataset|Registration|Demographics|TBC|NHSW|
@@ -37,11 +36,8 @@ The NHS Wales datasets cover a **variety of domains and time periods** as summar
 |**WLGP**|Welsh Longitudinal General Practice Dataset|Primary care||TBC|NHSW|
 |**OPRD**|Outpatient Referral|Other|Outpatients|TBC|NHSW|
 |**MIDS**|Maternity Indicators Dataset|Other|Maternity|TBC|NHSW|
-|**WAST**|Welsh Ambulance Services NHS Trust|Other|Ambulance calls|TBC|NHSW|
+|**WASD**|Welsh Ambulance Services NHS Trust|Other|Ambulance calls|TBC|NHSW|
 |**NHSO**|NHS 111 Dataset|Other|NHS 111 calls|TBC|NHSW|
-|**WHSD**|Welsh Health Survey Dataset|Other|General health survey|TBC|NHSW|
-|**NSWD**|National Survey for Wales Dataset|Other|General health survey|TBC|NHSW|
-|**CARE**|Care Homes Dataset|Other|Care homes|TBC|NHSW|
 
 <sup>1</sup>As documented in the data sharing agreement.  
 NHSW: NHS Wales; ONS: Office for National Statistics
