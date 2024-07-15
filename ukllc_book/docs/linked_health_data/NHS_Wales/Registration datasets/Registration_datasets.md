@@ -12,8 +12,8 @@ Table 1 summarises the **temporal and geographical coverage** of each of the thr
 
 | **Dataset name in TRE**|**Full Name**|**Coverage**|**From**|**Until**|**Data available in TRE**|**Owner**|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-|**WCISU**|Welsh Cancer Intelligence and Surveillance Unit |Wales|01/01/1994|04/02/2021|TBC|NHSW|
-|**WDSD**|Welsh Demographic Service Dataset|Wales|01/01/1990 |06/05/2024|TBC|NHSW|
+|**WCISU**|Welsh Cancer Intelligence and Surveillance Unit |Wales|01/01/1994|Ongoing|TBC|NHSW|
+|**WDSD**|Welsh Demographic Service Dataset|Wales|01/01/1990 |Ongoing|TBC|NHSW|
 |**ADDE**|Annual District Death Extract|England & Wales|01/01/1993|Ongoing|01/01/1993 onwards|ONS|  |  
 
 ONS: Office for National Statistics  
