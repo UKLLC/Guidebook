@@ -113,10 +113,9 @@ class DocHelper:
         # attempt db connection
         try:
             #db_str = os.environ['CLEARDB_DATABASE_URL'].replace("mysql", "mysql+pymysql", 1).replace('?reconnect=true', '', 1)
-
-            # need to swap password for local var
-            #cnxn = sqlalchemy.create_engine('***REMOVED***')
-            cnxn = sqlalchemy.create_engine('postgresql+psycopg2://ua5ho9fnckf5in:p0b75b8cebbdb9313517f7b6a9e760603908ddddf724594d532df49a4834ced03@cav8p52l9arddb.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com:5432/d3jppsmcr926u4')
+            db_str = os.environ['DATABASE_URL'].replace("postgres", "postgresql+psycopg2", 1)
+            # create DB connection 
+            cnxn = sqlalchemy.create_engine(db_str)
             return(cnxn)
         # raise exception if connection failure
         except Exception as e:
@@ -194,19 +193,6 @@ class DocHelper:
         
         return df
     
-
-if __name__ == "__main__":
-    schema = 'nhsd'
-    table = 'HESOP'
-    version = 'v0002'
-    # import functions from script helper
-    import sys
-    script_fp = ""
-    helper = DocHelper(schema, table, version, script_fp)
-    df = helper.get_dataset_info()
-
-
-    helper.get_cohort_count()
     
 
     
