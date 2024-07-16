@@ -112,13 +112,15 @@ class DocHelper:
         '''
         # attempt db connection
         try:
-            db_str = os.environ['CLEARDB_DATABASE_URL'].replace("mysql", "mysql+pymysql", 1).replace('?reconnect=true', '', 1)
-            cnxn = sqlalchemy.create_engine(db_str, pool_recycle=300).connect()
-            return cnxn
+            #db_str = os.environ['CLEARDB_DATABASE_URL'].replace("mysql", "mysql+pymysql", 1).replace('?reconnect=true', '', 1)
+
+            # need to swap password for local var
+            #cnxn = sqlalchemy.create_engine('mysql+pymysql://bc6f5814d00e73:efa68502@eu-cluster-west-01.k8s.cleardb.net/heroku_9146b3bcb7a2912')
+            cnxn = sqlalchemy.create_engine('postgresql+psycopg2://ua5ho9fnckf5in:p0b75b8cebbdb9313517f7b6a9e760603908ddddf724594d532df49a4834ced03@cav8p52l9arddb.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com:5432/d3jppsmcr926u4')
+            return(cnxn)
         # raise exception if connection failure
         except Exception as e:
-            print("Connection to database failed, retrying.")
-            raise Exception("DB connection failed")
+            raise Exception("DB connection failed with error", e)
             
     # def get_extract_count(self):
     #     '''
@@ -151,13 +153,13 @@ class DocHelper:
         # build query (like used to pickup reg dataset which have date)
         q = '''
         SELECT cohort, count
-        FROM heroku_9146b3bcb7a2912.nhs_dataset_cohort_linkage
+        FROM nhs_dataset_cohort_linkage
         where dataset like '{}_{}%%'
         and cohort not in ('GENSCOT', 'NICOLA', 'SABRE')
         order by cohort;'''.format(self.data, self.version)
         # pull data from database and return
-        with self.connect() as cnxn:
-            cnt = pd.read_sql(q, cnxn)
+        cnxn = self.connect()
+        cnt = pd.read_sql(q, cnxn)
         # treat <10 as 0
         cnt['count1'] = cnt['count'].replace('<10', '0')
         # convert to ensure counts are numeric
@@ -170,9 +172,41 @@ class DocHelper:
         cnt.loc[len(cnt)] = ['total', total]
         return cnt
     
+    def get_dataset_info(self):
+        '''
+
+        Returns
+        -------
+        cnt : df
+            dataframe containing counts of participants by LPS
+
+        '''
+
+        # build query (like used to pickup reg dataset which have date)
+        q = '''
+            SELECT * FROM nhs_england_datasets_info 
+            where "Name of dataset in TRE" = \'{}\''''.format(self.data)
+
+        # pull data from database and return
+        cnxn = self.connect()
+
+        df = pd.read_sql(q, cnxn)
+        
+        return df
+    
+
+if __name__ == "__main__":
+    schema = 'nhsd'
+    table = 'HESOP'
+    version = 'v0002'
+    # import functions from script helper
+    import sys
+    script_fp = ""
+    helper = DocHelper(schema, table, version, script_fp)
+    df = helper.get_dataset_info()
 
 
-
+    helper.get_cohort_count()
     
 
     
