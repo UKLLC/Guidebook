@@ -4,4 +4,4 @@ numpy
 docutils==0.17.1
 pandas
 pymysql
-psycopg2
+psycopg2-binary
