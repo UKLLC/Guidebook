@@ -116,7 +116,7 @@ class DocHelper:
 
             # need to swap password for local var
             #cnxn = sqlalchemy.create_engine('mysql+pymysql://bc6f5814d00e73:efa68502@eu-cluster-west-01.k8s.cleardb.net/heroku_9146b3bcb7a2912')
-            cnxn = sqlalchemy.create_engine('postgresql+psycopg2:///***REMOVED***')
+            cnxn = sqlalchemy.create_engine('postgresql+psycopg2:///d3jppsmcr926u4')
             return(cnxn)
         # raise exception if connection failure
         except Exception as e:
