@@ -16,7 +16,7 @@ The hospital datasets **include** private patients treated in NHSW hospitals and
 
 The hospital datasets were linked either by NHS number or a combination of alternative patient identifiable fields; **all five hospital datasets will be available in the UK LLC TRE**. 
   
-**Table 1** Names, temporal coverage and availability of hospital datasets in the UK LLC TRE (the datasets in italics are retired)
+**Table 1** Names, temporal coverage and availability of hospital datasets in the UK LLC TRE
 
 | **Name in TRE**|**Full name**|**Domain**|**From**|**Until**|**Data available in TRE<sup>1</sup>** |
 |---|:---:|:---:|:---:|:---:|:---:|
@@ -31,7 +31,3 @@ The hospital datasets were linked either by NHS number or a combination of alter
   
 
 For further details see the [**NHS Wales Hospital Activity**](https://statswales.gov.wales/Catalogue/Health-and-Social-Care/NHS-Hospital-Activity/Outpatient-Activity) and [**NHS Wales Data Quality Standards**](https://dhcw.nhs.wales/information-services/information-standards/data-quality/data-quality-standards/) webpages.
-
-## Background
-<details>
-  <summary>Production of hospital datasets for research purposes</summary>
