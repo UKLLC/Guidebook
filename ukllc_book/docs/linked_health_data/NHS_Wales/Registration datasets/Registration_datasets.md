@@ -1,5 +1,7 @@
 # Registration datasets
+
 >Last modified: 18 Jul 2024
+
 ## Introduction  
 NHS Wales flows extracts of **three registration datasets** into the UK LLC TRE - see Table 1.
 
@@ -17,9 +19,3 @@ Table 1 summarises the **temporal and geographical coverage** of each of the thr
 |**ADDE**|Annual District Death Extract|England & Wales|01/01/1993|Ongoing|01/01/1993 onwards|ONS|  |  
 
 ONS: Office for National Statistics  
-
-
-
-
-
-
