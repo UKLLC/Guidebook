@@ -1,5 +1,5 @@
 # NHS Wales COVID-19 datasets
->Last modified: 05 Jul 2024
+>Last modified: 18 Jul 2024
 
 
 ## Introduction  
@@ -18,7 +18,7 @@ Table 1 summarises the **temporal and geographical coverage** of each of the fou
 |***CVVD***|*Covid Vaccination Dataset*|*Vaccination*|*Wales*|*08/12/2020*|*01/03/2024*|TBC|  
 
 <sup>1</sup>As documented in the data sharing agreement.  
-<sup>2</sup>As explained in the Department of Health and Social Care's (DHSC) [**COVID-19 Scaling up our testing programmes**](https://assets.publishing.service.gov.uk/media/5e888f05e90e0707799498b3/coronavirus-covid-19-testing-strategy.pdf), four pillars comprised the UK government's approach to testing for SARS-CoV-2.   
+<sup>2</sup>As explained in the Department of Health and Social Care's (DHSC) [**COVID-19 Scaling up our testing programmes**](https://assets.publishing.service.gov.uk/media/5e888f05e90e0707799498b3/coronavirus-covid-19-testing-strategy.pdf) four pillars comprised the UK government's approach to testing for SARS-CoV-2.   
 **Pillar 1** quantified the number of people with a clinical need, and health and care workers, who returned positive swab (antigen) tests (processed in PHE labs and NHS hospitals).  
 **Pillar 2** quantified the number of people in the wider community who returned positive swab (antigen) tests (processed in commercial labs).  
 **Pillar 3** quantified the number of people who returned positive serology (antibody) tests to detect immunity and to understand the efficacy of the different testing methods.   
