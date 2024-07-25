@@ -4,7 +4,7 @@ The table below summarises the **linkages permitted** by each LPS to health, non
 **Note:** Even if an LPS has permitted linkage to a data source, each **LPS participant** can decide to **opt out of UK LLC** altogether or to **opt out of a specific linkage or all linkages** by notifying their LPS. If a participant opts out, no further data about them will flow into the UK LLC TRE and the participant’s data will not be provisioned to new research projects. However, researchers who already have access to that individual’s information will be permitted to retain that access until the end of the project, but they will not obtain any new data about that individual.
 
 
-|**LPS**|**NHS England [(19 datasets)](https://ukllc-book.netlify.app/docs/linked_health_data/nhs_england/nhse_intro)**|**NHS Wales [(17 datasets)](https://ukllc-book.netlify.app/docs/linked_health_data/nhs_wales/nhsw_intro)**|**NHS Scotland**|**UK geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DfE**|**DWP**|**HMRC**|
+|**LPS**|**NHS England [(19 datasets)](https://ukllc-book.netlify.app/docs/linked_health_data/nhs_england/nhse_intro)**|**NHS Wales [(17 datasets)](https://ukllc-book.netlify.app/docs/linked_health_data/nhs_wales/nhsw_intro)**|**NHS Scotland**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DfE**|**DWP**|**HMRC**|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**AIRWAVE**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 |**ALSPAC**|&check;|&check;|TBC|&check;|&check;|&check;|&check;|&check;|
