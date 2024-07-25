@@ -1,17 +1,17 @@
 
-
 # Introduction
->Last modified: 05 Jul 2024
 
-Welcome to **UK LLC Guidebook**, the home of UK LLC’s **linked data documentation** and **user guide**.
+>Last modified: 25 Jul 2024
+
+Welcome to **UK LLC Guidebook**, the home of UK LLC’s **data documentation** and **user guide**.
 
 UK Longitudinal Linkage Collaboration (UK LLC) is the **national Trusted Research Environment (TRE)** for the **UK's longitudinal research community**. UK LLC brings together **de-identified data** from **Longitudinal Population Studies (LPS)** and systematically links these data to participants' **health, non-health administrative** (e.g. education, employment, tax and benefits) and **geospatial** records in the UK LLC TRE.
 
-To date, we have ingested **NHS England** and **geospatial datasets**. We anticipate NHS Wales and further geospatial datasets being available by the end of 2024. 
+Currently, researchers can request access to data from more than **20 LPS**, with participants' records linked to **NHS England** and **geospatial datasets**, where permissions allow. We anticipate NHS Wales and further geospatial datasets being available by the end of 2024. 
 
 We invite researchers to work **collaboratively** on UK LLC Guidebook to build content and maximise use - see instructions below.
 
-For information about LPS datasets, please visit **Explore**, UK LLC's discoverability and data request app (to be launched July 2024).
+Please visit **Explore**, UK LLC's metadata catalogue (to be launched August 2024), to discover the breadth of data held in the UK LLC TRE.
 
 # Contribute to UK LLC Guidebook 
 We welcome all contributions to UK LLC Guidebook.

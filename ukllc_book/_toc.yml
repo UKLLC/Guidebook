@@ -3,6 +3,11 @@ format: jb-book
 root: docs/intro
 parts:
   - chapters:
+    - title: Contributing LPS
+      file: docs/LPS/LPS_introduction.md
+      sections:
+        - title: Permitted linkages
+          file: docs/LPS/Linkages/LPS_linkages.md
     - title: NHS England datasets
       file: docs/linked_health_data/NHS_England/NHSE_intro.md
       sections:
@@ -90,8 +95,18 @@ parts:
     - title: Core datasets
       file: docs/core/core_summary.md
       sections:
-        - title: Core datasets
-          file: docs/core/core_data/core_datasets.md
+        - title: Denominator file 1
+          file: docs/core/core_data/denominator_file1.md
+        - title: NHSD presence
+          file: docs/core/core_data/nhsd_presence.md
+        - title: NHSD derived indicator
+          file: docs/core/core_data/nhsd_derived_indicator.md
+        - title: NHSD LSOA11
+          file: docs/core/core_data/nhsd_LSOA11.md
+        - title: LSOA11 geo indicators
+          file: docs/core/core_data/LSOA11_geo_indicators.md
+        - title: UK geo indicators
+          file: docs/core/core_data/UK_geo_indicators.md
     - title: TRE user guide
       file: docs/user_guide/Introduction.md
       sections:
