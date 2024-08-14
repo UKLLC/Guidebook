@@ -170,47 +170,21 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 
 ## Data Linkage
-England, Wales, Scotland and Ireland each have their own geo indicator dataset.
 
 To link LLC_XXXX.CORE_nhsd_lsoa11_v0000_YYYYMMDD with 
-LLC_XXXX.CORE_lsoa11_geo_indicators_england_v0000_YYYYMMDD
-LLC_XXXX.CORE_lsoa11_geo_indicators_wales_v0000_YYYYMMDD
-LLC_XXXX.CORE_lsoa11_geo_indicators_scotland_v0000_YYYYMMDD
-LLC_XXXX.CORE_lsoa11_geo_indicators_ireland_v0000_YYYYMMDD:
+LLC_XXXX.CORE_lsoa11_geo_indicators_v0000_YYYYMMDD:
 
 1. Retrieve data from database via helper syntax
-2. Link datasets on the *Granularity* field. Example of STATA syntax linking to **England only**:
+2. Link datasets on the *geo_unit* field. Example of STATA syntax:
 
-*load NHSD *geographical unit* dataset
+*load NHSD *lsoa11* dataset
 
 *use* “S:\LLC_9999\data\stata_w_labs\CORE_nhsd_*lsoa11*_v0001_20221217.dta”, clear
 
-*merge m:* 1 granularity using
-“S:\LLC_9999\data\stata_w_labs\CORE_geo_indicators_england_v0001_20240614.dta”
+*merge m:* 1 geo_unit using
+“S:\LLC_9999\data\stata_w_labs\CORE_geo_indicators_nhsd_v0002_20240802.dta”
 *drop geographical units not linked to any participant health record  
 *drop if* _merge ** 2
-
-**append England, Scot, wales, ni*
-
-*use* “S:\LLC_9999\data\stata_w_labs\CORE_geo_indicators_england_v0001_20240614.dta”
-
-*append using* “S:\LLC_9999\data\stata_w_labs\CORE_geo_indicators_wales_v0001_20240614.dta”
-
-*append using*
-“S:\LLC_9999\data\stata_w_labs\CORE_geo_indicators_scotland_v0001_20240614.dta”
-
-*append using* "S:\LLC_9999\data\stata_w_labs\CORE_geo_indicators_ireland_v0001_20240614.dta”
-
-*save* nations_geo, replace
-
-*use* “S:\LLC_9999\data\stata_w_labs\CORE_nhsd_lsoa11_v0001_20221217.dta”, clear
-
-*merge m:* 1 granularity using nations_geo
-
-*drop geographical units not linked to any participant health record
-
-*drop if* _merge ** 2
-
 
 CORE_nhsd_lsoa11 is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quintile from the Index of Multiple Deprivation that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible. It is also advised to only link to the country/ countries that you require.
 
