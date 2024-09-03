@@ -1,7 +1,7 @@
 
 # Introduction
 
->Last modified: 25 Jul 2024
+>Last modified: 03 Sep 2024
 
 Welcome to **UK LLC Guidebook**, the home of UK LLC’s **data documentation** and **user guide**.
 
@@ -11,7 +11,7 @@ Currently, researchers can request access to data from more than **20 LPS**, wit
 
 We invite researchers to work **collaboratively** on UK LLC Guidebook to build content and maximise use - see instructions below.
 
-Please visit **Explore**, UK LLC's metadata catalogue (to be launched August 2024), to discover the breadth of data held in the UK LLC TRE.
+Please visit [**UK LLC Explore**](https://explore.ukllc.ac.uk/), UK LLC's metadata catalogue to discover the breadth of data held in the UK LLC TRE.
 
 # Contribute to UK LLC Guidebook 
 We welcome all contributions to UK LLC Guidebook.
