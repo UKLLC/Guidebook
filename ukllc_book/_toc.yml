@@ -8,6 +8,8 @@ parts:
       sections:
         - title: Permitted linkages
           file: docs/LPS/Linkages/LPS_linkages.md
+        - title: Discover LPS data
+          file: docs/LPS/Discover/Discover_LPS_data.md
     - title: NHS England datasets
       file: docs/linked_health_data/NHS_England/NHSE_intro.md
       sections:
