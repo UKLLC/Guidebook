@@ -190,7 +190,3 @@ class DocHelper:
         df = pd.read_sql(q, cnxn)
         
         return df
-    
-    
-
-    
