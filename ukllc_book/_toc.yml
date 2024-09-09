@@ -13,10 +13,12 @@ parts:
     - title: NHS England datasets
       file: docs/linked_health_data/NHS_England/NHSE_intro.md
       sections:
-        - title: Processing and linkage
+        - title: Processing & linkage
           file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
         - title: Coded variables
           file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
+        - title: Requirements & conditions
+          file: docs/linked_health_data/NHS_England/NHS Ts and Cs/nhse_ts_and_cs.md
         - title: Hospital datasets
           file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
           sections:
@@ -75,7 +77,7 @@ parts:
     - title: NHS Wales datasets
       file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
       sections:
-        - title: Processing and linkage
+        - title: Processing & linkage
           file: docs/linked_health_data/NHS_Wales/Linkage and processing/linkage_processing_NHSW.md
         - title: Coded variables
           file: docs/linked_health_data/NHS_Wales/Coding/coding_intro_NHSW.md
