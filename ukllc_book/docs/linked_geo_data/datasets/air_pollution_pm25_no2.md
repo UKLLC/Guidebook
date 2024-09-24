@@ -48,6 +48,15 @@ Additional to the air pollution measures, these data contain a number of geograp
 
 These allow participants to be **grouped into common geographical units**. The encryption is a disclosure control measure due to the elevated risk in providing individual level geolocation data. However, statistics about the encrypted LSOA can be added by linking to table/dataset **CORE_lsoa11_geo_indicators** on variable *lsoa11_e*. This dataset is available to all researchers working in the UK LLC TRE. It contains deciles of Indices of Multiple Deprivation (IMD) including sub domains, population density, and an urban rural indicator. When linked to the air pollution dataset, this will enable **additional economic and environmental insight** into the geographical area.
 
+### Scottish geographies 
+Scotland and Northern Ireland use different community geography terminologies in their censuses. The Scottish equivalent of MSOAs are called ‘Intermediate Zones' (IZ), and ‘Datazones’ (DZ) are used as equivalent of LSOAs. For data storage these are all stored in a single field:
+
+**Table 1** Scottish equivalent geographies
+| **England & Wales** | **Scotland** | **Column name in dataset** |
+|---|:---:|:---:|
+| LSOA (Lower Layer Super Output Area)| Datazones (DZ) | lsoa11_e |
+| MSOA (Middle Layer Super Output Area) | Intermediate Zones (IZ) | msoa11_e |
+
 ## References
 ```{bibliography}
 ```
