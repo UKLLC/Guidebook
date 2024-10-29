@@ -51,7 +51,8 @@ Note:
 <sup>5</sup>Within MHSDS we include its two precursors, the Mental Health and Learning Disabilities Data Set (MHLDDS) and the Mental Health Minimum Data Set (MHMDS).  
 DHSC: Department of Health and Social Care; NHSE: NHS England; ONS: Office for National Statistics  
 
-
+## Availability of each NHS England dataset
+The availability of NHS England data in the UK LLC TRE differs according to when each dataset was established and the time periods permitted to flow to UK LLC as documented in the data sharing agreement. As summarised below in Figure 2, the CANCER dataset covers the longest time period (1971 onwards) and the COVID-19 datasets the shortest time periods (2020 onwards).     
 
 
 <img src="../../images/Graph_Availability_NHSE_data_29102024.jpg" width="900"/>
