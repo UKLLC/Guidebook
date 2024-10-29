@@ -1,6 +1,6 @@
 # LPS in the UK LLC partnership
 
->Last modified: 03 Sep 2024
+>Last modified: 29 Oct 2024
 
 The UK has a **world-leading portfolio** of around **100 longitudinal population studies (LPS)**, which have collected detailed phenotypic and biological information on over three million members of the UK public. Data collected by LPS include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples. 
 
@@ -11,7 +11,7 @@ Most LPS have published **cohort profiles** which give detailed information abou
 Visit [**UK LLC Explore**](https://explore.ukllc.ac.uk/) to discover more about each LPS and their datasets, including variable names, labels and values. 
 
 
-**Table 1** A summary of the 22 Longitudinal Population Studies (LPS) that are part of the UK LLC partnership (listed in alphabetical order)
+**Table 1** A summary of the 22 longitudinal population studies (LPS) that are in the UK LLC partnership (listed in alphabetical order)
 
 |**LPS Name**|**Summary**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Coverage**|**Cohort**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Years**|**Owner**|
 |:--|:--|:--|:--|:--|:--|
@@ -37,3 +37,9 @@ Visit [**UK LLC Explore**](https://explore.ukllc.ac.uk/) to discover more about 
 |[**TWINSUK: TwinsUK**](https://doi.org/10.1017/thg.2019.65)|TWINSUK follows the lives of twins to understand how genetic variation relates to health and ageing. It is the largest adult twin registry in the UK and the most clinically detailed in the world.|UK|c. 15,000 adults who are identical or non-identical twins, with recruitment ongoing|1992-|King’s College London|
 |[**UKHLS: Understanding Society – the UK Household Longitudinal Study**](https://doi.org/10.14301/llcs.v3i1.159)|UKHLS collects behavioural, economic, social and genetic data from households to explore the experiences of people living in the UK.|UK|c. 40,000 households recruited in 2009, including 8,000 from the original British Household Panel Survey, which ran from 1991-2009|2009-|University of Essex|
 |[**UK-REACH: The UK Research study into Ethnicity And COVID-19 outcomes in Healthcare workers**](https://doi.org/10.1093/ije/dyac171)|Established to understand why ethnic minority healthcare workers (HCWs) are at risk of poorer outcomes from COVID-19 when compared with their White ethnic counterparts in the UK.|UK|17,891 HCWs aged 16–89 years (mean age 44 years)|2020-|University of Leicester|
+
+
+<img src="../images/Graph_Duration_LPS_29102024.jpg" width="900"/>
+
+**Figure 2** A summary of the temporal coverage of each LPS in the UK LLC partnership (mean age of participants on 30/09/2024 in parentheses)
+Note: mean age was calculated from date of birth in participants' NHS England records except for GENSCOT, NICOLA and SABRE (ages based on LPS data).

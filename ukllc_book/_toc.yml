@@ -17,8 +17,6 @@ parts:
           file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
         - title: Coded variables
           file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
-        - title: Requirements & conditions
-          file: docs/linked_health_data/NHS_England/NHS Ts and Cs/nhse_ts_and_cs.md
         - title: Hospital datasets
           file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
           sections:
