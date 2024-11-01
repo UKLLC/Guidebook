@@ -181,7 +181,7 @@ class DocHelper:
 
         # build query (like used to pickup reg dataset which have date)
         q = '''
-            SELECT * FROM nhs_england_datasets_info 
+            SELECT * FROM table_nhs_england_datasets_guidebook 
             where "Name of dataset in TRE" = \'{}\''''.format(self.data)
 
         # pull data from database and return

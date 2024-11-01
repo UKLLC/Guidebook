@@ -1,8 +1,15 @@
 # ===== Main Landing Page ========================================
 format: jb-book
-root: docs/intro
+root: docs/welcome
 parts:
   - chapters:
+    - title: Introduction
+      file: docs/introduction/introduction.md
+      sections:
+        - title: Contribute to Guidebook
+          file: docs/introduction/Contribute/contribute.md
+        - title: UK LLC sample
+          file: docs/introduction/Sample/UKLLC_sample.md
     - title: Contributing LPS
       file: docs/LPS/LPS_introduction.md
       sections:

@@ -1,6 +1,6 @@
 # LPS in the UK LLC partnership
 
->Last modified: 29 Oct 2024
+>Last modified: 30 Oct 2024
 
 ## Introduction  
 The UK has a **world-leading portfolio** of around **100 longitudinal population studies (LPS)**, which have collected detailed phenotypic and biological information on over three million members of the UK public. Data collected by LPS include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples. 
@@ -39,7 +39,7 @@ Visit [**UK LLC Explore**](https://explore.ukllc.ac.uk/) to discover more about 
 |[**UKHLS: Understanding Society – the UK Household Longitudinal Study**](https://doi.org/10.14301/llcs.v3i1.159)|UKHLS collects behavioural, economic, social and genetic data from households to explore the experiences of people living in the UK.|UK|c. 40,000 households recruited in 2009, including 8,000 from the original British Household Panel Survey, which ran from 1991-2009|2009-|University of Essex|
 |[**UK-REACH: The UK Research study into Ethnicity And COVID-19 outcomes in Healthcare workers**](https://doi.org/10.1093/ije/dyac171)|Established to understand why ethnic minority healthcare workers (HCWs) are at risk of poorer outcomes from COVID-19 when compared with their White ethnic counterparts in the UK.|UK|17,891 HCWs aged 16–89 years (mean age 44 years)|2020-|University of Leicester|
 
-<sup>1</sup>GLAD includes the Eating Disorders Genetics Initiative (EDGI) and COVID-19 Psychiatry and Neurological Genetics (COPING) Study. 
+<sup>1</sup>GLAD includes the Eating Disorders Genetics Initiative (EDGI) and COVID-19 Psychiatry and Neurological Genetics (COPING) Study.   
 <sup>2</sup>TEDS includes the Environmental Risk (E-Risk) Longitudinal Twin Study.
 
 ## Length of follow-up of each LPS

@@ -1,27 +1,15 @@
-
-# Introduction
-
->Last modified: 06 Sep 2024
-
-Welcome to **UK LLC Guidebook**, the home of UK LLC’s **data documentation** and **user guide**.
-
-UK Longitudinal Linkage Collaboration (UK LLC) is the **national Trusted Research Environment (TRE)** for the **UK's longitudinal research community**. UK LLC brings together **de-identified data** from **Longitudinal Population Studies (LPS)** and systematically links these data to participants' **health, non-health administrative** (e.g. education, employment, tax and benefits) and **geospatial** records in the UK LLC TRE.
-
-Currently, researchers can request access to data from more than **20 LPS**, with participants' records linked to **NHS England** and **geospatial datasets**, where permissions allow. We anticipate NHS Wales and further geospatial datasets being available by the end of 2024. 
-
-We invite researchers to work **collaboratively** on UK LLC Guidebook to build content and maximise use - see instructions below.
-
-Please visit [**UK LLC Explore**](https://explore.ukllc.ac.uk/), UK LLC's metadata catalogue to discover the breadth of data held in the UK LLC TRE.
-
 # Contribute to UK LLC Guidebook 
-We welcome all contributions to UK LLC Guidebook.
+
+>Last modified: 30 Oct 2024
+
+**We welcome all contributions to UK LLC Guidebook**.
 
 As detailed in the flow diagram there are several steps that contributors must follow. You will need to have Git installed on your computer [**https://git-scm.com/**](https://git-scm.com/) and you need to be familiar with Git ways of working - see the [**Using Git guide**](../docs/user_guide/4.TeamDataScience.md) and [**GitHub Docs**](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) for further details.   
 
 
 
 
-<img src="images/Contributor_Guidebook2.jpg" width="900"/>
+<img src="../../images/Contributor_Guidebook2.jpg" width="900"/>
 
 
 
