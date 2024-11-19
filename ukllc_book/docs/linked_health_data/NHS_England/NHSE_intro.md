@@ -1,5 +1,5 @@
 # NHS England datasets
->Last modified: 29 Oct 2024
+>Last modified: 19 Nov 2024
 ## Introduction  
 UK LLC has a data sharing agreement with NHS England to flow extracts of the **19 datasets** listed in Table 1 into the UK LLC TRE. Although NHS England is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS England datasets.  
 
@@ -33,7 +33,7 @@ Note:
 |[***CHESS***](../NHS_England/COVID%20datasets/CHESS/CHESS.ipynb)|*COVID-19 Hospitalisation in England Surveillance System*|*COVID*|*Hospital*|*12/03/2020 to 01/10/2022*|*NHSE*|Annually|
 |[**CVS**](../NHS_England/COVID%20datasets/CVS/CVS.ipynb)|COVID-19 Vaccination Status|COVID|Vaccination|08/12/2020 onwards|NHSE|Annually|
 |[**CVAR**](../NHS_England/COVID%20datasets/CVAR/CVAR.ipynb)| COVID-19 Vaccination Adverse Reactions  | COVID |Vaccination|08/12/2020 onwards|NHSE|Annually|
-|[**GDPPR**](../NHS_England/COVID%20datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research | COVID | Primary care  | 01/06/2020 onwards|NHSE|Annually|
+|[**GDPPR**](../NHS_England/COVID%20datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research | COVID | Primary care  | 1940s onwards|NHSE|Annually|
 |[**CANCER**](../NHS_England/Registration%20datasets/CANCER/CANCER.ipynb)| Cancer Registration Data| Registration |Cancer|01/01/1971 onwards|NHSE|Quarterly|
 |[**DEMOGRAPHICS**<sup>4</sup>](../NHS_England/Registration%20datasets/DEMOGRAPHICS/Demographics.md)| Demographics Registration data| Registration|Demographics |01/06/2004 onwards|NHSE|Quarterly|
 |[**MORTALITY**<sup>4</sup>](../NHS_England/Registration%20datasets/MORTALITY/MORTALITY.ipynb)| Civil Registrations of  Death| Registration|Deaths|01/01/1993 onwards|ONS|Quarterly|
@@ -50,11 +50,3 @@ Note:
 <sup>4</sup>MORTALITY and DEMOGRAPHICS cover England and Wales.  
 <sup>5</sup>Within MHSDS we include its two precursors, the Mental Health and Learning Disabilities Data Set (MHLDDS) and the Mental Health Minimum Data Set (MHMDS).  
 DHSC: Department of Health and Social Care; NHSE: NHS England; ONS: Office for National Statistics  
-
-## Availability of each NHS England dataset
-The availability of NHS England data in the UK LLC TRE differs according to when each dataset was established and the time periods permitted to flow to UK LLC as documented in the data sharing agreement. As summarised below in Figure 2, the CANCER dataset covers the longest time period (1971 onwards) and the COVID-19 datasets the shortest time periods (2020 onwards).     
-
-
-<img src="../../images/Graph_Availability_NHSE_data_29102024.jpg" width="900"/>
-
-**Figure 2** A summary of the temporal coverage of each NHS England dataset in the UK LLC TRE

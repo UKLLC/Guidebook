@@ -42,10 +42,4 @@ Visit [**UK LLC Explore**](https://explore.ukllc.ac.uk/) to discover more about 
 <sup>1</sup>GLAD includes the Eating Disorders Genetics Initiative (EDGI) and COVID-19 Psychiatry and Neurological Genetics (COPING) Study.   
 <sup>2</sup>TEDS includes the Environmental Risk (E-Risk) Longitudinal Twin Study.
 
-## Length of follow-up of each LPS
-LPS in the UK LLC partnership cover a range of topics and formats, including pregnancy and birth cohorts, ageing and mental health cohorts and a household panel survey. As summarised in Figure 2 below, these LPS have been collecting data for between four years (LPS with a focus on COVID-19) and 78 years (NSHD46 which is the UK's longest running birth cohort).
 
-<img src="../images/Graph_Duration_LPS_29102024.jpg" width="900"/>
-
-**Figure 2** A summary of the temporal coverage of each LPS in the UK LLC partnership (mean age of participants on 30/09/2024 in parentheses)  
-**Note**: mean age was calculated from date of birth in participants' NHS England records except for GENSCOT, NICOLA and SABRE (ages calculated from LPS data).
