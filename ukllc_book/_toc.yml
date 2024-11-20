@@ -156,8 +156,17 @@ parts:
           file: docs/user_guide/8.PublishingYourResearch.md
         - title: User support
           file: docs/user_guide/9.UserSupport.md
-        - title: FAQs
-          file: docs/user_guide/10.FAQs.md
         - title: Rules for researchers
-          file: docs/user_guide/11.RulesForResearchers.md
+          file: docs/user_guide/10.RulesForResearchers.md
+    - title: FAQs
+      file: docs/FAQ/faq_intro.md
+      sections:
+        - title: TRE
+          file: docs/FAQ/pages/faq_tre.md
+        - title: Working with LPS data
+          file: docs/FAQ/pages/faq_lps.md
+        - title: Working with NHS England data
+          file: docs/FAQ/pages/faq_nhse.md
+        - title: Resources
+          file: docs/FAQ/pages/faq_resources.md
           
