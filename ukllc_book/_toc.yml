@@ -32,6 +32,8 @@ parts:
     - title: Contributing LPS
       file: docs/LPS/LPS_introduction.md
       sections:
+        - title: Longevity of LPS
+          file: docs/LPS/Longevity of LPS/LPS_longevity
         - title: Permitted linkages
           file: docs/LPS/Linkages/LPS_linkages.md
         - title: Discover LPS data
@@ -39,6 +41,8 @@ parts:
     - title: NHS England datasets
       file: docs/linked_health_data/NHS_England/NHSE_intro.md
       sections:
+        - title: Longevity of datasets
+          file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.md
         - title: Processing & linkage
           file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
         - title: Coded variables
