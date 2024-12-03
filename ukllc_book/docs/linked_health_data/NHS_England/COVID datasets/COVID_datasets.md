@@ -1,8 +1,8 @@
 # NHS England COVID-19 datasets
->Last modified: 05 Jul 2024
+>Last modified: 03 Dec 2024
 ## Introduction  
-NHS England flows extracts of **seven COVID-19 datasets** into the UK LLC TRE - see Table 1. Researchers are permitted access to these seven datasets under the following specific terms set by NHS England:
-1. Research must be related to **COVID-19**.
+NHS England flows extracts of **seven COVID-19 datasets** into the UK LLC TRE - see Table 1. Researchers are permitted access to these seven datasets under the following **specific terms** set by NHS England:
+1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020#:~:text=identifying%20and%20understanding) 
 2. **GDPPR data** must not be used for any form of performance management of General Practices.
 
 NHS England introduced new dm+d and SNOMED codes during the COVID-19 pandemic, which were mapped to the World Health Organization's [**Emergency use ICD codes for COVID-19 disease outbreak**.](https://www.who.int/standards/classifications/classification-of-diseases/emergency-use-icd-codes-for-covid-19-disease-outbreak) Primarily, **SNOMED codes** are used in the **COVID-19 datasets** - see the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
