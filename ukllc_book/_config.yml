@@ -9,6 +9,8 @@ email: support@ukllc.ac.uk
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
+  exclude_patterns:
+    - '*freeze*'
   execute_notebooks: force
 
 bibtex_bibfiles:
@@ -34,6 +36,8 @@ html:
     <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>
   extra_footer: |
     The UK LLC Guidebook and materials are available publicly under <a href="https://github.com/UKLLC/licencing">open source licenses</a>
+  favicon: "docs/images/favicon.ico"  # A path to a favicon image
+  google_analytics_id: G-X3F2TFHCXV
 
 parse:
   myst_enable_extensions:

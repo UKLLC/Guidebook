@@ -1,9 +1,9 @@
 # Geo indicators: England, Wales, Scotland and Northern Ireland
 
-> Last modified: 25 Jul 2024
+> Last modified: 06 Dec 2024
 
 ## Introduction
-This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries. 
+This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA11. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries. 
 
 ## CORE geo indicators
 
@@ -20,13 +20,12 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 |Temporal Extent|2011-2020|
 |Variables|15|
 |Observations|32,844|
---
 
 **2. Variables**
 
 |**Variable Group**|**Variable**|**Description**|**Source**|**Date range of data**|
 |:---:|:---:|:---:|:---:|:---:|
-|**Geographical**|granularity|Lower Super Output Area code (2011)|Office of National Statistics|2011|
+|**Geographical**|lsoa11cd_e|Lower Super Output Area code (2011)|Office of National Statistics|2011|
 |**Geographical**|country|Country within the United Kingdom|Office of National Statistics|2011|
 |**Geographical**|RGN11NM|Region within England|Office of National Statistics|2011|
 **Deprivation**|imd2029eng|English indices of deprivation 2019, presented as quintiles, 1=most deprived, 5=least deprived.|[GOV.UK](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019)|2019|
@@ -60,13 +59,12 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 |Temporal Extent|2011-2020|
 |Variables|15|
 |Observations|1909|
---
 
 
 **2. Variables**
 |**Variable Group**|**Variable**|**Description**|**Source**|**Date range of data**|
 |:---:|:---:|:---:|:---:|:---:|
-|**Geographical**|granularity|Lower Super Output Area code (2011)|Office of National Statistics|2011|
+|**Geographical**|lsoa11cd_e|Lower Super Output Area code (2011)|Office of National Statistics|2011|
 |**Geographical**|country|Country within the United Kingdom|Office of National Statistics|2011|
 |**Deprivation**|imd2019wal|Welsh Index of Multiple Deprivation 2019, presented as quintiles. 1= most deprived, 5= least deprived.|[GOV.WALES](https://www.gov.wales/welsh-index-multiple-deprivation)|2019|
 |**Deprivation**|imd2019wal_income|Welsh Index of Multiple Deprivation 2019, Income, presented as quintiles. 1= lowest income, 5= highest income.|[GOV.WALES](https://www.gov.wales/welsh-index-multiple-deprivation)|2019|
@@ -107,7 +105,7 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 |**Variable Group**|**Variable**|**Description**|**Source**|**Date range of data**|
 |:---:|:---:|:---:|:---:|:---:|
-|**Geographical**|granularity|Data Zones (2011)|GOV.UK|2011|
+|**Geographical**|dz11cd_e|Data Zones (2011)|GOV.UK|2011|
 |**Geographical**|country|Country within the United Kingdom|GOV.SCOT|2011|
 |**Deprivation**|imd2020scot|Scottish Index of Multiple Deprivation 2019, presented as quintiles. 1= most deprived, 5= least deprived.|[GOV.SCOT](https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/)|2020|
 |**Deprivation**|imd2020scot_income|Scottish Index of Multiple Deprivation 2019, Income, presented as quintiles. 1= lowest income, 5= highest income.|[GOV.SCOT](https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/)|2020|
@@ -146,7 +144,7 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 |**Variable Group**|**Variable**|**Description**|**Source**|**Date range of data**|
 |:---:|:---:|:---:|:---:|:---:|
-|**Geographical**|granularity|Super Output Areas (2011)|[NISRA](https://www.nisra.gov.uk/support/output-geography-census-2011/super-output-areas)|2011|
+|**Geographical**|soa11cd_e|Super Output Areas (2011)|[NISRA](https://www.nisra.gov.uk/support/output-geography-census-2011/super-output-areas)|2011|
 |**Geographical**|country|Country within the United Kingdom|[NISRA](https://www.nisra.gov.uk/support/output-geography-census-2011/super-output-areas)|2011|
 |**Deprivation**|imd2017ir|Northern Ireland Multiple Deprivation Measure 2017, presented as quintiles. 1= most deprived, 5= least deprived.|[NISRA](https://www.nisra.gov.uk/statistics/deprivation/northern-ireland-multiple-deprivation-measure-2017-nimdm2017)|2017|
 |**Deprivation**|imd2017ir_income|Northern Ireland Multiple Deprivation Measure 2017, Income, presented as quintiles. 1= lowest income, 5= highest income.|[NISRA](https://www.nisra.gov.uk/statistics/deprivation/northern-ireland-multiple-deprivation-measure-2017-nimdm2017)|2017|
@@ -170,19 +168,26 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 
 ## Data Linkage
+England, Wales, Scotland and Ireland each have their own geo indicator dataset.
+
+To link LLC_XXXX.CORE_nhsd_lsoa11_v0000_YYYYMMDD with
+LLC_XXXX.CORE_UK_geo_indicators_england_v0000_YYYYMMDD 
+LLC_XXXX.CORE_UK_geo_indicators_wales_v0000_YYYYMMDD 
+LLC_XXXX.CORE_UK_geo_indicators_scotland_v0000_YYYYMMDD 
+LLC_XXXX.CORE_UK_geo_indicators_northern_ireland_v0000_YYYYMMDD:
 
 To link LLC_XXXX.CORE_nhsd_lsoa11_v0000_YYYYMMDD with 
-LLC_XXXX.CORE_lsoa11_geo_indicators_v0000_YYYYMMDD:
+LLC_XXXX.CORE_UK_geo_indicators_england_v0000_YYYYMMDD:
 
 1. Retrieve data from database via helper syntax
-2. Link datasets on the *geo_unit* field. Example of STATA syntax:
+2. Link datasets on the *lsoa11cd_e* field. Example of STATA syntax linking to England:
 
 *load NHSD *lsoa11* dataset
 
 *use* “S:\LLC_9999\data\stata_w_labs\CORE_nhsd_*lsoa11*_v0001_20221217.dta”, clear
 
-*merge m:* 1 geo_unit using
-“S:\LLC_9999\data\stata_w_labs\CORE_geo_indicators_nhsd_v0002_20240802.dta”
+*merge m:* 1 lsoa11cd_e using
+“S:\LLC_9999\data\stata_w_labs\CORE_UK_geo_indicators_england_v0001_20240614.dta”
 *drop geographical units not linked to any participant health record  
 *drop if* _merge ** 2
 

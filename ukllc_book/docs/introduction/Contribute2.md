@@ -1,7 +1,9 @@
-
 # Contribute to UK LLC Guidebook 
 
->Last modified: 06 Sep 2024
+We invite researchers to work **collaboratively** on UK LLC Guidebook to build content and maximise use - see instructions below.
+
+
+
 
 We welcome all contributions to UK LLC Guidebook.
 
@@ -26,4 +28,3 @@ We suggest you read the summary below and then, if need be, follow the more deta
 6. When you're happy with the changes you've made you then **prepare to submit a pull request** to UK LLC. Type 'git add .' in GitBash [Enter] and then type 'git commit -m " " (add a short description of the change between " "). Then type 'git push'. If the push doesn't work and there is a message saying the current branch has no upstream branch, copy the suggested text (git push --set-upstream origin 'File name') and [Enter]. 
 7. Go to your forked repo and **submit a pull request**. Click on 'Contribute' and then submit your request. 
 8. Your request will be **reviewed by UK LLC** and you will be notified by email of the outcome. 
-

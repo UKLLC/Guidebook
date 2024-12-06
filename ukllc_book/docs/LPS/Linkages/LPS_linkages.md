@@ -1,6 +1,6 @@
 # Linkages permitted by each LPS
 
->Last modified: 03 Sep 2024
+>Last modified: 29 Oct 2024
 
 The table below summarises the **linkages permitted** by each LPS to **health**, **non-health administrative** and **geospatial datasets**.
 
@@ -12,7 +12,7 @@ The table below summarises the **linkages permitted** by each LPS to **health**,
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**AIRWAVE**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 |**ALSPAC**|&check;|&check;|TBC|&check;|&check;|&check;|&check;|&check;|
-|**BCS70**|&check;|&check;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
+|**BCS70**|&check;|&check;|TBC|&check;|&cross;|&cross;|&check;|&check;|
 |**BIB**|&check;|&check;|TBC|&check;|&check;|&check;|&cross;|&cross;|
 |**ELSA**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&check;|&check;|
 |**EPICN**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
@@ -21,7 +21,7 @@ The table below summarises the **linkages permitted** by each LPS to **health**,
 |**GENSCOT**|&cross;|&cross;|TBC|&check;|&check;|&cross;|&cross;|&cross;|
 |**GLAD**|&check;|&check;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 |**MCS**|&check;|&check;|TBC|&check;|&cross;|&check;|&check;|&check;|
-|**NCDS58**|&check;|&check;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
+|**NCDS58**|&check;|&check;|TBC|&check;|&cross;|&cross;|&check;|&check;|
 |**NEXTSTEP**|&check;|&check;|TBC|&check;|&cross;|&check;|&check;|&check;|
 |**NICOLA**|&cross;|&cross;|TBC|&cross;|&cross;|&cross;|&cross;|&cross;|
 |**NIHRBIO_COPING**|&check;|&check;|TBC|&check;|&check;|&cross;|&cross;|&cross;|

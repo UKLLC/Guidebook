@@ -165,8 +165,14 @@ class DocHelper:
         total = cnt.sum(numeric_only = True).iloc[0]
         # drop temp column
         cnt = cnt.drop(columns = ['count1'])
+        # sort header offset
         # add total to df and return
-        cnt.loc[len(cnt)] = ['total', total]
+        cnt.loc[len(cnt)] = ['TOTAL', total]
+        # rename
+        cnt = cnt.rename(columns = {'cohort': 'LPS', 'count': 'Participant count'})
+        # get rid of index and offset
+        #cnt = cnt.reset_index(drop=True)
+        cnt.set_index('LPS')
         return cnt
     
     def get_dataset_info(self):
@@ -181,12 +187,43 @@ class DocHelper:
 
         # build query (like used to pickup reg dataset which have date)
         q = '''
-            SELECT * FROM nhs_england_datasets_info 
+            SELECT * FROM table_nhs_england_datasets_guidebook 
             where "Name of dataset in TRE" = \'{}\''''.format(self.data)
 
         # pull data from database and return
         cnxn = self.connect()
 
         df = pd.read_sql(q, cnxn)
+
+        # transpose and rename columns
+        df = df.T
+        df = df.rename(columns = {0 : 'Dataset-specific information'}).rename_axis('Dataset descriptor', axis=1)
         
+        return df
+    
+    def style_table(self, df):
+        '''
+
+        Parameters
+        ----------
+        df : dataframe
+            df to be styled
+
+        Returns
+        -------
+        df : dataframe
+            df with styling applied 
+
+        '''
+
+        # apply styling 
+        df = df.style.set_table_attributes('style="font-size: 14px"')\
+        .set_table_styles([dict(selector='th', props=[('text-align', 'left'),])])\
+        .set_properties(**{'text-align': 'left'})
+
+        if 'LPS' in df.columns:
+            df.set_properties(subset = ['LPS'], **{'font-weight' : 'bold'})\
+            .set_properties(subset = df.index[-1], **{'font-weight' : 'bold'})
+            df.hide()
+
         return df
