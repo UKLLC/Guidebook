@@ -122,6 +122,8 @@ parts:
     - title: Geospatial datasets
       file: docs/linked_geo_data/linkage_and_processing.md
       sections:
+        - title: Access to Healthy Assets and Hazards (AHAH)
+          file: docs/linked_geo_data/datasets/AHAH.md
         - title: Air pollution
           file: docs/linked_geo_data/datasets/air_pollution_pm25_no2.md
     - title: Core datasets
