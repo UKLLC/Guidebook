@@ -119,8 +119,8 @@ parts:
           file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
         - title: Other datasets
           file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md
-    - title: Geospatial datasets
-      file: docs/linked_geo_data/linkage_and_processing.md
+    - title: Place-based datasets
+      file: docs/linked_geo_data/Place_based_intro.md
       sections:
         - title: Access to Healthy Assets and Hazards (AHAH)
           file: docs/linked_geo_data/datasets/AHAH.md
