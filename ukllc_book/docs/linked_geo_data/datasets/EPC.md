@@ -58,4 +58,6 @@
 
 </details>
 
+
+
 The Energy Performance Certificate data is provided by the Department for Levelling Up, Housing & Communities and the EPC data processed by UK LLC (non-address data) is licensed under the Open Government Licence v3.0, which includes Ordnance Survey UPRNs. 
