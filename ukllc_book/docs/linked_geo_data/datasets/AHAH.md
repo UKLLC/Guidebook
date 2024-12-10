@@ -1,6 +1,6 @@
 # Access to Healthy Assets and Hazards (AHAH)
 
-> Last modified: 09 Dec 2024
+> Last modified: 10 Dec 2024
 
 ## Introduction
 This file can be linked to the health record dataset, CORE_NHSD_LSOA11.
@@ -47,6 +47,8 @@ AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensi
 |Retail|ah3r|Retail Domain Score|CDRC|2022|
 |Healthy Assets and Hazards|ahah_index|Access to Healthy Assets and Hazards index score|CDRC|2022|
 
+</details>
+
 <details>
 <summary>Scotland</summary>
 
@@ -60,7 +62,8 @@ AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensi
 |Temporal Extent|2022|
 |Variables|21|
 |Observations|6,976|
---
+
+**2. Variables**
 |**Variable Group**|**Variable**|**Description**|**Source**|**Date range of data**|
 |:---:|:---:|:---:|:---:|:---:|
 |Geographical|lsoa11|Data Zones|gov.scot|2011|
@@ -83,6 +86,9 @@ AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensi
 |Air|ah3e|Air quality Domain Score|CDRC|2022|
 |Retail|ah3r|Retail Domain Score|CDRC|2022|
 |Healthy Assets and Hazards|ahah_index|Access to Healthy Assets and Hazards index score|CDRC|2022|
+
+</details>
+
 
 ## Data Linkage
 England/Wales and Scotland each have their own geo indicator dataset, since England and Wales use the geographic unit of Lower Super Output Areas (LSOA) and Scotland uses Data Zones (DZ).
