@@ -18,7 +18,7 @@ Place-based data can be linked using study-provided address data or linked area 
 | Noise                   | Noise exposure (UoL)   | Built Environment       | Noise Exposure               | 2010-2019                         | University of Leicester  | Annually           |
 | Greenspace              | Greenspace (UoL)       | Natural Environment    |                           | 2018                        | University of Leicester  | Annually             |
 | AHAH                    | Access to Healthy Assets and Hazards | Built and Natural Environment | Health                  | 2022                        | Consumer Data Research Centre  | Every few years             |
-| EPC                     | Energy Performance Certificates | Built Environment             | Housing                | 2007-2024                       | Department for Levelling Up, Housing and Communities (DLUHC)  | Annually             |
+| EPC                     | Energy Performance Certificates | Built Environment             | Housing                | 2008-2024                       | Department for Levelling Up, Housing and Communities (DLUHC)  | Annually             |
 
 ### Place-based Permitted Linkages
 

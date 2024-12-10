@@ -126,6 +126,9 @@ parts:
           file: docs/linked_geo_data/datasets/AHAH.md
         - title: Air pollution
           file: docs/linked_geo_data/datasets/air_pollution_pm25_no2.md
+        - title: Energy Performance Certificates
+          file: docs/linked_geo_data/datasets/EPC.md
+
     - title: Core datasets
       file: docs/core/core_summary.md
       sections:
