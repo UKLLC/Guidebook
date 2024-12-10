@@ -1,8 +1,8 @@
 # Air pollution datasets
->Last modified: 05 Jul 2024
+>Last modified: 10 Dec 2024
 
 
-The air pollution datasets contain continuous annual-average **nitrogen dioxide (NO2)** and **fine particulate matter (PM2.5)** exposure data, covering the **years 2010-2019** for all residential address points where a UK LLC participant has permissions in place.
+The air pollution datasets modelled by University of Leicester/City St George's, University of London contain continuous annual-average **nitrogen dioxide (NO2)** and **fine particulate matter (PM2.5)** exposure data, covering the **years 2010-2019** for all residential address points where a UK LLC participant has permissions in place.
 
 ## Nitrogen dioxide (NO2)
 NO2 gas is mainly produced during combustion of fossil fuels. Short term exposure to elevated concentrations of **NO2 can have adverse health impacts** such as inflammation of the airways and increased susceptibility to respiratory infections and allergens. NO2 can exacerbate symptoms of those suffering from heart or lung conditions {cite}`GOVNO2`.
