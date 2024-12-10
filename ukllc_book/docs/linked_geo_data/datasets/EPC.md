@@ -12,14 +12,27 @@
 
 **1. Scale and Extent**
 
-|**Field**|**Value**|
-|:--:|:--:|
-|Geographical coverage|England and Wales|
-|Data Provider|Department for Levelling Up, Housing & Communities|
-|Geographical Unit|UPRN|
-|Temporal Extent|2008-2024|
-|Variables|54|
-|Observations||
+| **Dataset descriptor**                            | **Dataset-specific information**                                                                                                                                                                            |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name of dataset in TRE**                        | EPC                                                                                                                                                                                                            |
+| **Other name**                                    | Domestic Energy Performance Certificates Data                                                                                                                                                                |
+| **Owner**                                         | Department for Levelling Up, Housing and Communities (DLUHC)                                                                                                                                                 |
+| **Geographical coverage**                         | England and Wales                                                                                                                                                                                             |
+| **Temporal coverage**                             | 2008-2024                                                                                                                                                                                                     |
+| **TRE temporal coverage**                         | 2008-2024                                                                                                                                                                                                     |
+| **Frequency of update**                           | Yearly                                                                                                                                                                                                         |
+| **Date of last extract**                          | None                                                                                                                                                                                                           |
+| **Keywords**                                      | Energy, property type, environmental impact, emissions                                                                                                                                                      |
+| **Short description**                             | An Energy Performance Certificate (EPC) provides information on the energy efficiency of a building. Since 2007, an EPC is required when a building is constructed, sold, or let, and it is valid for 10 years. |
+| **DOI**                                           | None                                                                                                                                                                                                           |
+| **Data resolution**                               | UPRN (Unique Property Reference Number)                                                                                                                                                                      |
+| **Number of variables**                           | 1                                                                                                                                                                                                              |
+| **Number of participants**                        | None                                                                                                                                                                                                           |
+| **Number of observations**                        | None                                                                                                                                                                                                           |
+| **Version**                                       | None                                                                                                                                                                                                           |
+| **Key link**                                      | [EPC Data Link](https://epc.opendatacommunities.org/login)                                                                                                                                                   |
+| **Specific restrictions to data use**             | None                                                                                                                                                                                                           |
+
 
 **2. Variables**
 | **Variable Group**       | **Variable**                      | **Description**                                                                                                                                                                 | **Source**                                              | **Date Range of Data**        |
