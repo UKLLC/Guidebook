@@ -1,6 +1,6 @@
 # Geo indicators: England, Wales, Scotland and Northern Ireland
 
-> Last modified: 06 Dec 2024
+> Last modified: 10 Dec 2024
 
 ## Introduction
 This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA11. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries. 
@@ -12,14 +12,27 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 **1. Scale and Extent**
 
-|**Field**|**Value**|
-|:--:|:--:|
-|Geographical coverage|England|
-|Data Provider|Office of National Statistics, GOV.UK, Consumer Data Research Centre, My Society|
-|Geographical Unit|LSOA11|
-|Temporal Extent|2011-2020|
-|Variables|15|
-|Observations|32,844|
+| **Dataset descriptor**                              | **Dataset-specific information**                                                                                                                                                                                                                               |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name of dataset in TRE**                          | CORE_UK_geo_indicators_england_v0001_20240614                                                                                                                                                                                                                   |
+| **Other name**                                      | UK geo indicators England                                                                                                                                                                                                                                     |
+| **Owner**                                           | Office of National Statistics, GOV.UK, Consumer Data Research Centre, My Society                                                                                                                                                                                 |
+| **Geographical coverage**                           | England                                                                                                                                                                                                                                                       |
+| **Temporal coverage**                               | 2011-2020                                                                                                                                                                                                                                                     |
+| **TRE temporal coverage**                           | 2011-2020                                                                                                                                                                                                                                                     |
+| **Frequency of update**                             | Every few years                                                                                                                                                                                                                                                |
+| **Date of last extract**                            | None                                                                                                                                                                                                                                                          |
+| **Keywords**                                        | Deprivation, urban, rural, population estimate                                                                                                                                                                                                                   |
+| **Short description**                               | This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries.  |
+| **DOI**                                             | None                                                                                                                                                                                                                                                          |
+| **Data resolution**                                 | Lower Super Output Area code (2011)                                                                                                                                                                                                                           |
+| **Number of variables**                             | 15                                                                                                                                                                                                                                                            |
+| **Number of participants**                          | None                                                                                                                                                                                                                                                          |
+| **Number of observations**                          | 32,844                                                                                                                                                                                                                                                        |
+| **Version**                                         | 1                                                                                                                                                                                                                                                             |
+| **Key link**                                        | [English Indices of Deprivation 2019](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019); [Link 2](https://data.cdrc.ac.uk/dataset/index-multiple-deprivation-imd); [Link 3](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates); [Link 4](https://www.gov.uk/government/statistics/2011-rural-urban-classification); [Link 5](https://pages.mysociety.org/uk_ruc/analysis/background_and_analysis.html) |
+| **Specific restrictions to data use**               | None                                                                                                                                                                                                                                                          |
+
 
 **2. Variables**
 
@@ -51,14 +64,27 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 **1. Scale and Extent**
 
-|**Field**|**Value**|
-|:--:|:--:|
-|Geographical coverage|Wales|
-|Data Provider|Office of National Statistics, GOV.WALES, Consumer Data Research Centre|
-|Geographical Unit|LSOA11|
-|Temporal Extent|2011-2020|
-|Variables|15|
-|Observations|1909|
+| **Dataset descriptor**                              | **Dataset-specific information**                                                                                                                                                                                                                               |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name of dataset in TRE**                          | CORE_UK_geo_indicators_wales_v0001_20240614                                                                                                                                                                                                                     |
+| **Other name**                                      | UK geo indicators Wales                                                                                                                                                                                                                                      |
+| **Owner**                                           | Office of National Statistics, GOV.UK, Consumer Data Research Centre, My Society                                                                                                                                                                                 |
+| **Geographical coverage**                           | Wales                                                                                                                                                                                                                                                         |
+| **Temporal coverage**                               | 2011-2020                                                                                                                                                                                                                                                     |
+| **TRE temporal coverage**                           | 2011-2020                                                                                                                                                                                                                                                     |
+| **Frequency of update**                             | Every few years                                                                                                                                                                                                                                                |
+| **Date of last extract**                            | None                                                                                                                                                                                                                                                          |
+| **Keywords**                                        | Deprivation, urban, rural, population estimate                                                                                                                                                                                                                   |
+| **Short description**                               | This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries.  |
+| **DOI**                                             | None                                                                                                                                                                                                                                                          |
+| **Data resolution**                                 | Lower Super Output Area code (2011)                                                                                                                                                                                                                           |
+| **Number of variables**                             | 15                                                                                                                                                                                                                                                            |
+| **Number of participants**                          | None                                                                                                                                                                                                                                                          |
+| **Number of observations**                          | 1,909                                                                                                                                                                                                                                                        |
+| **Version**                                         | 1                                                                                                                                                                                                                                                             |
+| **Key link**                                        | [Welsh Index of Multiple Deprivation](https://www.gov.wales/welsh-index-multiple-deprivation); [Link 2](https://data.cdrc.ac.uk/dataset/index-multiple-deprivation-imd); [Link 3](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates); [Link 4](https://www.gov.uk/government/statistics/2011-rural-urban-classification); [Link 5](https://pages.mysociety.org/uk_ruc/analysis/background_and_analysis.html) |
+| **Specific restrictions to data use**               | None                                                                                                                                                                                                                                                          |
+
 
 
 **2. Variables**
@@ -91,15 +117,27 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 **1. Scale and Extent**
 
-|**Field**|**Value**|
-|:--:|:--:|
-|Geographical coverage|Scotland|
-|Data Provider|GOV.UK, GOV.SCOT, Consumer Data Research Centre, National Records of Scotland|
-|Geographical Unit|Data Zones|
-|Temporal Extent|2011-2021|
-|Variables|14|
-|Observations|6976|
---
+| **Dataset descriptor**                              | **Dataset-specific information**                                                                                                                                                                                                                               |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name of dataset in TRE**                          | CORE_UK_geo_indicators_scotland_v0001_20240614                                                                                                                                                                                                                  |
+| **Other name**                                      | UK geo indicators Scotland                                                                                                                                                                                                                                    |
+| **Owner**                                           | Office of National Statistics, GOV.UK, Consumer Data Research Centre, My Society                                                                                                                                                                                 |
+| **Geographical coverage**                           | Scotland                                                                                                                                                                                                                                                       |
+| **Temporal coverage**                               | 2011-2020                                                                                                                                                                                                                                                     |
+| **TRE temporal coverage**                           | 2011-2020                                                                                                                                                                                                                                                     |
+| **Frequency of update**                             | Every few years                                                                                                                                                                                                                                                |
+| **Date of last extract**                            | None                                                                                                                                                                                                                                                          |
+| **Keywords**                                        | Deprivation, urban, rural, population estimate                                                                                                                                                                                                                   |
+| **Short description**                               | This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries.  |
+| **DOI**                                             | None                                                                                                                                                                                                                                                          |
+| **Data resolution**                                 | Data Zones (2011)                                                                                                                                                                                                                                             |
+| **Number of variables**                             | 14                                                                                                                                                                                                                                                            |
+| **Number of participants**                          | None                                                                                                                                                                                                                                                          |
+| **Number of observations**                          | 6,976                                                                                                                                                                                                                                                        |
+| **Version**                                         | 1                                                                                                                                                                                                                                                             |
+| **Key link**                                        | [Scottish Index of Multiple Deprivation 2020](https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/); [Link 2](https://data.cdrc.ac.uk/dataset/index-multiple-deprivation-imd); [Link 3](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/mid-year-population-estimates/mid-2021); [Link 4](https://www.gov.scot/publications/scottish-government-urban-rural-classification-2020/pages/3/); [Link 5](https://pages.mysociety.org/uk_ruc/analysis/background_and_analysis.html) |
+| **Specific restrictions to data use**               | None                                                                                                                                                                                                                                                          |
+
 
 **2. Variables**
 
@@ -130,15 +168,27 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 **1. Scale and Extent**
 
-|**Field**|**Value**|
-|:--:|:--:|
-|Geographical coverage|Northern Ireland|
-|Data Provider|Northern Ireland Statistics and Research Agency, Consumer Data Research Centre|
-|Geographical Unit|SOA|
-|Temporal Extent|2011-2020|
-|Variables|14|
-|Observations|890|
---
+| **Dataset descriptor**                              | **Dataset-specific information**                                                                                                                                                                                                                               |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name of dataset in TRE**                          | CORE_UK_geo_indicators_northern_ireland_v0001_20240614                                                                                                                                                                                                                     |
+| **Other name**                                      | UK geo indicators Northern Ireland                                                                                                                                                                                                                                      |
+| **Owner**                                           | Office of National Statistics, GOV.UK, Consumer Data Research Centre, My Society                                                                                                                                                                                 |
+| **Geographical coverage**                           | Northern Ireland                                                                                                                                                                                                                                                         |
+| **Temporal coverage**                               | 2011-2020                                                                                                                                                                                                                                                     |
+| **TRE temporal coverage**                           | 2011-2020                                                                                                                                                                                                                                                     |
+| **Frequency of update**                             | Every few years                                                                                                                                                                                                                                                |
+| **Date of last extract**                            | None                                                                                                                                                                                                                                                          |
+| **Keywords**                                        | Deprivation, urban, rural, population estimate                                                                                                                                                                                                                   |
+| **Short description**                               | This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries.  |
+| **DOI**                                             | None                                                                                                                                                                                                                                                          |
+| **Data resolution**                                 | Super Output Areas (2011)                                                                                                                                                                                                                                             |
+| **Number of variables**                             | 14                                                                                                                                                                                                                                                            |
+| **Number of participants**                          | None                                                                                                                                                                                                                                                          |
+| **Number of observations**                          | 890                                                                                                                                                                                                                                                        |
+| **Version**                                         | 1                                                                                                                                                                                                                                                             |
+| **Key link**                                        | [Super Output Areas](https://www.nisra.gov.uk/support/output-geography-census-2011/super-output-areas); [Link 2](https://data.cdrc.ac.uk/dataset/index-multiple-deprivation-imd); [Link 3](https://www.nisra.gov.uk/publications/2020-mid-year-population-estimates-small-areas); [Link 4](https://www.nisra.gov.uk/publications/settlement-2015-documentation); [Link 5](https://pages.mysociety.org/uk_ruc/analysis/background_and_analysis.html) |
+| **Specific restrictions to data use**               | None                                                                                                                                                                                                                                                          |
+
 
 **2. Variables**
 
