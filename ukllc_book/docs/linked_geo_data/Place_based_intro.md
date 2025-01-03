@@ -25,15 +25,16 @@ Place-based data can be linked using study-provided address data or linked area 
 UK LLC has 4 different place-based permission flags. 
 These include flags specifying if the study approves that:
 
-a.  'Geocoding_Permission' : address data can be geocoded to property, postcode level, or not at all; 
+**a.  'Geocoding_Permission':** address data can be geocoded to property, postcode level, or not at all; 
 
-b. 'Small_Area_Permission' : place-based information can be linked using encrypted LSOA and higher-level indicators originating from linked sources;
+**b. 'Small_Area_Permission':** place-based information can be linked using encrypted LSOA and higher-level indicators originating from linked sources;
 
-c. 'Environment_Permission' : LLC can generally link different sources of natural and built environment subject to prior notification via Vanguard/email; 
+**c. 'Environment_Permission':** LLC can generally link different sources of natural and built environment subject to prior notification via Vanguard/email; 
 
-d. 'Property_Level_Permission' : LLC can generally link different sources of property-level data subject to prior-notification to each LPS.  
+**d. 'Property_Level_Permission':** LLC can generally link different sources of property-level data subject to prior-notification to each LPS.  
 
-Example permissions for specific datasets: 
+## Example permissions for specific datasets
+
 *Please note: In order to link to datasets relating to the built and natural environment, permission flag C is required alongside an additional permission flag(s) to outline which geographic level you would like to link at. To link at Lower Super Output Area/equivalent also select permission flag B. If you would like to link to environmental datasets at property level, select permission flags A (geocoding) and D (property level).*
 
 · Air pollution (modelled by University of Leicester): A, C, D, Leicester geocodes the addresses and then allocates nationally modelled spatial exposure estimates.
