@@ -29,6 +29,8 @@ parts:
               file: docs/introduction/Sample/freezes/freeze8.ipynb
             - title: Freeze 9 | Aug 2024
               file: docs/introduction/Sample/freezes/freeze9.ipynb 
+            - title: Freeze 10 | Nov 2024
+              file: docs/introduction/Sample/freezes/freeze10.ipynb 
     - title: Contributing LPS
       file: docs/LPS/LPS_introduction.md
       sections:
