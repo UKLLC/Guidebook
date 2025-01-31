@@ -1,10 +1,12 @@
 # NHS England datasets
->Last modified: 19 Nov 2024
+>Last modified: 31 Jan 2025
 ## Introduction  
 UK LLC has a data sharing agreement with NHS England to flow extracts of the **19 datasets** listed in Table 1 into the UK LLC TRE. Although NHS England is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS England datasets.  
 
 **Note**: Each LPS participant can opt out of linkage to their NHS England records.  
-
+<br>
+> [**FAQs**](https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_nhse) about working with NHS England data in the UK LLC TRE
+<br>
 
 ## UK LLC documentation of NHS England datasets
 We have organised our NHS England data documentation into four tiers as explained in Figure 1. This initial guide provides an overview of the NHS England datasets held in the UK LLC TRE. The [**Processing and linkage guide**](../NHS_England/Linkage%20and%20processing/linkage_processing.md) explains how LPS participants are linked to their health records and how they can opt out. The [**Coded variables guide**](../NHS_England/Coding/coding_intro.md) details the various classification systems used in NHS England datasets. The five **overview dataset guides** align with the dataset primary domains in Table 1 and provide an introduction to the hospital datasets, the COVID datasets, the registration datasets, the mental health datasets and the 'other' datasets, which is a collection of datasets that do not fit neatly into one of the other four groups. Finally, there is a series of more detailed **individual dataset guides**.  
@@ -50,3 +52,5 @@ Note:
 <sup>4</sup>MORTALITY and DEMOGRAPHICS cover England and Wales.  
 <sup>5</sup>Within MHSDS we include its two precursors, the Mental Health and Learning Disabilities Data Set (MHLDDS) and the Mental Health Minimum Data Set (MHMDS).  
 DHSC: Department of Health and Social Care; NHSE: NHS England; ONS: Office for National Statistics  
+<br>
+> [**FAQs**](https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_nhse) about working with NHS England data in the UK LLC TRE

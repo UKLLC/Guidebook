@@ -1,6 +1,6 @@
 # Discover LPS data
 
->Last modified: 03 Sep 2024
+>Last modified: 31 Jan 2025
 
 ## Introduction
 See the [**LPS in the UK LLC partnership guide**](../LPS_introduction.md) for a list of all the LPS that contribute data to the UK LLC TRE. 
@@ -9,6 +9,10 @@ See the [**LPS in the UK LLC partnership guide**](../LPS_introduction.md) for a 
 
 ## Discover LPS data in the UK LLC TRE
 [**UK LLC Explore**](https://explore.ukllc.ac.uk/) provides an overview of each LPS and includes details about every **LPS dataset** held by UK LLC (variable names, labels and values). UK LLC Explore also allows applicants to **specify their data request** so they can  submit it alongside their application to access data in the UK LLC TRE. The [**Permitted linkages guide**](../Linkages/LPS_linkages.md) summarises which LPS are linked to which routine records.
+<br>
+<br>
+> [**FAQs**](https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_lps) about working with LPS data in the UK LLC TRE
+<br>
 
 ## Discover additional LPS data
 Not all partner LPS have uploaded all their data into the UK LLC TRE yet. You can find information about the total data held by LPS by searching LPS documentation resources (see [**UK LLC Explore**](https://explore.ukllc.ac.uk/) for links). You may also find the following **discovery tools** useful:
@@ -18,3 +22,6 @@ Not all partner LPS have uploaded all their data into the UK LLC TRE yet. You ca
 - [**UK Data Service**](https://ukdataservice.ac.uk/): this catalogue contains LPS-produced documentation for the deposited data, including what data was collected, how it was collected and how it was subsequently quality assessed and processed. **When this is useful**: to understand how LPS collected and processed their data. **Coverage**: eight UK LLC partner LPS (BCS70, ELSA, Millennium Cohort, NCDS58, Next Steps, NHSD46, NICOLA, Understanding Society).
 - [**HDR UK Gateway**](https://www.healthdatagateway.org/): this database provides metadata about LPS and also about linked routine records, particularly the different NHS datasets. **When this is useful**: for signposting the availability of LPS datasets and to provide links to more detailed documentation. **Coverage**: many UK LLC partner LPS have individual Gateway entries and these are linked to from the [**UK LLC entry**](https://web.www.healthdatagateway.org/collection/1952103092377484?_gl=1*biqd59*_ga*MTAxMDkxMDcwMS4xNjk0MDA5NDE4*_ga_GJ2NS0NB4W*MTcyNTM3Mjg1OC4xOS4xLjE3MjUzNzI4ODYuMzIuMC4w). The metadata tends to be at the LPS level rather than the dataset level.
 - [**Harmony**](https://harmonydata.ac.uk/): this AI-driven tool enables users to upload lists of LPS variables (e.g. PDFs or Excel spreadsheets) and to identify which questions are similar within the LPS over time or across LPS. It facilitates, but does not conduct, data harmonisation. **When this is useful**: to rapidly and automatically identify potentially comparable variables. **Coverage**: Harmony works for any metadata and is not restricted to any specific LPS.
+<br>
+<br>
+> [**FAQs**](https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_lps) about working with LPS data in the UK LLC TRE
