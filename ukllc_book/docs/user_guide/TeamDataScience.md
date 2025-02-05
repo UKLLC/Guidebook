@@ -1,5 +1,5 @@
 # Using Git
->Last modified: 18 Jun 2024
+>Last modified: 05 Feb 2025
 
 Click on the YouTube link below for a video guide (5 minutes). Alternatively, scroll down to follow the written step-by-step instructions. 
 
@@ -85,7 +85,7 @@ Once you have this, in Git BASH type: git remote add origin #insertProjectPath#:
 ## Adding syntax & documentation to ReadAll GitLab and external GitHub
 **Note**: Failure to make reusable research outputs available will risk future access to the resource.
 ### File outs
-See the [**Moving files in and out guide**](5.MovingFilesInAndOut.md) to understand how to submit a syntax or documentation file out for review. 
+See the [**Moving files in and out guide**](MovingFilesInAndOut.md) to understand how to submit a syntax or documentation file out for review. 
 
 * Documentation must be sufficiently detailed for other researchers to understand the syntax.  
 * Content of the syntax and documentation must not increase identifiability risk of UK LLC participants.  

@@ -1,8 +1,8 @@
 # Publishing or presenting your research
->Last modified: 20 Dec 2024
+>Last modified: 05 Feb 2025
 
 ## Key messages
-1. Safeguarding the **anonymity** of LPS participants is of **paramount importance to UK LLC**. Researchers must only include **data in papers/presentations** that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](5.MovingFilesInAndOut.md).
+1. Safeguarding the **anonymity** of LPS participants is of **paramount importance to UK LLC**. Researchers must only include **data in papers/presentations** that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](MovingFilesInAndOut.md).
 
 3. **All papers and similar outputs** must be **shared with UK LLC for review** prior to submission for publication.
 

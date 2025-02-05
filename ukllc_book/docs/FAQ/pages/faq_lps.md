@@ -1,5 +1,5 @@
 # Working with LPS data
->Last modified: 20 Nov 2024
+>Last modified: 05 Feb 2025
 
 <details>
 <summary>Why are there duplicate study IDs in my LPS dataset?</summary>
@@ -65,5 +65,5 @@ Work is ongoing to create a ‘true’ individual-level ID in the UK LLC TRE. Th
 <details>
 <summary>How can I request additional LPS data for my project?</summary>
 
-Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](https://guidebook.ukllc.ac.uk/docs/user_guide/6.requestinganamendment)  requires a different level of review before being approved. 
+Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>

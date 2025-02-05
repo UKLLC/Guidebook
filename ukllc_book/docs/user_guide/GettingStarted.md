@@ -1,5 +1,5 @@
 # Getting started
->Last modified: 18 Jun 2024
+>Last modified: 05 Feb 2025
 
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions. 
 
@@ -51,7 +51,7 @@ The helper scripts (python, R, Stata) use this data source to pull the relevant 
 A list of your database views can be found in the ‘**available_views**’ sub-folder of your project folder.
 
 ## Metadata
-All metadata are provided as database views in schemas accessible to everyone in the TRE. Metadata are split into **value labels** called ‘VALUE.all_values’ and **variable labels** called ‘DESCS.all_descriptions’. Using the variables ‘table_name’ and ‘TABLE_SCHEMA’, metadata can be linked to your data. Like all data, metadata can be viewed, queried and linked to your data using different software packages - see [**Available software guide**](3.UsingSoftware.md).
+All metadata are provided as database views in schemas accessible to everyone in the TRE. Metadata are split into **value labels** called ‘VALUE.all_values’ and **variable labels** called ‘DESCS.all_descriptions’. Using the variables ‘table_name’ and ‘TABLE_SCHEMA’, metadata can be linked to your data. Like all data, metadata can be viewed, queried and linked to your data using different software packages - see [**Available software guide**](UsingSoftware.md).
 
 Value and variable labels are available for LPS data and the majority of NHS England data. NHS England metadata are primarily sourced from an NHS metadata API, but there are gaps, which we will fill from alternative sources. In the interim, please use: [**https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard**](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard).
 

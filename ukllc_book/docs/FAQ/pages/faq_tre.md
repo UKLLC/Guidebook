@@ -1,5 +1,5 @@
 # The Trusted Research Environment (TRE)
->Last modified: 20 Nov 2024
+>Last modified: 05 Feb 2025
 
 **Accessing the TRE**
 <br>
@@ -30,7 +30,7 @@ Some users may experience a blank screen after logging in. They may also see a m
   <details>
 <summary>How do I extend my access to the TRE?</summary>
 
-To extend access beyond the agreed project end date, please submit an amendment to the UK LLC Access team. Information on how to submit an amendment is [**here**](https://guidebook.ukllc.ac.uk/docs/user_guide/6.requestinganamendment).
+To extend access beyond the agreed project end date, please submit an amendment to the UK LLC Access team. Information on how to submit an amendment is [**here**](../../user_guide/RequestingAnAmendment.md).
 </details>
 
 <br>
@@ -58,19 +58,19 @@ If you inadvertently delete or overwrite a file you can restore a previous versi
 <details>
 <summary>What happens if I move organisation while working on a project in the TRE?</summary>
 
-You must submit an amendment to notify UK LLC of a change in employer. Details of how to submit an amendment are available [**here**](https://guidebook.ukllc.ac.uk/docs/user_guide/6.requestinganamendment).
+You must submit an amendment to notify UK LLC of a change in employer. Details of how to submit an amendment are available [**here**](../../user_guide/RequestingAnAmendment.md).
 </details>
 
 <details>
 <summary>How do I add a researcher to an existing project in the TRE?</summary>
 
-You must submit an amendment providing details of the new researcher so UK LLC can check whether they and their organisation meet UK LLC's [**access requirements**](https://ukllc.ac.uk/who-can-apply-to-access-ukllc-tre). Details of how to submit an amendment are available [**here**](https://guidebook.ukllc.ac.uk/docs/user_guide/6.requestinganamendment).
+You must submit an amendment providing details of the new researcher so UK LLC can check whether they and their organisation meet UK LLC's [**access requirements**](https://ukllc.ac.uk/who-can-apply-to-access-ukllc-tre). Details of how to submit an amendment are available [**here**](../../user_guide/RequestingAnAmendment.md).
 </details>
 
 <details>
 <summary>What should I do when a researcher leaves a project?</summary>
 
-You must notify UK LLC when a researcher leaves a project so their access to the TRE can be terminated. This can be done by submitting an [**amendment**](https://guidebook.ukllc.ac.uk/docs/user_guide/6.requestinganamendment).
+You must notify UK LLC when a researcher leaves a project so their access to the TRE can be terminated. This can be done by submitting an [**amendment**](../../user_guide/RequestingAnAmendment.md).
 </details>
 <br>
 
@@ -136,5 +136,5 @@ No – due to the variability of statistical disclosure control (SDC) thresholds
 <details>
 <summary>How can I request additional data for my project in the TRE?</summary>
 
-Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](https://guidebook.ukllc.ac.uk/docs/user_guide/6.requestinganamendment)  requires a different level of review before being approved. 
+Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>

@@ -1,5 +1,5 @@
 # Rules for researchers
->Last modified: 18 Jun 2024
+>Last modified: 05 Feb 2025
 
 ## Introduction
 Below is a summary of the conditions **researchers agree to** when accessing data in the UK LLC TRE. These include, but are not limited to, maintenance of confidentiality, IT equipment and reporting breaches or risks. This is followed by a summary of the **penalties** researchers may be subject to if they breach UK LLC conditions.
@@ -38,7 +38,7 @@ All your analyses must lie within the **approved scope of your project** and adh
 If you have **any doubt** regarding the **scope** and **permissions** of your project, you must contact the **UK LLC Applications Team** before proceeding further: [**access@ukllc.ac.uk**](mailto:access@ukllc.ac.uk). 
 
 ### 5. Reproducible research
-You must make your **project workings** (including syntax/scripts, code lists and other relevant documentation) **accessible** to other researchers. The documentation must be sufficient for future users to understand and replicate your analyses - [**see the Using Git guide**](4.TeamDataScience.md).
+You must make your **project workings** (including syntax/scripts, code lists and other relevant documentation) **accessible** to other researchers. The documentation must be sufficient for future users to understand and replicate your analyses - [**see the Using Git guide**](TeamDataScience.md).
 
 ### 6. Audit
 You agree to your ONS Approved Researcher accreditation and the scope and permissions of your approved project being **audited** and you must provide **full cooperation**. All auditors commit to the confidentiality of the project. UK LLC Data Team staff will examine your **syntax files** and check that the variables you are accessing and including in functions, tabulations and visualisations **align** with your project documentation. If any potential **non-compliances** are identified, the Data Team will contact the **lead researcher** on the project for further information and copy in the UK LLC Information Security Team (IST). If any non-compliances are identified, the IST will consider whether an Information Security Case Report should be completed. If required, the IST will **escalate** non-compliances to the **UK Statistics Authority’s Research Accreditation Panel (RAP)** - see the [**UK LLC Audit Policy for further details**](https://ukllc.ac.uk/governance).
@@ -58,9 +58,9 @@ You should also  **notify UK LLC** about **risks** and any **weaknesses** you id
 
 
 ### 8. Presenting/publishing your results
-You must only include data in papers/presentations that have been approved through UK LLC's output review process - [**see Moving files in and out guide**](5.MovingFilesInAndOut.md).
+You must only include data in papers/presentations that have been approved through UK LLC's output review process - [**see Moving files in and out guide**](MovingFilesInAndOut.md).
 
-You must share all papers and similar outputs with UK LLC for review at least two weeks prior to submission for publication - [**see Publishing or presenting your research guide**](8.PublishingYourResearch.md).
+You must share all papers and similar outputs with UK LLC for review at least two weeks prior to submission for publication - [**see Publishing or presenting your research guide**](PublishingYourResearch.md).
 
 
 

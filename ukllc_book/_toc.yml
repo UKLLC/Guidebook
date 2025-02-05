@@ -49,6 +49,11 @@ parts:
           file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
         - title: Coded variables
           file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
+        - title: Primary care datasets
+          file: docs/linked_health_data/NHS_England/Primary_care_datasets/primary_intro.md
+          sections:
+            - title: GDPPR
+              file: docs/linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb
         - title: Hospital datasets
           file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
           sections:
@@ -77,8 +82,6 @@ parts:
               file: docs/linked_health_data/NHS_England/COVID datasets/CVS/CVS.ipynb
             - title: CVAR (vaccination)
               file: docs/linked_health_data/NHS_England/COVID datasets/CVAR/CVAR.ipynb
-            - title: GDPPR (primary care)
-              file: docs/linked_health_data/NHS_England/COVID datasets/GDPPR/GDPPR.ipynb
         - title: Registration datasets
           file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
           sections:
@@ -147,27 +150,27 @@ parts:
       file: docs/user_guide/Introduction.md
       sections:
         - title: Logging in 
-          file: docs/user_guide/1.LoggingIn.md
+          file: docs/user_guide/LoggingIn.md
         - title: Getting started
-          file: docs/user_guide/2.GettingStarted.md
+          file: docs/user_guide/GettingStarted.md
         - title: Available software
-          file: docs/user_guide/3.UsingSoftware.md
+          file: docs/user_guide/UsingSoftware.md
         - title: Using Git
-          file: docs/user_guide/4.TeamDataScience.md
+          file: docs/user_guide/TeamDataScience.md
         - title: Moving files in and out
-          file: docs/user_guide/5.MovingFilesInAndOut.md
+          file: docs/user_guide/MovingFilesInAndOut.md
         - title: Statistical Disclosure Control
-          file: docs/user_guide/6.SDC.md
+          file: docs/user_guide/SDC.md
         - title: Requesting an amendment
-          file: docs/user_guide/7.RequestingAnAmendment.md
+          file: docs/user_guide/RequestingAnAmendment.md
         - title: Finishing your project
-          file: docs/user_guide/8.FinishingYourProject.md
+          file: docs/user_guide/FinishingYourProject.md
         - title: Publishing your research
-          file: docs/user_guide/9.PublishingYourResearch.md
+          file: docs/user_guide/PublishingYourResearch.md
         - title: User support
-          file: docs/user_guide/10.UserSupport.md
+          file: docs/user_guide/UserSupport.md
         - title: Rules for researchers
-          file: docs/user_guide/11.RulesForResearchers.md
+          file: docs/user_guide/RulesForResearchers.md
     - title: FAQs
       file: docs/FAQ/faq_intro.md
       sections:
