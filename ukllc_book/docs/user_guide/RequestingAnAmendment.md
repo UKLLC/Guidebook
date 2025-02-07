@@ -1,5 +1,5 @@
 # Requesting an amendment
->Last modified: 18 Jun 2024
+>Last modified: 06 Feb 2025
 
 ## Types of amendments
 Amendments to projects fall into the following **five** categories:
@@ -10,16 +10,18 @@ Amendments to projects fall into the following **five** categories:
 5.	Change research question. 
 
 ## Apply for an amendment
-Amendments must come either from the **PI of the project** or the **PI must be copied in**.
-1. Download the appropriate amendment form from the [**Resources for Researchers SharePoint**](https://uob.sharepoint.com/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/Forms/AllItems.aspx?as=json&id=%2Fteams%2Fgrp%2DUKLLCResourcesforResearchers%2FShared%20Documents%2FGeneral&viewid=a09377b5%2Df072%2D4f89%2Db4d6%2De72a134bc7b8), which is accessible to all researchers active in the TRE.
-2. **Complete the form fully**, following the instructions detailed on each form.
-3. **Email** the completed form to the UK LLC Applications Team: [**access@ukllc.ac.uk**](mailto:access@ukllc.ac.uk). 
+1. Since February 2025 all amendments should be submitted via [**UK LLC Apply**](https://apply.ukllc.ac.uk/), UK LLC's online application management system. 
+2. **Log into your account** and choose the amendment type(s) you would like to apply for. 
+3. **Complete all sections**.
+4. Submit your amendment. 
+
+If you have any queries regarding amendments, email the UK LLC Applications Team: [**access@ukllc.ac.uk**](mailto:access@ukllc.ac.uk). 
 
 Your request will be reviewed by the UK LLC Applications Team and if you are requesting new data, input may also be sought from the **UK LLC Data Access Committee** (DAC) and individual **LPS DACs**.  
 
 Each **approved** amendment is indicated by an **increment to the letter** appended to the project reference number, e.g. llc_0006_a is the original approved application for project llc_0006 and llc_0006_b is the first approved amendment.
 
-UK LLC **informs the LPS** of all amendments to projects that involve their data and **informs the UK Statistics Authority** of amendments to projects that use the **Digital Economy Act** as their legal gateway to access administrative data.
+UK LLC **informs the LPS** of all amendments to projects that involve their data and **informs the UK Statistics Authority** of amendments to projects that use the **Digital Economy Act** as their legal gateway to access non-health administrative data.
 
 The **length of the approval process** varies depending on the **type** of amendment and the associated due diligence requirements.
 
