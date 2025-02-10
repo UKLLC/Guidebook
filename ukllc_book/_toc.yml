@@ -3,34 +3,32 @@ format: jb-book
 root: docs/welcome
 parts:
   - chapters:
-    - title: Introduction
-      file: docs/introduction/introduction.md
+    - title: Navigation tips
+      file: docs/navigation/navigation.md
       sections:
-        - title: Contribute to Guidebook
-          file: docs/introduction/Contribute/contribute.md
         - title: UK LLC sample
-          file: docs/introduction/Sample/UKLLC_sample.md
+          file: docs/navigation/Sample/UKLLC_sample.md
           sections:
             - title: Freeze 1 | Aug 2022
-              file: docs/introduction/Sample/freezes/freeze1.ipynb 
+              file: docs/navigation/Sample/freezes/freeze1.ipynb 
             - title: Freeze 2 | Nov 2022
-              file: docs/introduction/Sample/freezes/freeze2.ipynb
+              file: docs/navigation/Sample/freezes/freeze2.ipynb
             - title: Freeze 3 | Feb 2023
-              file: docs/introduction/Sample/freezes/freeze3.ipynb 
+              file: docs/navigation/Sample/freezes/freeze3.ipynb 
             - title: Freeze 4 | May 2023
-              file: docs/introduction/Sample/freezes/freeze4.ipynb
+              file: docs/navigation/Sample/freezes/freeze4.ipynb
             - title: Freeze 5 | Aug 2023
-              file: docs/introduction/Sample/freezes/freeze5.ipynb 
+              file: docs/navigation/Sample/freezes/freeze5.ipynb 
             - title: Freeze 6 | Nov 2023
-              file: docs/introduction/Sample/freezes/freeze6.ipynb
+              file: docs/navigation/Sample/freezes/freeze6.ipynb
             - title: Freeze 7 | Feb 2024
-              file: docs/introduction/Sample/freezes/freeze7.ipynb 
+              file: docs/navigation/Sample/freezes/freeze7.ipynb 
             - title: Freeze 8 | May 2024
-              file: docs/introduction/Sample/freezes/freeze8.ipynb
+              file: docs/navigation/Sample/freezes/freeze8.ipynb
             - title: Freeze 9 | Aug 2024
-              file: docs/introduction/Sample/freezes/freeze9.ipynb 
+              file: docs/navigation/Sample/freezes/freeze9.ipynb 
             - title: Freeze 10 | Nov 2024
-              file: docs/introduction/Sample/freezes/freeze10.ipynb 
+              file: docs/navigation/Sample/freezes/freeze10.ipynb 
     - title: Contributing LPS
       file: docs/LPS/LPS_introduction.md
       sections:
@@ -43,6 +41,8 @@ parts:
     - title: NHS England datasets
       file: docs/linked_health_data/NHS_England/NHSE_intro.md
       sections:
+        - title: Restrictions to use
+          file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
         - title: Longevity of datasets
           file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.md
         - title: Processing & linkage
@@ -171,6 +171,8 @@ parts:
           file: docs/user_guide/UserSupport.md
         - title: Rules for researchers
           file: docs/user_guide/RulesForResearchers.md
+        - title: Contribute to Guidebook
+          file: docs/user_guide/contribute.md
     - title: FAQs
       file: docs/FAQ/faq_intro.md
       sections:

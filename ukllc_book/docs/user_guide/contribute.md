@@ -1,6 +1,6 @@
 # Contribute to UK LLC Guidebook 
 
->Last modified: 30 Oct 2024
+>Last modified: 07 Feb 2025
 
 **We welcome all contributions to UK LLC Guidebook**.
 
@@ -9,8 +9,7 @@ As detailed in the flow diagram there are several steps that contributors must f
 
 
 
-<img src="../../images/Contributor_Guidebook2.jpg" width="900"/>
-
+<img src="../images/Contributor_Guidebook2.jpg" width="900"/>
 
 
 **Figure 1** How to contribute to UK LLC Guidebook using Git
