@@ -1,5 +1,5 @@
 # Working with NHS England data
->Last modified: 05 Feb 2025
+>Last modified: 07 Feb 2025
 
 <details>
 <summary>Does UK LLC check the accuracy of health records?</summary>
@@ -24,7 +24,15 @@ Variable labelling is primarily sourced from an NHS metadata API, but is not ful
 <details>
 <summary>What version of NHS E data was I provisioned?</summary>
 
-NHS E data provisioned to projects are locked to an extract. This is done using the extract_date variable found in the dataset. This is the date the data was extracted at NHS E. All projects are locked to an NHS quarterly extract as well as a fixed table, which controls permissions/consent. This is done based on time of first provision. This prevents participant numbers from fluctuating during the course of the project.
+NHS E data provisioned to projects are locked to an extract. This is done using the extract_date variable found in the dataset. This is the date the data was extracted at NHS E.  
+All projects are locked to an NHS quarterly extract as well as a fixed table, which controls permissions/consent. This is done based on time of first provision and prevents participant numbers from fluctuating during the course of the project. Each fixed table is logged as a quarterly [**'freeze'**](../../introduction/Sample/freezes/freeze1.ipynb). The freeze number, and freeze date, is provided in the 'documentation' folder in your TRE project space.
+</details>
+<br>
+<details>
+<summary>What medical codes are used in the NHS E data available in the TRE?</summary>
+
+The main clinical classifications mandated by NHS England are SNOMED CT, ICD-10 and OPCS-4.
+More information on codes used in Electronic Health Records (EHRs) is available here: [**Coded variables**](../../linked_health_data/NHS_England/Coding/coding_intro.md)
 </details>
 <br>
 <details>
