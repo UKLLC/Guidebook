@@ -1,15 +1,12 @@
-# Core datasets
+# Place-based core datasets
 
->Last modified: 25 Jul 2024
+>Last modified: 14 Feb 2025
 
 ## Overview
-UK LLC makes available a number of standard ‘**core**’ files with each project. These files contain information that enables researchers to understand their sample and define the denominator for their project. 
+UK LLC makes available a number of standard ‘**core**’ place-based files with each project. These files contain information that enables researchers to understand their sample and define the denominator for their project. 
 
-Currently the following datasets are available:
+Currently, the following place-based core datasets are available:
 
-* **Denominator file1**
-* **NHSD Presence**
-* **NHSD Derived indicator**
 * **NHSD LSOA11**
 * **LSOA11 geo indicators**
 * **Geo indicators: England, Wales, Scotland and Northern Ireland**
