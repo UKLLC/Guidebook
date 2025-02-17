@@ -1,5 +1,5 @@
 # Available software
->Last modified: 18 Jun 2024
+>Last modified: 17 Feb 2025
 
 UK LLC supports researchers in using their preferred software packages. The following packages are **pre-installed** in the UK LLC TRE: 
 * SQL Server Management Studio
@@ -112,7 +112,26 @@ To use the R helper:
 
 You are welcome to modify the 'r_label_helper.R' to suit your use case and to use the example syntax to apply labelling to your own subsets of tables.
 
+### Specifying the version of R within RStudio
+ Should you wish to change the version of R being used by RStudio. Ensure that if your library is setup for 4.1.3, you set R to 4.1.3 with either of the following methods, else pick the relevant option to your library.
 
+Change R within RStudio:
+
+1. Go to Tools > Global options
+2. Click 'Change...' under R version
+3. Click the 'Choose a specific version of R' option
+4. Select '[64-bit] C:/Program Files/R/R-4.1.3'
+5. Click Okay
+6. Click Apply
+
+Change R on launch of RStudio:
+
+Hold the CTRL key and double click the RStudio launcher, as shown below
+![alt text](image.png)
+
+Doing this will change the folder in which RStudio loads your library, as shown above, if you select 4.1.3, the library path will be P:\%USERNAME%\AppData\Roaming\R\4.1.3\Library
+
+For more information on using R and R studio in the TRE  visit the [SeRP guidance](https://ukserp.atlassian.net/wiki/spaces/HDK/pages/16712639/RStudio+and+R).
 
 ## 4. Stata
 ### Using the Stata helper
