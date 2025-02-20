@@ -2,13 +2,13 @@
 
 >Last modified: 20 Feb 2025
 
-FAQs about place-based data in the UK LLC TRE 
+> [FAQs](https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_geo) about place-based data in the UK LLC TRE 
 
 ## Flow of Place-based data into the UK LLC TRE 
 
 Flows of data from contributing Longitudinal Population Studies (LPS) and place-based data are conducted through a ‘split file’ protocol where the flow of LPS participants’ addresses (File 1s) is entirely separate from the flow of place-based datasets (File 2s) - see figure 1. Place-based datasets are updated at the frequency specified on the individual dataset level pages. 
 
-<img src="../images/Place-based data flow.jpg" width="600"/>
+<img src="../images/Place-based%20data%20flow.jpg" width="600"/>
 Figure 1 An overview of the flow of place-based data into the UK LLC TRE. 
 
 ## Processing and risk assessment for place-based data 
@@ -83,4 +83,4 @@ Example permissions for specific datasets:
 · Live Births: flag B. This dataset is at Local Authority level, which can be derived from routine NHS records. 
 </details>
 
-> FAQs about place-based data in the UK LLC TRE 
+> [FAQs](https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_geo) about place-based data in the UK LLC TRE 

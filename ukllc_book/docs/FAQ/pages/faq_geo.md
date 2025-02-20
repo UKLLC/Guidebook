@@ -68,7 +68,7 @@ UK LLC performs rigorous disclosure control checks before place-based data enter
 <details>
 <summary>LPS have to provide permissions at 4 levels, but what does this mean to me as a researcher?</summary>      
 
-Not every LPS has permissions for place-based linkages and the geographic unit of the permissions differs, i.e. address level vs. neighbourhood level. We will be adding more information about the geo linkages to future freezes 
+Not every LPS has [permissions for place-based linkages](https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages) and the geographic unit of the permissions differs, i.e. address level vs. neighbourhood level. We will be adding more information about the geo linkages to future freezes.
 </details>
  
 
