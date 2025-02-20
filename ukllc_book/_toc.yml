@@ -136,6 +136,8 @@ parts:
     - title: Place-based datasets
       file: docs/linked_geo_data/Place_based_intro.md
       sections:
+        - title: Processing & linkage
+          file: docs/linked_geo_data/datasets/Processing & linkage.md
         - title: Access to Healthy Assets and Hazards (AHAH)
           file: docs/linked_geo_data/datasets/AHAH.md
         - title: Air pollution
@@ -185,6 +187,9 @@ parts:
           file: docs/FAQ/pages/faq_lps.md
         - title: Working with NHS England data
           file: docs/FAQ/pages/faq_nhse.md
+        - title: Working with place-based data
+          file: docs/FAQ/pages/faq_geo.md
         - title: Resources
           file: docs/FAQ/pages/faq_resources.md
+        
           
