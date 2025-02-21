@@ -6,7 +6,7 @@
 
 Flows of data from contributing Longitudinal Population Studies (LPS) and place-based data are conducted through a ‘split file’ protocol where the flow of LPS participants’ addresses (File 1s) is entirely separate from the flow of place-based datasets (File 2s) - see figure 1. Place-based datasets are updated at the frequency specified on the individual dataset level pages. 
 
-![Alt text](../images/Place-based_data_flow.png)
+<img src="../images/Place-based_data_flow.png" width="300"/>
 
 Figure 1 An overview of the flow of place-based data into the UK LLC TRE. 
 
