@@ -5,32 +5,40 @@ parts:
   - chapters:
     - title: Navigation tips
       file: docs/navigation/navigation.md
-      sections:
+    - title: Data structure & concepts
+      file: docs/database/data_intro.md
+      sections: 
+        - title: Database design
+          file: docs/database/design/database_design.md
+        - title: Dataset structures
+          file: docs/database/structure/dataset_structures.md
+        - title: Derived & reusable data
+          file: docs/database/returned/outline.md
         - title: UK LLC sample
-          file: docs/navigation/Sample/UKLLC_sample.md
-          sections:
+          file: docs/database/Sample/UKLLC_sample.md
+          sections: 
             - title: Freeze 1 | Aug 2022
-              file: docs/navigation/Sample/freezes/freeze1.ipynb 
+              file: docs/database/Sample/freezes/freeze1.ipynb 
             - title: Freeze 2 | Nov 2022
-              file: docs/navigation/Sample/freezes/freeze2.ipynb
+              file: docs/database/Sample/freezes/freeze2.ipynb
             - title: Freeze 3 | Feb 2023
-              file: docs/navigation/Sample/freezes/freeze3.ipynb 
+              file: docs/database/Sample/freezes/freeze3.ipynb 
             - title: Freeze 4 | May 2023
-              file: docs/navigation/Sample/freezes/freeze4.ipynb
+              file: docs/database/Sample/freezes/freeze4.ipynb
             - title: Freeze 5 | Aug 2023
-              file: docs/navigation/Sample/freezes/freeze5.ipynb 
+              file: docs/database/Sample/freezes/freeze5.ipynb 
             - title: Freeze 6 | Nov 2023
-              file: docs/navigation/Sample/freezes/freeze6.ipynb
+              file: docs/database/Sample/freezes/freeze6.ipynb
             - title: Freeze 7 | Feb 2024
-              file: docs/navigation/Sample/freezes/freeze7.ipynb 
+              file: docs/database/Sample/freezes/freeze7.ipynb 
             - title: Freeze 8 | May 2024
-              file: docs/navigation/Sample/freezes/freeze8.ipynb
+              file: docs/database/Sample/freezes/freeze8.ipynb
             - title: Freeze 9 | Aug 2024
-              file: docs/navigation/Sample/freezes/freeze9.ipynb 
+              file: docs/database/Sample/freezes/freeze9.ipynb 
             - title: Freeze 10 | Nov 2024
-              file: docs/navigation/Sample/freezes/freeze10.ipynb
-            - title: Denominator file 1
-              file: docs/navigation/Sample/freezes/denominator_file1.md 
+              file: docs/database/Sample/freezes/freeze10.ipynb
+        - title: LPS participants
+          file: docs/database/participants/denominator.md 
     - title: Contributing LPS
       file: docs/LPS/LPS_introduction.md
       sections:
