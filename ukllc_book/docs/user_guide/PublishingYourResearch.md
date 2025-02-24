@@ -1,5 +1,5 @@
 # Publishing or presenting your research
->Last modified: 05 Feb 2025
+>Last modified: 24 Feb 2025
 
 ## Key messages
 1. Safeguarding the **anonymity** of LPS participants is of **paramount importance to UK LLC**. Researchers must only include **data in papers/presentations** that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](MovingFilesInAndOut.md).
@@ -13,14 +13,14 @@ For full details see the [**UK LLC Publication Policy**](https://ukllc.ac.uk/gov
 ## General rules
 1. All researchers must ensure that their analyses and outputs fall within the **scope** of their approved project and adhere to data owners’ **terms and conditions**.  
 
-2. All researchers must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, a selection of slides with acknowledgements and logos is available on the [**UK LLC GitHub**](https://github.com/UKLLC/Materials-for-presentations). For **papers**, detailed information about LPS for supplementary materials is available on the [**Resources for Researchers SharePoint**](https://uob.sharepoint.com/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/Forms/AllItems.aspx?as=json&id=%2Fteams%2Fgrp%2DUKLLCResourcesforResearchers%2FShared%20Documents%2FGeneral&viewid=a09377b5%2Df072%2D4f89%2Db4d6%2De72a134bc7b8).
+2. All researchers must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos of collaborators, funders and contributing LPS is available [**here**](../images/UK%20LLC%20Acknowledgement%20Slide_v2.pptx). For **papers**, detailed information about LPS for supplementary materials is available on the [**Resources for Researchers SharePoint**](https://uob.sharepoint.com/teams/grp-UKLLCResourcesforResearchers/Shared%20Documents/Forms/AllItems.aspx?as=json&id=%2Fteams%2Fgrp%2DUKLLCResourcesforResearchers%2FShared%20Documents%2FGeneral&viewid=a09377b5%2Df072%2D4f89%2Db4d6%2De72a134bc7b8).
 
 3. **Datasets** from UK LLC’s TRE **cannot be published in public databanks.** If this is requested, we suggest that you provide the following statement: 
-*‘Data used in this research are made available via UK Longitudinal Linkage Collaboration (UK LLC), which is a Trusted Research Environment (TRE) developed and operated by the Universities of Bristol and Edinburgh using an underlying ‘Secure eResearch Platform’ provided by Swansea University. These data cannot be used or shared outside this environment. Researchers can apply to access the UK LLC TRE using the procedure outlined in the [UK LLC Data Access and Acceptable Use Policy](https://ukllc.ac.uk/governance/). UK LLC uses a system of managed open access for researchers who demonstrate their project is intended to improve the public good.’* 
+*‘Data used in this research are made available via UK Longitudinal Linkage Collaboration (UK LLC), which is a Trusted Research Environment (TRE) developed and operated by the Universities of Bristol and Edinburgh using an underlying ‘Secure eResearch Platform’ provided by Swansea University. These data cannot be used or shared outside this environment. Researchers can apply to access the UK LLC TRE using the procedure outlined in the [***UK LLC Data Access and Acceptable Use Policy***](https://ukllc.ac.uk/governance/). UK LLC uses a system of managed open access for researchers who demonstrate their project is intended to improve the public good.’* 
 
 ## Rules for presentations
 1. UK LLC does **not require** to see presentations before they are delivered.
-2. All researchers must **acknowledge** the use and funding of UK LLC’s resource and the collaborative contribution of the LPS and other data owners and partners. A selection of slides with acknowledgements and logos is available on the [**UK LLC GitHub**](https://github.com/UKLLC/Materials-for-presentations)
+2. All researchers must **acknowledge** the use and funding of UK LLC’s resource and the collaborative contribution of the LPS and other data owners and partners. An acknowledgement slide containing logos of collaborators, funders and contributing LPS is available [**here**](../images/UK%20LLC%20Acknowledgement%20Slide_v2.pptx).
 
 ## Rules for papers and similar outputs
 1.	All such outputs must be **shared with UK LLC for review** prior to submission for publication: [**access@ukllc.ac.uk**](mailto:access@ukllc.ac.uk). 
