@@ -18,12 +18,12 @@ Some datasets have been renamed by NHS England, e.g. **CHESS** is now called the
 
 | **Name in TRE**|**Full name**|**Other name**|**Domain**|**Coverage**|**From**|**Data available in TRE<sup>1</sup>**|**Owner**|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[**COVIDSGSS**](../COVID%20datasets/COVIDSGSS/COVIDSGSS.ipynb)|COVID-19 Second Generation Surveillance System|N/A|Testing (Pillars 1, 2, 4<sup>2</sup>)|England|06/04/2020 onwards|06/04/2020 onwards|NHSE|
-|[**IELISA**](../COVID%20datasets/IELISA/IELISA.ipynb)|Enzyme-Linked Immunosorbent Assay|Covid-19 UK Non-hospital Antibody Testing Results|Testing (Pillars 3, 4<sup>2</sup>)|UK|01/09/2020 onwards|01/09/2020 onwards|DHSC|
-|[**NPEX**](../COVID%20datasets/NPEX/NPEX.ipynb)|National Pathology Exchange|Covid-19 UK Non-hospital Antigen Testing Results|Testing (Pillars 2, 4<sup>2</sup>)|UK|17/04/2020 onwards|17/04/2020 onwards|DHSC|
-|[***CHESS***](../COVID%20datasets/CHESS/CHESS.ipynb)|*COVID-19 Hospitalisation in England Surveillance System*|*Severe Acute Respiratory Infection (SARI-Watch) surveillance system*|*Hospital*|*England*|*12/03/2020 to 01/10/2022*|*12/03/2020 to 01/10/2022*|*NHSE*|
+|[***COVIDSGSS***](../COVID%20datasets/COVIDSGSS/COVIDSGSS.ipynb)|*COVID-19 Second Generation Surveillance System*|*N/A*|*Testing (Pillars 1, 2, 4<sup>2</sup>)*|*England*|*06/04/2020 to Feb 2024*|*06/04/2020 to Feb 2024*|*NHSE*|
+|[***IELISA***](../COVID%20datasets/IELISA/IELISA.ipynb)|*Enzyme-Linked Immunosorbent Assay*|*Covid-19 UK Non-hospital Antibody Testing Results*|*Testing (Pillars 3, 4<sup>2</sup>)*|*UK*|*01/09/2020 to July 2022*|*01/09/2020 to July 2022*|*DHSC*|
+|[***NPEX***](../COVID%20datasets/NPEX/NPEX.ipynb)|*National Pathology Exchange*|*Covid-19 UK Non-hospital Antigen Testing Results*|*Testing (Pillars 2, 4<sup>2</sup>)*|*UK*|*17/04/2020 to Feb 2024*|*17/04/2020 to Feb 2024*|*DHSC*|
+|[***CHESS***](../COVID%20datasets/CHESS/CHESS.ipynb)|*COVID-19 Hospitalisation in England Surveillance System*|*Severe Acute Respiratory Infection (SARI-Watch) surveillance system*|*Hospital*|*England*|*12/03/2020 to Oct 2022*|*12/03/2020 to Oct 2022*|*NHSE*|
 |[**CVS**](../COVID%20datasets/CVS/CVS.ipynb)|COVID-19 Vaccination Status|N/A|Vaccination|England|08/12/2020 onwards|08/12/2020 onwards|NHSE|
-|[**CVAR**](../COVID%20datasets/CVAR/CVAR.ipynb)|COVID-19 Vaccination Adverse Reactions|N/A|Vaccination|England|08/12/2020 onwards|08/12/2020 onwards|NHSE||  
+|[***CVAR***](../COVID%20datasets/CVAR/CVAR.ipynb)|*COVID-19 Vaccination Adverse Reactions*|*N/A*|*Vaccination*|*England*|*08/12/2020 to Sept 2023*|*08/12/2020 to Sept 2023*|*NHSE*||  
 
 DHSC: Department of Health and Social Care  
 <sup>1</sup>As documented in the data sharing agreement.  

@@ -17,12 +17,10 @@ As explained in the overarching [**NHS England datasets guide**](../NHSE_intro.m
 | **Name in TRE**|**Full name**|**Other name**|**Domain**|**From**|**Until**|**Data available in TRE<sup>1</sup>**|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |[**CSDS**](../Other%20datasets/CSDS/CSDS.ipynb)|Community Services Data Set|N/A|Community|01/10/2015|Ongoing|01/04/2015 onwards|
-|[**MSDS**](../Other%20datasets/MSDS/MSDS.md)|Maternity Services Data Set|N/A|Maternity|01/04/2015|Ongoing|TBC<sup>2</sup>|
+|[**MSDS**](../Other%20datasets/MSDS/MSDS.md)|Maternity Services Data Set|N/A|Maternity|01/04/2015|Ongoing|01/04/2015 onwards|
 |[**PCM**](../Other%20datasets/PCM/PCM.ipynb)|Primary Care Medicines|Medicines dispensed in Primary Care NHS Business Services Authority (NHSBSA) dataset|Medicines|01/04/2015|Ongoing|01/04/2015 onwards|
 
 <sup>1</sup>As documented in the data sharing agreement. 
-
-<sup>2</sup>MSDS data have not yet flowed into the TRE.  
 
 
 

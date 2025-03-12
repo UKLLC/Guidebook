@@ -28,22 +28,22 @@ Note:
 |[**HESOP**](../NHS_England/HES%20datasets/OP/HESOP.ipynb)|Hospital Episode Statistics Outpatients|Hospital|Outpatients|01/04/2003 onwards |NHSE|Quarterly|
 |[**HESAPC**<sup>2</sup>](../NHS_England/HES%20datasets/APC/HESAPC.ipynb)| Hospital Episode Statistics Admitted Patient Care| Hospital | Admitted patients| 01/04/1998 onwards |NHSE|Quarterly|
 |[**ECDS**](../NHS_England/HES%20datasets/ECDS/ECDS.ipynb) | Emergency Care Data Set | Hospital | A & E patients |01/10/2017 onwards |NHSE|Quarterly|
-|[***HESAE***](../NHS_England/HES%20datasets/AE/HESAE.ipynb)|*Hospital Episode Statistics Accident & Emergency*|*Hospital*|*A & E patients*|*01/04/2007 to 31/03/2020*|*NHSE*|Annually|
-|[**COVIDSGSS**](../NHS_England/COVID%20datasets/COVIDSGSS/COVIDSGSS.ipynb)| COVID-19 Second Generation Surveillance System|COVID|Testing|06/04/2020 onwards|NHSE|Annually|
-|[***IELISA***<sup>3</sup>](../NHS_England/COVID%20datasets/IELISA/IELISA.ipynb)|*Enzyme-Linked Immunosorbent Assay*|*COVID*|*Testing*|*01/09/2020 to 2022*|*DHSC*|*Annually*|
-|[**NPEX**<sup>3</sup>](../NHS_England/COVID%20datasets/NPEX/NPEX.ipynb)| National Pathology Exchange|COVID|Testing|17/04/2020 onwards|DHSC|Annually|
-|[***CHESS***](../NHS_England/COVID%20datasets/CHESS/CHESS.ipynb)|*COVID-19 Hospitalisation in England Surveillance System*|*COVID*|*Hospital*|*12/03/2020 to 01/10/2022*|*NHSE*|Annually|
+|[***HESAE***](../NHS_England/HES%20datasets/AE/HESAE.ipynb)|*Hospital Episode Statistics Accident & Emergency*|*Hospital*|*A & E patients*|*01/04/2007 to 31/03/2020*|*NHSE*|*Annually*|
+|[***COVIDSGSS***](../NHS_England/COVID%20datasets/COVIDSGSS/COVIDSGSS.ipynb)| *COVID-19 Second Generation Surveillance System*|*COVID*|*Testing*|*06/04/2020 to Feb 2024*|*NHSE*|*Annually*|
+|[***IELISA***<sup>3</sup>](../NHS_England/COVID%20datasets/IELISA/IELISA.ipynb)|*Enzyme-Linked Immunosorbent Assay*|*COVID*|*Testing*|*01/09/2020 to July 2022*|*DHSC*|*Annually*|
+|[***NPEX***<sup>3</sup>](../NHS_England/COVID%20datasets/NPEX/NPEX.ipynb)|*National Pathology Exchange*|*COVID*|*Testing*|*17/04/2020 to Feb 2024*|*DHSC*|*Annually*|
+|[***CHESS***](../NHS_England/COVID%20datasets/CHESS/CHESS.ipynb)|*COVID-19 Hospitalisation in England Surveillance System*|*COVID*|*Hospital*|*12/03/2020 to 01/10/2022*|*NHSE*|*Annually*|
 |[**CVS**](../NHS_England/COVID%20datasets/CVS/CVS.ipynb)|COVID-19 Vaccination Status|COVID|Vaccination|08/12/2020 onwards|NHSE|Annually|
-|[**CVAR**](../NHS_England/COVID%20datasets/CVAR/CVAR.ipynb)| COVID-19 Vaccination Adverse Reactions  | COVID |Vaccination|08/12/2020 onwards|NHSE|Annually|
+|[***CVAR***](../NHS_England/COVID%20datasets/CVAR/CVAR.ipynb)|*COVID-19 Vaccination Adverse Reactions*|*COVID*|*Vaccination*|*08/12/2020 to Sept 2023*|*NHSE*|*Annually*|
 |[**GDPPR**](../NHS_England/COVID%20datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research | COVID | Primary care  | 1940s onwards|NHSE|Annually|
 |[**CANCER**](../NHS_England/Registration%20datasets/CANCER/CANCER.ipynb)| Cancer Registration Data| Registration |Cancer|01/01/1971 onwards|NHSE|Quarterly|
 |[**DEMOGRAPHICS**<sup>4</sup>](../NHS_England/Registration%20datasets/DEMOGRAPHICS/Demographics.md)| Demographics Registration data| Registration|Demographics |01/06/2004 onwards|NHSE|Quarterly|
 |[**MORTALITY**<sup>4</sup>](../NHS_England/Registration%20datasets/MORTALITY/MORTALITY.ipynb)| Civil Registrations of  Death| Registration|Deaths|01/01/1993 onwards|ONS|Quarterly|
 |[**MHSDS**<sup>5</sup>](../NHS_England/Mental%20health%20datasets/MHSDS/MHSDS.md)| Mental Health Services Data Set |Mental health||01/04/2006 onwards|NHSE|Annually|
-|[**IAPT**](../NHS_England/Mental%20health%20datasets/IAPT/IAPT.ipynb)|NHS Talking Therapies for Anxiety and Depression|Mental health |Talking therapies|01/04/2012 to 31/03/2023|NHSE|Annually|
+|[**IAPT**](../NHS_England/Mental%20health%20datasets/IAPT/IAPT.ipynb)|NHS Talking Therapies for Anxiety and Depression|Mental health |Talking therapies|01/04/2012 onwards|NHSE|Annually|
 |[**CSDS**](../NHS_England/Other%20datasets/CSDS/CSDS.ipynb)|Community Services Data Set|Other|Community|01/04/2015 onwards|NHSE|Quarterly|
-|[**MSDS**](../NHS_England/Other%20datasets/MSDS/MSDS.md)|Maternity Services Data Set|Other|Maternity|TBC|NHSE|Annually|
-|[**PCM**](../NHS_England/Other%20datasets/PCM/PCM.ipynb)|Primary Care Medicines|Other|Medicines|01/04/2015 onwards|NHSE|Annually|
+|[**MSDS**](../NHS_England/Other%20datasets/MSDS/MSDS.md)|Maternity Services Data Set|Other|Maternity|01/04/2015 onwards|NHSE|Annually|
+|[**PCM**](../NHS_England/Other%20datasets/PCM/PCM.ipynb)|Primary Care Medicines|Other|Medicines|01/04/2015 onwards|NHSE|Quarterly|
  
 
 <sup>1</sup>As documented in the data sharing agreement.  
