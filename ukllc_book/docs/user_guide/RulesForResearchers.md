@@ -1,5 +1,5 @@
 # Rules for researchers
->Last modified: 05 Feb 2025
+>Last modified: 12 Mar 2025
 
 ## Introduction
 Below is a summary of the conditions **researchers agree to** when accessing data in the UK LLC TRE. These include, but are not limited to, maintenance of confidentiality, IT equipment and reporting breaches or risks. This is followed by a summary of the **penalties** researchers may be subject to if they breach UK LLC conditions.
@@ -22,7 +22,9 @@ To be active in the UK LLC TRE you must hold valid **ONS Approved Researcher acc
 You must only **access** the UK LLC TRE from the **UK** via a **secure private or corporate network** using **organisation owned/approved machines**, which are automatically maintained so that they are fully patched and up to date with relevant virus protection. Where using a private network, you must make all reasonable efforts to ensure this is maintained and the equipment is secure (strong password) and kept patched and up to date. You must keep your **UK LLC TRE access password private** and your **2FA secure** and you must **not share** these with anyone else. You must ensure that your **display screen** is **not overlooked** by unauthorised persons when accessing the UK LLC TRE and you must **lock your computer** when you leave it unattended.
 
 ### 3. Confidentiality of data
-You must maintain the **confidentiality** of the individual level **data you access in the UK LLC TRE**. You must not share this information with anyone, except researchers named on your approved project. You must not try to **identify or contact any LPS participant**. If you inadvertently identify an LPS participant you must notify the UK LLC Data Team immediately: [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk).
+You must maintain the **confidentiality** of the individual level **data you access in the UK LLC TRE**. You must not share this information with anyone, except researchers named on your approved project. If you wish to share findings with a colleague who is not named on your research project, then this can only be done via a [**File Out request**](../user_guide/MovingFilesInAndOut.md) (which must undergo [**Statistical Disclosure Control**](../user_guide/SDC.md) before being approved).  
+You must not try to **identify or contact any LPS participant**. If you inadvertently identify an LPS participant you must notify the UK LLC Data Team immediately: [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk).  
+ 
 
 ### 4. Project scope and permissions
 All your analyses must lie within the **approved scope of your project** and adhere to the **terms and conditions set by data owners**. You will not be permitted to file-out outputs that lie outside the scope of your approved project or that have breached data owner terms and conditions. You must only use the data accessed through the UK LLC TRE for genuine research for **public good** and never use the data for **profit-making purposes**. You should frequently revisit your approved project paperwork, taking particular note of the following fields:  

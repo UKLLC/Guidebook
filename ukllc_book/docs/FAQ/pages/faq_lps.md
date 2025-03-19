@@ -1,12 +1,24 @@
 # Working with LPS data
->Last modified: 05 Feb 2025
+>Last modified: 12 Mar 2025
 
+<details>
+<summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
+
+UK LLC's [**publication policy**](https://bpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/a/708/files/2024/10/POL-ISM-007_UK-LLC_PublicationPolicy_V1.4.pdf) includes a checklist for researchers to confirm which LPS data they used in their research. Before publications are submitted, and at the end of a project, UK LLC will let LPS know whether their data was used in each research project. It is helpful if researchers share their reasons for not using some datasets so UK LLC can share this information with future potential users.
+</details>
+<br>
+<details>
+<summary>How can I request additional LPS data for my project?</summary>
+
+Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
+</details>
+<br>
 <details>
 <summary>Why are there duplicate study IDs in my LPS dataset?</summary>
 
 In most cases LPS data is one row per person. However, there are a few exceptions. Please check the relevant LPS documentation associated with the dataset you are working on.
 </details>
-
+<br>
 <details>
 <summary>Are there quirks in some datasets?</summary>
 
@@ -21,7 +33,7 @@ The following table(s) is/are an exception to this:
 
 These data require a join on 2 fields, LLC_XXXX_stud_id and person, because this table is at the child-level whereas the key ID LLC_XXXX_stud_id is at the parent-level.  
 </details>
-
+<br>
 <details>
 <summary>What is the relationship between participants in NIHRBIO_COPING and GLAD?</summary>
 
@@ -31,7 +43,7 @@ As an overview, consider the diagram below. GLAD in the UK LLC TRE contains part
 
 Work is ongoing to create a ‘true’ individual-level ID in the UK LLC TRE. This is known as Anonymous Linking Field (ALF2), and used in conjunction with llc_XXXX_stud_id, it will be possible to unpick these relationships.
 </details>
-
+<br>
 <details>
 <summary>Do LPS have weighting variables in the TRE?</summary>
 
@@ -60,10 +72,4 @@ Work is ongoing to create a ‘true’ individual-level ID in the UK LLC TRE. Th
 |TRACKC19|No|TRACKC19 has not calculated sampling weights.|
 |TWINSUK|No|Most of the data in the TRE is derived from the CoPE questionnaires. For more details on how to deal with missing data visit: [Wellcome Open Research Gateways.](https://wellcomeopenresearch.org/gateways/twinsuk)|
 |UKHLS|Yes|See UKHLS's guidance on [selecting the correct weight for your analysis](https://www.understandingsociety.ac.uk/documentation/mainstage/user-guides/main-survey-user-guide/selecting-the-correct-weight-for-your-analysis/0). Search for weighting variables (e.g. ‘xw’) using the Variables search in [Explore](https://ukllc-data-catalogue-96b71e84a70e.herokuapp.com/) and use the Advanced Options to filter on UKHLS.|
-</details>
-
-<details>
-<summary>How can I request additional LPS data for my project?</summary>
-
-Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>

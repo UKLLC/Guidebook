@@ -28,13 +28,13 @@ Before starting download, or open, a 'One-Time Password' (OTP) app on your smart
 
 Follow the steps below to log in: 
 1.	Using **Google Chrome**, navigate to [**https://portal.ukllc.ukserp.ac.uk**](https://portal.ukllc.ukserp.ac.uk) and enter your username and password. 
-2. You may need to download **VMware Horizon Client** from the right side of the webpage:  
+2. You may need to download **Omnissa Horizon Client** from the right side of the webpage:  
 <img src="../images/user_guide/image.png" width="300"/>
 
 3.	Once installed, you can **launch SeRP** by clicking ‘Launch Platform’, and ticking the option to always allow portal.ukllc.ukserp.ac.uk to open links:  
 <img src="../images/user_guide/image-1.png" width="300"/>
 
-4. Click ‘**Open VMware Horizon Client**’ from the pop-up box and ‘Accept’ the terms when prompted.
+4. Click ‘**Open Omnissa Horizon Client**’ from the pop-up box and ‘Accept’ the terms when prompted.
 
 5.	The following dialogue box appears:  
 <img src="../images/user_guide/image-2.png" width="300"/>
@@ -49,7 +49,7 @@ Follow the steps below to log in:
 9. When you have finished in the UK LLC TRE, **save your work**, select ‘**Options**’ and then ‘**Log off**’ from the top bar menu.
 
 ## Subsequent log in
-Once your account is setup, you can also access the UK LLC TRE **directly via VMware**, rather than opening the portal and launching from there. To do this, navigate to **My Computer** and launch **VMware Horizon Client**. Click ‘**connect.ukserp.ac.uk**’ and follow the steps 5-8 detailed above.
+Once your account is setup, you can also access the UK LLC TRE **directly via Omnissa**, rather than opening the portal and launching from there. To do this, navigate to **My Computer** and launch **Omnissa Horizon Client**. Click ‘**connect.ukserp.ac.uk**’ and follow the steps 5-8 detailed above.
 
 <img src="../images/user_guide/image-4.png" width="200" height="200"/>
 

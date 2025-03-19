@@ -15,7 +15,7 @@ Researchers are permitted access to the GDPPR dataset under specific terms set b
 
 | **Name in TRE**|**Full name**|**Other name**|**Domain**|**Coverage**|**From**|**Data available in TRE<sup>1</sup>**|**Owner**|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[**GDPPR**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research|N/A|Primary care|England|01/06/2020 onwards|01/06/2020 onwards|NHSE||  
+|[**GDPPR**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research|N/A|Primary care|England|1940s onwards|1940s onwards|NHSE||  
 
 
 <br>
