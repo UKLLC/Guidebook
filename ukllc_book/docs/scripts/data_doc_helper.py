@@ -37,6 +37,8 @@ class DocHelper:
         self.api_data = self.get_api_data() 
         # open DB connection
         #self.cnxn = self.connect()
+        # ukllc api connection
+        self.api_key = os.environ['FASTAPI_KEY']
 
         
     def load_pids(self):
@@ -55,6 +57,7 @@ class DocHelper:
         with open(pid_loc, "r") as f:
             pids = json.load(f)
         return pids
+    
     
     def get_pid(self):
         '''
@@ -76,6 +79,7 @@ class DocHelper:
         for pid, ds_name in self.pids.items():
             if ds_name == datamain:
                 return(pid)
+            
                 
     def get_api_data(self):
         '''
@@ -95,6 +99,7 @@ class DocHelper:
         # convert to json and return 
         metadata = json.loads(data)
         return(metadata['data'])
+    
 
     def connect(self):
         '''
@@ -119,23 +124,6 @@ class DocHelper:
         except Exception as e:
             raise Exception("DB connection failed with error", e)
             
-    # def get_extract_count(self):
-    #     '''
-
-    #     Returns
-    #     -------
-    #     extract_cnt : df
-    #         dataframe containing counts of records by extract dates
-
-    #     '''
-    #     # build query
-    #     q = '''SELECT date as extract_date, count
-    #     FROM heroku_9146b3bcb7a2912.nhs_dataset_extracts
-    #     where dataset = '{}_{}'
-    #     order by date;'''.format(self.data, self.version)
-    #     # pull data from database and return
-    #     extract_cnt = pd.read_sql(q, self.cnxn)
-    #     return extract_cnt
     
     def get_cohort_count(self):
         '''
@@ -147,60 +135,143 @@ class DocHelper:
 
         '''
 
-        # build query (like used to pickup reg dataset which have date)
-        q = '''
-        SELECT cohort, count
-        FROM nhs_dataset_cohort_linkage
-        where dataset like '{}_{}%%'
-        and cohort not in ('GENSCOT', 'NICOLA', 'SABRE')
-        order by cohort;'''.format(self.data, self.version)
-        # pull data from database and return
-        cnxn = self.connect()
-        cnt = pd.read_sql(q, cnxn)
+        # get data from api endpoint
+        url = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-dataset-counts/?table={}".format(self.data)
+        r = requests.get(url, headers={'access_token': self.api_key}) 
+        data = r.text
+        # convert to json
+        pj = json.loads(data)
+        # convert to dataframe
+        df = pd.json_normalize(pj)
+        
+        # remove cohorts not included
+        rm = ['GENSCOT', 'NICOLA', 'SABRE']
+        df = df[~df['cohort'].isin(rm)]
+        
+        # strip down df and rename
+        df = df[['cohort', 'count']].rename(columns={'cohort': 'LPS',
+                                'count': 'Participant count'})
+    
+        # CALC TOTAL
         # treat <10 as 0
-        cnt['count1'] = cnt['count'].replace('<10', '0')
+        df['count1'] = df['Participant count'].replace('<10', '0')
         # convert to ensure counts are numeric
-        cnt['count1'] = cnt['count1'].astype(int)
-        # get total
-        total = cnt.sum(numeric_only = True).iloc[0]
+        df['count1'] = df['count1'].astype(int)
+        # get total        
+        df.loc["Total"] = df['count1'].sum()
         # drop temp column
-        cnt = cnt.drop(columns = ['count1'])
-        # sort header offset
-        # add total to df and return
-        cnt.loc[len(cnt)] = ['TOTAL', total]
-        # rename
-        cnt = cnt.rename(columns = {'cohort': 'LPS', 'count': 'Participant count'})
-        # get rid of index and offset
-        #cnt = cnt.reset_index(drop=True)
-        cnt.set_index('LPS')
-        return cnt
+        df = df.drop(columns = ['count1'])
+        # sort index and total naming
+        df = df.reset_index(drop = True)
+        df.loc[df.index[-1], 'LPS'] = 'TOTAL'
+        return df
+    
     
     def get_dataset_info(self):
         '''
 
         Returns
         -------
-        cnt : df
-            dataframe containing counts of participants by LPS
+        dfm : dataframe
+            retrieved data from multiple endpoints of UK LLC metadata API and creating summary table
 
         '''
 
-        # build query (like used to pickup reg dataset which have date)
-        q = '''
-            SELECT * FROM table_nhs_england_datasets_guidebook 
-            where "Name of dataset in TRE" = \'{}\''''.format(self.data)
-
-        # pull data from database and return
-        cnxn = self.connect()
-
-        df = pd.read_sql(q, cnxn)
-
-        # transpose and rename columns
-        df = df.T
-        df = df.rename(columns = {0 : 'Dataset-specific information'}).rename_axis('Dataset descriptor', axis=1)
+        # get observation and row counts from versions endpoint
+        # IAPT and CSDS being multi part tables need skipping via dummy dfs
+        multi = ['IAPT', 'CSDS']
+        if any(i in self.data for i in multi):
+            # create dummy dataframe
+            df1 = pd.DataFrame()
+        else:
+            # get observation and row counts from versions endpoint
+            url1 = "https://metadata-api-4a09f2833a54.herokuapp.com/all-datasets-versions/?source={}&table={}".format(self.source, self.data)
+            r1 = requests.get(url1, headers={'access_token': self.api_key }) 
+            data1 = r1.text
+            # convert to json
+            pj1 = json.loads(data1)
+            # convert to dataframe
+            df1 = pd.json_normalize(pj1)
+            # dedup keeping latest
+            df1 = df1.sort_values('version_num').drop_duplicates('table', keep='last')
+            # keep only select columns
+            to_keep = ['num_columns', 'num_rows']
+            df1 = df1[to_keep]
+            df1['num_columns'] = df1['num_columns'].astype(int)
+            df1['num_rows'] = df1['num_rows'].astype(int)
+            # rename
+            df1 = df1.rename(columns={'num_columns': 'Number of variables',
+                                    'num_rows': 'Number of observations'})
+            # transpose and rename columns
+            df1 = df1.T
+            df1 = df1.rename(columns = {df1.columns[0] : 'Dataset-specific information'})
         
-        return df
+        # guidebook specific table/endpoint
+        multipart = ['IAPT_', 'CSDS_']
+        if any(i in self.data for i in multipart):
+            # create dummy dataframe
+            df2 = pd.DataFrame()
+        else:
+            url2 = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-datasets-gb/?Name_of_dataset_in_TRE={}".format(self.data)
+            r2 = requests.get(url2, headers={'access_token': self.api_key }) 
+            data2 = r2.text
+            # convert to json
+            pj2 = json.loads(data2)
+            # convert to dataframe
+            df2 = pd.json_normalize(pj2)
+            # shift dataset name to first place
+            col_ord = ['Name_of_dataset_in_TRE', 'Other_name', 'Temporal_coverage', 'TRE_temporal_coverage']
+            df2 = df2[col_ord + [col for col in df2.columns if col not in col_ord]]
+            # transpose and rename columns
+            df2 = df2.T
+            df2 = df2.rename(columns = {df2.columns[0] : 'Dataset-specific information'})
+        # need to merge 2 dataframe to get complete picture
+        dfm = pd.concat([df2, df1])
+
+        # get total count of participants in each dataset
+        if any(i in self.data for i in multi):
+            # create dummy dataframe
+            df3 = pd.DataFrame()
+        else:
+            df3 = self.get_cohort_count()
+            df3 = df3[df3['LPS'] == 'TOTAL'].drop('LPS', axis=1)
+            # and transpose
+            df3 = df3.T
+            df3 = df3.rename(columns = {df3.columns[0] : 'Dataset-specific information'})
+        # and merge
+        dfm = pd.concat([dfm, df3])
+            
+        # End point for latest extract
+        if any(i in self.data for i in multi):
+            # create dummy dataframe
+            df4 = pd.DataFrame()
+        else:
+            url4 = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-extract-dates/"
+            r4 = requests.get(url4, headers={'access_token': self.api_key }) 
+            data4 = r4.text
+            # convert to json
+            pj4 = json.loads(data4)
+            # convert to dataframe
+            df4 = pd.json_normalize(pj4)
+            # dedup keeping latest and filter to target dataset
+            df4 = df4[df4['dataset'].str.contains(self.data)].sort_values('date').drop_duplicates('dataset', keep='last')
+            df4 = df4[['date']]
+            # rename 
+            df4 = df4.rename(columns={'date': 'Date of last extract'})
+            # and transpose
+            df4 = df4.T
+            df4 = df4.rename(columns = {df4.columns[0] : 'Dataset-specific information'})
+        # and merge
+        dfm = pd.concat([dfm, df4])
+        
+        # FINAL CLEARUP
+        dfm = dfm.reset_index()
+        dfm = dfm.rename(columns = {'index' : 'Dataset descriptor'})
+        dfm = dfm.reset_index(drop = True)
+        dfm['Dataset descriptor'] = dfm['Dataset descriptor'].str.replace('_', ' ')  
+        return dfm
     
+
     def style_table(self, df):
         '''
 
@@ -215,15 +286,19 @@ class DocHelper:
             df with styling applied 
 
         '''
-
+        
         # apply styling 
         df = df.style.set_table_attributes('style="font-size: 14px"')\
         .set_table_styles([dict(selector='th', props=[('text-align', 'left'),])])\
         .set_properties(**{'text-align': 'left'})
-
+        # LPS tables
         if 'LPS' in df.columns:
             df.set_properties(subset = ['LPS'], **{'font-weight' : 'bold'})\
             .set_properties(subset = df.index[-1], **{'font-weight' : 'bold'})
-            df.hide()
-
+        # hide index as don't want to display
+        df.hide()
         return df
+
+
+
+    
