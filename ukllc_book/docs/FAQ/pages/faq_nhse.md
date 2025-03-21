@@ -1,5 +1,5 @@
 # Working with NHS England data
->Last modified: 11 Feb 2025
+>Last modified: 21 Mar 2025
 
 <details>
 <summary>Does UK LLC check the <B>accuracy</B> of health records?</summary>
@@ -21,9 +21,9 @@ More information on codes used in Electronic Health Records (EHRs) is available 
 <summary>For which datasets do researchers need to provide <B>codelists</B>?</summary>
 
 Researchers must provide codelists for their projects if they intend to use any of the following datasets:
-* [HES](../../linked_health_data/NHS_England/HES%20datasets/) (Hospital Episode Statistics)
+* [HES](../../linked_health_data/NHS_England/HES%20datasets/HES_intro.md) (Hospital Episode Statistics)
 * [GDPPR](../../linked_health_data/NHS_England/Primary_care_datasets/primary_intro.md) (General Practice Extraction Service (GPES) Data for Pandemic Planning and Research)
-* [Cancer registrations](../..//linked_health_data/NHS_England/Registration%20datasets/CANCER/)
+* [Cancer registrations](../../linked_health_data/NHS_England/Registration%20datasets/CANCER/CANCER.ipynb)
 * [PCM](../../linked_health_data/NHS_England/Other%20datasets/PCM/PCM.ipynb) (Primary Care Medicines)
 
 The datasets use a range of clinical classifications, including:
@@ -36,6 +36,12 @@ The datasets use a range of clinical classifications, including:
 * NHS national codes (all datasets)  
 
 More information on codes used in Electronic Health Records (EHRs) is available here: [**Coded variables**](../../linked_health_data/NHS_England/Coding/coding_intro.md)
+</details>
+<br>
+<details>
+<summary>How can I quantify the <b>effect of applying codelists</b> to my dataset?</summary> 
+
+The CORE file [NHSD_Presence](../../linked_health_data/NHS_England/Core%20datasets/nhsd_presence.md) contains the number of appearances and the date of the most recent appearance for each participant for each available NHS data source. Comparing LPS participants' presence in NHS data sources against the data provisioned to a project will identify which participants appear in the data source but are not included in the provisioned data. 
 </details>
 <br>
 <details>
