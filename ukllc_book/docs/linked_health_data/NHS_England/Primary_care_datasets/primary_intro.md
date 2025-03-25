@@ -1,5 +1,5 @@
 # NHS England primary care datasets
->Last modified: 10 Feb 2025
+>Last modified: 25 Mar 2025
 ## Introduction
 The **General Practice Extraction Service (GPES) Data for Pandemic Planning and Research** [**(GDPPR)**](../Primary_care_datasets/GDPPR/GDPPR.ipynb) dataset is the only primary care dataset currently in the UK LLC TRE.  
 
@@ -25,21 +25,32 @@ In summary:
 * The GDPPR dataset was established to fulfil the urgent need for general practice data for planning and research in response to the COVID-19 pandemic.  
 * Data is only taken from GP practices where a practice has opted into the service via the [CQRS](https://welcome.cqrs.nhs.uk/).  
 * Only specific coded and structured data are extracted from the General Practice Extraction Service [(GPES)](https://digital.nhs.uk/services/general-practice-extraction-service/gpes-extracts-and-benefits) for inclusion in the GDPPR dataset, meaning that not all patients' records are included.  
-* The subset of available data is defined by a set of business rules, which specify the target cohort of patients, the coded record content for each extraction, and time period cut-offs.  
+* The GDPPR dataset uses [SNOMED CT](https://termbrowser.nhs.uk/?) codes, grouped into 'clusters' or 'reference sets'.  
+* The list of SNOMED CT codes that are included in the GDPPR dataset is updated periodically in line with the business rules that govern patient inclusion and extracted record content. These rules can be downloaded via NHS England's [Quality and Outcomes Framework (QoF)](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/coronavirus-business-rules/gp-data-for-pandemic-planning-and-research)   
 
-Over [**34,000 SNOMED**](https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data#download-for-data-items) codes are used in the GDPPR data (of the 900,000+ SNOMED codes in the UK and international releases . Individual codes are grouped into clusters, e.g. the cluster BP_COD includes 162 codes related to blood pressure.  
 
-**Further information about code clusters used in the GDPPR dataset is available online:**
+**Information about code clusters are available online:**
 * The full list of code clusters can be explored via an NHS England dashboard: [**Microsoft Power BI**](https://app.powerbi.com/view?r=eyJrIjoiMjY4OTRhNmUtZDdiMy00NzVhLTkzMmMtZmRhMzAyOWFkZjc4IiwidCI6IjM3YzM1NGIyLTg1YjAtNDdmNS1iMjIyLTA3YjQ4ZDc3NGVlMyJ9).  
 * The individual SNOMED codes included in each code cluster are listed on [**OpenCodelists**](https://www.opencodelists.org/)  
-* The business rules governing patient inclusion and extracted record content can be downloaded via NHS England's [**Quality and Outcomes Framework (QoF)**](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/coronavirus-business-rules/gp-data-for-pandemic-planning-and-research)  
+ 
+**SNOMED CT codes included in the GDPPR**  
+All releases of the clusters are available online via the NHS [**TRUD**]([https://isd.digital.nhs.uk/trud/users/guest/filters/0/home) (Technology Reference Update Distribution). UK LLC has downloaded Release 51.0.0<sup>3</sup> and made it available as a [downloadable text file](http://apply.ukllc.ac.uk/apply/view_document/gdppr).  
+
+
+>This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of the International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. "SNOMED" and "SNOMED CT" are registered trademarks of the IHTSDO.  
+
+N.B. The downloadable file contains 44,172 unique SNOMED CT codes and is in 'long' format to reflect the fact that most of the codes are in more than one cluster.
+
+
 
 **Note**  
-Every endeavour has been made by UK LLC to ensure the links provided contain up-to-date and helpful information about the content of the GDPPR dataset. UK LLC reviews these links regularly, but cannot guarantee the accuracy or completeness of the information provided. Guidebook users can help to update, or expand, the information available to other researchers either via Github (using these [**instructions**](../../../user_guide/contribute.md) or by emailing support@ukllc.ac.uk. **We welcome all contributions to UK LLC Guidebook.**
+Every endeavour has been made by UK LLC to ensure the links provided contain up-to-date and helpful information about the content of the GDPPR dataset. UK LLC reviews these links regularly, but cannot guarantee the accuracy or completeness of the information provided. Guidebook users can help to update, or expand, the information available to other researchers either via Github (using these [instructions](../../../user_guide/contribute.md)) or by emailing [support@ukllc.ac.uk](mailto:support@ukllc.ac.uk).  
+**We welcome all contributions to UK LLC Guidebook.**
 
-
-<sup>1</sup> As documented in the data sharing agreement.  
-<sup>2</sup> Web page accessed 07.02.2025
+***
+1. <i>As documented in the data sharing agreement 
+2. Web page accessed 24.03.2025 
+3. N.B. Release 51.0.0 is dated 15.02.2024, while UK LLC’s GDPPR data was extracted on 26.04.2024. There is a chance that some of the drug cluster content may have changed slightly between the two dates because drug reference sets are released more frequently than the broader Primary Care Domain reference sets.</i>
 
 
 
