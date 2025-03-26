@@ -1,5 +1,5 @@
 # Air pollution datasets
->Last modified: 10 Dec 2024
+>Last modified: 26 Mar 2025
 
 
 The air pollution datasets modelled by University of Leicester/City St George's, University of London contain continuous annual-average **nitrogen dioxide (NO2)** and **fine particulate matter (PM2.5)** exposure data, covering the **years 2010-2019** for all residential address points where a UK LLC participant has permissions in place.
@@ -27,7 +27,7 @@ The data are split over 2 tables/datasets:
 1) **GEO_air_pollution_hh** where addresses are geocoded to the household (hh) level.
 2) **GEO_air_pollution_pc** where addresses are geocoded to the postcode (pc) level.
 
-See the [Linkage and processing of address data guide](../linkage_and_processing.md) for further information on geo-linkage resolution. Variables are common between the household and postcode level datasets to allow the datasets to be easily unioned/appended. 
+See the [Linkage and processing of address data guide](../Processing & linkage.md) for further information on geo-linkage resolution. Variables are common between the household and postcode level datasets to allow the datasets to be easily unioned/appended. 
 
 ### Address start and end dates
 Address start and end dates are provided by each LPS to indicate when the participant moved into and out of each address location. In many cases these **dates are null, address periods are not contiguous**, and do not cover the full time periods where participants are part of an LPS. These are **data quality issues** and the UK LLC Data Team is exploring solutions to improve the usability of these data. This documentation will be updated once these improvements are in place.  
