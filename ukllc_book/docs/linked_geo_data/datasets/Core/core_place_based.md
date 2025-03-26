@@ -22,7 +22,7 @@ To link CORE_nhsd_lsoa11_v0000_YYYYMMDD with CORE_lsoa11_geo_indicators_v0000_YY
 1.	Retrieve data from database via helper syntax.
 2.	Link datasets on lsoa11cd_e field. Example of stata syntax:
 
-<img src="../../images/nhs_lsoa_link.png" width="600"/>
+<img src="../docs/images/nhs_lsoa_link.png" width="600"/>
 
 
 **Note on linkage preprocessing**:
