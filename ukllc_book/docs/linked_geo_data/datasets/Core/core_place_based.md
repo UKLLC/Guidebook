@@ -1,6 +1,6 @@
 # Place-based core datasets
 
->Last modified: 14 Feb 2025
+>Last modified: 26 Mar 2025
 
 ## Overview
 UK LLC makes available a number of standard ‘**core**’ place-based files with each project. These files contain information that enables researchers to understand their sample and define the denominator for their project. 
@@ -22,8 +22,7 @@ To link CORE_nhsd_lsoa11_v0000_YYYYMMDD with CORE_lsoa11_geo_indicators_v0000_YY
 1.	Retrieve data from database via helper syntax.
 2.	Link datasets on lsoa11cd_e field. Example of stata syntax:
 
-<img src="../ukllc_book/docs/images/nhs_lsoa_link.png" width="600"/>
-
+![nhs_lsoa_link](nhs_lsoa_link.png)
 
 **Note on linkage preprocessing**:
 CORE_nhsd_lsoa11 is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quantile of IMD that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible.
