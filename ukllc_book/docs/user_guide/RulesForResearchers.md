@@ -1,5 +1,5 @@
 # Rules for researchers
->Last modified: 12 Mar 2025
+>Last modified: 31 Mar 2025
 
 ## Introduction
 Below is a summary of the conditions **researchers agree to** when accessing data in the UK LLC TRE. These include, but are not limited to, maintenance of confidentiality, IT equipment and reporting breaches or risks. This is followed by a summary of the **penalties** researchers may be subject to if they breach UK LLC conditions.
@@ -16,7 +16,8 @@ Below is a summary of the conditions **researchers agree to** when accessing dat
 
 ## Rules for researchers
 ### 1. ONS Approved Researcher accreditation, DAA and DURA
-To be active in the UK LLC TRE you must hold valid **ONS Approved Researcher accreditation**, be named on an **approved project** and have completed all necessary **UK LLC paperwork** - Data Access Agreement (DAA) and Data User Responsibilities Agreement (DURA). 
+To be active in the UK LLC TRE you must hold valid **ONS Approved Researcher accreditation**, be named on an **approved project** and have completed all necessary **UK LLC paperwork** - Data Access Agreement (DAA) and Data User Responsibilities Agreement (DURA).  
+>N.B. The ONS Research Accreditation Service is closed to new applications between 4 April 2025 and 28 April 2025 when it will be replaced by a new route for researcher accreditation. UK LLC will update its requirements for researchers when the new system is implemented. Further details on the planned changes are available from the [ONS](https://content.govdelivery.com/accounts/UKONS/bulletins/3d2ba8b). 
 
 ### 2. IT equipment and security
 You must only **access** the UK LLC TRE from the **UK** via a **secure private or corporate network** using **organisation owned/approved machines**, which are automatically maintained so that they are fully patched and up to date with relevant virus protection. Where using a private network, you must make all reasonable efforts to ensure this is maintained and the equipment is secure (strong password) and kept patched and up to date. You must keep your **UK LLC TRE access password private** and your **2FA secure** and you must **not share** these with anyone else. You must ensure that your **display screen** is **not overlooked** by unauthorised persons when accessing the UK LLC TRE and you must **lock your computer** when you leave it unattended.
