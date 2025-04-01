@@ -1,5 +1,5 @@
 # Coded variables in  NHS England datasets
->Last modified: 20 Nov 2024
+>Last modified: 01 Apr 2025
 
 ## Introduction
 The main **clinical classifications** mandated by NHS England are **SNOMED CT, ICD-10 and OPCS-4**. However, you'll also find **Read codes**, **NHS national codes**, **dm+d codes** and **non-clinical classifications** in the datasets. The clinical domains covered by these different systems vary, as shown in Figure 1 below.  
@@ -15,9 +15,7 @@ In **hospital settings**, specialist clinical coders translate medical informati
 **Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [**An Introduction to Clinical Codes and Terminology**.](https://www.bennett.ox.ac.uk/blog/2023/06/an-introduction-to-clinical-codes-and-terminology-systems/)
 ## Classification systems
 
-Table 1 lists the systems you'll encounter in each NHS England dataset in the UK LLC TRE. Beneath the table we summarise the key aspects of each system. For the datasets marked with an asterisk (*) and in italics, you **must submit a clinical code list** with your data request. For help in creating code lists, you may wish to use the following resources:
-* [**HDR UK Phenotype Library**](https://phenotypes.healthdatagateway.org/)
-* [**OpenCodelists**.](https://www.opencodelists.org/)  
+Table 1 lists the systems you'll encounter in each NHS England dataset in the UK LLC TRE. Beneath the table we summarise the key aspects of each system. For the datasets marked with an asterisk (*) and in italics, you [**must submit a clinical code list**](../Coding/codelists.md) with your data request. 
 
 **Note:** The information in the table was obtained from the NHS England API, apart from DEMOGRAPHICS and MORTALITY - for these two datasets information was obtained from the [**NHS England Metadata dashboard**.](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard) We are aware that the information from the API is not comprehensive and in due course we will update this table accordingly.  
 

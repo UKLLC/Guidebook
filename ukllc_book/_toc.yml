@@ -59,6 +59,9 @@ parts:
           file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
         - title: Coded variables
           file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
+          sections:
+            - title: Codelists
+              file: docs/linked_health_data/NHS_England/Coding/codelists.md
         - title: Primary care datasets
           file: docs/linked_health_data/NHS_England/Primary_care_datasets/primary_intro.md
           sections:

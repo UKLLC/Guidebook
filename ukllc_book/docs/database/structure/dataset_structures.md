@@ -1,7 +1,7 @@
 
 # Dataset structures
 
->Last modified: 21 Feb 2025
+>Last modified: 01 Apr 2025
 
 The UK LLC TRE contains a wide-range of datasets, the structures of which are summarised below. More information on individual datasets is available on the summary pages for each data category.
 
@@ -12,7 +12,7 @@ Most datasets provided by LPS are in wide format, i.e. there is one row of data 
 Most datasets provided by NHSE are event-based, with one per row per interaction with an NHS healthcare provider (e.g. GP appointment, repeat prescription). For participant-level research in the TRE, these datasets should be regarded as being in long format, with multiple rows of data (events) per individual.
 
 **Linked Welsh NHS data**  
-Data from NHS Wales is likely to be in a similar format to that from NHSE. Details of the dataset structures will be avaiable here as sonn as these data are available in the TRE.
+Data from NHS Wales is likely to be in a similar format to that from NHSE. Details of the dataset structures will be available here as soon as these data are available in the TRE.
 
 **Linked administrative data**  
 UK LLC has permissions to link data from some LPS participants to their work, benefits and tax records. Details of the dataset structures will be available here as soon as these data are available in the TRE.

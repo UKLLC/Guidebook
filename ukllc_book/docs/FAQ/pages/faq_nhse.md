@@ -1,5 +1,5 @@
 # Working with NHS England data
->Last modified: 21 Mar 2025
+>Last modified: 01 Apr 2025
 
 <details>
 <summary>Does UK LLC check the <B>accuracy</B> of health records?</summary>
@@ -35,7 +35,7 @@ The datasets use a range of clinical classifications, including:
 * dm+d (PCM)
 * NHS national codes (all datasets)  
 
-More information on codes used in Electronic Health Records (EHRs) is available here: [**Coded variables**](../../linked_health_data/NHS_England/Coding/coding_intro.md)
+More information creating a codelist is available here: [**Codelists**](../../linked_health_data/NHS_England/Coding/codelists.md)
 </details>
 <br>
 <details>

@@ -1,6 +1,6 @@
 # LPS participants included in UK LLC
 
->Last modified: 21 Feb 2025
+>Last modified: 01 Apr 2025
 
 UK LLC makes available a number of '**core**' files with each project, including the core '**denominator**' file.  
 This file serves as the UK LLC's '**spine**' as it incorporates all participants across all LPS.
@@ -21,7 +21,7 @@ The denominator file enables users to:
 <br>
 <br>
 
-UK LLC also provides 'core' dataset based on [NHS England](../../linked_health_data/NHS_England/Core%20datasets/core_NHSE_summary.md) and [place-based data](../../linked_geo_data/datasets/Core/core_place_based.md).
+UK LLC also provides 'core' datasets based on [NHS England](../../linked_health_data/NHS_England/Core%20datasets/core_NHSE_summary.md) and [place-based data](../../linked_geo_data/datasets/Core/core_place_based.md).
 
 
 **More details to be added shortly**
