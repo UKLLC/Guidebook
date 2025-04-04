@@ -1,5 +1,5 @@
 # Finishing your project
->Last modified: 05 Feb 2025
+>Last modified: 02 Apr 2025
 
 ## Warning emails that access to TRE is expiring 
 You will be emailed reminders from **SeRP UK** at 90 days, 35 days and 1 day before your project's **expiry date**. You will also receive reminders from the **UK LLC Applications Team** at approximately 30 days, 10 days and 1 day.
@@ -12,11 +12,11 @@ Once the expiry date on your project passes, you will automatically be **locked 
 
 ## Wrap up your project
 
-1. Submit final **file outs** required for your **publications/presentations** - see [**Moving files in and out guide**](MovingFilesInAndOut.md). Please ensure you adhere to the rules detailed in the [**Publishing or presenting your research guide**](PublishingYourResearch.md).
-2. Collate all of your **syntax, derived data** and accompanying **documentation** in your project-specific **GitLab** - see [**Using Git guide**](TeamDataScience.md).
-3. Share your **syntax** with documentation for integration into the resource, by making a **file-out request** and ticking the box **‘GitHub/Gitlab sharing’**. Approved files will be pushed to the shared subgroup in GitLab called ‘ReadAll’ - see [**Moving files in and out guide**](MovingFilesInAndOut.md). 
-4. Push the **approved syntax and documentation** files to your **project repository** on the external public **GitHub** - see [**Using Git guide**.](TeamDataScience.md)
-4. Share your **derived data outputs** with documentation for integration into the resource by **emailing** the UK LLC Data Team at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). Make sure you include the **TRE file path of your data file(s)** - see [**Using Git guide**.](TeamDataScience.md)
+1. Submit final **file outs** required for your **publications/presentations** - see [Moving files in and out guide](MovingFilesInAndOut.md). Please ensure you adhere to the rules detailed in the [Publishing or presenting your research guide](PublishingYourResearch.md).
+2. Collate all of your **syntax, derived data** and accompanying **documentation** in your project-specific **GitLab** - see [Using Git guide](TeamDataScience.md).
+3. Share your **syntax** with documentation for integration into the resource, by making a **file-out request** and ticking the box **‘GitHub/Gitlab sharing’**. Approved files will be pushed to the shared subgroup in GitLab called ‘ReadAll’ - see [Moving files in and out guide](MovingFilesInAndOut.md). 
+4. Push the **approved syntax and documentation** files to your **project repository** on the external public **GitHub** - see [Using Git guide](TeamDataScience.md). Your UK LLC repository's visibility should be set to **'Public'**
+5. Share your **derived data outputs** with documentation for integration into the resource by **emailing** the UK LLC Data Team at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). Make sure you include the **TRE file path of your data file(s)** - see [Using Git guide](TeamDataScience.md).
 
 ## Request your access be reinstated
 In certain circumstances you can request to have your access to the TRE **reinstated**, e.g. if a reviewer of your manuscript asks you to amend or conduct a further analysis. Please email [**access@ukllc.ac.uk**](mailto:access@ukllc.ac.uk) for advice. If approved, access will be reinstated for the minimum number of researchers on your project and for the minimum duration. 

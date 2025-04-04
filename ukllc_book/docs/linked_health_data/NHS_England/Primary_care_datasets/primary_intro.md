@@ -1,14 +1,21 @@
 # NHS England primary care datasets
->Last modified: 25 Mar 2025
+>Last modified: 01 Apr 2025
 ## Introduction
-The **General Practice Extraction Service (GPES) Data for Pandemic Planning and Research** [**(GDPPR)**](../Primary_care_datasets/GDPPR/GDPPR.ipynb) dataset is the only primary care dataset currently in the UK LLC TRE.  
+The two primary care datasets currently available in the UK LLC TRE are:  
+* Primary Care Medicines (PCM)  
+* General Practice Extraction Service (GPES) Data for Pandemic Planning and Research [**(GDPPR)**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)  
 
+
+A summary of the **PCM dataset**, including coverage, restrictions on use and representation of LPS, is provided elsewhere in Guidebook [(PCM)](../Other%20datasets/PCM/PCM.ipynb).  
+<br>Further information about **GDPPR** is below, with summary metrics on the next page [(GDPPR)](../Primary_care_datasets/GDPPR/GDPPR.ipynb).
+
+## The GDPPR dataset
 Researchers are permitted access to the GDPPR dataset under specific terms set by NHS England:
 1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020#:~:text=identifying%20and%20understanding) 
 2. The GDPPR dataset must **not** be used for any form of performance management of General Practices.  
 
 
-## Coverage of the GDPPR dataset
+## Coverage
 
 
 **Table 1** Names, coverage, availability and ownership of primary care datasets in the UK LLC TRE

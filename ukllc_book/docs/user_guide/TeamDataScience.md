@@ -1,11 +1,11 @@
 # Using Git
->Last modified: 05 Feb 2025
+>Last modified: 02 Apr 2025
 
 Click on the YouTube link below for a video guide (5 minutes). Alternatively, scroll down to follow the written step-by-step instructions. 
 
 [![Image alt text](https://img.youtube.com/vi/7JnFnvJcLO0/0.jpg)](https://www.youtube.com/watch?v=7JnFnvJcLO0)
 ## Reproducible and reusable research
-The UK LLC model promotes a culture of reproducible and reusable research where users generate **reusable research outputs** (including derived data, syntax and documentation) and deposit these back into the resource to inform other users’ research, to drive efficiency, and to enable follow-on or replication studies (see figure 1). UK LLC’s Team Data Science approach is informed by the [**UK Reproducibility Network**](https://www.ukrn.org/) and the [**FAIR Guiding Principles**](https://www.go-fair.org/fair-principles/) for scientific data management and stewardship.  
+The UK LLC model promotes a culture of reproducible and reusable research where users generate **reusable research outputs** (including derived data, syntax and documentation). These are deposited back into the resource to inform other users’ research, to drive efficiency, and to enable follow-on or replication studies (see Figure 1). UK LLC’s Team Data Science approach is informed by the [**UK Reproducibility Network**](https://www.ukrn.org/) and the [**FAIR Guiding Principles**](https://www.go-fair.org/fair-principles/) for scientific data management and stewardship.  
 
 All researchers must deposit reusable research outputs into the UK LLC resource that are:
 * Necessary for other researchers to understand and reproduce the research and/or 
@@ -103,7 +103,9 @@ Once you have this, in Git BASH type: git remote add origin #insertProjectPath#:
 </details>
 
 ## How to share syntax more widely - GitHub and ReadAll GitLab
-To share syntax and other files with researchers working on other projects, you must submit a **file-out**, as detailed below. When a file has been approved, it is **your responsibility** to copy the file to your project **GitHub repository** and to switch the visibility of your GitHub from ‘Private’ to ‘Public’. It is **UK LLC's responsibility** to copy the file to the internal **ReadAll GitLab repository**.   
+To share syntax and other files with researchers working on other projects, you must submit a **file-out**, as detailed below. When a file has been approved:
+* it is **your responsibility** to copy the file to your project **GitHub repository** and to switch the visibility of your GitHub from ‘Private’ to **‘Public’**. 
+* it is **UK LLC's responsibility** to copy the file to the internal **ReadAll GitLab repository**.   
 
 ### File outs
 See the [**Moving files in and out guide**](MovingFilesInAndOut.md) to understand how to submit a syntax or documentation file out for review. 
