@@ -1,7 +1,7 @@
 
-# Derived and reuseable data
+# Derived and reusable data
 
->Last modified: 21 Feb 2025
+>Last modified: 04 Apr 2025
 
 All UK LLC researchers are asked to make their research outputs [**available to others**](../../user_guide/TeamDataScience.md) in the TRE. Reusable data are stored in the RETURNED DB schema, and can be requested via the Selection process in [**UK LLC Explore**](https://explore.ukllc.ac.uk/).
 
