@@ -37,6 +37,8 @@ parts:
               file: docs/database/Sample/freezes/freeze9.ipynb 
             - title: Freeze 10 | Nov 2024
               file: docs/database/Sample/freezes/freeze10.ipynb
+            - title: Freeze 11 | Feb 2025
+              file: docs/database/Sample/freezes/freeze11.ipynb
         - title: LPS participants
           file: docs/database/participants/denominator.md 
     - title: Contributing LPS
