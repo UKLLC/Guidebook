@@ -29,77 +29,8 @@ class DocHelper:
         self.source = datasource
         self.version = version
         self.fp = filepath 
-        # get all the pid ids need these available for every instance 
-        self.pids = self.load_pids()
-        # get single pid for this instance
-        self.pid = self.get_pid()
-        # get api data
-        self.api_data = self.get_api_data() 
-        # open DB connection
-        #self.cnxn = self.connect()
         # ukllc api connection
-        self.api_key = os.environ['FASTAPI_KEY']
-
-        
-    def load_pids(self):
-        '''
-        
-        Uses json of HDRUK provided persistent ids (dataset level)
-
-        Returns
-        -------
-        newpids : list
-            persistent IDs for all available NHS datasets available via API
-
-        '''
-        
-        pid_loc = self.fp + 'datasets_pids_lookup.json'
-        with open(pid_loc, "r") as f:
-            pids = json.load(f)
-        return pids
-    
-    
-    def get_pid(self):
-        '''
-        
-        Returns
-        -------
-        pid : str
-            persistent ID retreived from pid:shortname lookup   
-
-        '''
-        
-        # deal with multi tables where 1 API record but more than 1 table
-        multi = ['IAPT', 'CSDS']
-        if any(i in self.data for i in multi):
-            datamain = self.data[:4]
-        else:
-            datamain = self.data
-            
-        for pid, ds_name in self.pids.items():
-            if ds_name == datamain:
-                return(pid)
-            
-                
-    def get_api_data(self):
-        '''
-        
-        Returns
-        -------
-        metadata : dict
-            metdata json/dictionary for target dataset
-
-        '''
-        # define URL and add persistent ID of target dataset
-        url = "https://api.www.healthdatagateway.org/api/v1/datasets/"+self.pid
-        # make request 
-        response = requests.get(url)
-        # get data as text
-        data = response.text
-        # convert to json and return 
-        metadata = json.loads(data)
-        return(metadata['data'])
-    
+        self.api_key = os.environ['FASTAPI_KEY']    
 
     def connect(self):
         '''
@@ -165,7 +96,6 @@ class DocHelper:
         df = df.reset_index(drop = True)
         df.loc[df.index[-1], 'LPS'] = 'TOTAL'
         return df
-    
     
     def get_dataset_info(self):
         '''
