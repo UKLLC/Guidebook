@@ -37,11 +37,9 @@ parts:
               file: docs/database/Sample/freezes/freeze9.ipynb 
             - title: Freeze 10 | Nov 2024
               file: docs/database/Sample/freezes/freeze10.ipynb
-            - title: Freeze 11 | Feb 2025
-              file: docs/database/Sample/freezes/freeze11.ipynb
         - title: LPS participants
           file: docs/database/participants/denominator.md 
-    - title: Contributing LPS
+    - title: LPS datasets
       file: docs/LPS/LPS_introduction.md
       sections:
         - title: Longevity of LPS
@@ -50,102 +48,115 @@ parts:
           file: docs/LPS/Linkages/LPS_linkages.md
         - title: Discover LPS data
           file: docs/LPS/Discover/Discover_LPS_data.md
-    - title: NHS England datasets
-      file: docs/linked_health_data/NHS_England/NHSE_intro.md
+        - title: ALSPAC
+          file: docs/LPS/LPS profiles/ALSPAC.ipynb
+          sections:
+            - title: Groupings of datasets
+              file: docs/LPS/Datasets/ALSPAC/ALSPAC_groupings.ipynb
+            - title: Individual datasets
+              file: docs/LPS/Datasets/ALSPAC/ALSPAC_datasets.ipynb
+              sections:
+                - title: serology1m 
+                  file: docs/LPS/Datasets/ALSPAC/serology1m.ipynb
+    - title: NHS datasets
+      file: docs/linked_health_data/NHS_intro.md
       sections:
-        - title: Restrictions to use
-          file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
-        - title: Longevity of datasets
-          file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.md
-        - title: Processing & linkage
-          file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
-        - title: Coded variables
-          file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
+        - title: NHS England
+          file: docs/linked_health_data/NHS_England/NHSE_intro.md
           sections:
-            - title: Codelists
-              file: docs/linked_health_data/NHS_England/Coding/codelists.md
-        - title: Primary care datasets
-          file: docs/linked_health_data/NHS_England/Primary_care_datasets/primary_intro.md
+          - title: Restrictions to use
+            file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
+          - title: Longevity of datasets
+            file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.md
+          - title: Processing & linkage
+            file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
+          - title: Coded variables
+            file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
+            sections:
+              - title: Codelists
+                file: docs/linked_health_data/NHS_England/Coding/codelists.md
+          - title: Primary care datasets
+            file: docs/linked_health_data/NHS_England/Primary_care_datasets/primary_intro.md
+            sections:
+              - title: GDPPR
+                file: docs/linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb
+          - title: Hospital datasets
+            file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
+            sections:
+              - title: HESOP (outpatient)
+                file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
+              - title: HESAPC (inpatient)
+                file: docs/linked_health_data/NHS_England/HES datasets/APC/HESAPC.ipynb
+              - title: HESCC (inpatient critical care)
+                file: docs/linked_health_data/NHS_England/HES datasets/CC/HESCC.ipynb
+              - title: ECDS (emergency)
+                file: docs/linked_health_data/NHS_England/HES datasets/ECDS/ECDS.ipynb
+              - title: HESAE (emergency)
+                file: docs/linked_health_data/NHS_England/HES datasets/AE/HESAE.ipynb
+          - title: COVID-19 datasets
+            file: docs/linked_health_data/NHS_England/COVID datasets/COVID_datasets.md
+            sections:
+              - title: COVIDSGSS (testing)
+                file: docs/linked_health_data/NHS_England/COVID datasets/COVIDSGSS/COVIDSGSS.ipynb
+              - title: IELISA (testing)
+                file: docs/linked_health_data/NHS_England/COVID datasets/IELISA/IELISA.ipynb
+              - title: NPEX (testing)
+                file: docs/linked_health_data/NHS_England/COVID datasets/NPEX/NPEX.ipynb
+              - title: CHESS (hospitalisation)
+                file: docs/linked_health_data/NHS_England/COVID datasets/CHESS/CHESS.ipynb
+              - title: CVS (vaccination)
+                file: docs/linked_health_data/NHS_England/COVID datasets/CVS/CVS.ipynb
+              - title: CVAR (vaccination)
+                file: docs/linked_health_data/NHS_England/COVID datasets/CVAR/CVAR.ipynb
+          - title: Registration datasets
+            file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
+            sections:
+              - title: CANCER
+                file: docs/linked_health_data/NHS_England/Registration datasets/CANCER/CANCER.ipynb
+              - title: DEMOGRAPHICS
+                file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/Demographics.md
+              - title: MORTALITY
+                file: docs/linked_health_data/NHS_England/Registration datasets/MORTALITY/MORTALITY.ipynb
+          - title: Mental health datasets
+            file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
+            sections:
+              - title: MHSDS (general)
+                file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.md
+              - title: IAPT (talking therapies)
+                file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
+          - title: Other datasets
+            file: docs/linked_health_data/NHS_England/Other datasets/Other_datasets.md
+            sections:
+              - title: CSDS (community)
+                file: docs/linked_health_data/NHS_England/Other datasets/CSDS/CSDS.ipynb
+              - title: MSDS (maternity)
+                file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.md
+              - title: PCM (medicines)
+                file: docs/linked_health_data/NHS_England/Other datasets/PCM/PCM.ipynb
+          - title: Core datasets
+            file: docs/linked_health_data/NHS_England/Core datasets/core_NHSE_summary.md
+            sections:
+              - title: NHSD presence
+                file: docs/linked_health_data/NHS_England/Core datasets/nhsd_presence.md
+              - title: NHSD derived indicator
+                file: docs/linked_health_data/NHS_England/Core datasets/nhsd_derived_indicator.md
+        - title: NHS Wales datasets
+          file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
           sections:
-            - title: GDPPR
-              file: docs/linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb
-        - title: Hospital datasets
-          file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
-          sections:
-            - title: HESOP (outpatient)
-              file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
-            - title: HESAPC (inpatient)
-              file: docs/linked_health_data/NHS_England/HES datasets/APC/HESAPC.ipynb
-            - title: HESCC (inpatient critical care)
-              file: docs/linked_health_data/NHS_England/HES datasets/CC/HESCC.ipynb
-            - title: ECDS (emergency)
-              file: docs/linked_health_data/NHS_England/HES datasets/ECDS/ECDS.ipynb
-            - title: HESAE (emergency)
-              file: docs/linked_health_data/NHS_England/HES datasets/AE/HESAE.ipynb
-        - title: COVID-19 datasets
-          file: docs/linked_health_data/NHS_England/COVID datasets/COVID_datasets.md
-          sections:
-            - title: COVIDSGSS (testing)
-              file: docs/linked_health_data/NHS_England/COVID datasets/COVIDSGSS/COVIDSGSS.ipynb
-            - title: IELISA (testing)
-              file: docs/linked_health_data/NHS_England/COVID datasets/IELISA/IELISA.ipynb
-            - title: NPEX (testing)
-              file: docs/linked_health_data/NHS_England/COVID datasets/NPEX/NPEX.ipynb
-            - title: CHESS (hospitalisation)
-              file: docs/linked_health_data/NHS_England/COVID datasets/CHESS/CHESS.ipynb
-            - title: CVS (vaccination)
-              file: docs/linked_health_data/NHS_England/COVID datasets/CVS/CVS.ipynb
-            - title: CVAR (vaccination)
-              file: docs/linked_health_data/NHS_England/COVID datasets/CVAR/CVAR.ipynb
-        - title: Registration datasets
-          file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
-          sections:
-            - title: CANCER
-              file: docs/linked_health_data/NHS_England/Registration datasets/CANCER/CANCER.ipynb
-            - title: DEMOGRAPHICS
-              file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/Demographics.md
-            - title: MORTALITY
-              file: docs/linked_health_data/NHS_England/Registration datasets/MORTALITY/MORTALITY.ipynb
-        - title: Mental health datasets
-          file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
-          sections:
-            - title: MHSDS (general)
-              file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.md
-            - title: IAPT (talking therapies)
-              file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
-        - title: Other datasets
-          file: docs/linked_health_data/NHS_England/Other datasets/Other_datasets.md
-          sections:
-            - title: CSDS (community)
-              file: docs/linked_health_data/NHS_England/Other datasets/CSDS/CSDS.ipynb
-            - title: MSDS (maternity)
-              file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.md
-            - title: PCM (medicines)
-              file: docs/linked_health_data/NHS_England/Other datasets/PCM/PCM.ipynb
-        - title: Core datasets
-          file: docs/linked_health_data/NHS_England/Core datasets/core_NHSE_summary.md
-          sections:
-            - title: NHSD presence
-              file: docs/linked_health_data/NHS_England/Core datasets/nhsd_presence.md
-            - title: NHSD derived indicator
-              file: docs/linked_health_data/NHS_England/Core datasets/nhsd_derived_indicator.md
-    - title: NHS Wales datasets
-      file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
-      sections:
-        - title: Processing & linkage
-          file: docs/linked_health_data/NHS_Wales/Linkage and processing/linkage_processing_NHSW.md
-        - title: Coded variables
-          file: docs/linked_health_data/NHS_Wales/Coding/coding_intro_NHSW.md
-        - title: Hospital datasets
-          file: docs/linked_health_data/NHS_Wales/Hospital datasets/Hospital_datasets_NHSW.md
-        - title: COVID-19 datasets
-          file: docs/linked_health_data/NHS_Wales/COVID datasets/COVID_datasets_NHSW.md
-        - title: Registration datasets
-          file: docs/linked_health_data/NHS_Wales/Registration datasets/Registration_datasets_NHSW.md
-        - title: Primary care dataset
-          file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
-        - title: Other datasets
-          file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md
+          - title: Processing & linkage
+            file: docs/linked_health_data/NHS_Wales/Linkage and processing/linkage_processing_NHSW.md
+          - title: Coded variables
+            file: docs/linked_health_data/NHS_Wales/Coding/coding_intro_NHSW.md
+          - title: Hospital datasets
+            file: docs/linked_health_data/NHS_Wales/Hospital datasets/Hospital_datasets_NHSW.md
+          - title: COVID-19 datasets
+            file: docs/linked_health_data/NHS_Wales/COVID datasets/COVID_datasets_NHSW.md
+          - title: Registration datasets
+            file: docs/linked_health_data/NHS_Wales/Registration datasets/Registration_datasets_NHSW.md
+          - title: Primary care dataset
+            file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
+          - title: Other datasets
+            file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md
     - title: Place-based datasets
       file: docs/linked_geo_data/Place_based_intro.md
       sections:
