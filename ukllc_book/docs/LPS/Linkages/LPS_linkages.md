@@ -1,8 +1,8 @@
 # Linkages permitted by each LPS
 
->Last modified: 29 Oct 2024
+>Last modified: 02 May 2025
 
-The table below summarises the **linkages permitted** by each LPS to **health**, **non-health administrative** and **geospatial datasets**.
+The table below summarises the **linkages permitted** by each LPS to **health**, **place-based** and **non-health administrative** datasets.
 
 **Note:** Even if an LPS has permitted linkage to a data source, each **LPS participant** can decide to **opt out of UK LLC** altogether or to **opt out of a specific linkage or all linkages** by notifying their LPS. If a participant opts out, no further data about them will flow into the UK LLC TRE and the participant’s data will not be provisioned to new research projects. However, researchers who already have access to that individual’s information will be permitted to retain that access until the end of the project, but they will not obtain any new data about that individual.
 
@@ -17,19 +17,19 @@ The table below summarises the **linkages permitted** by each LPS to **health**,
 |**ELSA**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&check;|&check;|
 |**EPICN**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 |**EXCEED**|&check;|&check;|TBC|&check;|&check;|&cross;|&cross;|&cross;|
-|**FENLAND**|&check;|&check;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
+|**FENLAND**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 |**GENSCOT**|&cross;|&cross;|TBC|&check;|&check;|&cross;|&cross;|&cross;|
 |**GLAD**|&check;|&check;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 |**MCS**|&check;|&check;|TBC|&check;|&cross;|&check;|&check;|&check;|
 |**NCDS58**|&check;|&check;|TBC|&check;|&cross;|&cross;|&check;|&check;|
-|**NEXTSTEP**|&check;|&check;|TBC|&check;|&cross;|&check;|&check;|&check;|
+|**NEXTSTEP**|&check;|&cross;|TBC|&check;|&cross;|&check;|&check;|&check;|
 |**NICOLA**|&cross;|&cross;|TBC|&cross;|&cross;|&cross;|&cross;|&cross;|
 |**NIHRBIO_COPING**|&check;|&check;|TBC|&check;|&check;|&cross;|&cross;|&cross;|
 |**NSHD46**|&check;|&cross;|TBC|&check;|&check;|&cross;|&cross;|&cross;|
 |**SABRE**|&cross;|&cross;|TBC|&cross;|&check;|&cross;|&cross;|&cross;|
-|**TEDS**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
+|**TEDS**|&check;|&check;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 |**TRACKC19**|&check;|&check;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
-|**TWINSUK**|&check;|&cross;|TBC|&check;|&check;|&check;|&cross;|&cross;|
+|**TWINSUK**|&check;|&check;|TBC|&check;|&check;|&check;|&cross;|&cross;|
 |**UKHLS**|&check;|&check;|TBC|&check;|&cross;|&check;|&check;|&check;|
 |**UK-REACH**|&check;|&cross;|TBC|&check;|&cross;|&cross;|&cross;|&cross;|
 
