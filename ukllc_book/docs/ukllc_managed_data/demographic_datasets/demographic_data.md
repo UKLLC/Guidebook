@@ -1,6 +1,12 @@
-# Place-based core datasets
+# NHS Datasets
 
->Last modified: 26 Mar 2025
+>Last modified: 30 Oct 2024
+
+## Introduction  
+
+
+From existing place-based core dataset intro page:
+
 
 ## Overview
 UK LLC makes available a number of standard ‘**core**’ place-based files with each project. These files contain information that enables researchers to understand their sample and define the denominator for their project. 
@@ -27,4 +33,3 @@ To link CORE_nhsd_lsoa11_v0000_YYYYMMDD with CORE_lsoa11_geo_indicators_v0000_YY
 **Note on linkage preprocessing**:
 CORE_nhsd_lsoa11 is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quantile of IMD that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible.
 </details>
-

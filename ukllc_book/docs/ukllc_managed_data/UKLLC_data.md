@@ -1,7 +1,13 @@
-
-# Derived and reusable data
+# UK LLC managed datasets
 
 >Last modified: 04 Apr 2025
+
+Demographic datasets are provisioned to all researchers. They include harmonised demographic data and ....
+
+Derived datasets are available for request. Derived datasets may have been produced by UK LLC or may have been produced by researchers. If they are available for request this means that they have been checked by UK LLC ...
+
+
+The text below is taken from the current Derived & reusable section:
 
 All UK LLC researchers are asked to make their research outputs [**available to others**](../../user_guide/TeamDataScience.md) in the TRE. Reusable data are stored in the RETURNED DB schema, and can be requested via the Selection process in [**UK LLC Explore**](https://explore.ukllc.ac.uk/).
 

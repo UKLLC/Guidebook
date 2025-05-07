@@ -5,6 +5,36 @@ parts:
   - chapters:
     - title: Navigation tips
       file: docs/navigation/navigation.md
+    - title: UK LLC key facts
+      file: docs/ukllc_key_facts/key_facts.md
+      sections:
+        - title: UK LLC sample
+          file: docs/ukllc_key_facts/Sample/UKLLC_sample.md
+          sections: 
+            - title: Freeze 1 | Aug 2022
+              file: docs/ukllc_key_facts/Sample/freezes/freeze1.ipynb 
+            - title: Freeze 2 | Nov 2022
+              file: docs/ukllc_key_facts/Sample/freezes/freeze2.ipynb
+            - title: Freeze 3 | Feb 2023
+              file: docs/ukllc_key_facts/Sample/freezes/freeze3.ipynb 
+            - title: Freeze 4 | May 2023
+              file: docs/ukllc_key_facts/Sample/freezes/freeze4.ipynb
+            - title: Freeze 5 | Aug 2023
+              file: docs/ukllc_key_facts/Sample/freezes/freeze5.ipynb 
+            - title: Freeze 6 | Nov 2023
+              file: docs/ukllc_key_facts/Sample/freezes/freeze6.ipynb
+            - title: Freeze 7 | Feb 2024
+              file: docs/ukllc_key_facts/Sample/freezes/freeze7.ipynb 
+            - title: Freeze 8 | May 2024
+              file: docs/ukllc_key_facts/Sample/freezes/freeze8.ipynb
+            - title: Freeze 9 | Aug 2024
+              file: docs/ukllc_key_facts/Sample/freezes/freeze9.ipynb 
+            - title: Freeze 10 | Nov 2024
+              file: docs/ukllc_key_facts/Sample/freezes/freeze10.ipynb
+            - title: Freeze 11 | Feb 2025
+              file: docs/ukllc_key_facts/Sample/freezes/freeze11.ipynb
+        - title: UK LLC profile
+          file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
     - title: Data structure & concepts
       file: docs/database/data_intro.md
       sections: 
@@ -12,52 +42,27 @@ parts:
           file: docs/database/design/database_design.md
         - title: Dataset structures
           file: docs/database/structure/dataset_structures.md
-        - title: Derived & reusable data
-          file: docs/database/returned/outline.md
-        - title: UK LLC sample
-          file: docs/database/Sample/UKLLC_sample.md
-          sections: 
-            - title: Freeze 1 | Aug 2022
-              file: docs/database/Sample/freezes/freeze1.ipynb 
-            - title: Freeze 2 | Nov 2022
-              file: docs/database/Sample/freezes/freeze2.ipynb
-            - title: Freeze 3 | Feb 2023
-              file: docs/database/Sample/freezes/freeze3.ipynb 
-            - title: Freeze 4 | May 2023
-              file: docs/database/Sample/freezes/freeze4.ipynb
-            - title: Freeze 5 | Aug 2023
-              file: docs/database/Sample/freezes/freeze5.ipynb 
-            - title: Freeze 6 | Nov 2023
-              file: docs/database/Sample/freezes/freeze6.ipynb
-            - title: Freeze 7 | Feb 2024
-              file: docs/database/Sample/freezes/freeze7.ipynb 
-            - title: Freeze 8 | May 2024
-              file: docs/database/Sample/freezes/freeze8.ipynb
-            - title: Freeze 9 | Aug 2024
-              file: docs/database/Sample/freezes/freeze9.ipynb 
-            - title: Freeze 10 | Nov 2024
-              file: docs/database/Sample/freezes/freeze10.ipynb
         - title: LPS participants
           file: docs/database/participants/denominator.md 
     - title: LPS datasets
-      file: docs/LPS/LPS_introduction.md
+      file: docs/LPS_data/LPS_introduction.md
       sections:
         - title: Longevity of LPS
-          file: docs/LPS/Longevity of LPS/LPS_longevity
+          file: docs/LPS_data/Longevity of LPS/LPS_longevity
         - title: Permitted linkages
-          file: docs/LPS/Linkages/LPS_linkages.md
+          file: docs/LPS_data/Linkages/LPS_linkages.md
         - title: Discover LPS data
-          file: docs/LPS/Discover/Discover_LPS_data.md
+          file: docs/LPS_data/Discover/Discover_LPS_data.md
         - title: ALSPAC
-          file: docs/LPS/LPS profiles/ALSPAC.ipynb
+          file: docs/LPS_data/LPS profiles/ALSPAC.ipynb
           sections:
             - title: Groupings of datasets
-              file: docs/LPS/Datasets/ALSPAC/ALSPAC_groupings.ipynb
+              file: docs/LPS_data/Datasets/ALSPAC/ALSPAC_groupings.ipynb
             - title: Individual datasets
-              file: docs/LPS/Datasets/ALSPAC/ALSPAC_datasets.ipynb
+              file: docs/LPS_data/Datasets/ALSPAC/ALSPAC_datasets.ipynb
               sections:
                 - title: serology1m 
-                  file: docs/LPS/Datasets/ALSPAC/serology1m.ipynb
+                  file: docs/LPS_data/Datasets/ALSPAC/serology1m.ipynb
     - title: NHS datasets
       file: docs/linked_health_data/NHS_intro.md
       sections:
@@ -161,20 +166,55 @@ parts:
       file: docs/linked_geo_data/Place_based_intro.md
       sections:
         - title: Processing & linkage
-          file: docs/linked_geo_data/datasets/Processing & linkage.md
-        - title: Access to Healthy Assets and Hazards (AHAH)
-          file: docs/linked_geo_data/datasets/AHAH.md
-        - title: Air pollution
-          file: docs/linked_geo_data/datasets/air_pollution_pm25_no2.md
-        - title: Core datasets
-          file: docs/linked_geo_data/datasets/Core/core_place_based.md
+          file: docs/linked_geo_data/processing/Processing & linkage.md
+        - title: Population datasets
+          file: docs/linked_geo_data/population_datasets/population.md
+        - title: Environmental datasets
+          file: docs/linked_geo_data/environmental_datasets/environment.md
+          sections: 
+            - title: Neighbourhood datasets
+              file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/neighbourhood.md
+              sections:
+                - title: Access to Healthy Assets and Hazards (AHAH)
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/AHAH.md
+                - title: Greenspace
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace.md
+            - title: Pollution datasets
+              file: docs/linked_geo_data/environmental_datasets/pollution_datasets/pollution.md
+              sections:
+                - title: Air pollution PM25 & NO2
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2.md
+                - title: Air pollution Hades
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_hades.md
+                - title: Noise pollution
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution.md     
+        - title: Mobility datasets
+          file: docs/linked_geo_data/mobility_datasets/mobility.md
+        - title: Health datasets
+          file: docs/linked_geo_data/health_datasets/health.md      
+    - title: Administrative datasets
+      file: docs/linked_admin_data/admin_data.md
+      sections:
+        - title: HM Revenue & Customs
+          file: docs/linked_admin_data/HMRC_data/HMRC_data.md
+        - title: Department for Work & Pensions
+          file: docs/linked_admin_data/DWP_data/DWP_data.md
+        - title: Department for Education
+          file: docs/linked_admin_data/DfE_data/DfE_data.md
+    - title: UK LLC-managed datasets
+      file: docs/ukllc_managed_data/UKLLC_data.md
+      sections:
+        - title: Demographic datasets
+          file: docs/ukllc_managed_data/demographic_datasets/demographic_data.md
           sections:
-            - title: LSOA11 geo indicators
-              file: docs/linked_geo_data/datasets/Core/LSOA11_geo_indicators.md 
-            - title: UK geo indicators
-              file: docs/linked_geo_data/datasets/Core/UK_geo_indicators.md
-            - title: NHSD LSOA11
-              file: docs/linked_geo_data/datasets/Core/nhsd_LSOA11.md
+          - title: LSOA11 geo indicators
+            file: docs/ukllc_managed_data/demographic_datasets/Datasets/LSOA11_geo_indicators.md 
+          - title: UK geo indicators
+            file: docs/ukllc_managed_data/demographic_datasets/Datasets/UK_geo_indicators.md
+          - title: NHSD LSOA11
+            file: docs/ukllc_managed_data/demographic_datasets/Datasets/nhsd_LSOA11.md
+        - title: Derived datasets
+          file: docs/ukllc_managed_data/derived_datasets/derived_data.md
     - title: TRE user guide
       file: docs/user_guide/Introduction.md
       sections:
