@@ -66,6 +66,48 @@ parts:
               sections:
                 - title: serology1m 
                   file: docs/LPS_data/Datasets/ALSPAC/Datasets/serology1m.ipynb
+                - title: wave6y
+                  file: docs/LPS_data/Datasets/ALSPAC/Datasets/wave6y.ipynb
+        - title: BCS70
+          file: docs/LPS_data/LPS profiles/BCS70.ipynb
+          sections: 
+            - title: Individual datasets
+              file: docs/LPS_data/Datasets/BCS70/Datasets/BCS70_datasets.ipynb
+              sections:
+                - title: basic_demographic
+                  file: docs/LPS_data/Datasets/BCS70/Datasets/basic_demographic.ipynb
+                - title: bcs1
+                  file: docs/LPS_data/Datasets/BCS70/Datasets/bcs1.ipynb
+        - title: BIB
+          file: docs/LPS_data/LPS profiles/BIB.ipynb
+          sections:
+            - title: Individual datasets
+              file: docs/LPS_data/Datasets/BIB/Datasets/BIB_datasets.ipynb
+              sections:
+                - title: CV_W1
+                  file: docs/LPS_data/Datasets/BIB/Datasets/CV_W1.ipynb
+                - title: CV19child_P2sdq
+                  file: docs/LPS_data/Datasets/BIB/Datasets/CV19child_P2sdq.ipynb
+        - title: ELSA
+          file: docs/LPS_data/LPS profiles/ELSA.ipynb          
+          sections:
+            - title: Individual datasets
+              file: docs/LPS_data/Datasets/ELSA/Datasets/ELSA_datasets.ipynb
+              sections:
+                - title: elsa_covid_w1_eul
+                  file: docs/LPS_data/Datasets/ELSA/Datasets/elsa_covid_w1_eul.ipynb
+                - title: wave_9_ifs_derived_variables
+                  file: docs/LPS_data/Datasets/ELSA/Datasets/wave_9_ifs_derived_variables.ipynb
+        - title: EPICN
+          file: docs/LPS_data/LPS profiles/EPICN.ipynb          
+          sections:
+            - title: Individual datasets
+              file: docs/LPS_data/Datasets/EPICN/Datasets/EPICN_datasets.ipynb
+              sections:
+                - title: FU1
+                  file: docs/LPS_data/Datasets/EPICN/Datasets/FU1.ipynb
+                - title: FU2
+                  file: docs/LPS_data/Datasets/EPICN/Datasets/FU2.ipynb
     - title: NHS datasets
       file: docs/linked_health_data/NHS_intro.md
       sections:
@@ -137,7 +179,7 @@ parts:
           - title: Community datasets
             file: docs/linked_health_data/NHS_England/Community datasets/Community_datasets.md
             sections:
-              - title: CSDS (community)
+              - title: CSDS (general)
                 file: docs/linked_health_data/NHS_England/Community datasets/CSDS/CSDS.ipynb
               - title: MSDS (maternity)
                 file: docs/linked_health_data/NHS_England/Community datasets/MSDS/MSDS.md
