@@ -1,4 +1,4 @@
-# Access to Healthy Assets and Hazards (AHAH)
+# Access to Healthy Assets and Hazards (AHAH) dataset
 
 > Last modified: 10 Dec 2024
 

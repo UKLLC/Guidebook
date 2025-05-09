@@ -1,8 +1,8 @@
-# Processing and linkage to Place-based datasets 
+# Processing and linkage to place-based datasets 
 
 >Last modified: 21 Feb 2025
 
-## Flow of Place-based data into the UK LLC TRE 
+## Flow of place-based data into the UK LLC TRE 
 
 Flows of data from contributing Longitudinal Population Studies (LPS) and place-based data are conducted through a ‘split file’ protocol where the flow of LPS participants’ addresses (File 1s) is entirely separate from the flow of place-based datasets (File 2s) - see figure 1. Place-based datasets are updated at the frequency specified on the individual dataset level pages. 
 
@@ -54,7 +54,7 @@ If the geographic unit of the dataset is LSOA/equivalent or higher, the datasets
 If the geographic unit of the dataset is UPRN level, the datasets are sent to DHCW and processed in the same way as ‘partner generated datasets’, for more information please see the associated drop down. 
 </details>
 
-## LPS participants can opt out of linkage to Place-based data 
+## LPS participants can opt out of linkage to place-based data 
 
 LPS can send quarterly updates of their File 1s (participant identifiers and permission flags) to DHCW. If a participant has decided to opt out of UK LLC altogether or to opt out of linkage to place-based data or conversely has decided to opt into linkage to place-based data, their instructions are communicated to DHCW. If a participant does not want their data linked to place-based data, they should contact the LPS directly to check what permissions are in place (not all LPS have permissions in place to link to place-based data). Once a participant has asked to opt out of place-based linkage, no further place-based data about them will flow into the UK LLC TRE and the participant’s data will not be provisioned to new research projects. Researchers who already have access to that individual’s information will be permitted to retain that access until the end of the project, but they will not obtain any new data about that individual. 
 

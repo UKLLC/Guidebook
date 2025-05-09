@@ -8,6 +8,8 @@ parts:
     - title: UK LLC key facts
       file: docs/ukllc_key_facts/key_facts.md
       sections:
+        - title: UK LLC profile
+          file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
         - title: UK LLC sample
           file: docs/ukllc_key_facts/Sample/UKLLC_sample.md
           sections: 
@@ -33,8 +35,6 @@ parts:
               file: docs/ukllc_key_facts/Sample/freezes/freeze10.ipynb
             - title: Freeze 11 | Feb 2025
               file: docs/ukllc_key_facts/Sample/freezes/freeze11.ipynb
-        - title: UK LLC profile
-          file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
     - title: Data structure & concepts
       file: docs/database/data_intro.md
       sections: 
@@ -57,12 +57,15 @@ parts:
           file: docs/LPS_data/LPS profiles/ALSPAC.ipynb
           sections:
             - title: Groupings of datasets
-              file: docs/LPS_data/Datasets/ALSPAC/ALSPAC_groupings.ipynb
+              file: docs/LPS_data/Datasets/ALSPAC/Groupings/ALSPAC_groupings.ipynb
+              sections:
+                - title: Grouping 1
+                  file: docs/LPS_data/Datasets/ALSPAC/Groupings/Group_1.ipynb
             - title: Individual datasets
-              file: docs/LPS_data/Datasets/ALSPAC/ALSPAC_datasets.ipynb
+              file: docs/LPS_data/Datasets/ALSPAC/Datasets/ALSPAC_datasets.ipynb
               sections:
                 - title: serology1m 
-                  file: docs/LPS_data/Datasets/ALSPAC/serology1m.ipynb
+                  file: docs/LPS_data/Datasets/ALSPAC/Datasets/serology1m.ipynb
     - title: NHS datasets
       file: docs/linked_health_data/NHS_intro.md
       sections:
@@ -85,6 +88,8 @@ parts:
             sections:
               - title: GDPPR
                 file: docs/linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb
+              - title: PCM
+                file: docs/linked_health_data/NHS_England/Primary_care_datasets/PCM/PCM.ipynb
           - title: Hospital datasets
             file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
             sections:
@@ -129,15 +134,13 @@ parts:
                 file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.md
               - title: IAPT (talking therapies)
                 file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
-          - title: Other datasets
-            file: docs/linked_health_data/NHS_England/Other datasets/Other_datasets.md
+          - title: Community datasets
+            file: docs/linked_health_data/NHS_England/Community datasets/Community_datasets.md
             sections:
               - title: CSDS (community)
-                file: docs/linked_health_data/NHS_England/Other datasets/CSDS/CSDS.ipynb
+                file: docs/linked_health_data/NHS_England/Community datasets/CSDS/CSDS.ipynb
               - title: MSDS (maternity)
-                file: docs/linked_health_data/NHS_England/Other datasets/MSDS/MSDS.md
-              - title: PCM (medicines)
-                file: docs/linked_health_data/NHS_England/Other datasets/PCM/PCM.ipynb
+                file: docs/linked_health_data/NHS_England/Community datasets/MSDS/MSDS.md
           - title: Core datasets
             file: docs/linked_health_data/NHS_England/Core datasets/core_NHSE_summary.md
             sections:
@@ -145,7 +148,7 @@ parts:
                 file: docs/linked_health_data/NHS_England/Core datasets/nhsd_presence.md
               - title: NHSD derived indicator
                 file: docs/linked_health_data/NHS_England/Core datasets/nhsd_derived_indicator.md
-        - title: NHS Wales datasets
+        - title: NHS Wales
           file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
           sections:
           - title: Processing & linkage
@@ -207,12 +210,12 @@ parts:
         - title: Demographic datasets
           file: docs/ukllc_managed_data/demographic_datasets/demographic_data.md
           sections:
-          - title: LSOA11 geo indicators
-            file: docs/ukllc_managed_data/demographic_datasets/Datasets/LSOA11_geo_indicators.md 
-          - title: UK geo indicators
-            file: docs/ukllc_managed_data/demographic_datasets/Datasets/UK_geo_indicators.md
-          - title: NHSD LSOA11
-            file: docs/ukllc_managed_data/demographic_datasets/Datasets/nhsd_LSOA11.md
+            - title: LSOA11 geo indicators
+              file: docs/ukllc_managed_data/demographic_datasets/Datasets/LSOA11_geo_indicators.md 
+            - title: UK geo indicators
+              file: docs/ukllc_managed_data/demographic_datasets/Datasets/UK_geo_indicators.md
+            - title: NHSD LSOA11
+              file: docs/ukllc_managed_data/demographic_datasets/Datasets/nhsd_LSOA11.md
         - title: Derived datasets
           file: docs/ukllc_managed_data/derived_datasets/derived_data.md
     - title: TRE user guide

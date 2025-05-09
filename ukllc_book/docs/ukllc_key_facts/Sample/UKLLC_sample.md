@@ -1,5 +1,5 @@
 
-# UK LLC sample - an explanation
+# UK LLC sample
 
 >Last modified: 30 Oct 2024
 

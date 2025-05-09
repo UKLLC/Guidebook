@@ -20,7 +20,7 @@ Place-based data can be linked using LPS-provided address data or linked area in
 
 All address data are sent by the LPS to our trusted third party – NHS Digital Health and Care Wales (DHCW). This address data is only used for place-based linkage and geocoding subject to [individual LPS approval](https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages).  
 
-## Overview of Place-based Data
+## Overview of place-based Data
 
 | **Dataset name in TRE** | **Full dataset name** | **Primary domain** | **Secondary domain** | **Data available in TRE** | **Data owner** | **Update frequency** |
 |:-----------------------:|:---------------------:|:------------------:|:--------------------:|:-------------------------:|:--------------:|:--------------------:|
