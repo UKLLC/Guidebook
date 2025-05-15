@@ -12,38 +12,38 @@ parts:
           file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
         - title: UK LLC sample
           file: docs/ukllc_key_facts/Sample/UKLLC_sample.md
-          sections: 
+          sections:
             - title: Freeze 1 | Aug 2022
-              file: docs/ukllc_key_facts/Sample/freezes/freeze1.ipynb 
+              file: docs/ukllc_key_facts/Sample/freezes/freeze1.ipynb
             - title: Freeze 2 | Nov 2022
               file: docs/ukllc_key_facts/Sample/freezes/freeze2.ipynb
             - title: Freeze 3 | Feb 2023
-              file: docs/ukllc_key_facts/Sample/freezes/freeze3.ipynb 
+              file: docs/ukllc_key_facts/Sample/freezes/freeze3.ipynb
             - title: Freeze 4 | May 2023
               file: docs/ukllc_key_facts/Sample/freezes/freeze4.ipynb
             - title: Freeze 5 | Aug 2023
-              file: docs/ukllc_key_facts/Sample/freezes/freeze5.ipynb 
+              file: docs/ukllc_key_facts/Sample/freezes/freeze5.ipynb
             - title: Freeze 6 | Nov 2023
               file: docs/ukllc_key_facts/Sample/freezes/freeze6.ipynb
             - title: Freeze 7 | Feb 2024
-              file: docs/ukllc_key_facts/Sample/freezes/freeze7.ipynb 
+              file: docs/ukllc_key_facts/Sample/freezes/freeze7.ipynb
             - title: Freeze 8 | May 2024
               file: docs/ukllc_key_facts/Sample/freezes/freeze8.ipynb
             - title: Freeze 9 | Aug 2024
-              file: docs/ukllc_key_facts/Sample/freezes/freeze9.ipynb 
+              file: docs/ukllc_key_facts/Sample/freezes/freeze9.ipynb
             - title: Freeze 10 | Nov 2024
               file: docs/ukllc_key_facts/Sample/freezes/freeze10.ipynb
             - title: Freeze 11 | Feb 2025
               file: docs/ukllc_key_facts/Sample/freezes/freeze11.ipynb
     - title: Data structure & concepts
       file: docs/database/data_intro.md
-      sections: 
+      sections:
         - title: Database design
           file: docs/database/design/database_design.md
         - title: Dataset structures
           file: docs/database/structure/dataset_structures.md
         - title: LPS participants
-          file: docs/database/participants/denominator.md 
+          file: docs/database/participants/denominator.md
     - title: LPS datasets
       file: docs/LPS_data/LPS_introduction.md
       sections:
@@ -64,13 +64,13 @@ parts:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/ALSPAC/Datasets/ALSPAC_datasets.ipynb
               sections:
-                - title: serology1m 
+                - title: serology1m
                   file: docs/LPS_data/Datasets/ALSPAC/Datasets/serology1m.ipynb
                 - title: wave6y
                   file: docs/LPS_data/Datasets/ALSPAC/Datasets/wave6y.ipynb
         - title: BCS70
           file: docs/LPS_data/LPS profiles/BCS70.ipynb
-          sections: 
+          sections:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/BCS70/Datasets/BCS70_datasets.ipynb
               sections:
@@ -89,7 +89,7 @@ parts:
                 - title: CV19child_P2sdq
                   file: docs/LPS_data/Datasets/BIB/Datasets/CV19child_P2sdq.ipynb
         - title: ELSA
-          file: docs/LPS_data/LPS profiles/ELSA.ipynb          
+          file: docs/LPS_data/LPS profiles/ELSA.ipynb
           sections:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/ELSA/Datasets/ELSA_datasets.ipynb
@@ -99,7 +99,7 @@ parts:
                 - title: wave_9_ifs_derived_variables
                   file: docs/LPS_data/Datasets/ELSA/Datasets/wave_9_ifs_derived_variables.ipynb
         - title: EPICN
-          file: docs/LPS_data/LPS profiles/EPICN.ipynb          
+          file: docs/LPS_data/LPS profiles/EPICN.ipynb
           sections:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/EPICN/Datasets/EPICN_datasets.ipynb
@@ -117,7 +117,7 @@ parts:
           - title: Restrictions to use
             file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
           - title: Longevity of datasets
-            file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.md
+            file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.ipynb
           - title: Processing & linkage
             file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
           - title: Coded variables
@@ -216,7 +216,7 @@ parts:
           file: docs/linked_geo_data/population_datasets/population.md
         - title: Environmental datasets
           file: docs/linked_geo_data/environmental_datasets/environment.md
-          sections: 
+          sections:
             - title: Neighbourhood datasets
               file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/neighbourhood.md
               sections:
@@ -232,11 +232,11 @@ parts:
                 - title: Air pollution Hades
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_hades.md
                 - title: Noise pollution
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution.md     
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution.md
         - title: Mobility datasets
           file: docs/linked_geo_data/mobility_datasets/mobility.md
         - title: Health datasets
-          file: docs/linked_geo_data/health_datasets/health.md      
+          file: docs/linked_geo_data/health_datasets/health.md
     - title: Administrative datasets
       file: docs/linked_admin_data/admin_data.md
       sections:
@@ -253,7 +253,7 @@ parts:
           file: docs/ukllc_managed_data/demographic_datasets/demographic_data.md
           sections:
             - title: LSOA11 geo indicators
-              file: docs/ukllc_managed_data/demographic_datasets/Datasets/LSOA11_geo_indicators.md 
+              file: docs/ukllc_managed_data/demographic_datasets/Datasets/LSOA11_geo_indicators.md
             - title: UK geo indicators
               file: docs/ukllc_managed_data/demographic_datasets/Datasets/UK_geo_indicators.md
             - title: NHSD LSOA11
@@ -263,7 +263,7 @@ parts:
     - title: TRE user guide
       file: docs/user_guide/Introduction.md
       sections:
-        - title: Logging in 
+        - title: Logging in
           file: docs/user_guide/LoggingIn.md
         - title: Getting started
           file: docs/user_guide/GettingStarted.md
@@ -300,5 +300,3 @@ parts:
           file: docs/FAQ/pages/faq_geo.md
         - title: Resources
           file: docs/FAQ/pages/faq_resources.md
-        
-          
