@@ -1,5 +1,5 @@
 # NHS England primary care datasets
->Last modified: 01 Apr 2025
+>Last modified: 20 May 2025
 ## Introduction
 The two primary care datasets currently available in the UK LLC TRE are:  
 * Primary Care Medicines (PCM)  
@@ -41,7 +41,7 @@ In summary:
 * The individual SNOMED codes included in each code cluster are listed on [**OpenCodelists**](https://www.opencodelists.org/)  
  
 **SNOMED CT codes included in the GDPPR**  
-All releases of the clusters are available online via the NHS [**TRUD**]([https://isd.digital.nhs.uk/trud/users/guest/filters/0/home) (Technology Reference Update Distribution). UK LLC has downloaded Release 51.0.0<sup>3</sup> and made it available as a [downloadable text file](http://apply.ukllc.ac.uk/apply/view_document/gdppr).  
+All releases of the clusters are available online via the NHS [**TRUD**]([https://isd.digital.nhs.uk/trud/users/guest/filters/0/home) (Technology Reference Update Distribution). UK LLC has downloaded Release 51.0.0<sup>3</sup> and made it available as a [downloadable text file](https://apply.ukllc.ac.uk/apply/view_document/gdppr).  
 
 
 >This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of the International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. "SNOMED" and "SNOMED CT" are registered trademarks of the IHTSDO.  
