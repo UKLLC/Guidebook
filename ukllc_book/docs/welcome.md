@@ -2,9 +2,10 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The home of UK Longitudinal Linkage Collaboration’s data documentation and user guide.</strong></div>  
 <br>
 
->Last modified: 02 May 2025
+>Last modified: 21 May 2025
 
-[**UK LLC**](https://ukllc.ac.uk/) is the national **Trusted Research Environment (TRE)** for the UK's **longitudinal research community**. UK LLC brings together de-identified data from **Longitudinal Population Studies (LPS)** and systematically links these data to study participants' **health**, **administrative** and **place-based** records in the UK LLC TRE.
+[**UK LLC**](https://ukllc.ac.uk/) **is the national Trusted Research Environment (TRE) for data linkage in longitudinal research**.  
+UK LLC brings together de-identified data from **Longitudinal Population Studies (LPS)** and systematically links these data to study participants' **health**, **administrative** and **place-based** records in the UK LLC TRE.
 
 [**UK LLC's protocol paper**](https://ijpds.org/article/view/2468/6167), published in the International Journal of Population Data Science, explains how UK LLC works. Currently, researchers can request access to data from **20 LPS**, with participants' records linked to [**NHS England**](../docs/linked_health_data/NHS_England/NHSE_intro.md) and [**place-based datasets**](../docs/linked_geo_data/Place_based_intro.md) where permissions allow. **NHS Wales** and further place-based datasets will be available in 2025.  
 
