@@ -130,3 +130,18 @@ def get_num_vars(source, table_name):
 
     return len(pd.DataFrame(json.loads(response.text))
                ["variable_name"].unique())
+
+
+def get_md_api_frz_link_nhse():
+    r_d = requests.get(
+            "https://metadata-api-4a09f2833a54.herokuapp.com/freeze-linkage-nhse/",
+            headers={'access_token': API_KEY.strip()})
+
+        # return error message if API response != 200
+    try:
+        r_d.raise_for_status()
+
+    except requests.exceptions.HTTPError as err:
+        return "HTTP Error: " + str(err)
+
+    return pd.DataFrame(json.loads(r_d.text))
