@@ -7,7 +7,7 @@ import mdapi_functions as md
 from IPython.display import display, Markdown
 import markdown
 from bokeh.plotting import figure, show
-from bokeh.models import Span
+from bokeh.models import Span, TabPanel, Tabs
 from bokeh.io import output_notebook
 from math import pi
 from datetime import datetime
@@ -521,19 +521,46 @@ class LPSSource:
         return DocHelper.style_table("_", df)
 
     def linkages_plot(self):
+        dff = md.get_md_api_frz_link_nhse()
+        dff = dff[(dff["LPS"] == self.source) & (dff["frz_num"] == dff["frz_num"].max())]
 
         lx = ["NHS England", "NHS Wales", "NHS Scotland", "Neighbourhood Geographies", "Address Geographies", "DfE", "DWP", "HMRC"]
-        ly = [6256, 0, 0, 0, 0, 0, 0, 0]
+        ly = [dff.iloc[0]["n_l_tot"], 0, 0, 0, 0, 0, 0, 0]
 
         output_notebook(hide_banner=True)
-        p = figure(x_range=lx, width=600, height=400, title="Linkage of ALSPAC participants to linked Datasets")
+        p = figure(x_range=lx, width=600, height=400, title="Linkage of {} participants to linked Datasets".format(self.source))
         p.vbar(x=lx, top=ly, width=0.8)
-        vline = Span(location=6388, dimension='width', line_color='grey', line_width=2)
+        vline = Span(location=dff.iloc[0]["n_sent"], dimension='width', line_color='grey', line_width=2)
         p.add_layout(vline)
         p.y_range.start = 0
+        p.y_range.end = round(dff.iloc[0]["n_sent"]*1.2, -3)
         p.xaxis.major_label_orientation = pi/4
 
         show(p)
+
+    def linkages_all_plots(self):
+        output_notebook(hide_banner=True)
+        dff = md.get_md_api_frz_link_nhse()
+        plist = []
+        lx = ["NHS England", "NHS Wales", "NHS Scotland", "Neighbourhood Geographies", "Address Geographies", "DfE", "DWP", "HMRC"]
+
+        for i in range(1,dff["frz_num"].max()+1):
+            dffi = dff[(dff["LPS"] == self.source) & (dff["frz_num"] == i)]
+            ly = [dffi.iloc[0]["n_l_tot"], 0, 0, 0, 0, 0, 0, 0]
+            p = figure(x_range=lx, width=600, height=400, title="Linkage of {} participants to linked Datasets".format(self.source))
+            p.vbar(x=lx, top=ly, width=0.8)
+            vline = Span(location=dffi.iloc[0]["n_sent"], dimension='width', line_color='grey', line_width=2)
+            p.add_layout(vline)
+            p.y_range.start = 0
+            p.y_range.end = round(dff[(dff["LPS"] == self.source)]["n_sent"].max()*1.2, -3)
+            p.xaxis.major_label_orientation = pi/4
+            plist.append(p)
+
+        tabs = Tabs(tabs=[
+            TabPanel(child=plist[x-1], title="Freeze {}".format(x)) for x in range(1,dff["frz_num"].max()+1)
+        ], active=dff["frz_num"].max()-1)
+
+        show(tabs)
 
     def change_log(self):
         return display(Markdown("We are currently working on a metadata management system, which will allow for studies to change metadata for their resources held in the UK LLC. Changes to metadata of datasets (such as dataset name or summary) will surface here."))
