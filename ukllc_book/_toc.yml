@@ -47,7 +47,7 @@ parts:
     - title: LPS datasets
       file: docs/LPS_data/LPS_introduction.md
       sections:
-        - title: Longevity of LPS
+        - title: Temporal coverage
           file: docs/LPS_data/Longevity of LPS/LPS_longevity
         - title: Permitted linkages
           file: docs/LPS_data/Linkages/LPS_linkages.md
@@ -116,7 +116,7 @@ parts:
           sections:
           - title: Restrictions to use
             file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
-          - title: Longevity of datasets
+          - title: Temporal coverage
             file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.ipynb
           - title: Processing & linkage
             file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
