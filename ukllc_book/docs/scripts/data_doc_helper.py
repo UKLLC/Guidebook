@@ -3,11 +3,20 @@ import json
 import os
 import sqlalchemy
 import pandas as pd
+import mdapi_functions as md
+from IPython.display import display, Markdown
+import markdown
+from bokeh.plotting import figure, show
+from bokeh.models import Span
+from bokeh.io import output_notebook
+from math import pi
+from datetime import datetime
+
 
 class DocHelper:
     def __init__(self, datasource, dataset, version, filepath):
         '''
-        
+
         Parameters
         ----------
         datasource : str
@@ -28,13 +37,13 @@ class DocHelper:
         self.data = dataset
         self.source = datasource
         self.version = version
-        self.fp = filepath 
+        self.fp = filepath
         # ukllc api connection
-        self.api_key = os.environ['FASTAPI_KEY']    
+        self.api_key = os.environ['FASTAPI_KEY']
 
     def connect(self):
         '''
-        
+
         Raises
         ------
         Exception
@@ -54,8 +63,8 @@ class DocHelper:
         # raise exception if connection failure
         except Exception as e:
             raise Exception("DB connection failed with error", e)
-            
-    
+
+
     def get_cohort_count(self):
         '''
 
@@ -68,27 +77,27 @@ class DocHelper:
 
         # get data from api endpoint
         url = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-dataset-counts/?table={}".format(self.data)
-        r = requests.get(url, headers={'access_token': self.api_key}) 
+        r = requests.get(url, headers={'access_token': self.api_key})
         data = r.text
         # convert to json
         pj = json.loads(data)
         # convert to dataframe
         df = pd.json_normalize(pj)
-        
+
         # remove cohorts not included
         rm = ['GENSCOT', 'NICOLA', 'SABRE']
         df = df[~df['cohort'].isin(rm)]
-        
+
         # strip down df and rename
         df = df[['cohort', 'count']].rename(columns={'cohort': 'LPS',
                                 'count': 'Participant count'})
-    
+
         # CALC TOTAL
         # treat <10 as 0
         df['count1'] = df['Participant count'].replace('<10', '0')
         # convert to ensure counts are numeric
         df['count1'] = df['count1'].astype(int)
-        # get total        
+        # get total
         df.loc["Total"] = df['count1'].sum()
         # drop temp column
         df = df.drop(columns = ['count1'])
@@ -96,7 +105,7 @@ class DocHelper:
         df = df.reset_index(drop = True)
         df.loc[df.index[-1], 'LPS'] = 'TOTAL'
         return df
-    
+
     def get_dataset_info(self):
         '''
 
@@ -116,7 +125,7 @@ class DocHelper:
         else:
             # get observation and row counts from versions endpoint
             url1 = "https://metadata-api-4a09f2833a54.herokuapp.com/all-datasets-versions/?source={}&table={}".format(self.source, self.data)
-            r1 = requests.get(url1, headers={'access_token': self.api_key }) 
+            r1 = requests.get(url1, headers={'access_token': self.api_key })
             data1 = r1.text
             # convert to json
             pj1 = json.loads(data1)
@@ -135,7 +144,7 @@ class DocHelper:
             # transpose and rename columns
             df1 = df1.T
             df1 = df1.rename(columns = {df1.columns[0] : 'Dataset-specific information'})
-        
+
         # guidebook specific table/endpoint
         multipart = ['IAPT_', 'CSDS_']
         if any(i in self.data for i in multipart):
@@ -143,7 +152,7 @@ class DocHelper:
             df2 = pd.DataFrame()
         else:
             url2 = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-datasets-gb/?Name_of_dataset_in_TRE={}".format(self.data)
-            r2 = requests.get(url2, headers={'access_token': self.api_key }) 
+            r2 = requests.get(url2, headers={'access_token': self.api_key })
             data2 = r2.text
             # convert to json
             pj2 = json.loads(data2)
@@ -170,14 +179,14 @@ class DocHelper:
             df3 = df3.rename(columns = {df3.columns[0] : 'Dataset-specific information'})
         # and merge
         dfm = pd.concat([dfm, df3])
-            
+
         # End point for latest extract
         if any(i in self.data for i in multi):
             # create dummy dataframe
             df4 = pd.DataFrame()
         else:
             url4 = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-extract-dates/"
-            r4 = requests.get(url4, headers={'access_token': self.api_key }) 
+            r4 = requests.get(url4, headers={'access_token': self.api_key })
             data4 = r4.text
             # convert to json
             pj4 = json.loads(data4)
@@ -186,21 +195,21 @@ class DocHelper:
             # dedup keeping latest and filter to target dataset
             df4 = df4[df4['dataset'].str.contains(self.data)].sort_values('date').drop_duplicates('dataset', keep='last')
             df4 = df4[['date']]
-            # rename 
+            # rename
             df4 = df4.rename(columns={'date': 'Date of last extract'})
             # and transpose
             df4 = df4.T
             df4 = df4.rename(columns = {df4.columns[0] : 'Dataset-specific information'})
         # and merge
         dfm = pd.concat([dfm, df4])
-        
+
         # FINAL CLEARUP
         dfm = dfm.reset_index()
         dfm = dfm.rename(columns = {'index' : 'Dataset descriptor'})
         dfm = dfm.reset_index(drop = True)
-        dfm['Dataset descriptor'] = dfm['Dataset descriptor'].str.replace('_', ' ')  
+        dfm['Dataset descriptor'] = dfm['Dataset descriptor'].str.replace('_', ' ')
         return dfm
-    
+
 
     def style_table(self, df):
         '''
@@ -213,11 +222,11 @@ class DocHelper:
         Returns
         -------
         df : dataframe
-            df with styling applied 
+            df with styling applied
 
         '''
-        
-        # apply styling 
+
+        # apply styling
         df = df.style.set_table_attributes('style="font-size: 14px"')\
         .set_table_styles([dict(selector='th', props=[('text-align', 'left'),])])\
         .set_properties(**{'text-align': 'left'})
@@ -230,5 +239,304 @@ class DocHelper:
         return df
 
 
+class LPSDataSet:
+    def __init__(self, source, dataset):
+        '''
 
-    
+        Parameters
+        ----------
+        source : str
+            data source of target table/dataset
+        dataset : str
+            dataset/table name of target table/dataset
+        version : str
+            version number of target table/dataset
+
+        Returns
+        -------
+        None.
+
+        '''
+        # define std input variables
+        self.dataset = dataset
+        self.source = source
+
+        infill = os.path.abspath('../../../../scripts/dsvs_infill.csv')
+        df = md.prep_dsvs_for_gb_pages(infill)
+        self.df_ds = df[df["source_table"] == source + "_" + dataset]
+
+    def title(self):
+        return display(Markdown("# " + self.df_ds.iloc[0]["table_name"] + " (" + self.df_ds.iloc[0]["source"] + ")"))
+
+
+    def summary(self):
+        return display(Markdown(self.df_ds.iloc[0]["long_desc"]))
+
+
+    def info_table(self):
+        pref = "10.83126/" # switch to autograb from datacite API when minted
+        suff = "ukllc-dataset-00032-01" # switch to autograb from API  when minted
+        cite = json.loads(requests.get(
+            "https://api.test.datacite.org/dois/" + pref + suff,
+        ).text)['data']['attributes']
+
+        citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+        bibtex = "https://api.datacite.org/application/x-bibtex/"
+        ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+        apa_cite = cite['creators'][0]["name"] +             ". (" + str(cite["publicationYear"]) + "). <i>" +             cite["titles"][0]["title"] +             ".</i> (Version " +             cite["version"] +             ") [Data set]. " +             cite["publisher"] +             ". " + md.make_hlink("https://doi.org/" + pref + suff, "https://doi.org/" + pref + suff)
+
+        dl_cites = md.make_hlink(citeprocjson + pref + suff, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" +             md.make_hlink(bibtex + pref + suff, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + pref + suff, "RIS")
+
+
+        ds_info_list = [
+        [
+            "Name of Dataset in TRE",
+            "Citation (APA)",
+            "Download Citation",
+            "Series",
+            "Owner",
+            "Temporal Coverage",
+            "Geographical Coverage - Nations",
+            "Geographical Coverage - Regions",
+            "Participants Invited",
+            "Participant Count",
+            "Number of variables",
+            "Number of observations",
+            "Specific Restrictions to Data Use",
+            "Build a Data Request"
+        ],
+        [
+            self.df_ds.iloc[0]["source_table"], # DS in TRE
+            apa_cite, # Citation
+            dl_cites, # Download Cite
+            md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/lps%20profiles/{}".format(self.df_ds.iloc[0]["source"]), self.df_ds.iloc[0]["source_name"]), # Series
+            self.df_ds.iloc[0]["Owner"], # Owner
+            self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
+            self.df_ds.iloc[0]["geographic_coverage_Nations"], # Geographical Coverage - Nations
+            self.df_ds.iloc[0]["geographic_coverage_Regions"], # Geographical Coverage - Nations
+            self.df_ds.iloc[0]["participants_invited"], # Participants invited
+            self.df_ds.iloc[0]["participants_included"], # Participants included
+            md.get_num_vars(self.df_ds.iloc[0]["source"], self.df_ds.iloc[0]["table"]), # Number of variables
+            int(self.df_ds.iloc[0]["num_rows"]), # Number of observations
+            "None", # Restrictions to Data Use
+            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/") # Build a data request
+        ]
+        ]
+
+        df_ss_info = pd.DataFrame(ds_info_list, index=["Dataset Descriptor", "Dataset-specific Information"]).T
+        df_ss_info = DocHelper.style_table("_", df_ss_info)
+        return df_ss_info
+
+    def version_history(self):
+        dsvs = md.get_md_api_dsvs()
+        dsvs = dsvs[(dsvs["source"] == self.source) & (dsvs["table"] == self.dataset)]
+        dsvs["version_num"] = dsvs["version_num"].apply(lambda x: "Version " + str(int(x.split("v")[1])))
+        dsvs["version_date"] = dsvs["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
+        dsvs["num_columns"] = dsvs["num_columns"].apply(lambda x: int(x))
+        dsvs["num_participants"] = dsvs["num_participants"].apply(lambda x: int(x))
+        dsvs["DOI"] = "TBC"
+        dsvs2 = dsvs[["version_num", "version_date", "num_columns", "num_participants", "DOI"]].rename(columns = {"version_num": "Version Number", "version_date": "Version Date", "num_columns": "Number of Variables", "num_participants": "Number of Participants"}).set_index("Version Number")
+        return dsvs2.T
+
+    def change_log(self):
+        return display(Markdown("We are currently working on a metadata management system, which will allow for studies to change metadata for their resources held in the UK LLC. Changes to metadata of datasets (such as dataset name or summary) will surface here."))
+
+    def documentation(self):
+        return display(Markdown("We are currently building a documentation storage system, which will host relevant and useful documents related to datasets, groupings, and studies themselves. Relevant documentation for this particular dataset will go here."))
+
+    def useful_syntax(self):
+        return display(Markdown("Below we will include syntax that may be helpful to other researchers in the UK LLC TRE. For longer scripts, we will include a snippet of the code plus a link to Git where you can find the full script"))
+
+
+class LPSSource:
+    def __init__(self, source):
+        '''
+
+        Parameters
+        ----------
+        source : str
+            data source of target table/dataset
+
+        Returns
+        -------
+        None.
+
+        '''
+        # define std input variables
+        self.source = source
+        self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
+
+        # plceholder DOI var for now
+        self.doi = "10.83126/ukllc-series-00001-01"
+
+    def summary(self):
+        return self.df_ss["Aims"]
+
+    def info_table(self):
+
+        cite = json.loads(requests.get(
+            "https://api.test.datacite.org/dois/" + self.doi,
+        ).text)['data']['attributes']
+
+        citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+        bibtex = "https://api.datacite.org/application/x-bibtex/"
+        ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+        apa_cite = cite['creators'][0]["name"] + \
+            ". (" + str(cite["publicationYear"]) + "). <i>" + \
+            cite["titles"][0]["title"] + \
+            ".</i> " + \
+            cite["publisher"] + \
+            ". " + md.make_hlink("https://doi.org/" + self.doi, "https://doi.org/10.83126/ukllc-series-00001")
+
+        dl_cites = md.make_hlink(citeprocjson + self.doi, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+            md.make_hlink(bibtex + self.doi, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + self.doi, "RIS")
+
+        chrt_doi = "10.1016/j.envres.2014.07.025"
+
+        ss_info_list = [
+        [
+            "Citation (APA)",
+            "Download Citation",
+            "Owner",
+            "Cohort",
+            "Age at Recruitment",
+            "Geographical Coverage - Nations",
+            "Geographical Coverage - Regions",
+            "Start Date",
+            "Permitted Linkages",
+            "Inclusion in Linkages",
+            "Cohort Profile",
+            "LPS Homepage",
+            "Build a Data Request"
+        ],
+        [
+            apa_cite,
+            dl_cites,
+            self.df_ss.iloc[0]["Owner"],
+            self.df_ss.iloc[0]["sample_size_at_recruitment"],
+            self.df_ss.iloc[0]["age_at_recruitment"],
+            self.df_ss.iloc[0]["geographic_coverage_Nations"],
+            self.df_ss.iloc[0]["geographic_coverage_Regions"],
+            self.df_ss.iloc[0]["start_date"],
+            "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages","here"),
+            self.df_ss.iloc[0]["participant_pathway"],
+            md.make_hlink("https://doi.org/" + chrt_doi, chrt_doi),
+            markdown.markdown(self.df_ss.iloc[0]["Website"]),
+            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
+        ]
+        ]
+
+        df_ss_info = pd.DataFrame(ss_info_list, index=["Series Descriptor", "Series-specific Information"]).T
+        return DocHelper.style_table("_", df_ss_info)
+
+class LPSSource:
+    def __init__(self, source):
+        '''
+
+        Parameters
+        ----------
+        source : str
+            data source of target table/dataset
+
+        Returns
+        -------
+        None.
+
+        '''
+        # define std input variables
+        self.source = source
+        self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
+
+        # plceholder DOI var for now
+        self.doi = "10.83126/ukllc-series-00001-01"
+
+    def summary(self):
+        return display(Markdown(self.df_ss.iloc[0]["Aims"]))
+
+    def info_table(self):
+
+        cite = json.loads(requests.get(
+            "https://api.test.datacite.org/dois/" + self.doi,
+        ).text)['data']['attributes']
+
+        citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+        bibtex = "https://api.datacite.org/application/x-bibtex/"
+        ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+        apa_cite = cite['creators'][0]["name"] + \
+            ". (" + str(cite["publicationYear"]) + "). <i>" + \
+            cite["titles"][0]["title"] + \
+            ".</i> " + \
+            cite["publisher"] + \
+            ". " + md.make_hlink("https://doi.org/" + self.doi, "https://doi.org/10.83126/ukllc-series-00001")
+
+        dl_cites = md.make_hlink(citeprocjson + self.doi, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+            md.make_hlink(bibtex + self.doi, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + self.doi, "RIS")
+
+        chrt_doi = "10.1016/j.envres.2014.07.025"
+
+        ss_info_list = [
+        [
+            "Citation (APA)",
+            "Download Citation",
+            "Owner",
+            "Cohort",
+            "Age at Recruitment",
+            "Geographical Coverage - Nations",
+            "Geographical Coverage - Regions",
+            "Start Date",
+            "Permitted Linkages",
+            "Inclusion in Linkages",
+            "Cohort Profile",
+            "LPS Homepage",
+            "Build a Data Request"
+        ],
+        [
+            apa_cite,
+            dl_cites,
+            self.df_ss.iloc[0]["Owner"],
+            self.df_ss.iloc[0]["sample_size_at_recruitment"],
+            self.df_ss.iloc[0]["age_at_recruitment"],
+            self.df_ss.iloc[0]["geographic_coverage_Nations"],
+            self.df_ss.iloc[0]["geographic_coverage_Regions"],
+            self.df_ss.iloc[0]["start_date"],
+            "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages","here"),
+            self.df_ss.iloc[0]["participant_pathway"],
+            md.make_hlink("https://doi.org/" + chrt_doi, chrt_doi),
+            markdown.markdown(self.df_ss.iloc[0]["Website"]),
+            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
+        ]
+        ]
+
+        df_ss_info = pd.DataFrame(ss_info_list, index=["Series Descriptor", "Series-specific Information"]).T
+        return DocHelper.style_table("_", df_ss_info)
+
+    def datasets(self):
+        infill = os.path.abspath('../../scripts/dsvs_infill.csv')
+        df = md.prep_dsvs_for_gb_pages(infill)
+        df["DOI"] = "TBC"
+        df = df[df["source"] == self.source][["table", "table_name", "DOI"]].rename(columns={"table": "Table", "table_name": "Table Name"})
+        return DocHelper.style_table("_", df)
+
+    def linkages_plot(self):
+
+        lx = ["NHS England", "NHS Wales", "NHS Scotland", "Neighbourhood Geographies", "Address Geographies", "DfE", "DWP", "HMRC"]
+        ly = [6256, 0, 0, 0, 0, 0, 0, 0]
+
+        output_notebook(hide_banner=True)
+        p = figure(x_range=lx, width=600, height=400, title="Linkage of ALSPAC participants to linked Datasets")
+        p.vbar(x=lx, top=ly, width=0.8)
+        vline = Span(location=6388, dimension='width', line_color='grey', line_width=2)
+        p.add_layout(vline)
+        p.y_range.start = 0
+        p.xaxis.major_label_orientation = pi/4
+
+        show(p)
+
+    def change_log(self):
+        return display(Markdown("We are currently working on a metadata management system, which will allow for studies to change metadata for their resources held in the UK LLC. Changes to metadata of datasets (such as dataset name or summary) will surface here."))
+
+    def documentation(self):
+        return display(Markdown("We are currently building a document repository which will host relevant and useful documents related to datasets, groupings, and studies themselves. Relevant documentation for this particular dataset will go here."))
