@@ -11,6 +11,7 @@ from bokeh.models import Span, TabPanel, Tabs
 from bokeh.io import output_notebook
 from math import pi
 from datetime import datetime
+import datacite_api_functions as dcf
 
 
 class DocHelper:
@@ -366,31 +367,50 @@ class LPSSource:
         self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
         self.cohort_profile = md.get_md_api_profiles()[md.get_md_api_profiles()["source"] == self.source].iloc[0]["profile_doi"]
 
-        # plceholder DOI var for now
-        self.doi = "10.83126/ukllc-series-00001-01"
+        def ss_doi(x):
+            df = dcf.get_doi_series()
+            if len(df[(df["source"] == x) & (df["state"] == "findable")]) == 1:
+                return df[df["source"] == x].iloc[0]["id"]
+            else:
+                return "DOI TBC"
+
+        self.doi = ss_doi(self.source)
+
+        def cites(x):
+            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+            bibtex = "https://api.datacite.org/application/x-bibtex/"
+            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            if x == "DOI TBC":
+                apa_cite = "DOI and Citation TBC"
+                dl_cites = "DOI and Citation Downloads TBC"
+                return apa_cite, dl_cites
+
+            else:
+                cite = json.loads(requests.get(
+                    "https://api.test.datacite.org/dois/" + x,
+                ).text)['data']['attributes']
+
+                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+                bibtex = "https://api.datacite.org/application/x-bibtex/"
+                ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+                apa_cite = cite['creators'][0]["name"] + \
+                    ". (" + str(cite["publicationYear"]) + "). <i>" + \
+                    cite["titles"][0]["title"] + \
+                    ".</i> " + \
+                    cite["publisher"] + \
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/10.83126/ukllc-series-00001")
+
+                dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+                    md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
+                return apa_cite, dl_cites
+
+        self.apa_cite, self.dl_cites = cites(self.doi)
 
     def summary(self):
         return display(Markdown(self.df_ss.iloc[0]["Aims"]))
 
     def info_table(self):
-
-        cite = json.loads(requests.get(
-            "https://api.test.datacite.org/dois/" + self.doi,
-        ).text)['data']['attributes']
-
-        citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-        bibtex = "https://api.datacite.org/application/x-bibtex/"
-        ris = "https://api.datacite.org/application/x-research-info-systems/"
-
-        apa_cite = cite['creators'][0]["name"] + \
-            ". (" + str(cite["publicationYear"]) + "). <i>" + \
-            cite["titles"][0]["title"] + \
-            ".</i> " + \
-            cite["publisher"] + \
-            ". " + md.make_hlink("https://doi.org/" + self.doi, "https://doi.org/10.83126/ukllc-series-00001")
-
-        dl_cites = md.make_hlink(citeprocjson + self.doi, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
-            md.make_hlink(bibtex + self.doi, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + self.doi, "RIS")
 
         ss_info_list = [
         [
@@ -409,8 +429,8 @@ class LPSSource:
             "Build a Data Request"
         ],
         [
-            apa_cite,
-            dl_cites,
+            self.apa_cite,
+            self.dl_cites,
             self.df_ss.iloc[0]["Owner"],
             self.df_ss.iloc[0]["sample_size_at_recruitment"],
             self.df_ss.iloc[0]["age_at_recruitment"],
