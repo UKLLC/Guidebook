@@ -297,8 +297,7 @@ class LPSDataSet:
             "Series",
             "Owner",
             "Temporal Coverage",
-            "Geographical Coverage - Nations",
-            "Geographical Coverage - Regions",
+            "Keywords",
             "Participants Invited",
             "Participant Count",
             "Number of variables",
@@ -313,8 +312,7 @@ class LPSDataSet:
             md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/lps%20profiles/{}".format(self.df_ds.iloc[0]["source"]), self.df_ds.iloc[0]["source_name"]), # Series
             self.df_ds.iloc[0]["Owner"], # Owner
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
-            self.df_ds.iloc[0]["geographic_coverage_Nations"], # Geographical Coverage - Nations
-            self.df_ds.iloc[0]["geographic_coverage_Regions"], # Geographical Coverage - Nations
+            self.df_ds.iloc[0]["topic_tags"], # Keywords
             self.df_ds.iloc[0]["participants_invited"], # Participants invited
             self.df_ds.iloc[0]["participants_included"], # Participants included
             md.get_num_vars(self.df_ds.iloc[0]["source"], self.df_ds.iloc[0]["table"]), # Number of variables
@@ -366,88 +364,7 @@ class LPSSource:
         # define std input variables
         self.source = source
         self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
-
-        # plceholder DOI var for now
-        self.doi = "10.83126/ukllc-series-00001-01"
-
-    def summary(self):
-        return self.df_ss["Aims"]
-
-    def info_table(self):
-
-        cite = json.loads(requests.get(
-            "https://api.test.datacite.org/dois/" + self.doi,
-        ).text)['data']['attributes']
-
-        citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-        bibtex = "https://api.datacite.org/application/x-bibtex/"
-        ris = "https://api.datacite.org/application/x-research-info-systems/"
-
-        apa_cite = cite['creators'][0]["name"] + \
-            ". (" + str(cite["publicationYear"]) + "). <i>" + \
-            cite["titles"][0]["title"] + \
-            ".</i> " + \
-            cite["publisher"] + \
-            ". " + md.make_hlink("https://doi.org/" + self.doi, "https://doi.org/10.83126/ukllc-series-00001")
-
-        dl_cites = md.make_hlink(citeprocjson + self.doi, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
-            md.make_hlink(bibtex + self.doi, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + self.doi, "RIS")
-
-        chrt_doi = "10.1016/j.envres.2014.07.025"
-
-        ss_info_list = [
-        [
-            "Citation (APA)",
-            "Download Citation",
-            "Owner",
-            "Cohort",
-            "Age at Recruitment",
-            "Geographical Coverage - Nations",
-            "Geographical Coverage - Regions",
-            "Start Date",
-            "Permitted Linkages",
-            "Inclusion in Linkages",
-            "Cohort Profile",
-            "LPS Homepage",
-            "Build a Data Request"
-        ],
-        [
-            apa_cite,
-            dl_cites,
-            self.df_ss.iloc[0]["Owner"],
-            self.df_ss.iloc[0]["sample_size_at_recruitment"],
-            self.df_ss.iloc[0]["age_at_recruitment"],
-            self.df_ss.iloc[0]["geographic_coverage_Nations"],
-            self.df_ss.iloc[0]["geographic_coverage_Regions"],
-            self.df_ss.iloc[0]["start_date"],
-            "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages","here"),
-            self.df_ss.iloc[0]["participant_pathway"],
-            md.make_hlink("https://doi.org/" + chrt_doi, chrt_doi),
-            markdown.markdown(self.df_ss.iloc[0]["Website"]),
-            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
-        ]
-        ]
-
-        df_ss_info = pd.DataFrame(ss_info_list, index=["Series Descriptor", "Series-specific Information"]).T
-        return DocHelper.style_table("_", df_ss_info)
-
-class LPSSource:
-    def __init__(self, source):
-        '''
-
-        Parameters
-        ----------
-        source : str
-            data source of target table/dataset
-
-        Returns
-        -------
-        None.
-
-        '''
-        # define std input variables
-        self.source = source
-        self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
+        self.cohort_profile = md.get_md_api_profiles()[md.get_md_api_profiles()["source"] == self.source].iloc[0]["profile_doi"]
 
         # plceholder DOI var for now
         self.doi = "10.83126/ukllc-series-00001-01"
@@ -475,8 +392,6 @@ class LPSSource:
         dl_cites = md.make_hlink(citeprocjson + self.doi, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
             md.make_hlink(bibtex + self.doi, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + self.doi, "RIS")
 
-        chrt_doi = "10.1016/j.envres.2014.07.025"
-
         ss_info_list = [
         [
             "Citation (APA)",
@@ -504,7 +419,7 @@ class LPSSource:
             self.df_ss.iloc[0]["start_date"],
             "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages","here"),
             self.df_ss.iloc[0]["participant_pathway"],
-            md.make_hlink("https://doi.org/" + chrt_doi, chrt_doi),
+            md.make_hlink("https://doi.org/" + self.cohort_profile, self.cohort_profile),
             markdown.markdown(self.df_ss.iloc[0]["Website"]),
             md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
         ]

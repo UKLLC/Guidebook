@@ -24,6 +24,25 @@ def get_md_api_ss():
     return pd.DataFrame(json.loads(r_d.text))
 
 
+def get_md_api_profiles():
+    """
+    Returns all study cohort profile papers from MD API
+    """
+
+    r_d = requests.get(
+        "https://metadata-api-4a09f2833a54.herokuapp.com/all-source-profiles",
+        headers={'access_token': API_KEY.strip()})
+
+    # return error message if API response != 200
+    try:
+        r_d.raise_for_status()
+
+    except requests.exceptions.HTTPError as err:
+        return "HTTP Error: " + str(err)
+
+    return pd.DataFrame(json.loads(r_d.text))
+
+
 def get_md_api_dss():
     """
     Returns all datasets from MD API
