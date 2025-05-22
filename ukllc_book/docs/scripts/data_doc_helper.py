@@ -451,7 +451,13 @@ class LPSSource:
     def datasets(self):
         infill = os.path.abspath('../../scripts/dsvs_infill.csv')
         df = md.prep_dsvs_for_gb_pages(infill)
-        df["DOI"] = "TBC"
+
+        ds_dois = dcf.get_doi_datasets()
+        ds_dois = ds_dois[ds_dois["state"] == "findable"]
+        ds_dois["source_table"] = ds_dois["attributes.titles"].apply(lambda x: x[1]["title"])
+
+        # TODO: latest dataset version DOI rather than 1st one
+        df["DOI"] = df["source_table"].apply(lambda x: ds_dois[ds_dois["source_table"] == x].iloc[0]["id"] if len(ds_dois[ds_dois["source_table"] == x]) == 1 else "DOI TBC")
         df = df[df["source"] == self.source][["table", "table_name", "DOI"]].rename(columns={"table": "Table", "table_name": "Table Name"})
         return DocHelper.style_table("_", df)
 

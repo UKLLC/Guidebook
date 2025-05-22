@@ -46,7 +46,7 @@ def get_doi_datasets():
     doi_dss = pd.json_normalize(doi_datasets['data'])
     if len(doi_dss) == 0:
         return doi_dss.reindex(doi_dss.columns.union(
-            ["id", "state", "attributes.identifiers", "creators", "title"]
+            ["id", "state", "attributes.identifiers", "creators", "title", "source_table"]
                                                   ), axis=1)
     else:
         doi_dss['creators'] = doi_dss['attributes.creators']\
@@ -55,6 +55,7 @@ def get_doi_datasets():
             .apply(lambda x: x[0]['title'])
 
         doi_dss = doi_dss.rename(columns={"attributes.state": "state"})
+        doi_dss["source_table"] =
 
         return doi_dss.drop(
             [
