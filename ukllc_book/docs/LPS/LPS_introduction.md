@@ -5,14 +5,14 @@
 ## Introduction  
 The UK has a **world-leading portfolio** of around **100 longitudinal population studies (LPS)**, which have collected detailed phenotypic and biological information on over three million members of the UK public. Data collected by LPS include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples. 
 
-Table 1 provides an overview of the **22 LPS that are part of UK LLC**. Currently data are available for request from 20 of them - data from AIRWAVE and UK-REACH will flow shortly. UK LLC remains open to additional LPS joining the partnership through a formalised onboarding process.
+Table 1 provides an overview of the **LPS that are part of UK LLC**. Currently, data are available for request from all except UK-REACH - data will be available from mid-2026. UK LLC remains open to additional LPS joining the partnership through a formalised onboarding process.
 
 Most LPS have published **cohort profiles** which give detailed information about each LPS - to access these, click on the LPS name in Table 1 (some publications may require library licences to access, but most will be free and publicly accessible). 
 
 Visit [**UK LLC Explore**](https://explore.ukllc.ac.uk/) to discover more about each LPS and their datasets, including variable names, labels and values. 
 
 
-**Table 1** A summary of the 22 longitudinal population studies (LPS) that are in the UK LLC partnership (listed in alphabetical order)
+**Table 1** A summary of the longitudinal population studies (LPS) that are in the UK LLC partnership (listed in alphabetical order)
 
 |**LPS Name**|**Summary**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Coverage**|**Cohort**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Years**|**Owner**|
 |:--|:--|:--|:--|:--|:--|
