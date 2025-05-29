@@ -6,6 +6,13 @@ from io import StringIO
 API_KEY = os.environ['FASTAPI_KEY']
 
 
+def get_nhse_cohort_counts(ds):
+    url = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-dataset-counts/?table={}".format(ds)
+    r = requests.get(url, headers={'access_token': API_KEY})
+    data = r.text
+    pj = json.loads(data)
+    return pd.json_normalize(pj)[["cohort", "count"]]
+
 def get_nhs_gb_info(ds):
     req = requests.get("https://metadata-api-4a09f2833a54.herokuapp.com/nhs-datasets-gb/?Name_of_dataset_in_TRE={}".format(ds), headers={'access_token': API_KEY})
     df = pd.json_normalize(json.loads(req.text))

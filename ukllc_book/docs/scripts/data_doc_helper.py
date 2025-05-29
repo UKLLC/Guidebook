@@ -541,8 +541,15 @@ class NHSEDataSet:
         def ds_doi(x):
             doi_ds = dcf.get_doi_datasets()[dcf.get_doi_datasets()["state"] == "findable"]
             doi_ds["source_table"] = doi_ds["attributes.titles"].apply(lambda x: x[1]["title"] if len(x) > 1 else "NA")
-            doi_ds = doi_ds[doi_ds["source_table"] == x]
-            doi_ds = doi_ds.sort_values(by="attributes.version", ascending=False).drop_duplicates(subset="source_table")
+
+            reg = ["CANCER", "MORTALITY", "DEMOGRAPHICS"]
+            if x in reg:
+                doi_ds = doi_ds[doi_ds["source_table"].str.startswith("NHSE_" + x)]
+                doi_ds = doi_ds.sort_values(by="source_table", ascending=False).head(1)
+            else:
+                doi_ds = doi_ds[doi_ds["source_table"] == "NHSE_" + x]
+                doi_ds = doi_ds.sort_values(by="attributes.version", ascending=False).drop_duplicates(subset="source_table")
+
             if len(doi_ds) == 1:
                 return doi_ds.iloc[0]["id"]
             else:
@@ -586,7 +593,7 @@ class NHSEDataSet:
         # define std input variables
         self.dataset = dataset
         self.df_ds = get_nhse_ds(self.dataset)
-        self.doi = ds_doi(self.df_ds.iloc[0]["source_table"])
+        self.doi = ds_doi(self.df_ds.iloc[0]["table"])
         self.ed = get_ed(self.dataset)
         self.apa_cite, self.dl_cites = cites(self.doi)
 
@@ -594,7 +601,7 @@ class NHSEDataSet:
         return display(Markdown("# " + self.df_ds.iloc[0]["table_name"] + " (" + self.df_ds.iloc[0]["source"] + ")"))
 
     def three_sec_summary(self):
-        display(Markdown('<div style="background-color: rgba(0, 178, 169, 0.3); padding: 3px; border-radius: 3px;"><strong>{}</strong></div>'.format(self.df_ds.iloc[0]["short_desc"])))
+        display(Markdown('<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>{}</strong></div>'.format(self.df_ds.iloc[0]["short_desc"])))
 
     def summary(self):
         return display(Markdown(self.df_ds.iloc[0]["long_desc"]))
