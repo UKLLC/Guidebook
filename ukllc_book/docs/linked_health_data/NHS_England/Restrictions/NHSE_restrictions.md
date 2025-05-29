@@ -1,6 +1,6 @@
 # NHS England dataset restrictions
 
->Last modified: 07 Feb 2025
+>Last modified: 29 May 2025
 
 The specific terms set out in the table below are extracted from the data sharing agreement between UK LLC (University of Bristol) and NHS England. Researchers permitted to access these datasets **must adhere to these terms** when analysing the data and presenting and publishing their findings. UK LLC performs checks to ensure adherence and penalties will apply if these terms are breached.  
 
@@ -14,4 +14,3 @@ The specific terms set out in the table below are extracted from the data sharin
 |[**COVID-19 Hospitalisation in England Surveillance System (CHESS)**](https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/covid%20datasets/chess/chess)|1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020.**](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)|
 |[**COVID-19 Vaccination Status (CVS)**](https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/covid%20datasets/cvs/cvs)|1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020.**](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)|
 |[**COVID-19 Vaccination Adverse Reactions (CVAR)**](https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/covid%20datasets/cvar/cvar)|1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020.**](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)|
-|[**Primary Care Medicines (PCM)**](https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/other%20datasets/pcm/pcm)|1. Research must have a focus on the **safety and effectiveness of medicines** as specified by the [**NHSBSA Medicines Data Directions.**](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/nhs-business-services-authority-nhsbsa-medicines-data-directions-2019)|
