@@ -13,6 +13,8 @@ from math import pi
 from datetime import datetime
 import datacite_api_functions as dcf
 
+pd.options.mode.chained_assignment = None
+
 
 class DocHelper:
     def __init__(self, datasource, dataset, version, filepath):
@@ -334,7 +336,7 @@ class LPSDataSet:
         dsvs["version_date"] = dsvs["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
         dsvs["num_columns"] = dsvs["num_columns"].apply(lambda x: int(x))
         dsvs["num_participants"] = dsvs["num_participants"].apply(lambda x: int(x))
-        dsvs["DOI"] = "TBC"
+        dsvs["DOI"] = "10.83126/ukllc-dataset-00032-01" # placeholder for now
         dsvs2 = dsvs[["version_num", "version_date", "num_columns", "num_participants", "DOI"]].rename(columns = {"version_num": "Version Number", "version_date": "Version Date", "num_columns": "Number of Variables", "num_participants": "Number of Participants"}).set_index("Version Number")
         return dsvs2.T
 
@@ -508,3 +510,141 @@ class LPSSource:
 
     def documentation(self):
         return display(Markdown("We are currently building a document repository which will host relevant and useful documents related to datasets, groupings, and studies themselves. Relevant documentation for this particular dataset will go here."))
+
+
+class NHSEDataSet:
+    def __init__(self, dataset):
+        '''
+
+        Parameters
+        ----------
+        dataset : str
+            dataset/table name of target table/dataset
+        version : str
+            version number of target table/dataset
+
+        Returns
+        -------
+        None.
+
+        '''
+        def get_nhse_ds(x):
+            ds = md.get_md_api_dss()
+            df_ds = ds[(ds["source"] == "NHSE") & (ds["table"] == x)]
+            df_ds["source_table"] = df_ds["source"] + "_" + df_ds["table"]
+            ss = md.get_md_api_ss()[["source", "Owner"]]
+            df_ds = df_ds.merge(ss, on="source")
+            df_gb_temp = md.get_nhs_gb_info(x)
+            df_ds = df_ds.merge(df_gb_temp, on="table")
+            return df_ds
+
+        def ds_doi(x):
+            doi_ds = dcf.get_doi_datasets()[dcf.get_doi_datasets()["state"] == "findable"]
+            doi_ds["source_table"] = doi_ds["attributes.titles"].apply(lambda x: x[1]["title"] if len(x) > 1 else "NA")
+            doi_ds = doi_ds[doi_ds["source_table"] == x]
+            doi_ds = doi_ds.sort_values(by="attributes.version", ascending=False).drop_duplicates(subset="source_table")
+            if len(doi_ds) == 1:
+                return doi_ds.iloc[0]["id"]
+            else:
+                return "DOI TBC"
+
+        def get_ed(x):
+            req = requests.get("https://metadata-api-4a09f2833a54.herokuapp.com/nhs-extract-dates/", headers={'access_token': os.environ['FASTAPI_KEY'] })
+            df_ed = pd.json_normalize(json.loads(req.text))
+            df_ed = df_ed[df_ed["dataset"].str.startswith(x)].sort_values(by="date", ascending=False)
+            return df_ed.iloc[0]["date"]
+
+        def cites(x):
+            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+            bibtex = "https://api.datacite.org/application/x-bibtex/"
+            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            if x == "DOI TBC":
+                apa_cite = "DOI and Citation TBC"
+                dl_cites = "DOI and Citation Downloads TBC"
+                return apa_cite, dl_cites
+
+            else:
+                cite = json.loads(requests.get(
+                    "https://api.test.datacite.org/dois/" + x,
+                ).text)['data']['attributes']
+
+                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+                bibtex = "https://api.datacite.org/application/x-bibtex/"
+                ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+                apa_cite = cite['creators'][0]["name"] + \
+                    ". (" + str(cite["publicationYear"]) + "). <i>" + \
+                    cite["titles"][0]["title"] + \
+                    ".</i> " + \
+                    cite["publisher"] + \
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/" + x)
+
+                dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+                    md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
+                return apa_cite, dl_cites
+
+        # define std input variables
+        self.dataset = dataset
+        self.df_ds = get_nhse_ds(self.dataset)
+        self.doi = ds_doi(self.df_ds.iloc[0]["source_table"])
+        self.ed = get_ed(self.dataset)
+        self.apa_cite, self.dl_cites = cites(self.doi)
+
+    def title(self):
+        return display(Markdown("# " + self.df_ds.iloc[0]["table_name"] + " (" + self.df_ds.iloc[0]["source"] + ")"))
+
+    def three_sec_summary(self):
+        display(Markdown('<div style="background-color: rgba(0, 178, 169, 0.3); padding: 3px; border-radius: 3px;"><strong>{}</strong></div>'.format(self.df_ds.iloc[0]["short_desc"])))
+
+    def summary(self):
+        return display(Markdown(self.df_ds.iloc[0]["long_desc"]))
+
+    def info_table(self):
+        ds_info_list = [
+        [
+            "Name of Dataset in TRE",
+            "Citation (APA)",
+            "Download Citation",
+            "Series",
+            "Owner",
+            "Temporal Coverage in the TRE",
+            "Geographical Coverage",
+            "Key Link",
+            "Keywords",
+            "Latest Extract Date",
+            "Specific Restrictions to Data Use",
+            "Build a Data Request"
+        ],
+        [
+            self.df_ds.iloc[0]["source_table"], # DS in TRE
+            self.apa_cite, # Citation
+            self.dl_cites, # Download Cite
+            md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/NHS_England/NHSE_intro", self.df_ds.iloc[0]["source_name"]), # Series
+            self.df_ds.iloc[0]["Owner"], # Owner
+            self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
+            self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
+            md.make_hlink(self.df_ds.iloc[0]["Key_link"], self.df_ds.iloc[0]["Key_link"]),
+            self.df_ds.iloc[0]["Keywords"], # Keywords
+            self.ed,
+            self.df_ds.iloc[0]["Specific_restrictions_to_data_use"], # Restrictions to Data Use
+            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/") # Build a data request
+        ]
+        ]
+
+        df_ss_info = pd.DataFrame(ds_info_list, index=["Dataset Descriptor", "Dataset-specific Information"]).T
+        return DocHelper.style_table("_", df_ss_info)
+
+    def metrics(self):
+        return display(Markdown("TBC"))
+
+    def version_history(self):
+        return display(Markdown("TBC"))
+
+    def change_log(self):
+        return display(Markdown("We are currently working on a metadata management system, which will allow for studies to change metadata for their resources held in the UK LLC. Changes to metadata of datasets (such as dataset name or summary) will surface here."))
+
+    def documentation(self):
+        return display(Markdown("We are currently building a documentation storage system, which will host relevant and useful documents related to datasets, groupings, and studies themselves. Relevant documentation for this particular dataset will go here."))
+
+    def useful_syntax(self):
+        return display(Markdown("Below we will include syntax that may be helpful to other researchers in the UK LLC TRE. For longer scripts, we will include a snippet of the code plus a link to Git where you can find the full script"))

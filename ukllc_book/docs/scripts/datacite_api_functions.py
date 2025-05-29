@@ -55,7 +55,6 @@ def get_doi_datasets():
             .apply(lambda x: x[0]['title'])
 
         doi_dss = doi_dss.rename(columns={"attributes.state": "state"})
-        doi_dss["source_table"] =
 
         return doi_dss.drop(
             [

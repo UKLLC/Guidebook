@@ -5,6 +5,13 @@ import pandas as pd
 from io import StringIO
 API_KEY = os.environ['FASTAPI_KEY']
 
+
+def get_nhs_gb_info(ds):
+    req = requests.get("https://metadata-api-4a09f2833a54.herokuapp.com/nhs-datasets-gb/?Name_of_dataset_in_TRE={}".format(ds), headers={'access_token': API_KEY})
+    df = pd.json_normalize(json.loads(req.text))
+    return df[["Name_of_dataset_in_TRE", "Keywords", "Key_link", "Geographical_coverage", "Specific_restrictions_to_data_use"]].rename(columns={"Name_of_dataset_in_TRE": "table"})
+
+
 def get_md_api_ss():
     """
     Returns all series from MD API
@@ -80,8 +87,8 @@ def get_md_api_dsvs():
 
     dsall = pd.DataFrame(json.loads(r_d.text))
 
-    return dsall[(dsall["source"] != "nhsd") & (dsall["source"] != "GEO")]
-
+    # return dsall[(dsall["source"] != "nhsd") & (dsall["source"] != "GEO")]
+    return dsall
 
 def prep_dsvs_for_gb_pages(infill):
     """
