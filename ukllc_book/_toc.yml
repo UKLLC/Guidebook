@@ -235,7 +235,7 @@ parts:
                 - title: Air pollution NO2 & PM
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2.md
                 - title: Air pollution NOx, NO2 and O3
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_hades.md
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3.md
                 - title: Noise pollution
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution.md
         - title: Mobility datasets
