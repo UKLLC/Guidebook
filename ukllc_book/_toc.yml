@@ -224,13 +224,18 @@ parts:
                   file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/AHAH.md
                 - title: Greenspace
                   file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace.md
+            - title: Property datasets
+              file: docs/linked_geo_data/environmental_datasets/property_datasets/property.md
+              sections:
+                - title: Energy Performance Certificates (EPC)
+                  file: docs/linked_geo_data/environmental_datasets/property_datasets/EPC.md
             - title: Pollution datasets
               file: docs/linked_geo_data/environmental_datasets/pollution_datasets/pollution.md
               sections:
-                - title: Air pollution PM25 & NO2
+                - title: Air pollution NO2 & PM
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2.md
-                - title: Air pollution Hades
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_hades.md
+                - title: Air pollution NOx, NO2 and O3
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3.md
                 - title: Noise pollution
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution.md
         - title: Mobility datasets
