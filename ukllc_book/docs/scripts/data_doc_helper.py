@@ -7,11 +7,14 @@ import mdapi_functions as md
 from IPython.display import display, Markdown
 import markdown
 from bokeh.plotting import figure, show
-from bokeh.models import Span, TabPanel, Tabs
+from bokeh.models import (Span, TabPanel, Tabs, ColumnDataSource, DataCube,
+                          GroupingInfo, StringFormatter, SumAggregator,
+                          TableColumn)
 from bokeh.io import output_notebook
 from math import pi
 from datetime import datetime
 import datacite_api_functions as dcf
+import numpy as np
 
 pd.options.mode.chained_assignment = None
 
@@ -588,7 +591,59 @@ class NHSEDataSet:
 
                 dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
                     md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
+
                 return apa_cite, dl_cites
+
+        def get_latest_dsvs(x):
+            dss1 = md.get_md_api_dss()
+            dss1["source_table"] = dss1["source"] + "_" + dss1["table"]
+            dsvs1 = md.get_md_api_dsvs()
+            dsvs1 = dsvs1[dsvs1["source"] == "nhsd"]
+            dsvs1["source"] = "NHSE"
+            dsvs1["version_num"] = dsvs1["version_num"].fillna("v0001")
+            def rm_aux_dss(x):
+                if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+                    return x.split("_")[0].upper()
+                else:
+                    return x.upper()
+
+            dsvs1["table"] = dsvs1["table"].apply(lambda x: rm_aux_dss(x))
+
+            def rm_aux_dss_full(x):
+                if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+                    return x.split("_")[0] + "_" + x.split("_")[-1]
+                else:
+                    return x
+
+            dsvs1["table_full"] = dsvs1["table_full"].apply(lambda x: rm_aux_dss_full(x))
+            dsvs1 = dsvs1.sort_values("num_columns", ascending=False)
+            dsvs1 = dsvs1.drop_duplicates(subset=["table_full"])
+            dsvs1["source_table"] = dsvs1["source"] + "_" + dsvs1["table"]
+            dsvs1["version_num"] = dsvs1["version_num"].\
+                apply(lambda x: int(x.replace("v", "")))
+            def rename_reg_dss(table, vdate):
+                return table + "_" + str(int(vdate))
+            dsvs1["table"] = dsvs1.apply(lambda row: rename_reg_dss(row["table"], row["version_date"]) if row["table"] in ["CANCER", "DEMOGRAPHICS", "MORTALITY"] else row["table"], axis=1)
+            def rename_reg_src_tbl(src, tbl):
+                return src + "_" + tbl
+            dsvs1["source_table"] = dsvs1.apply(lambda row: rename_reg_src_tbl(row["source"], row["table"]) if row["source_table"] in ["NHSE_CANCER", "NHSE_DEMOGRAPHICS", "NHSE_MORTALITY"] else row["source_table"], axis=1)
+            def infill_vdates(vdate, vnum):
+                    vdict = {1: 20221221.0, 2: 20230413.0, 3: 20240426.0}
+                    if np.isnan(vdate):
+                        return vdict[vnum]
+                    else:
+                        return vdate
+
+            dsvs1["version_date"] = dsvs1.apply(lambda row: infill_vdates(row["version_date"], row["version_num"]), axis=1)
+            if dataset == "HESAPC":
+                dsvs_i = dsvs1[dsvs1["source_table"] == "NHSE_" + x]
+            else:
+                dsvs_i = dsvs1[dsvs1["source_table"].str.startswith("NHSE_" + x)]
+
+            dsvs_i = dsvs_i.sort_values("version_date", ascending=False).head(1)
+            dsvs_i["num_columns"] = dsvs_i["num_columns"].apply(lambda x: int(x))
+            dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x))
+            return dsvs_i
 
         # define std input variables
         self.dataset = dataset
@@ -596,6 +651,7 @@ class NHSEDataSet:
         self.doi = ds_doi(self.df_ds.iloc[0]["table"])
         self.ed = get_ed(self.dataset)
         self.apa_cite, self.dl_cites = cites(self.doi)
+        self.latest_v = get_latest_dsvs(self.dataset)
 
     def title(self):
         return display(Markdown("# " + self.df_ds.iloc[0]["table_name"] + " (" + self.df_ds.iloc[0]["source"] + ")"))
@@ -616,6 +672,9 @@ class NHSEDataSet:
             "Owner",
             "Temporal Coverage in the TRE",
             "Geographical Coverage",
+            "Participant Count",
+            "Number of Variables",
+            "Number of Observations",
             "Key Link",
             "Keywords",
             "Latest Extract Date",
@@ -630,6 +689,9 @@ class NHSEDataSet:
             self.df_ds.iloc[0]["Owner"], # Owner
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
+            self.df_ds.iloc[0]["participants_included"], # Participant Count
+            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
+            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
             md.make_hlink(self.df_ds.iloc[0]["Key_link"], self.df_ds.iloc[0]["Key_link"]),
             self.df_ds.iloc[0]["Keywords"], # Keywords
             self.ed,
@@ -642,10 +704,106 @@ class NHSEDataSet:
         return DocHelper.style_table("_", df_ss_info)
 
     def metrics(self):
-        return display(Markdown("TBC"))
+        if self.dataset in ["MHSDS", "CSDS", "HESAE", "HESAPC", "HESOP"]:
+            return display(Markdown("Cohort counts for the {} dataset will be issued in due course.".format(self.dataset)))
+
+        else:
+            output_notebook(hide_banner=True)
+            df = md.get_md_api_dsvs()
+            df = df[(df["source"] == "nhsd") & (df["table"].str.startswith(self.dataset))].drop_duplicates(subset="table")
+
+            dfcc = md.get_nhse_cohort_counts(df.iloc[0]["table"])
+
+            tbl_names = []
+            metrics_tables = []
+
+            for i in range(0, len(df)):
+                dfcc = md.get_nhse_cohort_counts(df.iloc[i]["table"])
+                dfcc = dfcc[~dfcc['cohort'].isin(['GENSCOT', 'NICOLA', 'SABRE'])]
+                tbl_names += len(dfcc) * [df.iloc[i]["table"]]
+                dfcc["count"] = dfcc["count"].replace("<10", "0").astype(int)
+                metrics_tables.append(dfcc)
+
+            source = ColumnDataSource(data=dict(
+                d0=tbl_names,
+                d1=pd.concat(metrics_tables)["cohort"].to_list(),
+                px=pd.concat(metrics_tables)["count"].to_list(),
+            ))
+
+            target = ColumnDataSource(data=dict(row_indices=[], labels=[]))
+
+            formatter = StringFormatter(font_style='bold')
+
+            columns = [
+                TableColumn(field='d1', title='{} Dataset'.format(self.dataset), width=80, sortable=False, formatter=formatter),
+                TableColumn(field='px', title='Participant Count', width=40, sortable=False),
+            ]
+
+            grouping = [
+                GroupingInfo(getter='d0', aggregators=[SumAggregator(field_='px')]),
+            ]
+
+            cube = DataCube(source=source, columns=columns, grouping=grouping, target=target)
+            display(Markdown("Table 2: Please note, individual cohort counts of less than 10 are suppressed to 0 and are therefore excluded from total participant counts for datasets"))
+            show(cube)
 
     def version_history(self):
-        return display(Markdown("TBC"))
+        dss1 = md.get_md_api_dss()
+        dss1["source_table"] = dss1["source"] + "_" + dss1["table"]
+        dsvs1 = md.get_md_api_dsvs()
+        dsvs1 = dsvs1[dsvs1["source"] == "nhsd"]
+        dsvs1["source"] = "NHSE"
+        dsvs1["version_num"] = dsvs1["version_num"].fillna("v0001")
+        def rm_aux_dss(x):
+            if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+                return x.split("_")[0].upper()
+            else:
+                return x.upper()
+
+        dsvs1["table"] = dsvs1["table"].apply(lambda x: rm_aux_dss(x))
+
+        def rm_aux_dss_full(x):
+            if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+                return x.split("_")[0] + "_" + x.split("_")[-1]
+            else:
+                return x
+
+        dsvs1["table_full"] = dsvs1["table_full"].apply(lambda x: rm_aux_dss_full(x))
+        dsvs1 = dsvs1.sort_values("num_columns", ascending=False)
+        dsvs1 = dsvs1.drop_duplicates(subset=["table_full"])
+        dsvs1["source_table"] = dsvs1["source"] + "_" + dsvs1["table"]
+        dsvs1["version_num"] = dsvs1["version_num"].\
+            apply(lambda x: int(x.replace("v", "")))
+        def rename_reg_dss(table, vdate):
+            return table + "_" + str(int(vdate))
+        dsvs1["table"] = dsvs1.apply(lambda row: rename_reg_dss(row["table"], row["version_date"]) if row["table"] in ["CANCER", "DEMOGRAPHICS", "MORTALITY"] else row["table"], axis=1)
+        def rename_reg_src_tbl(src, tbl):
+            return src + "_" + tbl
+        dsvs1["source_table"] = dsvs1.apply(lambda row: rename_reg_src_tbl(row["source"], row["table"]) if row["source_table"] in ["NHSE_CANCER", "NHSE_DEMOGRAPHICS", "NHSE_MORTALITY"] else row["source_table"], axis=1)
+        def infill_vdates(vdate, vnum):
+                vdict = {1: 20221221.0, 2: 20230413.0, 3: 20240426.0}
+                if np.isnan(vdate):
+                    return vdict[vnum]
+                else:
+                    return vdate
+
+        dsvs1["version_date"] = dsvs1.apply(lambda row: infill_vdates(row["version_date"], row["version_num"]), axis=1)
+        ds_dois = dcf.get_doi_datasets()
+        ds_dois = ds_dois[ds_dois["state"] == "findable"]
+        ds_dois["source_table"] = ds_dois["attributes.titles"].apply(lambda x: x[1]["title"])
+        ds_dois["attributes.version"] = ds_dois["attributes.version"].apply(lambda x: int(x))
+        dsvsf = dsvs1.merge(ds_dois, left_on=["source_table", "version_num"], right_on=["source_table", "attributes.version"])[["source_table", "version_num", "version_date", "num_columns", "num_rows", "id"]]
+        if self.dataset == "HESAPC":
+            dsvs_i = dsvsf[dsvsf["source_table"] == "NHSE_" + self.dataset]
+        else:
+            dsvs_i = dsvsf[dsvsf["source_table"].str.startswith("NHSE_" + self.dataset)]
+
+        dsvs_i = dsvs_i.sort_values("version_date")
+        dsvs_i["version_date"] = dsvs_i["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
+        dsvs_i["num_columns"] = dsvs_i["num_columns"].apply(lambda x: int(x))
+        dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x))
+        dsvs_i = dsvs_i.rename(columns = {"source_table": "Name in TRE", "version_num": "Version Number", "version_date": "Version Date", "num_columns": "Number of Variables", "num_rows": "Number of Rows", "id": "DOI"}).set_index("Version Number")
+        return dsvs_i.T
 
     def change_log(self):
         return display(Markdown("We are currently working on a metadata management system, which will allow for studies to change metadata for their resources held in the UK LLC. Changes to metadata of datasets (such as dataset name or summary) will surface here."))
