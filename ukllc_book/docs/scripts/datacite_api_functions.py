@@ -1,9 +1,9 @@
 import requests
-import json
 import os
 import pandas as pd
 
 # DataCite API environment variables
+# NOTE: Currently TEST environment, need to switch to PROD when time comes
 ID = 'WHRN.UKLLCTEST'
 pw = os.environ['DATACITE_TEST_PW']
 
@@ -15,20 +15,11 @@ headers_doi = {
 }
 
 
-def get_doi_datasets():
-    """
-    Queries DataCite with an API GET request of all  UKLLC minted datasets and
-    version and returns a DataFrame.
-
-    Args:
-        None
+def get_doi_datasets() -> pd.DataFrame:
+    """Returns UK LLC dataset DOIs
 
     Returns:
-       DataFrame: datasets in MMS
-            id (str)
-            creators (str)
-            title (str)
-            version (int)
+        pd.DataFrame: DF of UK LLC dataset version DOIs
     """
 
     resp_doi_ds_get = requests.get(
@@ -46,8 +37,14 @@ def get_doi_datasets():
     doi_dss = pd.json_normalize(doi_datasets['data'])
     if len(doi_dss) == 0:
         return doi_dss.reindex(doi_dss.columns.union(
-            ["id", "state", "attributes.identifiers", "creators", "title", "source_table"]
-                                                  ), axis=1)
+            ["id",
+             "state",
+             "attributes.identifiers",
+             "creators",
+             "title",
+             "source_table"]
+            ), axis=1)
+
     else:
         doi_dss['creators'] = doi_dss['attributes.creators']\
             .apply(lambda x: x[0]['name'])
@@ -64,20 +61,11 @@ def get_doi_datasets():
             )
 
 
-def get_doi_series():
-    """
-    Queries DataCite with an API GET request of all  UKLLC minted datasets and
-    version and returns a DataFrame.
-
-    Args:
-        None
+def get_doi_series() -> pd.DataFrame:
+    """Returns DF of UK LLC series DOIs
 
     Returns:
-       DataFrame: datasets in MMS
-            id (str)
-            creators (str)
-            title (str)
-            version (int)
+        pd.DataFrame: DF of UK LLC series DOIs
     """
 
     resp_doi_ds_get = requests.get(
@@ -94,8 +82,12 @@ def get_doi_series():
     doi_ss = pd.json_normalize(doi_sources['data'])
     if len(doi_ss) == 0:
         return doi_ss.reindex(doi_ss.columns.union(
-            ["id", "state", "attributes.identifiers", "creators", "title", "source"]
-                                                  ), axis=1)
+            ["id",
+             "state",
+             "attributes.identifiers",
+             "creators",
+             "title",
+             "source"]), axis=1)
 
     else:
         doi_ss['creators'] = doi_ss['attributes.creators']\
@@ -103,7 +95,8 @@ def get_doi_series():
         doi_ss['title'] = doi_ss['attributes.titles']\
             .apply(lambda x: x[0]['title'])
         doi_ss = doi_ss.rename(columns={"attributes.state": "state"})
-        doi_ss["source"] = doi_ss["attributes.identifiers"].apply(lambda x: x[0]["identifier"])
+        doi_ss["source"] = doi_ss["attributes.identifiers"].apply(
+            lambda x: x[0]["identifier"])
 
         return doi_ss.drop(
             [
@@ -114,20 +107,11 @@ def get_doi_series():
             )
 
 
-def get_doi_frz():
-    """
-    Queries DataCite with an API GET request of all  UKLLC minted freezes
-    and returns a DataFrame.
-
-    Args:
-        None
+def get_doi_frz() -> pd.DataFrame:
+    """Returns UK LLC Freeze DOIs
 
     Returns:
-       DataFrame: datasets in MMS
-            id (str)
-            creators (str)
-            title (str)
-            version (int)
+        pd.DataFrame: Freeze DOIs
     """
 
     resp_doi_ds_get = requests.get(
@@ -166,20 +150,11 @@ def get_doi_frz():
             )
 
 
-def get_doi_prj():
-    """
-    Queries DataCite with an API GET request of all  UKLLC minted freezes
-    and returns a DataFrame.
-
-    Args:
-        None
+def get_doi_prj() -> pd.DataFrame:
+    """Returns UK LLC Project DOIs
 
     Returns:
-       DataFrame: datasets in MMS
-            id (str)
-            creators (str)
-            title (str)
-            version (int)
+        pd.DataFrame: Project DOIs in DF
     """
 
     resp_doi_ds_get = requests.get(
