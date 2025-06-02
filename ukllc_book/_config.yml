@@ -11,6 +11,7 @@ email: support@ukllc.ac.uk
 execute:
   exclude_patterns:
     - '*freeze*'
+    - '*scratchpad*'
   execute_notebooks: force
 
 bibtex_bibfiles:
@@ -47,5 +48,3 @@ parse:
 sphinx:
   config                    :  # key-value pairs to directly over-ride the Sphinx configuration
     html_show_copyright     : false
-
-

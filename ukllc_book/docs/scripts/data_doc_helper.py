@@ -797,7 +797,7 @@ class NHSEDataSet:
                 bibtex = "https://api.datacite.org/application/x-bibtex/"
                 ris = "https://api.datacite.org/application/x-research-info-systems/"
 
-                apa_cite = cite['creators'][0]["name"] + \
+                apa_cite = cite['creators'][0]["name"].strip() + \
                     ". (" + str(cite["publicationYear"]) + "). <i>" + \
                     cite["titles"][0]["title"] + \
                     ".</i> " + \
@@ -945,7 +945,7 @@ class NHSEDataSet:
             self.apa_cite, # Citation
             self.dl_cites, # Download Cite
             md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/NHS_England/NHSE_intro", self.df_ds.iloc[0]["source_name"]), # Series
-            self.df_ds.iloc[0]["Owner"], # Owner
+            self.df_ds.iloc[0]["source_name"], # Owner
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
             self.df_ds.iloc[0]["participants_included"], # Participant Count
@@ -1015,7 +1015,8 @@ class NHSEDataSet:
             ]
 
             cube = DataCube(source=source, columns=columns, grouping=grouping, target=target)
-            display(Markdown("Table 2: Please note, individual cohort counts of less than 10 are suppressed to 0 and are therefore excluded from total participant counts for datasets"))
+            display(Markdown("Click on the plus sign to see the number of participants represented in each dataset."))
+            display(Markdown("**Table 2:** Participants from each LPS represented in the {} dataset in the UK LLC TRE. **Note:** Individual cohort counts of less than 10 are suppressed to 0 and are therefore excluded from total participant counts for datasets".format(self.dataset)))
             show(cube)
 
     def version_history(self):
@@ -1126,5 +1127,5 @@ class NHSEDataSet:
             Markdown(
                 "Below we will include syntax that may be helpful to other "
                 "researchers in the UK LLC TRE. For longer scripts, we will "
-                "include a snippet of the code plus a link to Git where you "
+                "include a snippet of the code plus a link to the [UK LLC GitHub](https://github.com/UKLLC) repository where you "
                 "can find the full scripts."))

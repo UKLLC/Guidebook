@@ -16,8 +16,8 @@ def get_nhse_cohort_counts(ds: str) -> pd.DataFrame:
         DF: dataframe of cohort participant counts
     """
 
-    url = "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-dataset-counts/"
-    "?table={}".format(ds)
+    url = ("https://metadata-api-4a09f2833a54.herokuapp.com/nhs-dataset-counts/"
+           + "?table={}".format(ds))
     r = requests.get(url, headers={'access_token': API_KEY})
     data = r.text
     pj = json.loads(data)
