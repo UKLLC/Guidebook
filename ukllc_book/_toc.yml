@@ -44,7 +44,7 @@ parts:
           file: docs/database/structure/dataset_structures.md
         - title: LPS participants
           file: docs/database/participants/denominator.md
-    - title: LPS datasets
+    - title: LPS data
       file: docs/LPS_data/LPS_introduction.md
       sections:
         - title: Temporal coverage
@@ -58,57 +58,29 @@ parts:
           sections:
             - title: Groupings of datasets
               file: docs/LPS_data/Datasets/ALSPAC/Groupings/ALSPAC_groupings.ipynb
-              sections:
-                - title: Grouping 1
-                  file: docs/LPS_data/Datasets/ALSPAC/Groupings/Group_1.ipynb
             - title: Individual datasets
               file: docs/LPS_data/Datasets/ALSPAC/Datasets/ALSPAC_datasets.ipynb
-              sections:
-                - title: serology1m
-                  file: docs/LPS_data/Datasets/ALSPAC/Datasets/serology1m.ipynb
-                - title: wave6y
-                  file: docs/LPS_data/Datasets/ALSPAC/Datasets/wave6y.ipynb
         - title: BCS70
           file: docs/LPS_data/LPS profiles/BCS70.ipynb
           sections:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/BCS70/Datasets/BCS70_datasets.ipynb
-              sections:
-                - title: basic_demographic
-                  file: docs/LPS_data/Datasets/BCS70/Datasets/basic_demographic.ipynb
-                - title: bcs1
-                  file: docs/LPS_data/Datasets/BCS70/Datasets/bcs1.ipynb
         - title: BIB
           file: docs/LPS_data/LPS profiles/BIB.ipynb
           sections:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/BIB/Datasets/BIB_datasets.ipynb
-              sections:
-                - title: CV_W1
-                  file: docs/LPS_data/Datasets/BIB/Datasets/CV_W1.ipynb
-                - title: CV19child_P2sdq
-                  file: docs/LPS_data/Datasets/BIB/Datasets/CV19child_P2sdq.ipynb
         - title: ELSA
           file: docs/LPS_data/LPS profiles/ELSA.ipynb
           sections:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/ELSA/Datasets/ELSA_datasets.ipynb
-              sections:
-                - title: elsa_covid_w1_eul
-                  file: docs/LPS_data/Datasets/ELSA/Datasets/elsa_covid_w1_eul.ipynb
-                - title: wave_9_ifs_derived_variables
-                  file: docs/LPS_data/Datasets/ELSA/Datasets/wave_9_ifs_derived_variables.ipynb
         - title: EPICN
           file: docs/LPS_data/LPS profiles/EPICN.ipynb
           sections:
             - title: Individual datasets
               file: docs/LPS_data/Datasets/EPICN/Datasets/EPICN_datasets.ipynb
-              sections:
-                - title: FU1
-                  file: docs/LPS_data/Datasets/EPICN/Datasets/FU1.ipynb
-                - title: FU2
-                  file: docs/LPS_data/Datasets/EPICN/Datasets/FU2.ipynb
-    - title: NHS datasets
+    - title: NHS data
       file: docs/linked_health_data/NHS_intro.md
       sections:
         - title: NHS England
@@ -175,7 +147,7 @@ parts:
               - title: MHSDS (general)
                 file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.md
               - title: IAPT (talking therapies)
-                file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
+                file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT_2.ipynb
           - title: Community datasets
             file: docs/linked_health_data/NHS_England/Community datasets/Community_datasets.md
             sections:
@@ -207,7 +179,7 @@ parts:
             file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
           - title: Other datasets
             file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md
-    - title: Place-based datasets
+    - title: Place-based data
       file: docs/linked_geo_data/Place_based_intro.md
       sections:
         - title: Processing & linkage
@@ -242,7 +214,7 @@ parts:
           file: docs/linked_geo_data/mobility_datasets/mobility.md
         - title: Health datasets
           file: docs/linked_geo_data/health_datasets/health.md
-    - title: Administrative datasets
+    - title: Administrative data
       file: docs/linked_admin_data/admin_data.md
       sections:
         - title: HM Revenue & Customs
@@ -251,7 +223,7 @@ parts:
           file: docs/linked_admin_data/DWP_data/DWP_data.md
         - title: Department for Education
           file: docs/linked_admin_data/DfE_data/DfE_data.md
-    - title: UK LLC-managed datasets
+    - title: UK LLC-managed data
       file: docs/ukllc_managed_data/UKLLC_data.md
       sections:
         - title: Demographic datasets
