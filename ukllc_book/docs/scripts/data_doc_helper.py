@@ -394,13 +394,28 @@ class LPSDataSet:
         """
 
         dsvs = md.get_md_api_dsvs()
-        dsvs = dsvs[(dsvs["source"] == self.source) & (dsvs["table"] == self.dataset)]
-        dsvs["version_num"] = dsvs["version_num"].apply(lambda x: "Version " + str(int(x.split("v")[1])))
-        dsvs["version_date"] = dsvs["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
+        dsvs = dsvs[(dsvs["source"] == self.source)
+                    & (dsvs["table"] == self.dataset)]
+        dsvs["version_num"] = dsvs["version_num"].apply(
+            lambda x: "Version " + str(int(x.split("v")[1])))
+        dsvs["version_date"] = dsvs["version_date"].apply(
+            lambda x: datetime.strftime(datetime.strptime(
+                str(int(x)), "%Y%m%d"), "%d %b %Y"))
         dsvs["num_columns"] = dsvs["num_columns"].apply(lambda x: int(x))
-        dsvs["num_participants"] = dsvs["num_participants"].apply(lambda x: int(x))
+        dsvs["num_participants"] = dsvs["num_participants"].apply(
+            lambda x: int(x))
         dsvs["DOI"] = "10.83126/ukllc-dataset-00032-01"  # placeholder for now
-        dsvs2 = dsvs[["version_num", "version_date", "num_columns", "num_participants", "DOI"]].rename(columns = {"version_num": "Version Number", "version_date": "Version Date", "num_columns": "Number of Variables", "num_participants": "Number of Participants"}).set_index("Version Number")
+        dsvs2 = dsvs[["version_num",
+                      "version_date",
+                      "num_columns",
+                      "num_participants",
+                      "DOI"]].rename(
+                        columns={
+                            "version_num": "Version Number",
+                            "version_date": "Version Date",
+                            "num_columns": "Number of Variables",
+                            "num_participants": "Number of Participants"}
+                            ).set_index("Version Number")
         return dsvs2.T
 
     def change_log(self):
@@ -580,6 +595,10 @@ class LPSSource:
         df_ss_info = pd.DataFrame(ss_info_list, index=["Series Descriptor", "Series-specific Information"]).T
         return DocHelper.style_table("_", df_ss_info)
 
+    def table_caption_ds(self):
+        return display(Markdown("**Table 1:** Datasets and metrics in the UK "
+                                "LLC belonging to {}.".format(self.source)))
+
     def datasets(self):
         """Returns table of datasets for study
 
@@ -588,16 +607,41 @@ class LPSSource:
         Returns:
             markdown: markdown-formatted table of datasets
         """
-        infill = os.path.abspath('../../scripts/dsvs_infill.csv')
-        df = md.prep_dsvs_for_gb_pages(infill)
 
-        ds_dois = dcf.get_doi_datasets()
-        ds_dois = ds_dois[ds_dois["state"] == "findable"]
-        ds_dois["source_table"] = ds_dois["attributes.titles"].apply(lambda x: x[1]["title"])
+        # NOTE: old code using datacite api - remove if v2 of function approved
+        # df = md.prep_dsvs_for_gb_pages()
 
-        # TODO: latest dataset version DOI rather than 1st one
-        df["DOI"] = df["source_table"].apply(lambda x: ds_dois[ds_dois["source_table"] == x].iloc[0]["id"] if len(ds_dois[ds_dois["source_table"] == x]) == 1 else "DOI TBC")
-        df = df[df["source"] == self.source][["table", "table_name", "DOI"]].rename(columns={"table": "Table", "table_name": "Table Name"})
+        # ds_dois = dcf.get_doi_datasets()
+        # ds_dois = ds_dois[ds_dois["state"] == "findable"]
+        # ds_dois["source_table"] = ds_dois["attributes.titles"].apply(lambda x: x[1]["title"])
+
+        # # TODO: latest dataset version DOI rather than 1st one
+        # df["DOI"] = df["source_table"].apply(lambda x: ds_dois[ds_dois["source_table"] == x].iloc[0]["id"] if len(ds_dois[ds_dois["source_table"] == x]) == 1 else "DOI TBC")
+        # df = df[df["source"] == self.source][["table", "table_name", "DOI"]].rename(columns={"table": "Table", "table_name": "Table Name"})
+        # return DocHelper.style_table("_", df)
+
+        df = md.prep_dsvs_for_gb_pages()
+        df = df[df["source"] == self.source]
+        df = df[[
+            "table",
+            "table_name",
+            "participants_included",
+            "num_rows",
+            "num_columns"
+        ]].rename(columns={
+            "table": "Dataset",
+            "table_name": "Dataset Name",
+            "participants_included": "# Participants",
+            "num_rows": "# Observations",
+            "num_columns": "# Variables"
+            })
+
+        df["Dataset"] = df["Dataset"].apply(
+            lambda x: md.make_hlink(
+                "https://guidebook.ukllc.ac.uk/docs/LPS_data/Datasets/"
+                "{}/Datasets/{}.html".format(self.source, x), x))
+        df["# Observations"] = df["# Observations"].apply(lambda x: int(x))
+        df["# Variables"] = df["# Variables"].apply(lambda x: int(x))
         return DocHelper.style_table("_", df)
 
     def linkages_plot(self):

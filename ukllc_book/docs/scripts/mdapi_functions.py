@@ -138,27 +138,38 @@ def get_md_api_dsvs() -> pd.DataFrame:
     return dsall
 
 
-def prep_dsvs_for_gb_pages(infill: str) -> pd.DataFrame:
-    """Reads datasets and datasets-versions endpoints along with
-    dsvs_infill.csv file to create necessary info for GB pages
+def prep_dsvs_for_gb_pages() -> pd.DataFrame:
+    """Reads datasets and datasets-versions endpoints to create necessary info
+    for GB pages.
 
-    Args:
-        infill (str): path of dsvs_infill.dsv file
+    NOTE: ALSPAC custom_ datasets and GEO datasets in
+    datasets_versions ommited for now.
 
     Returns:
         pd.DataFrame: prepped DF of datasets
     """
 
+    # read datasets endpoint and make source_table to merge on
     dss1 = get_md_api_dss()
     dss1["source_table"] = dss1["source"] + "_" + dss1["table"]
+
+    # read datasets-versions endpoint and make source_table to merge on
     dsvs1 = get_md_api_dsvs()
-    dsvs1 = dsvs1[~dsvs1["num_rows"].isnull()]
+
+    # filter out "custom_" datasets
+    dsvs1 = dsvs1[~dsvs1["table"].str.startswith("custom_")]
     dsvs1["source_table"] = dsvs1["source"] + "_" + dsvs1["table"]
-    dsvs2 = dsvs1.merge(dss1, how="left", left_on="source_table",
+
+    # merge
+    dsvs2 = dsvs1.merge(dss1, how="inner", left_on="source_table",
                         right_on="source_table")
+
+    # read sources endpoint then merge on source
     ss1 = get_md_api_ss()
     dsvs3 = dsvs2.merge(ss1, how='inner', left_on="source_x",
                         right_on="source")
+
+    # switch versions from string (v000n) to int (n)
     dsvs3["version_num"] = dsvs3["version_num"].\
         apply(lambda x: int(x.replace("v", "")))
     dsvs_t1 = dsvs3[[
@@ -168,6 +179,7 @@ def prep_dsvs_for_gb_pages(infill: str) -> pd.DataFrame:
         "table_x",
         "version_date",
         "table_name",
+        "short_desc",
         "long_desc",
         "collection_start",
         "collection_end",
@@ -177,24 +189,20 @@ def prep_dsvs_for_gb_pages(infill: str) -> pd.DataFrame:
         "participants_invited",
         "participants_included",
         "num_rows",
+        "num_columns",
         "Owner",
         "geographic_coverage_Nations",
         "geographic_coverage_Regions"
         ]]
     dsvs_t2 = dsvs_t1.\
         rename(columns={"table_x": "table", "source_name_x": "source_name"})
+
+    # manual change of version for GLAD_FILE2 from 1 to 2
     dsvs_t2.loc[
         (dsvs_t2["source_table"] == "GLAD_FILE2") &
         (dsvs_t2["version_date"] == 20231107.0), "version_num"] = 2
     dsvs_t3 = dsvs_t2.sort_values('version_num').drop_duplicates('table',
                                                                  keep='last')
-    dsvs_t3 = dsvs_t3.set_index("source_table", drop=False)
-    df_infill = pd.read_csv(infill, sep=",")
-    df_infill["source_table"] = df_infill["source"] + "_" + df_infill["table"]
-    df_infill = df_infill.set_index(
-        'source_table',
-        drop=False).rename(columns={"new_table_name": "table_name"})
-    dsvs_t3 = dsvs_t3.fillna(df_infill)
     dsvs_t3["collection_start"] = dsvs_t3["collection_start"].fillna("Unknown")
     dsvs_t3["collection_end"] = dsvs_t3["collection_end"].fillna("Unknown")
     return dsvs_t3.fillna("")
