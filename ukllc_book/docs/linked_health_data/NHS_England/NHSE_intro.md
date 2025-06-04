@@ -1,26 +1,27 @@
-# NHS England datasets
->Last modified: 31 Jan 2025
-## Introduction  
-UK LLC has a data sharing agreement with NHS England to flow extracts of the **19 datasets** listed in Table 1 into the UK LLC TRE. Although NHS England is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS England datasets.  
+# NHS England data
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has a data sharing agreement with NHS England to flow extracts of >20 datasets into the UK LLC database.</strong></div>  
+<br>
 
-**Note**: Each LPS participant can opt out of linkage to their NHS England records.  
+>Last modified: 02 Jun 2025
+## Introduction  
+Although NHS England is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to the datasets as NHS England datasets.  
+
+The datasets cover a **variety of domains and time periods**. Their **geographic coverage is restricted to England**, apart from those listed in the footnotes. 
+
+**Note:**  
+* The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE, apart from **SGSS** where we added COVID in front of it to distinguish it from the UK Health Security Agency's generalised Second Generation Surveillance System (SGSS). 
+* Some datasets have been renamed by NHS England, e.g. the **CHESS** dataset is now called the **Severe Acute Respiratory Infection (SARI-Watch) surveillance system** and the **IAPT** dataset is now called the **NHS Talking Therapies for Anxiety and Depression dataset**, but we still receive the data from NHS England as the CHESS and IAPT datasets, respectively. 
+* Some datasets have alternative names, e.g. **NPEX** is also called **Covid-19 UK Non-hospital Antigen Testing Results** and **iELISA** is also called **Covid-19 UK Non-hospital Antibody Testing Results**. 
+* Some datasets have been **retired** and therefore data only flows for the periods specified. 
+* Further nomenclatural details are available in the individual dataset guides. 
+
 <br>
 > [**FAQs**](https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_nhse) about working with NHS England data in the UK LLC TRE
 <br>
 
-## UK LLC documentation of NHS England datasets
-We have organised our NHS England data documentation into four tiers as explained in Figure 1. This initial guide provides an overview of the NHS England datasets held in the UK LLC TRE. The [**Processing and linkage guide**](../NHS_England/Linkage%20and%20processing/linkage_processing.md) explains how LPS participants are linked to their health records and how they can opt out. The [**Coded variables guide**](../NHS_England/Coding/coding_intro.md) details the various classification systems used in NHS England datasets. The five **overview dataset guides** align with the dataset primary domains in Table 1 and provide an introduction to the hospital datasets, the COVID datasets, the registration datasets, the mental health datasets and the 'other' datasets, which is a collection of datasets that do not fit neatly into one of the other four groups. Finally, there is a series of more detailed **individual dataset guides**.  
-</br>
-<img src="../../images/NHSE_IntroDocumentation_Figure1.jpg" width="900"/>
 
-**Figure 1** UK LLC documentation of the NHS England datasets is across four tiers, starting with this overview and culminating in the individual dataset guides
 ## Overview of NHS England datasets
-The NHS England datasets cover a **variety of domains and time periods** as summarised in Table 1 and Figure 2. Their **geographic coverage is restricted to England**, apart from those listed in the footnotes.   
-Note:  
-* The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE, apart from **SGSS** where we added COVID in front of it to distinguish it from the UK Health Security Agency's generalised Second Generation Surveillance System (SGSS). 
-* Some datasets have been renamed by NHS England, e.g. the **CHESS** dataset is now called the **Severe Acute Respiratory Infection (SARI-Watch) surveillance system** and the **IAPT** dataset is now called the **NHS Talking Therapies for Anxiety and Depression dataset**, but we still receive the data from NHS England as the CHESS and IAPT datasets, respectively. 
-* Some datasets have alternative names, e.g. **NPEX** is also called **Covid-19 UK Non-hospital Antigen Testing Results** and **iELISA** is also called **Covid-19 UK Non-hospital Antibody Testing Results**. 
-* Further nomenclatural details are available in the individual dataset guides.     
+    
 
 **Table 1** Names, availability and update frequency of NHS England datasets in the UK LLC TRE (datasets in italics are retired)
 |**Dataset name in TRE** | **Full dataset name**| **Primary  domain** | **Secondary domain** | **Data available in TRE<sup>1</sup>** |**Data owner**|**Update frequency<sup>1</sup>**|
