@@ -9,7 +9,7 @@ import markdown
 from bokeh.plotting import figure, show
 from bokeh.models import (Span, TabPanel, Tabs, ColumnDataSource, DataCube,
                           GroupingInfo, StringFormatter, SumAggregator,
-                          TableColumn)
+                          TableColumn, HoverTool)
 from bokeh.io import output_notebook
 from math import pi
 from datetime import datetime
@@ -17,6 +17,12 @@ import datacite_api_functions as dcf
 import numpy as np
 
 pd.options.mode.chained_assignment = None
+
+
+def last_modified():
+    return display(
+        Markdown(">Last modified: {}".format(
+            datetime.strftime(datetime.now(), "%d %b %Y"))))
 
 
 class DocHelper:
@@ -69,7 +75,6 @@ class DocHelper:
         # raise exception if connection failure
         except Exception as e:
             raise Exception("DB connection failed with error", e)
-
 
     def get_cohort_count(self):
         '''
@@ -655,22 +660,39 @@ class LPSSource:
                     e.g. NHSE, NHSW, PLACE, DWP etc...
         """
 
-        dff = md.get_md_api_frz_link_nhse()
-        dff = dff[(dff["LPS"] == self.source) & (dff["frz_num"] == dff["frz_num"].max())]
+        if self.source in ["AIRWAVE", "UKREACH"]:
+            return display(Markdown("Linkage rates will be displayed for {} in due course.".format(self.source)))
 
-        lx = ["NHS England", "NHS Wales", "NHS Scotland", "Neighbourhood Geographies", "Address Geographies", "DfE", "DWP", "HMRC"]
-        ly = [dff.iloc[0]["n_l_tot"], 0, 0, 0, 0, 0, 0, 0]
+        else:
+            dff = md.get_md_api_frz_link_nhse()
+            dff = dff[(dff["LPS"] == self.source) & (dff["frz_num"] == dff["frz_num"].max())]
 
-        output_notebook(hide_banner=True)
-        p = figure(x_range=lx, width=600, height=400, title="Linkage of {} participants to linked Datasets".format(self.source))
-        p.vbar(x=lx, top=ly, width=0.8)
-        vline = Span(location=dff.iloc[0]["n_sent"], dimension='width', line_color='grey', line_width=2)
-        p.add_layout(vline)
-        p.y_range.start = 0
-        p.y_range.end = round(dff.iloc[0]["n_sent"]*1.2, -3)
-        p.xaxis.major_label_orientation = pi/4
+            lx = ["NHS England", "NHS Wales", "Neighbourhood Geographies", "Address Geographies"]
+            ly = [100*(dff.iloc[0]["n_l_tot"]/dff.iloc[0]["n_sent"]), 0, 0, 0]
+            lz = [dff.iloc[0]["n_sent"]] * 4
+            ll = [dff.iloc[0]["n_l_tot"], 0, 0, 0]
 
-        show(p)
+            data = {
+                "link_series": lx,
+                "link_pct": ly,
+                "n_sent": lz,
+                "n_linked": ll
+            }
+
+            output_notebook(hide_banner=True)
+            p = figure(x_range=lx, width=600, height=400, title="Linkage rates (%) of {} participants to linked Datasets for Freeze {}".format(self.source, dff["frz_num"].max()))
+            p.vbar(x="link_series", top="link_pct", width=0.8, source=data)
+
+            hover = HoverTool(tooltips=[
+                ("Linked Participants", "@n_linked"),
+                ("Participants sent to UK LLC", "@n_sent")])
+            p.add_tools(hover)
+
+            p.y_range.start = 0
+            p.y_range.end = 100
+            p.xaxis.major_label_orientation = pi/4
+
+            show(p)
 
     def linkages_all_plots(self):
         """Returns linkage plot for all freezes as bar chart
@@ -766,8 +788,8 @@ class NHSEDataSet:
             ds = md.get_md_api_dss()
             df_ds = ds[(ds["source"] == "NHSE") & (ds["table"] == x)]
             df_ds["source_table"] = df_ds["source"] + "_" + df_ds["table"]
-            ss = md.get_md_api_ss()[["source", "Owner"]]
-            df_ds = df_ds.merge(ss, on="source")
+            # ss = md.get_md_api_ss()[["source", "Owner"]]
+            # df_ds = df_ds.merge(ss, on="source")
             df_gb_temp = md.get_nhs_gb_info(x)
             df_ds = df_ds.merge(df_gb_temp, on="table")
             return df_ds
@@ -913,6 +935,14 @@ class NHSEDataSet:
             dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x))
             return dsvs_i
 
+        def cohort_total(ds):
+            if ds in ["MHSDS", "IAPT", "CSDS"]:
+                return "N/A - contains multiple auxiliary datasets"
+            else:
+                df = md.get_nhse_cohort_counts(ds)
+                df["count"] = df["count"].apply(lambda x: int(x.replace("<10", "0")))
+                return str(df["count"].sum())
+
         # define std input variables
         self.dataset = dataset
         self.df_ds = get_nhse_ds(self.dataset)
@@ -920,6 +950,7 @@ class NHSEDataSet:
         self.ed = get_ed(self.dataset)
         self.apa_cite, self.dl_cites = cites(self.doi)
         self.latest_v = get_latest_dsvs(self.dataset)
+        self.participants = cohort_total(self.dataset)
 
     def title(self):
         """Returns title of dataset
@@ -989,10 +1020,10 @@ class NHSEDataSet:
             self.apa_cite, # Citation
             self.dl_cites, # Download Cite
             md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/NHS_England/NHSE_intro", self.df_ds.iloc[0]["source_name"]), # Series
-            self.df_ds.iloc[0]["source_name"], # Owner
+            self.df_ds.iloc[0]["Owner"], # Owner
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
-            self.df_ds.iloc[0]["participants_included"], # Participant Count
+            self.participants, # Participant Count
             "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
             "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
             md.make_hlink(self.df_ds.iloc[0]["Key_link"], self.df_ds.iloc[0]["Key_link"]),
@@ -1019,7 +1050,7 @@ class NHSEDataSet:
             figure: bokeh datacube of cohort counts
         """
 
-        if self.dataset in ["MHSDS", "CSDS", "HESAE", "HESAPC", "HESOP"]:
+        if self.dataset in ["MHSDS"]:
             return display(Markdown("Cohort counts for the {} dataset will be issued in due course.".format(self.dataset)))
 
         else:
@@ -1027,7 +1058,10 @@ class NHSEDataSet:
             df = md.get_md_api_dsvs()
             df = df[(df["source"] == "nhsd") & (df["table"].str.startswith(self.dataset))].drop_duplicates(subset="table")
 
-            dfcc = md.get_nhse_cohort_counts(df.iloc[0]["table"])
+            df = df[~(df["table"] == "CSDS_group_sessions")]
+
+            if self.dataset in ["HESAPC", "HESOP", "HESAE"]:
+                df = df[df["table"] == self.dataset]
 
             tbl_names = []
             metrics_tables = []
@@ -1173,3 +1207,225 @@ class NHSEDataSet:
                 "researchers in the UK LLC TRE. For longer scripts, we will "
                 "include a snippet of the code plus a link to the [UK LLC GitHub](https://github.com/UKLLC) repository where you "
                 "can find the full scripts."))
+
+
+class NHSESource:
+    """Class for NHSE series featuring all functions for the GB pages
+    """
+
+    def __init__(self):
+        """Init function to yield self.variables for subsequent functions
+
+        Args:
+            source (str): source i.e. study (e.g. "ALSPAC" or "BCS70")
+
+        Returns:
+           self.source (str): source i.e study
+           self.df_ds (DF): dataframe of study information / metadata
+           self.doi (str): UKLLC DOI of NHSE
+        """
+        # define std input variables
+        self.source = "NHSE"
+        self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
+
+        def ss_doi(x: str):
+            """Returns UKLLC DOI of series
+
+            Args:
+                x (str): source i.e. study
+
+            Returns:
+                str: UKLLC DOI of series
+            """
+
+            df = dcf.get_doi_series()
+            if len(df[(df["source"] == x) & (df["state"] == "findable")]) == 1:
+                return df[df["source"] == x].iloc[0]["id"]
+            else:
+                return "DOI TBC"
+
+        self.doi = ss_doi(self.source)
+
+        def cites(x: str):
+            """Returns citation APA style for DOI and trio of citation DL links
+
+            Args:
+                x (str): UKLLC DOI of study
+
+            Returns:
+                str: formatted citation APA style
+                str: trio of citation DL links
+            """
+
+            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+            bibtex = "https://api.datacite.org/application/x-bibtex/"
+            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            if x == "DOI TBC":
+                apa_cite = "DOI and Citation TBC"
+                dl_cites = "DOI and Citation Downloads TBC"
+
+            else:
+                cite = json.loads(requests.get(
+                    "https://api.test.datacite.org/dois/" + x,
+                ).text)['data']['attributes']
+
+                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+                bibtex = "https://api.datacite.org/application/x-bibtex/"
+                ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+                apa_cite = cite['creators'][0]["name"] + \
+                    ". (" + str(cite["publicationYear"]) + "). <i>" + \
+                    cite["titles"][0]["title"] + \
+                    ".</i> " + \
+                    cite["publisher"] + \
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/10.83126/ukllc-series-00001")
+
+                dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+                    md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
+
+            return apa_cite, dl_cites
+
+        self.apa_cite, self.dl_cites = cites(self.doi)
+
+    def info_table(self):
+        """Returns and displays info/metrics table of NHSE
+
+        Args:
+            self.df_ss (DF): DF of study info and metadata
+
+        Returns:
+            markdown/DF: markdown-formatted DF of info/metrics for study
+        """
+
+        ss_info_list = [
+        [
+            "Citation (APA)",
+            "Download Citation",
+            "Owner",
+            "Geographical Coverage - Nations",
+            "Start Date of Data Available",
+            "Build a Data Request"
+        ],
+        [
+            self.apa_cite,
+            self.dl_cites,
+            self.df_ss.iloc[0]["Owner"],
+            self.df_ss.iloc[0]["geographic_coverage_Nations"],
+            "1940s (GDPPR)",
+            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
+        ]
+        ]
+
+        df_ss_info = pd.DataFrame(ss_info_list, index=["Series Descriptor", "Series-specific Information"]).T
+        return DocHelper.style_table("_", df_ss_info)
+
+    def datasets_table(self):
+        df = md.get_md_api_dss()
+        df = df[df["source"] == self.source]
+        df["date_available"] = df["collection_start"] + " - " + df["collection_end"]
+        df["date_available"] = df["date_available"].fillna("N/A")
+        df = df[~df["table"].isin(["HESAPC_MAT", "HESAPC_ACP"])]
+
+        owners = {
+            "NHS England": "NHSE",
+            "Department of Health and Social Care": "DHSC",
+            "Office for National Statistics": "ONS"
+            }
+
+        df["owner_abbr"] = df["table"].apply(lambda x: owners[md.get_nhs_gb_info(x).iloc[0]["Owner"]])
+
+
+        grps = {
+            'HESOP': "Hospital",
+            'DEMOGRAPHICS': "Registration",
+            'MORTALITY': "Registration",
+            'CANCER': "Registration",
+            'HESAPC': "Hospital",
+            'HESAPC_MAT': "Hospital",
+            'HESAPC_ACP': "Hospital",
+            'HESCC': "Hospital",
+            'HESAE': "Hospital",
+            'ECDS': "Hospital",
+            'MHSDS': "Mental Health",
+            'PCM': "Primary Care",
+            'GDPPR': "Primary Care",
+            'CVS': "COVID-19",
+            'CVAR': "COVID-19",
+            'CHESS': "COVID-19",
+            'COVIDSGSS': "COVID-19",
+            'NPEX': "COVID-19",
+            'IELISA': "COVID-19",
+            'CSDS': "Community",
+            'IAPT': "Mental Health",
+            'MSDS': "Community"
+        }
+
+        df["grouping"] = df["table"].apply(lambda x: grps[x])
+
+        links = {
+            "HESOP": "../NHS_England/HES%20datasets/OP/HESOP.ipynb",
+            "HESAPC": "../NHS_England/HES%20datasets/APC/HESAPC.ipynb",
+            "HESCC": "../NHS_England/HES%20datasets/CC/HESCC.ipynb",
+            "ECDS": "../NHS_England/HES%20datasets/ECDS/ECDS.ipynb",
+            "HESAE": "../NHS_England/HES%20datasets/AE/HESAE.ipynb",
+            "COVIDSGSS": "../NHS_England/COVID%20datasets/COVIDSGSS/COVIDSGSS.ipynb",
+            "IELISA": "../NHS_England/COVID%20datasets/IELISA/IELISA.ipynb",
+            "NPEX": "../NHS_England/COVID%20datasets/NPEX/NPEX.ipynb",
+            "CHESS": "../NHS_England/COVID%20datasets/CHESS/CHESS.ipynb",
+            "CVS": "../NHS_England/COVID%20datasets/CVS/CVS.ipynb",
+            "CVAR": "../NHS_England/COVID%20datasets/CVAR/CVAR.ipynb",
+            "GDPPR": "../NHS_England/COVID%20datasets/GDPPR/GDPPR.ipynb",
+            "CANCER": "../NHS_England/Registration%20datasets/CANCER/CANCER.ipynb",
+            "DEMOGRAPHICS": "../NHS_England/Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb",
+            "MORTALITY": "../NHS_England/Registration%20datasets/MORTALITY/MORTALITY.ipynb",
+            "MHSDS": "../NHS_England/Mental%20health%20datasets/MHSDS/MHSDS.ipynb",
+            "IAPT": "../NHS_England/Mental%20health%20datasets/IAPT/IAPT.ipynb",
+            "CSDS": "../NHS_England/Other%20datasets/CSDS/CSDS.ipynb",
+            "MSDS": "../NHS_England/Other%20datasets/MSDS/MSDS.ipynb",
+            "PCM": "../NHS_England/Other%20datasets/PCM/PCM.ipynb"
+        }
+
+        df["table"] = df["table"].apply(lambda x: md.make_hlink(links[x], x))
+        df = df[
+            [
+                "table",
+                "table_name",
+                "grouping",
+                "date_available",
+                "owner_abbr"
+            ]].rename(
+                columns={
+                "table": "Dataset",
+                "table_name": "Dataset Name",
+                "grouping": "Grouping",
+                "date_available": "Data Available in TRE",
+                "owner_abbr": "Data Owner"
+            })
+
+        return DocHelper.style_table("_", df)
+
+    def change_log(self):
+        """Creates and displays table showing change log for the dataset DOIs
+
+        Returns:
+            markdown: placeholder "TBC" text in markdown format
+        """
+
+        return display(
+            Markdown(
+                "We are currently working on a change log "
+                "which will show changes to the dataset's metadata."
+                    ))
+
+    def documentation(self):
+        """Creates and displays docs showing change log for the dataset DOIs
+
+        Returns:
+            markdown: placeholder "TBC" text in markdown format
+        """
+
+        return display(
+            Markdown(
+                "We are currently building a documentation storage system "
+                "which will host relevant and useful documents related to "
+                "datasets, groupings, and studies themselves."))

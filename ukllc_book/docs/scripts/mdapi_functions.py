@@ -46,7 +46,8 @@ def get_nhs_gb_info(ds: str) -> pd.DataFrame:
          "Keywords",
          "Key_link",
          "Geographical_coverage",
-         "Specific_restrictions_to_data_use"]
+         "Specific_restrictions_to_data_use",
+         "Owner"]
                ].rename(columns={"Name_of_dataset_in_TRE": "table"})
 
 
@@ -80,6 +81,27 @@ def get_md_api_profiles() -> pd.DataFrame:
 
     r_d = requests.get(
         "https://metadata-api-4a09f2833a54.herokuapp.com/all-source-profiles",
+        headers={'access_token': API_KEY.strip()})
+
+    # return error message if API response != 200
+    try:
+        r_d.raise_for_status()
+
+    except requests.exceptions.HTTPError as err:
+        return "HTTP Error: " + str(err)
+
+    return pd.DataFrame(json.loads(r_d.text))
+
+
+def get_md_api_avg_ages() -> pd.DataFrame:
+    """Returns average participant ages for all LPS
+
+    Returns:
+        pd.DataFrame: DF of average ages for all LPS (0 for AIRWAVE & UKREACH)
+    """
+
+    r_d = requests.get(
+        "https://metadata-api-4a09f2833a54.herokuapp.com/all-source-ages",
         headers={'access_token': API_KEY.strip()})
 
     # return error message if API response != 200
