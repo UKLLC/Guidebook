@@ -34,8 +34,9 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 | Latest extract date               |                                                                                                                                                                                             |
 | Specific restrictions to data use |                                                                                                                                                                                             |
 | Build a data request              |                                                                                                                                                                                             |
-| Version                           | 1 
-                                                                                                                                                                                          |
+| Version                           | 
+1                                                                                                                                                                                           | 
+
 **Variables:**
 | **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
 |--------------------|--------------|------------------|------------|-------------------------|
