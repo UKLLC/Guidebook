@@ -269,8 +269,7 @@ class LPSDataSet:
         # define std input variables
         self.dataset = dataset
         self.source = source
-        infill = os.path.abspath('../../../../scripts/dsvs_infill.csv')
-        df = md.prep_dsvs_for_gb_pages(infill)
+        df = md.prep_dsvs_for_gb_pages()
         self.df_ds = df[df["source_table"] == source + "_" + dataset]
 
     def title(self):
