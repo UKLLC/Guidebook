@@ -56,29 +56,27 @@ parts:
         - title: ALSPAC
           file: docs/LPS_data/LPS profiles/ALSPAC.ipynb
           sections:
-            - title: Groupings of datasets
-              file: docs/LPS_data/Datasets/ALSPAC/Groupings/ALSPAC_groupings.ipynb
-            - title: Individual datasets
+            - title: Datasets
               file: docs/LPS_data/Datasets/ALSPAC/Datasets/ALSPAC_datasets.ipynb
         - title: BCS70
           file: docs/LPS_data/LPS profiles/BCS70.ipynb
           sections:
-            - title: Individual datasets
+            - title: Datasets
               file: docs/LPS_data/Datasets/BCS70/Datasets/BCS70_datasets.ipynb
         - title: BIB
           file: docs/LPS_data/LPS profiles/BIB.ipynb
           sections:
-            - title: Individual datasets
+            - title: Datasets
               file: docs/LPS_data/Datasets/BIB/Datasets/BIB_datasets.ipynb
         - title: ELSA
           file: docs/LPS_data/LPS profiles/ELSA.ipynb
           sections:
-            - title: Individual datasets
+            - title: Datasets
               file: docs/LPS_data/Datasets/ELSA/Datasets/ELSA_datasets.ipynb
         - title: EPICN
           file: docs/LPS_data/LPS profiles/EPICN.ipynb
           sections:
-            - title: Individual datasets
+            - title: Datasets
               file: docs/LPS_data/Datasets/EPICN/Datasets/EPICN_datasets.ipynb
     - title: NHS data
       file: docs/linked_health_data/NHS_intro.md
@@ -179,6 +177,10 @@ parts:
             file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
           - title: Other datasets
             file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md
+        - title: NHS Scotland
+          file: docs/linked_health_data/NHS_Scotland/NHSS_intro.md
+        - title: Northern Ireland
+          file: docs/linked_health_data/NHS_Northern_Ireland/NHSNI_intro.md
     - title: Place-based data
       file: docs/linked_geo_data/Place_based_intro.md
       sections:

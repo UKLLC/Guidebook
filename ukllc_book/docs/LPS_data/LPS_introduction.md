@@ -1,9 +1,10 @@
 # LPS in the UK LLC partnership
-
->Last modified: 02 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK has a world-leading portfolio of around 100 longitudinal population studies (LPS), which have collected detailed phenotypic and biological information on over three million members of the UK public. </strong></div>  
+<br>
+>Last modified: 03 Jun 2025
 
 ## Introduction  
-The UK has a **world-leading portfolio** of around **100 longitudinal population studies (LPS)**, which have collected detailed phenotypic and biological information on over three million members of the UK public. Data collected by LPS include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples. 
+Data collected by LPS include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples. 
 
 Table 1 provides an overview of the **>20 LPS that are part of UK LLC**. UK LLC remains open to additional LPS joining the partnership through a formalised onboarding process.
 

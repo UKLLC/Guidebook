@@ -1,15 +1,15 @@
 # NHS Data
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is committed to four nation coverage, i.e. England, Northern Ireland, Scotland and Wales.</strong></div>  
 <br>
->Last modified: 02 Jun 2025
+>Last modified: 03 Jun 2025
 
 ## Permitted linkages
 
 * **NHS England** and **NHS Wales**: participants are linked to their English and Welsh health records (where permissions are in place). 
 
-* **NHS Scotland**: an agreement has been signed with Public Health Scotland and data are anticipated to flow into the UK LLC database in early 2026.
+* **NHS Scotland**: Public Health Scotland has conditionally approved the flow of data into the UK LLC database - more details will follow in due course.
 
-* **Northern Ireland**: negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI).
+* **Northern Ireland**: negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI) - more details will follow in due course.
 
 ## UK LLC documentation of NHS datasets
 We have organised our NHS data documentation by nation. Within each nation we have included the following:
