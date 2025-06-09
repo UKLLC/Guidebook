@@ -188,6 +188,9 @@ parts:
           file: docs/linked_geo_data/processing/Processing & linkage.md
         - title: Population datasets
           file: docs/linked_geo_data/population_datasets/population.md
+          sections:
+            - title: Townsend Deprivation Index
+              file: docs/linked_geo_data/population_datasets/townsend.md
         - title: Environmental datasets
           file: docs/linked_geo_data/environmental_datasets/environment.md
           sections:
@@ -210,6 +213,9 @@ parts:
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2.md
                 - title: Air pollution NOx, NO2 and O3
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3.md
+                  sections:
+                    - title: Understanding O3
+                      file: docs/linked_geo_data/environmental_datasets/pollution_datasets/README/O3_RAEDME.md
                 - title: Noise pollution
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution.md
         - title: Mobility datasets
