@@ -11,7 +11,7 @@ These datasets contain national-scale outdoor nitrogen dioxide (NO2) and ozone (
 
 Modelling explained 77-79% for NO2 and 87-89% for O3 of the variability in hourly-annual average concentrations and was robust to changes in NOx emissions during the COVID pandemic. 
 
-## 1.Summary 
+## 1. Summary 
 
 <details>
   <summary>Household level, England and Wales</summary>
