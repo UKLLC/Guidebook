@@ -1093,7 +1093,7 @@ class NHSEDataSet:
 
             cube = DataCube(source=source, columns=columns, grouping=grouping, target=target)
             display(Markdown("Click on the plus sign to see the number of participants represented in each dataset."))
-            display(Markdown("**Table 2:** Participants from each LPS represented in the {} dataset in the UK LLC TRE. **Note:** Individual cohort counts of less than 10 are suppressed to 0 and are therefore excluded from total participant counts for datasets".format(self.dataset)))
+            display(Markdown("**Table 2:** Participants from each LPS represented in the {} dataset in the UK LLC TRE. **Note:** Individual cohort counts of less than 10 are suppressed to <10 and excluded from total participant counts for datasets.".format(self.dataset)))
             show(cube)
 
     def version_history(self):
@@ -1153,19 +1153,28 @@ class NHSEDataSet:
         ds_dois = ds_dois[ds_dois["state"] == "findable"]
         ds_dois["source_table"] = ds_dois["attributes.titles"].apply(lambda x: x[1]["title"])
         ds_dois["attributes.version"] = ds_dois["attributes.version"].apply(lambda x: int(x))
-        dsvsf = dsvs1.merge(ds_dois, left_on=["source_table", "version_num"], right_on=["source_table", "attributes.version"])[["source_table", "version_num", "version_date", "num_columns", "num_rows", "id"]]
+        dsvsf = dsvs1.merge(ds_dois, left_on=["source_table", "version_num"], right_on=["source_table", "attributes.version"])[["source_table", "version_num", "version_date", "num_participants", "num_columns", "num_rows", "id"]]
         if self.dataset == "HESAPC":
             dsvs_i = dsvsf[dsvsf["source_table"] == "NHSE_" + self.dataset]
         else:
             dsvs_i = dsvsf[dsvsf["source_table"].str.startswith("NHSE_" + self.dataset)]
 
         dsvs_i = dsvs_i.sort_values("version_date")
+
         dsvs_i["version_date"] = dsvs_i["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
+        dsvs_i["num_participants"] = dsvs_i["num_participants"].apply(lambda x: "N/A" if np.isnan(x) else int(x))
         dsvs_i["num_columns"] = dsvs_i["num_columns"].apply(lambda x: int(x))
         dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x))
-        dsvs_i = dsvs_i.rename(columns = {"source_table": "Name in TRE", "version_num": "Version Number", "version_date": "Version Date", "num_columns": "Number of Variables", "num_rows": "Number of Rows", "id": "DOI"}).set_index("Version Number")
+        dsvs_i["Change Log"] = dsvs_i["id"].apply(lambda x: md.make_hlink("https://api.test.datacite.org/dois/" + x + "/activities", x + "/activities"))
+        dsvs_i["id"] = dsvs_i["id"].apply(lambda x: md.make_hlink("https://doi.org/" + x, x))
 
-        return dsvs_i.T
+        if self.dataset in ["CANCER", "MORTALITY", "DEMOGRAPHICS"]:
+            dsvs_i["version_num"] = dsvs_i.apply(lambda row: str(row["version_num"]) + " (" + row["version_date"] + ")", axis=1)
+
+        dsvs_i = dsvs_i.rename(columns={"source_table": "Name in TRE", "version_num": "Version Number", "version_date": "Version Date", "num_participants": "Participant Count", "num_columns": "Number of Variables", "num_rows": "Number of Observations", "id": "DOI"}).set_index("Version Number")
+        dsvs_i_T = dsvs_i.T.reset_index().rename(columns={"index": "Version"})
+
+        return DocHelper.style_table("_", dsvs_i_T)
 
     def change_log(self):
         """Creates and displays table showing change log for the dataset DOIs
