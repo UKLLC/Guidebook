@@ -1069,7 +1069,7 @@ class NHSEDataSet:
                 dfcc = md.get_nhse_cohort_counts(df.iloc[i]["table"])
                 dfcc = dfcc[~dfcc['cohort'].isin(['GENSCOT', 'NICOLA', 'SABRE'])]
                 tbl_names += len(dfcc) * [df.iloc[i]["table"]]
-                dfcc["count"] = dfcc["count"].replace("<10", "0").astype(int)
+                dfcc["count"] = dfcc["count"].replace("<10", np.nan).astype(float)
                 metrics_tables.append(dfcc)
 
             source = ColumnDataSource(data=dict(
@@ -1084,7 +1084,7 @@ class NHSEDataSet:
 
             columns = [
                 TableColumn(field='d1', title='{} Dataset'.format(self.dataset), width=80, sortable=False, formatter=formatter),
-                TableColumn(field='px', title='Participant Count', width=40, sortable=False),
+                TableColumn(field='px', title='Participant Count', width=40, sortable=False, formatter=StringFormatter(text_align='right', nan_format='<10')),
             ]
 
             grouping = [
