@@ -51,12 +51,11 @@ published by the [Department for Levelling Up, Housing & Communities.](https://e
 
 ## Caveats:
 
-- Records were removed with an inspection date prior to 1st August 2007 which was when EPCs were introduced in England and Wales and also removed where inspection date was prior to 1st October 2008 as the department stated then have chosen only to publish data from this date. This is inline with GOV.UK data tables on Energy Performance of Buildings Certificates which report on Q4 2008 onwards due to [data quality issues] (https://assets.publishing.service.gov.uk/media/5eaaab78d3bf7f6526f8d742/EPB_Cert_Statistics_Release_Q1_2020.pdf).
+- Records were removed with an inspection date prior to 1st August 2007 which was when EPCs were introduced in England and Wales and also removed where inspection date was prior to 1st October 2008 as the department stated then have chosen only to publish data from this date. This is inline with GOV.UK data tables on Energy Performance of Buildings Certificates which report on Q4 2008 onwards due to [data quality issues](https://assets.publishing.service.gov.uk/media/5eaaab78d3bf7f6526f8d742/EPB_Cert_Statistics_Release_Q1_2020.pdf).
 
 - The records contain many duplicate entries. In this dataset, variables have been transformed to minimise disclosure risk such as  inspection date has been transformed to inspection year due. Duplicates were therefore removed following transformation, where all parameters were equal. Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022) have suggested that duplicate entries are most likely due to a software or network fault which leads to EPC's being lodged multiple times.
 
 - The records also contain EPCs that have the same inspection date but the rest of the values are different, suggesting two different inspections. Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022) suggests that this is possibly due to human error as an inspector can manually set an inspection date or due to a failed audit. 
-
 
 ## Limitations:
 
