@@ -77,6 +77,7 @@ Annual Average Daily Traffic (AADT) counts and traffic speeds across the UK road
 |                    |              |                  |            |                         |
 
 </details>
+
 ## 2. Metrics 
 
 Click on the plus sign to see the number of participants represented in each dataset. 
