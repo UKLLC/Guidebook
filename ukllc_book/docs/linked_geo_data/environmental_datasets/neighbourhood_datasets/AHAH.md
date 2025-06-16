@@ -1,41 +1,38 @@
-# Access to Healthy Assets and Hazards (AHAH) dataset
+# Access to Healthy Assets and Hazards (AHAH) 
 
-> Last modified: 10 Dec 2024
+> Last modified: 16 Jun 2025
 
-## Introduction
-This file can be linked to the health record dataset, CORE_NHSD_LSOA11.
-AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensional index developed by the Consumer Data Research Centre (CDRC) for Great Britain measuring how ‘healthy’ neighbourhoods are. The AHAH index combines indicators under four different domains of accessibility: Retail environment (access to fast food outlets, pubs, tobacconists, gambling outlets), Health services (access to GPs, hospitals, pharmacies, dentists, leisure services), Physical environment (Blue Space, Green Space - Passive), and Air quality (NO₂, PM10, SO₂). Measurement data and deciles for the overall index, 4 domains and 14 inputs are produced for Lower Level Super Output Areas (LSOAs) for England and Wales, and Data Zones (DZ) for Scotland. Distances shown for some of the measurement data are means of the time (in minutes) for driving by car along the established road network, between the population weighted centroid of each postcode contained within each statistical geographical unit, and the actual location of the outlet/service. 
+AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensional index developed by the [Geographic Data Service](https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah) for Great Britain measuring how ‘healthy’ neighbourhoods are. The AHAH index combines indicators under four different domains of accessibility: Retail environment (access to fast food outlets, pubs, tobacconists, gambling outlets), Health services (access to GPs, hospitals, pharmacies, dentists, leisure services), Physical environment (Blue Space, Green Space - Passive), and Air quality (NO₂, PM10, SO₂). Measurement data and deciles for the overall index, 4 domains and 14 inputs are produced for Lower Level Super Output Areas (LSOAs) for England and Wales, and Data Zones (DZ) for Scotland. Distances shown for some of the measurement data are means of the time (in minutes) for driving by car along the established road network, between the population weighted centroid of each postcode contained within each statistical geographical unit, and the actual location of the outlet/service. 
 
-## AHAH datasets
+## 1. Summary 
 
 <details>
-<summary>England and Wales</summary>
+<summary>Lower Layer Super Output Area level (LSOA), England and Wales</summary>
 
-**1. Scale and Extent**
-
-| **Dataset descriptor**                             | **Dataset-specific information**                                                                                                                                                                                                                               |
-|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Name of dataset in TRE**                         | AHAH_geo_indicators_england_wales                                                                                                                                                                                                                              |
-| **Other name**                                     | Access to Healthy Assets & Hazards (AHAH)                                                                                                                                                                                                                     |
-| **Owner**                                          | Consumer Data Research Centre                                                                                                                                                                                                                                 |
-| **Geographical coverage**                          | England and Wales                                                                                                                                                                                                                                               |
-| **Temporal coverage**                              | 2022                                                                                                                                                                                                                                                           |
-| **TRE temporal coverage**                          | 2022                                                                                                                                                                                                                                                           |
-| **Frequency of update**                            | Every few years                                                                                                                                                                                                                                                |
-| **Date of last extract**                           | None                                                                                                                                                                                                                                                          |
-| **Keywords**                                       | Health, Retail, Environment, Air quality                                                                                                                                                                                                                       |
-| **Short description**                              | AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensional index developed by the CDRC for Great Britain measuring how ‘healthy’ neighbourhoods are. The AHAH index combines indicators under four different domains of accessibility: Retail environment (access to fast food outlets, pubs, tobacconists, gambling outlets), Health services (access to GPs, hospitals, pharmacies, dentists, leisure services), Physical environment (Blue Space, Green Space - Passive), and Air quality (NO₂, PM10, SO₂). Measurement data and deciles for the overall index, 4 domains and 14 inputs are produced for Lower Level Super Output Areas (LSOAs) for England and Wales, and Data Zones (DZ) for Scotland. Distances shown for some of the measurement data are means of the time (in minutes) for driving by car along the established road network, between the population weighted centroid of each postcode contained within each statistical geographical unit, and the actual location of the outlet/service. |
-| **DOI**                                            | None                                                                                                                                                                                                                                                          |
-| **Data resolution**                                | Lower Super Output Area code (2011)                                                                                                                                                                                                                           |
-| **Number of variables**                            | 21                                                                                                                                                                                                                                                            |
-| **Number of participants**                         | None                                                                                                                                                                                                                                                          |
-| **Number of observations**                         | 34,753                                                                                                                                                                                                                                                        |
-| **Version**                                        | 3                                                                                                                                                                                                                                                             |
-| **Key link**                                       | [AHAH Dataset Link](https://data.cdrc.ac.uk/dataset/access-healthy-assets-hazards-ahah)                                                                                                                                                                       |
-| **Specific restrictions to data use**              | None                                                                                                                                                                                                                                                          |
+AHAH (the index of ‘Access to Healthy Assets and Hazards’) is a multi-dimensional index combining indicators under four different domains of accessibility: Retail environment (access to fast food outlets, pubs, tobacconists, gambling outlets), Health services (access to GPs, hospitals (NHS trust sites), pharmacies, dentists, leisure services), Physical environment (Blue Space, Green Space - Passive), and
+Air quality (NO₂, PM10, SO₂), this dataset covers England and Wales.
 
 
-**2. Variables**
+| **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name of dataset in TRE            | AHAH_geo_indicators_england_wales                                                                                                                                                            |
+| Citation (APA)                    | Daras, K., Green, M.A., Davies, A. et al. Open data on health-related neighbourhood features in Great Britain. Sci Data 6, 107 (2019). (Note this is for v1 which used a different methodology.) |
+| Download citation                 | [https://doi.org/10.1038/](s41597-019-0114-6s41597-019-0114-6)                                                                                                |
+| Owner                             | Geographic Data Service                                                                                                                                                                     |
+| Temporal coverage                 | 2022                                                                                                                                                                                   |
+| Geographical coverage             | England and Wales                                                                                                                                                                           |
+| Key link                          | [Geographic Data Service: AHAH](https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah)                                                                                                |
+| Keywords                          | Health, Retail, Environment, Air quality                                                                                                                                                          |
+| Participant count                 |                                                                                                                                                                                             |
+| Number of variables               |                                                                                                                                                                                             |
+| Number of observations            |                                                                                                                                                                                             |
+| Latest extract date               |                                                                                                                                                                                             |
+| Specific restrictions to data use |                                                                                                                                                                                             |
+| Build a data request              |                                                                                                                                                                                             |
+| Version                           | 
+3                                                                                                                                                                                           | 
+
+**Variables**
 |**Variable Group**|**Variable**|**Description**|**Source**|**Date range of data**|
 |:---:|:---:|:---:|:---:|:---:|
 |Geographical|lsoa11|Lower Super Output Area code (2011)|Office of National Statistics|2011|
@@ -54,39 +51,39 @@ AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensi
 |Air|ah3no2|Annual mean Nitrogen Dioxide (μgm³)|DEFRA|2019|
 |Air|ah3pm10|Annual mean Particulate Matter (μgm³)|DEFRA|2019|
 |Air|ah3so2|Annual mean Sulphur Dioxide (μgm³)|DEFRA|2019|
-|Health|ah3h|Health Domain Score|CDRC|2022|
-|Green/bluespace|ah3g|Green/Bluespace Domain Score|CDRC|2022|
-|Air|ah3e|Air quality Domain Score|CDRC|2022|
-|Retail|ah3r|Retail Domain Score|CDRC|2022|
-|Healthy Assets and Hazards|ahah_index|Access to Healthy Assets and Hazards index score|CDRC|2022|
+|Health|ah3h|Health Domain Score|Geographic Data Service|2022|
+|Green/bluespace|ah3g|Green/Bluespace Domain Score|Geographic Data Service|2022|
+|Air|ah3e|Air quality Domain Score|Geographic Data Service|2022|
+|Retail|ah3r|Retail Domain Score|Geographic Data Service|2022|
+|Healthy Assets and Hazards|ahah_index|Access to Healthy Assets and Hazards index score|Geographic Data Service|2022|
 
 </details>
 
 <details>
-<summary>Scotland</summary>
+<summary>Data Zones (DZ), Scotland</summary>
 
-**1. Scale and Extent**
+AHAH (the index of ‘Access to Healthy Assets and Hazards’) is a multi-dimensional index combining indicators under four different domains of accessibility: Retail environment (access to fast food outlets, pubs, tobacconists, gambling outlets), Health services (access to GPs, hospitals (NHS trust sites), pharmacies, dentists, leisure services), Physical environment (Blue Space, Green Space - Passive), and
+Air quality (NO₂, PM10, SO₂), this dataset covers Scotland.
 
-| **Dataset descriptor**                             | **Dataset-specific information**                                                                                                                                                                                                                               |
-|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Name of dataset in TRE**                         | AHAH_geo_indicators_scotland                                                                                                                                                                                                                                  |
-| **Other name**                                     | Access to Healthy Assets & Hazards (AHAH)                                                                                                                                                                                                                     |
-| **Owner**                                          | Consumer Data Research Centre                                                                                                                                                                                                                                 |
-| **Geographical coverage**                          | Scotland                                                                                                                                                                                                                                                       |
-| **Temporal coverage**                              | 2022                                                                                                                                                                                                                                                           |
-| **TRE temporal coverage**                          | 2022                                                                                                                                                                                                                                                           |
-| **Frequency of update**                            | Every few years                                                                                                                                                                                                                                                |
-| **Date of last extract**                           | None                                                                                                                                                                                                                                                          |
-| **Keywords**                                       | Health, Retail, Environment, Air quality                                                                                                                                                                                                                       |
-| **Short description**                              | AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensional index developed by the CDRC for Great Britain measuring how ‘healthy’ neighbourhoods are. The AHAH index combines indicators under four different domains of accessibility: Retail environment (access to fast food outlets, pubs, tobacconists, gambling outlets), Health services (access to GPs, hospitals, pharmacies, dentists, leisure services), Physical environment (Blue Space, Green Space - Passive), and Air quality (NO₂, PM10, SO₂). Measurement data and deciles for the overall index, 4 domains and 14 inputs are produced for Lower Level Super Output Areas (LSOAs) for England and Wales, and Data Zones (DZ) for Scotland. Distances shown for some of the measurement data are means of the time (in minutes) for driving by car along the established road network, between the population weighted centroid of each postcode contained within each statistical geographical unit, and the actual location of the outlet/service. |
-| **DOI**                                            | None                                                                                                                                                                                                                                                          |
-| **Data resolution**                                | Data Zones (2011)                                                                                                                                                                                                                                              |
-| **Number of variables**                            | 21                                                                                                                                                                                                                                                            |
-| **Number of participants**                         | None                                                                                                                                                                                                                                                          |
-| **Number of observations**                         | 6,976                                                                                                                                                                                                                                                         |
-| **Version**                                        | 3                                                                                                                                                                                                                                                             |
-| **Key link**                                       | [AHAH Dataset Link](https://data.cdrc.ac.uk/dataset/access-healthy-assets-hazards-ahah)                                                                                                                                                                       |
-| **Specific restrictions to data use**              | None                                                                                                                                                                                                                                                          |
+| **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name of dataset in TRE            | AHAH_geo_indicators_scotland                                                                                                                                                            |
+| Citation (APA)                    | Daras, K., Green, M.A., Davies, A. et al. Open data on health-related neighbourhood features in Great Britain. Sci Data 6, 107 (2019). (Note this is for v1 which used a different methodology.) |
+| Download citation                 | [https://doi.org/10.1038/](s41597-019-0114-6s41597-019-0114-6)                                                                                                |
+| Owner                             | Geographic Data Service                                                                                                                                                                     |
+| Temporal coverage                 | 2022                                                                                                                                                                                   |
+| Geographical coverage             | Scotland                                                                                                                                                                           |
+| Key link                          | [Geographic Data Service: AHAH](https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah)                                                                                                |
+| Keywords                          | Health, Retail, Environment, Air quality                                                                                                                                                          |
+| Participant count                 |                                                                                                                                                                                             |
+| Number of variables               |                                                                                                                                                                                             |
+| Number of observations            |                                                                                                                                                                                             |
+| Latest extract date               |                                                                                                                                                                                             |
+| Specific restrictions to data use |                                                                                                                                                                                             |
+| Build a data request              |                                                                                                                                                                                             |
+| Version                           | 
+3                                                                                                                                                                                           | 
+
 
 
 **2. Variables**
@@ -107,16 +104,31 @@ AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensi
 |Air|ah3no2|Annual mean Nitrogen Dioxide (μgm³)|DEFRA|2019|
 |Air|ah3pm10|Annual mean Particulate Matter (μgm³)|DEFRA|2019|
 |Air|ah3so2|Annual mean Sulphur Dioxide (μgm³)|DEFRA|2019|
-|Health|ah3h|Health Domain Score|CDRC|2022|
-|Green/bluespace|ah3g|Green/Bluespace Domain Score|CDRC|2022|
-|Air|ah3e|Air quality Domain Score|CDRC|2022|
-|Retail|ah3r|Retail Domain Score|CDRC|2022|
-|Healthy Assets and Hazards|ahah_index|Access to Healthy Assets and Hazards index score|CDRC|2022|
+|Health|ah3h|Health Domain Score|Geographic Data Service|2022|
+|Green/bluespace|ah3g|Green/Bluespace Domain Score|Geographic Data Service|2022|
+|Air|ah3e|Air quality Domain Score|Geographic Data Service|2022|
+|Retail|ah3r|Retail Domain Score|Geographic Data Service|2022|
+|Healthy Assets and Hazards|ahah_index|Access to Healthy Assets and Hazards index score|Geographic Data Service|2022|
 
 </details>
 
+## 2. Metrics 
 
-## Data Linkage
+Click on the plus sign to see the number of participants represented in each dataset. 
+
+## 3. Version History 
+
+## 4. Change Log 
+
+We are currently working on a change log which will show changes to the dataset’s metadata. 
+
+## 5. Documentation 
+
+We are currently building a documentation storage system which will host relevant and useful documents related to datasets, groupings, and studies themselves. 
+
+## 6. Useful Syntax 
+
+**Data Linkage:**
 England/Wales and Scotland each have their own geo indicator dataset, since England and Wales use the geographic unit of Lower Super Output Areas (LSOA) and Scotland uses Data Zones (DZ).
 
 To link LLC_XXXX.CORE_nhsd_lsoa11_v0000_YYYYMMDD with
@@ -140,5 +152,3 @@ LLC_XXXX.AHAH_geo_indicators_england_wales_v0000_YYYYMMDD:
 *drop if* _merge ** 2
 
 CORE_nhsd_lsoa11 is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quintile from the Access to Healthy Assets and Hazards Index that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible. It is also advised to only link to the country/ countries that you require.
-
-The Index for Healthy Assets and Hazards is provided by the Consumer Data Research Centre, an ESRC Data Investment: ES/L011840/1, ES/L011891/1

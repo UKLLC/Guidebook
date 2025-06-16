@@ -1,6 +1,6 @@
 # Energy Performance Certificates (EPC)
 
->Last modified: 12 Jun 2025
+>Last modified: 16 Jun 2025
 
 An Energy Performance Certificate (EPC) contains information on the energy efficiency of a building (from most efficient band A to least efficient band G). The energy performance records also contain a detailed breakdown of energy use, carbon dioxide emissions, fuel costs, average floor area sizes and numbers of certificates recorded. Available since 2008, an EPC is required when a building is constructed, sold or let and it is valid for 10 years. This dataset provides the EPCs including 54 variables on the characteristics of domestic properties in England and Wales. 
 
@@ -9,7 +9,7 @@ An Energy Performance Certificate (EPC) contains information on the energy effic
 <details>
   <summary>Household level, England and Wales</summary>
 
-An Energy Performance Certificate (EPC) provides information on the energy efficiency of a building. Since 2007, an EPC is required when a building is constructed, sold or let and it is valid for 10 years.
+An Energy Performance Certificate (EPC) provides information on the energy efficiency of a building. Since 2008, an EPC is required when a building is constructed, sold or let and it is valid for 10 years.
 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
