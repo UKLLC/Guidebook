@@ -1,5 +1,5 @@
 # Available software
->Last modified: 17 Feb 2025
+>Last modified: 17 Jun 2025
 
 UK LLC supports researchers in using their preferred software packages. The following packages are **pre-installed** in the UK LLC TRE: 
 * SQL Server Management Studio
@@ -72,6 +72,8 @@ Click on the YouTube link below for a short video guide (120 seconds).
 
 If you are planning on using R, an **R helper** is provided in '**S:\ReadAll\r_help**'. These scripts are designed to help you extract your data from the database and to add **variable** and **value labels** using the **expss R package**. 
 
+The **R helper** specififies the version of R that is required.
+
 To use the R helper:
 1.	Take copies of both scripts '**r_label_helper.R**' and '**r_label_functions.R**' and save copies to your working area. This is because you will need to **edit** 'r_label_helper.R' with your project specifics and requirements.
 2.	Once you have **local copies**, ensure both scripts are in the **same directory** because '**r_label_helper.R**' will expect to find '**r_label_functions.R**' 
@@ -113,14 +115,14 @@ To use the R helper:
 You are welcome to modify the 'r_label_helper.R' to suit your use case and to use the example syntax to apply labelling to your own subsets of tables.
 
 ### Specifying the version of R within RStudio
- Should you wish to change the version of R being used by RStudio. Ensure that if your library is setup for 4.1.3, you set R to 4.1.3 with either of the following methods, else pick the relevant option to your library.
+Should you wish to change the version of R being used by RStudio. Ensure that if your library is setup to match the R version e.g. for 4.1.3, you need to set R to 4.1.3. You can do this with the following method:
 
 Change R within RStudio:
 
 1. Go to Tools > Global options
 2. Click 'Change...' under R version
 3. Click the 'Choose a specific version of R' option
-4. Select '[64-bit] C:/Program Files/R/R-4.1.3'
+4. Select the version of R.
 5. Click Okay
 6. Click Apply
 
@@ -130,6 +132,8 @@ Hold the CTRL key and double click the RStudio launcher, as shown below
 ![alt text](image.png)
 
 Doing this will change the folder in which RStudio loads your library, as shown above, if you select 4.1.3, the library path will be P:\%USERNAME%\AppData\Roaming\R\4.1.3\Library
+
+If you are having issues with upgrading R and package compatibility issues, please consult the following [article](https://rpubs.com/wch/275466#:~:text=Sometimes%20packages%20installed%20with%20a,an%20old%20version%20of%20R.). 
 
 For more information on using R and R studio in the TRE  visit the [SeRP guidance](https://ukserp.atlassian.net/wiki/spaces/HDK/pages/16712639/RStudio+and+R).
 
