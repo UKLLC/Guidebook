@@ -1,17 +1,17 @@
 # Air pollution NO2 & PM
 
->Last modified: 26 Mar 2025
+>Last modified: 17 Jun 2025
 
 
 The air pollution datasets modelled by University of Leicester/City St George's, University of London contain continuous annual-average **nitrogen dioxide (NO2)** and **fine particulate matter (PM2.5)** exposure data, covering the **years 2010-2019** for all residential address points where a UK LLC participant has permissions in place.
 
-## Nitrogen dioxide (NO2)
+**Nitrogen dioxide (NO2):**
 NO2 gas is mainly produced during combustion of fossil fuels. Short term exposure to elevated concentrations of **NO2 can have adverse health impacts** such as inflammation of the airways and increased susceptibility to respiratory infections and allergens. NO2 can exacerbate symptoms of those suffering from heart or lung conditions {cite}`GOVNO2`.
 
-## Fine particulate matter (PM)
+**Fine particulate matter (PM):**
 Particulate matter (PM) is everything in the air that is not a gas and as such it is made up from a huge variety of chemical compounds and materials. PM is classified according to size. The UK currently focuses on estimating the fractions of PM emissions where particles are less than 10 micrometres in diameter (PM10) and less than 2.5 micrometres in diameter (PM2.5). Some PM is toxic and due to the small size of the particles, some toxins can enter the bloodstream and can be transported around the body, entering the heart, brain and other organs {cite}`GOVPM25`.
 
-## Geospatial surface data 
+**Geospatial surface data:** 
 NO2 and PM2.5 geospatial surface data were created at a national scale using two existing surfaces:
 
 1) The UK government, Department for Environment, Food & Rural Affairs **(DEFRA)** has modelled background **annual-average air pollution concentrations** since 2001 (1 x 1km resolution). These surfaces approximate **changes in air pollution over time** and provide exposure estimates between the UK Automatic Urban and Rural Network (AURN). These are typically 10 to 100s kms apart and with higher numbers in urban areas. 

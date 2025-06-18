@@ -35,6 +35,8 @@ parts:
               file: docs/ukllc_key_facts/Sample/freezes/freeze10.ipynb
             - title: Freeze 11 | Feb 2025
               file: docs/ukllc_key_facts/Sample/freezes/freeze11.ipynb
+    - title: Available linkages
+      file: docs/Linkages/LPS_linkages.md
     - title: Data structure & concepts
       file: docs/database/data_intro.md
       sections:
@@ -49,8 +51,6 @@ parts:
       sections:
         - title: Temporal coverage
           file: docs/LPS_data/Longevity of LPS/LPS_longevity
-        - title: Permitted linkages
-          file: docs/LPS_data/Linkages/LPS_linkages.md
         - title: Discover LPS data
           file: docs/LPS_data/Discover/Discover_LPS_data.md
         - title: ALSPAC
