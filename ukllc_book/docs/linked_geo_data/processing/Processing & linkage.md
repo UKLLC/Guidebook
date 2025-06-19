@@ -1,6 +1,6 @@
 # Processing and linkage to place-based datasets 
 
->Last modified: 21 Feb 2025
+>Last modified: 19 Jun 2025
 
 ## Flow of place-based data into the UK LLC TRE 
 
@@ -19,6 +19,7 @@ Place-based datasets flow into the UK LLC TRE by one of two pathways:
 
 <details>
 <summary>Find out more about partner generated datasets </summary>
+
 - We ask each LPS to send address data to our Trusted Third Party, NHS Digital Health and Care Wales (DHCW), along with the permission flags that indicate LPS/participant approvals for place-based linkages. 
 
 - Our TRE provided by SeRP UK is introducing new functionality to enable DHCW to clean and geo-code address data. DHCW uses specialist linkage software to match LPS addresses to a clean master file of all addresses. This happens entirely within DHCW and is carried out by DHCW staff who already hold the address data. 

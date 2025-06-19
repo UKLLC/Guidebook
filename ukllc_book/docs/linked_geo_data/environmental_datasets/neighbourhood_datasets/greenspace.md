@@ -1,33 +1,11 @@
 # Greenspace 
 
 
->Last modified: 09 Jun 2025
+>Last modified: 19 Jun 2025
 
 ## Greenspace Metrics
 
  The greenspace metrics have been developed for residential addresses by the [Centre for Environmental Health and Sustainability, University of Leicester](https://le.ac.uk/cehs/research/longitudinal-linkage-collaboration). The greenspace datasets contain variables relating to: total amount of green vegetation, percentage of greenspace, largest greenspace area, number of greenspaces, tree cover density and walkability to greenspace. The data covers the year 2018 for all residential address points where a UK LLC participant has permissions in place.
-
- Some variables are available across the whole of the United Kingdom (UK) and some are only available across Great Britain (GB). Please refer to the table below for geographic coverage of variables:
-
-| **Variable**     | **Description**                                                  | **Geographic Coverage** |
-|------------------|------------------------------------------------------------------|--------------------------|
-| S2NDVI2020       | Sentinel-2 NDVI (Normalized Difference Vegetation Index), 2020   | UK                       |
-| LSNDVI2020       | Landsat NDVI (Normalized Difference Vegetation Index), 2020      | UK                       |
-| LSNDVI2010       | Landsat NDVI (Normalized Difference Vegetation Index), 2010      | UK                       |
-| LSNDVI2000       | Landsat NDVI (Normalized Difference Vegetation Index), 2000      | UK                       |
-| LSNDVI1990       | Landsat NDVI (Normalized Difference Vegetation Index), 1990      | UK                       |
-| OSGS_AREA        | Total greenspace area                                            | GB                       |
-| OSGS_PCT         | Percentage greenspace                                             | GB                       |
-| OSGS_MAXAR       | Largest greenspace                                                | GB                       |
-| OSGS_CNT         | Number of greenspaces                                             | GB                       |
-| OSGS_AP          | Number of greenspace access points                                | GB                       |
-| TCD_MEAN         | Tree cover density                                                | UK                       |
-| TC_PCT           | Percentage tree cover                                             | UK                       |
-| IMD_MEAN         | Imperviousness degree                                             | UK                       |
-| IMD_PCT          | Percentage imperviousness                                         | UK                       |
-| EUDIST2NAP       | Euclidean distance to nearest access point                        | GB                       |
-| NTDIST2NAP       | Network distance to nearest access point                          | GB                       |
-
 
 ## 1. Summary 
 
@@ -244,7 +222,7 @@ This dataset contains greenspace metrics that are available for a 300m circular 
 </details>
 
 <details>
-  <summary> Greespace polygon points 2000m </summary>
+  <summary> Greenspace polygon points 2000m </summary>
 
 This dataset contains greenspace metrics that are available for a 2000m distance along a road and path network from a specific participant address point.
 
@@ -279,7 +257,7 @@ This dataset contains greenspace metrics that are available for a 2000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 1000m </summary>
+  <summary> Greenspace polygon points 1000m </summary>
 
 This dataset contains greenspace metrics that are available for a 1000m distance along a road and path network from a specific participant address point.
 
@@ -314,7 +292,7 @@ This dataset contains greenspace metrics that are available for a 1000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 500m </summary>
+  <summary> Greenspace polygon points 500m </summary>
 
 This dataset contains greenspace metrics that are available for a 500m distance along a road and path network from a specific participant address point.
 
@@ -349,7 +327,7 @@ This dataset contains greenspace metrics that are available for a 500m distance 
 </details>
 
 <details>
-  <summary> Greespace polygon points 300m </summary>
+  <summary> Greenspace polygon points 300m </summary>
 
 This dataset contains greenspace metrics that are available for a 300m distance along a road and path network from a specific participant address point.
 
@@ -596,7 +574,7 @@ This dataset contains greenspace metrics that are available for a 300m circular 
 </details>
 
 <details>
-  <summary> Greespace polygon points 2000m </summary>
+  <summary> Greenspace polygon points 2000m </summary>
 
 This dataset contains greenspace metrics that are available for a 2000m distance along a road and path network from a specific participant postcodes.
 
@@ -631,7 +609,7 @@ This dataset contains greenspace metrics that are available for a 2000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 1000m </summary>
+  <summary> Greenspace polygon points 1000m </summary>
 
 This dataset contains greenspace metrics that are available for a 1000m distance along a road and path network from a specific participant postcodes.
 
@@ -666,7 +644,7 @@ This dataset contains greenspace metrics that are available for a 1000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 500m </summary>
+  <summary> Greenspace polygon points 500m </summary>
 
 This dataset contains greenspace metrics that are available for a 500m distance along a road and path network from a specific participant postcodes.
 
@@ -701,7 +679,7 @@ This dataset contains greenspace metrics that are available for a 500m distance 
 </details>
 
 <details>
-  <summary> Greespace polygon points 300m </summary>
+  <summary> Greenspace polygon points 300m </summary>
 
 This dataset contains greenspace metrics that are available for a 300m distance along a road and path network from a specific participant postcodes.
 

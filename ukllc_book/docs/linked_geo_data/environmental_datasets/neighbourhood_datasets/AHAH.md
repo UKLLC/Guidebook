@@ -1,6 +1,6 @@
 # Access to Healthy Assets and Hazards (AHAH) 
 
-> Last modified: 16 Jun 2025
+> Last modified: 19 Jun 2025
 
 AHAH (the index of ‘Access to Health Assets and Hazards’) is a multi-dimensional index developed by the [Geographic Data Service](https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah) for Great Britain measuring how ‘healthy’ neighbourhoods are. The AHAH index combines indicators under four different domains of accessibility: Retail environment (access to fast food outlets, pubs, tobacconists, gambling outlets), Health services (access to GPs, hospitals, pharmacies, dentists, leisure services), Physical environment (Blue Space, Green Space - Passive), and Air quality (NO₂, PM10, SO₂). Measurement data and deciles for the overall index, 4 domains and 14 inputs are produced for Lower Level Super Output Areas (LSOAs) for England and Wales, and Data Zones (DZ) for Scotland. Distances shown for some of the measurement data are means of the time (in minutes) for driving by car along the established road network, between the population weighted centroid of each postcode contained within each statistical geographical unit, and the actual location of the outlet/service. 
 
@@ -45,7 +45,7 @@ Air quality (NO₂, PM10, SO₂), this dataset covers England and Wales.
 |Health|ah3dent|Distance to nearest Dentist (minutes)|NHS England|Jan-22|
 |Health|ah3phar|Distance to nearest Pharmacy (minutes)|NHS England|Jan-22|
 |Health|ah3phar|Distance to nearest Pharmacy (minutes)|NHS Wales|Nov-21|
-|Health|ah3leis|Distance to nearest Leisure Centre (minutes)|Local Data Company|Jul-05|
+|Health|ah3leis|Distance to nearest Leisure Centre (minutes)|Local Data Company|2019|
 |Green/bluespace|ah3blue|Distance to nearest Blue space (minutes)|OpenStreetMap|2021|
 |Green/bluespace|ah3gpas|NVDI value indicating Passive Green Space|Sentinel Satellite|2021|
 |Air|ah3no2|Annual mean Nitrogen Dioxide (μgm³)|DEFRA|2019|
@@ -98,7 +98,7 @@ Air quality (NO₂, PM10, SO₂), this dataset covers Scotland.
 |Health|ah3hosp|Distance to nearest Hospital (minutes)|NHS Scotland|Dec-21|
 |Health|ah3dent|Distance to nearest Dentist (minutes)|NHS Scotland|Jun-21|
 |Health|ah3phar|Distance to nearest Pharmacy (minutes)|NHS Scotland|Oct-21|
-|Health|ah3leis|Distance to nearest Leisure Centre (minutes)|Local Data Company|Jul-05|
+|Health|ah3leis|Distance to nearest Leisure Centre (minutes)|Local Data Company|2019|
 |Green/bluespace|ah3blue|Distance to nearest Blue space (minutes)|OpenStreetMap|2021|
 |Green/bluespace|ah3gpas|NVDI value indicating Passive Green Space|Sentinel Satellite|2021|
 |Air|ah3no2|Annual mean Nitrogen Dioxide (μgm³)|DEFRA|2019|

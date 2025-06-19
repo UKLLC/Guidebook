@@ -1,6 +1,6 @@
 # Place-based datasets
 
-> Last modified: 29 May 2025
+> Last modified: 19 Jun 2025
 
 ## Introduction 
 
@@ -20,12 +20,14 @@ Visit [UK LLC Explore](https://explore.ukllc.ac.uk/) to discover more about each
 
 | Dataset name | Primary domain | Secondary domain | Summary | Coverage | Smallest data resolution | Data available in TRE | Owner |
 |--------------|----------------|------------------|---------|----------|---------------------------|------------------------|--------|
-| [Access to Healthy Assets and Hazards (AHAH)](https://doi.org/10.1016/j.healthplace.2018.08.019) | Environmental | Neighbourhood | A multi-dimensional index measuring how ‘healthy’ neighbourhoods are. | England, Scotland, Wales | Lower Super Output Area/Data Zone | 2022 | Consumer Data Research Centre |
+| [Access to Healthy Assets and Hazards (AHAH)](https://doi.org/10.1016/j.healthplace.2018.08.019) | Environmental | Neighbourhood | A multi-dimensional index measuring how ‘healthy’ neighbourhoods are. | England, Scotland, Wales | Lower Super Output Area/Data Zone | 2022 | [Geographic Data Service](https://data.geods.ac.uk/) |
 | [Greenspace](https://le.ac.uk/cehs/research/longitudinal-linkage-collaboration) | Environmental | Neighbourhood | Greenspace metrics on greenspace coverage, access and walkability. | England, Scotland, Wales, Northern Ireland (selected variables) | Address | 2018 | University of Leicester |
-| [Energy Performance Certificates (EPC)](https://epc.opendatacommunities.org/) | Environmental | Property | Energy efficiency and property qualities. | England, Wales | Address | 2008-2024 | Department for Levelling Up, Housing & Communities |
-| [Air pollution NO2 & PM](https://doi.org/https://doi.org/10.1016/j.apr.2022.101506) | Environmental | Pollution | Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposure data. | England, Scotland, Wales | Address | 2010-2019 | University of Leicester |
-| [Air pollution NOx, NO2 and O3](https://doi.org/10.1016/j.envint.2025.109304) | Environmental | Pollution | Annual average assessments (hourly and 24-hour) for NOx, NO2 and O3. | England, Wales | Address | 2018-2020 | University of Leicester |
+| [Energy Performance Certificates (EPC)](https://epc.opendatacommunities.org/) | Environmental | Property | Energy efficiency and property qualities. | England, Wales | Address | 2008–2024 | Department for Levelling Up, Housing & Communities |
+| [Air pollution NO2 & PM](https://doi.org/10.1016/j.apr.2022.101506) | Environmental | Pollution | Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposure data. | England, Scotland, Wales | Address | 2010–2019 | University of Leicester |
+| [Air pollution NOx, NO2 and O3](https://doi.org/10.1016/j.envint.2025.109304) | Environmental | Pollution | Annual average assessments (hourly and 24-hour) for NOx, NO2 and O3. | England, Wales | Address | 2018–2020 | University of Leicester |
 | [Noise pollution](https://doi.org/10.1016/j.envsoft.2014.12.022) | Environmental | Pollution | Modelled road-transport noise estimates. | England, Wales | Address | 2013 | University of Leicester |
+| [Townsend Index](https://doi.org/10.6084/m9.figshare.27073906) | Population | Material deprivation | A relative indicator of material deprivation | England and Wales | Lower Super Output Area | 2021 | University of Leicester |
+
 
 
 <br>

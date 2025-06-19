@@ -183,7 +183,7 @@ parts:
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
             - title: Townsend Deprivation Index
-              file: docs/linked_geo_data/population_datasets/townsend.md
+              file: docs/linked_geo_data/population_datasets/townsend/townsend.md
         - title: Environmental datasets
           file: docs/linked_geo_data/environmental_datasets/environment.md
           sections:
@@ -230,12 +230,8 @@ parts:
         - title: Demographic datasets
           file: docs/ukllc_managed_data/demographic_datasets/demographic_data.md
           sections:
-            - title: LSOA11 geo indicators
-              file: docs/ukllc_managed_data/demographic_datasets/Datasets/LSOA11_geo_indicators.md
             - title: Index of Multiple Deprivation (IMD)
               file: docs/ukllc_managed_data/demographic_datasets/Datasets/UK_geo_indicators.md
-            - title: NHSD LSOA11
-              file: docs/ukllc_managed_data/demographic_datasets/Datasets/nhsd_LSOA11.md
         - title: Derived datasets
           file: docs/ukllc_managed_data/derived_datasets/derived_data.md
     - title: TRE user guide

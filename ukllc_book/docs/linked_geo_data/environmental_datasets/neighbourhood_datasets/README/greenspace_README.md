@@ -1,11 +1,34 @@
 # README: Greenspace metrics
 
 
->Last modified: 09 Jun 2025
+>Last modified: 19 Jun 2025
 
 ## Greenspace
 
 Greenspace metrics have been developed by the [Centre for Environmental Health and Sustainability, University of Leicester] for residential addresses/postcodes for cohorts partnering with UK LLC, where the appropriate permissions are in place. 
+
+
+ Some variables are available across the whole of the United Kingdom (UK) and some are only available across Great Britain (GB). Please refer to the table below for geographic coverage of variables:
+
+| **Variable**     | **Description**                                                  | **Geographic Coverage** |
+|------------------|------------------------------------------------------------------|--------------------------|
+| S2NDVI2020       | Sentinel-2 NDVI (Normalized Difference Vegetation Index), 2020   | UK                       |
+| LSNDVI2020       | Landsat NDVI (Normalized Difference Vegetation Index), 2020      | UK                       |
+| LSNDVI2010       | Landsat NDVI (Normalized Difference Vegetation Index), 2010      | UK                       |
+| LSNDVI2000       | Landsat NDVI (Normalized Difference Vegetation Index), 2000      | UK                       |
+| LSNDVI1990       | Landsat NDVI (Normalized Difference Vegetation Index), 1990      | UK                       |
+| OSGS_AREA        | Total greenspace area                                            | GB                       |
+| OSGS_PCT         | Percentage greenspace                                             | GB                       |
+| OSGS_MAXAR       | Largest greenspace                                                | GB                       |
+| OSGS_CNT         | Number of greenspaces                                             | GB                       |
+| OSGS_AP          | Number of greenspace access points                                | GB                       |
+| TCD_MEAN         | Tree cover density                                                | UK                       |
+| TC_PCT           | Percentage tree cover                                             | UK                       |
+| IMD_MEAN         | Imperviousness degree                                             | UK                       |
+| IMD_PCT          | Percentage imperviousness                                         | UK                       |
+| EUDIST2NAP       | Euclidean distance to nearest access point                        | GB                       |
+| NTDIST2NAP       | Network distance to nearest access point                          | GB                       |
+
 
 ### Methodology
 
