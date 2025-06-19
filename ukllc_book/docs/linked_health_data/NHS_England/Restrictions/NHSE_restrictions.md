@@ -1,8 +1,9 @@
 # NHS England dataset restrictions
+>Last modified: 19 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers given access to NHS England datasets must adhere to the terms detailed in data sharing agreements between NHS England and UK LLC (University of Bristol).</strong></div>  
+<br>
 
->Last modified: 07 Feb 2025
-
-The specific terms set out in the table below are extracted from the data sharing agreements between UK LLC (University of Bristol) and NHS England. Researchers permitted to access these datasets **must adhere to these terms** when analysing the data and presenting and publishing their findings. UK LLC performs checks to ensure adherence and penalties will apply if these terms are breached.  
+Researchers permitted to access the datasets listed below **must adhere to these terms** when analysing the data and presenting and publishing their findings. UK LLC performs checks to ensure adherence and penalties will apply if these terms are breached.  
 
 **Table 1** Specific data use terms extracted from the data sharing agreements between UK LLC and NHS England
 |**NHS England dataset**|**Restrictions to use**|

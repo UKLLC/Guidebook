@@ -1,10 +1,13 @@
-# Coded variables in  NHS England datasets
->Last modified: 01 Apr 2025
+# Coded variables in NHS England datasets
+>Last modified: 19 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Clinical classification systems are used to code information collected about patients in the NHS England datasets.</strong></div>  
+<br>
+
 
 ## Introduction
-The main **clinical classifications** mandated by NHS England are **SNOMED CT, ICD-10 and OPCS-4**. However, you'll also find **Read codes**, **NHS national codes**, **dm+d codes** and **non-clinical classifications** in the datasets. The clinical domains covered by these different systems vary, as shown in Figure 1 below.  
+Codes are used for a range of **statistical, clinical** and **management purposes**, e.g. by Integrated Care Boards (ICBs) to reimburse hospitals for the care they have provided.
 
-Codes are used for a range of **statistical, clinical** and **management purposes**, e.g. by Integrated Care Boards (ICBs) to reimburse hospitals for the care they have provided.  
+The main **clinical classifications** mandated by NHS England are **SNOMED CT, ICD-10 and OPCS-4**. However, you'll also find **Read codes**, **NHS national codes**, **dm+d codes** and **non-clinical classifications** in the datasets. The clinical domains covered by these different systems vary, as shown in Figure 1 below.  
 
 In **hospital settings**, specialist clinical coders translate medical information in patients' case notes into codes **post-discharge**. In **other settings**, clinicians directly record information in the electronic patient record (EPR) at the **point of care**.  
 
@@ -15,7 +18,7 @@ In **hospital settings**, specialist clinical coders translate medical informati
 **Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: [**An Introduction to Clinical Codes and Terminology**.](https://www.bennett.ox.ac.uk/blog/2023/06/an-introduction-to-clinical-codes-and-terminology-systems/)
 ## Classification systems
 
-Table 1 lists the systems you'll encounter in each NHS England dataset in the UK LLC TRE. Beneath the table we summarise the key aspects of each system. For the datasets marked with an asterisk (*) and in italics, you [**must submit a clinical code list**](../Coding/codelists.md) with your data request. 
+Table 1 lists the systems used in each NHS England dataset in the UK LLC TRE. Beneath the table we summarise the key aspects of each system. For the datasets marked with an asterisk (*) and in italics, you [**must submit a clinical code list**](../Coding/codelists.md) alongside your data request when you apply to access data in the UK LLC TRE. 
 
 **Note:** The information in the table was obtained from the NHS England API, apart from DEMOGRAPHICS and MORTALITY - for these two datasets information was obtained from the [**NHS England Metadata dashboard**.](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard) We are aware that the information from the API is not comprehensive and in due course we will update this table accordingly.  
 
@@ -36,16 +39,16 @@ Table 1 lists the systems you'll encounter in each NHS England dataset in the UK
 | **MHSDS** |&check;|&check;|&check;|&cross;|&check;|&check;|&cross;|&cross;|&cross;|&cross;|
 | **IAPT**|&check;| &cross;| &check;|&cross;| &cross;| &check; | &cross; | &check; |&cross;| &cross; |
 | ****GDPPR***  | &check;| &cross; |&cross;|&cross;| &cross;| &check; | &check;| &check;|&cross;| &cross;|&cross;
-| **CSDS**  | &check; | &check;| &check;|&cross; |&cross;| &check; |&cross;| &check;| &cross;| &cross;|
 | ****PCM***| &cross; | &cross; | &cross; | &cross;| &cross; |  &cross;| &check;| &check;|  &cross; |&cross;|
-| ****CANCER*** | &cross; |&cross; | &check;| &check;|&cross;| &cross; | &cross; | &check;| &cross; |&cross; |
+| **CSDS**  | &check; | &check;| &check;|&cross; |&cross;| &check; |&cross;| &check;| &cross;| &cross;|
 | **MSDS** | &check; | &check; | &check; | &cross; |&check; | &check;| &cross; | &check; |  &cross; | &cross; | &cross;
+| ****CANCER*** | &cross; |&cross; | &check;| &check;|&cross;| &cross; | &cross; | &check;| &cross; |&cross; |
 | **MORTALITY** |  &cross;| &cross; | &check; | &check; | &cross;| &cross; | &cross;| &cross;| &cross;| &cross;|&cross;  
 |**DEMOGRAPHICS** |  &cross; | &cross; | &cross;| &cross;| &cross; | &cross; | &cross;| &cross;| &cross;| &cross; |
 |  |  |  |  |  |  |  |  |   |
 
 
- ### **1. Clinical classifications**
+ ## Clinical classifications
 **SNOMED CT:**  Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT) is an international system used to classify many types of medical data, including diagnoses, procedures, symptoms, family history, assessment tools, observations and medications. The UK edition of SNOMED CT contains the UK extensions, which include UK-specific screening procedures and assessment scales. In contrast to OPCS-4 and ICD-10, SNOMED CT is designed for direct management and care of patients. Codes are in numeric format, e.g. '85189001' represents ‘Acute appendicitis’. All NHS healthcare providers in England must now use SNOMED CT for capturing clinical terms within EPR systems. [**Click here to browse SNOMED CT codes**.](https://termbrowser.nhs.uk/?)  
 
 **Read/CTV3:** Read/Clinical Terms Version 3 (CTV3) codes are classed by NHS England as a deprecated standard that should be replaced by SNOMED CT. They were used in England in primary care until around 2018 and they were permitted for use in secondary care, including mental health care settings, until March 2020. SNOMED CT was formed by a merger of Read codes with SNOMED RT (the original SNOMED Reference Terminology). Read codes are in alphanumeric format. NHS England no longer supports a browser.   
@@ -59,7 +62,7 @@ NHS national codes are used to record the specialised service within which a pat
 
 **dm+d:** This is the NHS Dictionary of Medicines and Devices (dm+d) licensed for use in the UK. The scope is currently limited to medicines only. All unique identifiers used in the dm+d are SNOMED CT codes. Codes are in numeric format, e.g. '39732311000001104' represents 'Amoxicillin 250mg capsules'. [**Click here to browse dm+d codes**.](https://dmd-browser.nhsbsa.nhs.uk/code-lookup)
 
-### **2. Other classifications**
+## Other classifications
 
 
 **ODS:** Organisation Data Service (ODS) codes are used to identify organisations across health and social care. [**Click here to browse ODS codes**.](https://odsportal.digital.nhs.uk/Organisation/Search) In most cases in the UK LLC TRE, ODS codes are encrypted to strategic health authority or NHS region.   

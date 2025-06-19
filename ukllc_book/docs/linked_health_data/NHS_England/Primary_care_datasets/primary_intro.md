@@ -1,30 +1,24 @@
 # NHS England primary care datasets
->Last modified: 01 Apr 2025
+>Last modified: 19 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The primary care datasets cover GP records and prescriptions in England.</strong></div>  
+<br>
 
-## Introduction
-NHS England flows extracts of **two primary care datasets** into the UK LLC TRE - see Table 1.  
-
-Researchers are permitted access to the **GDPPR dataset** under specific terms set by NHS England:
-1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020#:~:text=identifying%20and%20understanding) 
-2. The GDPPR dataset must **not** be used for any form of performance management of General Practices.  
-
-## Coverage of primary care datasets
-As explained in the overarching [**NHS England datasets guide**](../NHSE_intro.md), the UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE. However, some datasets have alternative names. The **PCM dataset** is also known as **Medicines dispensed in Primary Care NHS Business Services Authority (NHSBSA) dataset**. We receive the data from NHS England as the PCM dataset and so use this name in our documentation.
-
-Both the PCM and GDPPR datasets use primarily SNOMED codes - see the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
-
-Further information about the **GDPPR dataset** is below, with summary metrics on the next page [(GDPPR)](../Primary_care_datasets/GDPPR/GDPPR.ipynb).
-
-**Table 1** Names, temporal coverage and availability of primary care datasets in the UK LLC TRE
-
-| **Name in TRE**|**Full name**|**Other name**|**Domain**|**From**|**Until**|**Data available in TRE<sup>1</sup>**|
-|---|:---:|:---:|:---:|:---:|:---:|:---:|
-|[**PCM**](../Other%20datasets/PCM/PCM.ipynb)|Primary Care Medicines|Medicines dispensed in Primary Care NHS Business Services Authority (NHSBSA) dataset|Primary care|01/04/2015|Ongoing|01/04/2015 onwards|
-|[**GDPPR**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research|N/A|Primary care|1940s|Ongoing|1940s onwards|NHSE|| 
-<sup>1</sup>As documented in the data sharing agreement. 
+>## Summary
+>* UK LLC holds **two NHS England primary care datasets**: [**General Practice Extraction Service (GPES) Data for Pandemic Planning and Research (GDPPR)**](../Primary_care_datasets/GDPPR/GDPPR.ipynb) and [**Primary Care Medicines (PCM)**](../Primary_care_datasets/PCM/PCM.ipynb).  
+<br>
+>* The **PCM dataset** is also known as **Medicines dispensed in Primary Care NHS Business Services Authority (NHSBSA) dataset**.  
+<br>
+>* Researchers are permitted access to the **GDPPR dataset** under two specific terms set by NHS England: 1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020#:~:text=identifying%20and%20understanding) 2. The GDPPR dataset must **not** be used for any form of performance management of General Practices.    
+<br>
+> * The GDPPR dataset spans **1940s onwards** and the PCM dataset **2015 onwards**.  
+<br>
+> * Both the GDPPR and PCM datasets use primarily **SNOMED CT codes**. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details. 
+<br>      
 
 
-## GDPPR dataset
+
+
+## GDPPR dataset - MOVE TO README??
 Comprehensive information on the structure and purpose of the GDPPR dataset is available from [**NHS England**](https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data#download-for-data-items)<sup>2</sup>.  
 
 In summary:  

@@ -1,11 +1,13 @@
 # NHS Data
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is committed to four nation coverage, i.e. England, Northern Ireland, Scotland and Wales.</strong></div>  
 <br>
->Last modified: 03 Jun 2025
+>Last modified: 19 Jun 2025
 
 ## Permitted linkages
 
-* **NHS England** and **NHS Wales**: participants are linked to their English and Welsh health records (where permissions are in place). 
+* **NHS England**: participants are linked to their English health records (where permissions are in place). 
+
+* **NHS Wales**: SAIL Databank has approved the extraction of participants' Welsh health records (where permissions are in place) - more details will follow in due course.  
 
 * **NHS Scotland**: Public Health Scotland has conditionally approved the flow of data into the UK LLC database - more details will follow in due course.
 

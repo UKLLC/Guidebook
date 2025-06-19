@@ -82,7 +82,7 @@ parts:
       file: docs/linked_health_data/NHS_intro.md
       sections:
         - title: NHS England
-          file: docs/linked_health_data/NHS_England/NHSE_intro.md
+          file: docs/linked_health_data/NHS_England/NHSE.ipynb
           sections:
           - title: Restrictions to use
             file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
@@ -103,7 +103,7 @@ parts:
               - title: PCM
                 file: docs/linked_health_data/NHS_England/Primary_care_datasets/PCM/PCM.ipynb
           - title: Hospital datasets
-            file: docs/linked_health_data/NHS_England/HES datasets/HES_intro.md
+            file: docs/linked_health_data/NHS_England/HES datasets/Hospital_intro.md
             sections:
               - title: HESOP (outpatient)
                 file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
@@ -136,30 +136,23 @@ parts:
               - title: CANCER
                 file: docs/linked_health_data/NHS_England/Registration datasets/CANCER/CANCER.ipynb
               - title: DEMOGRAPHICS
-                file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/Demographics.md
+                file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb
               - title: MORTALITY
                 file: docs/linked_health_data/NHS_England/Registration datasets/MORTALITY/MORTALITY.ipynb
           - title: Mental health datasets
             file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
             sections:
               - title: MHSDS (general)
-                file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.md
+                file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.ipynb
               - title: IAPT (talking therapies)
-                file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT_2.ipynb
+                file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
           - title: Community datasets
             file: docs/linked_health_data/NHS_England/Community datasets/Community_datasets.md
             sections:
               - title: CSDS (general)
                 file: docs/linked_health_data/NHS_England/Community datasets/CSDS/CSDS.ipynb
               - title: MSDS (maternity)
-                file: docs/linked_health_data/NHS_England/Community datasets/MSDS/MSDS.md
-          - title: Core datasets
-            file: docs/linked_health_data/NHS_England/Core datasets/core_NHSE_summary.md
-            sections:
-              - title: NHSD presence
-                file: docs/linked_health_data/NHS_England/Core datasets/nhsd_presence.md
-              - title: NHSD derived indicator
-                file: docs/linked_health_data/NHS_England/Core datasets/nhsd_derived_indicator.md
+                file: docs/linked_health_data/NHS_England/Community datasets/MSDS/MSDS_2.ipynb
         - title: NHS Wales
           file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
           sections:
