@@ -7,28 +7,6 @@
 
  The greenspace metrics have been developed for residential addresses by the [Centre for Environmental Health and Sustainability, University of Leicester](https://le.ac.uk/cehs/research/longitudinal-linkage-collaboration). The greenspace datasets contain variables relating to: total amount of green vegetation, percentage of greenspace, largest greenspace area, number of greenspaces, tree cover density and walkability to greenspace. The data covers the year 2018 for all residential address points where a UK LLC participant has permissions in place.
 
- Some variables are available across the whole of the United Kingdom (UK) and some are only available across Great Britain (GB). Please refer to the table below for geographic coverage of variables:
-
-| **Variable**     | **Description**                                                  | **Geographic Coverage** |
-|------------------|------------------------------------------------------------------|--------------------------|
-| S2NDVI2020       | Sentinel-2 NDVI (Normalized Difference Vegetation Index), 2020   | UK                       |
-| LSNDVI2020       | Landsat NDVI (Normalized Difference Vegetation Index), 2020      | UK                       |
-| LSNDVI2010       | Landsat NDVI (Normalized Difference Vegetation Index), 2010      | UK                       |
-| LSNDVI2000       | Landsat NDVI (Normalized Difference Vegetation Index), 2000      | UK                       |
-| LSNDVI1990       | Landsat NDVI (Normalized Difference Vegetation Index), 1990      | UK                       |
-| OSGS_AREA        | Total greenspace area                                            | GB                       |
-| OSGS_PCT         | Percentage greenspace                                             | GB                       |
-| OSGS_MAXAR       | Largest greenspace                                                | GB                       |
-| OSGS_CNT         | Number of greenspaces                                             | GB                       |
-| OSGS_AP          | Number of greenspace access points                                | GB                       |
-| TCD_MEAN         | Tree cover density                                                | UK                       |
-| TC_PCT           | Percentage tree cover                                             | UK                       |
-| IMD_MEAN         | Imperviousness degree                                             | UK                       |
-| IMD_PCT          | Percentage imperviousness                                         | UK                       |
-| EUDIST2NAP       | Euclidean distance to nearest access point                        | GB                       |
-| NTDIST2NAP       | Network distance to nearest access point                          | GB                       |
-
-
 ## 1. Summary 
 
 **Household level:**

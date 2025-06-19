@@ -190,7 +190,7 @@ parts:
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
             - title: Townsend Deprivation Index
-              file: docs/linked_geo_data/population_datasets/townsend.md
+              file: docs/linked_geo_data/population_datasets/townsend/townsend.md
         - title: Environmental datasets
           file: docs/linked_geo_data/environmental_datasets/environment.md
           sections:

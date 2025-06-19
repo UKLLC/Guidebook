@@ -1,6 +1,6 @@
 # Index of Multiple Deprivation (IMD)
 
-> Last modified: 10 Jun 2025
+> Last modified: 19 Jun 2025
 
 ## IMD, urban/rural classification and population estimates
 
@@ -125,8 +125,6 @@ This file contains geographical indicators for each Data Zone (DZ) in Scotland. 
 |                    |              |                  |            |                         |
 
 </details>
-<details>
-
 
 <details>
 <summary> Super Output Areas (SOA), Northern Ireland</summary>
@@ -163,7 +161,7 @@ This file contains geographical indicators for each SOA in Northern Ireland. The
 |                    |              |                  |            |                         |
 
 </details>
-<details>
+
 
 ## 2. Metrics 
 
