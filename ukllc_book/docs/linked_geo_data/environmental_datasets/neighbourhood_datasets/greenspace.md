@@ -1,7 +1,7 @@
 # Greenspace 
 
 
->Last modified: 09 Jun 2025
+>Last modified: 19 Jun 2025
 
 ## Greenspace Metrics
 
@@ -244,7 +244,7 @@ This dataset contains greenspace metrics that are available for a 300m circular 
 </details>
 
 <details>
-  <summary> Greespace polygon points 2000m </summary>
+  <summary> Greenspace polygon points 2000m </summary>
 
 This dataset contains greenspace metrics that are available for a 2000m distance along a road and path network from a specific participant address point.
 
@@ -279,7 +279,7 @@ This dataset contains greenspace metrics that are available for a 2000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 1000m </summary>
+  <summary> Greenspace polygon points 1000m </summary>
 
 This dataset contains greenspace metrics that are available for a 1000m distance along a road and path network from a specific participant address point.
 
@@ -314,7 +314,7 @@ This dataset contains greenspace metrics that are available for a 1000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 500m </summary>
+  <summary> Greenspace polygon points 500m </summary>
 
 This dataset contains greenspace metrics that are available for a 500m distance along a road and path network from a specific participant address point.
 
@@ -349,7 +349,7 @@ This dataset contains greenspace metrics that are available for a 500m distance 
 </details>
 
 <details>
-  <summary> Greespace polygon points 300m </summary>
+  <summary> Greenspace polygon points 300m </summary>
 
 This dataset contains greenspace metrics that are available for a 300m distance along a road and path network from a specific participant address point.
 
@@ -596,7 +596,7 @@ This dataset contains greenspace metrics that are available for a 300m circular 
 </details>
 
 <details>
-  <summary> Greespace polygon points 2000m </summary>
+  <summary> Greenspace polygon points 2000m </summary>
 
 This dataset contains greenspace metrics that are available for a 2000m distance along a road and path network from a specific participant postcodes.
 
@@ -631,7 +631,7 @@ This dataset contains greenspace metrics that are available for a 2000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 1000m </summary>
+  <summary> Greenspace polygon points 1000m </summary>
 
 This dataset contains greenspace metrics that are available for a 1000m distance along a road and path network from a specific participant postcodes.
 
@@ -666,7 +666,7 @@ This dataset contains greenspace metrics that are available for a 1000m distance
 </details>
 
 <details>
-  <summary> Greespace polygon points 500m </summary>
+  <summary> Greenspace polygon points 500m </summary>
 
 This dataset contains greenspace metrics that are available for a 500m distance along a road and path network from a specific participant postcodes.
 
@@ -701,7 +701,7 @@ This dataset contains greenspace metrics that are available for a 500m distance 
 </details>
 
 <details>
-  <summary> Greespace polygon points 300m </summary>
+  <summary> Greenspace polygon points 300m </summary>
 
 This dataset contains greenspace metrics that are available for a 300m distance along a road and path network from a specific participant postcodes.
 
