@@ -1,6 +1,6 @@
 # Available linkages
 
->Last modified: 18 Jun 2025
+>Last modified: 19 Jun 2025
 
 The table below summarises the **linkages permitted** by each LPS to **health**, **non-health administrative** (His Majesty's Revenue and Customs (HMRC) and Department for Work and Pensions (DWP)) and **place-based datasets**.
 
@@ -9,45 +9,49 @@ The table below summarises the **linkages permitted** by each LPS to **health**,
 ## Any pubic good research (including COVID-19 specific):
 
 | | |**Data available**|||**Data coming soon**|| 
-|**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP**|**HMRC**|**NHS Wales**|
+|**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP** (Data coming soon)|**HMRC** (Data coming soon)|**NHS Wales** (Data coming soon)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**AIRWAVE**|✓|✓|Full address|✗|✗|✗|
-|**BCS70**|✓|✓|✗|✓|✓|✓|
+|**BCS70**|✓|✗|✗|✓|✓|✓|
 |**BIB**|✓|✓|Full address|✗|✗|✓|
-|**ELSA**|✓|✓|✗|✓|✓|✗|
-|**EXCEED**|✓|✓|Postcode/sup>|✗|✗|✓|
-|**GENSCOT**|✗|✓|✓|✗|✗|✗|
-|**GLAD**|✓|✓|✗|✗|✗|✓|
-|**MCS**|✓|✓|✗|✓|✓|✓|
-|**NCDS58**|✓|✓|✗|✓|✓|✓|
-|**NEXTSTEP**|✓|✓|✗|✓|✓|✓|
-|**NSHD46**|✓|✓|✓|✗|✗|✗|
-|**TEDS**|✓|✓|✗|✗|✗|✗|
-|**TWINSUK**|✓|✓|✓|✗|✗|✗|
-|**UKHLS**|✓|✓|✗|✓|✓|✓|
+|**ELSA**|✓|✗|✗|✓|✓|✗|
+|**EXCEED**|✓|✓|Postcode|✗|✗|✓|
+|**GENSCOT**|✗|✗|✗|✗|✗|✗|
+|**GLAD**|✓|✓|Full address|✗|✗|✓|
+|**MCS**|✓|✗|✗|✓|✓|✓|
+|**NCDS58**|✓|✗|✗|✓|✓|✓|
+|**NEXTSTEP**|✓|✗|✗|✓|✓|✓|
+|**NSHD46**|✓|✓|Full address|✗|✗|✗|
+|**TEDS**|✓|✓|Full address|✗|✗|✗|
+|**TWINSUK**|✓|✓|Postcode|✗|✗|✗|
+|**UKHLS**|✓|✗|✗|✓|✓|✓|
+|**UK-REACH**|✓|✓|✗|✓|✓|✓|
 
 
-
-
-**Table 1** A summary of the Longitudinal Population Studies (LPS) that are part of the  UK LLC partnership and whose data can be provisioned for any public good research with their corresponding permitted linkages (listed in alphabetical order)
+**Table 1** A summary of the Longitudinal Population Studies (LPS) that are part of the UK LLC partnership and whose data can be provisioned for any public good research with their corresponding permitted linkages (listed in alphabetical order)
 
 ## COVID-19 ONLY research: 
 
 | | |**Data available**|||**Data coming soon**|| 
-|**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP**|**HMRC**|**NHS Wales**|
+|**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP** (Data coming soon)|**HMRC** (Data coming soon)|**NHS Wales** (Data coming soon)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ALSPAC**|✓|✓|Postcode|✓|✓|✓|
-|**EPICN**|✓|✓|✗|✗|✗|✗|
-|**FENLAND**|✓|✓|✗|✗|✗|✓|
-|**NIHRBIO_COPING**|✓|✓|✓|✗|✗|✓|
-|**SABRE**|✗|✗|✓|✗|✗|✗|
-|**TRACKC19**|✓|✓|✗|✗|✗|✓|
+|**EPICN**|✓|✗|✗|✗|✗|✗|
+|**FENLAND**|✓|✗|✗|✗|✗|✓|
+|**NICOLA**|✗|✗|✗|✗|✗|✗|
+|**NIHRBIO_COPING**|✓|✗|Postcode|✗|✗|✓|
+|**SABRE**|✗|✓|Full address|✗|✗|✗|
+|**TRACKC19**|✓|✗|✗|✗|✗|✓|
 
 
-**Table 2** A summary of the Longitudinal Population Studies (LPS) that are part of the  UK LLC partnership and whose data can be provisioned for COVID-19 research ONLY, with their corresponding permitted linkages (listed in alphabetical order)
+**Table 2** A summary of the Longitudinal Population Studies (LPS) that are part of the UK LLC partnership and whose data can be provisioned for COVID-19 research ONLY, with their corresponding permitted linkages (listed in alphabetical order)
 
 
 <sup>1</sup>Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
 <sup>2</sup>Household level using UPRN or postcode level
 
+## Future linkages
 
+UK LLC has submitted an application to the Scottish Public Benefit and Privacy Panel to allow linkage to Scottish NHS records and the flow of these into the UK LLC TRE. UK LLC is also working on getting the appropriate agreements in place to flow Department of Education data.
+
+This page will be updated in due course with updates to available linked data.
