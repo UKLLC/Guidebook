@@ -1,9 +1,8 @@
 # Processing and linkage to NHS England datasets
->Last modified: 19 Jun 2025
+>Last modified: 20 Jun 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The linkage of participants to their English health records (where permissions allow) is a multi-step process overseen by UK LLC.</strong></div>  
 <br>
 
-## Submission and general processing of NHS England datasets
 Datasets are submitted by health and social care organisations via a range of pathways, including upload to the [**Seconday Uses Service (SUS)**](https://digital.nhs.uk/services/secondary-uses-service-sus), the [**Strategic Data Collection Service in the cloud (SDCS Cloud)**](https://digital.nhs.uk/services/strategic-data-collection-service-in-the-cloud-sdcs-cloud) or the [**Message Exchange for Social Care and Health (MESH)**](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh). The degree of data validation and derivation of variables depends on the dataset.
 
 ## Flow of LPS participants' NHS England data into the UK LLC TRE

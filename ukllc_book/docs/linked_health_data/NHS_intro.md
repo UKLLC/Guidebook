@@ -1,18 +1,18 @@
-# NHS Data
+# NHS data
+>Last modified: 20 Jun 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is committed to four nation coverage, i.e. England, Northern Ireland, Scotland and Wales.</strong></div>  
 <br>
->Last modified: 19 Jun 2025
 
-## Permitted linkages
 
-* **NHS England**: participants are linked to their English health records (where permissions are in place). 
-
-* **NHS Wales**: SAIL Databank has approved the extraction of participants' Welsh health records (where permissions are in place) - more details will follow in due course.  
-
-* **NHS Scotland**: Public Health Scotland has conditionally approved the flow of data into the UK LLC database - more details will follow in due course.
-
-* **Northern Ireland**: negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI) - more details will follow in due course.
-
+>## Four nation linkage:
+>* **NHS England (DATA FLOWING)**: participants are linked to their English health records (where permissions are in place).   
+<br>
+>* **NHS Wales (LINKAGE APPROVED)**: SAIL Databank has approved the extraction of participants' Welsh health records (where permissions are in place) - more details will follow in due course.  
+<br>
+>* **NHS Scotland (LINKAGE CONDITIONALLY APPROVED)**: Public Health Scotland has conditionally approved the flow of data - more details will follow in due course.  
+<br>
+>* **Northern Ireland (DISCUSSIONS ONGOING)**: negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI) - more details will follow in due course.  
+<br>
 ## UK LLC documentation of NHS datasets
 We have organised our NHS data documentation by nation. Within each nation we have included the following:
 * A summary of the **datasets** we hold for each nation.

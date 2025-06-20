@@ -1,5 +1,5 @@
 # Welcome to UK LLC Guidebook
->Last modified: 19 Jun 2025
+>Last modified: 20 Jun 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The home of UK Longitudinal Linkage Collaboration’s data documentation and user guide.</strong></div>  
 <br>
 
@@ -21,7 +21,8 @@ UK LLC brings together de-identified data from **Longitudinal Population Studies
 <br>
 >* **A dynamic library of research products** (e.g. syntax, derived variables) being developed by UK LLC researchers is available to all TRE users.   
 <br>
->* **The simplicity of the application process.** Researchers need to complete just one form to apply for LPS and linked data. Researchers already working in the UK LLC TRE can apply to access additional data as it becomes available, via UK LLC's project amendment process. 
+>* **The simplicity of the application process.** Researchers need to complete just one form to apply for LPS and linked data. Researchers already working in the UK LLC TRE can apply to access additional data as it becomes available, via UK LLC's project amendment process.   
+<br>
 
 <br>
 Please  visit:  

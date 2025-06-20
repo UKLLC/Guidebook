@@ -259,8 +259,6 @@ parts:
           file: docs/user_guide/UserSupport.md
         - title: Rules for researchers
           file: docs/user_guide/RulesForResearchers.md
-        - title: Contribute to Guidebook
-          file: docs/user_guide/contribute.md
     - title: FAQs
       file: docs/FAQ/faq_intro.md
       sections:

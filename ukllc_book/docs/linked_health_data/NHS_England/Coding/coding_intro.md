@@ -1,10 +1,8 @@
 # Coded variables in NHS England datasets
->Last modified: 19 Jun 2025
+>Last modified: 20 Jun 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Clinical classification systems are used to code information collected about patients in the NHS England datasets.</strong></div>  
 <br>
 
-
-## Introduction
 Codes are used for a range of **statistical, clinical** and **management purposes**, e.g. by Integrated Care Boards (ICBs) to reimburse hospitals for the care they have provided.
 
 The main **clinical classifications** mandated by NHS England are **SNOMED CT, ICD-10 and OPCS-4**. However, you'll also find **Read codes**, **NHS national codes**, **dm+d codes** and **non-clinical classifications** in the datasets. The clinical domains covered by these different systems vary, as shown in Figure 1 below.  

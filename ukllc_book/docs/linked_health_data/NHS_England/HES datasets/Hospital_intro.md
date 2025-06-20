@@ -1,5 +1,5 @@
 # NHS England hospital datasets
->Last modified: 19 Jun 2025
+>Last modified: 20 Jun 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The hospital datasets cover all NHS funded hospital activity in England. This includes inpatient, outpatient and accident & emergency.</strong></div>  
 <br>
 
@@ -15,7 +15,7 @@
 > * **OPCS** and **ICD-10 codes** are used in the HESOP and HESAPC datasets, while **SNOMED CT codes** are used in the ECDS. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details. 
 <br>
 
-<img src="../../../images/Hospital_datasets.jpg" width="600"/>
+<img src="../../../images/Hospital_datasets.jpg" width="900"/>
 
 **Figure 1** The seven NHS England hospital datasets, including their temporal coverage  
 
