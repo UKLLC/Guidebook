@@ -1,7 +1,7 @@
 # Discover LPS data
 
 >Last modified: 20 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>There are various online resources that provide information about the data held by Longitudinal Population Studies (LPS).</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Various online resources provide information about the data held by Longitudinal Population Studies (LPS).</strong></div>  
 <br>
 
 See the [**LPS in the UK LLC partnership guide**](../LPS_introduction.md) for a list of all the LPS that contribute data to the UK LLC TRE. 

@@ -1,6 +1,6 @@
 # Welcome to UK LLC Guidebook
 >Last modified: 20 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The home of UK Longitudinal Linkage Collaboration’s data documentation and user guide.</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Guidebook is the home of UK Longitudinal Linkage Collaboration’s data documentation and user guide.</strong></div>  
 <br>
 
 

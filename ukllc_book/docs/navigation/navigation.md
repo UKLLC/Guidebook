@@ -1,8 +1,8 @@
 
 # Where to find the information you need
->Last modified: 19 Jun 2025
+>Last modified: 20 Jun 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Below we give some pointers as to where best to find information about UK LLC, depending on whether you are, for example, a researcher interested in applying to access data or a participant in a Longitudinal Population Study (LPS).</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Where best to find information about UK LLC, depending on whether you are, for example, a researcher or a participant in a Longitudinal Population Study (LPS).</strong></div>  
 <br>
    
 

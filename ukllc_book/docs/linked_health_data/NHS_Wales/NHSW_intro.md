@@ -2,8 +2,7 @@
 >Last modified: 20 Jun 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>SAIL Databank has approved the extraction of participants’ Welsh health records (where permissions are in place) - data will soon be available in the UK LLC database.</strong></div>  
 <br>
-
-## Introduction  
+  
 Although NHS Wales is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS Wales datasets.  
 
 Below is a list of the datasets we anticipate will flow into the UK LLC database. The datasets cover a **variety of domains and time periods**. Their **geographic coverage is restricted to Wales**, apart from the Annual District Death Extract (ADDE).

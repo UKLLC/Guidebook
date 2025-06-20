@@ -3,7 +3,7 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has conditional approval from Public Health Scotland to flow Scottish health data into the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
-Public Health Scotland (PHS) has permitted UK LLC to publish the **datasets** that will be available to request access to in due course. UK LLC continues to work with Public Health Scotland to finalise which LPS will be linked to these datasets. We will update this page with more information as it becomes available.
+Public Health Scotland (PHS) has permitted UK LLC to publish the **datasets** that will be available to request access to in due course. UK LLC continues to work with PHS to finalise which LPS will be linked to these datasets. We will update this page with more information as it becomes available.
 
 |**Dataset**|**Data controller**|**Link**|
 |---|:---:|:---:|
