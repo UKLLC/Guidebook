@@ -1,6 +1,6 @@
 # Available linkages
 
->Last modified: 19 Jun 2025
+>Last modified: 20 Jun 2025
 
 The table below summarises the **linkages permitted** by each LPS to **health**, **non-health administrative** (His Majesty's Revenue and Customs (HMRC) and Department for Work and Pensions (DWP)) and **place-based datasets**.
 
@@ -8,7 +8,6 @@ The table below summarises the **linkages permitted** by each LPS to **health**,
 
 ## Any pubic good research (including COVID-19 specific):
 
-| | |**Data available**|||**Data coming soon**|| 
 |**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP** (Data coming soon)|**HMRC** (Data coming soon)|**NHS Wales** (Data coming soon)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**AIRWAVE**|✓|✓|Full address|✗|✗|✗|
@@ -32,7 +31,6 @@ The table below summarises the **linkages permitted** by each LPS to **health**,
 
 ## COVID-19 ONLY research: 
 
-| | |**Data available**|||**Data coming soon**|| 
 |**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP** (Data coming soon)|**HMRC** (Data coming soon)|**NHS Wales** (Data coming soon)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ALSPAC**|✓|✓|Postcode|✓|✓|✓|
