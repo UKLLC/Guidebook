@@ -64,7 +64,7 @@ Equivalent information about hospital activity across the UK is recorded in the 
 
 ## Measures
 * **Diagnoses** based on ICD-10 and SNOMED codes.
-* **Procedures** based on OPCS-4 codes.
+* **Procedures** based on OPCS-4 and SNOMED codes.
 * **Admission type** - e.g. elective, emergency, maternity.
 * **Length of stay** - calculated from admission and discharge dates.
 * **Patient demographics** - includes ethnicity, age and sex. 
