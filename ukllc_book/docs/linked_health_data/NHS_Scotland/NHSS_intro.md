@@ -1,9 +1,9 @@
 # NHS Scotland data
->Last modified: 20 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has conditional approval from Public Health Scotland to flow Scottish health data into the UK LLC Trusted Research Environment (TRE).</strong></div>  
+>Last modified: 23 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has conditional approval from the NHS Scotland Public Benefit and Privacy Panel for Health and Social Care (HSC-PBPP) to flow Scottish health data into the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
-Public Health Scotland (PHS) has permitted UK LLC to publish the **datasets** that will be available to request access to in due course. UK LLC continues to work with PHS to finalise which LPS will be linked to these datasets. We will update this page with more information as it becomes available.
+Below is the list of **datasets** that will be available to request access to in due course. UK LLC continues to work with the HSC-PBPP to finalise which LPS will be linked to these datasets. We will update this page with more information as it becomes available.
 
 |**Dataset**|**Data controller**|**Link**|
 |---|:---:|:---:|
@@ -27,6 +27,7 @@ Public Health Scotland (PHS) has permitted UK LLC to publish the **datasets** th
 |**The Scottish Intensive Care Society Audit Group (SICSAG)**|PHS|[**Further information**](https://publichealthscotland.scot/resources-and-tools/health-intelligence-and-data-management/national-data-catalogue/national-datasets/search-the-datasets/scottish-intensive-care-society-audit-group-sicsag/)|
 |**Scottish Stroke Care Audit (SSCA)**|PHS|[**Further information**](https://publichealthscotland.scot/resources-and-tools/health-intelligence-and-data-management/national-data-catalogue/national-datasets/search-the-datasets/scottish-stroke-care-audit-ssca/)||
 
+NRS: National Records of Scotland; PHS: Public Health Scotland
 
 
 
