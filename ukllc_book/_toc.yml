@@ -182,6 +182,8 @@ parts:
         - title: Population datasets
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
+            - title: Index of Multiple Deprivation (IMD)
+              file: docs/ukllc_managed_data/demographic_datasets/Datasets/UK_geo_indicators.md
             - title: Townsend Deprivation Index
               file: docs/linked_geo_data/population_datasets/townsend/townsend.md
         - title: Environmental datasets
@@ -230,8 +232,6 @@ parts:
         - title: Demographic datasets
           file: docs/ukllc_managed_data/demographic_datasets/demographic_data.md
           sections:
-            - title: Index of Multiple Deprivation (IMD)
-              file: docs/ukllc_managed_data/demographic_datasets/Datasets/UK_geo_indicators.md
             - title: Harmonised Demographic datasets
               file: docs/ukllc_managed_data/demographic_datasets/Datasets/harmonised_intro.md
               sections:

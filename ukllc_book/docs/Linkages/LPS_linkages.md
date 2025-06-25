@@ -1,12 +1,10 @@
 # Available linkages
->Last modified: 23 Jun 2025
+>Last modified: 25 Jun 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>See the tables below to understand the linkages and breadth of research topics that each Longitudinal Population Study (LPS) permits.</strong></div>  
 <br>
 
-The tables below summarise the **linkages permitted** by each LPS to **health**, **place-based** and **non-health administrative** datasets. NHS England and place-based linkages are **already established**, while linkages to Department for Work and Pensions (DWP), HM Revenue & Customs (HMRC) and NHS Wales are **coming soon**. 
-
-**Note:** Even if an LPS has permitted linkage to a data source, each **LPS participant** can decide to **opt out of UK LLC** altogether or to **opt out of a specific linkage or all linkages** by notifying their LPS. If a participant opts out, no further data about them will flow into the UK LLC TRE and the participant’s data will not be provisioned to new research projects. However, researchers who already have access to that individual’s information will be permitted to retain that access until the end of the project, but they will not obtain any new data about that individual.
+The tables below summarise the **linkages available** for each LPS to **health**, **place-based** and **non-health administrative** datasets. NHS England and place-based linkages are **already available**, while linkages to Department for Work and Pensions (DWP), HM Revenue & Customs (HMRC) and NHS Wales are **coming soon**. 
 
 UK LLC is working with each LPS to establish the **necessary permissions** to move from allowing COVID-19 only research topics, to allowing **any public good research topics**. For ease, we have split the LPS across two tables, which we will update periodically (we anticipate a number of LPS moving from Table 2 to Table 1).   
 
@@ -49,6 +47,8 @@ UK LLC is working with each LPS to establish the **necessary permissions** to mo
 
 <sup>1</sup>Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
 <sup>2</sup>Household level using Unique Property Reference Number (UPRN) or postcode level
+
+**Note:** If a participant in any Even if an LPS has permitted linkage to a data source, each **LPS participant** can decide to **opt out of UK LLC** altogether or to **opt out of a specific linkage or all linkages** by notifying their LPS. If a participant opts out, no further data about them will flow into the UK LLC TRE and the participant’s data will not be provisioned to new research projects. However, researchers who already have access to that individual’s information will be permitted to retain that access until the end of the project, but they will not obtain any new data about that individual.
 
 ## Future linkages
 
