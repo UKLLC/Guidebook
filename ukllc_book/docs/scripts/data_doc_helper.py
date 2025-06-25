@@ -444,9 +444,7 @@ class LPSDataSet:
 
         return display(
             Markdown(
-                "We are currently building a documentation storage system "
-                "which will host relevant and useful documents related to "
-                "datasets, groupings, and studies themselves."))
+                "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
 
     def useful_syntax(self):
         """Creates and displays useful syntax saved for the datasets
@@ -642,8 +640,7 @@ class LPSSource:
 
         df["Dataset"] = df["Dataset"].apply(
             lambda x: md.make_hlink(
-                "https://guidebook.ukllc.ac.uk/docs/LPS_data/Datasets/"
-                "{}/Datasets/{}.html".format(self.source, x), x))
+                "{}.html".format(x), x))
         df["# Observations"] = df["# Observations"].apply(lambda x: int(x))
         df["# Variables"] = df["# Variables"].apply(lambda x: int(x))
         return DocHelper.style_table("_", df)
@@ -749,9 +746,7 @@ class LPSSource:
 
         return display(
             Markdown(
-                "We are currently building a documentation storage system "
-                "which will host relevant and useful documents related to "
-                "datasets, groupings, and studies themselves."))
+                "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
 
 
 class NHSEDataSet:
@@ -936,7 +931,7 @@ class NHSEDataSet:
 
         def cohort_total(ds):
             if ds in ["MHSDS", "IAPT", "CSDS"]:
-                return "N/A - contains multiple auxiliary datasets"
+                return "N/A - Dataset comprises of multiple auxiliary tables"
             else:
                 df = md.get_nhse_cohort_counts(ds)
                 df["count"] = df["count"].apply(lambda x: int(x.replace("<10", "0")))
@@ -1198,9 +1193,7 @@ class NHSEDataSet:
 
         return display(
             Markdown(
-                "We are currently building a documentation storage system "
-                "which will host relevant and useful documents related to "
-                "datasets, groupings, and studies themselves."))
+                "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
 
     def useful_syntax(self):
         """Creates and displays useful syntax saved for the datasets
@@ -1371,26 +1364,26 @@ class NHSESource:
         df["grouping"] = df["table"].apply(lambda x: grps[x])
 
         links = {
-            "HESOP": "../NHS_England/HES%20datasets/OP/HESOP.ipynb",
-            "HESAPC": "../NHS_England/HES%20datasets/APC/HESAPC.ipynb",
-            "HESCC": "../NHS_England/HES%20datasets/CC/HESCC.ipynb",
-            "ECDS": "../NHS_England/HES%20datasets/ECDS/ECDS.ipynb",
-            "HESAE": "../NHS_England/HES%20datasets/AE/HESAE.ipynb",
-            "COVIDSGSS": "../NHS_England/COVID%20datasets/COVIDSGSS/COVIDSGSS.ipynb",
-            "IELISA": "../NHS_England/COVID%20datasets/IELISA/IELISA.ipynb",
-            "NPEX": "../NHS_England/COVID%20datasets/NPEX/NPEX.ipynb",
-            "CHESS": "../NHS_England/COVID%20datasets/CHESS/CHESS.ipynb",
-            "CVS": "../NHS_England/COVID%20datasets/CVS/CVS.ipynb",
-            "CVAR": "../NHS_England/COVID%20datasets/CVAR/CVAR.ipynb",
-            "GDPPR": "../NHS_England/COVID%20datasets/GDPPR/GDPPR.ipynb",
-            "CANCER": "../NHS_England/Registration%20datasets/CANCER/CANCER.ipynb",
-            "DEMOGRAPHICS": "../NHS_England/Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb",
-            "MORTALITY": "../NHS_England/Registration%20datasets/MORTALITY/MORTALITY.ipynb",
-            "MHSDS": "../NHS_England/Mental%20health%20datasets/MHSDS/MHSDS.ipynb",
-            "IAPT": "../NHS_England/Mental%20health%20datasets/IAPT/IAPT.ipynb",
-            "CSDS": "../NHS_England/Other%20datasets/CSDS/CSDS.ipynb",
-            "MSDS": "../NHS_England/Other%20datasets/MSDS/MSDS.ipynb",
-            "PCM": "../NHS_England/Other%20datasets/PCM/PCM.ipynb"
+            "HESOP": "../NHS_England/HES%20datasets/OP/HESOP.html",
+            "HESAPC": "../NHS_England/HES%20datasets/APC/HESAPC.html",
+            "HESCC": "../NHS_England/HES%20datasets/CC/HESCC.html",
+            "ECDS": "../NHS_England/HES%20datasets/ECDS/ECDS.html",
+            "HESAE": "../NHS_England/HES%20datasets/AE/HESAE.html",
+            "COVIDSGSS": "../NHS_England/COVID%20datasets/COVIDSGSS/COVIDSGSS.html",
+            "IELISA": "../NHS_England/COVID%20datasets/IELISA/IELISA.html",
+            "NPEX": "../NHS_England/COVID%20datasets/NPEX/NPEX.html",
+            "CHESS": "../NHS_England/COVID%20datasets/CHESS/CHESS.html",
+            "CVS": "../NHS_England/COVID%20datasets/CVS/CVS.html",
+            "CVAR": "../NHS_England/COVID%20datasets/CVAR/CVAR.html",
+            "GDPPR": "../NHS_England/COVID%20datasets/GDPPR/GDPPR.html",
+            "CANCER": "../NHS_England/Registration%20datasets/CANCER/CANCER.html",
+            "DEMOGRAPHICS": "../NHS_England/Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.html",
+            "MORTALITY": "../NHS_England/Registration%20datasets/MORTALITY/MORTALITY.html",
+            "MHSDS": "../NHS_England/Mental%20health%20datasets/MHSDS/MHSDS.html",
+            "IAPT": "../NHS_England/Mental%20health%20datasets/IAPT/IAPT.html",
+            "CSDS": "../NHS_England/Other%20datasets/CSDS/CSDS.html",
+            "MSDS": "../NHS_England/Other%20datasets/MSDS/MSDS.html",
+            "PCM": "../NHS_England/Other%20datasets/PCM/PCM.html"
         }
 
         df["table"] = df["table"].apply(lambda x: md.make_hlink(links[x], x))
@@ -1434,6 +1427,4 @@ class NHSESource:
 
         return display(
             Markdown(
-                "We are currently building a documentation storage system "
-                "which will host relevant and useful documents related to "
-                "datasets, groupings, and studies themselves."))
+                "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
