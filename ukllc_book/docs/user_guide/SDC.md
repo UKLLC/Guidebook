@@ -1,12 +1,13 @@
 # Statistical Disclosure Control (SDC)
->Last modified: 05 Feb 2025
+>Last modified: 25 Jun 2025
 
 
-## UK LLC enforces strict SDC rules on all data leaving the TRE
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC enforces strict SDC rules on all data leaving the TRE</strong></div style>  
+<br>
 
 Statistical Disclosure is defined as information about an identifiable individual being released, either directly or indirectly, through a statistical output from a secure environment. 
 
-UK LLC’s SDC threshold is 10 data subjects. Any output (including tables, charts, and text) which include counts <10, including zero, cannot be removed from the TRE. File Out request which include counts <10 will be rejected by the SDC reviewers, and the researcher asked to resubmit their request. 
+UK LLC’s SDC threshold is **10 data subjects**. Any output (including tables, charts, and text) which include counts <10, including zero, cannot be removed from the TRE. File Out requests which include counts <10 will be rejected by the SDC reviewers, and the researcher asked to resubmit their request. 
 
 
 >The most common reasons for a File Out request being rejected are:  

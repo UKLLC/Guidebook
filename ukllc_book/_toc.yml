@@ -235,12 +235,14 @@ parts:
             - title: Harmonised Demographic datasets
               file: docs/ukllc_managed_data/demographic_datasets/Datasets/harmonised_intro.md
               sections:
-               - title: Sex
-                 file: docs/ukllc_managed_data/demographic_datasets/README/sex_readme.md
-               - title: Gender
-                 file: docs/ukllc_managed_data/demographic_datasets/README/gender_readme.md 
-               - title: Ethnic group
-                 file: docs/ukllc_managed_data/demographic_datasets/README/ethnicity_readme.md       
+                - title: Sex
+                  file: docs/ukllc_managed_data/demographic_datasets/README/sex_readme.md
+                - title: Gender
+                  file: docs/ukllc_managed_data/demographic_datasets/README/gender_readme.md 
+                - title: Ethnic group
+                  file: docs/ukllc_managed_data/demographic_datasets/README/ethnicity_readme.md
+                - title: Year of birth
+                  file: docs/ukllc_managed_data/demographic_datasets/README/yob_readme.md        
         - title: Derived datasets
           file: docs/ukllc_managed_data/derived_datasets/derived_data.md
     - title: TRE user guide

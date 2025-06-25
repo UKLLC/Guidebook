@@ -15,8 +15,8 @@ Because of the slightly different gender categories used by each LPS, UK LLC has
 | Non-binary | Other |
 | Prefer to self-define | Other |  
 
-><font size="1">Note on EXCEED  
->The wording of the sex & gender questions used by EXCEED, and deposited in the TRE, imply that that LPS asks about gender rather than sex. UK LLC has harmonised these variables at face value, though researchers are encouraged to make their own decisions about how to interpret the variables.</font>
+>Note on EXCEED  
+>The wording of the sex & gender questions used by EXCEED, and deposited in the TRE, imply that that LPS asks about gender rather than sex. UK LLC has harmonised these variables at face value, though researchers are encouraged to make their own decisions about how to interpret the variables.
 
 This **spreadsheet (link / download??)** shows the gender categories used by each LPS and how these have been harmonised by UK LLC.
 

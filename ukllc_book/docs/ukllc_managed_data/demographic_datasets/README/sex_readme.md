@@ -7,8 +7,8 @@ All LPS contributing to UK LLC have included information about their participant
 
 As many LPS use the terms sex and gender interchangeably, UK LLC has assumed any question about sex or gender refers to sex assigned at birth unless (a) an LPS addressed sex and gender separately, or (b) the catchall question included options such as 'Other'.
 
-><font size="1">Note on EXCEED  
->The wording of the sex & gender questions used by EXCEED, and deposited in the TRE, imply that that LPS asks about gender rather than sex. UK LLC has harmonised these variables at face value, though researchers are encouraged to make their own decisions about how to interpret the variables.</font>
+>Note on EXCEED  
+>The wording of the sex & gender questions used by EXCEED, and deposited in the TRE, imply that that LPS asks about gender rather than sex. UK LLC has harmonised these variables at face value, though researchers are encouraged to make their own decisions about how to interpret the variables.
 
 This **spreadsheet (link / download??)** shows the language used by each LPS to describe participants' sex and how these have been harmonised by UK LLC.
 
