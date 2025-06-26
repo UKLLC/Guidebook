@@ -9,10 +9,10 @@ The tables below summarise the **available linkages**. Linkages to Department fo
 LPS are working to gain the necessary permissions to enable research in the public good (beyond COVID-19). Table 1 shows data available for research in the public good and Table 2 shows data available for COVID-19 research only. We will update Table 1 as more LPS' data becomes available for wider research purposes. 
 <br>
 
->**Note:** Participants can always choose to opt out of UK LLC or specific data linkages. If a participant opts out, no new data about them will be shared, but  data that has already been provisioned, can still be used until the project ends.
+>Participants can always choose to opt out of UK LLC or specific data linkages. If a participant opts out, no new data about them will be shared, but  data that has already been provisioned, can still be used until the project ends.
 
 ## GP data
->**Note:** the linked NHS England GP data [(**GDPPR dataset**)](../linked_health_data/NHS_England/Primary_care_datasets/GDPPR/) can only be used for research relating to COVID-19. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)  
+>The linked NHS England GP data [(**GDPPR dataset**)](../linked_health_data/NHS_England/Primary_care_datasets/GDPPR/) can only be used for research relating to COVID-19. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)  
 
 ## Any public good research (including COVID-19)
 
