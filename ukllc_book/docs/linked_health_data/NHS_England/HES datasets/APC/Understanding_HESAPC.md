@@ -1,5 +1,5 @@
-# Understanding HESAPC
->Last modified: 23 Jun 2025
+# Understanding the HESAPC dataset
+>Last modified: 26 Jun 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The structure of the HES APC dataset is particularly complex.</strong></div>  
 <br>
