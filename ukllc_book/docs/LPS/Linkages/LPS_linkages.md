@@ -47,7 +47,7 @@ LPS are working to gain the necessary permissions to enable research in the publ
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ALSPAC**|✓|✓|Postcode|✓|✓|✓|
 |**EPICN**|✓|✗|✗|✗|✗|✗|
-|**FENLAND**|✓|✗|✗|✗|✗|✓|
+|**FENLAND**|✗|✗|✗|✗|✗|✗|
 |**NICOLA**|✗|✗|✗|✗|✗|✗|
 |**NIHRBIO_COPING**|✓|✗|Postcode|✗|✗|✓|
 |**SABRE**|✗|✓|Full address|✗|✗|✗|
