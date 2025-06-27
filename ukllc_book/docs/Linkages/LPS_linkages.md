@@ -47,7 +47,7 @@ LPS are working to gain the necessary permissions to enable research in the publ
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ALSPAC**|✓|✓|Postcode|✓|✓|✓|
 |**EPICN**|✓|✗|✗|✗|✗|✗|
-|**FENLAND**|✓|✗|✗|✗|✗|✓|
+|**FENLAND**|✗|✗|✗|✗|✗|✗|
 |**NICOLA**|✗|✗|✗|✗|✗|✗|
 |**NIHRBIO_COPING**|✓|✗|Postcode|✗|✗|✓|
 |**SABRE**|✗|✓|Full address|✗|✗|✗|
@@ -60,5 +60,5 @@ LPS are working to gain the necessary permissions to enable research in the publ
 
 ## Future linkages
 
-* The Scottish Public Benefit and Privacy Panel has conditionally approved linkage to [**Scottish health records**](../linked_health_data/NHS_Scotland/NHSS_intro.md). 
+* The Scottish Public Benefit and Privacy Panel has conditionally approved linkage to **Scottish health records**. 
 * UK LLC continues to work with the **Department of Education** to establish the necessary permissions to link to education data.

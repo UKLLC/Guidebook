@@ -6,8 +6,7 @@
 
 Modelled road-transport noise estimates are calculated in accordance to the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the European Commission (2002/49/EC). 
 
-Annual Average Daily Traffic (AADT) counts and traffic speeds across the UK road-network in 2013 enter the model, along with information relating to the surface roughness of land cover, building heights, wind profiles and average temperatures. The road-transport noise estimates for 2013 are then scaled to other years by considering the average change in AADT at a Local Authority level, using traffic count sites recorded in the [Department for Transport’s regional traffic statistics](https://roadtraffic.dft.gov.uk/regions) dataset.
- 
+Annual Average Daily Traffic (AADT) counts and traffic speeds across the UK road-network in 2013 enter the model, along with information relating to the surface roughness of land cover, building heights, wind profiles and average temperatures.  
 
 ## 1. Summary 
 
