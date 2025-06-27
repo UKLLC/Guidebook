@@ -35,17 +35,10 @@ parts:
               file: docs/ukllc_key_facts/Sample/freezes/freeze10.ipynb
             - title: Freeze 11 | Feb 2025
               file: docs/ukllc_key_facts/Sample/freezes/freeze11.ipynb
+        - title: UK LLC database design
+          file: docs/ukllc_key_facts/Database/database_design.md
     - title: Available linkages
       file: docs/Linkages/LPS_linkages.md
-    - title: Data structure & concepts
-      file: docs/database/data_intro.md
-      sections:
-        - title: Database design
-          file: docs/database/design/database_design.md
-        - title: Dataset structures
-          file: docs/database/structure/dataset_structures.md
-        - title: LPS participants
-          file: docs/database/participants/denominator.md
     - title: LPS data
       file: docs/LPS_data/LPS_introduction.md
       sections:
