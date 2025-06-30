@@ -65,9 +65,9 @@ As part of the EPC quality assurance process, the score should be within ± 5 po
 
 ## Limitations:
 
-- The records contain discrepancies in building characteristics over time such as for some flats there are differences across records for 'built form' such as one inspection being classified as ‘End-Terrace’ and then in another inspection ‘Semi-Detached’. 
+- The records contain discrepancies in building characteristics over time such as for some flats there are differences across records for 'built form' such as discrepancies in 'built form' classifications for some flats - e.g., one inspection may list a property as ‘End-Terrace’ and another as ‘Semi-Detached’. 
 
-- There are potential errors in instances of buildings changing their property type. Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022) suggest that while a building may change its property type, such as converting a house into a flat, the rate of conversions is low in the UK (around 5000 per year which would only account for 0.5% of lodged EPCs in a typical year). Consequently, is it not very likely for a property time to change and may therefore be due to error.
+- There are potential errors in instances of buildings changing their property type. Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022) suggest that while a building may change its property type, such as converting a house into a flat, the rate of conversions is low in the UK (around 5000 per year which would only account for 0.5% of lodged EPCs in a typical year). Consequently, it is not very likely for a property type to change and may therefore be due to error.
 
 - For flats and maisonettes, there are instances where there are discrepancies in the exact 'floor level' recorded in EPCs (Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022)).
 
@@ -75,7 +75,7 @@ As part of the EPC quality assurance process, the score should be within ± 5 po
 
 - There are potential errors where EPCs indicate that a property changes its window glazing type to be less energy efficient such as conversion from double glazing to single glazing (Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022)).
 
-- There are some instances where values are outside the expected range of the data for example, where floor area is recorded as 1m2 or where the number of habitable rooms is less than number of heated rooms (Scott et al., [2015](https://doi.org/10.23889/ijpds.v8i2.2927)).
+- There are some instances where values are outside the expected range of the data for example, where values fall outside expected ranges - for example, a floor area recorded as 1 m² or where the number of habitable rooms is less than number of heated rooms (Scott et al., [2015](https://doi.org/10.23889/ijpds.v8i2.2927)).
 
 
   
