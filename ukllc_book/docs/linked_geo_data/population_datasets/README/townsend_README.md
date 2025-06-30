@@ -1,4 +1,4 @@
-# README: Townsend Deprivation Index 
+# Understanding: Townsend Deprivation Index 
 
 
 >Last modified: 09 Jun 2025
@@ -67,7 +67,7 @@ The four variables are converted in percentages, with the overcrowding and unemp
 - Vehicle Ownership: Variable 3 * 100    
 - Home ownership: Variable 4 * 100 
 
-Each of these variables were then converted into z‐scores and summed to return an index value measuring the relative level of material deprivation in each community. The index values are then ranked and converted to deciles and quintiles. 
+Each of these variables was then converted into z‐scores and summed to return an index value measuring the relative level of material deprivation in each community. The index values are then ranked and converted to deciles and quintiles. 
 
 ## Caveats: 
 
@@ -75,7 +75,9 @@ Each of these variables were then converted into z‐scores and summed to return
 
 - The index broadens the scope of the concept of poverty to mean being deprived of the living standards ‘which are customary or at least widely accepted by the societies to which they belong’ (Townsend, 1979: 31)*, and it attaches importance to the actual assessment of individuals’ standards of living [(Eroğlu,2007)](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11205-006-0004-0.pdf&casa_token=XrOeTxnIuD0AAAAA:oreku47tgBEEu_hOTmCtsTFKlnlTrDso2S4ImCNOu6OTQZcEyClMvDcYnzTwd4kGJO8noOHmxzLBCBqzTQ).   
 
-* ***Townsend, Peter. Poverty in the United Kingdom: a survey of household resources and standards of living. Univ of California Press, 1979.***
+
+\* ***Townsend, Peter. Poverty in the United Kingdom: a survey of household resources and standards of living. Univ of California Press, 1979.***
+
 
 ## Limitations:  
 

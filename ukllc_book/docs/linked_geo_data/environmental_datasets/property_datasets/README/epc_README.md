@@ -1,10 +1,10 @@
-# README: Energy Performance Certificates (EPC)
+# Understanding: Energy Performance Certificates (EPC)
 
 >Last modified: 16 Jun 2025
 
-The concespt for Energy Performance Certificates (EPCs) were first introduced by the EU’s Energy Performance of Buildings Directive in 2002. The directive was established to improve energy efficiency across European Union (EU) member states by implementing mandatory energy certificates of buildings.
+The concept for Energy Performance Certificates (EPCs) were first introduced by the EU’s Energy Performance of Buildings Directive in 2002. The directive was established to improve energy efficiency across European Union (EU) member states by implementing mandatory energy certificates of buildings.
 
-The Energy Performance of Buildings Directive (EPBD) officially  introduced EPCs in 2007. By 2008 it became mandatory in England and Wales to issue an EPC when a dwelling is sold or rented, creating a large historic database. EPC's contain detailed property level information including floor area, environmental impact and fuel type. EPCs can be used as a key policy tool to improve building efficiency and environmental impact. Since their introduction they have been implemented in different ways across Member States. 
+The Energy Performance of Buildings Directive (EPBD) officially  introduced EPCs in 2007. By 2008 it became mandatory in England and Wales to issue an EPC when a dwelling is sold or rented, creating a large historic database. EPC's contain detailed property level information including floor area, environmental impact and fuel type. EPCs serve as a key policy tool for improving building energy efficiency and reducing environmental impact. Since their introduction they have been implemented in different ways across Member States. 
 
 ### Policy timeline
 
@@ -20,7 +20,7 @@ The Energy Performance of Buildings Directive (EPBD) officially  introduced EPCs
 
 **March 2015:** In the UK, the government introduced the [Energy Efficiency (Private Rented Property) (England and Wales) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/962/contents/made), which set [Minimum Energy Efficiency Standards (MEES)](https://www.gov.uk/guidance/domestic-private-rented-property-minimum-energy-efficiency-standard-landlord-guidance).
 
-**October 2015:** New rule were introduced which gave Local Authorities the option to set a minimum space standard for new homes. Under the new standard, a new one bed, one person flat would have to be a minimum of 37m² while a three bed, five person home would be a minimum of 93m². 
+**October 2015:** New rules were introduced which gave Local Authorities the option to set a minimum space standard for new homes. Under the new standard, a new one bed, one person flat would have to be a minimum of 37m² while a three bed, five person home would be a minimum of 93m². 
 
 **April 2018:** As set out by the MEES, landlords could no longer grant new leases on properties with an EPC band below E unless they had a valid exemption.
 
@@ -30,7 +30,7 @@ The Energy Performance of Buildings Directive (EPBD) officially  introduced EPCs
 
 ### Methodology
 
-A property's energy performance is calculated using the [Standard Assessment Procedure (SAP)](https://www.gov.uk/guidance/standard-assessment-procedure).SAP is the current methodology used by the government whereby an algorithm makes assumptions about the thermal properties of a building's fabric and occupancy in order to calculate the theoretical heat loss of the property. New properties being built are required to have a full SAP assessment, whereas existing properties are only required to have a reduced Standard Assessment Procedure (rdSAP). 
+A property's energy performance is calculated using the [Standard Assessment Procedure (SAP)](https://www.gov.uk/guidance/standard-assessment-procedure). SAP is the current methodology used by the government whereby an algorithm makes assumptions about the thermal properties of a building's fabric and occupancy in order to calculate the theoretical heat loss of the property. New properties being built are required to have a full SAP assessment, whereas existing properties are only required to have a reduced Standard Assessment Procedure (rdSAP). 
 
 The SAP methodology calculates an energy efficiency rating out of 100 and assigns a corresponding EPC band, where A is the most energy efficient and G is the least:
 | Energy Efficiency Rating | EPC Band |
@@ -55,7 +55,7 @@ published by the [Department for Levelling Up, Housing & Communities](https://ep
 
 - There are some instances where houses have been converted into flats and the EPC record states the habitable room number and floor area of the entire building rather than the singular flats (Scott et al., [2015](https://doi.org/10.23889/ijpds.v8i2.2927)). 
 
-- The records contain many duplicate entries. In this dataset, variables have been transformed to minimise disclosure risk such as inspection date has been transformed to inspection year due. Duplicates were therefore removed following transformation, where all parameters were equal. Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022) have suggested that duplicate entries are most likely due to a software or network fault which leads to EPC's being lodged multiple times.
+- The records contain many duplicate entries. In this dataset, variables have been transformed to minimise disclosure risk such as inspection date has been transformed to inspection year to minimise disclosure risk. Duplicates were therefore removed following transformation, where all parameters were equal. Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022) have suggested that duplicate entries are most likely due to a software or network fault which leads to EPC's being lodged multiple times.
 
 - The records also contain EPCs that have the same inspection date but the rest of the values are different, suggesting two different inspections. Hardy and Glew [(2019)](https://doi.org/10.1016/j.enpol.2019.03.022) suggests that this is possibly due to human error as an inspector can manually set an inspection date or due to a failed audit. Desk-based audits are required for a minimum of 2% of EPCs lodged by each DEA. When an EPC fails an audit, the DEA has to re-submit the EPC with the required corrections. While the assessor is meant to request for the EPC that failed the audit to be removed from the records, they might not always carry out this required step.
 

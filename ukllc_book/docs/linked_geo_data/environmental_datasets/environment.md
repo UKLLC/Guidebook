@@ -6,7 +6,7 @@
 
 UK LLC environmental datasets refer specifically to the 'physical environment', including climate, topography, structures and landscape.
 
-In an age where humans are transforming large aspects of their environments, there is an ever-increasing overlap between the natural world and that created by humans [Bartuska, 2007](https://www.academia.edu/download/57001646/The_Built_Environment__A_Collaborative_Inquiry_Into_Design_and_Planning__2nd_Edi__2007.pdf#page=51). Consequently, UK LLC provides linked datasets that cover both the built and natural environment. 
+In an age where humans are transforming large aspects of their environments, there is an ever-increasing overlap between the natural world and that created by humans ([Bartuska, 2007](https://www.academia.edu/download/57001646/The_Built_Environment__A_Collaborative_Inquiry_Into_Design_and_Planning__2nd_Edi__2007.pdf#page=51)). Consequently, UK LLC provides linked datasets that cover both the built and natural environment. 
 
 The datasets have been split into the following categories:
 - [Neighbourhood](../environmental_datasets/neighbourhood_datasets/neighbourhood.md)
