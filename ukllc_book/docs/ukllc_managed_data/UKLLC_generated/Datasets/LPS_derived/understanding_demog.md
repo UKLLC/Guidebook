@@ -1,19 +1,19 @@
-# Harmonised (standardised) demographic variables
->Last modified: 25 Jun 2025
+# Understanding harmonised (standardised) demographic variables
+>Last modified: 02 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has created a range of standardised (harmonised) demographic measures applicable to all LPS</strong></div>  
 
-## Introduction  
+## 1. Introduction  
 LPS collect data in different ways, using different variable names and values, so it is not always easy to make comparisons between studies. To enable UK LLC’s partners and data users to understand the profile of the UK LLC resource as a whole, UK LLC standardises (‘harmonises’) some key characteristics across all LPS.  
 
 Currently available are harmonised variables for LPS participants’:  
 * Sex  
-* Gender  
+* Gender
 * Year of birth (as a proxy for age)  
 * Ethnic group  
 <br>
 >N.B. UK LLC has not changed the original LPS data for these variables. The new variables are available as harmonised datasets which researchers can request in addition to LPS and linked data.  
 
-## Structure of datasets
+## 2. Structure of datasets
 The harmonised datasets are in long format. Table 1 shows the variables available in the datasets. More details on how the objects and values have been generated are on the pages for sex, gender and ethnicity.
 
 **Table 1**  
@@ -26,9 +26,17 @@ The harmonised datasets are in long format. Table 1 shows the variables availabl
 | value | Numeric value for each of the objects |
 | label | Description of what each of the values represents |  
 | llc_timestamp | Date (month and year) on which the information was provided by the participant to the LPS |  
-<br>
 
->These variables are available as single datasets in two formats:  
+## 3. Decision-making in UK LLC's harmonisation processes
+Supplementary information on how the sex, gender, year of birth, and ethnicity variables have been harmonised by UK LLC are available here:
+
+>[Sex](../../UKLLC_generated/README/sex_info.md)  
+>[Gender](../../UKLLC_generated/README/gender_info.md)  
+>[Year of birth](../../UKLLC_generated/README/yob_info.md)  
+>[Ethnicity](../README/ethnicity_info.md)  
+
+
+**These variables are available as single datasets in two formats:**  
 
 ### Full version of the dataset [link to dataset page]
 The full dataset is in long format, retaining every relevant response provided by participant, e.g. if a participant was asked to confirm their ethnic group on five separate occasions, then that individual will have five occurrences of ethnicity in the harmonised dataset. For each occurrence of the value (indicated by the variable ‘object’), the most detailed available ethnicity grouping is provided.  
@@ -46,4 +54,4 @@ Need a note about missing data, and what to do when the most recent value for a 
 >For some variables included in the harmonised datasets, it may be that UK LLC does not have the complete list of response options available to LPS participants. Where this is the case, the absence of a possible option (e.g. ‘prefer not to answer’) from the responses presented does not mean that option was not available to LPS participants. All that can be inferred is that, if that option was available, it was not selected by anyone included in the datasets shared with UK LLC.
 
 ## The future  
-Whenever a new LPS joins UK LLC, their demographic variables wil be harmonised and added to the RETURNED dataset. These Guidebook pages will be updated to reflect these changes.
+Whenever a new LPS joins UK LLC, their demographic variables wil be harmonised and added to the UK LLC demographic datasets. These Guidebook pages will be updated to reflect these changes.
