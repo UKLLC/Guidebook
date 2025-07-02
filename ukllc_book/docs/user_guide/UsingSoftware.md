@@ -72,7 +72,7 @@ Click on the YouTube link below for a short video guide (120 seconds).
 
 If you are planning on using R, an **R helper** is provided in '**S:\ReadAll\r_help**'. These scripts are designed to help you extract your data from the database and to add **variable** and **value labels** using the **expss R package**. 
 
-The **R helper** specififies the version of R that is required.
+The **R helper** specifies the version of R that is required. For more information on how to change your R version please see the section 'Specifying the version of R within RStudio' in the next section.
 
 To use the R helper:
 1.	Take copies of both scripts '**r_label_helper.R**' and '**r_label_functions.R**' and save copies to your working area. This is because you will need to **edit** 'r_label_helper.R' with your project specifics and requirements.
@@ -115,7 +115,7 @@ To use the R helper:
 You are welcome to modify the 'r_label_helper.R' to suit your use case and to use the example syntax to apply labelling to your own subsets of tables.
 
 ### Specifying the version of R within RStudio
-Should you wish to change the version of R being used by RStudio. Ensure that if your library is setup to match the R version e.g. for 4.1.3, you need to set R to 4.1.3. You can do this with the following method:
+Should you wish to change the version of R being used by RStudio. Ensure that if your library is setup to match the R version e.g. for 4.5.0, you need to set R to 4.5.0. You can do this with the following method:
 
 Change R within RStudio:
 
@@ -131,7 +131,7 @@ Change R on launch of RStudio:
 Hold the CTRL key and double click the RStudio launcher, as shown below
 ![alt text](image.png)
 
-Doing this will change the folder in which RStudio loads your library, as shown above, if you select 4.1.3, the library path will be P:\%USERNAME%\AppData\Roaming\R\4.1.3\Library
+Doing this will change the folder in which RStudio loads your library, as shown above, if you select 4.5.0, the library path will be P:\%USERNAME%\AppData\Roaming\R\4.5.0\Library
 
 If you are having issues with upgrading R and package compatibility issues, please consult the following [article](https://rpubs.com/wch/275466#:~:text=Sometimes%20packages%20installed%20with%20a,an%20old%20version%20of%20R.). 
 
