@@ -225,10 +225,13 @@ parts:
         - title: UK LLC generated datasets
           file: docs/ukllc_managed_data/UKLLC_generated/ukllc_data.md
           sections:
-            - title: Harmonised demographic (full)
-              file: docs/ukllc_managed_data/UKLLC_generated/Datasets/demo_harmonised_full.md
-            - title: Harmonised demographic (truncated)
-              file: docs/ukllc_managed_data/UKLLC_generated/Datasets/demo_harmonised_truncated.md
+            - title: LPS derived datasets 
+              file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived
+              sections:
+                - title: Harmonised demographic (full)
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/demo_harmonised_full.md
+                - title: Harmonised demographic (truncated)
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/demo_harmonised_truncated.md
             - title: NHS England derived datasets
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/NHSE_derived
               sections:
