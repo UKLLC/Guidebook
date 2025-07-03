@@ -272,6 +272,71 @@ class LPSDataSet:
         df = md.prep_dsvs_for_gb_pages()
         self.df_ds = df[df["source_table"] == source + "_" + dataset]
 
+        def ds_doi(ss, ds: str):
+            """Returns UKLLC DOI of LPS dataset
+
+            Args:
+                ss (str): source e.g. "ALSPAC" or "BCS70"
+                ds (str): dataset e.g. "serology1m" or "bcs10_housing"
+
+            Returns:
+                str: UKLLC DOI of dataset or "DOI TBC" if none minted
+            """
+
+            doi_ds = dcf.get_doi_datasets()[dcf.get_doi_datasets()["state"] == "findable"]
+            doi_ds["source_table"] = doi_ds["attributes.titles"].apply(lambda x: x[1]["title"] if len(x) > 1 else "NA")
+
+            doi_ds = doi_ds[doi_ds["source_table"] == ss + "_" + ds]
+            doi_ds = doi_ds.sort_values(by="attributes.version", ascending=False).drop_duplicates(subset="source_table")
+
+            if len(doi_ds) == 1:
+                return doi_ds.iloc[0]["id"]
+            else:
+                return "DOI TBC"
+
+        self.doi = ds_doi(self.source, self.dataset)
+
+        def cites(x: str):
+            """Returns citation APA style for DOI and trio of citation DL links
+
+            Args:
+                x (str): UKLLC DOI of dataset
+
+            Returns:
+                str: formatted citation APA style
+                str: trio of citation DL links
+            """
+
+            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+            bibtex = "https://api.datacite.org/application/x-bibtex/"
+            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            if x == "DOI TBC":
+                apa_cite = "DOI and Citation TBC"
+                dl_cites = "DOI and Citation Downloads TBC"
+
+            else:
+                cite = json.loads(requests.get(
+                    "https://api.test.datacite.org/dois/" + x,
+                ).text)['data']['attributes']
+
+                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+                bibtex = "https://api.datacite.org/application/x-bibtex/"
+                ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+                apa_cite = cite['creators'][0]["name"] + \
+                    ". (" + str(cite["publicationYear"]) + "). <i>" + \
+                    cite["titles"][0]["title"] + \
+                    ".</i> " + \
+                    cite["publisher"] + \
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/10.83126/ukllc-series-00001")
+
+                dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+                    md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
+
+            return apa_cite, dl_cites
+
+        self.apa_cite, self.dl_cites = cites(self.doi)
+
     def title(self):
         """Retrieves title of dataset from DF
 
@@ -307,36 +372,6 @@ class LPSDataSet:
             markdown: displayed markdown of info DF with formatting applied
         """
 
-        pref = "10.83126/"  # switch to autograb from datacite API when minted
-        suff = "ukllc-dataset-00032-01"  # switch to autograb from API
-        cite = json.loads(requests.get(
-            "https://api.test.datacite.org/dois/" + pref + suff,
-        ).text)['data']['attributes']
-
-        citeprocjson = "https://api.datacite.org/application/"
-        "vnd.citationstyles.csl+json/"
-        bibtex = "https://api.datacite.org/application/x-bibtex/"
-        ris = "https://api.datacite.org/application/x-research-info-systems/"
-
-        apa_cite = (cite['creators'][0]["name"] + ". ("
-                    + str(cite["publicationYear"]) + "). <i>"
-                    + cite["titles"][0]["title"]
-                    + ".</i> (Version "
-                    + cite["version"]
-                    + ") [Data set]. "
-                    + cite["publisher"]
-                    + ". " + md.make_hlink(
-                        "https://doi.org/" + pref + suff,
-                        "https://doi.org/" + pref + suff)
-                    )
-
-        dl_cites = (md.make_hlink(citeprocjson + pref + suff, "Citeproc JSON")
-                    + "&nbsp;&nbsp;&nbsp;&nbsp;"
-                    + md.make_hlink(bibtex + pref + suff, "BibTeX")
-                    + "&nbsp;&nbsp;&nbsp;&nbsp;"
-                    + md.make_hlink(ris + pref + suff, "RIS")
-                    )
-
         ds_info_list = [
             [
              "Name of Dataset in TRE",
@@ -355,8 +390,8 @@ class LPSDataSet:
             ],
             [
              self.df_ds.iloc[0]["source_table"],  # DS in TRE
-             apa_cite,  # Citation
-             dl_cites,  # Download Cite
+             self.apa_cite,  # Citation
+             self.dl_cites,  # Download Cite
              md.make_hlink(
                  "https://guidebook.ukllc.ac.uk/docs/lps/lps%20profiles/{}"
                  .format(self.df_ds.iloc[0]["source"]),
@@ -400,25 +435,38 @@ class LPSDataSet:
         dsvs = md.get_md_api_dsvs()
         dsvs = dsvs[(dsvs["source"] == self.source)
                     & (dsvs["table"] == self.dataset)]
-        dsvs["version_num"] = dsvs["version_num"].apply(
-            lambda x: "Version " + str(int(x.split("v")[1])))
-        dsvs["version_date"] = dsvs["version_date"].apply(
-            lambda x: datetime.strftime(datetime.strptime(
-                str(int(x)), "%Y%m%d"), "%d %b %Y"))
-        dsvs["num_columns"] = dsvs["num_columns"].apply(lambda x: int(x))
-        dsvs["num_participants"] = dsvs["num_participants"].apply(
-            lambda x: int(x))
-        dsvs["DOI"] = "10.83126/ukllc-dataset-00032-01"  # placeholder for now
-        dsvs2 = dsvs[["version_num",
-                      "version_date",
-                      "num_columns",
-                      "num_participants",
-                      "DOI"]].rename(
+        dsvs["source_table"] = dsvs["source"] + "_" + dsvs["table"]
+        dsvs["version_num"] = dsvs["version_num"].\
+            apply(lambda x: int(x.replace("v", "")))
+
+        ds_dois = dcf.get_doi_datasets()
+        ds_dois = ds_dois[ds_dois["state"] == "findable"]
+        ds_dois["source_table"] = ds_dois["attributes.titles"].apply(lambda x: x[1]["title"])
+        ds_dois["attributes.version"] = ds_dois["attributes.version"].apply(lambda x: int(x))
+        ds_dois = ds_dois[ds_dois["source_table"] == self.source + "_" + self.dataset]
+
+        dsvs2 = dsvs.merge(ds_dois, how="left", left_on=["source_table", "version_num"], right_on=["source_table", "attributes.version"])[["source_table", "version_num", "version_date", "num_participants", "num_columns", "num_rows", "id"]]
+
+        dsvs2["id"] = dsvs2["id"].fillna("TBC")
+        dsvs2["act"] = dsvs2["id"].apply(lambda x: "TBC" if x == "TBC" else x + "/activites")
+        dsvs2["version_date"] = dsvs2["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
+        dsvs2["num_participants"] = dsvs2["num_participants"].apply(lambda x: "N/A" if np.isnan(x) else int(x))
+        dsvs2["num_columns"] = dsvs2["num_columns"].apply(lambda x: int(x))
+        dsvs2["num_rows"] = dsvs2["num_rows"].apply(lambda x: int(x))
+
+        dsvs2 = dsvs2[["version_num",
+                        "version_date",
+                        "num_columns",
+                        "num_participants",
+                        "id",
+                        "act"]].rename(
                         columns={
                             "version_num": "Version Number",
                             "version_date": "Version Date",
                             "num_columns": "Number of Variables",
-                            "num_participants": "Number of Participants"}
+                            "num_participants": "Number of Participants",
+                            "id": "DOI",
+                            "act": "Change Log"}
                             ).set_index("Version Number")
         return dsvs2.T
 
@@ -663,10 +711,10 @@ class LPSSource:
             dff = md.get_md_api_frz_link_nhse()
             dff = dff[(dff["LPS"] == self.source) & (dff["frz_num"] == dff["frz_num"].max())]
 
-            lx = ["NHS England", "NHS Wales", "Neighbourhood Geographies", "Address Geographies"]
-            ly = [100*(dff.iloc[0]["n_l_tot"]/dff.iloc[0]["n_sent"]), 0, 0, 0]
-            lz = [dff.iloc[0]["n_sent"]] * 4
-            ll = [dff.iloc[0]["n_l_tot"], 0, 0, 0]
+            lx = ["NHS England", "NHS Wales"]
+            ly = [100*(dff.iloc[0]["n_l_tot"]/dff.iloc[0]["n_sent"]), 0]
+            lz = [dff.iloc[0]["n_sent"]] * 2
+            ll = [dff.iloc[0]["n_l_tot"], 0 ]
 
             data = {
                 "link_series": lx,
@@ -1364,6 +1412,7 @@ class NHSESource:
         df["grouping"] = df["table"].apply(lambda x: grps[x])
 
         links = {
+            "PCM": "../NHS_England/Primary_care_datasets/PCM/PCM.html",
             "HESOP": "../NHS_England/HES%20datasets/OP/HESOP.html",
             "HESAPC": "../NHS_England/HES%20datasets/APC/HESAPC.html",
             "HESCC": "../NHS_England/HES%20datasets/CC/HESCC.html",
@@ -1375,15 +1424,14 @@ class NHSESource:
             "CHESS": "../NHS_England/COVID%20datasets/CHESS/CHESS.html",
             "CVS": "../NHS_England/COVID%20datasets/CVS/CVS.html",
             "CVAR": "../NHS_England/COVID%20datasets/CVAR/CVAR.html",
-            "GDPPR": "../NHS_England/COVID%20datasets/GDPPR/GDPPR.html",
+            "GDPPR": "../NHS_England/Primary_care_datasets/GDPPR/GDPPR.html",
             "CANCER": "../NHS_England/Registration%20datasets/CANCER/CANCER.html",
             "DEMOGRAPHICS": "../NHS_England/Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.html",
             "MORTALITY": "../NHS_England/Registration%20datasets/MORTALITY/MORTALITY.html",
             "MHSDS": "../NHS_England/Mental%20health%20datasets/MHSDS/MHSDS.html",
             "IAPT": "../NHS_England/Mental%20health%20datasets/IAPT/IAPT.html",
-            "CSDS": "../NHS_England/Other%20datasets/CSDS/CSDS.html",
-            "MSDS": "../NHS_England/Other%20datasets/MSDS/MSDS.html",
-            "PCM": "../NHS_England/Other%20datasets/PCM/PCM.html"
+            "CSDS": "../NHS_England/Community%20datasets/CSDS/CSDS.html",
+            "MSDS": "../NHS_England/Community%20datasets/MSDS/MSDS.html"
         }
 
         df["table"] = df["table"].apply(lambda x: md.make_hlink(links[x], x))
