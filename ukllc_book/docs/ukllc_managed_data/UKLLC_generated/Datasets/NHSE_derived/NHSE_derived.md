@@ -1,49 +1,66 @@
-# Harmonised (standardised) demographic variables
->Last modified: 25 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has created a range of standardised (harmonised) demographic measures applicable to all LPS</strong></div>  
+# Datasets derived from linked data
+>Last modified: 03 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Understanding a UK LLC project's sample and denominator</strong></div>  
 
 ## Introduction  
-LPS collect data in different ways, using different variable names and values, so it is not always easy to make comparisons between studies. To enable UK LLC’s partners and data users to understand the profile of the UK LLC resource as a whole, UK LLC standardises (‘harmonises’) some key characteristics across all LPS.  
+UK LLC has derived three datasets based predominantly on NHS England data sources. These datasets enable researchers to understand their sample and define the denominator for their project. Each of these files contains **one row per participant**.
 
-Currently available are harmonised variables for LPS participants’:  
-* Sex  
-* Gender  
-* Year of birth (as a proxy for age)  
-* Ethnic group  
+>These datasets are made available to all researchers using linked data in the TRE.
+
+The datasets are:
+* **UK LLC Denominator**
+* **NHSE Presence**
+* **NHSE Derived indicator**
+
+The datasets are updated each quarter as part of the UK LLC data [**freeze**](../../../../ukllc_key_facts/Sample/UKLLC_sample.md).
+
+For each approved research project, these derived datasets are filtered both on the LPS selected and on individual participants' NHS England permissions. Researchers' views of these data are locked to permissions at the time of a project's first data provision.
+
+<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>The Denominator file</strong></div>  
+
+This incorporates all participants across all LPS and serves as **UK LLC's 'spine'**. Each project in the TRE is automatically provisioned a file named: <span style="color:red"> **CORE_denominator_file1_yyyymmdd**.</span> The date in the file name refers to the freeze date. Particpant permissions are correct and applied to each LPS and linked dataset as of this date.
+
+The denominator file includes:
+* the name of the LPS to which each participant belongs
+* all UK LLC configurable permissions for the different domains of data (e.g. NHS England, place-based)
+
+It enables users to 
+* calculate linkage rates (when joined to linked datasets)
+* contextualise LPS participants within UK LLC in relation to LPS datasets
+
+<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>The Presence file</strong></div>  
+
+For each NHSE data source in the UK LLC TRE, this file contains, for each participant, the number of appearances and the date of the most recent appearance in that data source. Each project in the TRE is automatically provisioned a file named: <span style="color:red">CORE_NHSD_Presence_v0000_YYYYMMDD</span>.  
+
+The file also includes a **'last seen date'** for each participant, being the most recent record across all NHSE data sources. N.B. Some NHSE data sources do not include record dates, so the Presence file may include counts of participants' appearances in a data source without an associated date.  
+
+The Presence file can be used to **identify a project's control group** or denominator by comparing LPS participants' presence in NHS data sources against the NHS data provisioned to a project. For datasets that have to be **minimised by codelists<sup>1</sup>**, this comparison will identify which participants appear in the full dataset in the TRE but are not included in the provisioned data.  
+
+<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>The Derived Indicator file</strong></div>  
+
+ This file contains the most recent and most reliable record for certain key variables found in NHSE data sources in the UK LLC database. Each project in the TRE is automatically provisioned a file named: <span style="color:red">CORE_derived_indicator_v0000_YYYYMMDD</span>. The file pulls data from the following datasets and preferentially uses data from the datasets in this order:  
+
+1. Demographics
+2. General Practice Extraction Service (GPES) Data for Pandemic Planning and Research (GDPPR)
+3. HES Admitted Patient Care (HESAPC)
+4. HES Outpatients (HESOP)
+5. HES Accident & Emergency (HESAE).
+
+The following variables are included in the Derived Indicator file:
+* sex
+* Deceased: from NHSD.mortality
+* Date of death: from NHSD.mortality
+* ethnic: NHS ethnicity coding system
+* dob_year_month: year and month of birth 
+* last_seen_date: last date record in any NHS England dataset.  
 <br>
->N.B. UK LLC has not changed the original LPS data for these variables. The new variables are available as harmonised datasets which researchers can request in addition to LPS and linked data.  
 
-## Structure of datasets
-The harmonised datasets are in long format. Table 1 shows the variables available in the datasets. More details on how the objects and values have been generated are on the pages for sex, gender and ethnicity.
+>**Note 1**  
+>The NHSE datasets listed below must be minimised by codelists prior to linked data being made available in the TRE.  
+More information on using codelists can be found [here](../../../../linked_health_data/NHS_England/Coding/codelists.md).
+> * HES (Hospital Episode Statistics)
+> * GDPPR(General Practice Extraction Service (GPES) Data for Pandemic Planning and Research)
+> * Cancer registrations
+> * PCM (Primary Care Medicines)  
+> 
 
-**Table 1**  
-| Variable name | Variable description |  
-|---|---|
-| LLC_xxxx_stud_id | Individual identifier (unique to each project in the TRE) |
-| cohort | LPS name |
-| source | LPS dataset holding the original demographic variable(s) for each participant (e.g. ALSPAC_wave1y) |
-| object | Label indicating which of the harmonised variables is represented by the value (e.g. llc_sex, llc_gender) |
-| value | Numeric value for each of the objects |
-| label | Description of what each of the values represents |  
-| llc_timestamp | Date (month and year) on which the information was provided by the participant to the LPS |  
-<br>
-
->These variables are available as single datasets in two formats:  
-
-### Full version of the dataset [link to dataset page]
-The full dataset is in long format, retaining every relevant response provided by participant, e.g. if a participant was asked to confirm their ethnic group on five separate occasions, then that individual will have five occurrences of ethnicity in the harmonised dataset. For each occurrence of the value (indicated by the variable ‘object’), the most detailed available ethnicity grouping is provided.  
-<br>
-**Missing values**  
-Participants are retained in the dataset if they were included in the dataset uploaded by the LPS irrespective of whether they responded to the question. Where a participant was included in the original dataset, but did not provide a response of any kind (not even ‘unknown’ or ‘prefer not to say’), their response is shown as a blank cell in the full [name] dataset.  
-Researchers should be mindful of the fact that, for a single participant, data could be missing - either through omission or through a participant selecting e.g. "don’t know" from response options - for multiple waves of data collection.  
-
-### Reduced version of the dataset [link to dataset page]
-<span style="color:red">Missing values
-In the reduced dataset, all missing values have been removed.
-Need a note about missing data, and what to do when the most recent value for a participant is missing. Where the granularity of objects is hierarchical (i.e. ethnic group, gender), all possible levels are provided for each participant. </span>  
-
->**NOTE**  
->For some variables included in the harmonised datasets, it may be that UK LLC does not have the complete list of response options available to LPS participants. Where this is the case, the absence of a possible option (e.g. ‘prefer not to answer’) from the responses presented does not mean that option was not available to LPS participants. All that can be inferred is that, if that option was available, it was not selected by anyone included in the datasets shared with UK LLC.
-
-## The future  
-Whenever a new LPS joins UK LLC, their demographic variables wil be harmonised and added to the RETURNED dataset. These Guidebook pages will be updated to reflect these changes.
