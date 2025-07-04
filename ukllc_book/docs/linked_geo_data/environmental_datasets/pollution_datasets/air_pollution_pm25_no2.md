@@ -85,17 +85,13 @@ Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposu
 
 Click on the plus sign to see the number of participants represented in each dataset. 
 
-## 3. Version History 
+## 3. Version History  
 
-## 4. Change Log 
-
-We are currently working on a change log which will show changes to the dataset’s metadata. 
-
-## 5. Documentation 
+## 4. Documentation 
 
 We are currently building a documentation storage system which will host relevant and useful documents related to datasets, groupings, and studies themselves. 
 
-## 6. Useful Syntax 
+## 5. Useful Syntax 
 
 Below we will include syntax that may be helpful to other researchers in the UK LLC TRE. For longer scripts, we will include a snippet of the code plus a link to the UK LLC GitHub repository where you can find the full scripts. 
 
