@@ -1,6 +1,6 @@
 # NHS Northern Ireland data
->Last modified: 20 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is in discussions with the Northern Ireland Business Services Organisation to flow Northern Irish health data into the UK LLC database.</strong></div>  
+>Last modified: 03 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is in discussions with the Northern Ireland Business Services Organisation to flow Northern Irish health data into the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
 

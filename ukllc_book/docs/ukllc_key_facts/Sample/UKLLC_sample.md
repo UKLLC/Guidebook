@@ -1,7 +1,7 @@
 
 # UK LLC sample
->Last modified: 20 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK LLC database contains data about >400,000 participants from >20 different LPS. We call this pooled population the UK LLC sample. </strong></div>  
+>Last modified: 03 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK LLC Trusted Research Environment (TRE) contains data about >400,000 participants from >20 different LPS. We call this pooled population the UK LLC sample. </strong></div>  
 <br>
 
 
