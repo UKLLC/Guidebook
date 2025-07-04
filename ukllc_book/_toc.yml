@@ -177,6 +177,10 @@ parts:
                 file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
               - title: HESAPC (inpatient)
                 file: docs/linked_health_data/NHS_England/HES datasets/APC/HESAPC.ipynb
+              - title: HESAPC_MAT (inpatient maternity)
+                file: docs/linked_health_data/NHS_England/HES datasets/MAT/HESAPC_MAT.ipynb              
+              - title: HESAPC_ACP (inpatient critical care)
+                file: docs/linked_health_data/NHS_England/HES datasets/ACP/HESAPC_ACP.ipynb
               - title: HESCC (inpatient critical care)
                 file: docs/linked_health_data/NHS_England/HES datasets/CC/HESCC.ipynb
               - title: ECDS (emergency)
