@@ -1377,10 +1377,10 @@ class NHSESource:
 
     def datasets_table(self):
         df = md.get_md_api_dss()
-        df = df[df["source"] == self.source]
+        df = df[df["source"] == "NHSE"]
         df["date_available"] = df["collection_start"] + " - " + df["collection_end"]
         df["date_available"] = df["date_available"].fillna("N/A")
-        df = df[~df["table"].isin(["HESAPC_MAT", "HESAPC_ACP"])]
+        # df = df[~df["table"].isin(["HESAPC_MAT", "HESAPC_ACP"])]
 
         owners = {
             "NHS England": "NHSE",
@@ -1392,6 +1392,7 @@ class NHSESource:
 
 
         grps = {
+            'MSDS': "Community",
             'HESOP': "Hospital",
             'DEMOGRAPHICS': "Registration",
             'MORTALITY': "Registration",
@@ -1413,7 +1414,6 @@ class NHSESource:
             'IELISA': "COVID-19",
             'CSDS': "Community",
             'IAPT': "Mental Health",
-            'MSDS': "Community"
         }
 
         df["grouping"] = df["table"].apply(lambda x: grps[x])
@@ -1422,6 +1422,8 @@ class NHSESource:
             "PCM": "../NHS_England/Primary_care_datasets/PCM/PCM.html",
             "HESOP": "../NHS_England/HES%20datasets/OP/HESOP.html",
             "HESAPC": "../NHS_England/HES%20datasets/APC/HESAPC.html",
+            "HESAPC_ACP": "../NHS_England/HES%20datasets/ACP/HESAPC_ACP.html",
+            "HESAPC_MAT": "../NHS_England/HES%20datasets/MAT/HESAPC_MAT.html",
             "HESCC": "../NHS_England/HES%20datasets/CC/HESCC.html",
             "ECDS": "../NHS_England/HES%20datasets/ECDS/ECDS.html",
             "HESAE": "../NHS_England/HES%20datasets/AE/HESAE.html",
@@ -1440,6 +1442,31 @@ class NHSESource:
             "CSDS": "../NHS_England/Community%20datasets/CSDS/CSDS.html",
             "MSDS": "../NHS_England/Community%20datasets/MSDS/MSDS.html"
         }
+
+        df = df.set_index("table", drop=False).reindex([
+            "GDPPR",
+            "PCM",
+            "HESOP",
+            "HESAPC",
+            "HESAPC_ACP",
+            "HESAPC_MAT",
+            "HESCC",
+            "ECDS",
+            "HESAE",
+            "COVIDSGSS",
+            "IELISA",
+            "NPEX",
+            "CHESS",
+            "CVS",
+            "CVAR",
+            "CANCER",
+            "DEMOGRAPHICS",
+            "MORTALITY",
+            "MHSDS",
+            "IAPT",
+            "CSDS",
+            "MSDS"
+        ])
 
         df["table"] = df["table"].apply(lambda x: md.make_hlink(links[x], x))
         df = df[
