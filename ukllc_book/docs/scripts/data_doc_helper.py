@@ -863,7 +863,7 @@ class NHSEDataSet:
                 return "DOI TBC"
 
         def get_ed(x: str):
-            """Returns latest extracte date of NHSE dataset
+            """Returns latest extract date of NHSE dataset
 
             Args:
                 x (str): NHSE dataset e.g. IAPT or HESCC
@@ -874,8 +874,13 @@ class NHSEDataSet:
 
             req = requests.get("https://metadata-api-4a09f2833a54.herokuapp.com/nhs-extract-dates/", headers={'access_token': os.environ['FASTAPI_KEY'] })
             df_ed = pd.json_normalize(json.loads(req.text))
-            df_ed = df_ed[df_ed["dataset"].str.startswith(x)].sort_values(by="date", ascending=False)
-            return df_ed.iloc[0]["date"]
+
+            if x:
+                df_ed = df_ed[df_ed["dataset"].str.startswith("HESAPC")].sort_values(by="date", ascending=False)
+                return df_ed.iloc[0]["date"]
+            else:
+                df_ed = df_ed[df_ed["dataset"].str.startswith(x)].sort_values(by="date", ascending=False)
+                return df_ed.iloc[0]["date"]
 
         def cites(x: str):
             """Returns citation APA style and trio of DL links
@@ -1092,52 +1097,54 @@ class NHSEDataSet:
             figure: bokeh datacube of cohort counts
         """
 
-        if self.dataset in ["MHSDS"]:
-            return display(Markdown("Cohort counts for the {} dataset will be issued in due course.".format(self.dataset)))
+        output_notebook(hide_banner=True)
+        df = md.get_md_api_dsvs()
+        def fix_hes(x):
+            if x in ["HESAPC_acp", "HESAPC_mat"]:
+                return x.upper()
+            else:
+                return x
+        df["table"] = df["table"].apply(lambda x: fix_hes(x))
+        df = df[(df["source"] == "nhsd") & (df["table"].str.startswith(self.dataset))].drop_duplicates(subset="table")
 
-        else:
-            output_notebook(hide_banner=True)
-            df = md.get_md_api_dsvs()
-            df = df[(df["source"] == "nhsd") & (df["table"].str.startswith(self.dataset))].drop_duplicates(subset="table")
+        df = df[~df["table"].isin(["MHSDS_MHS003AccommStatus", "MHSDS_MHS104RTT", "MHSDS_MHS301GroupSession", "MHSDS_MHS901StaffDetails", "CSDS_group_sessions"])]
 
-            df = df[~(df["table"] == "CSDS_group_sessions")]
+        if self.dataset in ["HESAPC", "HESOP", "HESAE"]:
+            df = df[df["table"] == self.dataset]
 
-            if self.dataset in ["HESAPC", "HESOP", "HESAE"]:
-                df = df[df["table"] == self.dataset]
+        tbl_names = []
+        metrics_tables = []
 
-            tbl_names = []
-            metrics_tables = []
+        for i in range(0, len(df)):
+            dfcc = md.get_nhse_cohort_counts(df.iloc[i]["table"])
+            dfcc = dfcc[~dfcc['cohort'].isin(['GENSCOT', 'NICOLA', 'SABRE'])]
+            tbl_names += len(dfcc) * [df.iloc[i]["table"]]
+            dfcc["count"] = dfcc["count"].replace("<10", np.nan).astype(float)
+            metrics_tables.append(dfcc)
 
-            for i in range(0, len(df)):
-                dfcc = md.get_nhse_cohort_counts(df.iloc[i]["table"])
-                dfcc = dfcc[~dfcc['cohort'].isin(['GENSCOT', 'NICOLA', 'SABRE'])]
-                tbl_names += len(dfcc) * [df.iloc[i]["table"]]
-                dfcc["count"] = dfcc["count"].replace("<10", np.nan).astype(float)
-                metrics_tables.append(dfcc)
+        source = ColumnDataSource(data=dict(
+            d0=tbl_names,
+            d1=pd.concat(metrics_tables)["cohort"].to_list(),
+            px=pd.concat(metrics_tables)["count"].to_list(),
+        ))
 
-            source = ColumnDataSource(data=dict(
-                d0=tbl_names,
-                d1=pd.concat(metrics_tables)["cohort"].to_list(),
-                px=pd.concat(metrics_tables)["count"].to_list(),
-            ))
+        target = ColumnDataSource(data=dict(row_indices=[], labels=[]))
 
-            target = ColumnDataSource(data=dict(row_indices=[], labels=[]))
+        formatter = StringFormatter(font_style='bold')
 
-            formatter = StringFormatter(font_style='bold')
+        columns = [
+            TableColumn(field='d1', title='{} Dataset'.format(self.dataset), width=80, sortable=False, formatter=formatter),
+            TableColumn(field='px', title='Participant Count', width=40, sortable=False, formatter=StringFormatter(text_align='right', nan_format='<10')),
+        ]
 
-            columns = [
-                TableColumn(field='d1', title='{} Dataset'.format(self.dataset), width=80, sortable=False, formatter=formatter),
-                TableColumn(field='px', title='Participant Count', width=40, sortable=False, formatter=StringFormatter(text_align='right', nan_format='<10')),
-            ]
+        grouping = [
+            GroupingInfo(getter='d0', aggregators=[SumAggregator(field_='px')]),
+        ]
 
-            grouping = [
-                GroupingInfo(getter='d0', aggregators=[SumAggregator(field_='px')]),
-            ]
-
-            cube = DataCube(source=source, columns=columns, grouping=grouping, target=target)
-            display(Markdown("Click on the plus sign to see the number of participants represented in each dataset."))
-            display(Markdown("**Table 2:** Participants from each LPS represented in the {} dataset in the UK LLC TRE. **Note:** Individual cohort counts of less than 10 are suppressed to <10 and excluded from total participant counts for datasets.".format(self.dataset)))
-            show(cube)
+        cube = DataCube(source=source, columns=columns, grouping=grouping, target=target)
+        display(Markdown("Click on the plus sign to see the number of participants represented in each dataset."))
+        display(Markdown("**Table 2:** Participants from each LPS represented in the {} dataset in the UK LLC TRE. **Note:** Individual cohort counts of less than 10 are suppressed to <10 and excluded from total participant counts for datasets.".format(self.dataset)))
+        show(cube)
 
     def version_history(self):
         """Creates and displays version history table for dataset
