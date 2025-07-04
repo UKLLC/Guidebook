@@ -1,5 +1,5 @@
 # Available linkages
->Last modified: 27 Jun 2025
+>Last modified: 04 Jul 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>See the tables below to understand the linkages and breadth of research topics that each Longitudinal Population Study (LPS) permits.</strong></div>  
 <br>
@@ -9,31 +9,31 @@ The tables below summarise the **available linkages**. Linkages to Department fo
 LPS are working to gain the necessary permissions to enable research in the public good (beyond COVID-19). Table 1 shows data available for research in the public good and Table 2 shows data available for COVID-19 research only. We will update Table 1 as more LPS' data becomes available for wider research purposes. 
 <br>
 
->Participants can always choose to opt out of UK LLC or specific data linkages. If a participant opts out, no new data about them will be shared, but  data that has already been provisioned can still be used until the project ends.
+>Participants can always choose to opt out of UK LLC or specific data linkages. If a participant opts out, no new data about them will be shared, but  data that has already been provisioned can still be used until the project ends. Please see the [**UK LLC Privacy Notice**](https://ukllc.ac.uk/privacy-policy) for further information.
 
 ## GP data
->The linked NHS England GP data [(**GDPPR dataset**)](../linked_health_data/NHS_England/Primary_care_datasets/GDPPR/) can only be used for research relating to COVID-19. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)  
+>The linked NHS England GP data [(**GDPPR dataset**)](../linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb) can only be used for research relating to COVID-19. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)  
 
 ## Any public good research (including COVID-19)
 
 **Table 1** LPS whose linked data is available for **any public good research**, with their available linkages (LPS listed in alphabetical order)
 
-|**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP** (Data coming soon)|**HMRC** (Data coming soon)|**NHS Wales** (Data coming soon)|
+|**LPS**|[**NHS England**](../linked_health_data/NHS_England/NHSE_intro.md)|[**Neighbourhood geographies**](../linked_geo_data/Place_based_intro.md)<sup>1</sup>|[**Address geographies**](../linked_geo_data/Place_based_intro.md)<sup>2</sup>|[**DWP**](../linked_admin_data/DWP_data/DWP_data.md) (Data coming soon)|[**HMRC**](../linked_admin_data/HMRC_data/HMRC_data.md) (Data coming soon)|[**NHS Wales**](../linked_health_data/NHS_Wales/NHSW_intro.md) (Data coming soon)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**AIRWAVE**|✓|✓|Full address|✗|✗|✗|
-|**BCS70**|✓|✗|✗|✓|✓|✓|
-|**BIB**|✓|✓|Full address|✗|✗|✓|
-|**ELSA**|✓|✗|✗|✓|✓|✗|
-|**EXCEED**|✓|✓|Postcode|✗|✗|✓|
-|**GENSCOT**|✗|✗|✗|✗|✗|✗|
-|**GLAD**|✓|✓|Full address|✗|✗|✓|
-|**MCS**|✓|✗|✗|✓|✓|✓|
-|**NCDS58**|✓|✗|✗|✓|✓|✓|
-|**NEXTSTEP**|✓|✗|✗|✓|✓|✓|
-|**NSHD46**|✓|✓|Full address|✗|✗|✗|
-|**TEDS**|✓|✓|Full address|✗|✗|✗|
-|**TWINSUK**|✓|✓|Postcode|✗|✗|✗|
-|**UKHLS**|✓|✗|✗|✓|✓|✓|
+|[**BCS70**](../LPS_data/LPS%20profiles/BCS70.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**BIB**](../LPS_data/LPS%20profiles/BIB.ipynb)|✓|✓|Full address|✗|✗|✓|
+|[**ELSA**](../LPS_data/LPS%20profiles/ELSA.ipynb)|✓|✗|✗|✓|✓|✗|
+|[**EXCEED**](../LPS_data/LPS%20profiles/EXCEED.ipynb)|✓|✓|Postcode|✗|✗|✓|
+|[**GENSCOT**](../LPS_data/LPS%20profiles/GENSCOT.ipynb)|✗|✗|✗|✗|✗|✗|
+|[**GLAD**](../LPS_data/LPS%20profiles/GLAD.ipynb)|✓|✓|Full address|✗|✗|✓|
+|[**MCS**](../LPS_data/LPS%20profiles/MCS.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**NCDS58**](../LPS_data/LPS%20profiles/NCDS58.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**NEXTSTEP**](../LPS_data/LPS%20profiles/NEXTSTEP.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**NSHD46**](../LPS_data/LPS%20profiles/NSHD46.ipynb)|✓|✓|Full address|✗|✗|✗|
+|[**TEDS**](../LPS_data/LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✗|✗|✗|
+|[**TWINSUK**](../LPS_data/LPS%20profiles/TWINSUK.ipynb)|✓|✓|Postcode|✗|✗|✗|
+|[**UKHLS**](../LPS_data/LPS%20profiles/UKHLS.ipynb)|✓|✗|✗|✓|✓|✓|
 |**UK-REACH**|✓|✓|✗|✓|✓|✓|
 
 <sup>1</sup>Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
@@ -43,15 +43,15 @@ LPS are working to gain the necessary permissions to enable research in the publ
 
 **Table 2** LPS whose linked data is available for **COVID-19 ONLY research**, with their available linkages (LPS listed in alphabetical order)
 
-|**LPS**|**NHS England**|**Neighbourhood geographies<sup>1</sup>**|**Address geographies<sup>2</sup>**|**DWP** (Data coming soon)|**HMRC** (Data coming soon)|**NHS Wales** (Data coming soon)|
+|**LPS**|[**NHS England**](../linked_health_data/NHS_England/NHSE_intro.md)|[**Neighbourhood geographies**](../linked_geo_data/Place_based_intro.md)<sup>1</sup>|[**Address geographies**](../linked_geo_data/Place_based_intro.md)<sup>2</sup>|[**DWP**](../linked_admin_data/DWP_data/DWP_data.md) (Data coming soon)|[**HMRC**](../linked_admin_data/HMRC_data/HMRC_data.md) (Data coming soon)|[**NHS Wales**](../linked_health_data/NHS_Wales/NHSW_intro.md) (Data coming soon)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-|**ALSPAC**|✓|✓|Postcode|✓|✓|✓|
-|**EPICN**|✓|✗|✗|✗|✗|✗|
-|**FENLAND**|✗|✗|✗|✗|✗|✗|
-|**NICOLA**|✗|✗|✗|✗|✗|✗|
-|**NIHRBIO_COPING**|✓|✗|Postcode|✗|✗|✓|
-|**SABRE**|✗|✓|Full address|✗|✗|✗|
-|**TRACKC19**|✓|✗|✗|✗|✗|✓|
+|[**ALSPAC**](../LPS_data/LPS%20profiles/ALSPAC.ipynb)|✓|✓|Postcode|✓|✓|✓|
+|[**EPICN**](../LPS_data/LPS%20profiles/EPICN.ipynb)|✓|✗|✗|✗|✗|✗|
+|[**FENLAND**](../LPS_data/LPS%20profiles/FENLAND.ipynb)|✗|✗|✗|✗|✗|✗|
+|[**NICOLA**](../LPS_data/LPS%20profiles/NICOLA.ipynb)|✗|✗|✗|✗|✗|✗|
+|[**NIHRBIO_COPING**](../LPS_data/LPS%20profiles/NIHRBIO_COPING.ipynb)|✓|✗|Postcode|✗|✗|✓|
+|[**SABRE**](../LPS_data/LPS%20profiles/SABRE.ipynb)|✗|✓|Full address|✗|✗|✗|
+|[**TRACKC19**](../LPS_data/LPS%20profiles/TRACKC19.ipynb)|✓|✗|✗|✗|✗|✓|
 
 <sup>1</sup>Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
 <sup>2</sup>Household level using Unique Property Reference Number (UPRN) or postcode level
@@ -61,4 +61,4 @@ LPS are working to gain the necessary permissions to enable research in the publ
 ## Future linkages
 
 * The Scottish Public Benefit and Privacy Panel has conditionally approved linkage to [**Scottish health records**](../linked_health_data/NHS_Scotland/NHSS_intro.md). 
-* UK LLC continues to work with the **Department of Education** to establish the necessary permissions to link to education data.
+* UK LLC continues to work with the [**Department of Education**](../linked_admin_data/DfE_data/DfE_data.md) to establish the necessary permissions to link to education data.

@@ -1,16 +1,16 @@
 # Working with LPS data
->Last modified: 12 Mar 2025
+>Last modified: 04 Jul 2025
 
 <details>
 <summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
 
-UK LLC's [**publication policy**](https://bpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/a/708/files/2024/10/POL-ISM-007_UK-LLC_PublicationPolicy_V1.4.pdf) includes a checklist for researchers to confirm which LPS data they used in their research. Before publications are submitted, and at the end of a project, UK LLC will let LPS know whether their data was used in each research project. It is helpful if researchers share their reasons for not using some datasets so UK LLC can share this information with future potential users.
+UK LLC's [**publication policy**](https://ukllc.ac.uk/governance) requires researchers to complete a checklist to confirm which LPS data they used in their research. Before publications are submitted, and at the end of a project, UK LLC will let LPS know whether their data was used in each research project. It is helpful if researchers share their reasons for not using some datasets so UK LLC can share this information with future potential users.
 </details>
 <br>
 <details>
 <summary>How can I request additional LPS data for my project?</summary>
 
-Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
+Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data.**Note**: each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>
 <br>
 <details>
@@ -35,19 +35,7 @@ These data require a join on 2 fields, LLC_XXXX_stud_id and person, because this
 </details>
 <br>
 <details>
-<summary>What is the relationship between participants in NIHRBIO_COPING and GLAD?</summary>
-
-As an overview, consider the diagram below. GLAD in the UK LLC TRE contains participants in the Green AND Orange. NIHRBIO_COPING in the UK LLC TRE only contains those in the RED but NOT the orange:   
-
-<img src="../images/user_guide/COPING_GLAD.png" width="300"/>
-
-Work is ongoing to create a ‘true’ individual-level ID in the UK LLC TRE. This is known as Anonymous Linking Field (ALF2), and used in conjunction with llc_XXXX_stud_id, it will be possible to unpick these relationships.
-</details>
-<br>
-<details>
 <summary>Do LPS have weighting variables in the TRE?</summary>
-
-
 
 |LPS name|Weighting variables in the TRE?|Further information
 |:--|:--:|:--|

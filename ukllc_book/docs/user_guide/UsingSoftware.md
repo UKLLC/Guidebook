@@ -1,5 +1,7 @@
 # Available software
->Last modified: 17 Jun 2025
+>Last modified: 04 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available for researchers working in the UK LLC Trusted Research Environment (TRE).</strong></div>  
+<br>
 
 UK LLC supports researchers in using their preferred software packages. The following packages are **pre-installed** in the UK LLC TRE: 
 * SQL Server Management Studio
@@ -44,8 +46,6 @@ Once complete the script will have created a **new environment** in the location
 
 The **batch file** ('create_python_env.bat') can be **edited** if you wish to store your environment in a **different location** or would like to **name it differently**. Please take a **copy** of the batch file and **save it** in your project area before editing. The environment will be created in the P: drive because this is a drive available only to you and accessible from whichever remote desktop you are assigned on login.
 
-
-
 ### Using your new environment
 
 If you are using **Jupyter Notebooks, Spyder** or any other **Anaconda tools** for your analyses it is recommended that you launch these from Anaconda Prompt **after activating your new environment**. This will ensure you are running your new environment within the application. To do this:
@@ -61,8 +61,6 @@ Click on the YouTube link below for a short video guide (60 seconds).
 We recommend using **Juypter notebook** and we have prepared a template notebook with a comprehensive suite of helper functions. You will find this in: '**S:\ReadAll\python_help\notebook_helper**'. There are two files of note here, '**notebook_template.ipynb** and '**notebook_helper.py**'. Make sure to copy them both into your project’s working directory. The notebook template will guide you through how to pull your data and operate on it, using functions from the notebook helper program. You needn’t look into the underlying code in the notebook helper, but you are welcome to make changes should you wish. 
 
 **Note**: for **Jupyter notebooks** you may want to change directory to your working directory **before running the application**.
-
-
 
 ## 3. R and RStudio
 ### Using the R helper

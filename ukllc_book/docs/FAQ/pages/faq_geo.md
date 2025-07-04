@@ -2,7 +2,7 @@
 
  
 
-> Last modified: 20 Feb 2025
+> Last modified: 04 Jul 2025
 
  
 <details>
@@ -14,7 +14,7 @@ UK LLC place-based data covers the attributes, activities or experience of peopl
 <details>
 <summary>What is geocoding?</summary>
 
-Geocoding is the assigning of geographical coordinates to a location. The following address data are provided by LPS to UK LLC: 
+Geocoding is the assigning of geographical coordinates to a location. The following address data are provided by some LPS to UK LLC: 
 
 Address line 1 (Premises level) 
 
@@ -35,7 +35,7 @@ These data are matched using a database lookup to convert the physical address i
 <details>
 <summary>What can I do with place-based datasets? How might they enhance my research project?</summary>  
 
-Place-based data provides information about the attributes and environment of where participants live. The linked data can be used to investigate the impact of environmental exposures on participants’ health. In addition, spatial covariates (risk factors) into can be introduced into your models to reduce the error in the model to increase the power of the factor tests eg. Analysis attempting to understand environmental triggering of a disease. 
+Place-based data provides information about the attributes and environment of where participants live. The linked data can be used to investigate the impact of environmental exposures on participants’ health. In addition, spatial covariates (risk factors) can be introduced into your models to reduce the error in the model to increase the power of the factor tests e.g. analysis attempting to understand environmental triggering of a disease. 
 </details>
  
 
@@ -68,7 +68,7 @@ UK LLC performs rigorous disclosure control checks before place-based data enter
 <details>
 <summary>LPS have to provide permissions at 4 levels, but what does this mean to me as a researcher?</summary>      
 
-Not every LPS has [permissions for place-based linkages](https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages) and the geographic unit of the permissions differs, i.e. address level vs. neighbourhood level. We will be adding more information about the geo linkages to future freezes.
+Not every LPS has [permissions for place-based linkages](../../Linkages/LPS_linkages.md) and the geographic unit of the permissions differs, i.e. address level vs. neighbourhood level. We will be adding more information about the place-based linkages to future [**freezes**](../../ukllc_key_facts/Sample/UKLLC_sample.md).
 </details>
  
 

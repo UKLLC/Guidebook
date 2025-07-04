@@ -1,6 +1,7 @@
 # Using Git
->Last modified: 02 Apr 2025
-
+>Last modified: 04 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains how to use UK LLC Git repositories to promote reproducible and reusable research.</strong></div>  
+<br>
 Click on the YouTube link below for a video guide (5 minutes). Alternatively, scroll down to follow the written step-by-step instructions. 
 
 [![Image alt text](https://img.youtube.com/vi/7JnFnvJcLO0/0.jpg)](https://www.youtube.com/watch?v=7JnFnvJcLO0)
@@ -108,7 +109,7 @@ To share syntax and other files with researchers working on other projects, you 
 * it is **UK LLC's responsibility** to copy the file to the internal **ReadAll GitLab repository**.   
 
 ### File outs
-See the [**Moving files in and out guide**](MovingFilesInAndOut.md) to understand how to submit a syntax or documentation file out for review. 
+See the [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md) to understand how to submit a syntax or documentation file out for review. 
 
 * Documentation must be sufficiently detailed for other researchers to understand the syntax.  
 * Content of the syntax and documentation must not increase identifiability risk of UK LLC participants.  

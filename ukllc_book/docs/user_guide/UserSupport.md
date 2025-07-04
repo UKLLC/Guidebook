@@ -1,8 +1,9 @@
 # User support
->Last modified: 18 Jun 2024
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC is committed to helping all researchers work effectively in the UK LLC Trusted Research Environment.</strong></div style>  
+<br>
 
 ## Self-service user tools
-UK LLC maintains a library of **self-service** user help tools in multiple formats, including this user guide, helper syntax and [**YouTube videos**](https://www.youtube.com/@ukllcollab). In addition, all active researchers are invited to join the monthly **UK LLC Analyst Group meetings** and the **UK LLC Data Users’ Google Group**.
+UK LLC maintains a library of **self-service** user help tools in multiple formats, including this user guide, helper syntax and [**YouTube videos**](https://www.youtube.com/@ukllcollab). In addition, all active researchers are invited to join the monthly **UK LLC User Group meetings** and the **UK LLC Data Users’ Google Group**.
 
 ## Help desks
 Click on the YouTube link below for a short video guide (50 seconds). Alternatively, scroll down to follow the written step-by-step instructions. 

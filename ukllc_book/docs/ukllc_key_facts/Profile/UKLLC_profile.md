@@ -1,6 +1,6 @@
 # UK LLC profile
->Last modified: 03 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>A summary of the demographic characteristics of LPS participants included in the UK LLC Trusted Research Environment (TRE).</strong></div>  
+>Last modified: 04 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Key demographic characteristics of LPS participants included in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 
 ## Introduction  
 As explained in the [**UK LLC sample guide**](../Sample/UKLLC_sample.md), the number of Longitudinal Population Study (LPS) participants in the UK LLC Trusted Research Environment (TRE) changes over time. UK LLC manages this complexity by establishing a '**data freeze**' of the pooled sample on a quarterly basis. Each freeze comprises a number of tables that summarise the **basic characteristics** of the UK LLC sample at that point in time, for example, how many participants from each LPS are included in the UK LLC TRE and how many are linked to each of the linked data sources. You can access each individual freeze under the UK LLC sample heading. 

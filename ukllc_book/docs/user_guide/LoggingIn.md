@@ -1,7 +1,7 @@
 # Logging in  
-
->Last modified: 24 Sep 2024
-
+>Last modified: 04 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide covers initial and subsequent login to the UK LLC Trusted Research Environment (TRE).</strong></div>  
+<br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions. 
 
 

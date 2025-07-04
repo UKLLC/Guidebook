@@ -1,5 +1,6 @@
 # Rules for researchers
->Last modified: 20 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must follow rules to safeguard the anonymity and security of LPS participants’ data in the UK LLC Trusted Research Environment (TRE).</strong></div style>  
+<br>
 
 ## Introduction
 Below is a summary of the conditions **researchers agree to** when accessing data in the UK LLC TRE. These include, but are not limited to, maintenance of confidentiality, IT equipment and reporting breaches or risks. This is followed by a summary of the **penalties** researchers may be subject to if they breach UK LLC conditions.
@@ -22,8 +23,7 @@ To be active in the UK LLC TRE you must hold valid **ONS Approved Researcher acc
 You must only **access** the UK LLC TRE from the **UK** via a **secure private or corporate network** using **organisation owned/approved machines**, which are automatically maintained so that they are fully patched and up to date with relevant virus protection. Where using a private network, you must make all reasonable efforts to ensure this is maintained and the equipment is secure (strong password) and kept patched and up to date. You must keep your **UK LLC TRE access password private** and your **2FA secure** and you must **not share** these with anyone else. You must ensure that your **display screen** is **not overlooked** by unauthorised persons when accessing the UK LLC TRE and you must **lock your computer** when you leave it unattended.
 
 ### 3. Confidentiality of data
-You must maintain the **confidentiality** of the individual level **data you access in the UK LLC TRE**. You must not share this information with anyone, except researchers named on your approved project. If you wish to share findings with a colleague who is not named on your research project, then this can only be done via a [**File Out request**](../user_guide/MovingFilesInAndOut.md) (which must undergo [**Statistical Disclosure Control**](../user_guide/SDC.md) before being approved).  
-You must not try to **identify or contact any LPS participant**. If you inadvertently identify an LPS participant you must notify the UK LLC Data Team immediately: [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk).  
+You must maintain the **confidentiality** of the individual level **data you access in the UK LLC TRE**. You must not share this information with anyone, except researchers named on your approved project. If you wish to share findings with a colleague who is not named on your research project, then this can only be done via a [**File Out request**](../user_guide/MovingFilesInAndOut.md) (which must undergo [**Statistical Disclosure Control**](../user_guide/SDC.md) before being approved). You must not try to **identify or contact any LPS participant**. If you inadvertently identify an LPS participant you must notify the UK LLC Data Team immediately: [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk).  
  
 
 ### 4. Project scope and permissions
@@ -40,12 +40,10 @@ All your analyses must lie within the **approved scope of your project** and adh
 If you have **any doubt** regarding the **scope** and **permissions** of your project, you must contact the **UK LLC Applications Team** before proceeding further: [**access@ukllc.ac.uk**](mailto:access@ukllc.ac.uk). 
 
 ### 5. Reproducible research
-You must make your **project workings** (including syntax/scripts, code lists and other relevant documentation) **accessible** to other researchers. The documentation must be sufficient for future users to understand and replicate your analyses - [**see the Using Git guide**](TeamDataScience.md).
+You must make your **project workings** (including syntax/scripts, code lists and other relevant documentation) **accessible** to other researchers. The documentation must be sufficient for future users to understand and replicate your analyses - [**see the Using Git guide**](../user_guide/TeamDataScience.md).
 
 ### 6. Audit
 You agree to your ONS Approved Researcher accreditation and the scope and permissions of your approved project being **audited** and you must provide **full cooperation**. All auditors commit to the confidentiality of the project. UK LLC Data Team staff will examine your **syntax files** and check that the variables you are accessing and including in functions, tabulations and visualisations **align** with your project documentation. If any potential **non-compliances** are identified, the Data Team will contact the **lead researcher** on the project for further information and copy in the UK LLC Information Security Team (IST). If any non-compliances are identified, the IST will consider whether an Information Security Case Report should be completed. If required, the IST will **escalate** non-compliances to the **UK Statistics Authority’s Research Accreditation Panel (RAP)** - see the [**UK LLC Audit Policy for further details**](https://ukllc.ac.uk/governance).
-
-
 
 ### 7. Reporting concerns, breaches and other incidents
 You must **report** to the UK LLC Data Team as soon as possible any **concerns**, or **breach of data** or other **incident** that may have compromised the **security** of data in the UK LLC TRE: [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk).   
@@ -60,11 +58,9 @@ You should also  **notify UK LLC** about **risks** and any **weaknesses** you id
 
 
 ### 8. Presenting/publishing your results
-You must only include data in papers/presentations that have been approved through UK LLC's output review process - [**see Moving files in and out guide**](MovingFilesInAndOut.md).
+You must only include data in papers/presentations that have been approved through UK LLC's output review process - [**see Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md).
 
-You must share all papers and similar outputs with UK LLC for review at least two weeks prior to submission for publication - [**see Publishing or presenting your research guide**](PublishingYourResearch.md).
-
-
+You must share all papers and similar outputs with UK LLC for review at least two weeks prior to submission for publication - [**see Publishing or presenting your research guide**](../user_guide/PublishingYourResearch.md).
 
 ## Penalties for researchers
-You must adhere to the terms of the **DAA and DURA** at all times. The DAA is a **legally binding contract**. Current and future access is at risk for you, your team and your organisation if you do not abide by the terms of these agreements. Serious breaches of these terms may be subject to prosecution to the full extent of civic or criminal law.
+You must adhere to the terms of the **Data Access Agreemt (DAA)** and **Data User Responsibilities Agreement (DURA)** at all times. The DAA is a **legally binding contract**. Current and future access is at risk for you, your team and your organisation if you do not abide by the terms of these agreements. Serious breaches of these terms may be subject to prosecution to the full extent of civic or criminal law.
