@@ -127,7 +127,7 @@ parts:
             - title: Datasets
               file: docs/LPS_data/Datasets/SABRE/Datasets/SABRE_datasets.ipynb
         - title: TEDS
-          file: docs/LPS_data/LPS profiles/NCDS58.ipynb
+          file: docs/LPS_data/LPS profiles/TEDS.ipynb
           sections:
             - title: Datasets
               file: docs/LPS_data/Datasets/TEDS/Datasets/TEDS_datasets.ipynb
