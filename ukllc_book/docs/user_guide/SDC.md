@@ -1,8 +1,8 @@
 # Statistical Disclosure Control (SDC)
->Last modified: 04 Jul 2025
+>Last modified: 07 Jul 2025
 
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC enforces strict SDC rules on all information leaving the UK LLC Trusted Research Environment (TRE).</strong></div style>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>This guide explains the strict SDC rules UK LLC enforces on all information leaving the UK LLC Trusted Research Environment (TRE).</strong></div style>  
 <br>
 
 Statistical disclosure refers to the risk of revealing confidential information about an individual when releasing outputs, e.g. tables or graphs from a secure environment. To prevent statistical disclosure, UK LLC enforces strict statistical disclosure control (SDC) rules. 

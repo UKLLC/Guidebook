@@ -1,7 +1,7 @@
 # Finishing your project
->Last modified: 04 Jul 2025
+>Last modified: 07 Jul 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>You must request an extension or wrap up your project when your time in the UK LLC Trusted Research Environment (TRE) is coming to an end.</strong></div style>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>This guide explains how to request an extension or wrap up your project when your time in the UK LLC Trusted Research Environment (TRE) is coming to an end.</strong></div style>  
 <br>
 
 ## Warning emails that access to TRE is expiring 

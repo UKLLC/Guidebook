@@ -1,24 +1,22 @@
 # Working with LPS data
->Last modified: 04 Jul 2025
+>Last modified: 07 Jul 2025
 
 <details>
 <summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
 
 UK LLC's [**publication policy**](https://ukllc.ac.uk/governance) requires researchers to complete a checklist to confirm which LPS data they used in their research. Before publications are submitted, and at the end of a project, UK LLC will let LPS know whether their data was used in each research project. It is helpful if researchers share their reasons for not using some datasets so UK LLC can share this information with future potential users.
 </details>
-<br>
 <details>
 <summary>How can I request additional LPS data for my project?</summary>
 
 Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data.**Note**: each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>
-<br>
 <details>
 <summary>Why are there duplicate study IDs in my LPS dataset?</summary>
 
 In most cases LPS data is one row per person. However, there are a few exceptions. Please check the relevant LPS documentation associated with the dataset you are working on.
 </details>
-<br>
+
 <details>
 <summary>Are there quirks in some datasets?</summary>
 
@@ -33,7 +31,7 @@ The following table(s) is/are an exception to this:
 
 These data require a join on 2 fields, LLC_XXXX_stud_id and person, because this table is at the child-level whereas the key ID LLC_XXXX_stud_id is at the parent-level.  
 </details>
-<br>
+
 <details>
 <summary>Do LPS have weighting variables in the TRE?</summary>
 

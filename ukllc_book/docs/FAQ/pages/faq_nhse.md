@@ -1,5 +1,5 @@
 # Working with NHS England data
->Last modified: 04 Jul 2025
+>Last modified: 07 Jul 2025
 
 <details>
 <summary>Does UK LLC check the <B>accuracy</B> of health records?</summary>
@@ -9,14 +9,12 @@ No, the UK LLC Data Team can only see de-identified records in the TRE and does 
 - Load and integrate variable and value labelling, where available from the NHS API and other web sources, into master metadata tables.
 - Run the automated disclosure control risk assessment and manually review all flagged risks.
 </details>
-<br>
 <details>
 <summary>What <B>medical codes</B> are used in the NHS England data available in the TRE?</summary>
 
 The main clinical classifications mandated by NHS England are SNOMED CT, ICD-10 and OPCS-4.
 More information on codes used in Electronic Health Records (EHRs) is available here: [**Coded variables**](../../linked_health_data/NHS_England/Coding/coding_intro.md)
 </details>
-<br>
 <details>
 <summary>For which datasets do researchers need to provide <B>codelists</B>?</summary>
 
@@ -39,13 +37,11 @@ The datasets use a range of clinical classifications, including:
 
 More information creating a codelist is available here: [**Codelists**](../../linked_health_data/NHS_England/Coding/codelists.md)
 </details>
-<br>
 <details>
 <summary>How can I quantify the <b>effect of applying codelists</b> to my dataset?</summary> 
 
 The file **NHSD_Presence** contains the number of appearances and the date of the most recent appearance for each participant for each available NHS data source. Comparing LPS participants' presence in NHS data sources against the data provisioned to a project will identify which participants appear in the data source but are not included in the provisioned data. 
 </details>
-<br>
 <details>
 <summary>What impact do the <B>different levels of coding</B> have on HES data?</summary>
 
@@ -55,7 +51,6 @@ Examples of non-specific codes include “R69=Not known” for diagnoses and “
 
 UK LLC is considering the way it makes linked health records available, by initially making unfiltered views available to researchers (with particularly sensitive records removed) rather than asking for codelists upfront. This will allow codelists to be developed whilst working with the data, but will also allow exploration of records which do not have specific codes assigned.
 </details>
-<br>
 <details>
 <summary>Why are there some <b>missing variable and value labels</b> in some datasets?</summary>
 
@@ -66,7 +61,7 @@ Variable labelling is primarily sourced from an NHS metadata API, but is not ful
 * PCM: 40%
 * DEMOGRAPHICS, CHESS, IELISA: not available.
 </details>
-<br>
+
 <details>
 <summary>What <b>version</b> of NHS England data was I provisioned?</summary>
 
@@ -76,13 +71,13 @@ All projects are 'locked' to an NHS quarterly extract as well to as a fixed tabl
 
 Each fixed table is logged as a quarterly [**'freeze'**](../../ukllc_key_facts/Sample/). The freeze number, and freeze date, is provided in the 'documentation' folder in each TRE project space.
 </details>
-<br>
+
 <details>
 <summary>Why are some NHS England variables <b>excluded or encrypted</b>?</summary>
 
 Prior to upload to the UK LLC TRE database, NHS data are assessed for disclosure risk. During this process, variables can be excluded from the upload if they are deemed to be disclosive. In cases where the variable has utility in an encrypted form, the variable is encrypted rather than excluded and an ***_e*** suffix is added to the end of the variable name e.g. *lsoa* ***_e***. Encryption is usually applied to variables which are, or provide, proxies for location information smaller than region. 
 </details>
-<br>
+
 <details>
 <summary>What do the <B><i>_ACP</i>, <i>_MAT</i> and <i>_OTR</i></B> suffixes refer to in HES data?</summary>
 
@@ -95,7 +90,6 @@ See below for data and sub table lookup relationships. Note: HESCC is a subset o
 <img src="../../images/user_guide/Picture2.png" width="400"/>  
 
 </details>
-<br>
 
 
 <details>
@@ -106,7 +100,7 @@ These sub tables do not contain an individual-level identifier. They therefore n
 <img src="../../images/user_guide/Picture3.png" width="400"/>
 
 </details>
-<br>
+
 
 <details>
 <summary>How to find test results in <B>COVID-19</B> datasets?</summary>
@@ -114,7 +108,7 @@ These sub tables do not contain an individual-level identifier. They therefore n
 * **NPEX and IELISA**: Use the variable "testresult". The result is SNOMED (SCT) coded. There are 6 codes used, e.g. “SCTID: 1240581000000104”: “Severe acute respiratory syndrome coronavirus 2 detected (finding)”.
 * **COVIDSGSS**: This dataset does not contain a test results field. We are awaiting confirmation from NHS England about how to interpret the presence of records in this dataset.
 </details>
-<br>
+
 <details>
 <summary>How can I request <b>additional data</b> for my project?</summary>
 

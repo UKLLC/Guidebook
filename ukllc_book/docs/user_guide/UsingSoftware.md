@@ -1,6 +1,6 @@
 # Available software
->Last modified: 04 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available for researchers working in the UK LLC Trusted Research Environment (TRE).</strong></div>  
+>Last modified: 07 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
 UK LLC supports researchers in using their preferred software packages. The following packages are **pre-installed** in the UK LLC TRE: 

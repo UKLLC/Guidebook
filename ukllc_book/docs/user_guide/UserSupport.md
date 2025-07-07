@@ -1,5 +1,5 @@
 # User support
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC is committed to helping all researchers work effectively in the UK LLC Trusted Research Environment.</strong></div style>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC is committed to helping all researchers to work effectively in the UK LLC Trusted Research Environment.</strong></div style>  
 <br>
 
 ## Self-service user tools
