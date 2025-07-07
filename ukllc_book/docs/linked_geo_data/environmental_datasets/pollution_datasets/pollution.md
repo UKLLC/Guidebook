@@ -2,6 +2,9 @@
 
 > Last modified: 30 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides datasets on primary, secondary, and flow pollutants including NO₂, PM₂.₅, NOₓ, O₃ and noise pollution, which can support research on environmental exposures and their health and equity impacts.</strong></div>  
+<br>
+
 ## Introduction 
 
 UK LLC pollution datasets cover both 'primary' (formed and emitted directly from particular sources) and 'secondary' (formed in the lower atmosphere by chemical reactions) pollutants. The datasets also include "flow pollutants" which are defined as "initially damaging, but are dissipated into environmental sinks with relative ease. Examples include light, noise and heat pollution, biodegradable litter and smog" ([Leventhall, 2004](https://journals.lww.com/nohe/pages/default.aspx)).

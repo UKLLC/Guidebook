@@ -2,6 +2,9 @@
 
 > Last modified: 30 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides property datasets linked to participants’ homes, enabling research into housing quality, property characteristics, and their impact on health and socioeconomic outcomes.</strong></div>  
+<br>
+
 ## Introduction
 
 UK LLC property datasets relate to the building in which a participant lives and allow us to improve our understanding of housing quality, property attributes, and property sales.

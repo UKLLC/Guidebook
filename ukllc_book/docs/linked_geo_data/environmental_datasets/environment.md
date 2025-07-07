@@ -2,6 +2,9 @@
 
 > Last modified: 20 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides linked environmental datasets covering the physical environment including climate, topography, built structures and landscape. </strong></div>  
+<br>
+
 ## Introduction 
 
 UK LLC environmental datasets refer specifically to the 'physical environment', including climate, topography, structures and landscape.

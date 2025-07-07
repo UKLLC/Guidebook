@@ -3,6 +3,10 @@
 
 >Last modified: 19 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The greenspace dataset from the University of Leicester includes metrics on vegetation, greenspace coverage, tree density, walkability, and the size and number of greenspaces.</strong></div>  
+<br>
+
+
 ## Greenspace
 
 Greenspace metrics have been developed by the Centre for Environmental Health and Sustainability, University of Leicester for residential addresses/postcodes for cohorts partnering with UK LLC, where the appropriate permissions are in place. 

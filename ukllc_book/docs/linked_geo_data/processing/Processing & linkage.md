@@ -2,6 +2,10 @@
 
 >Last modified: 19 Jun 2025
 
+
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC securely links study participants’ addresses with environmental data using a method that keeps personal and location data separate.</strong></div>  
+<br>
+
 ## Flow of place-based data into the UK LLC TRE 
 
 Flows of data from contributing Longitudinal Population Studies (LPS) and place-based data are conducted through a ‘split file’ protocol, where the flow of LPS participants’ addresses (File 1s) is entirely separate from the flow of place-based datasets (File 2s) - see Figure 1. Place-based datasets are updated at the frequency specified on the individual dataset-level pages.

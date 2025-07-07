@@ -2,6 +2,9 @@
 
 >Last modified: 09 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides modelled road-traffic noise estimates using the CNOSSOS-EU framework, incorporating traffic volumes, speeds, land cover and building heights.</div>  
+<br>
+
 ## Common framework for noise assessment methods (CNOSSOS-EU) noise modelling
 
 Modelled road-transport noise estimates are calculated in accordance to the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the European Commission (2002/49/EC). 

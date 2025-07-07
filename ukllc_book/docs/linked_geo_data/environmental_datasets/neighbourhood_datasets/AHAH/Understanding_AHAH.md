@@ -2,6 +2,9 @@
 
 >Last modified: 30 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The Access to Healthy Assets and Hazards (AHAH) dataset provides a suite of open-access health indicators, including a novel multidimensional index that summarises health-related features of neighbourhoods across Great Britain.</strong></div>  
+<br>
+
 ## Access to Healthy Assets and Hazards (AHAH)
 
 Information on the full version history of the AHAH index can be found on the [Geographic Data Service](https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah-previous-versions) website.

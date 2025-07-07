@@ -2,6 +2,10 @@
 
 >Last modified: 16 Jun 2025
 
+
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides Energy Performance Certificate (EPC) data for domestic properties in England and Wales, offering detailed information on energy efficiency, floor area, fuel type, and environmental impact.</strong></div>  
+<br>
+
 The concept for Energy Performance Certificates (EPCs) were first introduced by the EU’s Energy Performance of Buildings Directive in 2002. The directive was established to improve energy efficiency across European Union (EU) member states by implementing mandatory energy certificates of buildings.
 
 The Energy Performance of Buildings Directive (EPBD) officially  introduced EPCs in 2007. By 2008 it became mandatory in England and Wales to issue an EPC when a dwelling is sold or rented, creating a large historic database. EPC's contain detailed property level information including floor area, environmental impact and fuel type. EPCs serve as a key policy tool for improving building energy efficiency and reducing environmental impact. Since their introduction they have been implemented in different ways across Member States. 

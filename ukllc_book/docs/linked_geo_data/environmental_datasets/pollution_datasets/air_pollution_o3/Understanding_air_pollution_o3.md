@@ -3,6 +3,9 @@
 
 >Last modified: 06 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides high-resolution national exposure surfaces for NO₂ and O₃ in England and Wales (2018–2020), modelled using the HADES framework and linked to residential locations and Census geographies for population-level analysis.</div>  
+<br>
+
 ## Hybrid Air Dispersion Exposure System (HADES) 
 
 ### Methodology

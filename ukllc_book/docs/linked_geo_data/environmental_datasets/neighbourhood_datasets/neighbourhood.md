@@ -2,6 +2,9 @@
 
 > Last modified: 23 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC links to several place-based datasets that describe characteristics of participants' neighbourhoods.</strong></div>  
+<br>
+
 ## Introduction 
 
 UK LLC neighbourhood datasets cover the natural, built and social environment surrounding a participant's residential address.

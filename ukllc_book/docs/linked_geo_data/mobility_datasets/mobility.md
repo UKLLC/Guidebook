@@ -2,6 +2,9 @@
 
 > Last modified: 24 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC will provide mobility datasets capturing how people move and interact with their environment, including indicators like walkability, driving and public transport use.</strong></div>  
+<br>
+
 ## Introduction 
 
 UK LLC mobility datasets will include indicators of how people move and interact with their environment, for example, walkability metrics, driving and public transport use.

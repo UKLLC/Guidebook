@@ -2,6 +2,10 @@
 
 >Last modified: 10 Jun 2025
 
+
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides modelled road-traffic noise estimates using the CNOSSOS-EU framework, incorporating traffic volumes, speeds, land cover, building heights and environmental conditions.</div>  
+<br>
+
 ## Common framework for noise assessment methods (CNOSSOS-EU) noise modelling
 
 Modelled road-transport noise estimates have been calculated by the [University of Leicester](https://le.ac.uk/cehs/research/longitudinal-linkage-collaboration) in accordance with the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the European Commission (2002/49/EC). These noise propagation algorithms are implemented in PostgreSQL via the PostGIS v2.1 extension, following the protocol described in Gulliver et al [(2015)](https://doi.org/10.1016/j.envsoft.2014.12.022) and Morley et al [(2015)](https://doi.org/10.1016/j.envpol.2015.07.031). 

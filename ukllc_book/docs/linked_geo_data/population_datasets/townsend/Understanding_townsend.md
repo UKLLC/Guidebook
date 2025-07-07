@@ -3,6 +3,9 @@
 
 >Last modified: 09 Jun 2025
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides a 2021 version of the Townsend Deprivation Index, developed by Jephcote and Gulliver, covering the Census Output Areas across England and Wales.</strong></div>  
+<br>
+
 ## Townsend Index 
 
 ### Methodology
