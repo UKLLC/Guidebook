@@ -5,7 +5,7 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The Access to Healthy Assets and Hazards dataset is a multi-dimensional indices which describes accessibility to certain environmental features relating to health and wellbeing.</strong></div>  
 <br>
 
-<div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_AHAH.md" target="_blank">here.</a></strong></div>  
+<div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_AHAH.html" target="_blank">here.</a></strong></div>  
 <br>
 
 
