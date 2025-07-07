@@ -7,6 +7,9 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides a 2021 version of the Townsend Deprivation Index for England and Wales at the Census Output Area level.</strong></div>  
 <br>
 
+<div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_townsend.html" target="_blank">here.</a></strong></div>  
+<br>
+
 
 ## Townsend Index 
 

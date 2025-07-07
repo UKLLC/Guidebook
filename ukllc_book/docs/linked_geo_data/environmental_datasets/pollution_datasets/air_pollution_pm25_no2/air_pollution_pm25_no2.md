@@ -5,6 +5,9 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides annual-average NO₂ and PM₂.₅ exposure data for residential locations of participants, modelled by the University of Leicester and St George’s, University of London.</div>  
 <br>
 
+<div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_air_pollution_pm25_no2.html" target="_blank">here.</a></strong></div>  
+<br>
+
 ## Annual-average Nitrogen Dioxide (NO2) and Fine particulate matter (PM2.5)
 
 The air pollution datasets modelled by University of Leicester/City St George's, University of London contain continuous annual-average **nitrogen dioxide (NO2)** and **fine particulate matter (PM2.5)** exposure data, covering the **years 2010-2019** for all residential address points where a UK LLC participant has permissions in place.

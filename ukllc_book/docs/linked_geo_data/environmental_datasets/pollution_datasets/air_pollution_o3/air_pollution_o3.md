@@ -6,6 +6,9 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides high-resolution national exposure surfaces for NO₂ and O₃ in England and Wales.</div>  
 <br>
 
+<div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_air_pollution_o3.html" target="_blank">here.</a></strong></div>  
+<br>
+
 ## Hybrid Air Dispersion Exposure System (HADES) 
 
 The exposure surfaces were created using the HADES: Hybrid Air Dispersion Exposure System modelling framework, which combines dispersion modelling with satellite-derived estimates of background concentrations, land cover, and a 3-D representation of buildings, in a statistical calibration framework. 
