@@ -265,26 +265,23 @@ parts:
               file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/neighbourhood.md
               sections:
                 - title: Access to Healthy Assets and Hazards (AHAH)
-                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/AHAH.md
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/AHAH/AHAH.md
                 - title: Greenspace
-                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace.md
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.md
             - title: Property datasets
               file: docs/linked_geo_data/environmental_datasets/property_datasets/property.md
               sections:
                 - title: Energy Performance Certificates (EPC)
-                  file: docs/linked_geo_data/environmental_datasets/property_datasets/EPC.md
+                  file: docs/linked_geo_data/environmental_datasets/property_datasets/EPC/EPC.md
             - title: Pollution datasets
               file: docs/linked_geo_data/environmental_datasets/pollution_datasets/pollution.md
               sections:
                 - title: Air pollution NO2 & PM
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2.md
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.md
                 - title: Air pollution NOx, NO2 and O3
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3.md
-                  sections:
-                    - title: Understanding O3
-                      file: docs/linked_geo_data/environmental_datasets/pollution_datasets/README/O3_RAEDME.md
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.md
                 - title: Noise pollution
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution.md
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.md
         - title: Mobility datasets
           file: docs/linked_geo_data/mobility_datasets/mobility.md
         - title: Health datasets
