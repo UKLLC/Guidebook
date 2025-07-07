@@ -3,8 +3,7 @@
 
 >Last modified: 06 Jun 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides high-resolution national exposure surfaces for NO₂ and O₃ in England and Wales.</strong>
-</div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides high-resolution national exposure surfaces for NO₂ and O₃ in England and Wales.</strong></div>  
 <br>
 
 <div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_air_pollution_o3.html" target="_blank">here.</a></strong></div>  
