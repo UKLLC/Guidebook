@@ -25,30 +25,24 @@ This dataset contains greenspace metrics that are available for a 10000m circula
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_10000m_hh                                                                                                                                                             |
-| Citation (APA)                    | |
+| Citation (APA)                    | TBC | 
 | Download citation                 |                                                                                                 |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                           |
+| Number of observations            | TBC                                                                                                                                                                                           |
+| Latest extract date               | TBC                                                                                                                                                                                             |
+| Specific restrictions to data use | TBC                                                                                                                                                                                           |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -60,30 +54,24 @@ This dataset contains greenspace metrics that are available for a 5000m circular
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_5000m_hh                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -95,30 +83,23 @@ This dataset contains greenspace metrics that are available for a 2000m circular
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_2000m_hh                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
-1                                                                                                                                                                                           | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Version                           |1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -130,30 +111,23 @@ This dataset contains greenspace metrics that are available for a 1000m circular
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_1000m_hh                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
-1                                                                                                                                                                                           | 
+| Participant count                 | TBC                                                                                                                                                                                           |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Version                           | 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -165,30 +139,23 @@ This dataset contains greenspace metrics that are available for a 500m circular 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_500m_hh                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
-1                                                                                                                                                                                           | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Version                           | 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -200,30 +167,24 @@ This dataset contains greenspace metrics that are available for a 300m circular 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_300m_hh                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                           |
+| Number of variables               | TBC                                                                                                                                                                                           |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -235,30 +196,24 @@ This dataset contains greenspace metrics that are available for a 2000m distance
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_2000m_hh                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -270,30 +225,24 @@ This dataset contains greenspace metrics that are available for a 1000m distance
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_1000m_hh                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -305,30 +254,24 @@ This dataset contains greenspace metrics that are available for a 500m distance 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_500m_hh                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Version                           | TBC
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -340,30 +283,24 @@ This dataset contains greenspace metrics that are available for a 300m distance 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_300m_hh                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -377,30 +314,24 @@ This dataset contains greenspace metrics that are available for a 10000m circula
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_10000m_pc                                                                                                                                                             |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Version                           |
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -412,30 +343,24 @@ This dataset contains greenspace metrics that are available for a 5000m circular
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_5000m_pc                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -447,31 +372,24 @@ This dataset contains greenspace metrics that are available for a 2000m circular
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_2000m_pc                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-
+TBC
 </details>
 
 <details>
@@ -482,30 +400,24 @@ This dataset contains greenspace metrics that are available for a 1000m circular
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_1000m_pc                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                               |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -517,30 +429,24 @@ This dataset contains greenspace metrics that are available for a 500m circular 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_500m_pc                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -552,30 +458,24 @@ This dataset contains greenspace metrics that are available for a 300m circular 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greenspace_circle_points_300m_pc                                                                                                                                                              |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -587,30 +487,24 @@ This dataset contains greenspace metrics that are available for a 2000m distance
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_2000m_pc                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -622,30 +516,24 @@ This dataset contains greenspace metrics that are available for a 1000m distance
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_1000m_pc                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -657,30 +545,24 @@ This dataset contains greenspace metrics that are available for a 500m distance 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_500m_pc                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -692,38 +574,31 @@ This dataset contains greenspace metrics that are available for a 300m distance 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | greespace_polygon_points_300m_pc                                                                                                                                                               |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
 | Temporal coverage                 | 1990-2020                                                                                                                                                                                  |
 | Geographical coverage             | United Kingdom                                                                                                                                                                           |
 | Key link                          | https://le.ac.uk/people/sarah-johnson                                                                                               |
 | Keywords                          | Greenspace, Environment, Walkability                                                                                                                                                            |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-
+TBC
 </details>
 
 ## 2. Metrics 
+TBC
 
-Click on the plus sign to see the number of participants represented in each dataset. 
-
-## 3. Version History  
+## 3. Version History 
+TBC 
 
 ## 4. Documentation 
 
@@ -731,6 +606,6 @@ We are currently building a documentation storage system which will host relevan
 
 ## 5. Useful Syntax 
 
-Below we will include syntax that may be helpful to other researchers in the UK LLC TRE. For longer scripts, we will include a snippet of the code plus a link to the UK LLC GitHub repository where you can find the full scripts. 
+Below, we will include syntax that may be helpful to other researchers in the UK LLC TRE. For longer scripts, we will include a snippet of the code plus a link to the UK LLC GitHub repository, where you can find the full scripts. 
 
  

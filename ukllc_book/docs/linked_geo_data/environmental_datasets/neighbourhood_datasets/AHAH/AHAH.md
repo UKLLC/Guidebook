@@ -31,13 +31,13 @@ Air quality (NO₂, PM10, SO₂), this dataset covers England and Wales.
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | [Geographic Data Service: AHAH](https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah)                                                                                                |
 | Keywords                          | Health, Retail, Environment, Air quality                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | 21                                                                                                                                                                                          |
+| Number of observations            | 34,753                                                                                                                                                                                          |
+| Latest extract date               | TBC                                                                                                                                                                                          |
+| Specific restrictions to data use | None                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Data owner version                           | 
 3                                                                                                                                                                                           | 
 
 **Variables**
@@ -83,13 +83,13 @@ Air quality (NO₂, PM10, SO₂), this dataset covers Scotland.
 | Geographical coverage             | Scotland                                                                                                                                                                           |
 | Key link                          | [Geographic Data Service: AHAH](https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah)                                                                                                |
 | Keywords                          | Health, Retail, Environment, Air quality                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | 21                                                                                                                                                                                            |
+| Number of observations            | 6,976                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | None                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Data owner version                           | 
 3                                                                                                                                                                                           | 
 
 
@@ -122,9 +122,11 @@ Air quality (NO₂, PM10, SO₂), this dataset covers Scotland.
 
 ## 2. Metrics 
 
-Click on the plus sign to see the number of participants represented in each dataset. 
+TBC
 
-## 3. Version History 
+## 3. Version History
+
+TBC
 
 ## 4. Documentation 
 
