@@ -8,6 +8,8 @@ parts:
     - title: UK LLC key facts
       file: docs/ukllc_key_facts/key_facts.md
       sections:
+        - title: Can I apply?
+          file: docs/ukllc_key_facts/Eligibility/eligibility.md
         - title: UK LLC profile
           file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
         - title: UK LLC sample
