@@ -285,3 +285,23 @@ def get_md_api_frz_link_nhse() -> pd.DataFrame:
         return "HTTP Error: " + str(err)
 
     return pd.DataFrame(json.loads(r_d.text))
+
+
+def get_freeze_profile():
+    """Returns dataframe of freeze profile metrics (sex, age, ethnicity)
+
+    Returns:
+        pd.DataFrame: dataframe of freeze profile metrics
+    """
+    r_d = requests.get(
+            "https://metadata-api-4a09f2833a54.herokuapp.com/"
+            "freeze-profile/",
+            headers={'access_token': API_KEY.strip()})
+
+    try:
+        r_d.raise_for_status()
+
+    except requests.exceptions.HTTPError as err:
+        return "HTTP Error: " + str(err)
+
+    return pd.DataFrame(json.loads(r_d.text))
