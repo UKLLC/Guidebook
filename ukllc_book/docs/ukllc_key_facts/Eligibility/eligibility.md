@@ -1,7 +1,7 @@
 
 # Can I apply?
 >Last modified: 09 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers must be UK-based and ONS accredited, and their project must be for the public good.</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers must be UK-based and ONS accredited, and their project must be in the public good.</strong></div>  
 <br>
 
 To ensure the appropriate and fair use of LPS participants’ information, UK LLC operates a rigorous multi-stage [application assessment process](https://ukllc.ac.uk/apply). All applicants and 
@@ -22,12 +22,9 @@ their applications are assessed against the [‘Five Safes’ Framework](https:/
 ## Application requirements
 > Applications must:
 > * Be in the **public good** - UK LLC currently follows the [National Data Guardian (NDG) guidance](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124013/NDG_public_benefit_guidance_v1.0_-_14.12.22.pdf)<sup>1</sup> to assess public good. 
-> * Have a favourable ethics opinion.
-> * Be approved by LPS and other data owners.
+> * Have an ethical assessment.
+> * Be approved by partner LPS and other data owners.
 > * Align with data owners' specific terms and conditions.  
 > <br>
 
 <sup>1</sup>UK LLC is working with its public contributors to develop a context-specific public good definition which will replace our use of the NDG definition - we will update this page in due course.
-
-## Future developments
-UK LLC is working with partner LPS to explore opening up to **commercial** organisations and researchers based **outside the UK**. We will update this page with further details as they become available. 
