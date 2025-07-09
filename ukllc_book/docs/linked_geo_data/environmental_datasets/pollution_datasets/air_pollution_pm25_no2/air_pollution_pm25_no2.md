@@ -22,31 +22,25 @@ Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposu
 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name of dataset in TRE            |                                                                                                                                                            |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Name of dataset in TRE            | air_pollution_hh                                                                                                                                           |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                               |
 | Owner                             | University of Leicester                                                                                                                                                                     |
-| Temporal coverage                 |                                                                                                                                                                                    |
-| Geographical coverage             |                                                                                                                                                                            |
-| Key link                          |                                                                                                 |
+| Temporal coverage                 | TBC                                                                                                                                                                                   |
+| Geographical coverage             | TBC                                                                                                                                                                           |
+| Key link                          | TBC                                                                                                |
 | Keywords                          | Pollution, Nitrogen Dioxide, Fine particulate matter                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Version                           | 1
                                                                                                                                                                                          | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -58,40 +52,34 @@ Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposu
 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name of dataset in TRE            |                                                                                                                                                             |
-| Citation (APA)                    | |
-| Download citation                 |                                                                                                 |
+| Name of dataset in TRE            | air_pollution_pc                                                                                                                                           |
+| Citation (APA)                    | TBC|
+| Download citation                 | TBC                                                                                                |
 | Owner                             | University of Leicester                                                                                                                                                                     |
-| Temporal coverage                 |                                                                                                                                                                                    |
-| Geographical coverage             |                                                                                                                                                                            |
-| Key link                          |                                                                                                 |
+| Temporal coverage                 | TBC                                                                                                                                                                                   |
+| Geographical coverage             | TBC                                                                                                                                                                           |
+| Key link                          | TBC                                                                                                |
 | Keywords                          | Pollution, Nitrogen Dioxide, Fine particulate matter                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
-| Version                           | 
-                                                                                                                                                                                         | 
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
+| Version                           | 1         |                                                            
+                                                                                                                                                                                                                                     
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
 
 ## 2. Metrics 
+TBC
 
-Click on the plus sign to see the number of participants represented in each dataset. 
-
-## 3. Version History  
+## 3. Version History
+TBC
 
 ## 4. Documentation 
 

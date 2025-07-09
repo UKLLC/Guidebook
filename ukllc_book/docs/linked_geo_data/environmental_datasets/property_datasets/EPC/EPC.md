@@ -21,38 +21,33 @@ An Energy Performance Certificate (EPC) provides information on the energy effic
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            | EPC_certificates_england_wales                                                                                                                                                            |
 | Citation (APA)                    | Department for Levelling Up, Housing & Communities. Energy Performance of Buildings Data England and Wales.2024. url: https://epc.opendatacommunities.org |
-| Download citation                 |                                                                                                |
+| Download citation                 | TBC                                                                                               |
 | Owner                             | Department for Levelling Up, Housing & Communities                                                                                                                                                                     |
 | Temporal coverage                 | 2008-2024                                                                                                                                                                                   |
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | https://epc.opendatacommunities.org/docs/guidance                                                                                               |
 | Keywords                          | Energy, propoerty type, environmental impact, emissions                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
 
 ## 2. Metrics 
 
-Click on the plus sign to see the number of participants represented in each dataset. 
+TBC
 
-## 3. Version History 
+## 3. Version History
+TBC
 
 ## 4. Documentation 
 

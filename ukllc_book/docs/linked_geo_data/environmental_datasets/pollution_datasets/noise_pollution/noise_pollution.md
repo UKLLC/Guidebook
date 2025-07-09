@@ -29,23 +29,17 @@ Annual Average Daily Traffic (AADT) counts and traffic speeds across the UK road
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | https://www.researchgate.net/publication/280894153_Common_noise_assessment_methods_in_Europe_CNOSSOS-EU                                                                                                |
 | Keywords                          | Noise, Pollution, Road, Transport                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -63,31 +57,25 @@ Annual Average Daily Traffic (AADT) counts and traffic speeds across the UK road
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | https://www.researchgate.net/publication/280894153_Common_noise_assessment_methods_in_Europe_CNOSSOS-EU                                                                                                |
 | Keywords                          | Noise, Pollution, Road, Transport                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
 ## 2. Metrics 
+TBC 
 
-Click on the plus sign to see the number of participants represented in each dataset. 
-
-## 3. Version History 
+## 3. Version History
+TBC 
 
 ## 4. Documentation 
 

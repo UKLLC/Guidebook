@@ -26,30 +26,24 @@ This file contains geographical indicators for each LSOA in England. The indicat
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            |IMD_england                                                                                                                                                          |
-| Citation (APA)                    |  |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC  |
+| Download citation                 | TBC                                                                                                |
 | Owner                             | UK LLC                                                                                                                                                                     |
 | Temporal coverage                 | 2011-2020                                                                                                                                                                                   |
 | Geographical coverage             | England                                                                                                                                                                           |
 | Key link                          | https://data.geods.ac.uk/dataset/index-of-multiple-deprivation-imd                                                                                                |
 | Keywords                          | Deprivation, urban, rural, population estimate ownership                                                                                                                                                           |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -62,31 +56,24 @@ This file contains geographical indicators for each LSOA in Wales. The indicator
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            |IMD_wales                                                                                                                                                          |
-| Citation (APA)                    |  |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    |TBC  |
+| Download citation                 | TBC                                                                                                |
 | Owner                             | UK LLC                                                                                                                                                                     |
 | Temporal coverage                 | 2011-2020                                                                                                                                                                                   |
 | Geographical coverage             | England                                                                                                                                                                           |
 | Key link                          | https://data.geods.ac.uk/dataset/index-of-multiple-deprivation-imd                                                                                                |
 | Keywords                          | Deprivation, urban, rural, population estimate ownership                                                                                                                                                           |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-
+TBC
 </details>
 <details>
 
@@ -98,32 +85,25 @@ This file contains geographical indicators for each Data Zone (DZ) in Scotland. 
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            |IMD_scotland                                                                                                                                                          |
-| Citation (APA)                    |  |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    | TBC |
+| Download citation                 | TBC                                                                                                |
 | Owner                             | UK LLC                                                                                                                                                                     |
 | Temporal coverage                 | 2011-2020                                                                                                                                                                                   |
 | Geographical coverage             | England                                                                                                                                                                           |
 | Key link                          | https://data.geods.ac.uk/dataset/index-of-multiple-deprivation-imd                                                                                                |
 | Keywords                          | Deprivation, urban, rural, population estimate ownership                                                                                                                                                           |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-
+TBC
 </details>
 
 <details>
@@ -135,39 +115,33 @@ This file contains geographical indicators for each SOA in Northern Ireland. The
 | **Dataset Descriptor**             | **Dataset-specific Information**                                                                                                                                                           |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name of dataset in TRE            |IMD_wales                                                                                                                                                          |
-| Citation (APA)                    |  |
-| Download citation                 |                                                                                                 |
+| Citation (APA)                    |TBC  |
+| Download citation                 | TBC                                                                                                |
 | Owner                             | UK LLC                                                                                                                                                                     |
 | Temporal coverage                 | 2011-2020                                                                                                                                                                                   |
 | Geographical coverage             | England                                                                                                                                                                           |
 | Key link                          | https://data.geods.ac.uk/dataset/index-of-multiple-deprivation-imd                                                                                                |
 | Keywords                          | Deprivation, urban, rural, population estimate ownership                                                                                                                                                           |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-
+TBC
 </details>
 
 
 ## 2. Metrics 
 
-Click on the plus sign to see the number of participants represented in each dataset. 
+TBC
 
-## 3. Version History 
+## 3. Version History
+TBC 
 
 ## 4. Change Log 
 
