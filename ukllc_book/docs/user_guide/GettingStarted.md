@@ -1,5 +1,5 @@
 # Getting started
->Last modified: 04 Jul 2025
+>Last modified: 09 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains the basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions. 
@@ -18,6 +18,10 @@ Each **view** of data provided is named following the convention: **LLC_XXXX.SCH
 Associated metadata (value and variable labels) are also provided as database views. A **codelist library** of all codelists requested for any project to date are available to researchers for reference purposes. 
 
 ## Your project folders and project naming
+
+<div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><ALWAYS >**ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE.** Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>  
+<br>
+
 Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all researchers should follow the [**UK LLC Naming of Projects & Data-related Outputs Policy**](https://ukllc.ac.uk/governance).
 
 In order to access your project folder, open the ‘S drive’:  
