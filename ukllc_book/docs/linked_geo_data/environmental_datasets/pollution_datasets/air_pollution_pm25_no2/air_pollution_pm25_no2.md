@@ -2,8 +2,7 @@
 
 >Last modified: 27 Jun 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides annual-average NO₂ and PM₂.₅ exposure data for residential locations of participants, modelled by the University of Leicester and St George’s, University of London.</strong>
-</div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides annual-average NO₂ and PM₂.₅ exposure data for residential locations of participants, modelled by the University of Leicester and St George’s, University of London.</strong></div>  
 <br>
 
 <div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_air_pollution_pm25_no2.html" target="_blank">here.</a></strong></div>  

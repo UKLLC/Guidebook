@@ -1,4 +1,4 @@
-# README: Index of Multiple Deprivation (IMD)
+# Understanding: Index of Multiple Deprivation (IMD)
 
 > Last modified: 10 Jun 2025
 
