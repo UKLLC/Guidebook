@@ -1,5 +1,5 @@
 # Available linkages
->Last modified: 04 Jul 2025
+>Last modified: 09 Jul 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>See the tables below to understand the linkages and breadth of research topics that each Longitudinal Population Study (LPS) permits.</strong></div>  
 <br>
@@ -9,9 +9,9 @@ The tables below summarise the **available linkages**. Linkages to Department fo
 LPS are working to gain the necessary permissions to enable research in the public good (beyond COVID-19). Table 1 shows data available for research in the public good and Table 2 shows data available for COVID-19 research only. We will update Table 1 as more LPS' data becomes available for wider research purposes. 
 <br>
 
->Participants can always choose to opt out of UK LLC or specific data linkages. If a participant opts out, no new data about them will be shared, but  data that has already been provisioned can still be used until the project ends. Please see the [**UK LLC Privacy Notice**](https://ukllc.ac.uk/privacy-policy) for further information.
+>Participants can always object to UK LLC or specific data linkages. If a participant objects, no new data about them will be shared, but  data that has already been provisioned can still be used until the project ends. Please see the [**UK LLC Privacy Notice**](https://ukllc.ac.uk/privacy-policy) for further information.
 
-## GP data
+## English GP data
 >The linked NHS England GP data [(**GDPPR dataset**)](../linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb) can only be used for research relating to COVID-19. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)  
 
 ## Any public good research (including COVID-19)
@@ -61,4 +61,4 @@ LPS are working to gain the necessary permissions to enable research in the publ
 ## Future linkages
 
 * The Scottish Public Benefit and Privacy Panel has conditionally approved linkage to [**Scottish health records**](../linked_health_data/NHS_Scotland/NHSS_intro.md). 
-* UK LLC continues to work with the [**Department of Education**](../linked_admin_data/DfE_data/DfE_data.md) to establish the necessary permissions to link to education data.
+* UK LLC continues to work to establish the necessary permissions to link to four nations education data.
