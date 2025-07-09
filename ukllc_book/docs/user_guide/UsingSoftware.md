@@ -48,7 +48,7 @@ The **batch file** ('create_python_env.bat') can be **edited** if you wish to st
 
 ### Using your new environment
 
-<div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><ALWAYS >**ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE.** By default Anaconda Prompt will open in the C:\ drive, remember to change the directory using the steps below. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>  
+<div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><strong>ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE.** By default Anaconda Prompt will open in the C:\ drive, remember to change the directory using the steps below. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>  
 <br>
 
 If you are using **Jupyter Notebooks, Spyder** or any other **Anaconda tools** for your analyses it is recommended that you launch these from Anaconda Prompt **after activating your new environment**. This will ensure you are running your new environment within the application. To do this:
