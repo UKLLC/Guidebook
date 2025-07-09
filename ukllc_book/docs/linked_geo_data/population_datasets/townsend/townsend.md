@@ -32,23 +32,17 @@ This deprivation index is constructed from four unweighted UK Census variables, 
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | [https://doi.org/10.1016/j.envint.2025.109304](https://doi.org/10.1016/j.envint.2025.109304)                                                                                                |
 | Keywords                          | Deprivation, Unemployment, Overcrowding, Vehicle ownership, Home ownership                                                                                                                                                           |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -56,9 +50,10 @@ This deprivation index is constructed from four unweighted UK Census variables, 
 
 ## 2. Metrics 
 
-Click on the plus sign to see the number of participants represented in each dataset. 
+TBC
 
-## 3. Version History 
+## 3. Version History
+TBC 
 
 ## 4. Documentation 
 

@@ -34,23 +34,17 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | [https://doi.org/10.1016/j.envint.2025.109304](https://doi.org/10.1016/j.envint.2025.109304)                                                                                                |
 | Keywords                          | Pollution, Nitrogen Dioxide, Ozone                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 
 1                                                                                                                                                                                           | 
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
+TBC
 
 </details>
 
@@ -69,23 +63,16 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | [https://doi.org/10.1016/j.envint.2025.109304](https://doi.org/10.1016/j.envint.2025.109304)                                                                                                |
 | Keywords                          | Pollution, Nitrogen Dioxide, Ozone                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
-| Number of variables               |                                                                                                                                                                                             |
-| Number of observations            |                                                                                                                                                                                             |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
+| Number of variables               | TBC                                                                                                                                                                                            |
+| Number of observations            | TBC                                                                                                                                                                                            |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 1                                                                                                                                                                                           |
 
 **Variables:**
-| **Variable Group** | **Variable** | **Description** | **Source** | **Date range of data** |
-|--------------------|--------------|------------------|------------|-------------------------|
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-|                    |              |                  |            |                         |
-
+TBC
 </details>
 
 <details>
@@ -103,12 +90,12 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | [https://doi.org/10.1016/j.envint.2025.109304](https://doi.org/10.1016/j.envint.2025.109304)                                                                                                |
 | Keywords                          | Pollution, Nitrogen Dioxide, Ozone                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
 | Number of variables               | 27                                                                                                                                                                                          |
 | Number of observations            | 1,048,576                                                                                                                                                                                   |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 1                                                                                                                                                                                           |
 
 **Variables:**
@@ -162,12 +149,12 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | [https://doi.org/10.1016/j.envint.2025.109304](https://doi.org/10.1016/j.envint.2025.109304)                                                                                                |
 | Keywords                          | Pollution, Nitrogen Dioxide, Ozone                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
 | Number of variables               | 17                                                                                                                                                                                          |
 | Number of observations            | 1,048,576                                                                                                                                                                                   |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 1                                                                                                                                                                                           |
 
 **Variables:**
@@ -210,12 +197,12 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 | Geographical coverage             | England and Wales                                                                                                                                                                           |
 | Key link                          | [https://doi.org/10.1016/j.envint.2025.109304](https://doi.org/10.1016/j.envint.2025.109304)                                                                                                |
 | Keywords                          | Pollution, Nitrogen Dioxide, Ozone                                                                                                                                                          |
-| Participant count                 |                                                                                                                                                                                             |
+| Participant count                 | TBC                                                                                                                                                                                            |
 | Number of variables               | 18                                                                                                                                                                                          |
 | Number of observations            | 35,672                                                                                                                                                                                      |
-| Latest extract date               |                                                                                                                                                                                             |
-| Specific restrictions to data use |                                                                                                                                                                                             |
-| Build a data request              |                                                                                                                                                                                             |
+| Latest extract date               | TBC                                                                                                                                                                                            |
+| Specific restrictions to data use | TBC                                                                                                                                                                                            |
+| Build a data request              | TBC                                                                                                                                                                                            |
 | Version                           | 1                                                                                                                                                                                           |
 
 **Variables:**
@@ -253,18 +240,18 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 |------------------------------|----------------------------------------------------------------------------------------------|
 | Name of dataset in TRE        | HADES_estimates_england_wales_MSOA                                                          |
 | Citation (APA)                | Jephcote, C., & Gulliver, J. (2025). Development and evaluation of rapid, national-scale outdoor air pollution modelling and exposure assessment: Hybrid air dispersion exposure system (HADES). Environment International, 109304. |
-| Download citation             |                                                                                              |
+| Download citation             | TBC                                                                                             |
 | Owner                        | University of Leicester                                                                       |
 | Temporal coverage            | 2018-2020                                                                                    |
 | Geographical coverage        | England and Wales                                                                           |
 | Key link                    | https://doi.org/10.1016/j.envint.2025.109304                                               |
 | Keywords                     | Pollution, Nitrogen Dioxide, Ozone                                                          |
-| Participant count            |                                                                                              |
+| Participant count            | TBC                                                                                             |
 | Number of variables          | 18                                                                                           |
 | Number of observations       | 7,264                                                                                        |
-| Latest extract date          |                                                                                              |
-| Specific restrictions to data use |                                                                                         |
-| Build a data request          |                                                                                              |
+| Latest extract date          | TBC                                                                                             |
+| Specific restrictions to data use | TBC                                                                                        |
+| Build a data request          | TBC                                                                                             |
 | Version                     | 1                                                                                            |
 
 **Variables:**
@@ -313,10 +300,10 @@ HADES is a national-scale model of outdoor air pollution model that was develope
 </details>
 
 ## 2. Metrics 
-
-Click on the plus sign to see the number of participants represented in each dataset. 
+TBC
 
 ## 3. Version History 
+TBC
 
 ## 4. Documentation 
 
