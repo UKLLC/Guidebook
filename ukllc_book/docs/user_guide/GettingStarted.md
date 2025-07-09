@@ -1,6 +1,7 @@
 # Getting started
->Last modified: 05 Feb 2025
-
+>Last modified: 09 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains the basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>  
+<br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions. 
 
 [![Image alt text](https://img.youtube.com/vi/io6yO6I3utQ/0.jpg)](https://www.youtube.com/watch?v=io6yO6I3utQ)
@@ -17,7 +18,11 @@ Each **view** of data provided is named following the convention: **LLC_XXXX.SCH
 Associated metadata (value and variable labels) are also provided as database views. A **codelist library** of all codelists requested for any project to date are available to researchers for reference purposes. 
 
 ## Your project folders and project naming
-Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all research users **must follow** the [**UK LLC Naming of Projects & Data-related Outputs Policy**](https://ukllc.ac.uk/governance).
+
+<div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><strong>ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>  
+<br>
+
+Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all researchers should follow the [**UK LLC Naming of Projects & Data-related Outputs Policy**](https://ukllc.ac.uk/governance).
 
 In order to access your project folder, open the ‘S drive’:  
 <img src="../images/user_guide/image-17.png" width="300"/>
@@ -51,7 +56,7 @@ The helper scripts (python, R, Stata) use this data source to pull the relevant 
 A list of your database views can be found in the ‘**available_views**’ sub-folder of your project folder.
 
 ## Metadata
-All metadata are provided as database views in schemas accessible to everyone in the TRE. Metadata are split into **value labels** called ‘VALUE.all_values’ and **variable labels** called ‘DESCS.all_descriptions’. Using the variables ‘table_name’ and ‘TABLE_SCHEMA’, metadata can be linked to your data. Like all data, metadata can be viewed, queried and linked to your data using different software packages - see [**Available software guide**](UsingSoftware.md).
+All metadata are provided as database views in schemas accessible to everyone in the TRE. Metadata are split into **value labels** called ‘VALUE.all_values’ and **variable labels** called ‘DESCS.all_descriptions’. Using the variables ‘table_name’ and ‘TABLE_SCHEMA’, metadata can be linked to your data. Like all data, metadata can be viewed, queried and linked to your data using different software packages - see [**Available software guide**](../user_guide/UsingSoftware.md).
 
 Value and variable labels are available for LPS data and the majority of NHS England data. NHS England metadata are primarily sourced from an NHS metadata API, but there are gaps, which we will fill from alternative sources. In the interim, please use: [**https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard**](https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard).
 
