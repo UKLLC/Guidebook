@@ -257,7 +257,7 @@ parts:
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
             - title: Index of Multiple Deprivation (IMD)
-              file: docs/linked_geo_data/population_datasets/IMD
+              file: docs/linked_geo_data/population_datasets/IMD.md
             - title: Townsend Deprivation Index
               file: docs/linked_geo_data/population_datasets/townsend/townsend.md
         - title: Environmental datasets
