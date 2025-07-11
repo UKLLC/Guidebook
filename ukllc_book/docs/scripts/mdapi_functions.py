@@ -5,6 +5,22 @@ import pandas as pd
 
 API_KEY = os.environ['FASTAPI_KEY']
 
+def get_place_dataset_info():
+    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/place-dataset-info/')
+    r = requests.get(url, headers={'access_token': API_KEY})
+    return pd.json_normalize(json.loads(r.text))
+
+def get_place_var_info():
+    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/place-var-info/')
+    r = requests.get(url, headers={'access_token': API_KEY})
+    return pd.json_normalize(json.loads(r.text))
+
+
+def get_table_vars(source, table):
+    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/datasets/{{source_and_table_name}}?source={}&table_name={}'.format(source, table))
+    r = requests.get(url, headers={'access_token': API_KEY})
+    return pd.json_normalize(json.loads(r.text))
+
 
 def get_nhse_cohort_counts(ds: str) -> pd.DataFrame:
     """Returns cohort counts per study for a given NHSE dataset

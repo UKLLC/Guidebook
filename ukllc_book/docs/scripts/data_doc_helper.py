@@ -328,7 +328,7 @@ class LPSDataSet:
                     cite["titles"][0]["title"] + \
                     ".</i> " + \
                     cite["publisher"] + \
-                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/10.83126/ukllc-series-00001")
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/" + x)
 
                 dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
                     md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
@@ -579,7 +579,7 @@ class LPSSource:
                     cite["titles"][0]["title"] + \
                     ".</i> " + \
                     cite["publisher"] + \
-                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/10.83126/ukllc-series-00001")
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/" + x)
 
                 dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
                     md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
@@ -1510,3 +1510,175 @@ class NHSESource:
         return display(
             Markdown(
                 "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
+
+class PlaceDataSet:
+    """Datasets in PLACE and subsequent functions for GB pages
+    """
+
+    def __init__(self, dataset: str):
+        """Init function generating self.variables for later use in functions
+
+        Args:
+            dataset (str): name of NHSE dataset e.g. IAPT or HESCC
+
+        Returns:
+            self.dataset (str): dataset
+            self.df_ds (DF) DF of dataset info / metrics
+            self.doi (str): UKLLC DOI of dataset
+            self.ed (str): latest extract date in "DD Mon YYYY" format
+            self.apa_cite (str): citation of latest v DOI in APA style
+            self.dl_cites (str): trio of DLable citations
+            self.latest_v (str): DF of metrics of latest dataset version
+        """
+
+        def get_place_ds(x):
+            ds = md.get_md_api_dss()
+            if x.startswith("air_pollution"):
+                df_ds = ds[(ds["source"] == "GEO") & (ds["table"] == "air_pollution")]
+
+            df_ds["source_table"] = df_ds["source"] + "_" + df_ds["table"]
+            ss = md.get_md_api_ss()[["Owner", "source"]]
+            df_ds = df_ds.merge(ss, on="source")
+            df_ds["dataset"] = x
+            df_ds2 = md.get_place_dataset_info()
+            df_ds2 = df_ds2[df_ds2["dataset"] == x][["dataset", "geographical_coverage", "authors", "hyperlink"]]
+            df_ds = df_ds.merge(df_ds2, on="dataset")
+
+            return df_ds
+
+        def get_lastest_dsvs(x):
+            dsvs = md.get_md_api_dsvs()
+            dsvs = dsvs[(dsvs["source"] == "GEO") & (dsvs["table"] == x)]
+            dsvs["source_table"] = dsvs["source"] + "_" + dsvs["table"]
+            dsvs["version_num"] = dsvs["version_num"].\
+                            apply(lambda x: int(x.replace("v", "")))
+            dsvs = dsvs.sort_values(by="version_num", ascending=False).drop_duplicates(subset="table")
+            dsvs["num_columns"] = dsvs["num_columns"].apply(lambda x: int(x))
+            dsvs["num_rows"] = dsvs["num_rows"].apply(lambda x: int(x))
+            return dsvs
+
+        def ds_doi(x: str):
+                """Returns UKLLC DOI of dataset
+
+                Args:
+                    x (str): dataset e.g. "IAPT" or "HESCC"
+
+                Returns:
+                    str: UKLLC DOI of dataset or "DOI TBC" if none minted
+                """
+
+                doi_ds = dcf.get_doi_datasets()[dcf.get_doi_datasets()["state"] == "findable"]
+                doi_ds["source_table"] = doi_ds["attributes.titles"].apply(lambda x: x[1]["title"] if len(x) > 1 else "NA")
+
+                doi_ds = doi_ds[doi_ds["source_table"] == "GEO_" + x]
+                doi_ds = doi_ds.sort_values(by="attributes.version", ascending=False).drop_duplicates(subset="source_table")
+
+                if len(doi_ds) == 1:
+                    return doi_ds.iloc[0]["id"]
+                else:
+                    return "DOI TBC"
+
+        def cites(x: str):
+            """Returns citation APA style and trio of DL links
+
+            Args:
+                x (str): UKLLC DOI of dataset
+
+            Returns:
+                str: APA style citation of dataset
+                str: trio of DL links for citation
+            """
+
+            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+            bibtex = "https://api.datacite.org/application/x-bibtex/"
+            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            if x == "DOI TBC":
+                apa_cite = "DOI and Citation TBC"
+                dl_cites = "DOI and Citation Downloads TBC"
+                return apa_cite, dl_cites
+
+            else:
+                cite = json.loads(requests.get(
+                    "https://api.test.datacite.org/dois/" + x,
+                ).text)['data']['attributes']
+
+                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
+                bibtex = "https://api.datacite.org/application/x-bibtex/"
+                ris = "https://api.datacite.org/application/x-research-info-systems/"
+
+                apa_cite = cite['creators'][0]["name"].strip() + \
+                    ". (" + str(cite["publicationYear"]) + "). <i>" + \
+                    cite["titles"][0]["title"] + \
+                    ".</i> " + \
+                    cite["publisher"] + \
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/" + x)
+
+                dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+                    md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
+
+                return apa_cite, dl_cites
+
+        # define std input variables
+        self.dataset = dataset
+        self.df_ds = get_place_ds(self.dataset)
+        self.doi = ds_doi(self.df_ds.iloc[0]["table"])
+        self.apa_cite, self.dl_cites = cites(self.doi)
+        self.latest_v = get_lastest_dsvs(self.dataset)
+        # self.participants = cohort_total(self.dataset)
+
+    def info_table(self):
+
+        """Returns and displays info/metrics table of study
+
+        Args:
+            self.df_ds (DF): DF of dataset info/metadata
+
+        Returns:
+            markdown/DF: markdown-formatted DF of info/metrics for study
+        """
+
+        ds_info_list = [
+        [
+            "Name of Dataset in TRE",
+            "Citation (APA)",
+            "Download Citation",
+            "Owner",
+            "Temporal Coverage",
+            "Geographical Coverage",
+            "Participant Count",
+            "Number of Variables",
+            "Number of Observations",
+            "Key Link",
+            "Keywords",
+            "Latest Extract Date",
+            "Specific Restrictions to Data Use",
+            "Build a Data Request"
+        ],
+        [
+            self.df_ds.iloc[0]["source_table"], # DS in TRE
+            self.apa_cite,  # Citation
+            self.dl_cites,  # Download Cite
+            self.df_ds.iloc[0]["Owner"], # Owner
+            self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
+            self.df_ds.iloc[0]["geographical_coverage"], # Geo Coverage
+            self.df_ds.iloc[0]["participants_included"], # Participant Count
+            self.latest_v.iloc[0]["num_columns"], # Number of Variables
+            self.latest_v.iloc[0]["num_rows"], # Number of Observations
+            md.make_hlink(self.df_ds.iloc[0]["hyperlink"], self.df_ds.iloc[0]["hyperlink"]),
+            self.df_ds.iloc[0]["topic_tags"], # Keywords
+            "TBC", # self.ed,
+            "None", # self.df_ds.iloc[0]["Specific_restrictions_to_data_use"], # Restrictions to Data Use
+            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/") # Build a data request
+            ]
+            ]
+
+        df_ss_info = pd.DataFrame(ds_info_list, index=["Dataset Descriptor", "Dataset-specific Information"]).T
+        return DocHelper.style_table("_", df_ss_info)
+
+    def variable_table(self):
+        df = md.get_table_vars("geo", self.dataset)[["variable_name", "variable_label"]]
+        df2 = md.get_place_var_info()
+        df2 = df2[df2["dataset"] == self.dataset][["variable", "owner", "date_range", "category"]]
+        df = df.merge(df2, left_on="variable_name", right_on="variable")[["category", "variable_name", "variable_label", "owner", "date_range"]]
+        df = df.rename(columns={"category": "Variable Group", "variable_name": "Variable", "variable_label": "Description", "owner": "Source", "date_range": "Date range of data"})
+        return DocHelper.style_table("_", df)
