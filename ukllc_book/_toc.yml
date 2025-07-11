@@ -279,7 +279,7 @@ parts:
               file: docs/linked_geo_data/environmental_datasets/pollution_datasets/pollution.md
               sections:
                 - title: Air pollution NO2 & PM
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.md
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb
                 - title: Air pollution NOx, NO2 and O3
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.md
                 - title: Noise pollution
