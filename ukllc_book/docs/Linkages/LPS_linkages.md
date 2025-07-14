@@ -1,5 +1,5 @@
 # Available linkages
->Last modified: 09 Jul 2025
+>Last modified: 11 Jul 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>See the tables below to understand the linkages and breadth of research topics that each Longitudinal Population Study (LPS) permits.</strong></div>  
 <br>
@@ -10,6 +10,9 @@ LPS are working to gain the necessary permissions to enable research in the publ
 <br>
 
 >Participants can always object to UK LLC or specific data linkages. If a participant objects, no new data about them will be shared, but  data that has already been provisioned can still be used until the project ends. Please see the [**UK LLC Privacy Notice**](https://ukllc.ac.uk/privacy-policy) for further information.
+<br>
+## Public good definition
+UK LLC currently follows the [**National Data Guardian (NDG) guidance**](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124013/NDG_public_benefit_guidance_v1.0_-_14.12.22.pdf) to assess public good. We are working with our public contributors to develop a context-specific public good definition which will replace our use of the NDG definition. We will update this page in due course. 
 
 ## English GP data
 >The linked NHS England GP data [(**GDPPR dataset**)](../linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb) can only be used for research relating to COVID-19. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)  
