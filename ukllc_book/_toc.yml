@@ -24,7 +24,7 @@ parts:
             - title: Freeze 8 | May 2024
               file: docs/ukllc_key_facts/Sample/freezes/freeze8.ipynb
             - title: Freeze 7 | Feb 2024
-              file: docs/ukllc_key_facts/Sample/freezes/freeze7.ipynb  
+              file: docs/ukllc_key_facts/Sample/freezes/freeze7.ipynb
             - title: Freeze 6 | Nov 2023
               file: docs/ukllc_key_facts/Sample/freezes/freeze6.ipynb
             - title: Freeze 5 | Aug 2023
@@ -32,7 +32,7 @@ parts:
             - title: Freeze 4 | May 2023
               file: docs/ukllc_key_facts/Sample/freezes/freeze4.ipynb
             - title: Freeze 3 | Feb 2023
-              file: docs/ukllc_key_facts/Sample/freezes/freeze3.ipynb                                 
+              file: docs/ukllc_key_facts/Sample/freezes/freeze3.ipynb
             - title: Freeze 2 | Nov 2022
               file: docs/ukllc_key_facts/Sample/freezes/freeze2.ipynb
             - title: Freeze 1 | Aug 2022
@@ -301,7 +301,7 @@ parts:
         - title: UK LLC generated datasets
           file: docs/ukllc_managed_data/UKLLC_generated/UKLLC_generated.md
           sections:
-            - title: LPS derived datasets 
+            - title: LPS derived datasets
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived.md
               sections:
                 - title: Harmonised demographic (full)
