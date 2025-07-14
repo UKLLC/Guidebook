@@ -10,7 +10,7 @@ All active researchers are invited to join the monthly **UK LLC User Group meeti
 Click on the YouTube link below for a short (50 seconds) video guide on how to request help while working in the TRE.  
 Alternatively, scroll down to find a description of the assistance available from the **UK LLC and SeRP Data Teams**.  
 
-> **Please note neither UK LLC nor SeRP are able to offer specific advice on choice of software, coding queries or analytical methods.**  
+> **Please note neither UK LLC nor SeRP are able to offer specific advice on choice of software, general coding queries or analytical methods.**  
 
 [![Image alt text](https://img.youtube.com/vi/K1mkECx73ow/0.jpg)](https://www.youtube.com/watch?v=K1mkECx73ow)  
 
