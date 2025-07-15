@@ -10,11 +10,11 @@ This quiz acts as a refresher to the Office for National Statistics Accredited R
 
 ## 1. What is the UK LLC 'low count' threshold?
 
-<aside class="dropdown admonition note"><p class="admonition-title">5</p><p>❌ Wrong answer, try again!</p></aside>
+<aside class="dropdown admonition"><p class="admonition-title">5</p><p>❌ Wrong answer, try again!</p></aside>
 
-<aside class="dropdown admonition note"><p class="admonition-title">10</p><p>✅ Correct! UK LLC permits file out requests where counts of individuals are >=10.</p></aside>
+<aside class="dropdown admonition"><p class="admonition-title">10</p><p>✅ Correct! UK LLC permits file out requests where counts of individuals are >=10.</p></aside>
 
-<aside class="dropdown admonition note"><p class="admonition-title">20</p><p>❌ Wrong answer, try again!</p></aside>
+<aside class="dropdown admonition"><p class="admonition-title">20</p><p>❌ Wrong answer, try again!</p></aside>
 
 
 ## 2. Which methods can you use to avoid low counts in output files?
