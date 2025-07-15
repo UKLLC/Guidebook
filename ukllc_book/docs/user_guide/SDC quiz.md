@@ -10,20 +10,44 @@ This quiz acts as a refresher to the Office for National Statistics Accredited R
 
 ## 1. What is the UK LLC 'low count' threshold?
 
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">5</p><p>❌ Wrong answer, try again!</p></aside>
+<aside class="dropdown admonition note"><p class="admonition-title">5</p><p>❌ Wrong answer, try again!</p></aside>
 
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">10</p><p>✅ Correct! UK LLC permits file out requests where counts of individuals are >=10.</p></aside>
+<aside class="dropdown admonition note"><p class="admonition-title">10</p><p>✅ Correct! UK LLC permits file out requests where counts of individuals are >=10.</p></aside>
 
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">20</p><p>❌ Wrong answer, try again!</p></aside>
+<aside class="dropdown admonition note"><p class="admonition-title">20</p><p>❌ Wrong answer, try again!</p></aside>
 
 
-## 1. What is the UK LLC 'low count' threshold?
+## 2. Which methods can you use to avoid low counts in output files?
 
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">5</p><p>❌ Wrong answer, try again!</p></aside>
+<aside class="dropdown admonition note"><p class="admonition-title">Put in dummy figures, averaging values, rounding values or suppressing/masking values</p><p>❌ Wrong answer, try again!</p></aside>
 
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">10</p><p>✅ Correct! UK LLC permits file out requests where counts of individuals are >=10.</p></aside>
+<aside class="dropdown admonition note"><p class="admonition-title">Aggregating/combining categories, delete values, rounding values or suppressing/masking values</p><p>❌ Wrong answer, try again!</p></aside>
 
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">20</p><p>❌ Wrong answer, try again!</p></aside>
+<aside class="dropdown admonition note"><p class="admonition-title">Aggregating/combining categories, averaging values, rounding values or suppressing/masking values</p><p>✅ Correct!</p></aside>
 
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">Click Me! 👈</p><p>👋 This could be a solution to a problem or contain other detailed explanations.</p></aside>
-<aside class="dropdown admonition note"><p class="admonition-title">Note</p><p class="admonition-title">Hide Me! 👈</p><p>👋 This is an admonition with a lot of text. The user can hide it if they want.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></aside>
+
+## 3. Which accompanying information about the variable 'w1edu' is sufficient?
+
+<aside class="dropdown admonition note"><p class="admonition-title">Wave 1 participant's Education level (Highest qualification)</p><p>✅ Correct!</p></aside>
+
+<aside class="dropdown admonition note"><p class="admonition-title">Self explanatory, most researchers know what this variable means</p><p>❌ Wrong answer, try again!</p></aside>
+
+<aside class="dropdown admonition note"><p class="admonition-title">W1, Educ of child</p><p>❌ Wrong answer, try again!</p></aside>
+
+
+## 4. Which symbols can you use to mask low counts?
+
+<aside class="dropdown admonition note"><p class="admonition-title">0,$,X</p><p>❌ Wrong answer, try again!</p></aside>
+
+<aside class="dropdown admonition note"><p class="admonition-title">0,NA,NULL</p><p>❌ Wrong answer, try again!</p></aside>
+
+<aside class="dropdown admonition note"><p class="admonition-title">*,$,#</p><p>✅ Correct!</p></aside>
+
+
+## 5. When you suppress values what else do you need to do?
+
+<aside class="dropdown admonition note"><p class="admonition-title">Include a key outlining which values equate to which masking symbols</p><p>❌ Wrong answer, try again!</p></aside>
+
+<aside class="dropdown admonition note"><p class="admonition-title">Include a clear note regarding why you chose your masking symbol</p><p>❌ Wrong answer, try again!</p></aside>
+
+<aside class="dropdown admonition note"><p class="admonition-title">Include a clear note regarding what the masking symbol indicates</p><p>✅ Correct!</p></aside>
