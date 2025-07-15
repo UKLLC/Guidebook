@@ -1,14 +1,13 @@
 # Welcome to UK LLC Guidebook
->Last modified: 20 Jun 2025
+>Last modified: 15 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Guidebook is the home of UK Longitudinal Linkage Collaboration’s data documentation and user guide.</strong></div>  
 <br>
 
 
-[**UK LLC**](https://ukllc.ac.uk/) **is the national Trusted Research Environment (TRE) for data linkage in longitudinal research**.  
+[**UK LLC**](https://ukllc.ac.uk/) is the **national Trusted Research Environment (TRE) for data linkage in longitudinal research**. 
+UK LLC brings together de-identified data from **Longitudinal Population Studies (LPS)** and systematically links these data to LPS participants' **health**, **non-health administrative** and **place-based** records in the UK LLC TRE. Currently, researchers can request access to data from **more than 20 LPS**, with participants' records linked to [**NHS England**](../docs/linked_health_data/NHS_England/NHSE_intro.md) and [**place-based datasets**](../docs/linked_geo_data/Place_based_intro.md), where permissions allow. Linkage to **NHS Wales** and **non-health administrative** datasets, including HM Revenue and Customs (HMRC) and Department for Work and Pensions (DWP), is anticipated by the end of 2025. [**UK LLC's protocol paper**](https://ijpds.org/article/view/2468/6167), published in the International Journal of Population Data Science, explains how UK LLC works. 
 
-UK LLC brings together de-identified data from **Longitudinal Population Studies (LPS)** and systematically links these data to LPS participants' **health**, **non-health administrative** and **place-based** records in the UK LLC TRE.
-
-[**UK LLC's protocol paper**](https://ijpds.org/article/view/2468/6167), published in the International Journal of Population Data Science, explains how UK LLC works. Currently, researchers can request access to data from **more than 20 LPS**, with participants' records linked to [**NHS England**](../docs/linked_health_data/NHS_England/NHSE_intro.md) and [**place-based datasets**](../docs/linked_geo_data/Place_based_intro.md), where permissions allow. Linkage to **NHS Wales** and **non-health administrative** datasets, including HM Revenue and Customs (HMRC) and Department for Work and Pensions (DWP), is anticipated by the end of 2025.
+The purpose of UK LLC Guidebook is to help researchers understand the range of data available and how to work in the TRE.
 
 >## UK LLC's unique attributes include:  
 >* **The dynamic nature of linkages.** Linkages to NHS England datasets are refreshed every 6-12 months and we are able to provide researchers with access to new or updated LPS datasets as they become available, ensuring the **temporal alignment** of LPS and linked data.    
