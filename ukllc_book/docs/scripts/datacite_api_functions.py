@@ -2,13 +2,21 @@ import requests
 import os
 import pandas as pd
 
-# DataCite API environment variables
-# NOTE: Currently TEST environment, need to switch to PROD when time comes
-ID = 'WHRN.UKLLCTEST'
-pw = os.environ['DATACITE_TEST_PW']
+dc_env = "TEST"
 
-# DataCite API variables
-url_doi = "https://api.test.datacite.org/dois"
+# DataCite API test env variables
+if dc_env == "TEST":
+    ID = 'WHRN.UKLLCTEST'
+    pw = os.environ['DATACITE_TEST_PW']
+    url_doi = "api.test.datacite.org"
+    prefix = "10.83126"
+# DataCite API prod  env variables
+elif dc_env == "PROD":
+    ID = 'VHFS.UKLLC'
+    pw = os.environ['DATACITE_PROD_PW']
+    url_doi = "api.datacite.org"
+    prefix = "10.71760"
+
 headers_doi = {
     "accept": "application/vnd.api+json",
     "content-type": "application/json",
@@ -23,9 +31,9 @@ def get_doi_datasets() -> pd.DataFrame:
     """
 
     resp_doi_ds_get = requests.get(
-        "https://api.test.datacite.org/dois?prefix=10.83126&"
+        "https://{}/dois?prefix={}&"
         "resource-type-id=dataset&&page[size]=1000&"
-        "fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers",
+        "fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers".format(url_doi, prefix),
         headers={
             "accept": "application/vnd.api+json",
                 },
@@ -69,9 +77,9 @@ def get_doi_series() -> pd.DataFrame:
     """
 
     resp_doi_ds_get = requests.get(
-        "https://api.test.datacite.org/dois?prefix=10.83126"
+        "https://{}/dois?prefix={}"
         "&resource-type-id=other&resource-type=series&&page[size]=1000"
-        "&fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers",
+        "&fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers".format(url_doi, prefix),
         headers={
             "accept": "application/vnd.api+json",
             }, auth=(ID, pw)
@@ -115,9 +123,9 @@ def get_doi_frz() -> pd.DataFrame:
     """
 
     resp_doi_ds_get = requests.get(
-        "https://api.test.datacite.org/dois?prefix=10.83126&"
+        "https://{}/dois?prefix={}&"
         "resource-type-id=other&resource-type=freeze&&page[size]=1000"
-        "&fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers",
+        "&fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers".format(url_doi, prefix),
         headers={
             "accept": "application/vnd.api+json",
             }, auth=(ID, pw)
@@ -158,9 +166,9 @@ def get_doi_prj() -> pd.DataFrame:
     """
 
     resp_doi_ds_get = requests.get(
-        "https://api.test.datacite.org/dois?prefix=10.83126&"
+        "https://{}/dois?prefix={}&"
         "resource-type-id=Project&&page[size]=1000"
-        "&fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers",
+        "&fields[dois]=creators%2Ctitles%2Cversion%2Cstate%2Cidentifiers".format(url_doi, prefix),
         headers={
             "accept": "application/vnd.api+json",
             }, auth=(ID, pw)

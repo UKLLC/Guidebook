@@ -18,6 +18,17 @@ import numpy as np
 
 pd.options.mode.chained_assignment = None
 
+dc_env = "TEST"
+
+# DataCite API test env variables
+if dc_env == "TEST":
+    url_doi = "api.test.datacite.org"
+    prefix = "10.83126"
+# DataCite API prod  env variables
+elif dc_env == "PROD":
+    url_doi = "api.datacite.org"
+    prefix = "10.71760"
+
 
 def last_modified():
     return display(
@@ -307,21 +318,21 @@ class LPSDataSet:
                 str: trio of citation DL links
             """
 
-            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-            bibtex = "https://api.datacite.org/application/x-bibtex/"
-            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+            bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+            ris = "https://{}/application/x-research-info-systems/".format(url_doi)
             if x == "DOI TBC":
                 apa_cite = "DOI and Citation TBC"
                 dl_cites = "DOI and Citation Downloads TBC"
 
             else:
                 cite = json.loads(requests.get(
-                    "https://api.test.datacite.org/dois/" + x,
+                    "https://{}/dois/".format(url_doi) + x,
                 ).text)['data']['attributes']
 
-                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-                bibtex = "https://api.datacite.org/application/x-bibtex/"
-                ris = "https://api.datacite.org/application/x-research-info-systems/"
+                citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+                bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+                ris = "https://{}/application/x-research-info-systems/".format(url_doi)
 
                 apa_cite = cite['creators'][0]["name"] + \
                     ". (" + str(cite["publicationYear"]) + "). <i>" + \
@@ -558,21 +569,22 @@ class LPSSource:
                 str: trio of citation DL links
             """
 
-            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-            bibtex = "https://api.datacite.org/application/x-bibtex/"
-            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+            bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+            ris = "https://{}/application/x-research-info-systems/".format(url_doi)
+
             if x == "DOI TBC":
                 apa_cite = "DOI and Citation TBC"
                 dl_cites = "DOI and Citation Downloads TBC"
 
             else:
                 cite = json.loads(requests.get(
-                    "https://api.test.datacite.org/dois/" + x,
+                    "https://{}/dois/".format(url_doi) + x,
                 ).text)['data']['attributes']
 
-                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-                bibtex = "https://api.datacite.org/application/x-bibtex/"
-                ris = "https://api.datacite.org/application/x-research-info-systems/"
+                citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+                bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+                ris = "https://{}/application/x-research-info-systems/".format(url_doi)
 
                 apa_cite = cite['creators'][0]["name"] + \
                     ". (" + str(cite["publicationYear"]) + "). <i>" + \
@@ -704,7 +716,7 @@ class LPSSource:
                     e.g. NHSE, NHSW, PLACE, DWP etc...
         """
 
-        if self.source in ["AIRWAVE", "UKREACH"]:
+        if self.source in ["AIRWAVE", "UKREACH", "GENSCOT", "NICOLA", "SABRE"]:
             return display(Markdown("Linkage rates will be displayed for {} in due course.".format(self.source)))
 
         else:
@@ -893,9 +905,9 @@ class NHSEDataSet:
                 str: trio of DL links for citation
             """
 
-            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-            bibtex = "https://api.datacite.org/application/x-bibtex/"
-            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+            bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+            ris = "https://{}/application/x-research-info-systems/".format(url_doi)
             if x == "DOI TBC":
                 apa_cite = "DOI and Citation TBC"
                 dl_cites = "DOI and Citation Downloads TBC"
@@ -903,12 +915,12 @@ class NHSEDataSet:
 
             else:
                 cite = json.loads(requests.get(
-                    "https://api.test.datacite.org/dois/" + x,
+                    "https://{}/dois/".format(url_doi) + x,
                 ).text)['data']['attributes']
 
-                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-                bibtex = "https://api.datacite.org/application/x-bibtex/"
-                ris = "https://api.datacite.org/application/x-research-info-systems/"
+                citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+                bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+                ris = "https://{}/application/x-research-info-systems/".format(url_doi)
 
                 apa_cite = cite['creators'][0]["name"].strip() + \
                     ". (" + str(cite["publicationYear"]) + "). <i>" + \
@@ -1313,28 +1325,28 @@ class NHSESource:
                 str: trio of citation DL links
             """
 
-            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-            bibtex = "https://api.datacite.org/application/x-bibtex/"
-            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+            bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+            ris = "https://{}/application/x-research-info-systems/".format(url_doi)
             if x == "DOI TBC":
                 apa_cite = "DOI and Citation TBC"
                 dl_cites = "DOI and Citation Downloads TBC"
 
             else:
                 cite = json.loads(requests.get(
-                    "https://api.test.datacite.org/dois/" + x,
+                    "https://{}/dois/".format(url_doi) + x,
                 ).text)['data']['attributes']
 
-                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-                bibtex = "https://api.datacite.org/application/x-bibtex/"
-                ris = "https://api.datacite.org/application/x-research-info-systems/"
+                citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+                bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+                ris = "https://{}/application/x-research-info-systems/".format(url_doi)
 
                 apa_cite = cite['creators'][0]["name"] + \
                     ". (" + str(cite["publicationYear"]) + "). <i>" + \
                     cite["titles"][0]["title"] + \
                     ".</i> " + \
                     cite["publisher"] + \
-                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/10.83126/ukllc-series-00001")
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/" + x)
 
                 dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
                     md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
@@ -1589,9 +1601,9 @@ class PlaceDataSet:
                 str: trio of DL links for citation
             """
 
-            citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-            bibtex = "https://api.datacite.org/application/x-bibtex/"
-            ris = "https://api.datacite.org/application/x-research-info-systems/"
+            citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+            bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+            ris = "https://{}/application/x-research-info-systems/".format(url_doi)
             if x == "DOI TBC":
                 apa_cite = "DOI and Citation TBC"
                 dl_cites = "DOI and Citation Downloads TBC"
@@ -1599,12 +1611,12 @@ class PlaceDataSet:
 
             else:
                 cite = json.loads(requests.get(
-                    "https://api.test.datacite.org/dois/" + x,
+                    "https://{}/dois/".format(url_doi) + x,
                 ).text)['data']['attributes']
 
-                citeprocjson = "https://api.datacite.org/application/vnd.citationstyles.csl+json/"
-                bibtex = "https://api.datacite.org/application/x-bibtex/"
-                ris = "https://api.datacite.org/application/x-research-info-systems/"
+                citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+                bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+                ris = "https://{}/application/x-research-info-systems/".format(url_doi)
 
                 apa_cite = cite['creators'][0]["name"].strip() + \
                     ". (" + str(cite["publicationYear"]) + "). <i>" + \
@@ -1643,6 +1655,7 @@ class PlaceDataSet:
             "Citation (APA)",
             "Download Citation",
             "Owner",
+            "Authors",
             "Temporal Coverage",
             "Geographical Coverage",
             "Participant Count",
@@ -1659,6 +1672,7 @@ class PlaceDataSet:
             self.apa_cite,  # Citation
             self.dl_cites,  # Download Cite
             self.df_ds.iloc[0]["Owner"], # Owner
+            self.df_ds.iloc[0]["authors"], # Owner
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["geographical_coverage"], # Geo Coverage
             self.df_ds.iloc[0]["participants_included"], # Participant Count
