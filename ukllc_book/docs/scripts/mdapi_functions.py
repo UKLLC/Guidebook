@@ -261,6 +261,21 @@ def make_hlink(url: str, text: str) -> str:
         format(url, text)
 
 
+def make_hlink_same_tab(url: str, text: str) -> str:
+    """Makes HTML hyperlink
+
+    Args:
+        url (str): url to link to (e.g. "https://guidebook.ukllc.ac.uk/")
+        text (str): text (e.g. "Click Here for Guidebook")
+
+    Returns:
+        str: hyperlink in HTML format
+    """
+
+    return ' <a href="{}">{}</a>'.\
+        format(url, text)
+
+
 def get_num_vars(source: str, table_name: str) -> int:
     """Reads dataset metadata endpoint to get number of variables
 
