@@ -338,7 +338,7 @@ parts:
         - title: Statistical Disclosure Control
           file: docs/user_guide/SDC.md
           sections:
-            - title: Statistical Disclosure Control Quiz
+            - title: Quiz on Statistical Disclosure Control 
               file: docs/user_guide/SDC quiz.md
         - title: Requesting an amendment
           file: docs/user_guide/RequestingAnAmendment.md
