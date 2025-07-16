@@ -1,5 +1,5 @@
 # Statistical Disclosure Control (SDC) Quiz
->Last modified: 15 Jul 2025
+>Last modified: 16 Jul 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>This quiz tests your understanding of UK LLC's Statistical Disclosure Control (SDC) rules.</strong></div style>  
 <br>
@@ -10,7 +10,9 @@ This quiz acts as a refresher to the Office for National Statistics Accredited R
 
 ## 1. What is the UK LLC 'low count' threshold?
 
-<aside class="dropdown admonition seealso"><p class="admonition-title">5</p><p>❌ Wrong answer, try again!</p></aside>
+<aside class="simple dropdown admonition warning"><p class="admonition-title">Warning</p><p class="admonition-title">✍️ NB</p><p>The proof of the lemma for <span class="math-inline">x \leqslant 0</span> is left to the reader.</p></aside>
+
+<aside class="simple dropdown admonition warning"><p class="admonition-title">5</p><p>❌ Wrong answer, try again!</p></aside>
 
 <aside class="dropdown admonition seealso"><p class="admonition-title">10</p><p>✅ Correct! UK LLC permits file out requests where counts of individuals are >=10.</p></aside>
 
