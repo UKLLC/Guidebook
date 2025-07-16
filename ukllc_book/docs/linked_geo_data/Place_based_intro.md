@@ -1,6 +1,6 @@
 # Place-based data
 
-> Last modified: 03 Jul 2025
+> Last modified: 16 Jul 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has established data pipelines to ingest both open-source place-based data and datasets provided by agreed partners into the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
@@ -29,6 +29,7 @@ Visit UK LLC Explore to discover more about each place-based dataset, including 
 | [Air pollution NO2 & PM](https://doi.org/10.1016/j.apr.2022.101506) | Environmental | Pollution | Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposure data. | England, Scotland, Wales | Address | 2010–2019 | University of Leicester |
 | [Air pollution NOx, NO2 and O3](https://doi.org/10.1016/j.envint.2025.109304) | Environmental | Pollution | Annual average assessments (hourly and 24-hour) for NOx, NO2 and O3. | England, Wales | Address | 2018–2020 | University of Leicester |
 | [Noise pollution](https://doi.org/10.1016/j.envsoft.2014.12.022) | Environmental | Pollution | Modelled road-transport noise estimates. | England, Wales | Address | 2013 | University of Leicester |
+| [Index of Multiple Deprivation](../linked_geo_data/population_datasets/IMD/IMD.md)| Population | Deprivation | A relative indicator of deprivation, urban/rural classification and population density |England, Scotland, Wales, Northern Ireland | Lower Super Output Area/Data Zone/Super Output Area | 2011-2020 | UK LLC |
 | [Townsend Index](https://doi.org/10.6084/m9.figshare.27073906) | Population | Material deprivation | A relative indicator of material deprivation | England and Wales | Lower Super Output Area | 2021 | University of Leicester |
 
 

@@ -4,9 +4,15 @@
 
 ## IMD, urban/rural classification and population estimates
 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides a dataset containing UK-wide harmonised measures of indices of multiple deprivation, an urban-rural indicator and population density.</strong></div>  
+<br>
+
+<div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_IMD.html" target="_blank">here.</a></strong></div>  
+<br>
+
 This dataset is made up of the following three sources of data: Index of Multiple Deprivation, an Urban-Rural Indicator and Population Estimates.
 
-The Index of Deprivation datsets differ across the 4 UK nations, but each provide small area measures of relative deprivation. Each national index ranks areas from most deprived to least deprived, based on measures of deprivation such as income, education, health and employment.
+The Index of Deprivation datasets differ across the 4 UK nations, but each provide small area measures of relative deprivation. Each national index ranks areas from most deprived to least deprived, based on measures of deprivation such as income, education, health and employment.
 
 Urban-Rural classifications also differ across the 4 nations but overall provide an indicator of which areas rural and which are urban based on characteristics such as dwelling densities and distance to major towns and cities.
 
