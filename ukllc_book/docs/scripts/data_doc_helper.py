@@ -1569,6 +1569,7 @@ class NHSESource:
             Markdown(
                 "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
 
+
 class PlaceDataSet:
     """Datasets in PLACE and subsequent functions for GB pages
     """
@@ -1747,3 +1748,28 @@ class PlaceDataSet:
         df = df.merge(df2, left_on="variable_name", right_on="variable")[["category", "variable_name", "variable_label", "owner", "date_range"]]
         df = df.rename(columns={"category": "Variable Group", "variable_name": "Variable", "variable_label": "Description", "owner": "Source", "date_range": "Date range of data"})
         return DocHelper.style_table("_", df)
+
+    def documentation(self):
+        """Creates and displays docs showing change log for the dataset DOIs
+
+        Returns:
+            markdown: placeholder "TBC" text in markdown format
+        """
+
+        return display(
+            Markdown(
+                "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
+
+    def useful_syntax(self):
+        """Creates and displays useful syntax saved for the datasets
+
+        Returns:
+            markdown: placeholder "TBC" text in markdown format
+        """
+
+        return display(
+            Markdown(
+                "Below we will include syntax that may be helpful to other "
+                "researchers in the UK LLC TRE. For longer scripts, we will "
+                "include a snippet of the code plus a link to the [UK LLC GitHub](https://github.com/UKLLC) repository where you "
+                "can find the full scripts."))
