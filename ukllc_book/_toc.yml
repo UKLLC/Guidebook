@@ -337,6 +337,9 @@ parts:
           file: docs/user_guide/MovingFilesInAndOut.md
         - title: Statistical Disclosure Control
           file: docs/user_guide/SDC.md
+          sections:
+            - title: Quiz: Statistical Disclosure Control
+              file: docs/user_guide/SDC quiz.md
         - title: Requesting an amendment
           file: docs/user_guide/RequestingAnAmendment.md
         - title: Finishing your project
