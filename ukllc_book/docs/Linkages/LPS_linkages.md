@@ -37,7 +37,7 @@ UK LLC currently follows the [**National Data Guardian (NDG) guidance**](https:/
 |[**TEDS**](../LPS_data/LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✗|✗|✗|
 |[**TWINSUK**](../LPS_data/LPS%20profiles/TWINSUK.ipynb)|✓|✓|Postcode|✗|✗|✗|
 |[**UKHLS**](../LPS_data/LPS%20profiles/UKHLS.ipynb)|✓|✗|✗|✓|✓|✓|
-|**UK-REACH**|✓|✓|✗|✓|✓|✓|
+|**UK-REACH**|✓|✓|✗|✗|✗|✓|
 
 <sup>1</sup>Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
 <sup>2</sup>Household level using Unique Property Reference Number (UPRN) or postcode level
