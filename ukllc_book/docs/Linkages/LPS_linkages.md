@@ -34,7 +34,7 @@ UK LLC currently follows the [**National Data Guardian (NDG) guidance**](https:/
 |[**NCDS58**](../LPS_data/LPS%20profiles/NCDS58.ipynb)|✓|✗|✗|✓|✓|✓|
 |[**NEXTSTEP**](../LPS_data/LPS%20profiles/NEXTSTEP.ipynb)|✓|✗|✗|✓|✓|✓|
 |[**NSHD46**](../LPS_data/LPS%20profiles/NSHD46.ipynb)|✓|✓|Full address|✗|✗|✗|
-|[**TEDS**](../LPS_data/LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✗|✗|✗|
+|[**TEDS**](../LPS_data/LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✓|✓|✗|
 |[**TWINSUK**](../LPS_data/LPS%20profiles/TWINSUK.ipynb)|✓|✓|Postcode|✗|✗|✗|
 |[**UKHLS**](../LPS_data/LPS%20profiles/UKHLS.ipynb)|✓|✗|✗|✓|✓|✓|
 |**UK-REACH**|✓|✓|✗|✗|✗|✓|
