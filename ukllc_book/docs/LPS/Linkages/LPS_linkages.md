@@ -31,10 +31,10 @@ LPS are working to gain the necessary permissions to enable research in the publ
 |**NCDS58**|✓|✗|✗|✓|✓|✓|
 |**NEXTSTEP**|✓|✗|✗|✓|✓|✓|
 |**NSHD46**|✓|✓|Full address|✗|✗|✗|
-|**TEDS**|✓|✓|Full address|✗|✗|✗|
+|**TEDS**|✓|✓|Full address|✓|✓|✗|
 |**TWINSUK**|✓|✓|Postcode|✗|✗|✗|
 |**UKHLS**|✓|✗|✗|✓|✓|✓|
-|**UK-REACH**|✓|✓|✗|✓|✓|✓|
+|**UK-REACH**|✓|✓|✗|✗|✗|✓|
 
 <sup>1</sup>Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
 <sup>2</sup>Household level using Unique Property Reference Number (UPRN) or postcode level
