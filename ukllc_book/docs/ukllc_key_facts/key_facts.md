@@ -1,11 +1,16 @@
 # Key facts about UK LLC
+>Last modified: 17 Jul 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Key information to help researchers decide if UK LLC is the best place to conduct their research project.</strong></div>  
 
->Last modified: 15 Jul 2025
-
-## Introduction
-On this page we will have headline figures about UK LLC, e.g. how many people in the TRE at this point in time, with a breakdown by sex, ethnicity, age. What percentage are linked to their NHS England records etc? How many LPS? etc.
-
-The point of this page is to give people a very quick and easy feel for UK LLC - is it a database of interest to them?
+<br>
 
 
+
+<img src= "../images/UKLLC_snapshot.jpg" width="900">
+
+<br>
+
+LPS: Longitudinal Population Studies
+
+You can read more about UK LLC's unique attributes [**here**](../welcome.md). 
 

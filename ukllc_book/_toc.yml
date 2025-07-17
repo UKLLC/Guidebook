@@ -312,7 +312,7 @@ parts:
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/Linked_derived.md
               sections:
                 - title: Denominator
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/NHSE_derived/NHSE_denominator.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/NHSE_derived/denominator.md
                 - title: Presence
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/NHSE_derived/NHSE_presence.md
                 - title: Indicator
