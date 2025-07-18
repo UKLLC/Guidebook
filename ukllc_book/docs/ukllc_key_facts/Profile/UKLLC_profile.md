@@ -1,5 +1,5 @@
 # UK LLC profile
->Last modified: 04 Jul 2025
+>Last modified: 18 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Key demographic characteristics of LPS participants included in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 
 ## Introduction  
@@ -12,7 +12,6 @@ Periodically, UK LLC produces a summary of the **demographic characteristics** o
 > **Notes**  
 >* The 'best measure' in the tables below was determined using a hierarchical approach for each LPS participant. If available, the most recent self-reported data (i.e. LPS data) was selected. Where LPS data was unavailable, NHS England data was used for those participants with linked NHS England records. 
 >* For clarity, all missing data has been grouped into a single category.   
-<br>
 
 ## UK LLC profile (based on [Freeze 11](../Sample/freezes/freeze11.ipynb), February 2025)
 <div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>Sex</strong></div>  

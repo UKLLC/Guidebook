@@ -14,7 +14,6 @@ their applications are assessed against the [**‘Five Safes’ Framework**](htt
 >* Based in the UK.
 >* An Office for National Statistics (ONS) [**Accredited Researcher**](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/becomeanaccreditedresearcher).
 >* Part of a non-commercial research organisation.  
-<br>
 
 **Note**: UK LLC accepts applications from **PhD students** on condition that the main applicant supervises them closely.  
 
@@ -24,6 +23,5 @@ their applications are assessed against the [**‘Five Safes’ Framework**](htt
 > * Have an ethical assessment.
 > * Be approved by partner LPS and other data owners.
 > * Align with data owners' specific terms and conditions.  
-> <br>
 
 <sup>1</sup>UK LLC is working with its public contributors to develop a context-specific public good definition which will replace our use of the NDG definition - we will update this page in due course.

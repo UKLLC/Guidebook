@@ -1,5 +1,5 @@
 # National Health Service (NHS) data
->Last modified: 04 Jul 2025
+>Last modified: 18 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is committed to four nation NHS coverage, i.e. England, Northern Ireland, Scotland and Wales.</strong></div>  
 <br>
 
@@ -12,7 +12,7 @@
 >* [**NHS Scotland**](../linked_health_data/NHS_Scotland/NHSS_intro.md) <span style="color:red">(**LINKAGE CONDITIONALLY APPROVED)**: <span style="color:black">NHS Scotland Public Benefit and Privacy Panel for Health and Social Care (HSC-PBPP) has conditionally approved the flow of data - more details will follow in due course.  
 <br>
 >* [**NHS Northern Ireland**](../linked_health_data/NHS_Northern_Ireland/NHSNI_intro.md) <span style="color:red">**(DISCUSSIONS ONGOING)**: <span style="color:black">negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI) - more details will follow in due course.  
-<br>
+
 
 See the [**Linkages guide**](../Linkages/LPS_linkages.md) for details of which Longitudinal Population Studies (LPS) have permitted linkage of their participants to the NHS England and NHS Wales datasets. We will add information about the NHS Scotland and NHS Northern Ireland datasets in due course.
 
