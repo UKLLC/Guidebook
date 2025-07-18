@@ -1,6 +1,8 @@
 # NHSD derived indicator
->Last modified: 17 Jul 2025
+>Last modified: 18 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has created an NHS England derived indicator dataset ...</strong></div>  
+
+COPIED from the live version of Guidebook - needs to be updated asap
 
 CORE_derived_indicator_v0000_YYYYMMDD contains the most recent and most reliable record for certain key variables sourced from NHS data sources in the UK LLC database. There is one row per participant. The table sources data from the following tables and preferentially uses data from datasets in this order:
 1. Demographics

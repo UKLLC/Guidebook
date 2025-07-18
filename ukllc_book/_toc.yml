@@ -302,7 +302,7 @@ parts:
           file: docs/ukllc_managed_data/UKLLC_generated/UKLLC_generated.md
           sections:
             - title: LPS derived datasets
-              file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived.md
+              file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/LPS_derived.md
               sections:
                 - title: Harmonised demographic (full)
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_full.md
@@ -312,11 +312,11 @@ parts:
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/Linked_derived.md
               sections:
                 - title: Denominator
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/NHSE_derived/denominator.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/denominator.md
                 - title: Presence
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/NHSE_derived/NHSE_presence.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/NHSE_presence.md
                 - title: Indicator
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/NHSE_derived/NHSE_indicator.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/NHSE_indicator.md
         - title: Researcher generated datasets
           file: docs/ukllc_managed_data/researcher_generated/researcher_data.md
           sections:

@@ -1,6 +1,6 @@
 # Index of Multiple Deprivation (IMD)
 
-> Last modified: 19 Jun 2025
+> Last modified: 18 Jul 2025
 
 ## IMD, urban/rural classification and population estimates
 
@@ -12,9 +12,9 @@
 
 This dataset is made up of the following three sources of data: Index of Multiple Deprivation, an Urban-Rural Indicator and Population Estimates.
 
-The Index of Deprivation datasets differ across the 4 UK nations, but each provide small area measures of relative deprivation. Each national index ranks areas from most deprived to least deprived, based on measures of deprivation such as income, education, health and employment.
+The Index of Deprivation datasets differ across the four UK nations, but each provide small area measures of relative deprivation. Each national index ranks areas from most deprived to least deprived, based on measures of deprivation such as income, education, health and employment.
 
-Urban-Rural classifications also differ across the 4 nations but overall provide an indicator of which areas rural and which are urban based on characteristics such as dwelling densities and distance to major towns and cities.
+Urban-Rural classifications also differ across the four nations but overall provide an indicator of which areas rural and which are urban based on characteristics such as dwelling densities and distance to major towns and cities.
 
 The National Records of Scotland (NRS), Northern Ireland Statistics and Research Agency (NISRA) and the Office of National Statistics (ONS) produce national mid-year population estimates. 
 

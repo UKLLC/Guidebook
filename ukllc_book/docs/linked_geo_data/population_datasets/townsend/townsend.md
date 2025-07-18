@@ -1,7 +1,7 @@
 # Townsend Deprivation Index 
 
 
->Last modified: 19 Jun 2025
+>Last modified: 18 Jul 2025
 
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides a 2021 version of the Townsend Deprivation Index for England and Wales at the Census Output Area level.</strong></div>  
@@ -13,7 +13,7 @@
 
 ## Townsend Index 
 
-The Townsend index [(1989)](https://doi.org/10.4324/9781003368885) is a relative indicator of material deprivation, which has been widely used to identify socio‐economic confounding in crime, education, and health research in England. This dataset is a 2021 version of the Townsend Index (Jephcote and Gulliver, [2025](https://doi.org/10.6084/m9.figshare.27073906)). 
+The Townsend index [(1989)](https://doi.org/10.4324/9781003368885) is a relative indicator of material deprivation, which has been widely used to identify socio‐economic confounding in crime, education, and health research in England. This dataset is a 2021 version of the Townsend Index [Jephcote and Gulliver (2025)](https://doi.org/10.6084/m9.figshare.27073906). 
 
 ## 1. Summary 
 

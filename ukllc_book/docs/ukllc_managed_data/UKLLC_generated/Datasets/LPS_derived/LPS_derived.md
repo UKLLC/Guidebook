@@ -1,5 +1,5 @@
 # LPS derived datasets
->Last modified: 17 Jul 2025
+>Last modified: 18 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is creating a range of derived datasets applicable to all Longitudinal Population Studies (LPS).</strong></div>  
 
 ## Introduction  
@@ -22,7 +22,6 @@ The [**full dataset**](../Datasets/LPS_derived/demo_harmonised_full.md) retains 
 >Researchers are encouraged to use the **full dataset**:  
 >* To investigate whether a participant’s self-reported demographic characteristics have changed over time  
 >* To ensure that their research refers to participants' self-reported characteristics as recorded at a time point pertinent to the research question.  
-<br>
 
 ### Reduced dataset  
 The [**reduced dataset**](../Datasets/LPS_derived/demo_harmonised_reduced.md) retains only the most recent response provided by a participant for each variable.  
@@ -32,16 +31,15 @@ The [**reduced dataset**](../Datasets/LPS_derived/demo_harmonised_reduced.md) re
 >* To have the most recent, valid, definition of a participant’s demographic characteristics 
 >* To have comparable data on ethnicity and gender for the maximum number of participants
 >* To be able to compare LPS data with data from NHS England using the [**NHSE demographics dataset**](../../../linked_health_data/NHS_England/Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb).  
-<br>
 
 ## Harmonisation methodology
 Detailed information on how UK LLC generated the harmonised demographic dataset is available via the links below. These include downloadable files which show the mapping of LPS data to UK LLC's harmonised variables.  
 | Detailed information on: |
 |:---:|
-[Sex](../../UKLLC_generated/README/sex_info.md) | 
-[Gender](../../UKLLC_generated/README/gender_info.md) | 
-[Year of birth](../../UKLLC_generated/README/yob_info.md) 
-[Ethnicity](../README/ethnicity_info.md) |
+[Sex](../../README/sex_info.md)| 
+[Gender](../../README/gender_info.md)| 
+[Year of birth](../../README/yob_info.md) 
+[Ethnicity](../../README/ethnicity_info.md) |
 <br>  
 
 The level of detail provided by LPS about participants' **ethnic group** varies greatly. Consequently, UK LLC has harmonised data on ethnic group into three separate, hierarchical variables made up of six, five and two categories.

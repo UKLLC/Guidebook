@@ -1,9 +1,9 @@
 # Greenspace 
 
 
->Last modified: 19 Jun 2025
+>Last modified: 18 Jul 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The University of Leicester’s greenspace dataset covers vegetation, coverage, density, walkability, and size.</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The University of Leicester’s greenspace dataset covers vegetation, coverage, density, walkability and size.</strong></div>  
 <br>
 
 <div style="background-color: rgba(229, 106, 84, 0.3); padding: 5px; border-radius: 5px;"><strong>More information about this dataset is available <a href="Understanding_greenspace.html" target="_blank">here.</a></strong></div>  

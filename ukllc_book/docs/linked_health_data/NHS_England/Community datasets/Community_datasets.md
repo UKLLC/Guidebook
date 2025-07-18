@@ -1,5 +1,5 @@
 # NHS England community datasets
->Last modified: 20 Jun 2025
+>Last modified: 18 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The community datasets cover community and maternity services.</strong></div>  
 <br>
 
@@ -10,7 +10,6 @@
 >* The datasets span **2015 onwards**.   
 <br>
 >* **ICD-10**, **OPCS-4** and **SNOMED codes** are used in the datasets. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details.   
-<br>
 
 ## Overview of community datasets
 For further information see the **individual dataset guides.**

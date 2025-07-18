@@ -1,8 +1,8 @@
 # Access to Healthy Assets and Hazards (AHAH) 
 
-> Last modified: 07 Jul 2025
+> Last modified: 18 Jul 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The Access to Healthy Assets and Hazards dataset is a multi-dimensional indices which describes accessibility to certain environmental features relating to health and wellbeing.</strong>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The Access to Healthy Assets and Hazards dataset is a multi-dimensional index which describes accessibility to certain environmental features relating to health and wellbeing.</strong>
 </div>  
 <br>
 

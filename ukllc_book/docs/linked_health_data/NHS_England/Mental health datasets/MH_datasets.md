@@ -1,5 +1,5 @@
 # NHS England mental health datasets
->Last modified: 20 Jun 2025
+>Last modified: 18 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The mental health datasets cover inpatient and community mental health services.</strong></div>  
 <br>
 
@@ -17,7 +17,6 @@
 >* Current and past MHSDS data models, user guidance and technical output specifications are available [**here**](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/mental-health-services-data-set/tools-and-guidance).  
 <br>
 >* Overall, data quality in the MHSDS is sufficient for analysing data in relation to activity. However, other aspects of the MHSDS are poor, particularly where submission of data items is not mandated. Data can be resubmitted by providers up until the end of the financial year to fix known data quality issues. See the [**MHSDS data quality dashboard**](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/mental-health-data-hub/data-quality/mental-health-services-dataset---data-quality-dashboard).  
-<br>
 
 ## Overview of mental health datasets
 For further information see the **individual dataset guides.**
