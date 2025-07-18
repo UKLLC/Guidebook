@@ -408,7 +408,7 @@ class LPSDataSet:
              self.df_ds.iloc[0]["source_table"],  # DS in TRE
              self.apa_cite,  # Citation
              self.dl_cites,  # Download Cite
-             md.make_hlink(
+             md.make_hlink_same_tab(
                  "https://guidebook.ukllc.ac.uk/docs/lps/lps%20profiles/{}"
                  .format(self.df_ds.iloc[0]["source"]),
                  self.df_ds.iloc[0]["source_name"]
@@ -454,6 +454,22 @@ class LPSDataSet:
         dsvs["source_table"] = dsvs["source"] + "_" + dsvs["table"]
         dsvs["version_num"] = dsvs["version_num"].\
             apply(lambda x: int(x.replace("v", "")))
+
+        # fill missing n_rows
+        dsvs["num_rows"] = dsvs["num_rows"].fillna(0.0)
+
+        # manual editing v nums to avoid duplicates
+        dsvs.loc[
+            (dsvs["source_table"] == "GLAD_FILE2") &
+            (dsvs["version_date"] == 20231107.0), "version_num"] = 2
+
+        dsvs.loc[
+            (dsvs["source_table"] == "GENSCOT_SMOKING") &
+            (dsvs["version_date"] == 20220302.0), "version_num"] = 2
+
+        dsvs.loc[
+            (dsvs["source_table"] == "GENSCOT_SPQ") &
+            (dsvs["version_date"] == 20220302.0), "version_num"] = 2
 
         ds_dois = dcf.get_doi_datasets()
         ds_dois = ds_dois[ds_dois["state"] == "findable"]
@@ -720,7 +736,7 @@ class LPSSource:
         df["Dataset"] = df["Dataset"].apply(
             lambda x: md.make_hlink_same_tab(
                 "{}.html".format(x), x))
-        df["# Observations"] = df["# Observations"].apply(lambda x: int(x))
+        df["# Observations"] = df["# Observations"].apply(lambda x: '' if x == '' else int(x))
         df["# Variables"] = df["# Variables"].apply(lambda x: int(x))
         return DocHelper.style_table("_", df)
 
@@ -1526,7 +1542,7 @@ class NHSESource:
             "MSDS"
         ])
 
-        df["table"] = df["table"].apply(lambda x: md.make_hlink(links[x], x))
+        df["table"] = df["table"].apply(lambda x: md.make_hlink_same_tab(links[x], x))
         df = df[
             [
                 "table",
