@@ -11,19 +11,19 @@ Information on the full version history of the AHAH index can be found on the [G
 
 ### Methodology
 
-The AHAH index has been created by a ranked combination of the time-weighted distance required to travel by road between every postcode in Great Britain and a selection of health related points of interest.
+The AHAH index has been created by a ranked combination of the time-weighted distance required to travel by road between every postcode in Great Britain and a selection of health-related points of interest.
 
 The index defines 'access' through the average time-weighted road network distance for each postcode within each Lower Super Output Area/Data Zone to the nearest point of interest of a particular type. The road highways network and road speed estimates provided through Ordnance Survey were used, in combination with the ONS Postcode Directory, which provides centroids for every postcode in Great Britain.
 
-The authors [(Konstantinos et al. 2019)](https://doi.org/10.1038/s41597-019-0114-6) describe the index calculation as computationally intense as the total road network used has ~3.8 million edges, and ~3.2 million nodes. Access to each nearest health related point of interest was calculated using the [Multi Source Shortest Path algorithm](https://github.com/ESRC-CDRC/ahah/blob/main/ahah/route.py), for all ~1.7 million postcodes in Great Britain.
+The authors [(Konstantinos et al. 2019)](https://doi.org/10.1038/s41597-019-0114-6) describe the index calculation as computationally intense, as the total road network used has ~3.8 million edges, and ~3.2 million nodes. Access to each nearest health-related point of interest was calculated using the [Multi Source Shortest Path algorithm](https://github.com/ESRC-CDRC/ahah/blob/main/ahah/route.py), for all ~1.7 million postcodes in Great Britain.
 
 The full methodology and code used to develop the index can be found [here.](https://github.com/ESRC-CDRC/ahah?tab=readme-ov-file)
 
 ## Caveats:
 
-- The AHAH index assumes a framework that environments can be separated into a linear scale of positive or negative environments. Using this framework is arguably simplistic and ignores that different combinations of neighbourhood features may create positive or negative environments (Green et al., [2014](https://doi.org/10.1016/j.healthplace.2014.09.011)).
+- The AHAH index assumes a framework that environments can be separated into a linear scale of positive or negative environments. Using this framework is arguably simplistic and ignores that different combinations of neighbourhood features may create positive or negative environments ([Green et al., 2014](https://doi.org/10.1016/j.healthplace.2014.09.011)).
 
-- The authors opted not to incorporate measures of the social environment in the AHAH index, as to not replicate other commonly used deprivation measures. In fact, [Green et al. (2018)](https://doi.org/10.1016/j.healthplace.2018.08.019) demonstrate that AHAH was not found to be correlated to the Index of Multiple Deprivation. Nevertheless, the work of [Pampel et al. (2010)](https://doi.org/10.1146/annurev.soc.012809.102529) and Sampson (2012)* demonstrate the importance of social environment (e.g. poverty level, housing quality, access to good schools) in determining health.
+- The authors opted not to incorporate measures of the social environment in the AHAH index, so as not to replicate other commonly used deprivation measures. In fact, [Green et al. (2018)](https://doi.org/10.1016/j.healthplace.2018.08.019) demonstrate that AHAH was not found to be correlated to the Index of Multiple Deprivation. Nevertheless, the work of [Pampel et al. (2010)](https://doi.org/10.1146/annurev.soc.012809.102529) and Sampson (2012)* demonstrates the importance of social environment (e.g. poverty level, housing quality, access to good schools) in determining health.
 
 - Further discussion on the data sources used in the AHAH index, their quality and a sensitivity analysis of the data 
 outputs is available in the supplementary appendix of the paper [Green et al. (2018)](https://doi.org/10.1016/j.healthplace.2018.08.019).

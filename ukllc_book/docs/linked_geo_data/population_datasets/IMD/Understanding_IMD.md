@@ -1,6 +1,6 @@
 # Understanding: Index of Multiple Deprivation (IMD)
 
-> Last modified: 10 Jun 2025
+> Last modified: 21 Jul 2025
 
 ## IMD, urban/rural classification and population estimates
 
@@ -10,22 +10,22 @@ This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA1
 
 Each of the 4 nations has its own versions of the Index of Multiple Deprivation, please see below for the individual statistical release information:
 
-**England:** The English Indices of Deprivation [(2019)](../images/IoD2019_Statistical_Release.pdf)
+**England:** The English Indices of Deprivation [(2019)](../../../images/IoD2019_Statistical_Release.pdf)
 
-**Wales:** Welsh Index of Multiple Deprivation [(2019)](../images/welsh-index-multiple-deprivation-2019-results-report.pdf)
+**Wales:** Welsh Index of Multiple Deprivation [(2019)](../../../images/welsh-index-multiple-deprivation-2019-results-report.pdf)
 
-**Scotland:** Scottish Index of Multiple Deprivation [(2020)](../images/SIMD+2020+technical+notes.pdf)
+**Scotland:** Scottish Index of Multiple Deprivation [(2020)](../../../images/SIMD+2020+technical+notes.pdf)
 
-**Northern Ireland:** Northern Ireland Multiple Deprivation Measures [(2017)](../images/NIMDM 2017_Technical Report.pdf)
+**Northern Ireland:** Northern Ireland Multiple Deprivation Measures [(2017)](../../../images/NIMDM%202017_Technical%20Report.pdf)
 
 
 England and Wales have a combined urban-rural classification, while Scotland and Northern Ireland have a separate classification system. The supporting documentation for each classification can be found below:
 
-**England and Wales:** Rural Urban Clasification of Statistical Geographies, England and Wales [(2021)](../images/RUC_2021_methodology.pdf)
+**England and Wales:** Rural Urban Clasification of Statistical Geographies, England and Wales [(2021)](../../../images/RUC_2021_methodology.pdf)
 
-**Scotland:** Scottish Government Urban Rural Classification [(2020)](../images/scottish-government-urban-rural-classification-2020.pdf)
+**Scotland:** Scottish Government Urban Rural Classification [(2020)](../../../images/scottish-government-urban-rural-classification-2020.pdf)
 
-**Northern Ireland:** Northern Ireland Statistis and Research Agency Urban-Rural Classification [(2015)](../images/technical-guidance-on-production-of-official-statistics-for-settlements-and-urban-rural-classification.pdf)
+**Northern Ireland:** Northern Ireland Statistis and Research Agency Urban-Rural Classification [(2015)](../../../images/technical-guidance-on-production-of-official-statistics-for-settlements-and-urban-rural-classification.pdf)
 
 
 Information on the quality and methdology information for mid-year population estimates in the UK including the strengths and limitations of the data has been developed by the [Office of National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/methodologies/midyearpopulationestimatesqmi). 

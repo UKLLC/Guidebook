@@ -1,7 +1,7 @@
 # Understanding: Greenspace metrics
 
 
->Last modified: 19 Jun 2025
+>Last modified: 21 Jul 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The greenspace dataset from the University of Leicester includes metrics on vegetation, greenspace coverage, tree density, walkability, and the size and number of greenspaces.</strong></div>  
 <br>
@@ -9,7 +9,7 @@
 
 ## Greenspace
 
-Greenspace metrics have been developed by the Centre for Environmental Health and Sustainability, University of Leicester for residential addresses/postcodes for cohorts partnering with UK LLC, where the appropriate permissions are in place. 
+Greenspace metrics have been developed by University of Leicester/City St George’s, University of London for residential addresses/postcodes for cohorts partnering with UK LLC, where the appropriate permissions are in place. 
 
 
 Some variables cover the entire United Kingdom (UK), while others are limited to Great Britain (GB). Please refer to the table below for geographic coverage of variables:
@@ -39,7 +39,7 @@ Some variables cover the entire United Kingdom (UK), while others are limited to
 Each greenspace metric is available for either circular buffers (CB – a circle around a specific address point) or network polygons (NP - given distance along a road and path network from a specific address point) for a range of distances. 
 
 Figure 1 shows example circular buffers and network polygons.
-<img src="../images/greenspace_network.png" width="500"/>
+<img src="../../../../images/greenspace_network.png" width="500"/>
 
 ***Figure 1 : Comparison of 300m circular buffers and network polygons for randomly selected addresses in different locations***
 
@@ -71,7 +71,8 @@ The table below gives a summary of the key greenspace metrics. This represents a
 | Largest greenspace area                      | ✓           | ✓          | ✓          | ✓          | ✓           |
 | Number of greenspaces                        | ✓           | ✓          | ✓          |            |             |
 | Tree cover density                           | ✓           | ✓          | ✓          |            |             |
-| Network distance to nearest access point     | ✓           | ✓          | ✓          |            |             |
+| Network distance to nearest access point     | ✓           | ✓          | ✓          |            |            |
+
 **Table 2 – Best recommended options of greenspace metrics if exact residential locations are available (NP = network polygons, CB = circular buffer)**
 
 ## Limitations:

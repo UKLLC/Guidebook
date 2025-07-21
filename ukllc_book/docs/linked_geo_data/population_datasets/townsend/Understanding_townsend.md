@@ -74,12 +74,12 @@ Each of these variables was then converted into z‐scores and summed to return 
 
 ## Caveats: 
 
-- The Townsend Index focuses on the actual as opposed to the perceived needs of individuals, and determines key indicators of actual standards of living in the sense of prevailing patterns whose absence indicates deprivation [(Eroğlu,2007)](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11205-006-0004-0.pdf&casa_token=XrOeTxnIuD0AAAAA:oreku47tgBEEu_hOTmCtsTFKlnlTrDso2S4ImCNOu6OTQZcEyClMvDcYnzTwd4kGJO8noOHmxzLBCBqzTQ).  
+- The Townsend Index focuses on the actual as opposed to the perceived needs of individuals, and determines key indicators of actual standards of living in the sense of prevailing patterns whose absence indicates deprivation [(Eroğlu, 2007)](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11205-006-0004-0.pdf&casa_token=XrOeTxnIuD0AAAAA:oreku47tgBEEu_hOTmCtsTFKlnlTrDso2S4ImCNOu6OTQZcEyClMvDcYnzTwd4kGJO8noOHmxzLBCBqzTQ).  
 
-- The index broadens the scope of the concept of poverty to mean being deprived of the living standards ‘which are customary or at least widely accepted by the societies to which they belong’ (Townsend, 1979: 31)*, and it attaches importance to the actual assessment of individuals’ standards of living [(Eroğlu,2007)](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11205-006-0004-0.pdf&casa_token=XrOeTxnIuD0AAAAA:oreku47tgBEEu_hOTmCtsTFKlnlTrDso2S4ImCNOu6OTQZcEyClMvDcYnzTwd4kGJO8noOHmxzLBCBqzTQ).   
+- The index broadens the scope of the concept of poverty to mean being deprived of the living standards ‘which are customary or at least widely accepted by the societies to which they belong’ (Townsend, 1979: 31)*, and it attaches importance to the actual assessment of individuals’ standards of living [(Eroğlu, 2007)](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11205-006-0004-0.pdf&casa_token=XrOeTxnIuD0AAAAA:oreku47tgBEEu_hOTmCtsTFKlnlTrDso2S4ImCNOu6OTQZcEyClMvDcYnzTwd4kGJO8noOHmxzLBCBqzTQ).   
 
 
-\* ***Townsend, Peter. Poverty in the United Kingdom: a survey of household resources and standards of living. Univ of California Press, 1979.***
+\* ***Townsend, Peter. Poverty in the United Kingdom: a survey of household resources and standards of living. University of California Press, 1979.***
 
 
 ## Limitations:  
