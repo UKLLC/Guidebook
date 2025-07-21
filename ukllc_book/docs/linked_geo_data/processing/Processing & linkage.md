@@ -11,6 +11,7 @@
 Flows of data from contributing Longitudinal Population Studies (LPS) and place-based data are conducted through a ‘split file’ protocol, where the flow of LPS participants’ addresses (File 1s) is entirely separate from the flow of place-based datasets (File 2s) - see Figure 1. Place-based datasets are updated at the frequency specified on the individual dataset-level pages.
 
 <img src="../../images/place-based_ukllc_file2.jpg" width="300"/>
+
 **Figure 1.** An overview of the flow of place-based data into the UK LLC TRE.
 
 ## Processing and risk assessment for place-based data
@@ -18,7 +19,9 @@ Place-based datasets flow into the UK LLC TRE by one of two pathways:
 
 1. The first pathway is for datasets that are developed by agreed partners and linked at address level. For these datasets to be linked, the participants’ addresses provided by the LPS must first be pooled with masking addresses and then geocoded. Our current partner for air pollution, greenspace, and noise modelled data is City St George's, University of London.
 
+
 <details>
+
 <summary>Find out more about partner-generated datasets</summary>
 
 - We ask each LPS to send address data to our Trusted Third Party, NHS Digital Health and Care Wales (DHCW), along with the permission flags that indicate LPS/participant approvals for place-based linkages.
@@ -29,7 +32,7 @@ Place-based datasets flow into the UK LLC TRE by one of two pathways:
 
 - DHCW will pool all (current and historical) address data at the appropriate resolution* for the task from all LPS (subject to permissions). This will generate a file including only an encrypted version of the participant ID and the address; it will not include any other identifiers or data. This will be filtered to exclude participants who have objected to this use of their data (as indicated in the File 1 permission flags).
 
-- *"Appropriate resolution" means we will send the least granular data needed to undertake the linkage, e.g., if a place-based linkage is based on LSOA, then we would only send LSOA, not full address.
+>*"Appropriate resolution" means we will send the least granular data needed to undertake the linkage, e.g., if a place-based linkage is >based on LSOA, then we would only send LSOA, not full address.
 
 - UK LLC will generate a list of 'masking' addresses — these are real addresses (UPRNs, LSOA, coordinates) sampled from across the UK, and are purposefully sampled to replicate LPS sample distributions (e.g., oversampling in Bristol and Bradford) and sampled for high-risk identifiability geographies (e.g., every inhabited UK island has masking addresses sampled to mitigate for outlier participants). UK LLC sends these to DHCW, who add them to the pooled address data at a 1:3 case:control ratio. DHCW generates new randomised encrypted participant IDs for these masking cases.
 
@@ -44,11 +47,13 @@ Place-based datasets flow into the UK LLC TRE by one of two pathways:
 - Additional disclosure control and QC checks are made. The data are then added to the UK LLC database, documented, and made available for research.
 
 </details>
-
-
+<br><br>
 2. The second pathway is for datasets that are pre-processed by UK LLC. They are at either household level or higher geographical units (e.g., LSOA/equivalent). These datasets undergo data cleaning and risk disclosure checks before being ingested into the TRE.
 
+
 <details>
+
+<br><br>
 <summary>Find out more about UK LLC pre-processed datasets</summary>
 
 The place-based datasets that UK LLC has pre-processed are either open sources or obtained through data sharing agreements with third parties.

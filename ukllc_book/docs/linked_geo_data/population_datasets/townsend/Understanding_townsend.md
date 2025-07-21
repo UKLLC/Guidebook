@@ -10,11 +10,11 @@
 
 ### Methodology
 
-A 2021 version of the Townsend Index [(1989)](https://doi.org/10.4324/9781003368885) has been created by Jephcote and Gulliver [(2025)](https://doi.org/10.1016/j.envint.2025.109304) for the 188,879 Census Output Area (COA) communities across England and Wales.  
+A 2021 version of the [Townsend Index (1989)](https://doi.org/10.4324/9781003368885) has been created by [Jephcote and Gulliver (2025)](https://doi.org/10.1016/j.envint.2025.109304) for the 188,879 Census Output Area (COA) communities across England and Wales.  
 
 The Townsend index is a relative indicator of material deprivation, which has been widely used to identify socio‐economic confounding in crime, education, and health research in England. This deprivation index is constructed from four unweighted UK Census variables, which describe the level of total unemployment, overcrowding, private vehicle ownership, and home ownership in each community.  
 
-[Census 2021 tables](https://www.nomisweb.co.uk/sources/census_2021) RM024, TS052, TS045, and TS054 provided information on the four required measures, in 188,880 Output Area communities across England and Wales: 
+[Census 2021 tables:](https://www.nomisweb.co.uk/sources/census_2021) RM024, TS052, TS045, and TS054 provided information on the four required measures, in 188,880 Output Area communities across England and Wales: 
 
 **Variable 1: Proportion of “Total Unemployment” (RM024)** * 
 | **Description**                | **Formula**                                                                 |
