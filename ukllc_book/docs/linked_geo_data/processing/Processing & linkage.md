@@ -10,7 +10,7 @@
 
 Flows of data from contributing Longitudinal Population Studies (LPS) and place-based data are conducted through a ‘split file’ protocol, where the flow of LPS participants’ addresses (File 1s) is entirely separate from the flow of place-based datasets (File 2s) - see Figure 1. Place-based datasets are updated at the frequency specified on the individual dataset-level pages.
 
-<img src="../../images/place-based_ukllc_file2.jpg" width="300"/>
+<img src="../../images/place-based_ukllc_file2.jpg" width="700"/>
 
 **Figure 1.** An overview of the flow of place-based data into the UK LLC TRE.
 
@@ -48,12 +48,10 @@ Place-based datasets flow into the UK LLC TRE by one of two pathways:
 
 </details>
 <br><br>
-2. The second pathway is for datasets that are pre-processed by UK LLC. They are at either household level or higher geographical units (e.g., LSOA/equivalent). These datasets undergo data cleaning and risk disclosure checks before being ingested into the TRE.
-
+2. The second pathway is for datasets that are pre-processed by UK LLC. They are at either household level or higher geographical units (e.g., LSOA/equivalent). 
+These datasets undergo data cleaning and risk disclosure checks before being ingested into the TRE.<br><br>
 
 <details>
-
-<br><br>
 <summary>Find out more about UK LLC pre-processed datasets</summary>
 
 The place-based datasets that UK LLC has pre-processed are either open sources or obtained through data sharing agreements with third parties.
