@@ -60,7 +60,7 @@ The table below gives a summary of the key greenspace metrics. This represents a
 > Network polygons are proposed for smaller distances and circular buffers for larger ones. For larger distances of 5km and 10km, only the maximum  
 > greenspace size is calculated. This is because for large areas, most other metrics (e.g. NDVI, percentage greenspace) converge to a single value and  
 > hence variability decreases. These larger distances are only included to allow for application of  
-> [Natural England’s ANGSt model(https://publications.naturalengland.org.uk/publication/65021) on greenspace accessibility (which uses distances of  
+> [Natural England’s ANGSt model](https://publications.naturalengland.org.uk/publication/65021) on greenspace accessibility (which uses distances of  
 > 300m, 2km, 5km and 10km).
 
 

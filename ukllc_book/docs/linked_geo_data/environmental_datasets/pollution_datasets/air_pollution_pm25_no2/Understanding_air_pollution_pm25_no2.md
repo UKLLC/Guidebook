@@ -19,7 +19,7 @@ Particulate matter (PM) is everything in the air that is not a gas and as such i
 NO2 and PM2.5 geospatial surface data were created at a national scale using two existing surfaces:
 
 1) The UK government, Department for Environment, Food & Rural Affairs **(DEFRA)** has modelled background **annual-average air pollution concentrations** since 2001 (1 x 1km resolution). These surfaces approximate **changes in air pollution over time** and provide exposure estimates between the UK Automatic Urban and Rural Network (AURN). These are typically 10 to 100s kms apart and with higher numbers in urban areas. 
-2) **High spatial resolution** annual average pollutant surfaces at 25x25m resolution produced by [Wang et al. (2022)](https://www.sciencedirect.com/science/article/pii/S130910422200188X). Unlike the DEFRA surfaces, these surfaces do not capture the temporal change in exposures. However, they do capture variability within and between streets. 
+2) **High spatial resolution** annual average pollutant surfaces at 25x25m resolution produced by [Wang et al., (2022)](https://www.sciencedirect.com/science/article/pii/S130910422200188X). Unlike the DEFRA surfaces, these surfaces do not capture the temporal change in exposures. However, they do capture variability within and between streets. 
 
 **High spatial-temporal resolution environmental exposure surfaces were created** across the UK, using the spatial granularity of Wang’s NO2 and PM2.5 exposure surface and temporal regularity of the DEFRA background concentration maps. 
 

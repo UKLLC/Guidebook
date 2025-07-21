@@ -8,14 +8,14 @@
 
 ## Common framework for noise assessment methods (CNOSSOS-EU) noise modelling
 
-Modelled road-transport noise estimates have been calculated by University of Leicester/City St George’s, University of London in accordance with the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the European Commission (2002/49/EC). These noise propagation algorithms are implemented in PostgreSQL via the PostGIS v2.1 extension, following the protocol described in [Gulliver et al (2015)](https://doi.org/10.1016/j.envsoft.2014.12.022) and [Morley et al (2015)](https://doi.org/10.1016/j.envpol.2015.07.031). 
+Modelled road-transport noise estimates have been calculated by University of Leicester/City St George’s, University of London in accordance with the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the [European Commission (2002/49/EC)](https://www.researchgate.net/publication/280894153_Common_noise_assessment_methods_in_Europe_CNOSSOS-EU). These noise propagation algorithms are implemented in PostgreSQL via the PostGIS v2.1 extension, following the protocol described in [Gulliver et al. (2015)](https://doi.org/10.1016/j.envsoft.2014.12.022) and [Morley et al. (2015)](https://doi.org/10.1016/j.envpol.2015.07.031). 
 
 Annual Average Daily Traffic (AADT) counts and traffic speeds across the UK road-network in 2013 enter the model, along with information relating to the surface roughness of land cover, building heights, wind profiles and average temperatures. The road-transport noise estimates for 2013 are then scaled to other years by considering the average change in AADT at a Local Authority level, using traffic count sites recorded in the [Department for Transport’s regional traffic statistics](https://roadtraffic.dft.gov.uk/regions) dataset.
 
 
 ### Methodology
 
-Modelled road-transport noise estimates are calculated in accordance to the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the [European Commission (2002/49/EC)](https://www.researchgate.net/publication/280894153_Common_noise_assessment_methods_in_Europe_CNOSSOS-EU). For the purposes of this study, the CNOSSOS-EU model algorithms are to be implemented in PostgreSQL via the PostGIS v2.1 extension, following the protocol described in [Morley et al (2015)](https://doi.org/10.1016/j.envpol.2015.07.031).
+Modelled road-transport noise estimates are calculated in accordance to the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the [European Commission (2002/49/EC)](https://www.researchgate.net/publication/280894153_Common_noise_assessment_methods_in_Europe_CNOSSOS-EU). For the purposes of this study, the CNOSSOS-EU model algorithms are to be implemented in PostgreSQL via the PostGIS v2.1 extension, following the protocol described in [Morley et al. (2015)](https://doi.org/10.1016/j.envpol.2015.07.031).
 
 In brief, the coordinates of each receptor are assigned to the closest building. The building façade that is likely to experience the most noise levels is identified by considering the proximity and vehicle counts on nearby roads, and a receptor (point) is placed 1m away from the building. A GIS operation locates all major roads within a 1000m radius and all minor roads within a 100m radius of each receptor. These roads are then divided into a series of source points at 20m intervals along each road segment. Next, rays are projected from the receptor point to each source point as a direct path and the land cover types and buildings along this line are ascertained. For each ray path in turn, the noise level at each source point can be calculated using traffic flow data and the empirical relationships defined by CNOSSOS-EU. Following this, the receptor noise level is estimated according to the specific environments along the ray path and the CNOSSOS-EU sound propagation algorithms. 
 
@@ -27,7 +27,7 @@ The reported noise estimates are ‘A’ Frequency Weighted. The ‘A’ Weighti
 * **LAeq16** is the A-weighted equivalent noise level (Leq) over the 16-hour day period of 07:00 to 23:00 hours.
 * **Lden** is the A-weighted equivalent noise level (Leq) over a whole day, but with a penalty of +10 dB(A) for night-time noise (22:00-07:00) and +5 dB(A) for evening noise (19:00-23:00). Also known as the day-evening-night noise indicator.
 
-The workflow of the CNOSSOS-EU model is described in Figure 1, adapted from Gulliver et al [(2015)](https://doi.org/10.1016/j.envsoft.2014.12.022):
+The workflow of the CNOSSOS-EU model is described in Figure 1, adapted from [Gulliver et al. (2015)](https://doi.org/10.1016/j.envsoft.2014.12.022):
 
 <img src="../../../../images/noise_pollution.png" width="500"/>
 
