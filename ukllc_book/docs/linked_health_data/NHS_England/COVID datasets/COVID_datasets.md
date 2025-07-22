@@ -16,11 +16,11 @@ The graphic was developed as part of work led by the ALSPAC (University of Brist
 <br>
 >* Three datasets have alternative names. **IELISA** is also known as **Covid-19 UK Non-hospital Antibody Testing Results**, **NPEX** as **Covid-19 UK Non-hospital Antigen Testing Results** and **CHESS** as **Severe Acute Respiratory Infection (SARI-Watch) surveillance system**. We receive the data from NHS England as the IELISA, NPEX and CHESS datasets and these are the names researchers will see in the UK LLC TRE. Therefore, we refer to them by these names in our documentation.
 <br>
->* Researchers are permitted access to the COVID-19 datasets under a **specific term** set by NHS England: Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020**.](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020#:~:text=identifying%20and%20understanding)
+>* Researchers are permitted access to the COVID-19 datasets under a **specific term** set by NHS England: Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the <strong><a href="https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020#:~:text=identifying%20and%20understanding" target="_blank" rel="noopener noreferrer">COVID-19 Public Health Directions 2020</a></strong>
 <br>
 >* The datasets span **2020 onwards**, although a number are now retired.
 <br>
->* Primarily, **SNOMED codes** are used in the **COVID-19 datasets**. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details. NHS England introduced new dm+d and SNOMED codes during the COVID-19 pandemic, which were mapped to the World Health Organization's [**Emergency use ICD codes for COVID-19 disease outbreak**.](https://www.who.int/standards/classifications/classification-of-diseases/emergency-use-icd-codes-for-covid-19-disease-outbreak)
+>* Primarily, **SNOMED codes** are used in the **COVID-19 datasets**. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details. NHS England introduced new dm+d and SNOMED codes during the COVID-19 pandemic, which were mapped to the World Health Organization's <strong><a href="https://www.who.int/standards/classifications/classification-of-diseases/emergency-use-icd-codes-for-covid-19-disease-outbreak" target="_blank" rel="noopener noreferrer">Emergency use ICD codes for COVID-19 disease outbreak</a></strong>
 <br>
 
 ## Overview of COVID-19 datasets
@@ -38,9 +38,9 @@ For further information see the **individual dataset guides.**
 |[***CVAR***](../COVID%20datasets/CVAR/CVAR.ipynb)|*COVID-19 Vaccination Adverse Reactions*|*N/A*|*Vaccination*|*England*|*08/12/2020 to Sept 2023*|*NHSE*||
 
 DHSC: Department of Health and Social Care
-<sup>1</sup>As explained in the DHSC's [**COVID-19 Scaling up our testing programmes**](https://assets.publishing.service.gov.uk/media/5e888f05e90e0707799498b3/coronavirus-covid-19-testing-strategy.pdf), four pillars comprised the UK government's approach to testing for SARS-CoV-2.
+<sup>1</sup>As explained in the DHSC's <strong><a href="https://assets.publishing.service.gov.uk/media/5e888f05e90e0707799498b3/coronavirus-covid-19-testing-strategy.pdf" target="_blank" rel="noopener noreferrer">COVID-19 Scaling up our testing programmes</a></strong>, four pillars comprised the UK government's approach to testing for SARS-CoV-2.
 **Pillar 1** quantified the number of people with a clinical need, and health and care workers, who returned positive swab (antigen) tests (processed in PHE labs and NHS hospitals).
 **Pillar 2** quantified the number of people in the wider community who returned positive swab (antigen) tests (processed in commercial labs).
 **Pillar 3** quantified the number of people who returned positive serology (antibody) tests to detect immunity and to understand the efficacy of the different testing methods.
 **Pillar 4** quantified the number of people who returned positive serology (antibody) and swab (antigen) tests to detect immunity and to understand the efficacy of the different testing methods.
-For further details see the DHSC's [**COVID-19 testing data: methodology note**.](https://www.gov.uk/government/publications/coronavirus-covid-19-testing-data-methodology/covid-19-testing-data-methodology-note)
+For further details see the DHSC's <strong><a href="https://www.gov.uk/government/publications/coronavirus-covid-19-testing-data-methodology/covid-19-testing-data-methodology-note" target="_blank" rel="noopener noreferrer">COVID-19 testing data: methodology note</a></strong>
