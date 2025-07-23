@@ -1,6 +1,6 @@
 # Understanding: Air pollution NO2 & PM
 
->Last modified: 27 Jun 2025
+>Last modified: 23 Jul 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides annual-average NO₂ and PM₂.₅ exposure data at high spatial resolution which can support health and environmental research.</div>  
 <br>
@@ -38,7 +38,7 @@ See the [Linkage and processing of address data guide](../Processing & linkage.m
 Address start and end dates are provided by each LPS to indicate when the participant moved into and out of each address location. In many cases these **dates are null, address periods are not contiguous**, and do not cover the full time periods where participants are part of an LPS. These are **data quality issues** and the UK LLC Data Team is exploring solutions to improve the usability of these data. This documentation will be updated once these improvements are in place.  
 
 ### Matchcodes
-The files contain a *matchcode* variable which indicates how successfully the Experian geocoding software was able to match the address. The *matchcode* also contains an indicator for confidence and whether any actions took place to correct postcode or address elements during the geocoding process. See the [Linkage and processing of address data guide](../linkage_and_processing.md) for background information on this. For full documentation on how to interpret the Experian *matchcode* see the [Experian documentation](https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success). 
+The files contain a *matchcode* variable which indicates how successfully the Experian geocoding software was able to match the address. The *matchcode* also contains an indicator for confidence and whether any actions took place to correct postcode or address elements during the geocoding process. See the [Linkage and processing of address data guide](../../../processing/Processing%20&%20linkage.md) for background information on this. For full documentation on how to interpret the Experian *matchcode* see the [Experian documentation](https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success). 
 
 ### Air pollution variables
 Air pollution variables in the form *no2_YYYY/pm_YYYY* are annual averages. These should be used in **conjunction with the address start and end dates** to assign the annual averages for the years that correspond to when the participant was at that address. Note, the UK LLC Data Team will build a transformed version of this dataset with this pre-processing step already completed in due course. This documentation will be updated when this is place.
