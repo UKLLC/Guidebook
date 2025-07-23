@@ -1,14 +1,14 @@
 # UK LLC-managed datasets
 
 >Last modified: 17 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC curates a range of derived and harmonised datasets</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC curates a range of derived and harmonised datasets</strong></div>
 <br>
 
-UK LLC managed datasets fall into two categories:  
+UK LLC managed datasets fall into two categories:
 * Those created by the **UK LLC Data Team**
-* Those created by **researchers** working in the TRE.  
+* Those created by **researchers** working in the TRE.
 
-These datasets are available for selection via the **UKLLC** schema in [**UK LLC Explore**](https://explore.ukllc.ac.uk/).
+These datasets are available for selection via the **UKLLC** schema in <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>.
 
 ## Overview of UK LLC managed datasets
 
@@ -20,6 +20,3 @@ These datasets are available for selection via the **UKLLC** schema in [**UK LLC
 | [link] |NHSE_indicator|UK LLC|TBC|UK LLC|
 | [link] |NHSE_presence|UK LLC|TBC|UK LLC|
 | [link] |Charlson|Researcher|TBC|UK LLC|
-
-
-
