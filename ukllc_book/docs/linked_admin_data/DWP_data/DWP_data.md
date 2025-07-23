@@ -1,13 +1,13 @@
 # Department for Work and Pensions (DWP) data
 >Last modified: 09 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has approval from the Department for Work and Pensions (DWP) to flow de-identified data into the UK LLC Trusted Research Environment (TRE).</strong></div>  
-<br> 
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has approval from the Department for Work and Pensions (DWP) to flow de-identified data into the UK LLC Trusted Research Environment (TRE).</strong></div>
+<br>
 
 Below is the list of **datasets** that will be brought into the UK LLC TRE. The datasets contain information about benefits, income and tax linked benefits. We will update this page with more information as it becomes available.
 
-> UK LLC is in discussions with the Office for National Statistics (ONS) to understand how the datasets will be provisioned to researchers. Researchers may be required to specify the data they would like access to at the variable level, rather than be permitted access to the full datasets. 
+> UK LLC is in discussions with the Office for National Statistics (ONS) to understand how the datasets will be provisioned to researchers. Researchers may be required to specify the data they would like access to at the variable level, rather than be permitted access to the full datasets.
 
-> DWP has created a [**Registration and Population Interaction Database (RAPID)**](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/methodologies/methodsformeasuringinternationalmigrationusingrapidadministrativedata#overview-of-rapid). It is possible that UK LLC, in time, may have access to this additional resource.  
+> DWP has created a <strong><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/methodologies/methodsformeasuringinternationalmigrationusingrapidadministrativedata#overview-of-rapid" target="_blank" rel="noopener noreferrer">Registration and Population Interaction Database (RAPID)</a></strong>. It is possible that UK LLC, in time, may have access to this additional resource.
 
 |**Dataset**|**Data owner**|**Link**|
 |---|:---:|:---:|
