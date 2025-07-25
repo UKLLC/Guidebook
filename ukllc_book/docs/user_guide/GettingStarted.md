@@ -1,5 +1,5 @@
 # Getting started
->Last modified: 09 Jul 2025
+>Last modified: 25 Jul 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains the basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
@@ -17,12 +17,12 @@ Each **view** of data provided is named following the convention: **LLC_XXXX.SCH
 
 Associated metadata (value and variable labels) are also provided as database views. A **codelist library** of all codelists requested for any project to date are available to researchers for reference purposes.
 
-## Your project folders and project naming
+## Your project folders
 
 <div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><strong>ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>
 <br>
 
-Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all researchers should follow the [**UK LLC Naming of Projects & Data-related Outputs Policy**](https://ukllc.ac.uk/governance).
+Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. We therefore encourage researchers to adopt the naming convention detailed in the Naming your files section.
 
 In order to access your project folder, open the ‘S drive’:
 <img src="../images/user_guide/image-17.png" width="300"/>
@@ -43,7 +43,24 @@ Project folders have a defined **standard folder structure** (as detailed below)
 |outputs|For storing proposed publication-ready analytical outputs to be submitted through the ‘file-out’ review process|
 |syntax|For storing researcher-generated analytical syntax/scripts|
 
+## Naming your files
+You should use the following file naming convention:
 
+    <llc>_<project_number>_<file_name>_<file_type>_<version>
+
+* **< llc>_<project_number>** e.g. llc_0001 
+* **<file_name>** corresponds to a concise descriptor of the file of maximum 10 characters length
+* **<file_type>** corresponds to a signifier of the type of content in the file, e.g. ‘syntax’, ‘data’, ‘doc’
+* **< version>** corresponds to an integer of variable length, sequenced in order of versioning (decimal values are not permitted).
+
+| **Example**|**Interpretation**|
+|---|:---:|
+|llc_0001_sesdemog_syntax_v1|The syntax used to create the sociodemographic dataset ‘llc_0001_sesdemog_data_v1’|
+|llc_0001_sesdemog_data_v1|The data derived by project llc_0001 researchers about sociodemographic measures using the syntax in the syntax file above|
+|llc_0001_sesdemog_doc_v1|Documentation summarising descriptive sociodemographic information about the participants included in the dataset file above |
+	
+	
+As data processing/analysis syntax can produce multiple outputs, each file should be given a unique name pertinent to the data. Multiple outputs produced by one syntax file should not increment the version number. Version numbers should only increment when there has been a change in analyses or data pipeline, resulting in a data output with the same name being produced. Where multiple syntax files are used in sequence/combination to produce a data output, a master syntax file should be maintained and versioned in accordance to the versioning of the data output.
 
 ## Retrieving data – ODBC connection
 **IMPORTANT**: Your project data are not provided as files; instead they are available as **database views**. Therefore, you will not find data files in your project folder on initial login. Data will instead need to be **retrieved** from the UKSERPUKLLC database using an **ODBC connection** (a piece of software which enables programmes – such as R or STATA – to connect to databases and interact with the data).
