@@ -1608,9 +1608,7 @@ class PlaceDataSet:
 
         def get_place_ds(x):
             ds = md.get_md_api_dss()
-            if x.startswith("air_pollution"):
-                df_ds = ds[(ds["source"] == "GEO") & (ds["table"] == "air_pollution")]
-
+            df_ds = ds[(ds["source"] == "PLACE") & (ds["table"] == x)]
             df_ds["source_table"] = df_ds["source"] + "_" + df_ds["table"]
             ss = md.get_md_api_ss()[["Owner", "source"]]
             df_ds = df_ds.merge(ss, on="source")
@@ -1623,7 +1621,7 @@ class PlaceDataSet:
 
         def get_lastest_dsvs(x):
             dsvs = md.get_md_api_dsvs()
-            dsvs = dsvs[(dsvs["source"] == "GEO") & (dsvs["table"] == x)]
+            dsvs = dsvs[(dsvs["source"] == "PLACE") & (dsvs["table"] == x)]
             dsvs["source_table"] = dsvs["source"] + "_" + dsvs["table"]
             dsvs["version_num"] = dsvs["version_num"].\
                             apply(lambda x: int(x.replace("v", "")))
@@ -1758,7 +1756,7 @@ class PlaceDataSet:
         return DocHelper.style_table("_", df_ss_info)
 
     def variable_table(self):
-        df = md.get_table_vars("geo", self.dataset)[["variable_name", "variable_label"]]
+        df = md.get_table_vars("place", self.dataset)[["variable_name", "variable_label"]]
         df2 = md.get_place_var_info()
         df2 = df2[df2["dataset"] == self.dataset][["variable", "owner", "date_range", "category"]]
         df = df.merge(df2, left_on="variable_name", right_on="variable")[["category", "variable_name", "variable_label", "owner", "date_range"]]
