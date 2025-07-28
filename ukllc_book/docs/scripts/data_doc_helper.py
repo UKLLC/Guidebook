@@ -18,7 +18,7 @@ import numpy as np
 
 pd.options.mode.chained_assignment = None
 
-dc_env = "TEST"
+dc_env = "PROD"
 
 # DataCite API test env variables
 if dc_env == "TEST":
@@ -409,7 +409,7 @@ class LPSDataSet:
              self.apa_cite,  # Citation
              self.dl_cites,  # Download Cite
              md.make_hlink_same_tab(
-                 "https://guidebook.ukllc.ac.uk/docs/lps/lps%20profiles/{}"
+                 "https://guidebook.ukllc.ac.uk/docs/lps_data/lps%20profiles/{}"
                  .format(self.df_ds.iloc[0]["source"]),
                  self.df_ds.iloc[0]["source_name"]
                  ),  # Series

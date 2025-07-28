@@ -2,7 +2,7 @@ import requests
 import os
 import pandas as pd
 
-dc_env = "TEST"
+dc_env = "PROD"
 
 # DataCite API test env variables
 if dc_env == "TEST":

@@ -250,7 +250,7 @@ def prep_dsvs_for_gb_pages() -> pd.DataFrame:
             (dsvs_t2["source_table"] == "GENSCOT_SPQ") &
             (dsvs_t2["version_date"] == 20220302.0), "version_num"] = 2
 
-    dsvs_t3 = dsvs_t2.sort_values('version_num').drop_duplicates('table',
+    dsvs_t3 = dsvs_t2.sort_values('version_num').drop_duplicates(subset=['source','table'],
                                                                  keep='last')
     dsvs_t3["collection_start"] = dsvs_t3["collection_start"].fillna("Unknown")
     dsvs_t3["collection_end"] = dsvs_t3["collection_end"].fillna("Unknown")
