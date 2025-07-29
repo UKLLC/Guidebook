@@ -11,6 +11,31 @@ email: support@ukllc.ac.uk
 execute:
   exclude_patterns:
     - '*freeze*'
+    - '*scratchpad*'
+
+# Exlude all LPS datasets and landing pages
+    - '*LPS_data/LPS profiles/*'
+    - '*Datasets/ALSPAC/Datasets/*'
+    - '*Datasets/BCS70/Datasets/*'
+    - '*Datasets/BIB/Datasets/*'
+    - '*Datasets/ELSA/Datasets/*'
+    - '*Datasets/EPICN/Datasets/*'
+    - '*Datasets/EXCEED/Datasets/*'
+    - '*Datasets/FENLAND/Datasets/*'
+    - '*Datasets/GENSCOT/Datasets/*'
+    - '*Datasets/GLAD/Datasets/*'
+    - '*Datasets/MCS/Datasets/*'
+    - '*Datasets/NCDS58/Datasets/*'
+    - '*Datasets/NEXTSTEP/Datasets/*'
+    - '*Datasets/NICOLA/Datasets/*'
+    - '*Datasets/NIHRBIO_COPING/Datasets/*'
+    - '*Datasets/NSHD46/Datasets/*'
+    - '*Datasets/SABRE/Datasets/*'
+    - '*Datasets/TEDS/Datasets/*'
+    - '*Datasets/TRACKC19/Datasets/*'
+    - '*Datasets/TWINSUK/Datasets/*'
+    - '*Datasets/UKHLS/Datasets/*'
+
   execute_notebooks: force
 
 bibtex_bibfiles:
@@ -47,5 +72,3 @@ parse:
 sphinx:
   config                    :  # key-value pairs to directly over-ride the Sphinx configuration
     html_show_copyright     : false
-
-

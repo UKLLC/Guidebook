@@ -1,45 +1,40 @@
-# NHS Wales datasets
->Last modified: 08 Jul 2024
-## Introduction  
-**Data from NHS Wales will soon be available in the UK LLC TRE** - see details of the **17 datasets** in Table 1. 
-
+# NHS Wales data
+>Last modified: 20 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>SAIL Databank has approved the extraction of participants’ Welsh health records (where permissions are in place) - data will soon be available in the UK LLC database.</strong></div>  
+<br>
+  
 Although NHS Wales is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS Wales datasets.  
 
-**Note**: Each LPS participant has the power to opt out of linkage to their NHS Wales records.  
+Below is a list of the datasets we anticipate will flow into the UK LLC database. The datasets cover a **variety of domains and time periods**. Their **geographic coverage is restricted to Wales**, apart from the Annual District Death Extract (ADDE).
 
-
-## UK LLC documentation of NHS Wales datasets
-We have organised our NHS Wales data documentation into four tiers as explained in Figure 1. This initial guide provides an overview of the NHS Wales datasets held in the UK LLC TRE. The **Processing and linkage guide** will explain how LPS participants are linked to their health records and how they can opt out. The **Coded variables guide** will detail the various classification systems used in NHS Wales datasets. The five **overview dataset guides** align with the dataset primary domains in Table 1 and provide an introduction to the hospital datasets, the COVID datasets, the registration datasets, the primary care dataset and the 'other' datasets, which is a collection of datasets that do not fit neatly into one of the other four groups. Finally, there is a series of more detailed **individual dataset guides**.  
-</br>
-<img src="../../images/NHSW_IntroDocumentation_Figure1.jpg" width="900"/>
-
-**Figure 1** UK LLC documentation of the NHS Wales datasets is across four tiers, starting with this overview and culminating in the individual dataset guides
+**Note:**  
+* The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC database. 
+* Some datasets have been **retired** and therefore data only flows for the periods specified. 
+* Further details will be available in the individual dataset guides.
+* Each LPS participant has the power to **opt out** of linkage to their NHS Wales records. 
 
 ## Overview of NHS Wales datasets
-The NHS Wales datasets cover a **variety of domains and time periods** as summarised in Table 1. Their **geographic coverage is restricted to Wales**, apart from ADDE. The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE.      
-
 **Table 1** Names, temporal coverage and availability of NHS Wales datasets in the UK LLC TRE (the datasets in italics are retired) 
-|**Dataset name in TRE**|**Full dataset name**|**Primary domain**|**Secondary domain**|**Data available in TRE<sup>1</sup>**|**Data owner**|
-|---|:---:|:---:|:---:|:---:|:---:|
-|**PEDW**|Patient Episode Dataset for Wales|Hospital|Admitted patients|TBC|NHSW|
-|**OPDW**|Outpatient Database for Wales|Hospital|Outpatients|TBC|NHSW|
-|**EDDS**|Emergency Department Dataset|Hospital|A & E patients|TBC|NHSW|
-|**CCDS**|Critical Care Dataset|Hospital|Critical care patients|TBC|NHSW|
-|**ICNC**|Intensive Care National Audit and Research Centre|Hospital|Critical care patients|TBC|NHSW|
-|***PATD***|*COVID-19 Test Results*|*COVID*|*Testing*|*TBC*|*NHSW*|
-|***CTTP***|*COVID-19 Test Trace and Protect*|*COVID*|*Testing & tracing*|*TBC*|*NHSW*|
-|***CVSP***|*COVID-19 Shielded People List*|*COVID*|*Shielding*|*TBC*|*NHSW*|
-|***CVVD***|*Covid Vaccination Dataset*|*COVID*|*Vaccination*|*TBC*|*NHSW*|
-|**WCISU**|Welsh Cancer Intelligence and Surveillance Unit|Registration|Cancer|TBC|NHSW|
-|**WDSD**|Welsh Demographic Service Dataset|Registration|Demographics|TBC|NHSW|
-|**ADDE**|Annual District Death Extract|Registration|Deaths|TBC|ONS|   
-|**WLGP**|Welsh Longitudinal General Practice Dataset|Primary care||TBC|NHSW|
-|**OPRD**|Outpatient Referral|Other|Outpatients|TBC|NHSW|
-|**MIDS**|Maternity Indicators Dataset|Other|Maternity|TBC|NHSW|
-|**WASD**|Welsh Ambulance Services NHS Trust|Other|Ambulance calls|TBC|NHSW|
-|**NHSO**|NHS 111 Dataset|Other|NHS 111 calls|TBC|NHSW|
+|**Dataset**|**Dataset name**|**Grouping**|**Data available in TRE**|**Data owner**|
+|---|:---:|:---:|:---:|:---:|
+|**PEDW**|Patient Episode Dataset for Wales|Hospital|TBC|NHSW|
+|**OPDW**|Outpatient Database for Wales|Hospital|TBC|NHSW|
+|**EDDS**|Emergency Department Dataset|Hospital|TBC|NHSW|
+|**CCDS**|Critical Care Dataset|Hospital|TBC|NHSW|
+|**ICNC**|Intensive Care National Audit and Research Centre|Hospital|TBC|NHSW|
+|***PATD***|*COVID-19 Test Results*|*COVID*|*TBC*|*NHSW*|
+|***CTTP***|*COVID-19 Test Trace and Protect*|*COVID*|*TBC*|*NHSW*|
+|***CVSP***|*COVID-19 Shielded People List*|*COVID*|*TBC*|*NHSW*|
+|***CVVD***|*Covid Vaccination Dataset*|*COVID*|*TBC*|*NHSW*|
+|**WCISU**|Welsh Cancer Intelligence and Surveillance Unit|Registration|TBC|NHSW|
+|**WDSD**|Welsh Demographic Service Dataset|Registration|TBC|NHSW|
+|**ADDE**|Annual District Death Extract|Registration|TBC|ONS|   
+|**WLGP**|Welsh Longitudinal General Practice Dataset|Primary care|TBC|NHSW|
+|**MIDS**|Maternity Indicators Dataset|Other|TBC|NHSW|
+|**WASD**|Welsh Ambulance Services NHS Trust|Other|TBC|NHSW|
+|**NHSO**|NHS 111 Dataset|Other|TBC|NHSW|
+|**OPRD**|Outpatient Referral|Other|TBC|NHSW|
 
-<sup>1</sup>As documented in the data sharing agreement.  
 NHSW: NHS Wales; ONS: Office for National Statistics
 
 

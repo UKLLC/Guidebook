@@ -1,10 +1,10 @@
 # NHS Wales hospital datasets
 >
->Last modified: 18 Jul 2024
+>Last modified: 23 Jun 2025
 >
 ## Introduction
 
-The NHS Wales hospital datasets comprise the **Outpatients Database for Wales (OPDW)**, **Patient Episode Datasets for Wales (PEDW)**,  **Critical Care Datasets (CCDS)**, **Emergency Department datasets (EDDS)** and the **Intensive care case mix and activity (ICNC)**. The hospital datasets **do not include** all mental health or maternity-specific hospital activity.
+The NHS Wales hospital datasets comprise the **Outpatients Database for Wales (OPDW)**, **Patient Episode Dataset for Wales (PEDW)**,  **Critical Care Dataset (CCDS)**, **Emergency Department Dataset (EDDS)** and the **Intensive Care National Audit and Research Centre (ICNC)**. The hospital datasets **do not include** all mental health or maternity-specific hospital activity.
 
 **OPCS**, **ICD-10**, **NHS National** and **NHS Wales National codes** are used in the OPDW and PEDW datasets. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
 
@@ -19,10 +19,10 @@ The hospital datasets were linked either by NHS number or a combination of alter
 | **Name in TRE**|**Full name**|**Domain**|**From**|**Until**|**Data available in TRE<sup>1</sup>** |
 |---|:---:|:---:|:---:|:---:|:---:|
 |**OPDW**|Outpatients Database for Wales|Outpatients|01/04/2004|Ongoing|TBC|
-|**PEDW**|Patient Episode Datasets for Wales|Inpatients|01/04/1995|Ongoing |TBC|
-|**CCDS**|Critical Care Datasets|Critical care|01/01/2007|Ongoing|TBC|
-|**EDDS**|Emergency Department datasets|A & E patients| 01/04/2009|Ongoing|TBC|
-|**ICNC**|Intensive care case mix and activity|Intensive care|01/05/2008|Ongoing|TBC|
+|**PEDW**|Patient Episode Dataset for Wales|Inpatients|01/04/1995|Ongoing |TBC|
+|**CCDS**|Critical Care Dataset|Critical care|01/01/2007|Ongoing|TBC|
+|**EDDS**|Emergency Department Dataset|A & E patients| 01/04/2009|Ongoing|TBC|
+|**ICNC**|Intensive Care National Audit and Research Centre|Intensive care|01/05/2008|Ongoing|TBC|
 
 <sup>1</sup>As documented in the data sharing agreement.
   

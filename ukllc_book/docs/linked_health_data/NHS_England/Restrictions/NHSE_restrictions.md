@@ -1,10 +1,11 @@
 # NHS England dataset restrictions
+>Last modified: 19 Jun 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers given access to NHS England datasets must adhere to the terms detailed in data sharing agreements between NHS England and UK LLC (University of Bristol).</strong></div>
+<br>
 
 >Last modified: 29 May 2025
 
-The specific terms set out in the table below are extracted from the data sharing agreement between UK LLC (University of Bristol) and NHS England. Researchers permitted to access these datasets **must adhere to these terms** when analysing the data and presenting and publishing their findings. UK LLC performs checks to ensure adherence and penalties will apply if these terms are breached.  
-
-**Table 1** Specific data use terms extracted from the data sharing agreement between UK LLC and NHS England
+**Table 1** Specific data use terms extracted from the data sharing agreements between UK LLC and NHS England
 |**NHS England dataset**|**Restrictions to use**|
 |:--|:--|
 |[**General Practice Extraction Service (GPES) Data for Pandemic Planning and Research (GDPPR)**](https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/primary_care_datasets/gdppr/gdppr)|1. Research must be related to **COVID-19**. For examples of research purposes acceptable to NHS England see the [**COVID-19 Public Health Directions 2020.**](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020)<br>2. GDPPR data must **not** be used for any form of **performance management** of General Practices.|

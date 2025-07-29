@@ -1,5 +1,5 @@
 # The Trusted Research Environment (TRE)
->Last modified: 05 Feb 2025
+>Last modified: 04 Jul 2025
 
 **Accessing the TRE**
 <br>
@@ -46,7 +46,7 @@ Yes, researchers can work with their approved project team simultaneously in the
 <details>
 <summary>Can researchers share their screen in online meetings?</summary>
 
-As long as the other researcher(s) is named on your project and has got valid ONS Accredited Researcher status and has completed a DURA, then yes, it is OK to share your screen on a conference call so that you can discuss your analyses.
+As long as the other researcher(s) is named on your project and has got valid ONS Accredited Researcher status and has completed a Data User Responsibilities Agreement (DURA), then yes, it is OK to share your screen on a conference call so that you can discuss your analyses.
 </details>
 
 <details>
@@ -64,7 +64,7 @@ You must submit an amendment to notify UK LLC of a change in employer. Details o
 <details>
 <summary>How do I add a researcher to an existing project in the TRE?</summary>
 
-You must submit an amendment providing details of the new researcher so UK LLC can check whether they and their organisation meet UK LLC's [**access requirements**](https://ukllc.ac.uk/who-can-apply-to-access-ukllc-tre). Details of how to submit an amendment are available [**here**](../../user_guide/RequestingAnAmendment.md).
+You must submit an amendment providing details of the new researcher so UK LLC can check whether they and their organisation meet UK LLC's [**access requirements**](https://ukllc.ac.uk/apply). Details of how to submit an amendment are available [**here**](../../user_guide/RequestingAnAmendment.md).
 </details>
 
 <details>
@@ -124,7 +124,7 @@ Currently, participants who are in multiple LPS cannot be linked. However, this 
 <details>
 <summary>How much time is required for output clearance?</summary>
 
-Output clearance can take 7-10 working days. We therefore recommend submitting outputs as early as possible and following the guidance to increase the likelihood of them passing first time. 
+Output clearance can take 7-10 working days. We therefore recommend submitting outputs as early as possible and following the [**statisticial disclosure control (SDC) guidance**](../../user_guide/SDC.md) to increase the likelihood of them passing first time. 
 </details>
 
 <details>

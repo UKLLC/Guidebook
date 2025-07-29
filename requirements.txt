@@ -6,3 +6,5 @@ pandas
 pymysql
 psycopg2-binary
 standard-imghdr
+markdown
+bokeh
