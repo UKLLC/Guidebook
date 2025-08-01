@@ -1,5 +1,5 @@
 # NHS England hospital datasets
->Last modified: 23 Jun 2025
+>Last modified: 01 Aug 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The hospital datasets cover all NHS funded hospital activity in England. This includes inpatient, outpatient and accident & emergency.</strong></div>
 <br>
 
@@ -31,8 +31,8 @@ For further information see the **individual dataset guides.**
 |---|:---:|:---:|:---:|:---:|:---:|
 |[**HESOP**](../HES%20datasets/OP/HESOP.ipynb)|Hospital Episode Statistics (HES) Outpatients|Hospital|England|04/2003 onwards|NHSE|
 |[**HESAPC**](../HES%20datasets/APC/HESAPC.ipynb)|HES Admitted Patient Care (APC)|Hospital|England|04/1998 onwards|NHSE|
-|***HESAPC_ACP***|*HES APC Augmented Care Periods*|*Hospital*|*England*|*1997 to 2006*|*NHSE*|
-|**HESAPC_MAT**|HES APC Maternity|Hospital|England|2000 onwards|ONS|
+|[***HESAPC_ACP***](../HES%20datasets/ACP/HESAPC_ACP.ipynb)|*HES APC Augmented Care Periods*|*Hospital*|*England*|*1997 to 2006*|*NHSE*|
+|[**HESAPC_MAT**](../HES%20datasets/MAT/HESAPC_MAT.ipynb)|HES APC Maternity|Hospital|England|2000 onwards|ONS|
 |[**HESCC**](../HES%20datasets/CC/HESCC.ipynb)|HES Critical Care|Hospital|England|04/2008 onwards|NHSE|
 |*[**HESAE**](../HES%20datasets/AE/HESAE.ipynb)*|*HES Accident & Emergency*|*Hospital*|*England*|*04/2007 to 12/2020*|*NHSE*|
 |[**ECDS**](../HES%20datasets/ECDS/ECDS.ipynb)|Emergency Care Data Set|Hospital|England|10/2017 onwards|NHSE||
