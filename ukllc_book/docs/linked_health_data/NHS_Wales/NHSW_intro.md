@@ -1,14 +1,14 @@
 # NHS Wales data
->Last modified: 20 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>SAIL Databank has approved the extraction of participants’ Welsh health records (where permissions are in place) - data will soon be available in the UK LLC database.</strong></div>  
+>Last modified: 01 Aug 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>SAIL Databank has approved the extraction of participants’ Welsh health records (where permissions are in place) - data will soon be available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
   
 Although NHS Wales is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS Wales datasets.  
 
-Below is a list of the datasets we anticipate will flow into the UK LLC database. The datasets cover a **variety of domains and time periods**. Their **geographic coverage is restricted to Wales**, apart from the Annual District Death Extract (ADDE).
+Below is a list of the datasets we anticipate will flow into the UK LLC TRE. The datasets cover a **variety of domains and time periods**. Their **geographic coverage is restricted to Wales**, apart from the Annual District Death Extract (ADDE).
 
 **Note:**  
-* The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC database. 
+* The UK LLC Data Team does **not change the names of the datasets** when they are ingested to the UK LLC TRE. 
 * Some datasets have been **retired** and therefore data only flows for the periods specified. 
 * Further details will be available in the individual dataset guides.
 * Each LPS participant has the power to **opt out** of linkage to their NHS Wales records. 
