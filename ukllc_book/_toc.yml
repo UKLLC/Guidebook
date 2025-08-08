@@ -311,12 +311,12 @@ parts:
             - title: Linked derived datasets
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/Linked_derived.md
               sections:
-                - title: Denominator
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/denominator.md
-                - title: Presence
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/NHSE_presence.md
-                - title: Indicator
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/NHSE_indicator.md
+                - title: Study permissions
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/study_permissions.md
+                - title: NHS England patient service usage
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.md
+                - title: NHS England patient demo mortality
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_demo_mortality.md
         - title: Researcher generated datasets
           file: docs/ukllc_managed_data/researcher_generated/researcher_data.md
           sections:
