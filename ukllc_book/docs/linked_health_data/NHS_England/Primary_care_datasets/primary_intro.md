@@ -1,5 +1,5 @@
 # NHS England primary care datasets
->Last modified: 20 May 2025
+>Last modified: 11 Aug 2025
 ## Introduction
 The two primary care datasets currently available in the UK LLC TRE are:
 * Primary Care Medicines (PCM)
@@ -47,9 +47,15 @@ For further information see the **individual dataset guides.**
 * The individual SNOMED codes included in each code cluster are listed on [**OpenCodelists**](https://www.opencodelists.org/)
 
 **SNOMED CT codes included in the GDPPR**
-All releases of the clusters are available online via the NHS [**TRUD**]([https://isd.digital.nhs.uk/trud/users/guest/filters/0/home) (Technology Reference Update Distribution). UK LLC has downloaded Release 51.0.0<sup>3</sup> and made it available as a [downloadable text file](https://apply.ukllc.ac.uk/apply/view_document/gdppr).
+All releases of the clusters are available online via the NHS [**TRUD**]([https://isd.digital.nhs.uk/trud/users/guest/filters/0/home) (Technology Reference Update Distribution). UK LLC has downloaded Release 51.0.0<sup>1</sup> and made it available as a [downloadable text file](https://apply.ukllc.ac.uk/apply/view_document/gdppr).  
+
+>This material includes SNOMED Clinical Terms® (SNOMED CT®) which is used by permission of the International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. "SNOMED" and "SNOMED CT" are registered trademarks of the IHTSDO.  
 
 |**Dataset**|**Dataset name**|**Other name**|**Grouping**|**Coverage**|**Data available in TRE**|**Data owner**|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |[**GDPPR**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research|N/A|GP records|England|1940s onwards|NHSE|
-|[**PCM**](../Other%20datasets/PCM/PCM.ipynb)|Primary Care Medicines|Medicines dispensed in Primary Care NHS Business Services Authority (NHSBSA) dataset|Prescriptions|England|01/04/2015 onwards|NHSE||
+|[**PCM**](../Other%20datasets/PCM/PCM.ipynb)|Primary Care Medicines|Medicines dispensed in Primary Care NHS Business Services Authority (NHSBSA) dataset|Prescriptions|England|01/04/2015 onwards|NHSE||  
+
+**Notes**  
+<sup>1</sup> N.B. Release 51.0.0 is dated 15.02.2024, while UK LLC's GDPPR data was extracted on 26.04.2024. There is a chance that some of the drug cluster content may have changed slightly between the two dates because drug reference sets are released more frequently than the broader Primary Care Domain reference sets.
+
