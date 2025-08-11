@@ -1,5 +1,5 @@
 # The Trusted Research Environment (TRE)
->Last modified: 04 Jul 2025
+>Last modified: 11 Aug 2025
 
 **Accessing the TRE**
 <br>
@@ -23,6 +23,12 @@ No, you must only access the UK LLC TRE from the UK, in line with the user secur
   If you are using a Mac and therefore using “Archive Utility” rather than 7-Zip, you could experience issues. Archive Utility doesn't support the encryption 7zip uses. Therefore we suggest using a different extractor program called [**The Unarchiver**.](https://theunarchiver.com/) 
   </details>
   
+<details>
+<summary>What should I do if I have forgotten my password for the TRE?</summary>
+You can request a new password from SeRP by by entering either your TRE username or email address at: <a href="https://portal.ukllc.ukserp.ac.uk/requestnewpassword" target="_blank" rel="noopener noreferrer">https://portal.ukllc.ukserp.ac.uk/requestnewpassword</a>  
+
+</details>  
+
 <details>
   <summary>What should I do if I can't connect to the TRE?</summary>
 Some users may experience a blank screen after logging in. They may also see a message saying the connection has been timed out. This is a known issue with some network configurations. To address this issue, right click before logging into SeRP and you will see two options (VMware Blast and PCoIP). You may find that your home network works better with PCoIP, whereas your organisation network works better with VMware Blast.
