@@ -9,7 +9,7 @@
 
 ## Greenspace
 
-Greenspace metrics have been developed by University of Leicester/City St George’s, University of London for residential addresses/postcodes for cohorts partnering with UK LLC, where the appropriate permissions are in place.
+Greenspace metrics have been developed by the University of Leicester for residential addresses/postcodes for cohorts partnering with UK LLC, where the appropriate permissions are in place.
 
 
 Some variables cover the entire United Kingdom (UK), while others are limited to Great Britain (GB). Please refer to the table below for geographic coverage of variables:
