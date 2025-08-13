@@ -159,28 +159,7 @@ We are currently building a documentation storage system which will host relevan
 
 ## 6. Useful Syntax
 
-### UKLLC.nhse_lsoa11_dataset_mapping file
-
-**UKLLC.nhse_lsoa11_dataset_mapping** has one row per health interaction where the project has selected the LPS and where participant permissions are in place. The indicator picks from the following NHS datasets where Lower Super Output Area 2011 (LSOA11) is routinely available:
-
-General Practice Extraction Service (GPES) Data for Pandemic Planning and Research (GDPPR)
-
-HES Accident & Emergency (HESAE)
-
-HES Admitted Patient Care (HESAPC)
-
-HES Outpatients (HESOP).
-
-LSOA11 is encrypted in the dataset, because geographical units smaller than English region or devolved nation are not permitted ‘in-the-clear’ in the UK LLC TRE. The dataset contains the following variables:
-
-record_date: date stamp from health record
-
-lsoa11cd_e: encrypted LSOA 2011 from health record
-
-origin: NHS dataset the LSOA originated from. 
-
-The UKLLC.nhse_lsoa11_dataset_mapping dataset can be linked to LLC_XXXX.PLACE.IMD_XXX_v0000_YYYYMMDD (documented in the next subsection) to add in geographical indicator variables associated with encrypted LSOA11 (lsoa11cd_e).
-
+The [**UKLLC_nhse_lsoa11_dataset_mapping**](../../../ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mapping.md) dataset can be linked to **PLACE_IMD_XXX_v0000_YYYYMMDD** to add in geographical indicator variables associated with encrypted LSOA11 (lsoa11cd_e) from health records
  
 England, Wales, Scotland and Northern Ireland each have their own Index of Multiple Deprivation dataset.
 
@@ -190,13 +169,14 @@ LLC_XXXX.PLACE.IMD_england_v0000_YYYYMMDD:
 1. Retrieve data from database via helper syntax
 2. Link datasets on the *lsoa11cd_e* field. Example of STATA syntax linking to England:
 
-*load NHSD *lsoa11* dataset
+```
+* load NHSE lsoa11 dataset
+use “S:\LLC_9999\data\stata_w_labs\UKLLC_nhse_lsoa11_dataset_mapping_v0000_YYYYMMDD.dta”, clear
 
-*use* “S:\LLC_9999\data\stata_w_labs\UKLLC_nhsd_*lsoa11*_v0001_20221217.dta”, clear
+* merge in IMD
+merge m:1 lsoa11cd_e using “S:\LLC_9999\data\stata_w_labs\PLACE_IMD_england_v0000_YYYYMMDD.dta”
 
-*merge m:* 1 lsoa11cd_e using
-“S:\LLC_9999\data\stata_w_labs\IMD_england_v0001_20240614.dta”
-*drop geographical units not linked to any participant health record  
-*drop if* _merge ** 2
-
-UKLLC.nhse_lsoa11_dataset_mapping is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quintile from the Index of Multiple Deprivation that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible. It is also advised to only link to the country/ countries that you require.
+*drop geographical units not linked to any participant health record 
+drop if _merge == 2
+```
+**UKLLC_nhse_lsoa11_dataset_mapping** is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quintile from the Index of Multiple Deprivation that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible. It is also advised to only link to the country/ countries that you require.
