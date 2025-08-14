@@ -163,10 +163,10 @@ The [**UKLLC_nhse_lsoa11_dataset_mapping**](../../../ukllc_managed_data/UKLLC_ge
  
 England, Wales, Scotland and Northern Ireland each have their own Index of Multiple Deprivation dataset.
 
-To link LLC_XXXX.UKLLC.nhse_lsoa11_dataset_mapping_v0000_YYYYMMDD with 
-LLC_XXXX.PLACE.IMD_england_v0000_YYYYMMDD:
+To link **UKLLC_nhse_lsoa11_dataset_mapping_v0000_YYYYMMDD** with 
+**PLACE_IMD_england_v0000_YYYYMMDD**:
 
-1. Retrieve data from database via helper syntax
+1. Retrieve data from database via [**helper syntax**](../../../user_guide/UsingSoftware.md)
 2. Link datasets on the *lsoa11cd_e* field. Example of STATA syntax linking to England:
 
 ```
@@ -179,4 +179,4 @@ merge m:1 lsoa11cd_e using “S:\LLC_9999\data\stata_w_labs\PLACE_IMD_england_v0
 *drop geographical units not linked to any participant health record 
 drop if _merge == 2
 ```
-**UKLLC_nhse_lsoa11_dataset_mapping** is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quintile from the Index of Multiple Deprivation that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible. It is also advised to only link to the country/ countries that you require.
+**UKLLC_nhse_lsoa11_dataset_mapping** is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quintile from the **Index of Multiple Deprivation** that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible. It is also advised to only link to the country/ countries that you require.
