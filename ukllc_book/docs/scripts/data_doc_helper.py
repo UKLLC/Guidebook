@@ -683,7 +683,8 @@ class LPSSource:
             self.df_ss.iloc[0]["start_date"],
             "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages","here"),
             self.df_ss.iloc[0]["participant_pathway"],
-            md.make_hlink("https://doi.org/" + self.cohort_profile, self.cohort_profile),
+            ", ".join([md.make_hlink("https://doi.org/" + i, i) for i in self.cohort_profile.split(",")]),
+            #md.make_hlink("https://doi.org/" + self.cohort_profile, self.cohort_profile),
             markdown.markdown(self.df_ss.iloc[0]["Website"]),
             md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
         ]
@@ -1610,11 +1611,11 @@ class PlaceDataSet:
             ds = md.get_md_api_dss()
             df_ds = ds[(ds["source"] == "PLACE") & (ds["table"] == x)]
             df_ds["source_table"] = df_ds["source"] + "_" + df_ds["table"]
-            ss = md.get_md_api_ss()[["Owner", "source"]]
+            ss = md.get_md_api_ss()[["source"]]
             df_ds = df_ds.merge(ss, on="source")
             df_ds["dataset"] = x
             df_ds2 = md.get_place_dataset_info()
-            df_ds2 = df_ds2[df_ds2["dataset"] == x][["dataset", "geographical_coverage", "authors", "hyperlink"]]
+            df_ds2 = df_ds2[df_ds2["dataset"] == x][["dataset", "geographical_coverage", "authors", "hyperlink", "Owner"]]
             df_ds = df_ds.merge(df_ds2, on="dataset")
 
             return df_ds
@@ -1648,7 +1649,7 @@ class PlaceDataSet:
                 else:
                     doi_ds["source_table"] = doi_ds["attributes.titles"].apply(lambda x: x[1]["title"] if len(x) > 1 else "NA")
 
-                    doi_ds = doi_ds[doi_ds["source_table"] == "GEO_" + x]
+                    doi_ds = doi_ds[doi_ds["source_table"] == "PLACE_" + x]
                     doi_ds = doi_ds.sort_values(by="attributes.version", ascending=False).drop_duplicates(subset="source_table")
 
                     if len(doi_ds) == 1:
