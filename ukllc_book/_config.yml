@@ -36,6 +36,15 @@ execute:
     - '*Datasets/TWINSUK/Datasets/*'
     - '*Datasets/UKHLS/Datasets/*'
 
+# Exclude PLACE datasets
+    - '*AHAH*'
+    - '*greenspace*'
+    - '*air_pollution_o3*'
+    - '*air_pollution_pm25_no2*'
+    - '*noise_pollution*'
+    - '*IMD*'
+    - '*townsend*'
+
   execute_notebooks: force
 
 bibtex_bibfiles:
