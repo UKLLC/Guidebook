@@ -1,6 +1,6 @@
 # Understanding: Index of Multiple Deprivation (IMD)
 
-> Last modified: 21 Jul 2025
+> Last modified: 18 Aug 2025
 
 ## IMD, urban/rural classification and population estimates
 
@@ -49,3 +49,27 @@ To harmonise the urban-rural classifications across England, Wales, Scotland and
 ## Limitations:
 
 - Each of the 4 nations has its own versions of the Index of Multiple Deprivation and Urban-Rural classification in order to fit the local context and meet their local needs. As a result each nation's data source for IMD and urban-rural classification will have its own set of biases. Please refer to the individual statistical release documents in the Methodology section of this page for the relevant limitations to each source of data.
+
+## Useful Syntax
+
+The [**UKLLC_nhse_lsoa11_dataset_mapping**](../../../ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mapping.md) dataset can be linked to **PLACE_IMD_XXX_v0000_YYYYMMDD** to add in geographical indicator variables associated with encrypted LSOA11 (lsoa11cd_e) from health records
+ 
+England, Wales, Scotland and Northern Ireland each have their own Index of Multiple Deprivation dataset.
+
+To link **UKLLC_nhse_lsoa11_dataset_mapping_v0000_YYYYMMDD** with 
+**PLACE_IMD_england_v0000_YYYYMMDD**:
+
+1. Retrieve data from database via [**helper syntax**](../../../user_guide/UsingSoftware.md)
+2. Link datasets on the *lsoa11cd_e* field. Example of STATA syntax linking to England:
+
+```
+* load NHSE lsoa11 dataset
+use “S:\LLC_9999\data\stata_w_labs\UKLLC_nhse_lsoa11_dataset_mapping_v0000_YYYYMMDD.dta”, clear
+
+* merge in IMD
+merge m:1 lsoa11cd_e using “S:\LLC_9999\data\stata_w_labs\PLACE_IMD_england_v0000_YYYYMMDD.dta”
+
+*drop geographical units not linked to any participant health record 
+drop if _merge == 2
+```
+**UKLLC_nhse_lsoa11_dataset_mapping** is a long dataset typically with millions of rows, depending on size of data request. It is therefore recommended that you subset both or either of these datasets before linking/processing/saving. An example of this would be to select the quintile from the **Index of Multiple Deprivation** that you are going to use and keep these variables only. This will ensure the dataset size remains as manageable as possible. It is also advised to only link to the country/ countries that you require.

@@ -318,7 +318,7 @@ parts:
                 - title: NHS England patient demo mortality
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_demo_mortality.md
                 - title: NHS England lsoa11 dataset mappings
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mappings.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mapping.md
         - title: Researcher generated datasets
           file: docs/ukllc_managed_data/researcher_generated/researcher_data.md
           sections:
