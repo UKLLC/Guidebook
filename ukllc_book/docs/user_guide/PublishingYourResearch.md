@@ -7,7 +7,7 @@
 
 2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to data owners’ **terms and conditions**.
 
-3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available [**here**](../images/UK%20LLC%20Acknowledgement%20Slide_v2.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.8.docx).
+3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available [**here**](../images/UK%20LLC%20Acknowledgement%20Slide_v2.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.9.docx).
 
 4. You must share **all papers and similar outputs** with **UK LLC for review** prior to submission for publication (UK LLC does **not require** to see your **presentations** before they are delivered).
 
@@ -34,5 +34,5 @@ The UK LLC Executive Group can withhold the right to publish any manuscript that
 1. Download the **UK LLC Publication Checklist** from [**here.**](../images/DOC-ISM-041_UKLLC_PublicationChecklist_V1.7.docx)
 
 2. Work through all **UK LLC's conditions**, ticking them off on the checklist as you go and providing an explanation if need be.
-3. For your **supplementary materials** use the document DOC-DAT-032 'Information about LPS for researchers to include in the Supplementary Materials of their publications' available [**here.**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.8.docx)
+3. For your **supplementary materials** use the document DOC-DAT-032 'Information about LPS for researchers to include in the Supplementary Materials of their publications' available [**here.**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.9.docx)
 4. Submit your completed **checklist**, **manuscript** and **lay summary** to [**access@ukllc.ac.uk**.](mailto:access@ukllc.ac.uk) with sufficient time for processing.
