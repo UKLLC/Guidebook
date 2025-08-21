@@ -1,6 +1,6 @@
 # Population datasets
 
-> Last modified: 21 Jul 2025
+> Last modified: 21 Aug 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides datasets describing the characteristics of local communities, including indicators such as population density, deprivation levels and urban-rural classification. </strong></div>
 <br>
@@ -18,8 +18,8 @@ Socioeconomic factors, such as deprivation at an individual and area level have 
 By providing linked datasets on the socioeconomic characteristics of the nearby population, researchers can investigate questions surrounding the interaction between area-level deprivation and economic inactivity at the individual level, and how these factors influence health.
 
 The current UK LLC population datasets include:
-- [Townsend Deprivation Index](../population_datasets/townsend/townsend.md)
-- [Index of Multiple Deprivation dataset](../population_datasets/IMD/IMD.md).
+- [Townsend Deprivation Index](../population_datasets/townsend/townsend.ipynb)
+- [Index of Multiple Deprivation dataset](../population_datasets/IMD/IMD.ipynb).
 
 
 **Please click on each dataset for more information.**

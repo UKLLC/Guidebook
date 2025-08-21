@@ -1,6 +1,6 @@
 # Neighbourhood datasets
 
-> Last modified: 21 Jul 2025
+> Last modified: 21 Aug 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC links to several place-based datasets that describe characteristics of participants' neighbourhoods.</strong></div>
 <br>
@@ -29,8 +29,8 @@ As suggested by <strong><a href="https://doi.org/10.1080/00420980120087063" targ
 
 
 The current UK LLC neighbourhood datasets include:
-- [Access to Healthy Assets and Hazards (AHAH)](../neighbourhood_datasets/AHAH/Understanding_AHAH.md)
-- [Greenspace](../neighbourhood_datasets/greenspace/Understanding_greenspace.md)
+- [Access to Healthy Assets and Hazards (AHAH)](../neighbourhood_datasets/AHAH/AHAH.ipynb)
+- [Greenspace](../neighbourhood_datasets/greenspace/greenspace.ipynb)
 
 **Please click on each dataset for more information.**
 
