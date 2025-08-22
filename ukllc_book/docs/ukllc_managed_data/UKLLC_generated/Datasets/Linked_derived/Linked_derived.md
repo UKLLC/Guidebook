@@ -1,6 +1,6 @@
 # Linked derived datasets
->Last modified: 8 Aug 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC have created a number of summary and derived datasets enabling researchers greater and faster insight into their provisioned sample.</strong></div>  
+>Last modified: 22 Aug 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has created a number of summary and derived datasets enabling researchers greater and faster insight into their provisioned sample.</strong></div>  
 <br>
 
 ## Introduction 
@@ -13,6 +13,7 @@ Linked derived datasets containing data derived from **NHS England datasets** ar
 
  Dataset | Dataset Name | Data Available in TRE | Data Owner |
 |---|---|---|---|
-| [NHSE Patient Demo Mortality](./nhse_patient_demo_mortality.md) |nhse_patient_demo_mortality| Yes (auto-provisioned) |UK LLC|
-| [NHSE Patient Service Usage](./nhse_patient_service_usage.md) |nhse_patient_service_usage| Yes (auto-provisioned) |UK LLC|
 | [Study Permissions](./study_permissions.md) |study_permissions| Yes (auto-provisioned) |UK LLC|
+| [NHSE Patient Service Usage](./nhse_patient_service_usage.md) |nhse_patient_service_usage| Yes (auto-provisioned) |UK LLC|
+| [NHSE Patient Demo Mortality](./nhse_patient_demo_mortality.md) |nhse_patient_demo_mortality| Yes (auto-provisioned) |UK LLC|
+| [NHSE lsoa11 dataset mappings](../Linked_derived/nhse_lsoa11_dataset_mapping.md) | nhse_lsoa11_dataset_mapping | TBC | UK LLC |

@@ -1,5 +1,5 @@
 # Logging in
->Last modified: 04 Jul 2025
+>Last modified: 22 Aug 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide covers initial and subsequent login to the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
@@ -28,20 +28,24 @@ Before starting download, or open, a 'One-Time Password' (OTP) app on your smart
 
 Follow the steps below to log in:
 1.	Using **Google Chrome**, navigate to <strong><a href="https://portal.ukllc.ukserp.ac.uk" target="_blank" rel="noopener noreferrer">https://portal.ukllc.ukserp.ac.uk</a></strong> and enter your username and password.
-2. You may need to download **Omnissa Horizon Client** from the right side of the webpage:
+2. You may need to download **Omnissa Horizon Client** from the right side of the webpage:  
+
 <img src="../images/user_guide/image.png" width="300"/>
 
-3.	Once installed, you can **launch SeRP** by clicking ‘Launch Platform’, and ticking the option to always allow portal.ukllc.ukserp.ac.uk to open links:
+3.	Once installed, you can **launch SeRP** by clicking ‘Launch Platform’, and ticking the option to always allow portal.ukllc.ukserp.ac.uk to open links:  
+
 <img src="../images/user_guide/image-1.png" width="300"/>
 
 4. Click ‘**Open Omnissa Horizon Client**’ from the pop-up box and ‘Accept’ the terms when prompted.
 
-5.	The following dialogue box appears:
+5.	The following dialogue box appears:  
+
 <img src="../images/user_guide/image-2.png" width="300"/>
 
 6. Enter your **Username** and generate an OTP in your app and enter it into the '**Passcode**' field.
 
-7.	The following dialogue box appears:
+7.	The following dialogue box appears:  
+
 <img src="../images/user_guide/image-3.png" width="300"/>
 
 8.  Enter your **password**, and a new pop-up appears. Click on the 'UKLLC Standard' icon to launch the SeRP desktop.

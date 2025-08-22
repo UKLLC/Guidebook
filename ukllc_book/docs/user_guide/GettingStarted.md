@@ -1,6 +1,6 @@
 # Getting started
->Last modified: 09 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains the basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>
+>Last modified: 22 Aug 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Thhe basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
 
@@ -24,15 +24,14 @@ Associated metadata (value and variable labels) are also provided as database vi
 
 Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all researchers should follow the [**UK LLC Naming of Projects & Data-related Outputs Policy**](https://ukllc.ac.uk/governance).
 
-<div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><strong>ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>
-<br>
 
-Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. We therefore encourage researchers to adopt the naming convention detailed in the Naming your files section.
 
-In order to access your project folder, open the ‘S drive’:
+In order to access your project folder, open the ‘S drive’:  
+
 <img src="../images/user_guide/image-17.png" width="300"/>
 
-Find your project folder, named with your UK LLC project number (e.g. LLC_9999):
+Find your project folder, named with your UK LLC project number (e.g. LLC_9999):  
+
 <img src="../images/user_guide/image-18.png" width="300"/>
 
 

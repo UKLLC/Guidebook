@@ -1,5 +1,5 @@
 # Moving files in and out
->Last modified: 04 Jul 2025
+>Last modified: 22 Aug 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains how to request to bring files in and out of the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
@@ -40,16 +40,25 @@ It is a **critical principle** of UK LLC that only **anonymous** population leve
 
 ##	File-out process
 To request files out of the TRE **follow the steps below**:
-1.	Launch ‘**Data Transfer (In-Out)**’ from the desktop within the TRE.
-<img src="../images/user_guide/image-14.png" width="100" height="100"/>
-2.	Select ‘**Request File(s) Out**’
-<img src="../images/user_guide/image-15.png" width="400"/>
-3.	Choose your files.
-<img src="../images/user_guide/DropFiles.PNG" width="400"/>
-4. If your file-out is a **reusable research output** please tick the '**GitHub/GitLab sharing**' box.
+1.	Launch ‘**Data Transfer (In-Out)**’ from the desktop within the TRE.  
+
+<img src="../images/user_guide/image-14.png" width="100" height="100"/>  
+
+2.	Select ‘**Request File(s) Out**’  
+
+<img src="../images/user_guide/image-15.png" width="400"/>   
+
+3.	Choose your files.  
+
+<img src="../images/user_guide/DropFiles.PNG" width="400"/>  
+
+4. If your file-out is a **reusable research output** please tick the '**GitHub/GitLab sharing**' box.  
+
 <img src="../images/user_guide/GitSharingBox.PNG" width="600"/>
 
-5. Select your project number (e.g. llc_9999) from the drop down box.
-<img src="../images/user_guide/Documentation.PNG" width="600"/>
+5. Select your project number (e.g. llc_9999) from the drop down box.  
+
+<img src="../images/user_guide/Documentation.PNG" width="600"/>  
+
 6. If the reviewer has any **questions** they will email you to seek clarity.
 7. If your file-out is **rejected** you will have the opportunity to make the **requested amends** and can then **resubmit**.
