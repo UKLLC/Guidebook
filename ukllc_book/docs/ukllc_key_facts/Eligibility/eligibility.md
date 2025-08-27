@@ -1,6 +1,6 @@
 
 # Can I apply?
->Last modified: 17 Jul 2025
+>Last modified: 21 Aug 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers must be UK-based and ONS accredited, and their project must be in the public good.</strong></div>
 <br>
 
@@ -15,7 +15,8 @@ their applications are assessed against the <strong><a href="https://ukdataservi
 >* An Office for National Statistics (ONS) <strong><a href="https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/becomeanaccreditedresearcher" target="_blank" rel="noopener noreferrer">Accredited Researcher</a></strong>.
 >* Part of a non-commercial research organisation.
 
-**Note**: UK LLC accepts applications from **PhD students** on condition that the main applicant supervises them closely.
+**Note**: UK LLC welcomes applications from **PhD students** on condition that their **supervisor** is the **main applicant** and is also accessing the UK LLC TRE so that they can actively supervise and help their student.
+
 
 ## Application requirements
 > Applications must:

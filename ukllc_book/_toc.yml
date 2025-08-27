@@ -10,6 +10,17 @@ parts:
       sections:
         - title: Can I apply?
           file: docs/ukllc_key_facts/Eligibility/eligibility.md
+        - title: How do I apply?
+          file: docs/ukllc_key_facts/Applying/Intro.md
+          sections:
+            - title: Submit EoI
+              file: docs/ukllc_key_facts/Applying/EoI.md
+            - title: Complete full application
+              file: docs/ukllc_key_facts/Applying/application.md
+            - title: The application review process
+              file: docs/ukllc_key_facts/Applying/review.md
+            - title: Complete project governance
+              file: docs/ukllc_key_facts/Applying/paperwork.md 
         - title: UK LLC profile
           file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
         - title: UK LLC sample
