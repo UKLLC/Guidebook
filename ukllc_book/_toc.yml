@@ -366,7 +366,7 @@ parts:
     - title: FAQs
       file: docs/FAQ/faq_intro.md
       sections:
-        - title: TRE
+        - title: Working in the TRE
           file: docs/FAQ/pages/faq_tre.md
         - title: Working with LPS data
           file: docs/FAQ/pages/faq_lps.md
@@ -374,5 +374,9 @@ parts:
           file: docs/FAQ/pages/faq_nhse.md
         - title: Working with place-based data
           file: docs/FAQ/pages/faq_geo.md
+        - title: Working with admin data
+          file: docs/FAQ/pages/faq_admin.md
+        - title: Working with UK LLC-managed data
+          file: docs/FAQ/pages/faq_ukllc_managed.md
         - title: Resources
           file: docs/FAQ/pages/faq_resources.md

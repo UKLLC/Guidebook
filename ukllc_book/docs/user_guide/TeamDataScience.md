@@ -1,6 +1,6 @@
 # Using Git
->Last modified: 04 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains how to use UK LLC Git repositories to promote reproducible and reusable research.</strong></div>
+>Last modified: 02 Sep 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>How to use UK LLC Git repositories to promote reproducible and reusable research.</strong></div>
 <br>
 Click on the YouTube link below for a video guide (5 minutes). Alternatively, scroll down to follow the written step-by-step instructions.
 

@@ -1,6 +1,7 @@
 # Working with LPS data
->Last modified: 07 Jul 2025
-
+>Last modified: 02 Sep 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with LPS data.</strong></div style>  
+<br>
 <details>
 <summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
 

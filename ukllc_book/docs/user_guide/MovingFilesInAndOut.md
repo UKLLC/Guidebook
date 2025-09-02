@@ -1,6 +1,6 @@
 # Moving files in and out
->Last modified: 22 Aug 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains how to request to bring files in and out of the UK LLC Trusted Research Environment (TRE).</strong></div>
+>Last modified: 02 Sep 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>How to request to move files in and out of the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.

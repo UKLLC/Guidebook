@@ -1,9 +1,10 @@
 # User support
+>Last modified: 02 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC is committed to helping all researchers to work effectively in the UK LLC Trusted Research Environment.</strong></div style>
 
 ## Self-service user tools
 UK LLC maintains a library of **self-service** user help tools in multiple formats.  These include this User Guide, helper syntax and <strong><a href="https://www.youtube.com/@ukllcollab" target="_blank" rel="noopener noreferrer">YouTube videos</a></strong>.
-All active researchers are invited to join the monthly **UK LLC User Group meetings** (via Teams) and the [**UK LLC Researchers’ Google Group**](#uk-llc-researchers-google-group).
+All active researchers are invited to join the monthly **UK LLC User Group meetings** (via Teams) and the [**UK LLC Researchers’ Google Group**](#uk-llc-researchers-google-group). Researchers can also request a **1:1 support session** with a member of the UK LLC Data Team.
 
 ## Accessing help
 
@@ -16,7 +17,7 @@ Alternatively, scroll down to find a description of the assistance available fro
 
 <div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>Support from UK LLC</strong></div>
 
-If researchers are unable to find the help they require either in this Guidebook (including the [**FAQs**](../FAQ/faq_intro.md)) or via UK LLC's YouTube videos, the UK LLC Data Team can be contacted at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk).
+If researchers are unable to find the help they require either in this Guidebook (including the [**FAQs**](../FAQ/faq_intro.md)) or via UK LLC's YouTube videos, the UK LLC Data Team can be contacted at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). 
 
 > **The UK LLC Data Team** can provide assistance with:
 >* TRE account management
