@@ -50,6 +50,11 @@ parts:
               file: docs/ukllc_key_facts/Sample/freezes/freeze1.ipynb
         - title: UK LLC database design
           file: docs/ukllc_key_facts/Database/database_design.md
+        - title: Data security
+          file: docs/ukllc_key_facts/Data_security/data_security.md
+          sections:
+            - title: Five Safes Framework
+              file: docs/ukllc_key_facts/Data_security/five_safes.md
     - title: Available linkages
       file: docs/Linkages/LPS_linkages.md
     - title: LPS data
