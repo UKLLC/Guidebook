@@ -1,5 +1,5 @@
 # The Trusted Research Environment (TRE)
->Last modified: 02 Sep 2025
+>Last modified: 10 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the TRE.</strong></div style>  
 <br>  
 
@@ -170,6 +170,16 @@ Yes, R packages available on CRAN can be installed on SeRP desktops. CRAN is a w
 
 **Data in the TRE**
 
+<details><summary>How does UK LLC keep the data safe?</summary>
+
+UK LLC works within the [Five Safes](../../ukllc_key_facts/Data_security/five_safes.md) Framework:  
+* Safe Data   - there are no direct identifiers of individuals in the TRE.  
+* Safe Projects - all projects are lawful, ethical and in the public good. 
+* Safe People - all reseachers have completed the ONS Accredited Researcher training.
+* Safe Settings - only approved researchers have access to the TRE.
+* Safe Outputs - all research findings are reviewed to ensure there is no risk of individuals being identified.  
+
+</details>
 
 <details>
     <summary>What is study ID?</summary>
