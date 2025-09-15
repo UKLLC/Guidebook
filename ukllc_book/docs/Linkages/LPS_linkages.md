@@ -52,9 +52,9 @@ UK LLC currently follows the <strong><a href="https://assets.publishing.service.
 |[**EPICN**](../LPS_data/LPS%20profiles/EPICN.ipynb)|✓|✗|✗|✗|✗|✗|
 |[**FENLAND**](../LPS_data/LPS%20profiles/FENLAND.ipynb)|✗|✗|✗|✗|✗|✗|
 |[**NICOLA**](../LPS_data/LPS%20profiles/NICOLA.ipynb)|✗|✗|✗|✗|✗|✗|
-|[**NIHRBIO_COPING**](../LPS_data/LPS%20profiles/NIHRBIO_COPING.ipynb)|✓|✗|Postcode|✗|✗|✓|
+|[**NIHRBIO_COPING**](../LPS_data/LPS%20profiles/NIHRBIO_COPING.ipynb)|✓|✓|Postcode|✗|✗|✓|
 |[**SABRE**](../LPS_data/LPS%20profiles/SABRE.ipynb)|✗|✓|Full address|✗|✗|✗|
-|[**TRACKC19**](../LPS_data/LPS%20profiles/TRACKC19.ipynb)|✓|✗|✗|✗|✗|✓|
+|[**TRACKC19**](../LPS_data/LPS%20profiles/TRACKC19.ipynb)|✓|✓|Postcode|✗|✗|✓|
 
 <sup>1</sup>Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)
 <sup>2</sup>Household level using Unique Property Reference Number (UPRN) or postcode level

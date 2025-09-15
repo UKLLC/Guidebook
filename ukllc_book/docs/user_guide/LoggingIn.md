@@ -1,5 +1,5 @@
 # Logging in
->Last modified: 22 Aug 2025
+>Last modified: 01 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide covers initial and subsequent login to the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
@@ -50,7 +50,9 @@ Follow the steps below to log in:
 
 8.  Enter your **password**, and a new pop-up appears. Click on the 'UKLLC Standard' icon to launch the SeRP desktop.
 
-9. When you have finished in the UK LLC TRE, **save your work**, select ‘**Options**’ and then ‘**Log off**’ from the top bar menu.
+9. When you have finished in the UK LLC TRE, **save your work**, select ‘**Options**’ and then ‘**Log off**’ from the top bar menu.  
+<div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><strong>ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>
+<br>
 
 ## Subsequent log in
 Once your account is setup, you can also access the UK LLC TRE **directly via Omnissa**, rather than opening the portal and launching from there. To do this, navigate to **My Computer** and launch **Omnissa Horizon Client**. Click ‘**connect.ukserp.ac.uk**’ and follow the steps 5-8 detailed above.

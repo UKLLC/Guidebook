@@ -1,9 +1,8 @@
 # Working with place-based data 
 
- 
-
-> Last modified: 04 Jul 2025
-
+> Last modified: 02 Sep 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
+<br>
  
 <details>
 <summary>What is place-based data?</summary>

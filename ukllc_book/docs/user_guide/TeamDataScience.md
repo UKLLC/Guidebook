@@ -1,6 +1,6 @@
 # Using Git
->Last modified: 04 Jul 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide explains how to use UK LLC Git repositories to promote reproducible and reusable research.</strong></div>
+>Last modified: 03 Sep 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>How to use UK LLC Git repositories to promote reproducible and reusable research.</strong></div>
 <br>
 Click on the YouTube link below for a video guide (5 minutes). Alternatively, scroll down to follow the written step-by-step instructions.
 
@@ -57,44 +57,56 @@ If you have not already created a GitLab account, you will be asked to do so her
 
 2.	Once SSH keys are set up, in GitLab select “Groups” > “View all groups”, then “UKLLC” from the main menu.
 
-3.	Here you should see the Subgroups you belong to. This should include all projects you belong to and “ReadAll”:
+3.	Here you should see the Subgroups you belong to. This should include all projects you belong to and “ReadAll”:  
+
 <img src="../images/user_guide/image-21.png" width="600"/>
 
 4.	To create a version-controlled area within your project space you’ll need to create a “project” (known as a repository in Git) within your subgroup.
 
-5.	To do this, click on the subproject you want to version control within (in this case LLC_9999) and click “New project”:
+5.	To do this, click on the subproject you want to version control within (in this case LLC_9999) and click “New project”:  
+
 <img src="../images/user_guide/image-22.png" width="600"/>
 
 6.	Select “Create blank project”.
 
-7.	Enter project name, this should follow the naming convention <project_number>_<descriptive_name> (e.g. “LLC_9999_GP_asthma_diag”), deselect “initialize repository with a README” and click “Create project”:
+7.	Enter project name, this should follow the naming convention <project_number>_<descriptive_name> (e.g. “LLC_9999_GP_asthma_diag”), deselect “initialize repository with a README” and click “Create project”:  
+
 <img src="../images/user_guide/image-23.png" width="600"/>
 
 8.	Decide/create a folder in your project working space (Windows Explorer) containing files for version control. This folder should contain syntax and documentation only, not data. Data should be stored in a separate folder.
 
-9.	Open Git BASH and cd (change directory) to folder “S:\#insertProjectName#\#insertFolderName#”, e.g.
+9.	Open Git BASH and cd (change directory) to folder “S:\#insertProjectName#\#insertFolderName#”, e.g.  
+
 <img src="../images/user_guide/image-24.png" width="300"/>
 
-10.	To initialise Git within this folder type git init:
+10.	To initialise Git within this folder type git init:  
+
 <img src="../images/user_guide/image-25.png" width="300"/>
 
 11.	You’ll need to add a “remote” to tell Git which remote repository in GitLab is tied to the specific local folder on your computer. The remote tells Git where to push or pull from. For this you’ll need a project path.
 
-12.	To get your project path go to the project page in GitLab, click the ‘Clone’ drop down and copy the address from ‘Clone with SSH’ cell:
-<img src="../images/user_guide/image-26.png" width="600"/>
-Once you have this, in Git BASH type: git remote add origin #insertProjectPath#:
+12.	To get your project path go to the project page in GitLab, click the ‘Clone’ drop down and copy the address from ‘Clone with SSH’ cell:  
+
+<img src="../images/user_guide/image-26.png" width="600"/>  
+
+Once you have this, in Git BASH type: git remote add origin #insertProjectPath#:  
+
 <img src="../images/user_guide/image-27.png" width="600"/>
 
-13.	Switch branch to main with:
+13.	Switch branch to main with:  
+
 <img src="../images/user_guide/image-28.png" width="400"/>
 
-14.	To add all files in the folder use: “git add .” or to add specific files use: git add #specificFilename#, e.g.
+14.	To add all files in the folder use: “git add .” or to add specific files use: git add #specificFilename#, e.g.  
+
 <img src="../images/user_guide/image-29.png" width="400"/>
 
-15.	To commit changes: git commit -m ”commitMessage”:
+15.	To commit changes: git commit -m ”commitMessage”:  
+
 <img src="../images/user_guide/image-30.png" width="400"/>
 
-16.	To push your local commits to the main branch of the origin remote:
+16.	To push your local commits to the main branch of the origin remote:  
+
 <img src="../images/user_guide/image-31.png" width="400"/>
 
 ### Dos and don’ts
@@ -119,16 +131,22 @@ See the [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md
 To **push your syntax and documentation to GitHub** follow these steps:
 1. Navigate to <strong><a href="https://github.com/UKLLC/" target="_blank" rel="noopener noreferrer">https://github.com/UKLLC/</a></strong> and sign in.
 2. Find your project repository e.g. LLC_0000 and click to open.
-3. Select “Add file”, selecting option “Upload files”:
+3. Select “Add file”, selecting option “Upload files”:  
+
 <img src="../images/user_guide/image-32.png" width="600"/>
-4. Drag/choose files, adding a commit message where highlighted before selecting “Commit changes”:
-<img src="../images/user_guide/image-33.png" width="600"/>
+
+4. Drag/choose files, adding a commit message where highlighted before selecting “Commit changes":  
+
+<img src="../images/user_guide/image-33.png" width="600"/>  
+
 **Note**: your project repository will have a pre-populated readme file with important project information e.g. lay summary. Please feel free to add to this readme to give context to your files.
 
 To set your repository to **Public** visibility:
 1. Navigate to the main page of the repository.
-2. Under your repository name, click Settings. If you cannot see the "Settings" tab, select the dropdown menu above your repo name and then click Settings.
+2. Under your repository name, click Settings. If you cannot see the "Settings" tab, select the dropdown menu above your repo name and then click Settings.  
+
 <img src="../images/user_guide/image-34.png" width="600"/>
+
 3. In the "Danger Zone" section, to the right of "Change repository visibility", click Change visibility.
 4. Select Public visibility.
 5. To verify that you're changing the correct repository's visibility, type the name of the repository you want to change the visibility of.
@@ -138,10 +156,14 @@ To set your repository to **Public** visibility:
 If you wish to use code developed by another researcher you need to **clone** the repository from the ReadAll GitLab:
 1.	Within the SeRP navigate to <strong><a href="https://gitlab.ukllc.ukserp.ac.uk" target="_blank" rel="noopener noreferrer">https://gitlab.ukllc.ukserp.ac.uk</a></strong> or click on UKLLC GitLab from the SeRP desktop. Recommended browser: Mozilla Firefox.
 2.	From main menu select “Groups” > “View all groups”, select “UKLLC”, then select “ReadAll”.
-3.	Here you will see all repositories returned to UK LLC, select the repository you want to clone and click on the Clone dropdown and copy the text under “Clone with SSH”:
+3.	Here you will see all repositories returned to UK LLC, select the repository you want to clone and click on the Clone dropdown and copy the text under “Clone with SSH”:  
+
 <img src="../images/user_guide/image-35.png" width="600"/>
-4.	Open Git BASH and change directory (“cd #insertFilePath”) to folder in your project file storage area where you want to clone files to and type: (replacing the repository name with the one copied in the previous step):
+
+4.	Open Git BASH and change directory (“cd #insertFilePath”) to folder in your project file storage area where you want to clone files to and type: (replacing the repository name with the one copied in the previous step):  
+
 <img src="../images/user_guide/image-36.png" width="600"/>
+
 5.	If successful you’ll have a folder written to your chosen directory containing the repository contents.
 
 ## How to share a derived dataset

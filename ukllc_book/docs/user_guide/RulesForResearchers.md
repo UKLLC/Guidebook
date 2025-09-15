@@ -1,5 +1,5 @@
 # Rules for researchers
->Last modified: 25 Jul 2025
+>Last modified: 02 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must follow rules to safeguard the anonymity and security of LPS participants’ data in the UK LLC Trusted Research Environment (TRE).</strong></div style>
 <br>
 
@@ -55,10 +55,13 @@ You must adhere to the terms of the **Data Access Agreement (DAA)** and **Data U
 
 ## UK LLC policies
 UK LLC policies of particular **relevance to researchers** are listed below:
-*   <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">Information Security Policy</a></strong>
-*   <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">Data Access and Acceptable Use Policy</a></strong>
-*   <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">Reproducible and Reusable Research Policy</a></strong>
-*	<strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">Audit Policy</a></strong>
-*   <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">Output Review Policy</a></strong>
-*	<strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">Project Amendment Policy</a></strong>
-*	<strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">Publication Policy</a></strong>.
+* Audit Policy  
+* Data Access and Acceptable Use Policy  
+* Information Security Policy  
+* Output Review Policy  
+* Project Amendment Policy  
+* Publication Policy  
+* Reproducible and Reusable Research Policy  
+* Secure Environments Policy
+
+**These policy documents are all available to download from the <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">governance</a></strong> page of the UK LLC website.**

@@ -1,5 +1,8 @@
 # Working with LPS data
->Last modified: 07 Jul 2025
+>Last modified: 03 Sep 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with LPS data.</strong></div style>  
+<br>
+
 
 <details>
 <summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
@@ -11,6 +14,17 @@ UK LLC's [**publication policy**](https://ukllc.ac.uk/governance) requires resea
 
 Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data.**Note**: each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>
+<details>
+<summary>When is more LPS data going to be available via UK LLC?</summary>
+
+UK LLC is currently working with our partner LPS to increase the both the number of datasets, and the number of study participants, included in the UK LLC resource. Information about new datasets will be provided to the UK LLC TRE user group as soon as they become available, and this will be reflected on the [individual LPS pages](../../LPS_data/LPS_introduction.md) in Guidebook and in <strong><a href="https://explore.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>, UK LLC's data catalogue.
+</details>
+<details>
+    <summary>What is study ID?</summary>
+
+Each project is allocated a unique individual/participant-level ID system in the form llc_####_stud_id. This ID identifies a participant within an LPS, therefore if a participant exists in more than one LPS their records will exist in the UK LLC twice against 2 different study IDs. Study ID is specific to each project and must not be shared with users outside the project. If a researcher is named on more than one project in the TRE, separate identifiers are attached to each set of datasets relative to each project. Therefore, datasets cannot be combined between projects. 
+</details>
+
 <details>
 <summary>Why are there duplicate study IDs in my LPS dataset?</summary>
 
@@ -32,6 +46,11 @@ The following table(s) is/are an exception to this:
 These data require a join on 2 fields, LLC_XXXX_stud_id and person, because this table is at the child-level whereas the key ID LLC_XXXX_stud_id is at the parent-level.  
 </details>
 
+<details>
+  <summary>Can participants be linked between LPS?</summary>
+
+Currently, participants who are in multiple LPS cannot be linked. However, this functionality has been factored into the design of the UK LLC TRE and will be implemented.
+</details>
 <details>
 <summary>Do LPS have weighting variables in the TRE?</summary>
 

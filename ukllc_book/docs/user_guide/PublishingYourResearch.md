@@ -1,6 +1,7 @@
 # Publishing or presenting your research
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>You must send all papers and similar outputs to UK LLC for review before you submit them for publication.</strong></div style>
-<br>
+> Last modified: 02 Sep 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must send all papers and similar outputs to UK LLC for review before submitting them for publication.</strong></div style>
+
 
 ## Key messages for researchers
 1. You must only include **data** in papers/presentations that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md).
@@ -15,7 +16,7 @@
 
 7. You must publish **all papers and similar outputs** as **Open Access** in line with <strong><a href="https://www.ukri.org/publications/ukri-open-access-policy/" target="_blank" rel="noopener noreferrer">UKRI Open Access Policy</a></strong>. There are two main routes: **gold open access**, published under a Creative Commons CC-BY licence, or **green open access** whereby your accepted version is deposited in an open access repository with a CC-BY licence. **University library websites** tend to have really good guidance and many will have grants from funders to pay for gold open access if your research is funded by them, e.g. see <strong><a href="https://library.bath.ac.uk/open-access/whatisopenaccess" target="_blank" rel="noopener noreferrer">University of Bath Library</a></strong>, <strong><a href="https://www.bristol.ac.uk/staff/researchers/open-access/" target="_blank" rel="noopener noreferrer">University of Bristol Library</a></strong> or <strong><a href="https://library.ed.ac.uk/research-support/publish-research/open-access" target="_blank" rel="noopener noreferrer">University of Edinburgh Library</a></strong>.
 
-8. If you are requested to write a **data availablilty statement**, we suggest you provide the following:
+8. If you are requested to write a **data availability statement**, we suggest you provide the following:
 *‘Data used in this research are made available via UK Longitudinal Linkage Collaboration (UK LLC), which is a Trusted Research Environment (TRE) developed and operated by the Universities of Bristol and Edinburgh using an underlying ‘Secure eResearch Platform’ provided by Swansea University. These data cannot be used or shared outside this environment. Researchers can apply to access the UK LLC TRE using the procedure outlined in the <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">UK LLC Data Access and Acceptable Use Policy</a></strong>. UK LLC uses a system of managed open access for researchers who demonstrate their project is intended to improve the public good.’*
 
 For further details see the <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">UK LLC Publication Policy</a></strong>.
