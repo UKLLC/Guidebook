@@ -1,5 +1,5 @@
 
-# Submit your application
+# Complete your application
 >Last modified: 15 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>When your EoI is approved you can complete your full application in UK LLC Apply.</strong></div>
 <br>
