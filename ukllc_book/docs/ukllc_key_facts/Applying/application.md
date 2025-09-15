@@ -1,6 +1,6 @@
 
 # Submit your application
->Last modified: 27 Aug 2025
+>Last modified: 15 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>When your EoI is approved you can complete your full application in UK LLC Apply.</strong></div>
 <br>
 
@@ -35,9 +35,9 @@ You can invite **co-applicants** to work with you on your application, but these
  
 
 ### b) Ethics
-You must have obtained a **favourable opinion** from an **independent** Research Ethics Committee (REC) if you are applying to access data of **elevated sensitivity** and/or if you are using **novel** or **contentious** research methods (see definitions below). 
+You must have obtained a **favourable opinion** from an **independent** Research Ethics Committee (REC) if you are applying to access data of **elevated sensitivity** and/or if you are using **novel** or **contentious** research methods (see definitions below). We accept faculty ethics committee or Health Research Authority REC approval. 
 
-Otherwise, you will be asked to fill in the **Ethics Self-assesment Tool** developed by the UK Statistics Authority. The form can be downloaded from within [**UK LLC Apply**](https://apply.ukllc.ac.uk/) or here: [LINK]. Once completed, please upload your form to the Ethics section of your application. Your ethical assessment will be reviewed and depending on the outcome, you may need to contact your institution’s REC for further advice.
+If you do not have a favourable opinion from an independent REC, you will be asked to fill in the **Ethics Self-assesment Tool** developed by the UK Statistics Authority. The form can be downloaded from within [**UK LLC Apply**](https://apply.ukllc.ac.uk/). Once completed, please upload your form to the Ethics section of your application. Your ethical assessment will be reviewed and depending on the outcome, you may need to contact your institution’s REC for further advice. You can view the UK LLC ethics decision making tree in the [**Application review guide**](../Applying/review.md). 
 
 >**Data of elevated sensitivity**:  
 >- mental health 

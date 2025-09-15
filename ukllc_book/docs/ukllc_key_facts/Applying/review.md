@@ -1,5 +1,5 @@
 # How your application is reviewed 
->Last modified: 27 Aug 2025
+>Last modified: 15 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Your application will undergo rigorous internal and external review.</strong></div>
 <br>
 
@@ -7,7 +7,11 @@ Your application will first be reviewed by **UK LLC** (internal review). If appr
 
 
 ## 1. Internal review by UK LLC
-Review by the **UK LLC Application Review Panel** assesses applications against the [**Five Safes Framework**](https://ukdataservice.ac.uk/help/secure-lab/what-is-the-five-safes-framework/) and checks that all requested fields are filled out appropriately and fully. In particular, applications are reviewed to ensure that the data being requested are **available**, can be used for the proposed research (i.e. **align** with data owners’ terms of use) and are **relevant** to the research question. Applicants must **justify** the inclusion of data of ‘elevated sensitivity’ such as socially sensitive data (e.g. mental and sexual health data) and demographically sensitive data (e.g. ethnicity). The panel ensures that **public good** has been addressed, that public involvement plans are included and that a lay summary has been provided. The panel also assesses whether **ethical requirements** have been met. 
+Review by the **UK LLC Application Review Panel** assesses applications against the [**Five Safes Framework**](https://ukdataservice.ac.uk/help/secure-lab/what-is-the-five-safes-framework/) and checks that all requested fields are filled out appropriately and fully. In particular, applications are reviewed to ensure that the data being requested are **available**, can be used for the proposed research (i.e. **align** with data owners’ terms of use) and are **relevant** to the research question. Applicants must **justify** the inclusion of data of ‘elevated sensitivity’ such as socially sensitive data (e.g. mental and sexual health data) and demographically sensitive data (e.g. ethnicity). The panel ensures that **public good** has been addressed, that public involvement plans are included and that a lay summary has been provided. The panel also assesses whether **ethical requirements** have been met following the UK LLC ethics decision-making tree below.
+
+<img src="../../images/Ethics_tree_15092025.png" width="600"/>
+
+**Figure 1** An overview of the UK LLC ethics decision-making tree
 
 Any questions or concerns are sent back to the applicant(s) and resubmitted applications are re-reviewed by the UK LLC Application Review Panel. Once the UK LLC panel is satisfied that the application can proceed it will be sent out for **external review**. 
 

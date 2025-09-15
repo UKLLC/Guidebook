@@ -1,4 +1,4 @@
-# Complete your application governance
+# Complete your project governance
 >Last modified: 27 Aug 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>You must be covered by a UK LLC Data Access Agreement and have accepted UK LLC's and data owners' terms and conditions of data use before you can access the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>

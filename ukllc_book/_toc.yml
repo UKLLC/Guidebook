@@ -15,11 +15,11 @@ parts:
           sections:
             - title: Submit EoI
               file: docs/ukllc_key_facts/Applying/EoI.md
-            - title: Complete full application
+            - title: Complete application
               file: docs/ukllc_key_facts/Applying/application.md
-            - title: The application review process
+            - title: Review process
               file: docs/ukllc_key_facts/Applying/review.md
-            - title: Complete project governance
+            - title: Complete governance
               file: docs/ukllc_key_facts/Applying/paperwork.md 
         - title: UK LLC profile
           file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
