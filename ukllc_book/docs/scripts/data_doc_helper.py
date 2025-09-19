@@ -681,7 +681,7 @@ class LPSSource:
             self.df_ss.iloc[0]["geographic_coverage_Nations"],
             self.df_ss.iloc[0]["geographic_coverage_Regions"],
             self.df_ss.iloc[0]["start_date"],
-            "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps/linkages/lps_linkages","here"),
+            "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/linkages/lps_linkages","here"),
             self.df_ss.iloc[0]["participant_pathway"],
             ", ".join([md.make_hlink("https://doi.org/" + i, i) for i in self.cohort_profile.split(",")]),
             #md.make_hlink("https://doi.org/" + self.cohort_profile, self.cohort_profile),
@@ -760,14 +760,16 @@ class LPSSource:
             dff = dff[(dff["LPS"] == self.source) & (dff["frz_num"] == dff["frz_num"].max())]
 
             lx = ["NHS England", "NHS Wales"]
-            ly = [100*(dff.iloc[0]["n_l_tot"]/dff.iloc[0]["n_sent"]), 0]
-            lz = [dff.iloc[0]["n_sent"]] * 2
+            ly = [100*(dff.iloc[0]["n_l_tot"]/dff.iloc[0]["n_perm"]), 0]
+            lz = [dff.iloc[0]["n_perm"]] * 2
             ll = [dff.iloc[0]["n_l_tot"], 0 ]
+            ls = [dff.iloc[0]["n_sent"], 0 ]
 
             data = {
                 "link_series": lx,
                 "link_pct": ly,
-                "n_sent": lz,
+                "n_perm": lz,
+                "n_sent": ls,
                 "n_linked": ll
             }
 
@@ -777,7 +779,8 @@ class LPSSource:
 
             hover = HoverTool(tooltips=[
                 ("Linked Participants", "@n_linked"),
-                ("Participants sent to UK LLC", "@n_sent")])
+                ("Participants sent to UK LLC", "@n_sent"),
+                ("Participants with linkage permission", "@n_perm")])
             p.add_tools(hover)
 
             p.y_range.start = 0
@@ -1762,6 +1765,7 @@ class PlaceDataSet:
         df2 = df2[df2["dataset"] == self.dataset][["variable", "owner", "date_range", "category"]]
         df = df.merge(df2, left_on="variable_name", right_on="variable")[["category", "variable_name", "variable_label", "owner", "date_range"]]
         df = df.rename(columns={"category": "Variable Group", "variable_name": "Variable", "variable_label": "Description", "owner": "Source", "date_range": "Date range of data"})
+        df = df.drop_duplicates()
         return DocHelper.style_table("_", df)
 
     def documentation(self):
