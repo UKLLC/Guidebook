@@ -1,5 +1,5 @@
 # LPS in the UK LLC partnership
->Last modified: 27 Jun 2025
+>Last modified: 19 Sep 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK has a world-leading portfolio of around 100 Longitudinal Population Studies (LPS) that have collected detailed  information on over three million members of the UK public. </strong></div>
 <br>
