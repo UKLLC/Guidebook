@@ -26,6 +26,10 @@ parts:
         - title: UK LLC sample
           file: docs/ukllc_key_facts/Sample/UKLLC_sample.md
           sections:
+            - title: Freeze 13 | Aug 2025
+              file: docs/ukllc_key_facts/Sample/freezes/freeze13.ipynb
+            - title: Freeze 12 | May 2025
+              file: docs/ukllc_key_facts/Sample/freezes/freeze12.ipynb
             - title: Freeze 11 | Feb 2025
               file: docs/ukllc_key_facts/Sample/freezes/freeze11.ipynb
             - title: Freeze 10 | Nov 2024
