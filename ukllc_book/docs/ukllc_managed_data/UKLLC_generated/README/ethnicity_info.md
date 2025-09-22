@@ -1,9 +1,9 @@
 # Understanding the harmonisation of LPS ethnic group variables
->Last modified: 03 Jul 2025
+>Last modified: 19 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>LPS have different approaches to recording participants’ ethnic group, with differing levels of specificity. UK LLC has harmonised data on ethnic group into three, hierarchical, levels</strong></div>  
 
 ## Introduction  
-The majority of LPS contributing to UK LLC have included some information about their participants’ ethnic group. UK LLC has harmonised the ethnicity data provided by LPS and made it available to researchers as part of the **XXXX** UK LLC managed demographic dataset. This can be requested as part of a project application or amendment. 
+The majority of LPS contributing to UK LLC have included some information about their participants’ ethnic group. UK LLC has harmonised the ethnicity data provided by LPS and made it available to researchers as part of the UK LLC-managed demographic datasets. These can be requested as part of a project application or amendment. 
 
 Because of the different ethnic groupings used by each LPS, UK LLC has harmonised data about ethnic group into six, five and two categories (summarised in Table 1). Harmonised ethnicity information is provided for each LPS at the most granular level available.
 

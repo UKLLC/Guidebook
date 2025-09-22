@@ -1,9 +1,8 @@
 # Place-based data
 
-> Last modified: 21 Aug 2025
+> Last modified: 22 Sep 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has established data pipelines to ingest both open-source place-based data and datasets provided by agreed partners into the UK LLC Trusted Research Environment (TRE).</strong></div>
-<br>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has established data pipelines to ingest both open-source place-based data and datasets provided by agreed partners into the UK LLC Trusted Research Environment (TRE).</strong></div>  
 
 ## Introduction
 
@@ -17,7 +16,9 @@ Place-based data can be linked using LPS-provided address data or linked area in
 
 All address data are sent by the LPS to our trusted third party – NHS Digital Health and Care Wales (DHCW). This address data is only used for place-based linkage and geocoding, subject to individual LPS approval.
 
-Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong> to discover more about each place-based dataset, including variable names, labels, and values.
+Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong> to discover more about each place-based dataset, including variable names, labels, and values.  
+
+<aside class="admonition note"><p class="admonition-title">FAQs on working with place-based data are available <a href="https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_geo" target="_blank" rel="noopener noreferrer">here</a></p></aside>  
 
 **Table 1** A summary of the place-based datasets available in the UK LLC TRE, grouped by theme.
 
@@ -37,10 +38,9 @@ Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopen
 <br>
 
 
-We are currently in the process of adding new place-based datasets into the TRE. If you require a specific dataset, or additional variables in an existing dataset to provide a higher level of granularity, please contact **support@ukllc.ac.uk**.
+We are currently in the process of adding new place-based datasets into the TRE. If you require a specific dataset, or additional variables in an existing dataset to provide a higher level of granularity, please contact **support@ukllc.ac.uk**.  
 
->**Note**
-> While access to standard place-based datasets is free, the preparation of bespoke datasets may involve a cost depending on the complexity of the request
-.
+<aside class="admonition note"><p class="admonition-title">FAQs on working with place-based data are available <a href="https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_geo" target="_blank" rel="noopener noreferrer">here</a></p></aside>  
 
-> [FAQs](../FAQ/faq_intro.md) about place-based data in the UK LLC TRE.
+**Note**  
+While access to standard place-based datasets is free, the preparation of bespoke datasets may involve a cost depending on the complexity of the request.  

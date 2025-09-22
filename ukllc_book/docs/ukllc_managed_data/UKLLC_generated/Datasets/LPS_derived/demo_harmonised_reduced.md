@@ -1,5 +1,5 @@
 # LPS harmonised demographic dataset (reduced)
->Last modified: 17 Jul 2025
+>Last modified: 19 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has created a harmonised dataset of key demographic variables across the partner LPS.</strong></div>  
 
 ## 1. Summary
@@ -8,15 +8,6 @@ The reduced LPS harmonised demographic dataset contains harmonised variables for
 >**Note** UK LLC has not changed the original LPS data for these variables.  
 
 This dataset retains only the **most recent response** provided by a participant for each variable.  
-
->Researchers are encouraged to use the **reduced dataset**:  
->* To have the most recent, valid, definition of a participant’s demographic characteristics 
->* To have comparable data on ethnicity and gender for the maximum number of participants
->* To be able to compare LPS data with data from NHS England using the [**NHSE demographics dataset**](../../../linked_health_data/NHS_England/Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb).  
-
- Where different levels of granularity can be derived for variables (objects), i.e. ethnic group and gender, all possible levels of the variables have been derived and included in the dataset.
-
-**Missing data** have been removed from the reduced dataset.
 
 ## 2. Variables
 <br>

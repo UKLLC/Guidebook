@@ -1,5 +1,5 @@
 # Logging in
->Last modified: 01 Sep 2025
+>Last modified: 22 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide covers initial and subsequent login to the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
@@ -51,7 +51,8 @@ Follow the steps below to log in:
 8.  Enter your **password**, and a new pop-up appears. Click on the 'UKLLC Standard' icon to launch the SeRP desktop.
 
 9. When you have finished in the UK LLC TRE, **save your work**, select ‘**Options**’ and then ‘**Log off**’ from the top bar menu.  
-<div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><strong>ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>
+<br>
+<aside class="admonition danger"><p class="admonition-title">ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE</p>Once you log off, restart or shutdown the virtual machine that you are using in the TRE, the machine is rebuilt and the majority of the C:\ drive wiped.</aside>
 <br>
 
 ## Subsequent log in

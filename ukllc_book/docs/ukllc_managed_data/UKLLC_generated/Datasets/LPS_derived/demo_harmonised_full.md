@@ -1,7 +1,7 @@
 # LPS harmonised demographic dataset (full)
->Last modified: 17 Jul 2025
+>Last modified: 19 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has created a harmonised dataset of key demographic variables across the partner LPS.</strong></div>  
-<br>
+
 
 ## 1. Summary
 The full LPS harmonised demographic dataset contains harmonised variables for **sex, gender, year of birth** and **ethnic group**.  
@@ -9,16 +9,6 @@ The full LPS harmonised demographic dataset contains harmonised variables for **
 >**Note** UK LLC has not changed the original LPS data for these variables.  
 
 This dataset retains **every relevant response** provided by participants. For example, if a participant was asked to confirm their ethnic group on five separate occasions, then that individual will have five occurrences of ethnicity in the harmonised dataset.  
-
->Researchers are encouraged to use the **full dataset**:  
->* To investigate whether a participant’s self-reported demographic characteristics have changed over time  
->* To ensure that their research refers to participants' self-reported characteristics as recorded at a time point pertinent to the research question.  
-
-The variables (objects) for which different levels of granularity can be derived, i.e. ethnicity and gender, are provided at the most detailed level available for each contributing dataset.  
-
-**Missing data** are retained where a participant was included in a data sweep (i.e. other information is available about them in a dataset) but they did not answer the question(s) about one or more aspects of their sex, gender or ethnic group. This missing data is separate, and additional, to responses recorded as missing (e.g. 'prefer not to answer', 'no response').
-
-Researchers should be mindful of the fact that, for a single participant, data could be missing - either through omission or through a participant selecting e.g. 'don’t know' from response options - for multiple waves of data collection. 
 
 ## 2. Variables
 <br>
