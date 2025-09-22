@@ -1,5 +1,5 @@
 # LPS in the UK LLC partnership
->Last modified: 19 Sep 2025
+>Last modified: 22 Sep 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK has a world-leading portfolio of around 100 Longitudinal Population Studies (LPS) that have collected detailed  information on over three million members of the UK public. </strong></div>
 <br>
@@ -10,10 +10,9 @@ Table 1 provides an overview of the **>20 LPS that are part of UK LLC**. UK LLC 
 
 >The table does not include LPS that are working to join the UK LLC partnership but have not yet notified their participants through ‘fair processing’ communications. No data flow into the UK LLC TRE until participants have been notified.
 
-Most LPS have published **cohort profiles** which give detailed information about each LPS - to access these, click on the cohort information in Table 1 about each LPS (some publications may require library licences to access, but most will be free and publicly accessible).
+Most LPS have published **cohort profiles** which give detailed information about each LPS - to access these, click on the cohort information in Table 1 (some publications may require library licences to access, but most will be free and publicly accessible). **Click on the LPS name** to discover more about each LPS and their datasets. To build a data request, visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>
 
-Click on the LPS name to discover more about each LPS and their datasets. To build a data request, visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>
-
+<aside class="admonition note"><p class="admonition-title">FAQs on working with LPS data are available <a href="https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_lps" target="_blank" rel="noopener noreferrer">here</a></p></aside>
 
 **Table 1** A summary of the Longitudinal Population Studies (LPS) that are in the UK LLC partnership (listed in alphabetical order)
 
@@ -42,5 +41,7 @@ Click on the LPS name to discover more about each LPS and their datasets. To bui
 |[**UKHLS: Understanding Society – the UK Household Longitudinal Study**](../LPS_data/LPS%20profiles/UKHLS.ipynb)|UKHLS collects behavioural, economic, social and genetic data from households to explore the experiences of people living in the UK.|UK|<a href="https://doi.org/10.14301/llcs.v3i1.159" target="_blank" rel="noopener noreferrer">c. 40,000 households recruited in 2009, including 8,000 from the original British Household Panel Survey, which ran from 1991-2009</a>|2009-|University of Essex|
 |**UK-REACH: The UK Research study into Ethnicity And COVID-19 outcomes in Healthcare workers**|Established to understand why ethnic minority healthcare workers (HCWs) are at risk of poorer outcomes from COVID-19 when compared with their White ethnic counterparts in the UK.|UK|<a href="https://doi.org/10.1093/ije/dyac171" target="_blank" rel="noopener noreferrer">17,891 HCWs aged 16–89 years (mean age 44 years)</a>|2020-|University of Leicester|
 
-<sup>1</sup>GLAD includes the Eating Disorders Genetics Initiative (EDGI) and COVID-19 Psychiatry and Neurological Genetics (COPING) Study.
-<sup>2</sup>TEDS includes the Environmental Risk (E-Risk) Longitudinal Twin Study.
+<sup>1</sup> GLAD includes the Eating Disorders Genetics Initiative (EDGI) and COVID-19 Psychiatry and Neurological Genetics (COPING) Study.
+<sup>2</sup> TEDS includes the Environmental Risk (E-Risk) Longitudinal Twin Study.
+
+<aside class="admonition note"><p class="admonition-title">FAQs on working with LPS data are available <a href="https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_lps" target="_blank" rel="noopener noreferrer">here</a></p></aside>
