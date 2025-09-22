@@ -1,5 +1,5 @@
 # Finishing your project
->Last modified: 01 Sep 2025
+>Last modified: 22 Sep 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>What to do when your time in the UK LLC Trusted Research Environment (TRE) is coming to an end.</strong></div style>  
 
@@ -12,7 +12,9 @@ You will be emailed **reminders** at approximately 90 days, 30 days and 1 day be
 * Or [**wrap up your project**](#2-wrap-up-your-project).  
 
 ## 1. Extend your TRE access
-If you need additional time to complete your research, you can submit an amendment via <strong><a href="https://apply.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong>, UK LLC's online application management system. See the [**Requesting an amendment**](../user_guide/RequestingAnAmendment.md) guide.
+If you need additional time to complete your research, you can submit an amendment via <strong><a href="https://apply.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong>, UK LLC's online application management system. See the [**Requesting an amendment**](../user_guide/RequestingAnAmendment.md#extend-tre-access-period) guide.  
+
+Please note that extending your time in the TRE does not affect your project data which remains static for the duration of the project unless a ['new data'](../user_guide/RequestingAnAmendment.md#request-new-data) amendment is submitted.
 
 ## 2. Wrap up your project
 1. Submit final [**file outs**](../user_guide/MovingFilesInAndOut.md) required for your **publications or presentations**. Please ensure you adhere to the rules detailed in the [**Publishing or presenting your research guide**](../user_guide/PublishingYourResearch.md).
