@@ -1,6 +1,6 @@
 
 # Complete your application
->Last modified: 15 Sep 2025
+>Last modified: 22 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>When your EoI is approved you can complete your full application in UK LLC Apply.</strong></div>
 <br>
 
@@ -35,9 +35,11 @@ You can invite **co-applicants** to work with you on your application, but these
  
 
 ### b) Ethics
-You must have obtained a **favourable opinion** from an **independent** Research Ethics Committee (REC) if you are applying to access data of **elevated sensitivity** and/or if you are using **novel** or **contentious** research methods (see definitions below). We accept faculty ethics committee or Health Research Authority REC approval. 
+You must have obtained a **favourable opinion** from an **independent** Research Ethics Committee (REC) if you are applying to access data of **elevated sensitivity** and/or if you are using **novel** or **contentious** research methods (see definitions below). We accept faculty ethics committee or Health Research Authority REC approval. If you do not have a favourable opinion from an independent REC, you will be asked to fill in the **Ethics Self-assesment Tool** developed by the UK Statistics Authority. The form can be downloaded from within [**UK LLC Apply**](https://apply.ukllc.ac.uk/). Once completed, please upload your form to the Ethics section of your application. Your ethical assessment will be reviewed and depending on the outcome, you may need to contact your institution’s REC for further advice - see the UK LLC ethics decision-making tree below.
 
-If you do not have a favourable opinion from an independent REC, you will be asked to fill in the **Ethics Self-assesment Tool** developed by the UK Statistics Authority. The form can be downloaded from within [**UK LLC Apply**](https://apply.ukllc.ac.uk/). Once completed, please upload your form to the Ethics section of your application. Your ethical assessment will be reviewed and depending on the outcome, you may need to contact your institution’s REC for further advice. You can view the UK LLC ethics decision making tree in the [**Application review guide**](../Applying/review.md). 
+<img src="../../images/Ethics_tree_15092025.png" width="600"/>
+
+**Figure 1** An overview of the UK LLC ethics decision-making process
 
 >**Data of elevated sensitivity**:  
 >- mental health 
@@ -47,12 +49,10 @@ If you do not have a favourable opinion from an independent REC, you will be ask
 >- abuse 
 >- self-harm
 >- suicide.  
-<br>  
 
 >**Novel or contentious research methods**:
 >- entirely novel or not commonly used methods
 >- any artificial intelligence (AI) methods.  
-<br>
 
 ### c) Public and Participant Involvement and Engagement (PPIE)
 All applications approved by UK LLC must be for the **public good**. You can find the definition for public good [**here**](https://guidebook.ukllc.ac.uk/docs/ukllc_key_facts/eligibility/eligibility). We strongly encourage you to think about and develop **PPIE plans** that cover the duration of your project (from developing research ideas to discussing results and dissemination). This is **obligatory** for projects involving data of elevated sensitivity and novel/contentious research methods.
