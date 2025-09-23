@@ -1,5 +1,5 @@
 # Getting started
->Last modified: 22 Sep 2025
+>Last modified: 23 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
@@ -28,11 +28,14 @@ Project folders have a defined **standard folder structure** (as detailed below)
 |---|---|
 |available_views|Contains csv file outputs from all data provisions with a list of SQL database views that have been made available to the project|
 |data|For storing researcher generated datafiles created during analyses|
-|documentation|For storing documentation pertinent to the research. This can be generated within the TRE or sent in via ‘file-in’ request|
+|documentation|This contains a text file with information about which [**freeze**](../ukllc_key_facts/Sample/UKLLC_sample.md)<sup>1</sup> the project has been provisioned to. <br> It can also be used for storing additional documentation pertinent to the research (either generated within the TRE or sent in via ‘file-in’ request) |
 |llc_guidance|A sub-folder containing key UK LLC requirements documents for ease of reference (e.g. your data request form)|
 |outputs|For storing proposed publication-ready analytical outputs to be submitted through the ‘file-out’ review process|
 |syntax|For storing researcher-generated analytical syntax/scripts|
 
+
+>**Note**  
+><sup>1</sup> Projects remain tied to their original 'freeze' unless new data (i.e. data that were not available when the original application was submitted) are requested via an amendment.
 
 ## Database structure
 Data are stored on a SQL Server relational database which sits within the UK LLC TRE. The database name is **UKSERPUKLLC**. The UK LLC data provision pipeline provisions a bespoke set of **views** of the **datasets** held in the database to researchers, based on the datasets requested for each specific project. A database view provides a tailored, read-only, live representation of the underlying data (stored in the database datasets). Using views enables UK LLC to customise your data provision, conduct internal linkages and implement governance controls. Within relational databases, groups of datasets and views are organised into **schema**.
