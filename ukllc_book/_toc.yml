@@ -59,11 +59,11 @@ parts:
           sections:
             - title: Five Safes Framework
               file: docs/ukllc_key_facts/Data_security/five_safes.md
-    - title: Available linkages
-      file: docs/Linkages/LPS_linkages.md
     - title: LPS data
       file: docs/LPS_data/LPS_introduction.md
       sections:
+        - title: Permitted linkages
+          file: docs/Linkages/LPS_linkages.md
         - title: Temporal coverage
           file: docs/LPS_data/Longevity of LPS/LPS_longevity
         - title: Discover LPS data

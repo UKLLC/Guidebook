@@ -1,6 +1,6 @@
 
-# How can I apply?
->Last modified: 27 Aug 2025
+# How do I apply?
+>Last modified: 23 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>All applications must be submitted via UK LLC's online application management system, UK LLC Apply.</strong></div>
 <br>
 

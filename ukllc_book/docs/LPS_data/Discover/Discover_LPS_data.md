@@ -1,6 +1,6 @@
 # Discover LPS data
 
->Last modified: 09 Jul 2025
+>Last modified: 24 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Various online resources provide information about the data held by Longitudinal Population Studies (LPS).</strong></div>
 <br>
 
