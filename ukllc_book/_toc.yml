@@ -63,7 +63,7 @@ parts:
       file: docs/LPS_data/LPS_introduction.md
       sections:
         - title: Permitted linkages
-          file: docs/Linkages/LPS_linkages.md
+          file: docs/LPS_data/Linkages/LPS_linkages.md
         - title: Temporal coverage
           file: docs/LPS_data/Longevity of LPS/LPS_longevity
         - title: Discover LPS data
