@@ -1,13 +1,13 @@
 # LPS derived datasets
->Last modified: 19 Sep 2025
+>Last modified: 29 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is creating a range of derived datasets applicable across Longitudinal Population Studies (LPS).</strong></div>  
 
 ## Introduction  
-Longitudinal Population Studies (LPS) collect data in different ways, using different variable names and values, so it is not always easy to make comparisons between them. To help researchers understand the profile of the UK LLC resource as a whole, UK LLC standardises (‘harmonises’) key characteristics about participants across all partner LPS. UK LLC has so far harmonised the following demographic variables: **sex, gender, year of birth and ethnic group**. These harmonised variables are available as either the full or reduced version of the LPS harmonised demographic dataset. UK LLC has also harmonised information about LPS participants' **highest educational qualifications**.
+Longitudinal Population Studies (LPS) collect data in different ways, using different variable names and values, so it is not always easy to make comparisons between them. To help researchers understand the profile of the UK LLC resource as a whole, UK LLC standardises (‘harmonises’) key characteristics about participants across all partner LPS. UK LLC has so far harmonised the following demographic variables: **sex, gender, year of birth and ethnic group**. UK LLC has also harmonised information about LPS participants' **highest educational qualifications**. Table 1 below lists the LPS that are included in each of the harmonised datasets.
   
 >**Note** UK LLC has not changed the original LPS data for these variables.  
 
-## Demographic data
+## 1. Demographic data
 <details><summary>There are two versions of the harmonised demographic dataset: full and reduced.</summary>   
 <br>
 
@@ -24,29 +24,18 @@ Longitudinal Population Studies (LPS) collect data in different ways, using diff
 >* To be able to compare LPS data with data from NHS England using the [**NHSE demographics dataset**](../Linked_derived/nhse_patient_demo_mortality.md).  
 </details>  
 
-## Education data (available Autumn 2025)
+## 2. Education data (available Autumn 2025)
 <details><summary>LPS participants' highest educational qualification has been harmonised.</summary>
 
-Fifteen LPS contributing to UK LLC have deposited information educational qualifications of either their participants, their participants' parents, or both.  
-
-Because of changes in qualifications awarded in the UK over time, and differences between the four nations, UK LLC has harmonised data about education into four categories for LPS participants and two categories for participants' parents. Harmonised education information is provided for each LPS at the most granular level available.  
+Fifteen LPS contributing to UK LLC have deposited information educational qualifications of either their participants, their participants' parents, or both. Because of changes in qualifications awarded in the UK over time, and differences between the four nations, UK LLC has harmonised data about education into four categories for LPS participants and two categories for participants' parents. Harmonised education information is provided for each LPS at the most granular level available.  
 <br>
-
 
 </details>
 
-## Overview of LPS derived datasets
+## Table 1: LPS included in each dataset
+<details><summary>The majority of LPS have deposited relevant demographic or educational information.</summary>  
 
-Dataset | Dataset Name |Grouping| Data Available in TRE | Data Owner |
-|---|---|---|---|---|
-| [Harmonised demographics (full)](../LPS_derived/demo_harmonised_full.md) | rtn_lps_sociodemo_harmonised_full|Demographic |1990 - 2023 | UK LLC |
-| [Harmonised demographics (reduced)](../LPS_derived/demo_harmonised_reduced.md) | rtn_lps_sociodemo_harmonised_reduced|Demographic |1990 - 2023 | UK LLC |
-| Highest educational qualification | rtn_lps_education_harmonised | Demographic | TBC | UK LLC
-
-## Availability of harmonised variables
-<details><summary>The majority of LPS have deposited relevant demographic or educational information and are included in the harmonised datasets.</summary>  
-
-| LPS | Sex | Gender | Year of Birth | Ethnicity | Education:<br>participant | Education:<br> parent(s) |
+| LPS | Sex | Gender | Year of birth | Ethnicity | Education:<br>participant | Education:<br> parent(s) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | AIRWAVE<sup>*</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
 | ALSPAC | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
@@ -75,7 +64,7 @@ Dataset | Dataset Name |Grouping| Data Available in TRE | Data Owner |
 </details>  
 
 ## Harmonisation methodology
-Detailed information on how UK LLC generated the harmonised demographic dataset is available via the links below. These include downloadable files which show the mapping of LPS data to UK LLC's harmonised variables.  
+Detailed information on how UK LLC generated the harmonised datasets is available via the links below. These include downloadable files which show the mapping of LPS data to UK LLC's harmonised variables.  
 | Detailed information on: |
 |:---:|
 |[Sex](../../README/sex_info.md)| 
