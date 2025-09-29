@@ -1,5 +1,5 @@
 # Available software
->Last modified: 09 Jul 2025
+>Last modified: 29 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
@@ -47,8 +47,7 @@ Once complete the script will have created a **new environment** in the location
 The **batch file** ('create_python_env.bat') can be **edited** if you wish to store your environment in a **different location** or would like to **name it differently**. Please take a **copy** of the batch file and **save it** in your project area before editing. The environment will be created in the P: drive because this is a drive available only to you and accessible from whichever remote desktop you are assigned on login.
 
 ### Using your new environment
-
-<div style="background-color: rgb(229, 106, 84); padding: 5px; border-radius: 5px;"><strong>ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE. By default Anaconda Prompt will open in the C:\ drive, remember to change the directory using the steps below. Once you log off or restart/shutdown the virtual machine you are using, the machine is rebuilt so the majority of the C:\ drive will be wiped.</strong></div>  
+<aside class="admonition danger"><p class="admonition-title">ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE</p>Once you log off, restart or shutdown the virtual machine that you are using in the TRE, the machine is rebuilt and the majority of the C:\ drive wiped.</aside>  
 <br>
 
 If you are using **Jupyter Notebooks, Spyder** or any other **Anaconda tools** for your analyses it is recommended that you launch these from Anaconda Prompt **after activating your new environment**. This will ensure you are running your new environment within the application. To do this:
