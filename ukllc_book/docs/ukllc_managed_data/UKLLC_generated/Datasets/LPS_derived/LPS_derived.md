@@ -1,11 +1,13 @@
 # LPS derived datasets
->Last modified: 29 Sep 2025
+>Last modified: 30 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is creating a range of derived datasets applicable across Longitudinal Population Studies (LPS).</strong></div>  
 
 ## Introduction  
 Longitudinal Population Studies (LPS) collect data in different ways, using different variable names and values, so it is not always easy to make comparisons between them. To help researchers understand the profile of the UK LLC resource as a whole, UK LLC standardises (‘harmonises’) key characteristics about participants across all partner LPS. UK LLC has so far harmonised the following demographic variables: **sex, gender, year of birth and ethnic group**. UK LLC has also harmonised information about LPS participants' **highest educational qualifications**. Table 1 below lists the LPS that are included in each of the harmonised datasets.
   
->**Note** UK LLC has not changed the original LPS data for these variables.  
+>**Note**: UK LLC has not changed the original LPS data for these variables.  
+ 
+
 
 ## 1. Demographic data
 <details><summary>There are two versions of the harmonised demographic dataset: full and reduced.</summary>   
