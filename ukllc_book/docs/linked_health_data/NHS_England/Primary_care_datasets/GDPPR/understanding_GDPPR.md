@@ -1,5 +1,5 @@
 # Understanding the GDPPR dataset
->Last modified: 20 Jun 2025
+>Last modified: 29 Sep 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The General Practice Extraction Service (GPES) Data for Pandemic Planning and Research dataset contains an extract of coded data items from primary care (GP) records from General Practices across England.</strong></div>  
 
 
@@ -40,11 +40,13 @@ All releases of the SNOMED CT code clusters are available online via the NHS [**
 Please note that code clusters and cluster categories are not currently included in the GDPPR dataset in the TRE. UK LLC is planning on making this information available later this year.  
 
 ## Additional information  
-A GDPPR ‘Useful Information & DQ Notes’ can be accessed via the [NHS website](https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data). UK LLC has downloaded the most recent version (dated 28.01.2025) and made it available here. It should be noted that the document refers to full GDPPR extract, not just the subset available in the UK LLC TRE.
+A GDPPR ‘Useful Information & DQ Notes’ can be accessed via the [NHS GDPPR guide for analysts and users of the data](https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data). It should be noted that the document refers to full GDPPR extract, not just the subset available in the UK LLC TRE.
 
 The full list of SNOMED CT code clusters - not just those included in the GDPPR dataset - can be explored via an NHS England dashboard: [**Microsoft Power BI**](https://app.powerbi.com/view?r=eyJrIjoiMjY4OTRhNmUtZDdiMy00NzVhLTkzMmMtZmRhMzAyOWFkZjc4IiwidCI6IjM3YzM1NGIyLTg1YjAtNDdmNS1iMjIyLTA3YjQ4ZDc3NGVlMyJ9). 
 
 **Notes**  
-<sup>1</sup> Available to download from: https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data  
-<sup>2</sup> Available to download from: https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof#other-extracts  
+<sup>1</sup> Available to download from: <https://digital.nhs.uk/coronavirus/gpes-data-for-pandemic-planning-and-research/guide-for-analysts-and-users-of-the-data>  
+
+<sup>2</sup> Available to download from: <https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof#other-extracts>  
+
 <sup>3</sup> N.B. Release 51.0.0 is dated 15.02.2024, while UK LLC’s GDPPR data was extracted on 26.04.2024. There is a chance that some of the drug cluster content may have changed slightly between the two dates because drug reference sets are released more frequently than the broader Primary Care Domain reference sets.

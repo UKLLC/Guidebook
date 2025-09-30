@@ -1,5 +1,5 @@
 # Requesting an amendment
->Last modified: 22 Sep 2025
+>Last modified: 29 Sep 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>How to apply to change aspects of your project.</strong></div style>
 
@@ -67,7 +67,7 @@ You must **notify UK LLC** via an amendment when a researcher **moves organisati
 Researchers are sent **reminders** at approximately 90 days, 30 days and 1 day that their access to the TRE is coming to an end. If you anticipate requiring **more time** in the TRE to complete your analyses, you must **notify UK LLC** via an amendment. The UK LLC Applications Team assesses whether the extension request is **reasonable and realistic**, and whether the Accredited Researcher status of each researcher extends beyond the new requested project end date. For researchers whose Accredited Researcher status falls short, any extension of their TRE access is set to the expiry date of their status.  
 
 > **Note**  
-> If your time in the TRE is extended, your data will **not be updated** to reflect changes in participants' consent status since the project was originally provisioned. Projects remain tied to their original [**'freeze'**](../../docs/ukllc_key_facts/Sample/UKLLC_sample.md) unless new data (i.e. data that were not available when the original application was submitted) is requested via an amendment.
+> If your time in the TRE is extended, your data will **not be updated** to reflect changes in participants' consent status since the project was originally provisioned. Projects remain tied to their original [**'freeze'**](../../docs/ukllc_key_facts/Sample/UKLLC_sample.md) unless new data (i.e. data that were not available when the original application was submitted) are requested via an amendment.
 
 ## Change research question
 All your analyses must lie within the **scope** of your original approved project. If you feel that your research question is shifting or you would like to amend your research question, you must submit an amendment. The UK LLC Applications Team will determine if the amended or new research question would require a **new lay summary**. If so you will be invited to submit a **new application**.
