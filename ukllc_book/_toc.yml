@@ -245,7 +245,6 @@ parts:
             sections:
               - title: CSDS (general)
                 file: docs/linked_health_data/NHS_England/Community datasets/CSDS/CSDS.ipynb
-              - title: MSDS (maternity)
         - title: NHS Wales
           file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
           sections:
