@@ -65,7 +65,7 @@ parts:
         - title: Permitted linkages
           file: docs/LPS_data/Linkages/LPS_linkages.md
         - title: Temporal coverage
-          file: docs/LPS_data/Longevity of LPS/LPS_longevity
+          file: docs/LPS_data/Longevity of LPS/LPS_longevity.md
         - title: Discover LPS data
           file: docs/LPS_data/Discover/Discover_LPS_data.md
         - title: ALSPAC
@@ -270,7 +270,7 @@ parts:
       file: docs/linked_geo_data/Place_based_intro.md
       sections:
         - title: Processing & linkage
-          file: docs/linked_geo_data/processing/Processing & linkage.md
+          file: docs/linked_geo_data/processing/Processing_and_linkage.md
         - title: Population datasets
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
@@ -313,7 +313,7 @@ parts:
           file: docs/linked_admin_data/HMRC_data/HMRC_data.md
         - title: Department for Work & Pensions
           file: docs/linked_admin_data/DWP_data/DWP_data.md
-    - title: UK LLC-managed data
+    - title: UK LLC managed data
       file: docs/ukllc_managed_data/UKLLC_data.md
       sections:
         - title: UK LLC generated datasets
