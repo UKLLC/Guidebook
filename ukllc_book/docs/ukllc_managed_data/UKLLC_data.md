@@ -1,11 +1,11 @@
 # UK LLC-managed datasets
 
->Last modified: 30 Sep 202530 Sep 2025
+>Last modified: 2 Oct 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC curates a range of derived and harmonised datasets</strong></div>
 <br>
 
-# Introduction
+## Introduction
 UK LLC-managed datasets fall into two categories:
 * Those created by the **UK LLC Data Team**
 * Those created by **researchers** working in the TRE.
@@ -14,7 +14,7 @@ These datasets are available for selection via the **UKLLC** schema in <strong><
 
 <aside class="admonition note"><p class="admonition-title">FAQs on working with UK LLC-managed data are available <a href="https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_ukllc_managed" target="_blank" rel="noopener noreferrer">here</a></p></aside>
 
-# Overview of UK LLC-managed datasets
+## Overview of UK LLC-managed datasets
 
 |Dataset|Grouping|Summary|Data Available in TRE|Data Owner|
 |---|---|---|---|---|

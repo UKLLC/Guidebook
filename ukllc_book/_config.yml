@@ -8,7 +8,13 @@ email: support@ukllc.ac.uk
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
+
+
+# Root folder for the book
+root: docs
+
 execute:
+  execute_notebooks: auto
   exclude_patterns:
     - '*freeze*'
     - '*scratchpad*'
@@ -45,7 +51,9 @@ execute:
     - '*IMD*'
     - '*townsend*'
 
-  execute_notebooks: force
+# exclude NHS England notebooks
+    - 'linked_health_data/NHS_England/**/*.ipynb'
+
 
 bibtex_bibfiles:
    - _bibliography/references.bib
