@@ -1,5 +1,5 @@
 # Working with NHS England data
->Last modified: 02 Sep 2025
+>Last modified: 06 Oct 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
 
@@ -42,17 +42,9 @@ More information creating a codelist is available here: [**Codelists**](../../li
 <details>
 <summary>How can I quantify the <b>effect of applying codelists</b> to my dataset?</summary> 
 
-The file **NHSD_Presence** contains the number of appearances and the date of the most recent appearance for each participant for each available NHS data source. Comparing LPS participants' presence in NHS data sources against the data provisioned to a project will identify which participants appear in the data source but are not included in the provisioned data. 
+The file [**NHSD_Presence**](../../ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.md) contains the number of appearances and the date of the most recent appearance for each participant for each available NHS data source. Comparing LPS participants' presence in NHS data sources against the data provisioned to a project will identify which participants appear in the data source but are not included in the provisioned data. 
 </details>
-<details>
-<summary>What impact do the <B>different levels of coding</B> have on HES data?</summary>
 
-The extent to which specific coding is used in HES data is important. For example, you may observe more records in your HESAPC (admitted patients) than in HESOP (outpatients) dataset, despite the national volume of HESOP records being typically ~5x greater per year. This is because HESAPC has meaningful diagnoses codes consistently provided, whereas generic codes are more often used in HESOP. This means when codes provided by a researcher are matched with HES data in the TRE, fewer matches ('hits') will be made on datasets with non-specific codes. Thus fewer records will be included in the project.  
-<br>
-Examples of non-specific codes include “R69=Not known” for diagnoses and “X997=Not known” for operations. These are used extensively in HESOP, but far less so in HESAPC.  
-
-UK LLC is considering the way it makes linked health records available, by initially making unfiltered views available to researchers (with particularly sensitive records removed) rather than asking for codelists upfront. This will allow codelists to be developed whilst working with the data, but will also allow exploration of records which do not have specific codes assigned.
-</details>
 <details>
 <summary>Why are there some <b>missing variable and value labels</b> in some datasets?</summary>
 
@@ -80,6 +72,31 @@ Each fixed table is logged as a quarterly [**'freeze'**](../../ukllc_key_facts/S
 Prior to upload to the UK LLC TRE database, NHS data are assessed for disclosure risk. During this process, variables can be excluded from the upload if they are deemed to be disclosive. In cases where the variable has utility in an encrypted form, the variable is encrypted rather than excluded and an ***_e*** suffix is added to the end of the variable name e.g. *lsoa* ***_e***. Encryption is usually applied to variables which are, or provide, proxies for location information smaller than region. 
 </details>
 
+<details><summary>What does <b>nic_number</b> refer to?</summary>
+The NIC number refers to UK LLC's Data Sharing Agreement (DSA) with NHSE. Particpants have different NIC numbers in the NHSE datasets depending on the legal basis for linking their data (consent or Section 251).  Participants who are in more than one LPS may have duplicated NHSE records if one study uses consent as its legal basis and one uses Section 251. UK LLC is working on a robust methodology for deduplicating participants who appear in multiple cohort studies, and will make this information available in Guidebook as soon as it is available.
+
+</details>
+
+<details>
+<summary>How can I request <b>additional data</b> for my project?</summary>
+
+Requests for new data should be submitted via an [**amendment**](../../user_guide/RequestingAnAmendment.md) to UK LLC. You may apply for additional linked data, additional data from already approved LPS, and/or data from additional LPS.  
+**Note**: each type of data amendment requires a different level of review before being approved. 
+
+</details>
+<br>
+<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>FAQs about hospital datasets</strong></div>  
+<br>
+<details>
+<summary>What impact do the <B>different levels of coding</B> have on HES data?</summary>
+
+The extent to which specific coding is used in HES data is important. For example, you may observe more records in your HESAPC (admitted patients) than in HESOP (outpatients) dataset, despite the national volume of HESOP records being typically ~5x greater per year. This is because HESAPC has meaningful diagnoses codes consistently provided, whereas generic codes are more often used in HESOP. This means when codes provided by a researcher are matched with HES data in the TRE, fewer matches ('hits') will be made on datasets with non-specific codes. Thus fewer records will be included in the project.  
+<br>
+Examples of non-specific codes include “R69=Not known” for diagnoses and “X997=Not known” for operations. These are used extensively in HESOP, but far less so in HESAPC.  
+
+UK LLC is considering the way it makes linked health records available, by initially making unfiltered views available to researchers (with particularly sensitive records removed) rather than asking for codelists upfront. This will allow codelists to be developed whilst working with the data, but will also allow exploration of records which do not have specific codes assigned.
+</details>  
+
 <details>
 <summary>What do the <B><i>_ACP</i>, <i>_MAT</i> and <i>_OTR</i></B> suffixes refer to in HES data?</summary>
 
@@ -93,7 +110,6 @@ See below for data and sub table lookup relationships. Note: HESCC is a subset o
 
 </details>
 
-
 <details>
 <summary>How can I link <B>_ACP</B>, <B>_MAT</B>, <B>_OTR</B>”, and <B>HESCC</B> data to their main record?</summary>
 
@@ -101,20 +117,28 @@ These sub tables do not contain an individual-level identifier. They therefore n
 
 <img src="../../images/user_guide/Picture3.png" width="400"/>
 
-</details>
-
-
+</details>  
+<br>
+<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>FAQs about COVID-19 datasets</strong></div>  
+<br>
 <details>
-<summary>How to find test results in <B>COVID-19</B> datasets?</summary>
+<summary>How can I find test results in <B>COVID-19</B> datasets?</summary>
 
 * **NPEX and IELISA**: Use the variable "testresult". The result is SNOMED (SCT) coded. There are 6 codes used, e.g. “SCTID: 1240581000000104”: “Severe acute respiratory syndrome coronavirus 2 detected (finding)”.
 * **COVIDSGSS**: This dataset does not contain a test results field. We are awaiting confirmation from NHS England about how to interpret the presence of records in this dataset.
 </details>
-
+<br>
+<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>FAQs about mental health datasets</strong></div>  
+<br>
 <details>
-<summary>How can I request <b>additional data</b> for my project?</summary>
+<summary>In the MHSDS, why are there records that pre-date April 2016 (when the dataset was established)?</summary>
+The data which pre-date the MHSDS indicate referral starts etc. which were open before the MHSDS was established. These data submissions were only made for open referrals. No closed referrals are submitted through MHSDS and no data has been brought across from previous datasets (e.g Mental Health Minimum Data Set).
+</details>
 
-Requests for new data should be submitted via an [**amendment**](../../user_guide/RequestingAnAmendment.md) to UK LLC. You may apply for additional linked data, additional data from already approved LPS, and/or data from additional LPS.  
-**Note**: each type of data amendment requires a different level of review before being approved. 
+<details><summary>Why do some variables in the MHSDS appear to be identical?</summary>
+In the referrals table (MSH101), the following pairs of variables have the same content, with the second one being the de-identified ('deid') version of the first:  
+
+* pservcierequestid & servicerequestedid_deid 
+* puniqservreqid & uniqservreqid_deid  
 
 </details>
