@@ -1,5 +1,5 @@
 # Publishing or presenting your research
-> Last modified: 02 Sep 2025
+> Last modified: 07 Oct 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must send all papers and similar outputs to UK LLC for review before submitting them for publication.</strong></div style>
 
 
@@ -8,7 +8,7 @@
 
 2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to data owners’ **terms and conditions**.
 
-3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available [**here**](../images/UK%20LLC%20Acknowledgement%20Slide_Publication%20Checklist_v3.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.9.docx).
+3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available [**here**](../images/UK%20LLC%20Acknowledgement%20Slide_Publication%20Checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.9.docx).
 
 4. You must share **all papers and similar outputs** with **UK LLC for review** prior to submission for publication (UK LLC does **not require** to see your **presentations** before they are delivered).
 
