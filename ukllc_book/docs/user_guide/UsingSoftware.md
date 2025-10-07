@@ -133,7 +133,7 @@ Change R within RStudio:
 Change R on launch of RStudio:
 
 Hold the CTRL key and double click the RStudio launcher, as shown below:  
-<img src="../../docs/images/R_install.png" width="600"/>
+<img src="../../docs/user_guide/images/R_install.png" width="600"/>
 
 
 Doing this will change the folder in which RStudio loads your library, as shown above, if you select 4.5.0, the library path will be P:\%USERNAME%\AppData\Roaming\R\4.5.0\Library
