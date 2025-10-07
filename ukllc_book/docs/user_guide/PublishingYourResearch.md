@@ -8,7 +8,7 @@
 
 2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to data owners’ **terms and conditions**.
 
-3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available [**here**](../images/UKLLC_Acknowledgement_Slide_Publication%20Checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.9.docx).
+3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available [**here**](../images/UKLLC_Acknowledgement_Slide_Publication_Checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.9.docx).
 
 4. You must share **all papers and similar outputs** with **UK LLC for review** prior to submission for publication (UK LLC does **not require** to see your **presentations** before they are delivered).
 
