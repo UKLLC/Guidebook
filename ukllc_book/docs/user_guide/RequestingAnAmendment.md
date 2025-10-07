@@ -1,5 +1,5 @@
 # Requesting an amendment
->Last modified: 29 Sep 2025
+>Last modified: 07 Oct 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>How to apply to change aspects of your project.</strong></div style>
 
@@ -33,8 +33,9 @@ Each **approved** amendment is indicated by an **increment to the letter** appen
 Specific information about each type of amendment is detailed below.
 
 ## Request new data
-You can request access to additional data from **LPS previously approved** for your project, to access data from **additional LPS**, and/or to access **additional linked data**.  
-Each type of data amendment requires a different level of review as detailed below:
+> UK LLC checks that any request for new data falls within the **scope** of the approved project. If the request falls outside the scope of the project, the research team is invited to submit a **new application**.
+
+You can request to access (1) additional data from **LPS previously approved** for your project, (2) data from **additional LPS**, and/or (3) **additional linked data**. Each type of data amendment requires a different level of review as detailed below:
 
 1.	**Additional data** from **previously approved LPS**:  
 a)	Standard sensitivity data - review by UK LLC  
@@ -48,14 +49,12 @@ b) Review also by UK LLC Linked Data Review Panel if the data are linked.
 3.	**Additional linked data**:  
 a) Review by LPS DACs & UK LLC Linked Data Review Panel.
 
-UK LLC checks that any request for new data falls within the **scope** of the approved project. If the request falls outside the scope of the project, the research team is invited to submit a **new application**.
-
 ## Add or remove a researcher
 ### Add a researcher
-> Note: UK LLC does not need to be notified about new collaborators on a project who will not access the TRE.
+> Note: UK LLC does not need to be notified about new collaborators who will not access the UK LLC TRE.
 
 A new researcher must create an account in [**UK LLC Apply**](https://apply.ukllc.ac.uk/). You can submit an amendment before the new researcher has created an account but the amendment will not be reviewed until the new researcher has added all mandatory details and uploaded a CV. The UK LLC Applications Team checks the **suitability** of both the new researcher, including their **Accredited Researcher status**, and their research organisation.  
-If the researcher is from an organisation already involved in the project, the new researcher need only complete a UK LLC **Data User Responsibilities Agreement (DURA)**, but if they come from a new organisation, a **Data Access Agreement (DAA)** between their organisation and the University of Bristol (owner of UK LLC) will need to be implemented.
+If the researcher is from an organisation already involved in the project, the new researcher need only complete a UK LLC **Data User Responsibilities Agreement (DURA)**. If come from an organisation new to the project, a **Data Access Agreement (DAA)** between their organisation and the University of Bristol (owner of UK LLC) will need to be implemented.
 
 ### Remove a researcher
 You must **notify UK LLC** via an amendment when a researcher **leaves** a project so that their access to the TRE can be terminated.
