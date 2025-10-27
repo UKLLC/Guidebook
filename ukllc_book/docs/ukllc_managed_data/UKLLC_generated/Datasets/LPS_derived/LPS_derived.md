@@ -13,17 +13,17 @@ Longitudinal Population Studies (LPS) collect data in different ways, using diff
 <details><summary>There are two versions of the harmonised demographic dataset: full and reduced.</summary>
 <br>
 
-[**The full dataset**](../Datasets/LPS_derived/demo_harmonised_full.md) retains every relevant response provided by participants, e.g. if a participant was asked to confirm their ethnic group on five separate occasions, then that individual will have five occurrences of ethnicity in the dataset.
+[**The full dataset**](../Datasets/LPS_derived/demo_harmonised_full.ipynb) retains every relevant response provided by participants, e.g. if a participant was asked to confirm their ethnic group on five separate occasions, then that individual will have five occurrences of ethnicity in the dataset.
 >Researchers are encouraged to use the **full dataset**:
 >* To investigate whether a participant’s self-reported demographic characteristics have changed over time
 >* To ensure that their research refers to participants' self-reported characteristics as recorded at a time point pertinent to the research question.
 
-[**The reduced dataset**](../Datasets/LPS_derived/demo_harmonised_reduced.md) retains only the most recent response provided by a participant for each variable.
+[**The reduced dataset**](../Datasets/LPS_derived/demo_harmonised_reduced.ipynb) retains only the most recent response provided by a participant for each variable.
 
 >Researchers are encouraged to use the **reduced dataset**:
 >* To have the most recent, valid, definition of a participant’s demographic characteristics
 >* To have comparable data on ethnicity and gender for the maximum number of participants
->* To be able to compare LPS data with data from NHS England using the [**NHSE demographics dataset**](../Linked_derived/nhse_patient_demo_mortality.md).
+>* To be able to compare LPS data with data from NHS England using the [**NHSE demographics dataset**](../Linked_derived/nhse_patient_demo_mortality.ipynb).
 </details>
 
 ## 2. Education data
