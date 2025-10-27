@@ -2016,7 +2016,7 @@ class UKLLCDataSet:
 
         # infill missing DOI with TBC then make hlink for DOI and activities
         dsvs2["id"] = dsvs2["id"].fillna("TBC")
-        dsvs2["act"] = dsvs2["id"].apply(lambda x: "TBC" if x == "TBC" else md.make_hlink("https://api.test.datacite.org/dois/" + x + "/activities", x + "/activities"))
+        dsvs2["act"] = dsvs2["id"].apply(lambda x: "TBC" if x == "TBC" else md.make_hlink("https://api.datacite.org/dois/" + x + "/activities", x + "/activities"))
         dsvs2["id"] = dsvs2["id"].apply(lambda x: "TBC" if x == "TBC" else md.make_hlink("https://doi.org/" + x, x))
 
         dsvs2["version_date"] = dsvs2["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))

@@ -328,6 +328,8 @@ parts:
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_full.ipynb
                 - title: Harmonised demographic (reduced)
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_reduced.ipynb
+                - title: Harmonised highest educational qualification
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/education_harmonised.ipynb
             - title: Linked derived datasets
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/Linked_derived.md
               sections:
