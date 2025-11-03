@@ -1,5 +1,5 @@
 # Available software
->Last modified: 29 Sep 2025
+>Last modified: 07 Oct 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
@@ -132,8 +132,9 @@ Change R within RStudio:
 
 Change R on launch of RStudio:
 
-Hold the CTRL key and double click the RStudio launcher, as shown below
-![alt text](image.png)
+Hold the CTRL key and double click the RStudio launcher, as shown below:  
+<img src="../../docs/user_guide/images/R_install.png" width="600"/>
+
 
 Doing this will change the folder in which RStudio loads your library, as shown above, if you select 4.5.0, the library path will be P:\%USERNAME%\AppData\Roaming\R\4.5.0\Library
 

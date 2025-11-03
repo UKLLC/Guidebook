@@ -1,5 +1,5 @@
 # User support
->Last modified: 02 Sep 2025
+>Last modified: 20 Oct 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC is committed to helping all researchers to work effectively in the UK LLC Trusted Research Environment.</strong></div style>
 
 ## Self-service user tools
@@ -7,15 +7,9 @@ UK LLC maintains a library of **self-service** user help tools in multiple forma
 All active researchers are invited to join the monthly **UK LLC User Group meetings** (via Teams) and the [**UK LLC Researchers’ Google Group**](#uk-llc-researchers-google-group). Researchers can also request a **1:1 support session** with a member of the UK LLC Data Team.
 
 ## Accessing help
+<aside class="admonition note"><p class="admonition-title">Assistance is available from the UK LLC and SeRP Data Teams</p>But please note that neither UK LLC nor SeRP are able to offer specific advice on choice of software, general coding queries or analytical methods.</aside> 
 
-Click on the YouTube link below for a short (50 seconds) video guide on how to request help while working in the TRE.
-Alternatively, scroll down to find a description of the assistance available from the **UK LLC and SeRP Data Teams**.
-
-> **Please note neither UK LLC nor SeRP are able to offer specific advice on choice of software, general coding queries or analytical methods.**
-
-[![Image alt text](https://img.youtube.com/vi/K1mkECx73ow/0.jpg)](https://www.youtube.com/watch?v=K1mkECx73ow)
-
-<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>Support from UK LLC</strong></div>
+### Support from UK LLC
 
 If researchers are unable to find the help they require either in this Guidebook (including the [**FAQs**](../FAQ/faq_intro.md)) or via UK LLC's YouTube videos, the UK LLC Data Team can be contacted at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). 
 
@@ -26,9 +20,9 @@ If researchers are unable to find the help they require either in this Guidebook
 >* Understanding dataset structures and linkages
 >* UK LLC helper program troubleshooting
 >* Accessing the UK LLC Researchers' Google Group
+<br>  
 
-### UK LLC Researchers' Google Group
-
+**UK LLC Researchers' Google Group**  
 This group is available to all researchers active in the UK LLC TRE. It should be used to discuss **UK LLC data-related insights** and **problem solving**.
 
 **To join the Google Group**:
@@ -46,7 +40,7 @@ This group is available to all researchers active in the UK LLC TRE. It should b
 <br>
 
 
-<div style="background-color: rgba(255, 218, 185, 0.5); padding: 5px; border-radius: 5px;"><strong>Support from SeRP</strong></div>
+### Support from SeRP
 
 If researchers experience issues with **software** or the **SeRP environment** they should contact [**helpdesk@chi.swan.ac.uk**](mailto:helpdesk@chi.swan.ac.uk).
 >**The SeRP Helpdesk** can provide assistance with:

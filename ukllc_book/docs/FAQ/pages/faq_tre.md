@@ -1,5 +1,5 @@
 # The Trusted Research Environment (TRE)
->Last modified: 10 Sep 2025
+>Last modified: 07 Oct 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the TRE.</strong></div style>  
 <br>  
 
@@ -91,6 +91,10 @@ UK LLC access is granted for the duration of your project - as stated in your or
 To extend access beyond the agreed project end date, please submit an amendment to the UK LLC Access team. Information on how to submit an amendment is [**here**](../../user_guide/RequestingAnAmendment.md).
 </details>
 
+<details><summary>What happens if I need to access my work in the TRE after my project has finished?</summary>
+
+In limited circumstances you can request to have your access to the TRE reinstated, e.g. if a reviewer of a manuscript asks you to amend or conduct a further analysis. Please email [access@ukllc.ac.uk](mailto:access@ukllc.ac.uk) for advice. If approved, access will be reinstated for the minimum number of researchers on your project and for the minimum duration. 
+</details>
 <details>
 <summary>What happens when my ONS Accredited Researcher (AR) status expires?</summary>
 Your access to the TRE will automatically end when your AR status expires. If your project has not reached its end date, and you wish to continue working in the TRE, you should renew your AR status and provide the UK LLC Access team with your new AR number.

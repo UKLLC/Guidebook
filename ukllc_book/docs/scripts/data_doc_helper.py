@@ -1107,6 +1107,7 @@ class NHSEDataSet:
             "Download Citation",
             "Series",
             "Owner",
+            "Copyright",
             "Temporal Coverage in the TRE",
             "Geographical Coverage",
             "Participant Count",
@@ -1124,6 +1125,7 @@ class NHSEDataSet:
             self.dl_cites, # Download Cite
             md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/NHS_England/NHSE_intro", self.df_ds.iloc[0]["source_name"]), # Series
             self.df_ds.iloc[0]["Owner"], # Owner
+            "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format(datetime.now().strftime("%Y")), # Copyright
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
             self.participants, # Participant Count
@@ -1436,6 +1438,7 @@ class NHSESource:
             "Citation (APA)",
             "Download Citation",
             "Owner",
+            "Copyright",
             "Geographical Coverage - Nations",
             "Start Date of Data Available",
             "Build a Data Request"
@@ -1444,6 +1447,7 @@ class NHSESource:
             self.apa_cite,
             self.dl_cites,
             self.df_ss.iloc[0]["Owner"],
+            "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format(datetime.now().strftime("%Y")),
             self.df_ss.iloc[0]["geographic_coverage_Nations"],
             "1940s (GDPPR)",
             md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
@@ -1791,4 +1795,277 @@ class PlaceDataSet:
                 "Below we will include syntax that may be helpful to other "
                 "researchers in the UK LLC TRE. For longer scripts, we will "
                 "include a snippet of the code plus a link to the [UK LLC GitHub](https://github.com/UKLLC) repository where you "
+                "can find the full scripts."))
+
+
+class UKLLCDataSet:
+    """Class for LPS datasets featuring all functions for GB pages
+    """
+    def __init__(self, dataset: str):
+        """Init function to generate self.variables needed for functions
+
+        Args:
+            source (str): source i.e. study e.g. "ALSPAC" or "BCS70"
+            dataset (str): name of dataset e.g. "serology1m"
+
+        Returns:
+            self.dataset (str): dataset
+            self.source (str): source
+            self.df_ds (DF): dataframe of dataset metrics
+        """
+
+        # define std input variables
+        self.dataset = dataset
+        df = md.prep_dsvs_for_gb_pages()
+        self.df_ds = df[df["source_table"] == "UKLLC_" + dataset]
+
+        def ds_doi(ds: str):
+            """Returns UKLLC DOI of LPS dataset
+
+            Args:
+                ss (str): source e.g. "ALSPAC" or "BCS70"
+                ds (str): dataset e.g. "serology1m" or "bcs10_housing"
+
+            Returns:
+                str: UKLLC DOI of dataset or "DOI TBC" if none minted
+            """
+
+            doi_ds = dcf.get_doi_datasets()[dcf.get_doi_datasets()["state"] == "findable"]
+
+            if len(doi_ds) == 0:
+                return "DOI TBC"
+
+            else:
+                doi_ds["source_table"] = doi_ds["attributes.titles"].apply(lambda x: x[1]["title"] if len(x) > 1 else "NA")
+
+                if ds == "study_permissions":
+                    doi_ds = doi_ds[doi_ds["source_table"].str.startswith("UKLLC_" + ds)]
+                    doi_ds = doi_ds.sort_values(by="source_table", ascending=False).head(1)
+
+                else:
+                    doi_ds = doi_ds[doi_ds["source_table"] == "UKLLC_" + ds]
+                    doi_ds = doi_ds.sort_values(by="attributes.version", ascending=False).drop_duplicates(subset="source_table")
+
+                if len(doi_ds) == 1:
+                    return doi_ds.iloc[0]["id"]
+                else:
+                    return "DOI TBC"
+
+        self.doi = ds_doi(self.dataset)
+
+        def cites(x: str):
+            """Returns citation APA style for DOI and trio of citation DL links
+
+            Args:
+                x (str): UKLLC DOI of dataset
+
+            Returns:
+                str: formatted citation APA style
+                str: trio of citation DL links
+            """
+
+            citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+            bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+            ris = "https://{}/application/x-research-info-systems/".format(url_doi)
+            if x == "DOI TBC":
+                apa_cite = "DOI and Citation TBC"
+                dl_cites = "DOI and Citation Downloads TBC"
+
+            else:
+                cite = json.loads(requests.get(
+                    "https://{}/dois/".format(url_doi) + x,
+                ).text)['data']['attributes']
+
+                citeprocjson = "https://{}/application/vnd.citationstyles.csl+json/".format(url_doi)
+                bibtex = "https://{}/application/x-bibtex/".format(url_doi)
+                ris = "https://{}/application/x-research-info-systems/".format(url_doi)
+
+                apa_cite = cite['creators'][0]["name"] + \
+                    ". (" + str(cite["publicationYear"]) + "). <i>" + \
+                    cite["titles"][0]["title"] + \
+                    ".</i> " + \
+                    cite["publisher"] + \
+                    ". " + md.make_hlink("https://doi.org/" + x, "https://doi.org/" + x)
+
+                dl_cites = md.make_hlink(citeprocjson + x, "Citeproc JSON") + "&nbsp;&nbsp;&nbsp;&nbsp;" + \
+                    md.make_hlink(bibtex + x, "BibTeX") + "&nbsp;&nbsp;&nbsp;&nbsp;" + md.make_hlink(ris + x, "RIS")
+
+            return apa_cite, dl_cites
+
+        self.apa_cite, self.dl_cites = cites(self.doi)
+
+    def title(self):
+        """Retrieves title of dataset from DF
+
+        Args:
+            self.df_ds (DF): dataframe of dataset metrics
+
+        Returns:
+            markdown: displayed arkdown of title in "# dataset name" format
+        """
+
+        return display(Markdown("# " + self.df_ds.iloc[0]["table_name"] +
+                                " (" + self.df_ds.iloc[0]["source"] + ")"))
+
+    def summary(self):
+        """Summary paragraph of dataset from MD API
+
+        Args:
+            self.df_ds (DF): dataframe of dataset metrics
+
+        Returns:
+            markdown: Displayed Markdown of Summary of dataset
+        """
+
+        return display(Markdown(self.df_ds.iloc[0]["long_desc"]))
+
+    def info_table(self):
+        """Returns information table of Dataset
+
+        Args:
+            self.df_ds (DF): dataframe of dataset metrics
+
+        Returns:
+            markdown: displayed markdown of info DF with formatting applied
+        """
+
+        ds_info_list = [
+            [
+             "Name of Dataset in TRE",
+             "Citation (APA)",
+             "Download Citation",
+             "Series",
+             "Owner",
+             "Temporal Coverage",
+             "Keywords",
+             "Participant Count",
+             "Number of variables",
+             "Number of observations",
+             "Specific Restrictions to Data Use",
+             "Build a Data Request"
+            ],
+            [
+             self.df_ds.iloc[0]["source_table"],  # DS in TRE
+             self.apa_cite,  # Citation
+             self.dl_cites,  # Download Cite
+             md.make_hlink_same_tab(
+                 "https://guidebook.ukllc.ac.uk/docs/ukllc_managed_data/ukllc_data",
+                 self.df_ds.iloc[0]["source_name"]
+                 ),  # Series
+             self.df_ds.iloc[0]["Owner"],  # Owner
+             (self.df_ds.iloc[0]["collection_start"]
+              + " - " + self.df_ds.iloc[0]["collection_end"]),  # Temp Coverage
+             self.df_ds.iloc[0]["topic_tags"],  # Keywords
+             self.df_ds.iloc[0]["participants_included"],  # part included
+             md.get_num_vars(
+                 self.df_ds.iloc[0]["source"],
+                 self.df_ds.iloc[0]["table"]
+                 ),  # Number of variables
+             int(self.df_ds.iloc[0]["num_rows"]),  # Number of observations
+             "None",  # Restrictions to Data Use
+             md.make_hlink("https://explore.ukllc.ac.uk/",
+                           "https://explore.ukllc.ac.uk/")  # data request
+            ]
+        ]
+
+        df_ss_info = pd.DataFrame(ds_info_list, index=[
+            "Dataset Descriptor",
+            "Dataset-specific Information"]
+            ).T
+        df_ss_info = DocHelper.style_table("_", df_ss_info)
+        return df_ss_info
+
+    def variable_table(self):
+        df = md.get_table_vars("ukllc", self.dataset)[["variable_name", "variable_label"]]
+        df = df.rename(columns={"variable_name": "Variable", "variable_label": "Description"})
+        df = df.drop_duplicates()
+        return DocHelper.style_table("_", df)
+
+    def version_history(self):
+        """Creates and displays version history table for dataset
+
+        Args:
+            self.source (str): source i.e. study (e.g. "ALSPAC" or "BCS70")
+            self.dataset (str): dataset (e.g. "serology1m")
+
+        Returns:
+            markdown: markdown of DF of version history information for dataset
+        """
+
+        dsvs = md.get_md_api_dsvs()
+        dsvs = dsvs[(dsvs["source"] == "UKLLC")
+                    & (dsvs["table"] == self.dataset)]
+        dsvs["source_table"] = dsvs["source"] + "_" + dsvs["table"]
+        dsvs["version_num"] = dsvs["version_num"].\
+            apply(lambda x: int(x.replace("v", "")))
+
+        ds_dois = dcf.get_doi_datasets()
+        ds_dois = ds_dois[ds_dois["state"] == "findable"]
+
+        # create dummy cols if zero DOIs minted
+        if len(ds_dois) == 0:
+            ds_dois["source_table"] = ""
+            ds_dois["attributes.version"] = ""
+
+        else:
+            ds_dois["source_table"] = ds_dois["attributes.titles"].apply(lambda x: x[1]["title"])
+            ds_dois["attributes.version"] = ds_dois["attributes.version"].apply(lambda x: int(x))
+            ds_dois = ds_dois[ds_dois["source_table"] == "UKLLC_" + self.dataset]
+
+        dsvs2 = dsvs.merge(ds_dois, how="left", left_on=["source_table", "version_num"], right_on=["source_table", "attributes.version"])[["source_table", "version_num", "version_date", "num_participants", "num_columns", "num_rows", "id"]]
+
+        # infill missing DOI with TBC then make hlink for DOI and activities
+        dsvs2["id"] = dsvs2["id"].fillna("TBC")
+        dsvs2["act"] = dsvs2["id"].apply(lambda x: "TBC" if x == "TBC" else md.make_hlink("https://api.datacite.org/dois/" + x + "/activities", x + "/activities"))
+        dsvs2["id"] = dsvs2["id"].apply(lambda x: "TBC" if x == "TBC" else md.make_hlink("https://doi.org/" + x, x))
+
+        dsvs2["version_date"] = dsvs2["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
+        dsvs2["num_participants"] = dsvs2["num_participants"].apply(lambda x: "N/A" if np.isnan(x) else int(x))
+        dsvs2["num_columns"] = dsvs2["num_columns"].apply(lambda x: int(x))
+        dsvs2["num_rows"] = dsvs2["num_rows"].apply(lambda x: int(x))
+
+        # remove part counts from table for now as missing from MDDB for NHS
+        dsvs2 = dsvs2[["version_num",
+                        "version_date",
+                        "num_columns",
+                        "num_rows",
+                        "id",
+                        "act"]].rename(
+                        columns={
+                            "version_num": "Version Number",
+                            "version_date": "Version Date",
+                            "num_columns": "Number of Variables",
+                            "num_rows": "Number of Observations",
+                            "id": "DOI",
+                            "act": "Change Log"}
+                            ).set_index("Version Number")
+
+        dsvs2_T = dsvs2.T.reset_index().rename(columns={"index": "Version"})
+
+        return DocHelper.style_table("_", dsvs2_T)
+
+    def change_log(self):
+        """Creates and displays table showing change log for the dataset DOIs
+
+        Returns:
+            markdown: placeholder "TBC" text in markdown format
+        """
+
+        return display(
+            Markdown(
+                "We are currently working on a change log "
+                "which will show changes to the dataset's metadata."
+                    ))
+
+    def useful_syntax(self):
+        """Creates and displays useful syntax saved for the datasets
+
+        Returns:
+            markdown: placeholder "TBC" text in markdown format
+        """
+        return display(
+            Markdown(
+                "Below we will include syntax that may be helpful to other "
+                "researchers in the UK LLC TRE. For longer scripts, we will "
+                "include a snippet of the code plus a link to Git where you "
                 "can find the full scripts."))

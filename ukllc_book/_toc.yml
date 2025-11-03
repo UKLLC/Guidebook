@@ -20,7 +20,9 @@ parts:
             - title: Review process
               file: docs/ukllc_key_facts/Applying/review.md
             - title: Complete governance
-              file: docs/ukllc_key_facts/Applying/paperwork.md 
+              file: docs/ukllc_key_facts/Applying/paperwork.md
+            - title: UK LLC policy on AI models
+              file: docs/ukllc_key_facts/Applying/ai_policy.md
         - title: UK LLC profile
           file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
         - title: UK LLC sample
@@ -323,25 +325,27 @@ parts:
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/LPS_derived.md
               sections:
                 - title: Harmonised demographic (full)
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_full.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_full.ipynb
                 - title: Harmonised demographic (reduced)
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_reduced.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_reduced.ipynb
+                - title: Harmonised highest educational qualification
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/education_harmonised.ipynb
             - title: Linked derived datasets
               file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/Linked_derived.md
               sections:
                 - title: Study permissions
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/study_permissions.md
-                - title: NHSE patient service usage
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.md
-                - title: NHSE patient demo mortality
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_demo_mortality.md
-                - title: NHSE LSOA11 mappings
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mapping.md
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/study_permissions.ipynb
+                - title: NHS England patient service usage
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.ipynb
+                - title: NHS England patient demo mortality
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_demo_mortality.ipynb
+                - title: NHS England lsoa11 dataset mappings
+                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mapping.ipynb
         - title: Researcher generated datasets
           file: docs/ukllc_managed_data/researcher_generated/researcher_data.md
           sections:
             - title: Charlson comorbidity
-              file: docs/ukllc_managed_data/researcher_generated/Datasets/Charlson.md
+              file: docs/ukllc_managed_data/researcher_generated/Datasets/Charlson.ipynb
     - title: TRE user guide
       file: docs/user_guide/Introduction.md
       sections:
@@ -358,7 +362,7 @@ parts:
         - title: Statistical Disclosure Control
           file: docs/user_guide/SDC.md
           sections:
-            - title: Quiz on Statistical Disclosure Control 
+            - title: Quiz on Statistical Disclosure Control
               file: docs/user_guide/SDC quiz.md
         - title: Requesting an amendment
           file: docs/user_guide/RequestingAnAmendment.md
