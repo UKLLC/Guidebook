@@ -1,5 +1,5 @@
 # LPS derived datasets
->Last modified: 30 Sep 2025
+>Last modified: 03 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is creating a range of derived datasets applicable across Longitudinal Population Studies (LPS).</strong></div>
 
 ## Introduction
@@ -73,7 +73,7 @@ Detailed information on how UK LLC generated the harmonised datasets is availabl
 |[Gender](../../README/gender_info.md)|
 |[Year of birth](../../README/yob_info.md)
 |[Ethnicity](../../README/ethnicity_info.md) |
-|[Education (coming soon)](../../README/education_info.md) |
+|[Education](../../README/education_info.md) |
 
 
 >**Note** For some variables included in the harmonised datasets, it may be that UK LLC does not have the complete list of response options available to LPS participants. Where this is the case, the absence of a possible option (e.g. ‘prefer not to answer’) from the responses presented does not mean that option was not available to LPS participants. All that can be inferred is that, if that option was available, it was not selected by anyone included in the datasets shared with UK LLC.
