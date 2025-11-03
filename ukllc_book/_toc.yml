@@ -313,7 +313,7 @@ parts:
           file: docs/linked_admin_data/HMRC_data/HMRC_data.md
         - title: Department for Work & Pensions
           file: docs/linked_admin_data/DWP_data/DWP_data.md
-    - title: UK LLC managed data
+    - title: UK LLC-managed data
       file: docs/ukllc_managed_data/UKLLC_data.md
       sections:
         - title: UK LLC generated datasets
@@ -331,11 +331,11 @@ parts:
               sections:
                 - title: Study permissions
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/study_permissions.md
-                - title: NHS England patient service usage
+                - title: NHSE patient service usage
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.md
-                - title: NHS England patient demo mortality
+                - title: NHSE patient demo mortality
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_demo_mortality.md
-                - title: NHS England lsoa11 dataset mappings
+                - title: NHSE LSOA11 mappings
                   file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mapping.md
         - title: Researcher generated datasets
           file: docs/ukllc_managed_data/researcher_generated/researcher_data.md

@@ -1,5 +1,5 @@
 # Understanding the harmonisation of LPS highest educational qualification variables
->Last modified: 19 Sep 2025
+>Last modified: 02 Oct 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has harmonised data on education for LPS participants and their parents (where available).</strong></div>  
 
 ## Introduction  
@@ -98,7 +98,7 @@ Other qualifications
 <br>
 UK LLC has harmonised data about education into four categories for LPS participants and two categories for participants' parents. These are summarised in Tables 1 and 2. Harmonised education information is provided for each LPS at the most granular level available. 
 
-### Table 1: summary of LPS participants' harmonised education variables  
+**Table 1: summary of LPS participants' harmonised education variables**  
 
 | llc_educ_1<br>8 categories | llc_educ_2<br>6 categories | llc_educ_3<br>6 categories | llc_educ_4<br>4 categories |
 |:---|:---|:---|:---|
@@ -111,7 +111,7 @@ UK LLC has harmonised data about education into four categories for LPS particip
 | Other | Other | Other | Other |
 | NA<sup>1</sup> | NA | NA | NA |
 
-### Table 2: summary of harmonised education variables for LPS participants parent(s)  
+**Table 2: summary of harmonised education variables for LPS participants parent(s)**  
 
 |llc_educ_M1<sup>2</sup><br>3 categories | llc_educ_M2<br>3 categories |
 |:---|:---|
