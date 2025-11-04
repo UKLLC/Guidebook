@@ -1,6 +1,6 @@
 # ===== Main Landing Page ========================================
 format: jb-book
-root: docs/welcome
+root: docs/welcome.md
 parts:
   - chapters:
     - title: Navigation tips
