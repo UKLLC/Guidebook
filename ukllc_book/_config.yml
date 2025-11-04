@@ -11,7 +11,6 @@ email: support@ukllc.ac.uk
 
 
 # Root folder for the book
-root: docs
 
 execute:
   execute_notebooks: auto
