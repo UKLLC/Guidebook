@@ -1,5 +1,5 @@
 # Working with NHS England data
->Last modified: 06 Oct 2025
+>Last modified: 04 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
 
@@ -42,7 +42,7 @@ More information creating a codelist is available here: [**Codelists**](../../li
 <details>
 <summary>How can I quantify the <b>effect of applying codelists</b> to my dataset?</summary> 
 
-The file [**NHSD_Presence**](../../ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.md) contains the number of appearances and the date of the most recent appearance for each participant for each available NHS data source. Comparing LPS participants' presence in NHS data sources against the data provisioned to a project will identify which participants appear in the data source but are not included in the provisioned data. 
+The file [**NHSD_Presence**](../../ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.ipynb) contains the number of appearances and the date of the most recent appearance for each participant for each available NHS data source. Comparing LPS participants' presence in NHS data sources against the data provisioned to a project will identify which participants appear in the data source but are not included in the provisioned data. 
 </details>
 
 <details>
