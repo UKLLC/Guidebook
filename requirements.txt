@@ -1,7 +1,7 @@
 jupyter-book==1.0.4
 matplotlib
 numpy
-docutils==0.17.1
+docutils==0.21.2
 pandas
 pymysql
 psycopg2-binary
