@@ -1,33 +1,33 @@
 # NHS England mental health datasets
->Last modified: 18 Jul 2025
+>Last modified: 07 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The mental health datasets cover inpatient and community mental health services.</strong></div>
 <br>
 
+<aside class="admonition danger"><p class="admonition-title">NHS England mental health datasets are widely acknowledged to be complex and poorly documented</p>Researchers should be aware of the limitations of these datasets and use them carefully in their analyses.</aside>
+
 >## Summary:
->* UK LLC holds **two NHS England mental health datasets**: [**Mental Health Services Data Set (MHSDS)**](../Mental%20health%20datasets/MHSDS/MHSDS.ipynb) and [**NHS Talking Therapies for Anxiety and Depression**](../Mental%20health%20datasets/IAPT/IAPT.ipynb).
+>* UK LLC holds **two NHS England mental health datasets**: [**Mental Health Services Data Set (MHSDS)**](../Mental%20health%20datasets/MHSDS/MHSDS.ipynb) and [**NHS Talking Therapies for Anxiety and Depression (IAPT)**](../Mental%20health%20datasets/IAPT/IAPT.ipynb).
 <br>
->* When we refer to **MHSDS** we include its **two precursors**, the Mental Health and Learning Disabilities Data Set (MHLDDS) and the Mental Health Minimum Data Set (MHMDS), which were retired in 2016 and 2015, respectively.
+>* **MHSDS** represents **secondary care** services that record data after a referral is made to a specialist mental health team. These services support individuals with severe or complex mental health conditions such as psychosis, bipolar disorder, gambling, eating disorders and learning disabilities.
 <br>
->* The MHSDS and IAPT datasets are increasingly using clinical terminology to capture clinical information, primarily through **SNOMED-CT**. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
+>* **IAPT** covers **primary care** services designed to help people with mild to moderate mental health problems, such as anxiety and depression. 
 <br>
->* The mental health datasets are **complex** and **change in scope** on a typically annual basis. For example, MHSDS comprises around 60 separate datasets and approximately 1000 variables. However, the modular nature of MHSDS means that not all datasets are submitted by all organisations - it depends on the services each organisation provides.
+>* MHSDS is primarily a dataset for **administrative purposes**. It is comprised of approximately **60 datasets** and is particularly **complex**. UK LLC is collaborating with experts within the community to improve documentation for researchers – we are working on a detailed Understanding MHSDS guide, which will be uploaded shortly.
 <br>
->* UK LLC is collaborating with experts to **improve documentation** of these datasets and further information  will be added in due course.
+>* The MHSDS and IAPT datasets are increasingly using **clinical terminology** to capture clinical information, primarily through SNOMED-CT. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
 <br>
->* Current and past MHSDS data models, user guidance and technical output specifications are available <strong><a href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/mental-health-services-data-set/tools-and-guidance" target="_blank" rel="noopener noreferrer">here</a></strong>.
-<br>
->* Overall, data quality in the MHSDS is sufficient for analysing data in relation to activity. However, other aspects of the MHSDS are poor, particularly where submission of data items is not mandated. Data can be resubmitted by providers up until the end of the financial year to fix known data quality issues. See the <strong><a href="https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/mental-health-data-hub/data-quality/mental-health-services-dataset---data-quality-dashboard" target="_blank" rel="noopener noreferrer">MHSDS data quality dashboard</a></strong>.
+
+<aside class="admonition note"><p class="admonition-title">FAQs on working with NHS England data are available <a href="https://guidebook.ukllc.ac.uk/docs/faq/pages/faq_nhse" target="_blank" rel="noopener noreferrer">here</a></p></aside> 
 
 ## Overview of mental health datasets
 For further information see the **individual dataset guides.**
 
-**Table 1** Names, geographical coverage and availability of mental health datasets in the UK LLC TRE  (the datasets in italics are retired)
+**Table 1** Names, geographical coverage and availability of mental health datasets in the UK LLC TRE
 
 | **Dataset**|**Dataset name**|**Grouping**|**Coverage**|**Data available in TRE**|**Data owner**|
 |---|:---:|:---:|:---:|:---:|:---:|
-|[**MHSDS**](../Mental%20health%20datasets/MHSDS/MHSDS.ipynb)|Mental Health Services Data Set|General|England|01/04/2016 onwards|NHSE|
-| - ***MHLDDS***|*Mental Health and Learning Disabilities Data Set*|General|England|*01/04/2015 to 31/03/2016*|NHSE|
-|  - ***MHMDS***|*Mental Health Minimum Data Set*|General|England|*01/04/2006 to 31/03/2015*|NHSE|
-|[**IAPT**<sup>1</sup>](../Mental%20health%20datasets/IAPT/IAPT.ipynb)|NHS Talking Therapies for Anxiety and Depression|Talking therapies|England|01/04/2012 onwards|NHSE||
+|[**MHSDS**<sup>1</sup>](../Mental%20health%20datasets/MHSDS/MHSDS.ipynb)|Mental Health Services Data Set|General|England|01/04/2016 onwards|NHSE|
+|[**IAPT**<sup>2</sup>](../Mental%20health%20datasets/IAPT/IAPT.ipynb)|NHS Talking Therapies for Anxiety and Depression|Talking therapies|England|01/04/2012 onwards|NHSE||
 
-<sup>1</sup>Until mid-2024 called the Improving Access to Psychological Therapies dataset.
+<sup>1</sup>MHSDS has two precursor datasets, the Mental Health and Learning Disabilities Data Set (MHLDDS) and the Mental Health Minimum Data Set (MHMDS), which were retired in 2016 and 2015, respectively. Only the MHSDS is currently available in the UK LLC TRE.  
+<sup>2</sup>Until mid-2024 called the Improving Access to Psychological Therapies dataset.
