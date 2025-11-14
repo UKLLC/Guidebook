@@ -1952,7 +1952,9 @@ class UKLLCDataSet:
                  "https://guidebook.ukllc.ac.uk/docs/ukllc_managed_data/ukllc_data",
                  self.df_ds.iloc[0]["source_name"]
                  ),  # Series
-             self.df_ds.iloc[0]["Owner"],  # Owner
+             (self.df_ds.iloc[0]["Owner"] + ", NHS England"
+              if self.df_ds.iloc[0]["table"].startswith("nhse_")
+              else self.df_ds.iloc[0]["Owner"]),  # Owner
              (self.df_ds.iloc[0]["collection_start"]
               + " - " + self.df_ds.iloc[0]["collection_end"]),  # Temp Coverage
              self.df_ds.iloc[0]["topic_tags"],  # Keywords

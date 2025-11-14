@@ -277,9 +277,9 @@ parts:
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
             - title: Index of Multiple Deprivation (IMD)
-              file: docs/linked_geo_data/population_datasets/IMD/IMD.md
-            - title: Townsend Deprivation Index
-              file: docs/linked_geo_data/population_datasets/townsend/townsend.md
+              file: docs/linked_geo_data/population_datasets/IMD/IMD.ipynb
+            - title: Townsend Deprivation Index (2011)
+              file: docs/linked_geo_data/population_datasets/townsend/townsend_2011.ipynb
         - title: Environmental datasets
           file: docs/linked_geo_data/environmental_datasets/environment.md
           sections:
@@ -287,9 +287,9 @@ parts:
               file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/neighbourhood.md
               sections:
                 - title: Access to Healthy Assets and Hazards (AHAH)
-                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/AHAH/AHAH.md
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/AHAH/AHAH.ipynb
                 - title: Greenspace
-                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.md
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb
             - title: Property datasets
               file: docs/linked_geo_data/environmental_datasets/property_datasets/property.md
               sections:
@@ -301,9 +301,9 @@ parts:
                 - title: Air pollution NO2 & PM
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb
                 - title: Air pollution NOx, NO2 and O3
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.md
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.ipynb
                 - title: Noise pollution
-                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.md
+                  file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb
         - title: Mobility datasets
           file: docs/linked_geo_data/mobility_datasets/mobility.md
         - title: Health datasets
@@ -374,6 +374,8 @@ parts:
           file: docs/user_guide/UserSupport.md
         - title: Rules for researchers
           file: docs/user_guide/RulesForResearchers.md
+        - title: Identifying individuals in multiple LPS
+          file: docs/user_guide/alf2.md
     - title: FAQs
       file: docs/FAQ/faq_intro.md
       sections:
