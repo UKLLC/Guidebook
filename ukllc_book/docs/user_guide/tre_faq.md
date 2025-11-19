@@ -1,6 +1,6 @@
-# The Trusted Research Environment (TRE)
->Last modified: 07 Oct 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the TRE.</strong></div style>  
+# FAQs about working in the TRE
+>Last modified: 19 Nov 2025
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
 **Applying to UK LLC**  
@@ -26,6 +26,7 @@ You do not have to work at a university, but you cannot apply to access the TRE 
 <summary>Can I apply as a Master's or PhD student?</summary>
 
 UK LLC welcomes applications from Master's and PhD students provided that their supervisor is the main applicant. The supervisor must also access the UK LLC TRE so that they can actively supervise the student.  
+*N.B. Master's students cannot currently apply to access linked NHS England data in the TRE.*   
 </details>
 
 <details>
@@ -45,7 +46,15 @@ For an application to be successful, the proposed research must:
 
 A list of all projects approved to date is available on the <a href="https://ukllc.ac.uk/data-use-register" target="_blank" rel="noopener noreferrer">Data Use Register</a>.
 </details>
-<br>  
+
+<details>
+<summary>How can I file a complaint about UK LLC?</summary>  
+
+UK LLC aims to deliver a **high quality** and **inclusive service** that empowers researchers to conduct impactful research for public good. If you feel the service you have received from UK LLC has fallen below your expectations, you can **file a complaint**.  
+* If you are accessing **LPS data** and **health data**, you should email UK LLC directly: [info@ukllc.ac.uk](mailto:info@ukllc.ac.uk)
+* If you also accessing **government administrative data** (DWP, HMRC, DfE) through the Digital Economy Act (DEA) legal gateway, you may alternatively choose to email the **UK Statistics Authority** (the body that accredits UK LLC as a DEA Accredited Processing Environment): [Research.Accreditation@statistics.gov.uk](mailto:Research.Accreditation@statistics.gov.uk)
+</details>
+<br>
 
 **Accessing the TRE**
 <br>
@@ -138,6 +147,12 @@ You must submit an amendment providing details of the new researcher so UK LLC c
 
 You must notify UK LLC when a researcher leaves a project so their access to the TRE can be terminated. This can be done by submitting an [**amendment**](../../user_guide/RequestingAnAmendment.md).
 </details>
+
+<details>
+<summary>Can I get in touch with researchers working on other projects in the UK LLC TRE?</summary>
+
+UK LLC hosts a user group which meets online monthly. All active TRE users are invited to attend this meeting where updates are shared and issues facing users can be discussed.
+</details>
 <br>
 
 **Software in the TRE**  
@@ -220,3 +235,30 @@ Requests for new data should be submitted via an amendment to UK LLC. You may ap
 
 All researchers must contact the Data Team at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk) as soon as possible if they have any concerns that any of the datasets they have access to have NOT been reasonably de-identified or if there are any concerns about the quality of the data.
 </details>
+<br>  
+
+**UK LLC Publications**
+<details>
+<summary>How do I cite UK LLC Guidebook?</summary>
+
+All material in UK LLC Guidebook is available under a CC BY-NC-SA 4.0 International licence: [**https://creativecommons.org/licenses/by-nc-sa/4.0/**](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+You can cite UK LLC Guidebook using the following text: 
+
+>  UK Longitudinal Linkage Collaboration. (2024). UK LLC Guidebook: data documentation and user guide. Zenodo. [**https://doi.org/10.5281/zenodo.14857713**](https://doi.org/10.5281/zenodo.14857713)
+
+You can also share the human-readable URL to a page in Guidebook, but be aware that Guidebook is updated frequently and these links may change over time. 
+</details>
+
+<details>
+<summary>Has UK LLC published a protocol paper that can be cited?</summary>
+
+Yes – in February 2025, UK LLC's protocol was published in the International Journal of Population Data Science: [**https://ijpds.org/article/view/2468/6167**](https://ijpds.org/article/view/2468/6167). 
+</details>
+
+<details>
+<summary>Has UK LLC published a data resource profile that can be cited?</summary>
+
+No – UK LLC has not yet published a data resource profile paper. We are waiting for the Scottish and Welsh NHS data and the non-health adminstrative data to flow into the TRE so we can characterise the resource more fully. In the meantime, you can view the [**UK LLC profile**](../ukllc_key_facts/Profile/UKLLC_profile.md) which summarises key demographic characteristics of participants in the UK LLC TRE in February 2025. You can cite the **specific freeze** that underpins the datasets you were provisioned - see [**UK LLC sample**](../ukllc_key_facts/Sample/UKLLC_sample.md).
+</details>
+

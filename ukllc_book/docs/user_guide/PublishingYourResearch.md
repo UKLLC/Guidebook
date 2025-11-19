@@ -23,7 +23,7 @@
 For further details see the <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">UK LLC Publication Policy</a></strong>.
 
 ## Sending your manuscript to UK LLC for review
-Data owners have devolved their responsibility for review of manuscripts to UK LLC to minimise the time taken to release findings into the public domain.
+>Data owners have devolved their responsibility for review of manuscripts to UK LLC. This minimises the time taken to release findings into the public domain.
 
 At least **two weeks prior to journal submission**, you must provide UK LLC with a copy of your manuscript. This can be done by logging into <strong><a href="https://apply.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong> and creating a publication record. You will be asked to upload a copy of your **manuscript**, a **lay summary** and to complete the **publication checklist** (see box below).  
 
@@ -41,6 +41,6 @@ The UK LLC Executive Group can withhold the right to publish any manuscript that
 
 >**Note**  
 UK LLC **does not** conduct **peer-review** or **scientific assessment**.  
->UK LLC staff, partners and contributing LPS staff are **not expected** to be authors unless authorship is justified under <a href="http://icmje.org/" target="_blank" rel="noopener noreferrer">ICMJE authorship guidelines</a>.
+>UK LLC staff, partners and contributing LPS staff are **not expected** to be authors unless authorship is justified under <strong><a href="http://icmje.org/" target="_blank" rel="noopener noreferrer">ICMJE authorship guidelines</a></strong>.
 
 

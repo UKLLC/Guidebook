@@ -1,5 +1,5 @@
-# Working with administrative ('admin') data
->Last modified: 02 Sep 2025
+# FAQs about working with administrative ('admin') data
+>Last modified: 19 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked admin data.</strong></div style>  
 <br>
 <details>

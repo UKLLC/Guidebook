@@ -64,6 +64,8 @@ parts:
     - title: LPS data
       file: docs/LPS_data/LPS_introduction.md
       sections:
+        - title: FAQs about LPS data
+          file: docs/LPS_data/lps_faq.md
         - title: Permitted linkages
           file: docs/LPS_data/Linkages/LPS_linkages.md
         - title: Temporal coverage
@@ -176,6 +178,8 @@ parts:
         - title: NHS England
           file: docs/linked_health_data/NHS_England/NHSE.ipynb
           sections:
+          - title: FAQs about NHSE data
+            file: docs/linked_health_data/NHS_England/nhse_faq.md
           - title: Restrictions to use
             file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
           - title: Temporal coverage
@@ -197,6 +201,8 @@ parts:
           - title: Hospital datasets
             file: docs/linked_health_data/NHS_England/HES datasets/Hospital_intro.md
             sections:
+              - title: FAQs about HES datasets
+                file: docs/linked_health_data/NHS_England/HES datasets/hes_faq.md
               - title: HESOP (outpatient)
                 file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
               - title: HESAPC (inpatient)
@@ -214,6 +220,8 @@ parts:
           - title: COVID-19 datasets
             file: docs/linked_health_data/NHS_England/COVID datasets/COVID_datasets.md
             sections:
+              - title: FAQs about COVID-19 datasets
+                file: docs/linked_health_data/NHS_England/COVID datasets/covid19_faq.md
               - title: COVIDSGSS (testing)
                 file: docs/linked_health_data/NHS_England/COVID datasets/COVIDSGSS/COVIDSGSS.ipynb
               - title: IELISA (testing)
@@ -238,6 +246,8 @@ parts:
           - title: Mental health datasets
             file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
             sections:
+              - title: FAQs about MH datasets
+                file: docs/linked_health_data/NHS_England/Mental health datasets/mh_faq.md
               - title: MHSDS (general)
                 file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.ipynb
               - title: IAPT (talking therapies)
@@ -271,6 +281,8 @@ parts:
     - title: Place-based data
       file: docs/linked_geo_data/Place_based_intro.md
       sections:
+        - title: FAQs about place-based data
+          file: docs/linked_geo_data/place_faq.md
         - title: Processing & linkage
           file: docs/linked_geo_data/processing/Processing_and_linkage.md
         - title: Population datasets
@@ -311,6 +323,8 @@ parts:
     - title: Administrative data
       file: docs/linked_admin_data/admin_data.md
       sections:
+        - title: FAQs about admin data
+          file: docs/linked_admin_data/admin_faq.md
         - title: HM Revenue & Customs
           file: docs/linked_admin_data/HMRC_data/HMRC_data.md
         - title: Department for Work & Pensions
@@ -318,6 +332,8 @@ parts:
     - title: UK LLC-managed data
       file: docs/ukllc_managed_data/UKLLC_data.md
       sections:
+        - title: FAQs about UK LLC-managed data
+          file: docs/ukllc_managed_data/ukllc_managed_faq.md
         - title: UK LLC generated datasets
           file: docs/ukllc_managed_data/UKLLC_generated/UKLLC_generated.md
           sections:
@@ -349,6 +365,8 @@ parts:
     - title: TRE user guide
       file: docs/user_guide/Introduction.md
       sections:
+        - title: FAQs about the TRE
+          file: docs/user_guide/tre_faq.md
         - title: Logging in
           file: docs/user_guide/LoggingIn.md
         - title: Getting started
@@ -378,18 +396,3 @@ parts:
           file: docs/user_guide/alf2.md
     - title: FAQs
       file: docs/FAQ/faq_intro.md
-      sections:
-        - title: Working in the TRE
-          file: docs/FAQ/pages/faq_tre.md
-        - title: Working with LPS data
-          file: docs/FAQ/pages/faq_lps.md
-        - title: Working with NHS England data
-          file: docs/FAQ/pages/faq_nhse.md
-        - title: Working with place-based data
-          file: docs/FAQ/pages/faq_geo.md
-        - title: Working with admin data
-          file: docs/FAQ/pages/faq_admin.md
-        - title: Working with UK LLC-managed data
-          file: docs/FAQ/pages/faq_ukllc_managed.md
-        - title: Resources
-          file: docs/FAQ/pages/faq_resources.md

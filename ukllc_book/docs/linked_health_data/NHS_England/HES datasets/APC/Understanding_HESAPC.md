@@ -1,26 +1,153 @@
 # Understanding the HESAPC dataset
->Last modified: 26 Jun 2025
+>Last modified: 19 Nov 2025
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The structure of the HES APC dataset is particularly complex.</strong></div>  
-<br>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>HESAPC is a record of inpatient care in NHS hospitals in England.</strong></div>  
 
-## Episodes and spells
-Data in the HESAPC dataset are organised into **episodes** and **spells**. Each row indicates a **Finished Consultant Episode (FCE)**, which is a continuous period of care under one consultant at a single hospital. A **spell** is a continuous period of care within a single hospital from admission to discharge or death. Most patients in the HESAPC datasets are represented by one row of data (i.e. a spell comprising one episode), but others may be represented by multiple rows if they move between consultants within or between hospitals (see the scenario below). Furthermore, in the **HESAPC_MAT** dataset, each birth generates at least two episodes, one recording details of the delivery (relating to the mother) and one episode per child delivered (relating to the child).  
+## Introduction
+The APC (admitted patient care) dataset records summary information about all **hospital admissions** to NHS hospitals in England.  
+NHS England defines an admission as any activity that takes up a hospital bed. This includes:  
+* day cases allocated a hospital bed
+* emergency and planned stays
+* births  
 
-If the patient was seen by multiple consultants during the same stay at the same hospital, a spell may contain one or more FCEs, i.e. one or more rows of data per patient (see figure 1). The first (or only) FCE can also be called a **Finished Admission Episode (FAE)** and the final (or only) FCE can also be called a **Discharge Episode**. This is why there are more FCEs than FAEs in the APC dataset: [https://digital.nhs.uk/data-and-information/publications/statistical/hospital-admitted-patient-care-activity.](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-admitted-patient-care-activity) 
+N.B. What constitutes an inpatient procedure **varies between hospitals**.  
+Admission thresholds can also vary within hospitals depending on patient characteristics such as car ownership, caring responsibilities, distance from home.
+
+<aside class="admonition warning"><p class="admonition-title">HESAPC is primarily a financial dataset; data are collected for the reimbursement of hospital activity</p>As with all NHS England datasets, it is not designed to be used for research.</aside>
+
+## Strengths of HESAPC  
+Although not designed as a research resource, there are many advantages to using the HESAPC dataset for research. For example:  
+1) It is longitudinal making it possible for researchers to study cohorts over time
+2) It provides complete coverage of the population, including all hospital-based diagnoses and operations across all clinical specialities   
+3) It uses standardised [coding systems](#coding-systems-used), enabling comparative work to be undertaken internationally
+4) Data can be validated against national disease registries and published audit or surveillance data
+
+## Limitations of HESAPC
+1) It is an administrative dataset, meaning only medical conditions that have financial implications for an admission are likely to be recorded in the dataset
+2) The [complex structure](#structure-of-the-dataset) of the dataset means researchers may have to undertake a substantial amount of data cleaning before starting their analyses
+3) There are inconsistencies in the definition of an 'admission', both between and within hospitals
+4) Coding is unlikely to be consistent as there are variations between hospitals and over time
+5) The severity of patients' diagnoses is not recorded
+6) Diagnoses dates refer to the date on which each diagnosis was recorded at hospital, so it is difficult to identify pre-existing conditions 
+7) There is no information about prescribed or dispensed medicines
+8) It excludes private hospital care (unless funded by the NHS)
+
+## Scope and coverage
+As well as costing information, the dataset contains patient-level coded information about:  
+* diagnoses
+* procedures (operations)
+* dates of admission, discharge & procedures
+* type of admission (e.g. elective or emergency)
+* discharge destination
+* hospital
+* patients' ethnic group, GP practice & [Index of Multiple Deprivation (IMD)](../../../../linked_geo_data/population_datasets/IMD/IMD.ipynb)
+
+## Data collection methodology
+All NHS England [hospital datasets](../Hospital_intro.md) serve the primary purpose of recording periods of care for the reimbursement to hospitals for the care they have provided to patients. This process is summarised on Guidebook's [hospital datasets page](../Hospital_intro.md#purpose-of-data-collection).
+
+In HESAPC, diagnosis and procedure codes are based on clinicians' discharge summaries, and are generated by clinical coders using national clinical coding standards for <a href="https://classbrowser.nhs.uk/refoks/ICD-10_2025_5th_Ed_NCCS.pdf" target="__blank" rel="noopener noreferrer">ICD-10</a> and <a href="https://classbrowser.nhs.uk/ref_books/OPCS-4.10_NCCS-2025.pdf" target="_blank" rel="noopener noreferrer">OPCS</a>. Up to 20 diagnoses, and 24 procedures, are recorded for each hospital 'episode' (see [Structure of the dataset](#structure-of-the-dataset) below).
+
+
+## Structure of the dataset
+### 1) Admissions and periods of care
+Data in the HESAPC dataset are organised into **episodes** and **spells**. Each row in the dataset indicates a **Finished Consultant Episode (FCE)**, which is a continuous period of care under one consultant at a single hospital. A **spell** is a continuous period of care within a single hospital from admission to discharge or death (more commonly called an 'admission').  
+
+Most patients in the HESAPC datasets are represented by one row of data (i.e. a spell comprising one episode), but others may be represented by multiple rows if they move between consultants within or between hospitals (see the scenario below). In the **HESAPC_MAT** dataset, each birth generates at least two episodes, one recording details of the delivery (relating to the mother) and one episode per child delivered (relating to the child). 
+
+If the patient was seen by multiple consultants during the same stay at the same hospital, a spell may contain one or more FCEs, i.e. one or more rows of data per patient (see figure 1). The first (or only) FCE can also be called a **Finished Admission Episode (FAE)** and the final (or only) FCE can also be called a **Discharge Episode**. This is why there are more FCEs than FAEs in the APC dataset: <a href="https://digital.nhs.uk/data-and-information/publications/statistical/hospital-admitted-patient-care-activity" target="_blank" rel="noopener noreferrer"> https://digital.nhs.uk/data-and-information/publications/statistical/hospital-admitted-patient-care-activity.</a>
 
 <img src="../../../../images/Episodes_spells_diagram_APC.jpg" width="600"/>  
 
 **Figure 1** Episodes and spells in the HESAPC dataset - each row of data in the dataset corresponds to a single FCE
 
-## Continuous Inpatient (CIP) spells
+More information about HESAPC episodes and spells is in the [tips for researchers](#tips-for-researchers-using-hesapc-in-the-uk-llc-tre) below.  
+
+### 2) Recording of diagnoses and procedures  
+Each Finished Consultant Episode (see [1)](#1-admissions-and-periods-of-care) above) can contain up to 20 diagnoses, and up to 24 procedures. See [Coding systems](#coding-systems-used) below for more information.
+
+For diagnoses, the field **diag_01** records the main reason for an individual being admitted to hospital. The subsequent fields **diag_02...diag_20** record comorbidities. N.B. Dates of diagnosis are not recorded.
+
+For procedures, the field **opertn_01** records the main procedure (i.e. the one with the highest reimbursable cost). Secondary procedures are recorded in fields **opertn_02...opertn_24**. N.B. Dates of procedures are recorded in HESAPC (in fields opdate_01...opdate_24).
+
+## Coding systems used
+HESAPC uses two main medical coding systems: ICD-10<sup>1</sup> for diagnoses and OPCS for procedures and operations.  
+
+**ICD-10** (International Statistical Classification of Diseases and Related Health Problems)
+Contains 22 hierarchical chapters, based on body systems (e.g. respiratory, digestive). It is used to record all diagnoses and, where relevant, causes of injuries.
+
+**OPCS** (Office for Population Censuses and Surveys)
+Contains 24 hierarchical chapters, based on body systems (e.g. respiratory, digestive). 
+This codiing system is UK-specific, so cannot be used for international comparisons. It records all procedures (e.g. surgery, MRI scans). 
+
+Coding systems notes:  
+<sup>1</sup> An earlier version (ICD-9) was used in HES prior to 1995, but does not occur in the HES data in the UK LLC TRE.
+
+## Evolution of the dataset
+The NHS started collecting Hospital Episode Statistics in England in 1989. While the original focus was on inpatient episodes ('admitted patient care', APC), this has subsequently expanded to include diagnoses, procedures and patient demographics.  
+
+Data were originally submitted regionally, but this was changed to a national process in 1996, and the current Secondary Use Service ([SUS](../Hospital_intro.md#stage-2-submission-of-the-cds-to-the-secondary-uses-service-sus)) was introduced in 2007. HES data prior to 2007 was less comprehensive than it has been since it has been derived from SUS.  
+
+Coding of diagnoses in HES changed from ICD-9 to ICD-10 in 1995. The maximum number of **diagnostic fields** recorded on each line of the dataset is now 20. This has increased from a maximum of 7 (prior to 2002), then 14 (in 2002-2007).
+
+## Availability in the UK LLC TRE
+The UK LLC TRE holds an extract of the HESAPC dataset, going back to 1998. The HESAPC records of participants in UK LLC's partner LPS, where individual or LPS permissions allow linkage to NHS data, are included in the TRE. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHSE data not be shared via UK LLC.
+
+More detailed information about the UK LLC's HESAPC extract is [here](../APC/HESAPC.ipynb).
+
+## UK LLC transformations of the dataset
+All variables which identify organisations (e.g. GP practice, NHS Trust) or geographic areas smaller than a region (e.g. MSOA) are encrypted before being ingested into the UK LLC TRE. The encrypted variables (identifiable by the suffix **_e**) enable researchers to identify which participants were treated by the same organisation, or live in the same area, but not to identify the organisation or area.
+
+## Tips for researchers using HESAPC in the UK LLC TRE
+### 1) Working with episodes and spells
+**Continuous Inpatient (CIP) spells**
 A more complex scenario again is if a patient is transferred to a different hospital. In this instance, a new spell begins. To identify and measure continuous hospital stays, which include transfers to other hospitals, Continuous Inpatient (CIP) spells need to be derived (see figure 2).
 
 <img src="../../../../images/CIP_spell_diagram_APC.jpg" width="600"/>  
 
 **Figure 2** Spells and CIP spells in the HESAPC dataset
 
-## Episodes/spells that span financial years
+**Episodes/spells that span financial years**
 FCEs are entered into the HESAPC dataset according to the financial year in which they end. Consequently, episodes/spells that start in one financial year and end in another will be classified as unfinished in the starting financial year and finished in the ending financial year. 
 
-**Unfinished episodes/spells need to be removed before analysis to prevent double counting.** 
+Depending on the research question, unfinished episodes/spells may need to be removed before analysis to prevent double counting.
+
+### 2) Working with diagnostic codes
+In HESAPC, ICD-10 and OPCS codes are provided as both 3-character and 4-character fields. The 3-character version is a truncation of the 4-character field, providing a higher-level (less specific) diagnosis or procedure code. N.B. Not all diagnoses and procedures have a 4-character version. Where this is the case, the final character is infilled with 'X'.
+
+The dataset also includes fields which concatenate the ICD-10 and OPCS codes, simplifying the process of identifying a specific diagnosis or operation across multiple fields. An example of how coded diagnosis (ICD-10) fields are structured is shown below:
+
+| diag_3_01 | diag_3_02 | diag_3_03 | diag_3_concat | diag_4_01 | diag_4_02 | diag_4_03 | diag_4_concat|
+|---|---|---|---|---|---|---|---|
+| K31 | K22 | I48 | K31,K22,I48 | K317 | K229 | I489 | K317,K229,I489 |
+<br>
+>**Note**  
+>Researchers should be aware that the increase in the maximum number of diagnostic codes recorded per episode, means that diagnoses recorded before 2007 cannot be directly compared with more recent diagnoses.  
+
+### 3) Key variables in HESAPC
+| Variable name | Variable label | Description | Additional information |
+|---|---|---|---|
+| admidate | Admission date | Date a patient was admitted at the start of a spell | The same date is recorded for all episodes in a spell |
+| disdate | Discharge date | Date a patient was discharged from hospital | Only present in the last episode of a spell|
+| epiend | Episode end date | Date a patient left the care of a particular consultant (through discharge, transfer to another consultant, or death) | Date is missing if the episode is on-going at the end of the financial year (31st March) |
+| epiorder | Order of episodes in a spell | The number of the episode in a spell, increasing by 1 for each new episode until a patient is discharged | All spells start with epiorder = 01.<br> Total admissions can be calculated by the number of times epiorder = 01. |
+| epistart | Episode start date | Date a patient started care under a particular consultant | If >1 episodes in a spell, each episode will have a new epistart date |
+| epistat | Episode status | Whether the episode had finished before the end of the financial year (31stMarch) | 1 = unfinished; 3 = finished |  
+
+<br>The full **HES data dictionary** can be downloaded from <a href="https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics/hospital-episode-statistics-data-dictionary" target="_blank" rel="noopener noreferrer">NHS England.</a>
+  
+## Useful syntax
+Below we will include syntax that may be helpful to other researchers in the UK LLC TRE. For longer scripts, we will include a snippet of the code plus a link to the <a href="https://github.com/UKLLC" target="_blank" rel="noopener noreferrer">UK LLC Github</a> repository where you can find the full scripts.
+
+## Further reading  
+Boyd A, Cornish R, Johnson L, Simmonds S, Syddall H, Westbury L, Cooper C, 
+Macleod J. **Understanding Hospital Episode Statistics (HES).** London, UK: 
+CLOSER; 2017. Available from: https://www.closer.ac.uk/wp-content/uploads/CLOSER-resource-understanding-hospital-episode-statistics-2018.pdf
+
+Herbert A, Wijlaars L, Zylbersztejn A, Cromwell D, Hardelid P. **Data Resource Profile: Hospital 
+Episode Statistics Admitted Patient Care (HES APC).** International Journal of Epidemiology. 2017 Mar 15. doi: 10.1093/ije/dyx015
+
+
+
+
+
+
