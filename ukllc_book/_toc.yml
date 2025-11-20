@@ -72,6 +72,11 @@ parts:
           file: docs/LPS_data/Longevity of LPS/LPS_longevity.md
         - title: Discover LPS data
           file: docs/LPS_data/Discover/Discover_LPS_data.md
+        - title: AIRWAVE
+          file: docs/LPS_data/LPS profiles/AIRWAVE.ipynb
+          sections:
+            - title: Datasets
+              file: docs/LPS_data/Datasets/AIRWAVE/Datasets/AIRWAVE_datasets.ipynb
         - title: ALSPAC
           file: docs/LPS_data/LPS profiles/ALSPAC.ipynb
           sections:
