@@ -1,14 +1,18 @@
 # Getting started
->Last modified: 23 Sep 2025
+>Last modified: 20 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
+
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
 
 [![Image alt text](https://img.youtube.com/vi/io6yO6I3utQ/0.jpg)](https://www.youtube.com/watch?v=io6yO6I3utQ)
 
 ## Your project folders and project naming
 <aside class="admonition danger"><p class="admonition-title">ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE</p>Once you log off, restart or shutdown the virtual machine that you are using in the TRE, the machine is rebuilt and the majority of the C:\ drive wiped.</aside>  
+
+<aside class="admonition danger"><p class="admonition-title">DATA IN YOUR PROJECT SPACE WILL BE DELETED 6 MONTHS AFTER YOUR PROJECT END DATE</p>You must ensure your code fully reproduces all intermediate files, as these scratch files will not be retained.</aside>  
 <br>
+
 
 Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all researchers should follow the [**UK LLC Naming of Projects & Data-related Outputs Policy**](https://ukllc.ac.uk/governance).
 
