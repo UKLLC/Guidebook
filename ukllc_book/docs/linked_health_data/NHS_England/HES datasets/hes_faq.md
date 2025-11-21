@@ -1,5 +1,5 @@
 # FAQs about HES data
->Last modified: 19 Nov 2025
+>Last modified: 21 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked hospital data.</strong></div style>  
 <br>
 <details>
@@ -9,7 +9,7 @@ The extent to which specific coding is used in HES data is important. For exampl
 Examples of non-specific codes include “R69=Not known” for diagnoses and “X997=Not known” for operations. These are used extensively in HESOP, but far less so in HESAPC.  
 
 UK LLC is considering the way it makes linked health records available, by initially making unfiltered views available to researchers (with particularly sensitive records removed) rather than asking for codelists upfront. This will allow codelists to be developed whilst working with the data, but will also allow exploration of records which do not have specific codes assigned.
-</details><br>  
+</details> 
 
 <details>
 <summary>What do the <B><i>_ACP</i>, <i>_MAT</i> and <i>_OTR</i></B> suffixes refer to in HES data?</summary>
@@ -23,7 +23,7 @@ See below for data and sub table lookup relationships. Note: HESCC is a subset o
 
 <img src="../../images/user_guide/Picture2.png" width="400"/>  
 
-</details><br>
+</details>
 
 <details>
 <summary>How can I link <B>_ACP</B>, <B>_MAT</B>, <B>_OTR</B>, and <B>HESCC</B> data to their main record?</summary>
@@ -32,4 +32,4 @@ These sub tables do not contain an individual-level identifier. They therefore n
 
 <img src="../../images/user_guide/Picture3.png" width="400"/>
 
-</details><br>
+</details>
