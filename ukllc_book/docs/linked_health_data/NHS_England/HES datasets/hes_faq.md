@@ -1,7 +1,15 @@
 # FAQs about HES data
->Last modified: 21 Nov 2025
+>Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked hospital data.</strong></div style>  
 <br>
+
+<details>
+<summary>Does HES data include any information about medicines prescribed in hospitals?</summary>
+
+No, HES does not contain any information about medications. Data on prescriptions can be found in the **Primary Care Medicines** ([PCM](../Primary_care_datasets/PCM/PCM.ipynb)) dataset which includes information about prescriptions issued in general practice, community and hospital clinics, and by dentists and community nursing services.
+
+</details>
+
 <details>
 <summary>What impact do the <B>different levels of coding</B> have on HES data?</summary>
 The extent to which specific coding is used in HES data is important. For example, you may observe more records in your HESAPC (admitted patients) than in HESOP (outpatients) dataset, despite the national volume of HESOP records being typically ~5x greater per year. This is because HESAPC has meaningful diagnoses codes consistently provided, whereas generic codes are more often used in HESOP. This means when codes provided by a researcher are matched with HES data in the TRE, fewer matches ('hits') will be made on datasets with non-specific codes. Thus fewer records will be included in the project.  

@@ -1,6 +1,6 @@
 # FAQs about working with place-based data 
 
-> Last modified: 21 Nov 2025
+> Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -61,7 +61,7 @@ UK LLC performs rigorous disclosure control checks before place-based data enter
 <details>
 <summary>LPS have to provide permissions at 4 levels, but what does this mean to me as a researcher?</summary>      
 
-Not every LPS has [permissions for place-based linkages](../../Linkages/LPS_linkages.md) and the geographic unit of the permissions differs, i.e. address level vs. neighbourhood level. We will be adding more information about the place-based linkages to future [**freezes**](../../ukllc_key_facts/Sample/UKLLC_sample.md).
+Not every LPS has [permissions for place-based linkages](../LPS_data/Linkages/LPS_linkages.md) and the geographic unit of the permissions differs, i.e. address level vs. neighbourhood level. We will be adding more information about the place-based linkages to future [**freezes**](../ukllc_key_facts/Sample/UKLLC_sample.md).
 </details> 
 
 <details>

@@ -1,5 +1,5 @@
 # FAQs about working with LPS data
->Last modified: 21 Nov 2025
+>Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with LPS data.</strong></div style>  
 <br>
 <details>
@@ -10,13 +10,13 @@ UK LLC's [**publication policy**](https://ukllc.ac.uk/governance) requires resea
 <details>
 <summary>How can I request additional LPS data for my project?</summary>
 
-Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data.**Note**: each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
+Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. **Note**: each type of data [**amendment**](../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>
 
 <details>
 <summary>When is more LPS data going to be available via UK LLC?</summary>
 
-UK LLC is currently working with our partner LPS to increase the both the number of datasets, and the number of study participants, included in the UK LLC resource. Information about new datasets will be provided to the UK LLC TRE user group as soon as they become available, and this will be reflected on the [individual LPS pages](../../LPS_data/LPS_introduction.md) in Guidebook and in <strong><a href="https://explore.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>, UK LLC's data catalogue.
+UK LLC is currently working with our partner LPS to increase the both the number of datasets, and the number of study participants, included in the UK LLC resource. Information about new datasets will be provided to the UK LLC TRE user group as soon as they become available, and this will be reflected on the [individual LPS pages](../LPS_data/LPS_introduction.md) in Guidebook and in <strong><a href="https://explore.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>, UK LLC's data catalogue.
 </details>
 
 <details>

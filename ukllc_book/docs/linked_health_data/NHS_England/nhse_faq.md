@@ -1,5 +1,5 @@
 # FAQs about NHS England data
->Last modified: 21 Nov 2025
+>Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
 
@@ -16,19 +16,19 @@ No, the UK LLC Data Team can only see de-identified records in the TRE and does 
 <summary>What <B>medical codes</B> are used in the NHS England data available in the TRE?</summary>
 
 The main clinical classifications mandated by NHS England are SNOMED CT, ICD-10 and OPCS-4.
-More information on codes used in Electronic Health Records (EHRs) is available here: [**Coded variables**](../../linked_health_data/NHS_England/Coding/coding_intro.md)
+More information on codes used in Electronic Health Records (EHRs) is available here: [**Coded variables**](../NHS_England/Coding/coding_intro.md)
 </details>
 
 <details>
 <summary>For which datasets do researchers need to provide <B>codelists</B>?</summary>
 
 Researchers must provide codelists for their projects if they intend to use any of the following six datasets:
-* [**HESOP**](../HES%20datasets/OP/HESOP.ipynb)
-* [**HESAPC**](../HES%20datasets/APC/HESAPC.ipynb)
-* [**HESAE**](../HES%20datasets/AE/HESAE.ipynb)
-* [**GDPPR**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)
-* [**PCM**](../Primary_care_datasets/PCM/PCM.ipynb)
-* [**CANCER**](../Registration%20datasets/CANCER/CANCER.ipynb)
+* [**HESOP**](../NHS_England/HES%20datasets/OP/HESOP.ipynb)
+* [**HESAPC**](../NHS_England/HES%20datasets/APC/HESAPC.ipynb)
+* [**HESAE**](../NHS_England/HES%20datasets/AE/HESAE.ipynb)
+* [**GDPPR**](../NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb)
+* [**PCM**](../NHS_England/Primary_care_datasets/PCM/PCM.ipynb)
+* [**CANCER**](../NHS_England/Registration%20datasets/CANCER/CANCER.ipynb)
 
 The datasets use a range of clinical classifications, including:
 * ICD-9 (HES & cancer registrations)  
@@ -39,7 +39,7 @@ The datasets use a range of clinical classifications, including:
 * dm+d (PCM)
 * NHS national codes (all datasets)  
 
-More information creating a codelist is available here: [**Codelists**](../../linked_health_data/NHS_England/Coding/codelists.md)
+More information creating a codelist is available here: [**Codelists**](../NHS_England/Coding/codelists.md)
 </details>
 
 <details>
@@ -66,7 +66,7 @@ NHS England data provisioned to projects are locked to a specific extract. This 
 
 All projects are 'locked' to an NHS quarterly extract as well to as a fixed table, which controls permissions/consent. This locking is done based on the time of first provision of each project in the TRE. This locking prevents participant numbers from fluctuating during the course of a project (if, for example, more data or more participants are added to the TRE).  
 
-Each fixed table is logged as a quarterly [**'freeze'**](../../ukllc_key_facts/Sample/). The freeze number, and freeze date, is provided in the 'documentation' folder in each TRE project space.
+Each fixed table is logged as a quarterly [**'freeze'**](../../ukllc_key_facts/Sample/UKLLC_sample.md). The freeze number, and freeze date, is provided in the 'documentation' folder in each TRE project space.
 </details>
 
 <details>
