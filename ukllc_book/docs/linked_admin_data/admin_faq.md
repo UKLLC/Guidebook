@@ -1,5 +1,5 @@
 # FAQs about working with administrative ('admin') data
->Last modified: 21 Nov 2025
+>Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked admin data.</strong></div style>  
 <br>
 <details>
@@ -12,7 +12,7 @@ everyone's daily life - such as education, employment, tax and benefits records.
 <details>
 <summary>Will admin data be available for all partner LPS?</summary>
 
-No, not all LPS will be included in the linkage to admin data. Each LPS has their own set of conditions that have been agreed with their participants. Some LPS may not yet have appropriate permissions in place and require further engagement with their participants before further linkages can take place. The LPS for which linkage to admin data has been confirmed are shown on the [Available linkages](../../Linkages/LPS_linkages.md) page.
+No, not all LPS will be included in the linkage to admin data. Each LPS has their own set of conditions that have been agreed with their participants. Some LPS may not yet have appropriate permissions in place and require further engagement with their participants before further linkages can take place. The LPS for which linkage to admin data has been confirmed are shown on the [Available linkages](../LPS_data/Linkages/LPS_linkages.md) page.
 </details>
 
 <details>

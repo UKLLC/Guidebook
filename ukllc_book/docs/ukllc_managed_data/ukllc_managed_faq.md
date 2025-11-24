@@ -1,12 +1,7 @@
 # FAQs about working with UK LLC-managed data
->Last modified: 21 Nov 2025
+>Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with UK LLC-managed data.</strong></div style>  
 <br>
-<details>
-<summary>Will any more LPS derived datasets become available?</summary>
-
-A harmonised dataset summarising LPS participants' **highest educational qualification** will be added to the UK LLC resource in late 2025. This will also include information about participants' parents' education where available.
-</details> 
 
 <details>
 <summary>Will more linked derived datasets be added to the UK LLC resource?</summary>

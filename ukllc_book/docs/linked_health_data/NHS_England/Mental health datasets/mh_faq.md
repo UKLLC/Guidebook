@@ -1,12 +1,13 @@
 # FAQs about working with mental health data
->Last modified: 20 Nov 2025
+>Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with mental health data.</strong></div style>  
 <br>
 
 <details>
 <summary>What is the difference between MHMDS, MHLDDS and MHSDS?</summary>
 
-The **Mental Health Minimum Dataset (MHMDS)** was introduced in 2000 to collect data about adults with mental health issues. It was published in 2008 and retired in 2014. In 2014, the dataset was expanded to include individuals receiving learning disabilities services and was subsequently renamed the **Mental Health and Learning Disabilities Dataset (MHLDDS)**. Then, in 2016, the scope was further broadened to include services such as Children’s Mental Health Services (CAMHS), Children and Young People’s Improving Access to Psychological Therapies (CYP-IAPT), Eating Disorders in Children and Young People, and Problem Gambling Services. With this expansion, the dataset was renamed the **Mental Health Services Dataset (MHSDS)**. Currently, UK LLC only receives MHSDS data.
+The **Mental Health Minimum Dataset (MHMDS)** was introduced in 2000 to collect data about adults with mental health issues. It was published in 2008 and retired in 2014. In 2014, the dataset was expanded to include individuals receiving learning disabilities services and was subsequently renamed the **Mental Health and Learning Disabilities Dataset (MHLDDS)**. Then, in 2016, the scope was further broadened to include services such as Children’s Mental Health Services (CAMHS), Children and Young People’s Improving Access to Psychological Therapies (CYP-IAPT), Eating Disorders in Children and Young People, and Problem Gambling Services. With this expansion, the dataset was renamed the **Mental Health Services Dataset (MHSDS)**. Currently, UK LLC only receives MHSDS data. 
+
 </details>
 
 <details>
