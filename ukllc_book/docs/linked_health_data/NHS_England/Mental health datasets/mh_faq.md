@@ -35,7 +35,7 @@ A referral occurs when a person is directed or recommended to a service for supp
 <summary>What are the conditions under which a referral is rejected in the MHSDS?</summary>
 
 The most common reasons for rejection of a referral are:
-- Duplicate referral request (the patients is already undergoing treatment with the same or different care provider)
+- Duplicate referral request (the patient is already undergoing treatment with the same or different care provider)
 - Inappropriate referral request (the request is inappropriate for the services offered by the healthcare provider)
 - Incomplete referral request (the request does not contain all the required information).
 </details>

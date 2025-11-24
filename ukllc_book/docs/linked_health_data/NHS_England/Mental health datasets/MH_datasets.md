@@ -1,5 +1,5 @@
 # NHS England mental health datasets
->Last modified: 19 Nov 2025
+>Last modified: 24 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The mental health datasets cover inpatient and community mental health services.</strong></div>
 <br>
 
@@ -12,7 +12,7 @@
 <br>
 >* **IAPT** covers **primary care** services designed to help people with mild to moderate mental health problems, such as anxiety and depression. 
 <br>
->* MHSDS is primarily a dataset for **administrative purposes**. It is comprised of approximately **60 datasets** and is particularly **complex**. UK LLC is collaborating with experts within the community to improve documentation for researchers – we are working on a detailed Understanding MHSDS guide, which will be uploaded shortly.
+>* MHSDS is primarily a dataset for **administrative purposes**. It is comprised of approximately **60 datasets** and is particularly **complex**. UK LLC is collaborating with experts within the community to improve documentation for researchers – please see our detailed [**Understanding MHSDS guide**](../Mental%20health%20datasets/MHSDS/Understanding_MHSDS.md), which we will update periodically.
 <br>
 >* The MHSDS and IAPT datasets are increasingly using **clinical terminology** to capture clinical information, primarily through SNOMED-CT. See the [**Coded variables guide**](../Coding/coding_intro.md) for further details.
 <br>
