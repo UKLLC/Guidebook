@@ -1,5 +1,5 @@
 # Frequently Asked Questions
->Last modified: 19 Nov 2025
+>Last modified: 24 Nov 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>FAQs based on enquiries received by researchers working in the UK LLC Trusted Research Environment.</strong></div style>  
 <br>
@@ -15,6 +15,7 @@ Please follow the links below for FAQs on:
   - [Hospital (HES) datasets](../linked_health_data/NHS_England/HES%20datasets/hes_faq.md)  
   - [COVID-19 datasets](../linked_health_data/NHS_England/COVID%20datasets/covid19_faq.md)  
   - [Mental health datasets](../linked_health_data/NHS_England/Mental%20health%20datasets/mh_faq.md)
+  - [Medical codes (e.g. ICD-10, OPCS-4, SNOMED)](../linked_health_data/NHS_England/Coding/codes_faq.md)
 
 - [Place-based data](../linked_geo_data/place_faq.md)
 
