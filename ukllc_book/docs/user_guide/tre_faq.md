@@ -1,5 +1,5 @@
 # FAQs about working in the TRE
->Last modified: 24 Nov 2025
+>Last modified: 26 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
@@ -19,7 +19,7 @@ Yes, everyone accessing the UK LLC TRE must be based in the UK, and only access 
 <details>
 <summary>Do I have to work at a university?</summary>
 
-You do not have to work at a university, but you cannot apply to access the TRE if you work for a commercial organisation. Your employer must be a non-commercial research organisation.  
+You do not have to work at a university, but you cannot apply to access the TRE if you work for a commercial organisation. Your employer must be a non-commercial research organisation. Researchers associated with, and funded by, charities are also eligible to apply.  
 </details>
 
 <details>
