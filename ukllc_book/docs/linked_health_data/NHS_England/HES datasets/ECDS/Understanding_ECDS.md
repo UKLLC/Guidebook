@@ -1,5 +1,5 @@
 # Understanding the Emergency Care Dataset (ECDS)
->Last modified: 28 Nov 2025
+>Last modified: 01 Dec 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>ECDS is a record of Accident & Emergency (A&E) attendances in NHS hospitals in England.</strong></div>  
 
@@ -45,6 +45,8 @@ Each record contains coded information on the **'chief complaint'** (main reason
 The ECDS uses [**SNOMED CT**](../../Coding/coding_intro.md) (Systematized Nomenclature of Medicine Clinical Terms), usually abbreviated to just **SNOMED**. It is an international system used to classify many types of medical data, including diagnoses, procedures, symptoms, family history, assessment tools, observations and medications. SNOMED CT is designed for direct management and care of patients. The codes are numeric, typically between 6 and 18 digits long, and do not follow a pattern or hierarchy.
 
 The **UK edition** of SNOMED CT contains the UK extensions, which include UK-specific screening procedures and assessment scales. There are also ECDS-specific SNOMED codes (known as **ECDS Diagnosis Core** and **ECDS Diagnosis Max**). 
+
+As in all HES datasets, ECDS uses **NHS National Codes** used for administrative information such as source of admission and discharge destination.
 
 ## 8. Evolution of the dataset
 NHS England started collecting A&E data, as ([HESAE](../AE/HESAE.ipynb)), in 2007-08. It was an ‘experimental’ dataset until 2012-13 when data collected in emergency departments became a national standard for official statistics. The ECDS (Emergency Care Data Set) was introduced in 2017, remaining 'experimental' until it **ECDS replaced HESAE as the national standard in 2020**. 

@@ -1,5 +1,5 @@
 # Understanding the HESOP dataset
->Last modified: 28 Nov 2025
+>Last modified: 01 Dec 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>HESOP is a record of outpatient care in NHS hospitals in England.</strong></div>  
 
@@ -52,14 +52,14 @@ For diagnoses, the field **diag_01** records the main reason for an individual b
 For procedures, the field **opertn_01** records the main procedure. Secondary procedures are recorded in fields **opertn_02...opertn_24**. 
 
 ## 7. Coding systems used
-HESOP uses two main medical coding systems: ICD-10 for diagnoses and OPCS for procedures and operations.  
+HESOP uses two main medical coding systems: **ICD-10** for diagnoses and **OPCS** for procedures and operations. It also uses **NHS National Codes** to record record the specialised service within which a patient is treated.
 
 **ICD-10** (International Statistical Classification of Diseases and Related Health Problems)
 Contains 22 hierarchical chapters, based on body systems (e.g. respiratory, digestive). It is used to record all diagnoses and, where relevant, causes of injuries.
 
 **OPCS** (Office for Population Censuses and Surveys)
 Contains 24 hierarchical chapters, based on body systems (e.g. respiratory, digestive). 
-This codiing system is UK-specific, so cannot be used for international comparisons. It records all procedures (e.g. surgery, MRI scans). 
+This codiing system is UK-specific, so cannot be used for international comparisons. It records all procedures (e.g. surgery, MRI scans).  
 
 ## 8. Evolution of the dataset
 NHS England started collecting HESOP data in 2003-04, first releasing it as an 'experimental' dataset in 2006. HESOP became an accredited National Statistic in 2008. 
