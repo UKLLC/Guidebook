@@ -10,13 +10,14 @@ The Emergency Care Data Set (ECDS) was introduced in 2017 and is the national da
 1) It is longitudinal making it possible for researchers to study cohorts over time
 2) It provides complete coverage of all NHS emergency departments in England
 3) The severity of cases is recorded   
-3) It uses a standardised [coding system](#7-coding-systems-used), enabling comparative work to be undertaken over time and internationally
+4) It uses a standardised [coding system](#7-coding-systems-used), enabling comparative work to be undertaken over time and internationally
+5) Patient-level data from all NHS emergency departments, urgent treatment centres and some walk-in centres is included
 
 ## 3. Limitations of ECDS
 1) It is a clinical dataset, rather than one specifically designed for research
 2) Coding is unlikely to be consistent as there are variations between hospitals and over time
 3) The dataset was only established in 2017 so there is limited longitudinal value in using ECDS alone
-4) Patient-level data from all NHS emergency departments, urgent treatment centres and some walk-in centres is included
+
 
 ## 4. Scope and coverage
 The dataset contains patient-level information about:  
