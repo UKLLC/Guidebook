@@ -52,7 +52,7 @@ As in all HES datasets, ECDS uses **NHS National Codes** used for administrative
 ## 8. Evolution of the dataset
 NHS England started collecting A&E data, as ([HESAE](../AE/HESAE.ipynb)), in 2007-08. It was an ‘experimental’ dataset until 2012-13 when data collected in emergency departments became a national standard for official statistics. The ECDS (Emergency Care Data Set) was introduced in 2017, remaining 'experimental' until it **ECDS replaced HESAE as the national standard in 2020**. 
 
-Rather than SNOMED codes, HESAE used <a href="https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html" target="_blank" rel="noopener noreferrer">National Codes</a> so the two datasets cannot easily be compared or combined.
+Rather than SNOMED codes, HESAE used the now-archived <a href="https://v2.datadictionary.nhs.uk/web_site_content/pages/codes/administrative_codes/a_amp_e_diagnosis_tables.asp@shownav=0.html" target="_blank" rel="noopener noreferrer">A&E Diagnosis codes</a> so the two datasets cannot easily be compared or combined.
 
 ## 9. Availability in the UK LLC TRE
 The UK LLC TRE holds an extract of the ECDS, going back to 2017 when it was first established. The ECDS records of participants in UK LLC's partner LPS, where individual or LPS permissions allow linkage to NHS data, are included in the TRE. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHSE data not be shared via UK LLC.
