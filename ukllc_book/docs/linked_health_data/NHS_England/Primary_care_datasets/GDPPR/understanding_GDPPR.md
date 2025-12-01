@@ -1,10 +1,11 @@
 # Understanding the GDPPR dataset
->Last modified: 26 Nov 2025
+>Last modified: 01 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The General Practice Extraction Service (GPES) Data for Pandemic Planning and Research dataset contains an extract of coded data items from primary care (GP) records from General Practices across England.</strong></div>  
 
 ## 1. Introduction
 The GDPPR dataset was established to fulfil the need for GP data for planning and research in response to the **COVID-19 pandemic**. It is an extract of data from GP systems (using the generic data extraction service 'GPES') and based on a set of business rules specifying the target group of patients, the coded record content and time period cut-offs.
 
+<aside class="admonition danger"><p class="admonition-title">The GDPPR dataset can only be used for research related to COVID-19</p>For all restrictions and examples of research purposes acceptable to NHS England see the <strong><a href="https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/directions-and-data-provision-notices/secretary-of-state-directions/covid-19-public-health-directions-2020" target="_blank" rel="noopener noreferrer">COVID-19 Public Health Directions 2020</a></strong></aside>
 
 ## 2. Strengths of GDPPR
 * The dataset is relatively simple, comprising just one table with 23 variables
