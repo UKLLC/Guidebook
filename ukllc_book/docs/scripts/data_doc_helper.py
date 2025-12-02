@@ -681,7 +681,7 @@ class LPSSource:
             self.df_ss.iloc[0]["geographic_coverage_Nations"],
             self.df_ss.iloc[0]["geographic_coverage_Regions"],
             self.df_ss.iloc[0]["start_date"],
-            "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/linkages/lps_linkages","here"),
+            "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps_data/linkages/lps_linkages","here"),
             self.df_ss.iloc[0]["participant_pathway"],
             ", ".join([md.make_hlink("https://doi.org/" + i, i) for i in self.cohort_profile.split(",")]),
             #md.make_hlink("https://doi.org/" + self.cohort_profile, self.cohort_profile),
