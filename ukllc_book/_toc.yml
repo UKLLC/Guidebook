@@ -3,11 +3,11 @@ format: jb-book
 root: docs/welcome.md
 parts:
   - chapters:
-    - title: Navigation tips
-      file: docs/navigation/navigation.md
-    - title: UK LLC key facts
+    - title: Understanding UK LLC
       file: docs/ukllc_key_facts/key_facts.md
       sections:
+        - title: Where to find information
+          file: docs/ukllc_key_facts/navigation/navigation.md
         - title: Can I apply?
           file: docs/ukllc_key_facts/Eligibility/eligibility.md
         - title: How do I apply?

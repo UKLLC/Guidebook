@@ -1,11 +1,9 @@
-
 # Submit your expression of interest (EoI)
->Last modified: 27 Aug 2025
+>Last modified: 02 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Set up an account in UK LLC Apply and complete your expression of interest (EoI).</strong></div>
-<br>
 
 ## Register for a UK LLC Apply account
-Go to [**UK LLC Apply**](https://apply.ukllc.ac.uk/) to register for an account and complete all required fields.  
+Go to <strong><a href="https://ukllc.ac.uk/apply" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong> to register for an account and complete all required fields.  
 
 **Note**: Researchers must be **based in the UK**, be part of a **non-commercial** research organisation and be an **Office for National Statistics (ONS) Accredited Researcher**.
 
@@ -22,6 +20,6 @@ UK LLC aims to review all EoIs **within a week**. The key assessment criteria ar
 
 You may be offered a meeting to discuss your EoI.
 
-If your EoI is approved, you will be able to start your full application - see the [**Submit your full application guide**]().
+If your EoI is approved, you will be able to start your full application - see the guide to [**submitting your full application**](../Applying/application.md).
 
 
