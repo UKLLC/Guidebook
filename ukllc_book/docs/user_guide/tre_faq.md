@@ -1,5 +1,5 @@
 # FAQs about working in the TRE
->Last modified: 19 Nov 2025
+>Last modified: 26 Nov 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
@@ -7,7 +7,7 @@
 <details>
 <summary>How can I apply to access data in the UK LLC TRE?</summary>
 
-All applications should be made via <a href="https://apply.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Apply</a>, UK LLC's online application service. Further information on the application process is available on Guidebook's ['How do I apply?'](../../../docs/ukllc_key_facts/Applying/Intro.md) page.
+All applications should be made via <a href="https://apply.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Apply</a>, UK LLC's online application service. Further information on the application process is available on Guidebook's ['How do I apply?'](../ukllc_key_facts/Applying/Intro.md) page.
 </details>
 
 <details>
@@ -19,7 +19,7 @@ Yes, everyone accessing the UK LLC TRE must be based in the UK, and only access 
 <details>
 <summary>Do I have to work at a university?</summary>
 
-You do not have to work at a university, but you cannot apply to access the TRE if you work for a commercial organisation. Your employer must be a non-commercial research organisation.  
+You do not have to work at a university, but you cannot apply to access the TRE if you work for a commercial organisation. Your employer must be a non-commercial research organisation. Researchers associated with, and funded by, charities are also eligible to apply.  
 </details>
 
 <details>
@@ -91,13 +91,13 @@ Some users may experience a blank screen after logging in. They may also see a m
 <details>
 <summary>For how long can I access the UK LLC TRE?</summary>
 
-UK LLC access is granted for the duration of your project - as stated in your original application - or until your ONS Accredited Researcher status expires. Please note that linked NHS England data can only be accessed for one year at a time. If you wish to extend access, this can be done by submitting an [amendment](../../user_guide/RequestingAnAmendment.md) via **UK LLC Apply**.
+UK LLC access is granted for the duration of your project - as stated in your original application - or until your ONS Accredited Researcher status expires. Please note that linked NHS England data can only be accessed for one year at a time. If you wish to extend access, this can be done by submitting an [amendment](../user_guide/RequestingAnAmendment.md#extend-tre-access-period) via **UK LLC Apply**.
 </details>
 
 <details>
 <summary>How do I extend my access to the TRE?</summary>
 
-To extend access beyond the agreed project end date, please submit an amendment to the UK LLC Access team. Information on how to submit an amendment is [**here**](../../user_guide/RequestingAnAmendment.md).
+To extend access beyond the agreed project end date, please submit an amendment to the UK LLC Access team. Information on how to submit an amendment is [**here**](../user_guide/RequestingAnAmendment.md).
 </details>
 
 <details><summary>What happens if I need to access my work in the TRE after my project has finished?</summary>
@@ -133,19 +133,19 @@ If you inadvertently delete or overwrite a file you can restore a previous versi
 <details>
 <summary>What happens if I move organisation while working on a project in the TRE?</summary>
 
-You must submit an amendment to notify UK LLC of a change in employer. Details of how to submit an amendment are available [**here**](../../user_guide/RequestingAnAmendment.md).
+You must submit an amendment to notify UK LLC of a change in employer. Details of how to submit an amendment are available [**here**](../user_guide/RequestingAnAmendment.md).
 </details>
 
 <details>
 <summary>How do I add a researcher to an existing project in the TRE?</summary>
 
-You must submit an amendment providing details of the new researcher so UK LLC can check whether they and their organisation meet UK LLC's [**access requirements**](https://ukllc.ac.uk/apply). Details of how to submit an amendment are available [**here**](../../user_guide/RequestingAnAmendment.md).
+You must submit an amendment providing details of the new researcher so UK LLC can check whether they and their organisation meet UK LLC's [**access requirements**](https://ukllc.ac.uk/apply). Details of how to submit an amendment are available [**here**](../user_guide/RequestingAnAmendment.md).
 </details>
 
 <details>
 <summary>What should I do when a researcher leaves a project?</summary>
 
-You must notify UK LLC when a researcher leaves a project so their access to the TRE can be terminated. This can be done by submitting an [**amendment**](../../user_guide/RequestingAnAmendment.md).
+You must notify UK LLC when a researcher leaves a project so their access to the TRE can be terminated. This can be done by submitting an [**amendment**](../user_guide/RequestingAnAmendment.md).
 </details>
 
 <details>
@@ -191,7 +191,7 @@ Yes, R packages available on CRAN can be installed on SeRP desktops. CRAN is a w
 
 <details><summary>How does UK LLC keep the data safe?</summary>
 
-UK LLC works within the [Five Safes](../../ukllc_key_facts/Data_security/five_safes.md) Framework:  
+UK LLC works within the [Five Safes](../ukllc_key_facts/Data_security/five_safes.md) Framework:  
 * Safe Data   - there are no direct identifiers of individuals in the TRE.  
 * Safe Projects - all projects are lawful, ethical and in the public good. 
 * Safe People - all reseachers have completed the ONS Accredited Researcher training.
@@ -215,7 +215,7 @@ Currently, participants who are in multiple LPS cannot be linked. However, this 
 <details>
 <summary>How much time is required for output clearance?</summary>
 
-Output clearance can take 7-10 working days. We therefore recommend submitting outputs as early as possible and following the [**statisticial disclosure control (SDC) guidance**](../../user_guide/SDC.md) to increase the likelihood of them passing first time. 
+Output clearance can take 7-10 working days. We therefore recommend submitting outputs as early as possible and following the [**statisticial disclosure control (SDC) guidance**](../user_guide/SDC.md) to increase the likelihood of them passing first time. 
 </details>
 
 <details>
@@ -227,7 +227,7 @@ No – due to the variability of statistical disclosure control (SDC) thresholds
 <details>
 <summary>How can I request additional data for my project in the TRE?</summary>
 
-Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
+Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../user_guide/RequestingAnAmendment.md)  requires a different level of review before being approved. 
 </details>  
 
 <details>
@@ -259,6 +259,6 @@ Yes – in February 2025, UK LLC's protocol was published in the International J
 <details>
 <summary>Has UK LLC published a data resource profile that can be cited?</summary>
 
-No – UK LLC has not yet published a data resource profile paper. We are waiting for the Scottish and Welsh NHS data and the non-health adminstrative data to flow into the TRE so we can characterise the resource more fully. In the meantime, you can view the [**UK LLC profile**](../ukllc_key_facts/Profile/UKLLC_profile.md) which summarises key demographic characteristics of participants in the UK LLC TRE in February 2025. You can cite the **specific freeze** that underpins the datasets you were provisioned - see [**UK LLC sample**](../ukllc_key_facts/Sample/UKLLC_sample.md).
+No – UK LLC has not yet published a data resource profile paper. We are waiting for the Scottish and Welsh NHS data and the non-health adminstrative data to flow into the TRE so we can characterise the resource more fully. In the meantime, you can view the [**UK LLC profile**](../ukllc_key_facts/Profile/UKLLC_profile.md) which summarises key demographic characteristics of participants in the UK LLC TRE. You can cite the **specific freeze** that underpins the datasets you were provisioned - see [**UK LLC sample**](../ukllc_key_facts/Sample/UKLLC_sample.md).
 </details>
 

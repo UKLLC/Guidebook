@@ -1,5 +1,5 @@
 # Coded variables in NHS England datasets
->Last modified: 20 Jun 2025
+>Last modified: 01 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Clinical classification systems are used to code information collected about patients in the NHS England datasets.</strong></div>
 <br>
 
@@ -56,7 +56,7 @@ Table 1 lists the systems used in each NHS England dataset in the UK LLC TRE. Be
 **OPCS-4:** Office of Population Censuses and Surveys (OPCS), 4th revision, is used to classify treatments and procedures in the UK. Codes are in alphanumeric format, e.g. 'H01' represents 'Emergency excision of appendix'. OPCS-4 is updated every three years; the current version is OPCS-4.10, which was implemented across the NHS in April 2023. <strong><a href="https://classbrowser.nhs.uk/#/" target="_blank" rel="noopener noreferrer">Click here to browse OPCS-4 codes</a></strong>
 
 **NHS national codes:**
-NHS national codes are used to record the specialised service within which a patient is treated. <strong><a href="https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html" target="_blank" rel="noopener noreferrer">Click here to browse NHS national codes</a></strong>
+NHS national codes are defined for specific data items in NHS datasets. These include variables such as admission source, discharge destination, ethnic group, etc. National codes are also used to record the specialised service within which a patient is treated. <strong><a href="https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html" target="_blank" rel="noopener noreferrer">Click here to browse NHS national codes for specialties and treatments</a></strong>
 
 **dm+d:** This is the NHS Dictionary of Medicines and Devices (dm+d) licensed for use in the UK. The scope is currently limited to medicines only. All unique identifiers used in the dm+d are SNOMED CT codes. Codes are in numeric format, e.g. '39732311000001104' represents 'Amoxicillin 250mg capsules'. <strong><a href="https://dmd-browser.nhsbsa.nhs.uk/code-lookup" target="_blank" rel="noopener noreferrer">Click here to browse dm+d codes</a></strong>.
 
