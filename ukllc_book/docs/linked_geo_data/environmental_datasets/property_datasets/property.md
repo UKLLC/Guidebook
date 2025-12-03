@@ -1,6 +1,6 @@
 # Property datasets
 
-> Last modified: 21 Jul 2025
+> Last modified: 03 Dec 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides property datasets linked to participants’ homes, enabling research into housing quality, property characteristics, and their impact on health and socioeconomic outcomes.</strong></div>
 <br>
@@ -17,6 +17,7 @@ The UK LLC's property datasets can also be used for research that informs policy
 
 The current UK LLC property datasets include:
 
-- [Energy Performance Certificates (EPC)](../property_datasets/EPC/Understanding_epc.md)
+- [Energy Performance Certificates (EPC)](../property_datasets/EPC/Understanding_epc.md)  
+N.B. Not available until 2026
 
 **Please click on each dataset for more information.**

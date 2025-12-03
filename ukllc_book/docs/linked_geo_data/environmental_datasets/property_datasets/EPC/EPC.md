@@ -1,6 +1,6 @@
-# Energy Performance Certificates (EPC)
+# Energy Performance Certificates (EPC) - available in 2026
 
->Last modified: 16 Jun 2025
+>Last modified: 03 Dec 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides Energy Performance Certificate (EPC) data for domestic properties in England and Wales, detailing energy efficiency (bands A–G), carbon emissions, fuel costs, floor area and other property characteristics.</strong></div>  
 <br>
