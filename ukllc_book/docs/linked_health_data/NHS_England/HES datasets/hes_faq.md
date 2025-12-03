@@ -1,5 +1,5 @@
 # FAQs about HES data
->Last modified: 24 Nov 2025
+>Last modified: 03 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked hospital data.</strong></div style>  
 <br>
 
@@ -20,24 +20,22 @@ UK LLC is considering the way it makes linked health records available, by initi
 </details> 
 
 <details>
-<summary>What do the <B><i>_ACP</i>, <i>_MAT</i> and <i>_OTR</i></B> suffixes refer to in HES data?</summary>
-
-* _OTR is short for **Other** and is an extension of the HES record. There should be a 1:1 relationship between the main record found in HESAPC and its extension in HESAPC_OTR  
+<summary>What do the <B><i>_ACP</i> and <i>_MAT</i> </B> suffixes refer to in HES data?</summary>
 
 * *_ACP* is short for **Augmented Care Period**. This dataset was collected from 1997–2006. It was replaced by HESCC (critical care) in 2008
 * *_MAT* is short for **Maternity** and contains variables associated with maternity-related admissions.  
 
 See below for data and sub table lookup relationships. Note: HESCC is a subset of HESAPC 
 
-<img src="../../images/user_guide/Picture2.png" width="400"/>  
+<img src="../../../images/user_guide/Picture2.png" width="400"/>  
 
 </details>
 
 <details>
-<summary>How can I link <B>_ACP</B>, <B>_MAT</B>, <B>_OTR</B>, and <B>HESCC</B> data to their main record?</summary>
+<summary>How can I link <B>_ACP</B>, <B>_MAT</B> and <B>HESCC</B> data to their main record?</summary>
 
 These sub tables do not contain an individual-level identifier. They therefore need to be linked to the main HESAPC / HESOP / HESAE datsets. See below for the linkage keys for each dataset: 
 
-<img src="../../images/user_guide/Picture3.png" width="400"/>
+<img src="../../../images/user_guide/Picture3.png" width="400"/>
 
 </details>
