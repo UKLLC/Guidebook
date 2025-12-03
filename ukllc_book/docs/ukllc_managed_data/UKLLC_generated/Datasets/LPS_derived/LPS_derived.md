@@ -1,5 +1,5 @@
 # LPS derived datasets
->Last modified: 04 Nov 2025
+>Last modified: 03 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is creating a range of derived datasets applicable across Longitudinal Population Studies (LPS).</strong></div>
 
 ## Introduction
@@ -39,7 +39,7 @@ Fifteen LPS contributing to UK LLC have deposited information educational qualif
 
 | LPS | Sex | Gender | Year of birth | Ethnicity | Education:<br>participant | Education:<br> parent(s) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| AIRWAVE<sup>*</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
+| AIRWAVE<sup>1</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
 | ALSPAC | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
 | BCS70 | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ |
 | BIB | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
@@ -60,9 +60,11 @@ Fifteen LPS contributing to UK LLC have deposited information educational qualif
 | TRACKC19 | ✓ | ✗ | ✓ | ✓ | ✗ | ✗ |
 | TWINSUK | ✓ | ✗ | ✗ | ✓ | ✗ | ✗ |
 | UKHLS | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
-| UKREACH<sup>*</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
+| UKREACH<sup>2</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
 
-<sup>*</sup> Data from  AIRWAVE and UKREACH are not yet available in the TRE.
+**Notes:**  
+<sup>1</sup> Data from AIRWAVE are now available in the TRE but have not yet been harmonised.   
+<sup>2</sup> Data from UKREACH are not yet available in the TRE.
 </details>
 
 
