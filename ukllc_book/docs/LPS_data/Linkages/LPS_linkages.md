@@ -1,5 +1,5 @@
 # Linkages and research topics permitted for each LPS
->Last modified: 24 Sep 2025
+>Last modified: 03 Dec 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>See the tables below to understand the linkages and breadth of research topics that each Longitudinal Population Study (LPS) permits.</strong></div>
 <br>
@@ -22,9 +22,9 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 |[**GLAD**](../LPS%20profiles/GLAD.ipynb)|✓|✓|Full address|✓|✗|✗|
 |[**MCS**](../LPS%20profiles/MCS.ipynb)|✓|✗|✗|✓|✓|✓|
 |[**NCDS58**](../LPS%20profiles/NCDS58.ipynb)|✓|✗|✗|✓|✓|✓|
-|[**NEXTSTEP**](../LPS%20profiles/NEXTSTEP.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**NEXTSTEP**](../LPS%20profiles/NEXTSTEP.ipynb)|✓|✗|✗|✗|✓|✓|
 |[**NSHD46**](../LPS%20profiles/NSHD46.ipynb)|✓|✓|Full address|✗|✗|✗|
-|[**TEDS**](../LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✗|✓|✓|
+|[**TEDS**](../LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✓|✓|✓|
 |[**TWINSUK**](../LPS%20profiles/TWINSUK.ipynb)|✓|✓|Postcode|✗|✗|✗|
 |[**UKHLS**](../LPS%20profiles/UKHLS.ipynb)|✓|✗|✗|✓|✓|✓|
 |**UK-REACH**|✓|✓|✗|✓|✗|✗|
