@@ -3,7 +3,8 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
-**Applying to UK LLC**  
+**Applying to UK LLC** 
+
 <details>
 <summary>How can I apply to access data in the UK LLC TRE?</summary>
 
@@ -108,6 +109,11 @@ In limited circumstances you can request to have your access to the TRE reinstat
 <summary>What happens when my ONS Accredited Researcher (AR) status expires?</summary>
 Your access to the TRE will automatically end when your AR status expires. If your project has not reached its end date, and you wish to continue working in the TRE, you should renew your AR status and provide the UK LLC Access team with your new AR number.
  </details>
+
+<details id="main-window">
+<summary>Maintenance windows</summary>
+The SeRP system will undergo regular maintenance windows on the 3rd Thursday of each month between 10:00 AM and 1:00 PM to ensure it continues to operate smoothly and securely. During this time you will not be able to login to the UK LLC TRE. For a full schedule of upcoming maintenance dates and further information, please see <a href="https://ukserp.atlassian.net/wiki/spaces/HDK/pages/16711839/Maintenance+Windows" target="_blank" rel="noopener noreferrer">Maintenance Windows</a>
+</details>
 <br>
 
 **Working in the TRE**

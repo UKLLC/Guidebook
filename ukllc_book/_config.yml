@@ -80,6 +80,8 @@ html:
     CC BY-NC-SA The UK LLC Guidebook and materials are available publicly under <a href="https://github.com/UKLLC/licencing">open source licenses</a>
   favicon: "docs/images/favicon.ico"  # A path to a favicon image
   google_analytics_id: G-X3F2TFHCXV
+  extra_js:
+    - _static/open_details.js
 
 parse:
   myst_enable_extensions:
