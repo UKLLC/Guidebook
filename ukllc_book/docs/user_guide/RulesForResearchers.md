@@ -1,5 +1,5 @@
 # Rules for researchers
->Last modified: 07 Oct 2025
+>Last modified: 05 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must follow rules to safeguard the anonymity and security of LPS participants’ data in the UK LLC Trusted Research Environment (TRE).</strong></div style>
 <br>
 
@@ -9,10 +9,8 @@ Below is a summary of the rules that **researchers agree to abide by** when acce
 ### 1. ONS Approved Researcher accreditation, DAA, DURA and Ts&Cs
 To be active in the UK LLC TRE you must be an **Office for National Statistics (ONS) Accredited Researcher**, be named on an **approved project**, be covered by a **Data Access Agreement (DAA)** between your organisation and the University of Bristol and have accepted the **Data User Responsibilities Agreement (DURA)** and the **data owners' terms and conditions**, both of which are accessible within [**UK LLC Apply**](https://apply.ukllc.ac.uk/).
 
-### 2. IT equipment and security
-You must only **access** the UK LLC TRE from the **UK** via a **secure private or corporate network** using **organisation owned/approved machines**, which are automatically maintained (so that they are fully patched and up to date with relevant virus protection).  
-
-Where using a private network, you must make all reasonable efforts to ensure this is maintained and the equipment is secure (strong password) and kept patched and up to date. You must keep your **UK LLC TRE access password private** and your **2FA secure** and you must **not share** these with anyone else. You must ensure that your **display screen** is **not overlooked** by unauthorised persons when accessing the UK LLC TRE and you must **lock your computer** when you leave it unattended.
+### 2. Access TRE only from the UK
+You must only access the UK LLC TRE **from the UK** via a **secure private or corporate network** using **organisation owned/approved machines**, which are automatically maintained (so that they are fully patched and up to date with relevant virus protection). Where using a private network, you must make all reasonable efforts to ensure this is maintained and the equipment is secure (strong password) and kept patched and up to date. You must keep your **UK LLC TRE access password private** and your **2FA secure** and you must **not share** these with anyone else. You must ensure that your **display screen** is **not overlooked** by unauthorised persons when accessing the UK LLC TRE and you must **lock your computer** when you leave it unattended.
 
 ### 3. Screenshots of the TRE
 You must **never** take any screenshots of data in the UK LLC TRE (e.g. by using a phone or snipping tool), although you can **share your screen** with other **approved researchers on your project**. If you wish to share findings with a colleague who is not named on your research project, you must submit each output for [**statistical disclosure control checks**](../user_guide/SDC.md) via the official data out process described in rule 4 below. 
