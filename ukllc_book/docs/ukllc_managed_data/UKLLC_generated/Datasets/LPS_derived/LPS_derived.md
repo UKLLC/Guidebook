@@ -1,5 +1,5 @@
 # LPS derived datasets
->Last modified: 03 Dec 2025
+>Last modified: 08 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is creating a range of derived datasets applicable across Longitudinal Population Studies (LPS).</strong></div>
 
 ## Introduction
@@ -35,31 +35,38 @@ Fifteen LPS contributing to UK LLC have deposited information educational qualif
 </details>
 
 ## Table 1: LPS included in each dataset
-<details><summary>The majority of LPS have deposited relevant demographic or educational information.</summary>
+<details><summary>The majority of LPS have deposited relevant demographic or educational information.</summary>  
+<br>
+The figures in the Table below show, for each LPS, what percentage of participants in the UK LLC are included in the harmonised variables. The ✗ indicates that UK LLC does not currently have any relevant information from that LPS.  
+
+<br>  
+ 
+<aside class="admonition info"><p class="admonition-title">N.B. This table reflects only the LPS datasets currently available in the UK LLC TRE.</p></aside>
+
 
 | LPS | Sex | Gender | Year of birth | Ethnicity | Education:<br>participant | Education:<br> parent(s) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | AIRWAVE<sup>1</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
-| ALSPAC | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| BCS70 | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ |
-| BIB | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| ELSA | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
-| EPICN | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
-| EXCEED | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
-| FENLAND | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
-| GENSCOT | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
-| GLAD | ✓ | ✓ | ✓ | ✓ | ✓ | ✗ |
-| MCS | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ | ✓ | ✗ |
-| NCDS58 | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
-| NEXTSTEP | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
-| NICOLA | ✓ | ✗ | ✓ | ✗ |✓ | ✗ |
-| NIHRBIO_COPING | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
-| NSHD46 | ✓ | ✗ | ✓ | ✗ | ✓ | ✗ |
-| SABRE | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
-| TEDS | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| TRACKC19 | ✓ | ✗ | ✓ | ✓ | ✗ | ✗ |
-| TWINSUK | ✓ | ✗ | ✗ | ✓ | ✗ | ✗ |
-| UKHLS | ✓ | ✗ | ✓ | ✓ | ✓ | ✗ |
+| ALSPAC | 75%+ | ✗ | 75%+ | <25% | ✗ | 75%+ |
+| BCS70 | 50-74% | ✗ | 75%+ | 75%+ | 75%+ | 75%+ |
+| BIB | 75%+ | ✗ | 75%+ | 75%+ | ✗ | 75%+ |
+| ELSA | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
+| EPICN | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
+| EXCEED | <25% | 75%+ | 75%+ | 75%+ | ✗ | ✗ |
+| FENLAND | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
+| GENSCOT | 75%+ | <25% | 75%+ | 75%+ | ✗ | ✗ |
+| GLAD | 25-49% | 25-49% | 25-49% | 25-49% | 25-49% | ✗ |
+| MCS | 25-49% | ✗ | 50-74% | 75%+| 50-74% | ✗ |
+| NCDS58 | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
+| NEXTSTEP | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
+| NICOLA | 75%+ | ✗ | 75%+ | ✗ |75%+ | ✗ |
+| NIHRBIO_COPING | 75%+ | 75%+ | 75%+ | 50-74% | ✗ | ✗ |
+| NSHD46 | 75%+ | ✗ | 75%+ | ✗ | 75%+ | ✗ |
+| SABRE | 75%+ | ✗ | <25% | <25% | <25% | ✗ |
+| TEDS | 75%+ | 50-74% | 50-74% | 50-74% | 75%+ | 25-49% |
+| TRACKC19 | 75%+ | ✗ | 75%+ | 75%+ | ✗ | ✗ |
+| TWINSUK | 75%+ | ✗ | 75%+ | 50-74% | ✗ | ✗ |
+| UKHLS | <25% | ✗ | <25% | <25% | <25% | ✗ |
 | UKREACH<sup>2</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
 
 **Notes:**  
