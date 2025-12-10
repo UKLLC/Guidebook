@@ -46,7 +46,7 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |[**ALSPAC**](../LPS%20profiles/ALSPAC.ipynb)|✓|✓|Postcode|✓|✓|✓|
 |[**EPICN**](../LPS%20profiles/EPICN.ipynb)|✓|✗|✗|✗|✗|✗|
-|[**FENLAND**](../LPS%20profiles/FENLAND.ipynb)|✗|✗|✗|✗|✗|✗|
+|[**FENLAND**](../LPS%20profiles/FENLAND.ipynb)|✓|✗|✗|✗|✗|✗|
 |[**NICOLA**](../LPS%20profiles/NICOLA.ipynb)|✗|✗|✗|✗|✗|✗|
 |[**NIHRBIO_COPING**](../LPS%20profiles/NIHRBIO_COPING.ipynb)|✓|✓|Postcode|✓|✗|✗|
 |[**SABRE**](../../LPS%20profiles/SABRE.ipynb)|✗|✓|Full address|✗|✗|✗|
