@@ -1,11 +1,13 @@
 
 # Can I apply?
->Last modified: 21 Aug 2025
+>Last modified: 11 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers must be UK-based and ONS accredited, and their project must be in the public good.</strong></div>
 <br>
 
 To ensure the appropriate and fair use of LPS participants’ information, UK LLC operates a rigorous multi-stage <strong><a href="https://ukllc.ac.uk/apply" target="_blank" rel="noopener noreferrer">application assessment process</a></strong>. All applicants and
 their applications are assessed against the <strong><a href="https://ukdataservice.ac.uk/help/secure-lab/what-is-the-five-safes-framework/" target="_blank" rel="noopener noreferrer">‘Five Safes’ Framework</a></strong> to determine whether they meet the requirements and commitments agreed with participants of LPS and data owners. See the <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">UK LLC Data Access and Acceptable Use Policy</a></strong> for further information.
+
+<aside class="admonition note"><p class="admonition-title">Researchers can apply for LPS data only or LPS data AND linked data</p>Researchers can NOT only apply for linked data.</aside> 
 
 
 ##  Researcher requirements
