@@ -1,5 +1,5 @@
 # Coded variables in NHS England datasets
->Last modified: 10 Dec 2025
+>Last modified: 12 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Clinical classification systems are used to code information collected about patients in the NHS England datasets.</strong></div>
 <br>
 
@@ -63,7 +63,8 @@ Table 1 lists the systems used in each NHS England dataset in the UK LLC TRE. Be
 NHS national codes are defined for specific data items in NHS datasets. These include variables such as admission source, discharge destination, ethnic group, etc. National codes are also used to record the specialised service within which a patient is treated. <strong><a href="https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html" target="_blank" rel="noopener noreferrer">Click here to browse NHS national codes for specialties and treatments</a></strong>.
 
 **Other codes:** NHS England dataset contain a range of other coding systems, primarily concerned with non-clinical aspects of care. For example:
-* **Organisation Data Service (ODS)** codes are used to identify organisations across health and social care. In most cases in the UK LLC TRE, ODS codes are encrypted so specific organisations cannot be identified. <a href="https://odsportal.digital.nhs.uk/Organisation/Search" target="_blank" rel="noopener noreferrer">Click here to browse ODS codes</a>. 
+* **Organisation Data Service (ODS)** codes are used to identify organisations across health and social care. In most cases in the UK LLC TRE, ODS codes are encrypted so specific organisations cannot be identified. <a href="https://odsportal.digital.nhs.uk/Organisation/Search" target="_blank" rel="noopener noreferrer">Click here to browse ODS codes</a>.  
+* The Cancer Registration dataset uses **ICD-O-3** codes which are designed specifically for use in oncology. <a href="https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology" target="_blank" rel="noopener noreferrer">Click here to learn more about ICD-O-3 codes</a>.
 * Some variables have their own specific set of codes as detailed in the value labels available in the UK LLC TRE.
 
 ## Accuracy and completeness of codes
