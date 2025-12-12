@@ -1,5 +1,5 @@
 # Understanding the GDPPR dataset
->Last modified: 01 Dec 2025
+>Last modified: 12 Dec 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The General Practice Extraction Service (GPES) Data for Pandemic Planning and Research dataset contains an extract of coded data items from primary care (GP) records from General Practices across England.</strong></div>  
 
 ## 1. Introduction
@@ -63,7 +63,9 @@ The UK LLC TRE holds an extract of the GDPPR dataset, going back to the 1940s. T
 All variables which identify organisations (e.g. GP practice) or geographic areas smaller than a region (e.g. LSOA) are encrypted before being ingested into the UK LLC TRE. The encrypted variables (identifiable by the suffix _e) enable researchers to identify which participants were registered with the same general practice, or live in the same area, but not to identify the organisation or area.  
 
 ## 11. Tips for researchers using GDPPR in the UK LLC TRE
-Researchers should be mindful of the fact that GDPPR is not a complete record of an LPS participant's interaction with their GP practice. The records included are restricted to the codes included in the GDPPR business rules applicable at the time of data extraction.
+Researchers should be mindful of the fact that GDPPR is not a complete record of an LPS participant's interaction with their GP practice. The records included are restricted to the codes included in the GDPPR business rules applicable at the time of data extraction.  
+
+>When applying to access GDPPR data in the UK LLC TRE, researchers must [**submit a codelist**](../../Coding/codelists.md) specifying the **SNOMED** codes which are relevant to their research question. 
 
 **Note**: Information about medicines prescribed in primary care is available in the [PCM](../PCM/PCM.ipynb) dataset. Using the two datasets together will provide a more comprehensive picture of participants' interactions with primary care providers than will using GDPPR alone.  
 

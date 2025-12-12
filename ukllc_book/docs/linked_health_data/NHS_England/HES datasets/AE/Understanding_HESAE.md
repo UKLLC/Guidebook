@@ -1,5 +1,5 @@
 # Understanding the HESAE dataset
->Last modified: 02 Dec 2025
+>Last modified: 12 Dec 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>HESAE is a record of Accident & Emergency (A&E) attendances in NHS hospitals in England.</strong></div>  
 
@@ -73,7 +73,8 @@ All variables which identify organisations (e.g. GP practice, NHS Trust) or geog
 When HESAE was first introduced, it did not capture all visits to A&E so cannot be regarded as the complete picture of attendances. Overall coverage improved when it became part of official statistics in 2012, but the completeness of some key fields reduced with the phased introduction of the Emergency Care Dataset (ECDS) starting in 2017.
 
 ### b) Working with medical codes
- When applying to access linked HESAE data in the UK LLC TRE, researchers must [**submit a codelist**](../../Coding/codelists.md) specifying the A&E codes which are relevant to their research question. UK LLC requires only the **Diagnosis Condition**, i.e. the first two characters of the A&E Diagnosis Code.  
+ >When applying to access linked HESAE data in the UK LLC TRE, researchers must [**submit a codelist**](../../Coding/codelists.md) specifying the A&E codes which are relevant to their research question.  
+ >UK LLC requires only the **Diagnosis Condition**, i.e. the first two characters of the A&E Diagnosis Code.  
 
 **Key variables in HESAE**
 | Variable name | Variable label | Description |

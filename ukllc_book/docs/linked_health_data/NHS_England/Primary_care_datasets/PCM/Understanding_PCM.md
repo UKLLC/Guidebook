@@ -1,5 +1,5 @@
 # Understanding the Primary Care Medicines (PCM) Dataset
->Last modified: 10 Dec 2025
+>Last modified: 12 Dec 2025
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>PCM is a record of prescriptions dispensed and fulfilled in community settings in England.</strong></div>  
 
@@ -59,6 +59,8 @@ More detailed information about the UK LLC's PCM extract is [here](../PCM/PCM.ip
 All variables which identify organisations (e.g. GP practice, NHS Trust) or geographic areas smaller than a region (e.g. LSOA) are encrypted before being ingested into the UK LLC TRE. The encrypted variables (identifiable by the suffix **_e**) enable researchers to identify which participants were treated by the same organisation, or live in the same area, but not to identify the organisation or area.
 
 ## 11. Tips for researchers using PCM in the UK LLC TRE
+>When applying to access linked PCM data in the UK LLC TRE, researchers must [**submit a codelist**](../../Coding/codelists.md) specifying the **BNF** codes which are relevant to their research question. 
+
 
 **Key variables in the PCM dataset**
 | Variable name | Variable label |
