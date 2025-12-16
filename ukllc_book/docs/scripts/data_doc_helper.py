@@ -1125,7 +1125,7 @@ class NHSEDataSet:
             self.dl_cites, # Download Cite
             md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/NHS_England/NHSE_intro", self.df_ds.iloc[0]["source_name"]), # Series
             self.df_ds.iloc[0]["Owner"], # Owner
-            "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format(datetime.now().strftime("%Y")), # Copyright
+            "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format("2026"), # Copyright
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
             self.participants, # Participant Count
