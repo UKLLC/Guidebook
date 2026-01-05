@@ -1,13 +1,13 @@
 # Available software
->Last modified: 07 Oct 2025
+>Last modified: 05 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
 UK LLC supports researchers in using their preferred software packages. The following packages are **pre-installed** in the UK LLC TRE: 
-* SQL Server Management Studio
-* Python
-* R and RStudio
-* Stata 
+* [SQL Server Management Studio](#1-sql-server-management-studio)
+* [Python](#2-python)
+* [R and RStudio](#3-r-and-rstudio)
+* [Stata](#4-stata)
 * Jupyter Notebooks
 * SPSS.   
 
@@ -143,20 +143,26 @@ If you are having issues with upgrading R and package compatibility issues, plea
 For more information on using R and R studio in the TRE  visit the [SeRP guidance](https://ukserp.atlassian.net/wiki/spaces/HDK/pages/16712639/RStudio+and+R).
 
 ## 4. Stata
-### Using the Stata helper
-Click on the YouTube link below for a short video guide (60 seconds).
+The 'Stata helper' script in the TRE extracts and labels all the datasets provisioned to your project, saving them in your project working space. Alternatively, you can manually retrieve and label the data one table at a time. 
+
+### Using the Stata helper  
+**N.B. Before using the Stata helper, you need to create a python environment.** The steps for doing this are described in ['Creating a new environment'](#creating-a-new-environment) above.
+
+Once you have created a your python environment, click on the Youtube link below for a short video guide (60 seconds) to using the Stata helper.
 
 [![Image alt text](https://img.youtube.com/vi/arWQzkiQcv0/0.jpg)](https://www.youtube.com/watch?v=arWQzkiQcv0)
 
 
-A Stata helper script is provided in '**S:\ReadAll\stata_help**'. The script 'py_stata_helper.py' is run by a batch file 'run_stata_helper.bat'. This program will extract data from your project views in the database, add variable and value labels and save stata format (.dta) files to your project working space in 'S:\LLC_XXXX\data\stata_w_labs'. To use the helper:
-1. Create your own python environment. See 'Creating a new environment' if not already done.
-2. When the program completes, double click on 'S:\ReadAll\stata_help\run_stata_helper.bat'.
-3. When asked, input your project number in the example form '9999'.
+The Stata helper script is provided in the folder '**S:\ReadAll\stata_help**'. The batch file 'run_stata_helper.bat' runs the script 'py_stata_helper.py'. This python script will extract data from your project views, add variable and value labels and save **stata format (.dta) files** to your project working space in the folder 'S:\LLC_XXXX\data\stata_w_labs'.  
+
+To use the helper:
+1. Create your own python environment if you have not already done so (see ['Creating a new environment'](#creating-a-new-environment) above).
+2. When the new environment has been created, double click on 'S:\ReadAll\stata_help\run_stata_helper.bat'.
+3. When asked, input your project number as four numbers, e.g. 9999.
 4. The command prompt will print to inform you when a dataset has been retrieved and whether value and variable labels have been found. 
 5. The files will be saved in .dta format in 'S:\LLC_XXXX\data\stata_w_labs' and can be opened in Stata.
 
-**Warning**: if your project has been provisioned a large number of views this process can take up to an hour to complete.
+**Note**: if your project has been provisioned a large number of views this process can take up to an hour to complete.
 
 ### Manually retrieve and label data
 To retrieve the full contents of a data view in Stata run:
@@ -172,8 +178,8 @@ Variables and value labels can be retrieved via the following database views:
 ### Using Stata with Jupyter Notebook
 If using Stata, we recommend building your analyses into a **Jupyter Notebook**. Jupyter Notebook allows you to execute code and to create visualisations with narrative text in one document (a 'notebook'). This enables researchers to easily **share their code** and **research findings**. If you are new to Jupyter, we recommended that you familiarise yourself using online tutorial/training material.
 
-Stata in Jupyter is invoked using the **IPython kernal**, so you can use Python and Stata in the same environment. To use Stata within Jupyter you will first need to create your own python environment. You will also need to run the Stata helper to convert your database views into Stata files. Once you’ve completed these 2 steps, you can begin with Stata in Jupyter:
-1.	Launch Anaconda Prompt.
+Stata in Jupyter is invoked using the **IPython kernal**, so you can use Python and Stata in the same environment. To use Stata within Jupyter you will first need to [**create your own python environment**](#creating-a-new-environment) and run the [**Stata helper**](#using-the-stata-helper) to convert your database views into Stata files. Once you’ve completed these two steps, you can begin with Stata in Jupyter:
+1.	Launch Anaconda Prompt by typing into the Search bar.
 2.	Type: *conda activate "P:/%USERNAME%/envs/env1"* replacing %USERNAME% with your actual username. This will switch you to your custom environment.
 3.	Change directory to where you want to save your workings by typing: *S:* and then *cd "LLC_9999\syntax"* replacing "*LLC_9999\syntax"* with target working directory.
 4.	Within Anaconda Prompt type: *jupyter notebook*. This will launch Jupyter Notebook with your custom environment and working directory pre-configured. 
