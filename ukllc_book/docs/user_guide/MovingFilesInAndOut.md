@@ -1,5 +1,5 @@
 # Moving files in and out
->Last modified: 02 Sep 2025
+>Last modified: 06 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>How to request to move files in and out of the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
@@ -32,7 +32,7 @@ It is a **critical principle** of UK LLC that only **anonymous** population leve
 
 **All researchers** agree to uphold these **principles**:
 1. All outputs must comply with the project’s permissions and scope.
-2. The **SDC threshold is 10 data subjects**. Unweighted counts <10 and statistics (e.g. weighted counts, percentages, means, etc.) derived from groups containing <10 data subjects must be suppressed, i.e. counts ranging from zero to nine, inclusive, are not permitted.
+2. The **SDC threshold is 10 data subjects**. Unweighted counts <10 and statistics (e.g. weighted counts, percentages, means, etc.) derived from groups containing <10 data subjects must be suppressed, i.e. counts ranging from zero to nine, inclusive, are not permitted. See the [**SDC guide**](../user_guide/SDC.md) for further details.
 3. All researchers must make best efforts to ensure outputs are anonymous before submitting them for file-out checks.
 4. The findings of the file-out review are binding and research users must **correct any identified issues**.
 

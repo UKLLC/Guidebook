@@ -1,19 +1,19 @@
 # Statistical Disclosure Control (SDC)
->Last modified: 02 Sep 2025
-
+>Last modified: 06 Jan 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC enforces strict SDC rules on all information leaving the UK LLC Trusted Research Environment (TRE).</strong></div style>
 <br>
 
-Statistical disclosure refers to the risk of revealing confidential information about an individual when releasing outputs, e.g. tables or graphs from a secure environment. To prevent statistical disclosure, UK LLC enforces strict statistical disclosure control (SDC) rules.
+Statistical disclosure refers to the risk of revealing confidential information about an individual when releasing outputs, e.g. tables or graphs from a secure environment. To prevent statistical disclosure, UK LLC enforces strict statistical disclosure control (SDC) rules. 
 
-UK LLC’s SDC threshold is **10 data subjects**. Any output (including tables, charts and text) that includes counts <10, including zero, cannot be taken out of the TRE. File out requests that include counts <10 will be rejected by the SDC reviewers and the researcher will be asked to resubmit their request.
+UK LLC's SDC threshold is **10 data subjects**. Any output (including tables, charts and text) that includes counts <10, including zero, cannot be taken out of the TRE. File out requests that include counts <10 will be rejected by the SDC reviewers and the researcher will be asked to resubmit their request.
 
+<aside class="admonition note"><p class="admonition-title">UK LLC does not consider exceptions to the SDC threshold</p>UK LLC works with many partner LPS and linked data owners. The SDC thresholds of the data owners vary. To ensure that UK LLC respects each and every data owner, UK LLC has set an SDC threshold that encompasses all the individual data owners’ thresholds. In line with the Five Safes framework, UK LLC’s rule underpins Safe Outputs by applying consistent disclosure control, where the contextual assessment of disclosure risk for small counts is inherently challenging.</aside> 
 
 >The most common reasons for a file out request being rejected are:
->1. **Low counts** (counts <10 included in the output)
->2. **Masking issues** (low counts have been suppressed but can be derived from the information presented)
->3. **Insufficient information** provided (so the reviewer is unable to fully understand the output)
+>1. **Low counts** (counts <10 included in the output).
+>2. **Masking issues** (low counts have been suppressed but can be derived from the information presented).
+>3. **Insufficient information** provided (so the reviewer is unable to fully understand the output).
 
 
 ***
@@ -25,7 +25,7 @@ UK LLC’s SDC threshold is **10 data subjects**. Any output (including tables, 
 
 * Rounding values (to reduce specificity)
 
-* Suppressing or masking values
+* Suppressing or masking values.
 
 **Note**: Low counts also include percentages referring to <10 individuals, even if the actual counts are not presented. In all outputs means, medians, modes, standard deviations and variances should only be reported where they are based on a count of at least 10.
 
@@ -36,7 +36,7 @@ When suppressing figures in a table or graph:
 
 * Usually two or more categories should be suppressed so original counts cannot be deduced
 
-* In tables, masking will need to be done both row-wise and column-wise so counts cannot be back-calculated
+* In tables, masking will need to be done both row-wise and column-wise so counts cannot be back-calculated.
 <br>
 
 To ensure file out requests meet SDC requirements, all counts <10 should be masked. For masking to be effective:
@@ -46,7 +46,7 @@ To ensure file out requests meet SDC requirements, all counts <10 should be mask
 
 * A zero (0) is an ambiguous value of suppression and should be avoided
 
-* There should be a clear note regarding what the masking symbol indicates (e.g. 'counts <10 including zero')
+* There should be a clear note regarding what the masking symbol indicates (e.g. 'counts <10 including zero').
 
 ***
 
@@ -59,6 +59,6 @@ It is important that **sufficient information** is provided with a file out for 
 ***
 
 **Further information** is available from:
-* The <strong><a href="https://securedatagroup.org/sdc-handbook/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong> produced by the Safe Data Access Professionals network
+* The <strong><a href="https://securedatagroup.org/sdc-handbook/" target="_blank" rel="noopener noreferrer">SDC Handbook</a></strong> produced by the Safe Data Access Professionals network
 
 * The <strong><a href="https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/gettingyourresearchoutputsapproved" target="_blank" rel="noopener noreferrer">SRS Output Checking Guidance Document Work strand: Statistical Disclosure Control</a></strong> produced by the Office for National Statistics (ONS).
