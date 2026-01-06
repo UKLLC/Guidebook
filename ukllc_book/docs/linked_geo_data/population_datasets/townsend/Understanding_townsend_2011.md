@@ -23,12 +23,12 @@ Detailed information on how the Townsend scores were calculated can be found in 
 | **Overcrowding**                        | Percentage of households that are overcrowded, i.e. more occupants than there are rooms.         | Persons per room          |
 | **Non-car ownership**                   | Percentage of households that do not own a car or van.                                           | Car or van availability   |
 | **Non-home ownership**                  | Percentage of households that are not owner-occupied, i.e. rented or living rent free.           | Tenure                    |
-``
+
 - The Townsend deprivation scores were calculated using the percentages of the 4 indicators: 
-        * Percentage non-car ownership: Households with no car/ Total of households x 100 
-        * Percentage non- home ownership: Households that are not occupant owned (rented)/ Total of households x 100 
-        * Percentage unemployment: People who are unemployed/ Total people economically active x 100  
-        * Percentage overcrowding: Households that are overcrowded/ Total of households x 100
+        - Percentage non-car ownership: Households with no car/ Total of households x 100 
+        - Percentage non- home ownership: Households that are not occupant owned (rented)/ Total of households x 100 
+        - Percentage unemployment: People who are unemployed/ Total people economically active x 100  
+        - Percentage overcrowding: Households that are overcrowded/ Total of households x 100
 
 ### Calculation of the Townsend score
 
