@@ -1,19 +1,19 @@
 # Available software
->Last modified: 05 Jan 2026
+>Last modified: 06 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
 UK LLC supports researchers in using their preferred software packages. The following packages are **pre-installed** in the UK LLC TRE: 
-* [SQL Server Management Studio](#1-sql-server-management-studio)
-* [Python](#2-python)
-* [R and RStudio](#3-r-and-rstudio)
-* [Stata](#4-stata)
+* [SQL Server Management Studio](#sql-server-management-studio)
+* [Python](#python)
+* [R and RStudio](#r-and-rstudio)
+* [Stata](#stata)
 * Jupyter Notebooks
-* SPSS.   
+* SPSS   
 
 If you prefer to use **other software**, please contact [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk) and the UK LLC Data Team will coordinate review of your request. Please be aware that alternative software packages may incur a fee. 
 
-## 1. SQL Server Management Studio  
+## SQL Server Management Studio  
 SQL Server Management Studio can be used to **view and query your data**. To explore your database views, open the software package and connect to the server ‘**SERPSQL**’. Under ‘Databases’ in the Object Explorer, navigate to the ‘**UKSERPUKLLC**’ folder, where you can explore your ‘**Views**’ and '**Tables**'. Data and metadata are found in ‘Views’ and Codelists in ‘Tables’.  
 
 To **browse the data** in a specific view, right click on the view name and ‘**Select Top 1000 Rows**’. This will produce a grid-view of the first 1,000 rows of data and a query window where data can be queried using SQL commands. This also works for tables.  
@@ -23,7 +23,7 @@ Click on the YouTube link below for a short video guide (70 seconds).
 [![Image alt text](https://img.youtube.com/vi/e2nrAly21Uo/0.jpg)](https://www.youtube.com/watch?v=e2nrAly21Uo)
 
 
-## 2. Python
+## Python
 To use python and install any packages, you need to create your own **Anaconda environment**. You should do this **before running any code**. This enables you to pip and conda install packages **without barriers**. 
 
 ### Creating a new environment
@@ -68,7 +68,7 @@ We recommend using **Juypter notebook** and we have prepared a template notebook
 
 **Note**: for **Jupyter notebooks** you may want to change directory to your working directory **before running the application**.
 
-## 3. R and RStudio
+## R and RStudio
 ### Using the R helper
 Click on the YouTube link below for a short video guide (120 seconds).
 
@@ -142,7 +142,7 @@ If you are having issues with upgrading R and package compatibility issues, plea
 
 For more information on using R and R studio in the TRE  visit the [SeRP guidance](https://ukserp.atlassian.net/wiki/spaces/HDK/pages/16712639/RStudio+and+R).
 
-## 4. Stata
+## Stata
 The 'Stata helper' script in the TRE extracts and labels all the datasets provisioned to your project, saving them in your project working space. Alternatively, you can manually retrieve and label the data one table at a time. 
 
 ### Using the Stata helper  
