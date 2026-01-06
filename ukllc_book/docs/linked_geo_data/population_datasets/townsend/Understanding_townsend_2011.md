@@ -50,7 +50,7 @@ The percentages of the 4 indicators were weighted equally in the calculation.
 
 - [Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02) argue that there are long-established indicators of deprivation that the Townsend deprivation index does not consider that other measures of deprivation do. For example, social class.  
 
-<sup>1</sup>Alternative approaches to splitting quintiles include quintiles by population which takes into account that some areas have higher population than others. The latter method of producing quintiles is more accurate, although the results that are produced are similar and do not have an effect on the actual Townsend scores produced. Using the latter method will mean that some of the areas will be allocated to different quintiles with a different range of scores in each quintile. 
+<sup>1</sup>Alternative approaches to splitting quintiles include, quintiles by population which takes into account that some areas have higher population than others. The latter method of producing quintiles is more accurate, although the results that are produced are similar and do not have an effect on the actual Townsend scores produced. Using the latter method will mean that some of the areas will be allocated to different quintiles with a different range of scores in each quintile. 
 
 
 
@@ -63,6 +63,6 @@ The percentages of the 4 indicators were weighted equally in the calculation.
 
 ## Townsend Index visualisation, 2011
 
-**Figure 1** UK Townsend Deprivation scores from the 2011 census data, developed by[Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02) displayed at Lower Super Output Area/Data Zone/ Super Output Area. Data source: Office for National Statistics; National Records of Scotland; Northern Ireland Statistics and Research Agency; UK Data Service.
+**Figure 1**  UK Townsend Deprivation scores from the 2011 census data, developed by [Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02), displayed at Lower Super Output Area/Data Zone/ Super Output Area. Data source: Office for National Statistics; National Records of Scotland; Northern Ireland Statistics and Research Agency; UK Data Service.
 <img src= "../townsend/Townsend%202011%20UKDS.png" width="900">
  
