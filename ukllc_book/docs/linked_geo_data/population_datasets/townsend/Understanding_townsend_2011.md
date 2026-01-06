@@ -64,5 +64,5 @@ The percentages of the 4 indicators were weighted equally in the calculation.
 ## Townsend Index visualisation, 2011
 
 **Figure 1** UK Townsend Deprivation scores from the 2011 census data, developed by[Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02) displayed at Lower Super Output Area/Data Zone/ Super Output Area. Data source: Office for National Statistics; National Records of Scotland; Northern Ireland Statistics and Research Agency; UK Data Service.
-<img src= "../townsend/Townsend%202011%20UKDS.png" width="900">
+<img src= "../townsend/Townsend_2011_UKDS.png" width="900">
  
