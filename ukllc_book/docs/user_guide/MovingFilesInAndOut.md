@@ -1,5 +1,5 @@
 # Moving files in and out
->Last modified: 06 Jan 2026
+>Last modified: 08 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>How to request to move files in and out of the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
@@ -8,14 +8,19 @@ Click on the YouTube link below for a short video guide (90 seconds). Alternativ
 [![Image alt text](https://img.youtube.com/vi/bBBjVejeHWY/0.jpg)](https://www.youtube.com/watch?v=bBBjVejeHWY)
 
 ## File-ins
+
 You may want to move files that you hold **outside** the TRE (i.e. syntax, documentation), **into** the TRE to facilitate your research. To do so, you must submit a **file-in request** through the <strong><a href="https://portal.ukllc.ukserp.ac.uk/" target="_blank" rel="noopener noreferrer">SeRP Portal</a></strong> following the <strong><a href="https://docs.hiru.swan.ac.uk/display/HDK/File+In+User+Guide" target="_blank" rel="noopener noreferrer">SeRP guidance</a></strong>. All file-ins are reviewed by the UK LLC Data Team within one to two working days.
 
 **Note**: Data **can not** be filed into the TRE by researchers. If your project requires data not currently available, you should contact the UK LLC Applications Team [**(access@ukllc.ac.uk)**](mailto:access@ukllc.ac.uk) who will review each request on a case by case basis.
+
+<aside class="admonition info"><p class="admonition-title">Average time for a file-in in 2024 was 1 day</a></p></aside>
 
 ## File-outs
 You will want to take out **analytical outputs** (e.g. tables, graphs) and **reusable research outputs** (e.g. syntax, documentation) from the TRE. Before any output is released it must be **screened** to ensure it is within the **scope** of the project and data owner permissions and is **not disclosive**, i.e. safeguards the confidentiality of data subjects. The two categories of file outs follow different review paths as shown in figure 1.
 
 All **analytical outputs** are reviewed independently by two members of the **SAIL Databank Statistical Disclosure Control (SDC) Team** based at Swansea University. An analytical file-out may take 7 to 10 working days to be processed depending on complexity. All **reusable research outputs** are reviewed by the **UK LLC Data Team**. A reusable research output may take up to 5 working days to be processed depending on complexity. For further information on reusable research outputs - see [**Using Git guide**.](../user_guide/TeamDataScience.md)
+
+<aside class="admonition info"><p class="admonition-title">Average time for a file-out in 2024 was 6 days</a></p></aside>
 
 <div style="text-align: center;">
 
