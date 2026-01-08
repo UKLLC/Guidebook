@@ -23,12 +23,12 @@ Detailed information on how the Townsend scores were calculated can be found in 
 | **Overcrowding**                        | Percentage of households that are overcrowded, i.e. more occupants than there are rooms.         | Persons per room          |
 | **Non-car ownership**                   | Percentage of households that do not own a car or van.                                           | Car or van availability   |
 | **Non-home ownership**                  | Percentage of households that are not owner-occupied, i.e. rented or living rent free.           | Tenure                    |
-``
+
 - The Townsend deprivation scores were calculated using the percentages of the 4 indicators: 
-        * Percentage non-car ownership: Households with no car/ Total of households x 100 
-        * Percentage non- home ownership: Households that are not occupant owned (rented)/ Total of households x 100 
-        * Percentage unemployment: People who are unemployed/ Total people economically active x 100  
-        * Percentage overcrowding: Households that are overcrowded/ Total of households x 100
+        - Percentage non-car ownership: Households with no car/ Total of households x 100 
+        - Percentage non- home ownership: Households that are not occupant owned (rented)/ Total of households x 100 
+        - Percentage unemployment: People who are unemployed/ Total people economically active x 100  
+        - Percentage overcrowding: Households that are overcrowded/ Total of households x 100
 
 ### Calculation of the Townsend score
 
@@ -50,7 +50,7 @@ The percentages of the 4 indicators were weighted equally in the calculation.
 
 - [Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02) argue that there are long-established indicators of deprivation that the Townsend deprivation index does not consider that other measures of deprivation do. For example, social class.  
 
-<sup>1</sup>Alternative approaches to splitting quintiles include quintiles by population which takes into account that some areas have higher population than others. The latter method of producing quintiles is more accurate, although the results that are produced are similar and do not have an effect on the actual Townsend scores produced. Using the latter method will mean that some of the areas will be allocated to different quintiles with a different range of scores in each quintile. 
+<sup>1</sup>Alternative approaches to splitting quintiles include, quintiles by population which takes into account that some areas have higher population than others. The latter method of producing quintiles is more accurate, although the results that are produced are similar and do not have an effect on the actual Townsend scores produced. Using the latter method will mean that some of the areas will be allocated to different quintiles with a different range of scores in each quintile. 
 
 
 
@@ -63,6 +63,12 @@ The percentages of the 4 indicators were weighted equally in the calculation.
 
 ## Townsend Index visualisation, 2011
 
+<<<<<<< HEAD
 **Figure 1** UK Townsend Deprivation scores from the 2011 census data, developed by[Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02) displayed at Lower Super Output Area/Data Zone/ Super Output Area. Data source: Office for National Statistics; National Records of Scotland; Northern Ireland Statistics and Research Agency; UK Data Service.
 <img src= "../townsend/Townsend_2011_UKDS.png" width="900">
  
+=======
+**Figure 1**  UK Townsend Deprivation scores from the 2011 census data, developed by [Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02), displayed at Lower Super Output Area/Data Zone/ Super Output Area. Data source: Office for National Statistics; National Records of Scotland; Northern Ireland Statistics and Research Agency; UK Data Service.
+<img src= "../townsend/Townsend_2011_UKDS.png" width="900">
+ 
+>>>>>>> 66d7a5d1bf61fbef86c233cb10d01c051269a72c

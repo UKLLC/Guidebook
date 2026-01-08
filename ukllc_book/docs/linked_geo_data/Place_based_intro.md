@@ -1,6 +1,6 @@
 # Place-based data
 
-> Last modified: 03 Dec 2025
+> Last modified: 08 Jan 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has established data pipelines to ingest both open-source place-based data and datasets provided by agreed partners into the UK LLC Trusted Research Environment (TRE).</strong></div>  
 
@@ -28,7 +28,7 @@ Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopen
 | [Air pollution NOx, NO2 and O3](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.ipynb) | Environmental | Pollution | Annual average assessments (hourly and 24-hour) for NOx, NO2 and O3. | England, Wales | Address | 2018–2020 | University of Leicester and St George's, University of London |
 | [Noise pollution](../linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb) | Environmental | Pollution | Modelled road-transport noise estimates. | England, Wales | Address | 2013 | University of Leicester and St George's, University of London |
 | [Index of Multiple Deprivation](../linked_geo_data/population_datasets/IMD/IMD.ipynb)| Population | Deprivation | A relative indicator of deprivation, urban/rural classification and population density |England, Scotland, Wales, Northern Ireland | Lower Super Output Area/Data Zone/Super Output Area | 2011-2020 | UK LLC |
-| [Townsend Index](../linked_geo_data/population_datasets/townsend/townsend.ipynb) | Population | Material deprivation | A relative indicator of material deprivation | England and Wales | Lower Super Output Area | 2021 | University of Leicester and St George's, University of London |
+| [Townsend Index](../linked_geo_data/population_datasets/townsend/townsend_2011.ipynb) | Population | Material deprivation | A relative indicator of material deprivation | England, Wales, Scotland and Northern Ireland | Lower Super Output Area | 2011 | UK Data Service |
 
 
 <br>
