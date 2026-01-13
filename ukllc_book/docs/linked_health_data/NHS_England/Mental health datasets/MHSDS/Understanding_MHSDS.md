@@ -155,8 +155,8 @@ All variables which identify organisations (e.g. GP practice, NHS Trust) or geog
 
 1.  In MHSDS, the term “referral” does not follow the conventional definition. Instead, it refers to any mental health-related contact with a professional, such as in A&E, a school, a GP practice, with a social worker, within the justice system, or even self-referral.
 2.  The cohort key and the record number are available within each table (except MHS 301 group session) and so researchers should be able to link between tables. 	  
-3.  Patient counts for mental health related cohorts can be derived from the Hospital Episode Statistics Outpatients (HESOP) and the Hospital Admitted Patient Care (HES APC) datasets.  In some cases, patients have diagnostic information recorded in both HES  (HESOP and HESAPC) and MHSDS.But MHSDS provides additional details on referrals and services received.
-4. HES APC can be used as a substitute until we receive the MHS 500 series which describes hospital activity (for identifying the count only)
+3.  Patient counts for mental health related cohorts can be derived from the Hospital Episode Statistics Outpatients (HESOP) and the Hospital Admitted Patient Care (HES APC) datasets.  In some cases, patients have diagnostic information recorded in both HES  (HESOP and HESAPC) and MHSDS. But MHSDS provides additional details on referrals and services received.
+4. HES APC can be used as a substitute until we receive the MHS 500 series which describes hospital activity (for identifying the count only).
 
 ## 12. Useful syntax 
 Below we will include syntax that may be helpful to other researchers in the UK LLC TRE. For longer scripts, we will include a snippet of the code plus a link to the UK LLC Github repository where you can find the full scripts.
