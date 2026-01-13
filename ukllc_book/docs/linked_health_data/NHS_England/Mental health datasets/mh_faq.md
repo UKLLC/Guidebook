@@ -1,5 +1,5 @@
 # FAQs about working with mental health data
->Last modified: 24 Nov 2025
+>Last modified: 13 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with mental health data.</strong></div style>  
 <br>
 
@@ -71,4 +71,10 @@ The 201 Care Contact table provides details about the type of clinical activity 
 <summary>How does information in table 201 vary from table 204 in the MHSDS?</summary>
 
 The 201 Care Contact table records information about direct care contact services where the patient (or sometimes their carer/family) is in contact with the service. The 204 Indirect Activity table records information where the patient is not present, but the activity still supports their care. 
+</details>
+
+<details>
+<summary>What information about mental health conditions can be obtained from HES OP &HES APC and what additional details are available only in MHSDS?</summary>
+
+Information about study participants diagnosed with mental conditions, including schizophrenia, bipolar disorder, and psychotic disorders, can be obtained from HES OP and HES APC.  These datasets allow the identification of diagnosis recorded in MHSDS fields such as the MHS601 (Previous Diagnosis), MHS603 (Provisional Diagnosis), MHS604 (Primary Diagnosis), MHS605 (Secondary Diagnosis). However, HES OP and HES APC provide only limited diagnostic detail and not adequate for detailed analysis. More detailed information suitable for in – depth analysis can instead be obtained from MHSDS.
 </details><br>
