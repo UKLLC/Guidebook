@@ -74,7 +74,13 @@ The 201 Care Contact table records information about direct care contact service
 </details>
 
 <details>
+<summary>What is the difference between HES and MHSDS ?</summary>
+
+The Hospital Episode Statistics [**HES**](https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/hes%20datasets/hospital_intro) collects information on secondary care activity within NHS hospitals including inpatient admissions, outpatient appointments, and Accident & Emergency attendances. In contrast, the Mental Health Services Data Set (MHSDS) provides comprehensive information about mental health and learning disabilities, including both community and inpatient care. It contains details on referrals, assessments, care plans, contacts with mental health professionals, and clinical outcomes.
+</details>
+
+<details>
 <summary>What information about mental health conditions can be obtained from HES OP &HES APC and what additional details are available only in MHSDS?</summary>
 
-Information about study participants diagnosed with mental conditions, including schizophrenia, bipolar disorder, and psychotic disorders, can be obtained from HES OP and HES APC.  These datasets allow the identification of diagnosis recorded in MHSDS fields such as the MHS601 (Previous Diagnosis), MHS603 (Provisional Diagnosis), MHS604 (Primary Diagnosis), MHS605 (Secondary Diagnosis). However, HES OP and HES APC provide only limited diagnostic detail and not adequate for detailed analysis. More detailed information suitable for in – depth analysis can instead be obtained from MHSDS.
+Information about study participants diagnosed with mental health conditions, including schizophrenia, bipolar disorder, and psychotic disorders, can be obtained from HES OP and HES APC. These datasets record only the diagnosis details found in MHSDS tables such as MHS601 (Previous Diagnosis), MHS603 (Provisional Diagnosis), MHS604 (Primary Diagnosis), and MHS605 (Secondary Diagnosis). However, HES OP and HES APC provide only limited diagnostic detail and are not adequate for detailed analysis. More comprehensive information suitable for in-depth analysis, such as referrals, services referred to, or care activities, can instead be obtained from MHSDS.
 </details><br>
