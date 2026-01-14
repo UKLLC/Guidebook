@@ -80,7 +80,7 @@ The Hospital Episode Statistics [**HES**](https://guidebook.ukllc.ac.uk/docs/lin
 </details>
 
 <details>
-<summary>What information about mental health conditions can be obtained from HES OP &HES APC and what additional details are available only in MHSDS?</summary>
+<summary>What information about mental health conditions can be obtained from HES OP and HES APC and what additional details are available only in MHSDS?</summary>
 
-Information about study participants diagnosed with mental health conditions, including schizophrenia, bipolar disorder, and psychotic disorders, can be obtained from HES OP and HES APC. These datasets record only the diagnosis details found in MHSDS tables such as MHS601 (Previous Diagnosis), MHS603 (Provisional Diagnosis), MHS604 (Primary Diagnosis), and MHS605 (Secondary Diagnosis). However, HES OP and HES APC provide only limited diagnostic detail and are not adequate for detailed analysis. More comprehensive information suitable for in-depth analysis, such as referrals, services referred to, or care activities, can instead be obtained from MHSDS.
+Information about study participants diagnosed with mental health conditions, including schizophrenia, bipolar disorder, and psychotic disorders, can be obtained from HES OP and HES APC. These datasets record only the diagnosis details found in MHSDS tables such as MHS601 (Previous Diagnosis), MHS603 (Provisional Diagnosis), MHS604 (Primary Diagnosis), and MHS605 (Secondary Diagnosis). More comprehensive information suitable for in-depth analysis, such as referrals, services referred to, or care activities, can instead be obtained from MHSDS.
 </details><br>
