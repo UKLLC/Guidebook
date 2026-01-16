@@ -1,6 +1,6 @@
 
 # How do I apply?
->Last modified: 23 Sep 2025
+>Last modified: 16 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>All applications must be submitted via UK LLC's online application management system, UK LLC Apply.</strong></div>
 <br>
 
@@ -13,11 +13,14 @@ We have split our **application guidance** into the following pages:
 
 We have also written a guide about the [**application review process**.](../Applying/review.md)
 
-<img src="../../images/Appl_review_process_27082025.jpg" width="600"/>
+<img src="../../images/UK LLC Access process_11112025.jpg" width="600"/>
 
-**Figure 1** A summary of UK LLC's application process with approximate timings for each stage  
-**Note**: only applications that include non-health administrative data will need to go through Stage 4 review.   
+
+**Figure 1** A summary of UK LLC's application process with approximate timings for each stage - also see the metrics below   
+**Note**: only applications that include [**non-health administrative data**](../../linked_admin_data/admin_data.md) will need to go through Stage 4 review by the UK Statistics Authority.   
 **Note**: the time it takes for a researcher’s organisation to sign a DAA with UK LLC can vary between less than a month to several months – this is outside the control of UK LLC.   
-**DAA**: Data Access Agreement; **DURA**: Data User Responsibilities Agreement; **EoI**: Expression of Interest; **UKSA**: UK Statistics Authority.
+**DAA**: Data Access Agreement; **DURA**: Data User Responsibilities Agreement; **EoI**: Expression of Interest; **Ts&Cs**: data owners' terms and conditions; **UKSA**: UK Statistics Authority.
 
+<aside class="admonition info"><p class="admonition-title">EoI metrics</p>On average it takes UK LLC 3.6 days to approve an expression of interest (from submission of final version of EoI).</aside> 
+<aside class="admonition info"><p class="admonition-title">Application metrics</p>On average it takes UK LLC and data owners 97.0 days to approve an application (from submission of final version of application).</aside> 
 
