@@ -1,6 +1,6 @@
 
 # How do I apply?
->Last modified: 16 Jan 2026
+>Last modified: 19 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>All applications must be submitted via UK LLC's online application management system, UK LLC Apply.</strong></div>
 <br>
 
@@ -13,7 +13,9 @@ We have split our **application guidance** into the following pages:
 
 We have also written a guide about the [**application review process**.](../Applying/review.md)
 
-<img src="../../images/UK LLC Access process_11112025.jpg" width="600"/>
+<img src="../../images/UKLLC_access_summary_11112025.png" width="600"/>
+
+
 
 
 **Figure 1** A summary of UK LLC's application process with approximate timings for each stage - also see the metrics below   
