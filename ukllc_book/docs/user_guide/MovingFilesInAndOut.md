@@ -1,5 +1,5 @@
 # Moving files in and out
->Last modified: 08 Jan 2026
+>Last modified: 21 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>How to request to move files in and out of the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
@@ -16,7 +16,7 @@ You may want to move files that you hold **outside** the TRE (i.e. syntax, docum
 <aside class="admonition info"><p class="admonition-title">Average time for a file-in in 2024 was 1 day</a></p></aside>
 
 ## File-outs
-You will want to take out **analytical outputs** (e.g. tables, graphs) and **reusable research outputs** (e.g. syntax, documentation) from the TRE. Before any output is released it must be **screened** to ensure it is within the **scope** of the project and data owner permissions and is **not disclosive**, i.e. safeguards the confidentiality of data subjects. The two categories of file outs follow different review paths as shown in figure 1.
+You will want to take out **analytical outputs** (e.g. tables, graphs) and **reusable research outputs** (e.g. syntax, documentation) from the TRE. Before any output is released it must be **screened** to ensure it is within the **scope** of the project, adheres to all your [**project-specific terms and conditions (Ts&Cs)**](../ukllc_key_facts/Applying/paperwork.md) and is **not disclosive**, i.e. safeguards the confidentiality of data subjects. The two categories of file outs follow different review paths as shown in figure 1.
 
 All **analytical outputs** are reviewed independently by two members of the **SAIL Databank Statistical Disclosure Control (SDC) Team** based at Swansea University. An analytical file-out may take 7 to 10 working days to be processed depending on complexity. All **reusable research outputs** are reviewed by the **UK LLC Data Team**. A reusable research output may take up to 5 working days to be processed depending on complexity. For further information on reusable research outputs - see [**Using Git guide**.](../user_guide/TeamDataScience.md)
 

@@ -1,5 +1,5 @@
 # Complete your project governance
->Last modified: 27 Aug 2025
+>Last modified: 21 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>You must be covered by a UK LLC Data Access Agreement and have accepted UK LLC's and data owners' terms and conditions of data use before you can access the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
@@ -20,7 +20,11 @@ Each researcher named on a project must accept UK LLC's terms of use listed on t
 
 
 ## 3. Data owners’ terms and conditions (Ts&Cs)
-Different data owners and indeed different datasets sometimes specify particular terms and conditions (Ts&Cs). It is imperative that researchers adhere to their project-specific Ts&Cs throughout the lifecycle of their project, i.e. when they are analysing and publishing their analyses. Data owners' Ts&Cs must be accepted by each researcher named on a project by logging into [**UK LLC Apply**](https://apply.ukllc.ac.uk/). If any Ts&Cs change while a project is active, researchers will be notified by email and will need to login and accept them.
+Different data owners and indeed different datasets sometimes specify particular terms and conditions (Ts&Cs). It is imperative that researchers adhere to their project-specific Ts&Cs throughout the lifecycle of their project, i.e. when they are analysing and publishing their analyses. Data owners' Ts&Cs must be accepted by each researcher named on a project by logging into [**UK LLC Apply**](https://apply.ukllc.ac.uk/). You can view your Ts&Cs by logging into UK LLC Apply, going to your project homepage and selecting the Terms & Conditions module:
+
+<img src="../../images/Ts&Cs_screenshot.png" width="600"/>
+
+If any Ts&Cs change while a project is active, researchers will be notified by email and will need to login and accept them.
 
 ## 4. System Level Security Policy (SLSP) (if required)
 Researchers must demonstrate sufficient levels of security policy and practice at their host organisation. This can be achieved through providing evidence that their research activity falls either within the scope of their organisation’s **ISO 27001 certification** or **NHS England Data Security and Protection Toolkit (DSPT) audit**. Where a researcher is not able to provide this assurance to UK LLC, they must complete the **UK LLC System Level Security Policy (SLSP) form**. The scope of the SLSP is limited to only the equipment used by the approved users, the setting in which they work and the network they use. It does not extend to the UK LLC TRE itself or their wider organisation. Typical contemporary University IT or Departmental Policy and Practice with adequate user training and awareness are likely to meet UK LLC’s requirements. 
