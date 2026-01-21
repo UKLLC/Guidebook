@@ -1,10 +1,10 @@
 # DRAFT LPS characteristics and study focus
 >Last modified: 21 Jan 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>A summary of LPS characteristics & the original focus of each study.</strong></div style>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>A summary of LPS characteristics and the original focus of each study.</strong></div style>  
 <br>
 
-Table 1 is summarises some of the key features of UK LLC's longitudinal population study (LPS) partners. It is intended as a starting point for researchers who may be unfamiliar with some of the LPS. More information is available elsewhere on [Guidebook](../LPS_introduction.md) and on the LPS's own websites.
+Table 1 summarises some of the key features of UK LLC's longitudinal population study (LPS) partners. It is intended as a starting point for researchers who may be unfamiliar with some of the LPS. More information about the LPS in the UKLLC partnership is available elsewhere on [Guidebook](../LPS_introduction.md) and on the LPS' own websites.
 
 ## Table 1: LPS characteristics and <span style="color:blue">*original study focus*</span>
 | LPS | <small>Single<br>region | <small>Age<br>cohort | <small>Children<br>& parents | <small>Common<br>occupation | <small>Ethnically<br>diverse</small> | <small><span style="color:blue">*Development<br>& ageing* | <small><span style="color:blue">*Health* | <small><span style="color:blue">*Education,<br>employment,<br>& finances* | <small><span style="color:blue">*Genetics*</small> |
