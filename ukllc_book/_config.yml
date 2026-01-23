@@ -54,6 +54,8 @@ execute:
 # exclude NHS England notebooks
     - 'linked_health_data/NHS_England/**/*.ipynb'
 
+# exclude UKLLC 
+    - 'ukllc_managed_data/datasets/NHSE_reference/*.ipynb'
 
 bibtex_bibfiles:
    - _bibliography/references.bib
