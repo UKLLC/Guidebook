@@ -10,7 +10,7 @@ UK LLC makes available a number of derived linked datasets. These files contain 
 Linked derived datasets containing data derived from **NHS England datasets** are filtered on the LPS selected and approved as part of your research project. In these cases participants are also filtered using the NHS England permissions. Datasets are updated each quarter but researchers' views of these data are 'locked' to permissions at the time of first data provision. The permissions themselves can be found in the UK LLC Study Permissions dataset e.g. 'UKLLC_study_permissions_v0000_YYYYMMDD' formerly known as 'CORE_denominator_file1_v0000_YYYYMMDD'.
 
 Datasets currently include:
-* [**Study Permissions**](../Linked_derived/study_permissions.ipynb)
-* [**NHSE Patient Service Usage**](../Linked_derived/nhse_patient_service_usage.ipynb)
-* [**NHSE Patient Demo Mortality**](../Linked_derived/nhse_patient_demo_mortality.ipynb)
-* [**NHSE LSOA11 Dataset Mappings**](../Linked_derived/nhse_lsoa11_dataset_mapping.ipynb)
+* [**Study Permissions**](../NHSE_reference/study_permissions.ipynb)
+* [**NHSE Patient Service Usage**](../NHSE_reference/nhse_patient_service_usage.ipynb)
+* [**NHSE Patient Demo Mortality**](../NHSE_reference/nhse_patient_demo_mortality.ipynb)
+* [**NHSE LSOA11 Dataset Mappings**](../NHSE_reference/nhse_lsoa11_dataset_mapping.ipynb)
