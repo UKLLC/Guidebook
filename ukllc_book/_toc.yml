@@ -343,34 +343,28 @@ parts:
       sections:
         - title: FAQs about UK LLC-managed data
           file: docs/ukllc_managed_data/ukllc_managed_faq.md
-        - title: UK LLC generated datasets
-          file: docs/ukllc_managed_data/UKLLC_generated/UKLLC_generated.md
+        - title: Harmonised sociodemographic datasets
+          file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md
           sections:
-            - title: LPS derived datasets
-              file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/LPS_derived.md
-              sections:
-                - title: Harmonised demographic (full)
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_full.ipynb
-                - title: Harmonised demographic (reduced)
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/demo_harmonised_reduced.ipynb
-                - title: Harmonised highest educational qualification
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/LPS_derived/education_harmonised.ipynb
-            - title: Linked derived datasets
-              file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/Linked_derived.md
-              sections:
-                - title: Study permissions
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/study_permissions.ipynb
-                - title: NHS England patient service usage
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.ipynb
-                - title: NHS England patient demo mortality
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_demo_mortality.ipynb
-                - title: NHS England lsoa11 dataset mappings
-                  file: docs/ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_lsoa11_dataset_mapping.ipynb
-        - title: Researcher generated datasets
-          file: docs/ukllc_managed_data/researcher_generated/researcher_data.md
+            - title: Demographic (full)
+              file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/demo_harmonised_full.ipynb
+            - title: Demographic (reduced)
+              file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/demo_harmonised_reduced.ipynb
+            - title: Highest educational qualification
+              file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/education_harmonised.ipynb
+        - title: NHS England reference datasets
+          file: docs/ukllc_managed_data/Datasets/NHSE_reference/NHSE_reference.md
           sections:
-            - title: Charlson comorbidity
-              file: docs/ukllc_managed_data/researcher_generated/Datasets/Charlson.ipynb
+            - title: Study permissions
+              file: docs/ukllc_managed_data/Datasets/NHSE_reference/study_permissions.ipynb
+            - title: NHS England patient service usage
+              file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_patient_service_usage.ipynb
+            - title: NHS England patient demo mortality
+              file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_patient_demo_mortality.ipynb
+            - title: NHS England lsoa11 dataset mappings
+              file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_lsoa11_dataset_mapping.ipynb
+        - title: Charlson comorbidity dataset
+          file: docs/ukllc_managed_data/Datasets/Charlson/Charlson.ipynb
     - title: TRE user guide
       file: docs/user_guide/Introduction.md
       sections:

@@ -6,7 +6,7 @@
 ## Key messages for researchers
 1. You must only include **data** in papers/presentations that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md).
 
-2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to all your [**project-specific terms and conditions (Ts&Cs)**](../ukllc_key_facts/Applying/paperwork.md#3-data-owners-terms-and-conditions-tscs).
+2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to all your [**project-specific terms and conditions (Ts&Cs)**](https://guidebook.ukllc.ac.uk/docs/ukllc_key_facts/applying/paperwork#data-owners-terms-and-conditions-ts-cs).
 
 3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available 
 [**here**](../user_guide/images/UKLLC_Acknowledgement_Slide_Publication_Checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/DOC-DAT-032_UKLLC_LPS_Supplementary_Info_V1.9.docx).
