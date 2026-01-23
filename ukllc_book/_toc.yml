@@ -357,11 +357,11 @@ parts:
           sections:
             - title: Study permissions
               file: docs/ukllc_managed_data/Datasets/NHSE_reference/study_permissions.ipynb
-            - title: NHS England patient service usage
+            - title: NHSE patient service usage
               file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_patient_service_usage.ipynb
-            - title: NHS England patient demo mortality
+            - title: NHSE patient demo mortality
               file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_patient_demo_mortality.ipynb
-            - title: NHS England lsoa11 dataset mappings
+            - title: NHSE lsoa11 dataset mappings
               file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_lsoa11_dataset_mapping.ipynb
         - title: Charlson comorbidity dataset
           file: docs/ukllc_managed_data/Datasets/Charlson/Charlson.ipynb
