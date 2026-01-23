@@ -9,12 +9,14 @@ import markdown
 from bokeh.plotting import figure, show
 from bokeh.models import (Span, TabPanel, Tabs, ColumnDataSource, DataCube,
                           GroupingInfo, StringFormatter, SumAggregator,
-                          TableColumn, HoverTool)
+                          TableColumn, HoverTool, LinearColorMapper, ColorBar)
 from bokeh.io import output_notebook
+from bokeh.palettes import Cividis256
 from math import pi
 from datetime import datetime
 import datacite_api_functions as dcf
 import numpy as np
+import geopandas as gpd
 
 pd.options.mode.chained_assignment = None
 
@@ -847,6 +849,83 @@ class LPSSource:
             Markdown(
                 "We are currently building a documentation storage system which will host useful documents related to datasets and data owners. We will surface these documents on Guidebook."))
 
+
+    def study_choropleth(self):
+        """Generates choropleth map showing regional coverage of participants. 
+
+        Args:
+            study (str): study (e.g. "TEDS")
+
+        Returns:
+            Markdown/Bokeh: Either "unavailable" or Bokeh plot of choropleth 
+        """
+
+        # read counts, transform
+        geo_counts = md.get_geo_locations().drop(columns=["index", "source_stem"]).set_index("source").transpose().reset_index()
+
+        if geo_counts[self.source].isnull().values.any():
+            return display(
+                Markdown(
+                    "Geographical Coverage is currently unavailable for {}.".format(self.source)
+                        ))
+
+        else:
+            # read polygons from UK geojson
+            geo_polys = gpd.read_file("../../scripts/regions.geojson")
+
+            geo_data = geo_polys.merge(geo_counts, left_on="id", right_on="index")
+
+            # change to mercator projection
+            geo_data2 = geo_data.to_crs(epsg=3857)
+
+            # Explodes multi-polygons into polygons
+            geo_data2 = geo_data2.explode(index_parts=True).reset_index(drop=True)
+
+            # Extracts coordinates
+            def get_coords(geometry):
+                """Extract simple x and y lists from a single Polygon."""
+                if geometry.geom_type == 'Polygon':
+                    x, y = geometry.exterior.xy
+                    return list(x), list(y)
+                return [], []
+
+            coords = geo_data2['geometry'].apply(get_coords)
+            geo_data2['xs'] = coords.apply(lambda x: x[0])
+            geo_data2['ys'] = coords.apply(lambda x: x[1])
+
+            # drop geometry
+            df_final = pd.DataFrame(geo_data2.drop(columns=["geometry"]))
+            source = ColumnDataSource(df_final)
+
+            # Plotting stuff
+            color_mapper = LinearColorMapper(palette=Cividis256[::-1], 
+                                            low=df_final[self.source].min(), 
+                                            high=df_final[self.source].max())
+            p = figure(title="Geographical coverage of {} participants".format(self.source), 
+                    tools="pan,wheel_zoom,reset,save",
+                    x_axis_location=None, y_axis_location=None,
+                    x_axis_type="mercator", y_axis_type="mercator",
+                    match_aspect=True) # match_aspect prevents the UK from looking 'stretched'
+
+            p.patches('xs', 'ys', source=source,
+                    fill_color={'field': self.source, 'transform': color_mapper}, 
+                    fill_alpha=0.8,
+                    line_color="black", 
+                    line_width=0.5)
+
+            # hovertool
+            hover = HoverTool(tooltips=[
+                ("Region", "@id"),
+                ("Participants", "@{}".format(self.source))
+            ])
+            p.add_tools(hover)
+
+            # color bar legend
+            color_bar = ColorBar(color_mapper=color_mapper, label_standoff=12, border_line_color=None, location=(0,0))
+            p.add_layout(color_bar, 'right')
+
+            p.grid.grid_line_color = None
+            show(p)
 
 class NHSEDataSet:
     """Datasets in NHSE and subsequent functions for GB pages

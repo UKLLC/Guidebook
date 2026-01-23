@@ -6,6 +6,28 @@ import pandas as pd
 API_KEY = os.environ['FASTAPI_KEY']
 
 
+def get_geo_locations():
+    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/geo-locations/')
+    r = requests.get(url, headers={'access_token': API_KEY})
+
+    col_rename = {
+        "east_of_england": "East of England",
+        "south_east": "South East",
+        "north_west": "North West",
+        "east_midlands": "East Midlands",
+        "west_midlands": "West Midlands",
+        "south_west": "South West",
+        "london": "London",
+        "yorkshire_and_the_humber": "Yorkshire and The Humber",
+        "north_east": "North East",
+        "wales": "Wales",
+        "scotland": "Scotland",
+        "northern_ireland": "Northern Ireland"
+        }
+    
+    return pd.json_normalize(json.loads(r.text)).rename(columns=col_rename)
+
+
 def get_place_dataset_info():
     url = ('https://metadata-api-4a09f2833a54.herokuapp.com/place-dataset-info/')
     r = requests.get(url, headers={'access_token': API_KEY})
