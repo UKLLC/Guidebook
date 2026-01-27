@@ -1,5 +1,5 @@
 # DRAFT Harmonisation: making the complex, simple
->Published 19 February 2026
+>Published 16 February 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Blog by Rachel Calkin, UK LLC Research Manager (Data), February 2026.</strong></div style>  
 <br>
 
@@ -15,7 +15,7 @@ Of course, some of the details available in the original variables may be ‘los
 ## What UK LLC offers 
 We provide harmonised variables for the key participant characteristics: sex, gender, year of birth, ethnicity, and education. These are distilled into just two datasets, making it easy to understand the sociodemographic makeup of your participants. For topics such as gender and ethnicity, where there are wide variations in the level of detail collected by LPS, we have generated multiple, hierarchical, variables to reflect these differences. The process is summarised in the chart below.
   
- <img src="../../images/Harmonisation_test2.jpg" width="800"/>
+ <img src="../../images/Harmonisation_updated.jpg" width="800"/>
 
 
 For transparency, we publish the specifications showing exactly how each source variable is translated into the harmonised structure. You’ll find all the details in UK LLC Guidebook, so you can decide whether to use our harmonised datasets or to generate your own definitions. 
