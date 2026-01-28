@@ -64,7 +64,7 @@ NHS England collects data for the IAPT dataset through monthly submission from s
 
 
 ## 6. Structure of the dataset
-The IAPT dataset is comprised of several tables (i.e. individual datasets). These constituent tables flow from NHS England to UK LLC grouped into 9 themed tables capturing patient demographics and referral, care activities, care cluster, scored assessments, employment status, internet enabled therapies, mental and physical health conditions, onward referrals and waiting time pauses. See [Availability in the UK LLC TRE](#9-availability-in-the-uk-llc-tre) below for more detail. 
+The IAPT dataset is comprised of several tables (i.e. individual datasets). These constituent tables flow from NHS England to UK LLC grouped into 9 themed tables capturing patient demographics and referral, care activities, care cluster, scored assessments, employment status, internet enabled therapies, mental and physical health conditions, onward referrals and waiting time pauses. See [Availability in the UK LLC TRE](https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/mental%20health%20datasets/iapt/understanding_iapt#availability-in-the-uk-llc-tre) below for more detail. 
 
 ## 7. Coding systems used
 The Talking Therapies for Anxiety and Depression dataset uses **ICD-10** and **SNOMED CT** codes according to the [**NHS Data Model and Dictionary**.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 
