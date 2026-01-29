@@ -81,4 +81,4 @@ As part of the EPC quality assurance process, the score should be within ± 5 po
 
 - There are potential errors where EPCs indicate that a property changes its window glazing type to be less energy efficient such as conversion from double glazing to single glazing <a href="https://doi.org/10.1016/j.enpol.2019.03.022" target="_blank" rel="noopener noreferrer">Hardy and Glew (2019)</a>.
 
-- There are some instances where values are outside the expected range of the data for example, where values fall outside expected ranges - for example, a floor area recorded as 1 m² or where the number of habitable rooms is less than number of heated rooms <a href="https://doi.org/10.23889/ijpds.v8i2.2927" target="_blank" rel="noopener noreferrer">( et al. 2015)</a>.
+- There are some instances where values are outside the expected range of the data for example, where values fall outside expected ranges - for example, a floor area recorded as 1 m² or where the number of habitable rooms is less than number of heated rooms <a href="https://doi.org/10.23889/ijpds.v8i5.2927" target="_blank" rel="noopener noreferrer">(Scott et al. 2025)</a>.
