@@ -1,7 +1,10 @@
 # FAQs about working with LPS data
->Last modified: 26 Nov 2025
+>Last modified: 30 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with LPS data.</strong></div style>  
 <br>
+
+**Data availability and usage**
+
 <details>
 <summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
 
@@ -23,6 +26,9 @@ UK LLC is currently working with our partner LPS to increase the both the number
 <summary>Is UK LLC planning on increasing the number of LPS with data in the TRE?</summary>
 Yes, we are encouraging more LPS to become part of UK LLC. Updates will be added to Guidebook and the <a href="https://ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC website</a> whenever new data are deposited into the TRE.
 </details>
+<br>
+
+**Practicalities**
 
 <details>
     <summary>What is study ID?</summary>
@@ -37,24 +43,8 @@ In most cases LPS data is one row per person. However, there are a few exception
 </details>
 
 <details>
-<summary>Are there quirks in some datasets?</summary>
-
-This section is work-in-progress and will be updated as further quirks are brought to our attention – if you identify quirks, please notify the UK LLC Data Team [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk)
-
-#### Quirk 1: ncds58_ncds5_mother_child_v0001
-Datasets which are >1000 variables wide are split on loading to the UKSERPUKLLC database due to SQL field limit of 1024. Where this is the case the table name will contain a _1_, _2_ etc nested between the version and date in the table name. In most cases the 2 (or more) parts can be merged/joined on LLC_XXXX_stud_id. This can be done when the table has a 1-row per participant structure.   
-
-The following table(s) is/are an exception to this:
-* ncds58_ncds5_mother_child_vXXXX_1_YYYYMMDD
-* ncds58_ncds5_mother_child_vXXXX_2_YYYYMMDD. 
-
-These data require a join on 2 fields, LLC_XXXX_stud_id and person, because this table is at the child-level whereas the key ID LLC_XXXX_stud_id is at the parent-level.  
-</details>
-
-<details>
-  <summary>Can participants be linked between LPS?</summary>
-
-Currently, participants who are in multiple LPS cannot be linked. However, this functionality has been factored into the design of the UK LLC TRE and will be implemented.
+<summary>Why are some of my tables split into more than one part?</summary>
+Datasets which are >1000 variables wide are split on loading to the UKSERPUKLLC database because of the SQL field limit of 1024 variables. Where this is the case the table name will contain a _1_, _2_ etc nested between the version and date in the table name. In most cases the 2 (or more) parts can be merged/joined on LLC_XXXX_stud_id. This can be done when the table has a 1 row per participant.  
 </details>
 
 <details>
@@ -83,4 +73,49 @@ Currently, participants who are in multiple LPS cannot be linked. However, this 
 |TRACKC19|No|TRACKC19 has not calculated sampling weights.|
 |TWINSUK|No|Most of the data in the TRE is derived from the CoPE questionnaires. For more details on how to deal with missing data visit: [Wellcome Open Research Gateways.](https://wellcomeopenresearch.org/gateways/twinsuk)|
 |UKHLS|Yes|See UKHLS's guidance on [selecting the correct weight for your analysis](https://www.understandingsociety.ac.uk/documentation/mainstage/user-guides/main-survey-user-guide/selecting-the-correct-weight-for-your-analysis/0). Search for weighting variables (e.g. ‘xw’) using the Variables search in [Explore](https://ukllc-data-catalogue-96b71e84a70e.herokuapp.com/) and use the Advanced Options to filter on UKHLS.|
+</details>
+<br>
+
+**Working with data from multiple LPS**
+<br>
+<details>
+  <summary>Can participants be linked between LPS?</summary>
+
+Currently, participants who are in multiple LPS cannot be linked. However, this functionality has been factored into the design of the UK LLC TRE and will be implemented.
+</details>
+
+<details>
+<summary>Is there any information about which variables are the same across multiple LPS?</summary>
+
+There is a dataset of harmonised metadata about the Wellcome Trust (WT) standardised COVID-19 questionnaire that is accessible to all researchers in the TRE. The dataset provides a score as to how closely each LPS’s COVID-19 questionnaire aligns to the WT's COVID-19 questionnaire. The dataset is called Wellcome Trust COVID questionnaire; there is documentation in the TRE 'ReadAll' folder.
+</details>
+
+<br>
+
+**Dataset quirks**  
+This section is work-in-progress and will be updated as further quirks are brought to our attention – if you identify quirks, please notify the UK LLC Data Team at [support@ukllc.ac.uk](mailto:support@ukllc.ac.uk). The quirks are listed by LPS and dataset name.  
+
+
+<details>
+<summary>GLAD_FILE2_v0001</summary>
+
+* GLAD's data in the TRE is currently in a single table which combines information from several data collection sweeps. There are variables with similar names (e.g. demographics_, employment_) which were collected as part of different studies. UK LLC is working with GLAD to expand the information available about which variables relate to which time points.  
+
+* Some GLAD participants are also in the NIRHBIO_COPING study. It is not yet possible to identify these individuals, but UK LLC is working on a new ID which will enable this. The new ID will be provisioned to all projects early in 2026.
+
+>Information about data from the Genetic Links to Anxiety and Depression (GLAD) Study held in the TRE is [here](../LPS_data/LPS%20profiles/GLAD.ipynb).
+</details>
+
+<details>
+<summary>NCDS58_ncds5_mother_child_v0001</summary>
+
+Two **NCDS** tables do not conform to the convention that tables split as part of the TRE loading process can be joined by the variable LLC_XXXX_stud_id alone (described in **Practicalities** above). 
+
+The exceptions are:
+* ncds58_ncds5_mother_child_vXXXX_1_YYYYMMDD
+* ncds58_ncds5_mother_child_vXXXX_2_YYYYMMDD. 
+
+These tables are at the child-level whereas the key ID LLC_XXXX_stud_id is at the parent-level, so they require a join on 2 fields: **LLC_XXXX_stud_id** and **person**.
+
+>Information about data from the 1958 National Child Development (NCDS58) Study held in the TRE is [here](../LPS_data/LPS%20profiles/NCDS58.ipynb).
 </details>

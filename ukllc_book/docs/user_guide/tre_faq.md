@@ -1,5 +1,5 @@
 # FAQs about working in the TRE
->Last modified: 26 Nov 2025
+>Last modified: 30 Jan 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
@@ -228,6 +228,12 @@ Output clearance can take 7-10 working days. We therefore recommend submitting o
 <summary>Is there flexibility in the <10 rule?</summary>
 
 No – due to the variability of statistical disclosure control (SDC) thresholds set by data providers, we are unable to be flexible. 
+</details>
+
+<details>
+<summary>How can I check the terms and conditions (Ts&Cs) which apply to my project?</summary>
+
+The data owners' Ts&Cs for all projects are listed on <a href="https://apply.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Apply</a> and can be viewed by logging into **Apply**, and selecting the Terms and Conditions module. More information about Ts&Cs and UK LLC's project governance is [elsewhere in Guidebook](../ukllc_key_facts/Applying/paperwork.md#3-data-owners-terms-and-conditions-tscs).
 </details>
 
 <details>

@@ -1,5 +1,5 @@
 # Statistical Disclosure Control (SDC)
->Last modified: 06 Jan 2026
+>Last modified: 30 Jan 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC enforces strict SDC rules on all information leaving the UK LLC Trusted Research Environment (TRE).</strong></div style>
 <br>
@@ -58,7 +58,9 @@ It is important that **sufficient information** is provided with a file out for 
 
 ***
 
-**Further information** is available from:
+**Further information** is available from:  
+* The <strong><a href="https://saildatabank.com/wp-content/uploads/2025/06/SAIL-SAIL-POL-024-Output-Policy-v1.7.pdf" target="_blank" rel="noopener noreferrer">SAIL Output Review Policy</a></strong> published by SAIL (Swansea Medical School)
+
 * The <strong><a href="https://securedatagroup.org/sdc-handbook/" target="_blank" rel="noopener noreferrer">SDC Handbook</a></strong> produced by the Safe Data Access Professionals network
 
 * The <strong><a href="https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/gettingyourresearchoutputsapproved" target="_blank" rel="noopener noreferrer">SRS Output Checking Guidance Document Work strand: Statistical Disclosure Control</a></strong> produced by the Office for National Statistics (ONS).
