@@ -352,6 +352,8 @@ parts:
               file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/demo_harmonised_reduced.ipynb
             - title: Highest educational qualification
               file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/education_harmonised.ipynb
+        - title: DATAMIND mental health datasets
+          file: docs/ukllc_managed_data/Datasets/Datamind/Datamind_datasets.md
         - title: NHS England reference datasets
           file: docs/ukllc_managed_data/Datasets/NHSE_reference/NHSE_reference.md
           sections:

@@ -1,6 +1,6 @@
 # UK LLC-managed datasets
 
->Last modified: 23 Jan 2026
+>Last modified: 30 Jan 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC curates a range of derived and harmonised datasets</strong></div>
 
@@ -16,6 +16,7 @@ These datasets are available for selection via the **UKLLC** schema in <strong><
 
 |Datasets|Grouping|Summary|Type of Data|Data Available in TRE|Data Owner|
 |---|---|---|---|---|---|
-| [Harmonised Sociodemographic Datasets](../ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md)|UK LLC|Sex, gender, year of birth and ethnic group variables harmonised across LPS (all responses provided by participants)|LPS|1990-2023|UK LLC|
+| [Harmonised Sociodemographic Datasets](../ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md)|UK LLC|Sex, gender, year of birth and ethnic group variables harmonised across LPS (all responses provided by participants)|LPS|-2026|UK LLC|
+| [DATAMIND Mental Health Datasets](../ukllc_managed_data/Datasets/Datamind/Datamind_datasets.md)|UK LLC|Earliest recorded dates for mental health conditions captured in secondary datasets|NHS England|Latest available|UK LLC|
 | [NHS England Reference Datasets](../ukllc_managed_data/Datasets/NHSE_reference/NHSE_reference.md)| UK LLC |Demographic variables, NHS England service use and linkage permissions|NHS England|Latest available|UK LLC|
 | [Charlson & Elixhauser Comorbidity Scores Dataset](../ukllc_managed_data/Datasets/Charlson/Charlson.ipynb)|Researcher|Co-morbidity scores for participants|NHS England|2020|UK LLC|
