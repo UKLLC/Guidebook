@@ -1,6 +1,6 @@
-# DRAFT UK LLC's Research Stories
->Last modified: 21 Jan 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Index of research stories included in UK LLC's quarterly Data Bulletin.</strong></div style>  
+# DRAFT UK LLC's Research Notes
+>Last modified: 06 Feb 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Index of research notes included in UK LLC's quarterly Data Bulletin.</strong></div style>  
 <br>
 
 | No. |Date | Author| Title |  

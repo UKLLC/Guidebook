@@ -1,6 +1,6 @@
 # DRAFT Harmonisation: making the complex, simple
->Published 16 February 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Blog by Rachel Calkin, UK LLC Research Manager (Data), February 2026.</strong></div style>  
+>Published 17 February 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>By Rachel Calkin, UK LLC Research Manager (Data), February 2026.</strong></div style>  
 <br>
 
  Anyone who has ever worked with data collected at different times or using different methods, will know what a challenge it is to bring everything together. One dataset might record age as “date of birth,” another as “age in months,” and a third might group it into five-year bands. 
