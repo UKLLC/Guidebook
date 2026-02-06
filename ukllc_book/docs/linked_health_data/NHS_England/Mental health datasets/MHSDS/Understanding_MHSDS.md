@@ -74,7 +74,17 @@ MHSDS uses both **ICD-10** codes and **SNOMED CT** codes, according to the [**NH
 - MHS604 – Primary Diagnosis
 - MHS605 – Secondary Diagnosis
 
-**SNOMED CT codes** are used to represent clinical and procedural terms. However, formatting issues such as loss of precision in 16-digit codes and conversion to scientific notation, have impacted their usability. These codes are now defined as numeric values in the NHS Data Model and Dictionary. More information is available via [**SNOMED International - Service Migration**.](https://www.snomed.org/)
+**SNOMED CT codes** are used to represent clinical and procedural terms.SNOMED CT codes appear in the following diagnosis tables:
+- MHS601 – Previous Diagnosis
+- MHS603 – Provisional Diagnosis
+- MHS604 – Primary Diagnosis
+- MHS605 – Secondary Diagnosis
+
+The SNOMED CT codes are present in the diagnosis columns (*prevdiag*, *provdiag*, *primdiag*, *secdiag*) as well as in the master SNOMED CT code columns (*mastersnomedctprevdiagcode*, *mastersnomedctprovdiagcode*, *mastersnomedctprimdiagcode*, *mastersnomedctsecdiagcode*).
+
+However, formatting issues such as loss of precision in 16-digit codes and conversion to scientific notation, have impacted their usability. These codes are now defined as numeric values in the NHS Data Model and Dictionary. More information is available via [**SNOMED International - Service Migration**.](https://www.snomed.org/)
+
+Researchers may use SNOMED CT codes,ICD-10 codes ,or both depending on the research aims and the level of diagnostic detail required. 
 
 Further information about coding systems can be found in the [**Coded variables guide**.](../../Coding/coding_intro.md)
 
