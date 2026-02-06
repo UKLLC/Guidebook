@@ -1,5 +1,5 @@
 # FAQs about working with administrative ('admin') data
->Last modified: 24 Nov 2025
+>Last modified: 06 Feb 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked admin data.</strong></div style>  
 <br>
 <details>
@@ -18,13 +18,13 @@ No, not all LPS will be included in the linkage to admin data. Each LPS has thei
 <details>
 <summary>When will linked HM Revenue & Customs (HMRC) data be available for researchers to request?</summary>
 
-Data are likely to available early in 2026.
+Data are likely to available towards the end of 2026.
 </details>
 
 <details>
 <summary>When will linked Department for Work & Pensions (DWP) data be available for researchers to request?</summary>
 
-Data are likely to available early in 2026.
+Data are likely to available towards the end of 2026.
 </details>
 
 <details>

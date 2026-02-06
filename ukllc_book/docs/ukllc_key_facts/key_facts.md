@@ -1,12 +1,12 @@
 # Understanding UK LLC
->Last modified: 02 Dec 2025
+>Last modified: 06 Feb 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Key information to help researchers decide if UK LLC is the best place to conduct their research project.</strong></div>  
 
 <br>
 
 
 
-<img src= "../images/UKLLC_snapshot.jpg" width="900">
+<img src= "../images/UKLLC_snapshot_freeze14.jpg" width="900">
 
 <br>
 

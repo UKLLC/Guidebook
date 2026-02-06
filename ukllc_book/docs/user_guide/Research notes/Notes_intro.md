@@ -5,7 +5,7 @@
 
 | No. |Date | Author| Title |  
 |---:|---|---|---|
-| 1 |16.02.2026| Rachel Calkin, UK LLC | [**Harmonisation: making the complex, simple**](../Research%20stories/01_Calkin_Feb26.md) |
+| 1 |16.02.2026| Rachel Calkin, UK LLC | [**Harmonisation: making the complex, simple**](../Research%20notes/01_Calkin_Feb26.md) |
 | 2 | May 2026 | TBC
 
 <br>

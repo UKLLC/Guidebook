@@ -1,6 +1,6 @@
 # NHS Wales data
->Last modified: 01 Aug 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>SAIL Databank has approved the extraction of participants’ Welsh health records (where permissions are in place) - data will soon be available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
+>Last modified: 06 Feb 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>SAIL Databank has approved the extraction of participants’ Welsh health records (where permissions are in place). Data should be available in the UK LLC Trusted Research Environment (TRE) by mid-2026.</strong></div>  
 <br>
   
 Although NHS Wales is not the owner of all the datasets (acting as data controller or data processor on behalf of the owner for some), for ease, we refer to all the datasets in these guides as NHS Wales datasets.  
