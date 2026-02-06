@@ -83,4 +83,11 @@ The Hospital Episode Statistics [**HES**](https://guidebook.ukllc.ac.uk/docs/lin
 <summary>What information about mental health conditions can be obtained from HES OP and HES APC and what additional details are available only in MHSDS?</summary>
 
 Information about study participants diagnosed with mental health conditions, including schizophrenia, bipolar disorder, and psychotic disorders, can be obtained from HES OP and HES APC. These datasets record only the diagnosis details found in MHSDS tables such as MHS601 (Previous Diagnosis), MHS603 (Provisional Diagnosis), MHS604 (Primary Diagnosis), and MHS605 (Secondary Diagnosis). More comprehensive information suitable for in-depth analysis, such as referrals, services referred to, or care activities, can instead be obtained from MHSDS.
+</details>
+
+<details>
+<summary>What does the term “in contact with mental health services” mean in the context of reporting? </summary>
+
+The term refers to individuals who have an active referral to mental health services during the reporting period. An active referral means the case remains open at the end of the reporting month, regardless of whether the person has received any appointments, interventions, or recorded care activities under that referral. 
 </details><br>
+
