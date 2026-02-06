@@ -1,10 +1,10 @@
 # Linkages and research topics permitted for each LPS
->Last modified: 11 Dec 2025
+>Last modified: 06 Feb 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The linkages and breadth of research topics permitted by each Longitudinal Population Study (LPS).</strong></div>
 <br>
 
-The tables below summarise the linkages that are either **currently available** for each LPS ([**NHS England**](../../linked_health_data/NHS_England/NHSE.ipynb) and [**place-based datasets**](../../linked_geo_data/Place_based_intro.md)); will be **available soon** ([**NHS Wales**](../../linked_health_data/NHS_Wales/NHSW_intro.md)); or will be available by **autumn 2026** ([**Department for Work and Pensions (DWP)**](../../linked_admin_data/DWP_data/DWP_data.md) and [**HM Revenue & Customs (HMRC)**](../../linked_admin_data/HMRC_data/HMRC_data.md)). Note: linkage to [**Scottish health records**](../../linked_health_data/NHS_Scotland/NHSS_intro.md) is conditionally approved.  
+The tables below summarise the linkages that are either **currently available** for each LPS ([**NHS England**](../../linked_health_data/NHS_England/NHSE.ipynb) and [**place-based datasets**](../../linked_geo_data/Place_based_intro.md)); will be available by mid-2026 ([**NHS Wales**](../../linked_health_data/NHS_Wales/NHSW_intro.md)); or will be available towards the end of 2026 ([**Department for Work and Pensions (DWP)**](../../linked_admin_data/DWP_data/DWP_data.md) and [**HM Revenue & Customs (HMRC)**](../../linked_admin_data/HMRC_data/HMRC_data.md)). Note: linkage to [Scottish health records](../../linked_health_data/NHS_Scotland/NHSS_intro.md) is conditionally approved.  
 * [**Table 1**](#table-1-lps-that-can-be-included-in-any-public-good-research-including-covid-19) includes LPS that have obtained the necessary permissions to enable **any research in the public good**.   
 * [**Table 2**](#table-2-lps-that-can-only-be-included-in-covid-19-research) includes the small number of LPS that are working towards obtaining these permissions - these LPS are currently restricted to **only COVID-19 research topics**.  
 
