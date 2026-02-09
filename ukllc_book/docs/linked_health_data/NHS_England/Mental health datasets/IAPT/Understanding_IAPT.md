@@ -1,5 +1,5 @@
 # Understanding the IAPT dataset
->Last modified: 27 Jan 2026
+>Last modified: 09 Feb 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px; "><strong>IAPT includes adults who are treated in England for depression and/or anxiety under the NHS Talking Therapies service.</strong></div>
 <br>
 
@@ -129,8 +129,12 @@ IAPT records of participants in the UK LLC’s partner LPS, where individual or 
 |IAPT onward referrals|**Onward referral (IDS105):** records onward referrals to other services both within and outside of the organisation|Date & time of referral, Reason for referral, Organisation patient is referred to|
 |IAPT waiting time pauses| **Waiting times pauses (IDS108):** records details of breaks in activity initiated by the patient with the intention of resuming at some point|Start/end date of activity break, Reason for the activity break|
 
-## 10. UK LLC transformations of the dataset
-All variables which identify organisations (e.g. IAPT service provider, GP practice, NHS Trust) or geographic areas smaller than a region (e.g. LSOA) are encrypted before being ingested into the UK LLC TRE. The encrypted variables (identifiable by the suffix _e) enable researchers to identify which participants were treated by the same organisation, or live in the same area, but not to identify the organisation or area.
+## 10. Missing information
+* **Variable and value labels**  
+UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent in the variable label.  
+* **Missing data**  
+The amount of missing data varies widely between variables and across datasets. Throughout 2026, we will update this section with information about missingness in the IAPT dataset.
+
 
 ## 11. Tips for researchers using IAPT in the UK LLC TRE
 Please also see the list of [**mental health FAQs**](../mh_faq.md)

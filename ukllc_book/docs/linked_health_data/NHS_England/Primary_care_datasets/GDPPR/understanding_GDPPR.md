@@ -1,5 +1,5 @@
 # Understanding the GDPPR dataset
->Last modified: 12 Dec 2025
+>Last modified: 09 Feb 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The General Practice Extraction Service (GPES) Data for Pandemic Planning and Research dataset contains an extract of coded data items from primary care (GP) records from General Practices across England.</strong></div>  
 
 ## 1. Introduction
@@ -59,8 +59,11 @@ The UK LLC TRE holds an extract of the GDPPR dataset, going back to the 1940s. T
 
 **Note**: information on code clusters and cluster categories is not currently included in the GDPPR dataset in the TRE. UK LLC is planning on making this information available early in 2026. 
 
-## 10. UK LLC transformations of the dataset
-All variables which identify organisations (e.g. GP practice) or geographic areas smaller than a region (e.g. LSOA) are encrypted before being ingested into the UK LLC TRE. The encrypted variables (identifiable by the suffix _e) enable researchers to identify which participants were registered with the same general practice, or live in the same area, but not to identify the organisation or area.  
+## 10. Missing information
+* **Variable and value labels**  
+UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent in the variable label.  
+* **Missing data**  
+The amount of missing data varies widely between variables and across datasets. Throughout 2026, we will update this section with information about missingness in GDPPR.  
 
 ## 11. Tips for researchers using GDPPR in the UK LLC TRE
 Researchers should be mindful of the fact that GDPPR is not a complete record of an LPS participant's interaction with their GP practice. The records included are restricted to the codes included in the GDPPR business rules applicable at the time of data extraction.  

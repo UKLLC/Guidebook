@@ -1,5 +1,5 @@
  # Understanding the MHSDS dataset
->Last modified: 06 Feb 2026
+>Last modified: 09 Feb 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>MHSDS records secondary care services that support people with severe or complex mental health conditions, e.g. psychosis, bipolar disorder, gambling, eating disorders and learning disabilities.</strong></div>
 <br>
 
@@ -157,8 +157,12 @@ These packages cover more than **60 MHSDS tables**. However, the extract from NH
 |MHS701 Care Programme Approach (CPA) care episode|Records when a patient is under Care Programme Approach.|Coded Assessment Tool Type, Person score.|Linked to MHS001; connects to CPA Review (MHS702).|
 |MHS901 Staff Details|Records staff involved in patient care.|Care professional job role code, Care profile staff group entry who is involved in the service, Main speciality code, Occupation code.|Stand-alone table.|
 
-## 10. UK LLC transformations of the dataset
-All variables which identify organisations (e.g. GP practice, NHS Trust) or geographic areas smaller than a region (e.g. LSOA) are encrypted before being ingested into the UK LLC TRE. The encrypted variables (identifiable by the suffix _**e**) enable researchers to identify which participants were treated by the same organisation, or live in the same area, but not to identify the organisation or area.
+## 10. Missing information
+* **Variable and value labels**  
+UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent in the variable label.
+* **Missing data**
+The amount of missing data varies widely between variables and across datasets. Throughout 2026, we will update this section with information about missingness in the MHSDS.
+
 
 ## 11. Tips for researchers using MHSDS in the UK LLC TRE
 **Very few researchers have used the MHSDS in a longitudinal research context**. Below are some tips – we will regularly update this page as we gather more information. Please also see the [**list of mental health FAQs**](../mh_faq.md).

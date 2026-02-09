@@ -1,5 +1,5 @@
 # Understanding the HESCC dataset
->Last modified: 03 Dec 2025
+>Last modified: 09 Feb 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>HESCC is a record of critical care periods in NHS hospitals in England.</strong></div>  
 
@@ -48,9 +48,12 @@ The UK LLC TRE holds an extract of the HESCC dataset dating back to 2008. The HE
 
 More detailed information about the UK LLC's HESCC extract is [here](../CC/HESCC.ipynb).
 
-## 10. UK LLC transformations of the dataset
-HESAPC (and other NHSE hospital datasets) contain variables which identify organisations or small geographic areas. These are encrypted before being ingested into the UK LLC TRE, and are identifiable by a suffix **_e** on the variable name(s).  
-HESCC does not contain any of these variables, but researchers should be aware of this encryption when linking HESCC to HESAPC.
+## 10. Missing information
+* **Variable and value labels**  
+UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent in the variable label.  
+* **Missing data**  
+The amount of missing data varies widely between variables and across datasets. Throughout 2026, we will update this section with information about missingness in HESCC.
+
 
 ## 11. Tips for researchers using HESCC in the UK LLC TRE
 ### a) Linking to HESAPC
