@@ -1,5 +1,5 @@
-# DRAFT LPS characteristics and study focus
->Last modified: 21 Jan 2026
+# LPS characteristics and study focus
+>Last modified: 10 Feb 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>A summary of LPS characteristics and the original focus of each study.</strong></div style>  
 <br>

@@ -68,6 +68,8 @@ parts:
       sections:
         - title: FAQs about LPS data
           file: docs/LPS_data/lps_faq.md
+        - title: LPS characteristics
+          file: docs/LPS_data/Characteristics/Characteristics_intro.md
         - title: Permitted linkages
           file: docs/LPS_data/Linkages/LPS_linkages.md
         - title: Temporal coverage
@@ -397,6 +399,11 @@ parts:
           file: docs/user_guide/UserSupport.md
         - title: Rules for researchers
           file: docs/user_guide/RulesForResearchers.md
+        - title: Research focus
+          file: docs/user_guide/Research_notes/Notes_intro.md
+          sections:
+            - title: Focus on harmonisation
+              file: docs/user_guide/Research_notes/01_Calkin_Feb26.md
         - title: Identifying individuals in multiple LPS
           file: docs/user_guide/alf2.md
     - title: FAQs
