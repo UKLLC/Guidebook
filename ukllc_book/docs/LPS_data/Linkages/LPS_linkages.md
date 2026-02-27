@@ -1,5 +1,5 @@
 # Linkages and research topics permitted for each LPS
->Last modified: 06 Feb 2026
+>Last modified: 27 Feb 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The linkages and breadth of research topics permitted by each Longitudinal Population Study (LPS).</strong></div>
 <br>
@@ -14,7 +14,7 @@ The tables below summarise the linkages that are either **currently available** 
 
 ## Table 1: LPS that can be included in ANY public good research (including COVID-19)
 Definition of **public good**: UK LLC currently follows the <strong><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124013/NDG_public_benefit_guidance_v1.0_-_14.12.22.pdf" target="_blank" rel="noopener noreferrer">National Data Guardian (NDG) guidance</a></strong> to assess public good. We are working with our public contributors to develop a context-specific public good definition (we will update this page in due course).
-|**LPS**|[**NHS England**](../../linked_health_data/NHS_England/NHSE.html)|[**Neighbourhood geographies**](../../linked_geo_data/Place_based_intro.md)<sup>1</sup>|[**Address geographies**](../../linked_geo_data/Place_based_intro.md)<sup>2</sup>|[**NHS Wales**](../../linked_health_data/NHS_Wales/NHSW_intro.md)<br>(Coming soon)|[**DWP**](../../linked_admin_data/DWP_data/DWP_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/HMRC_data/HMRC_data.md)<br>(Not yet available)|
+|**LPS**|[**NHS England**](../../linked_health_data/NHS_England/NHSE.html)<sup>1</sup>|[**Neighbourhood geographies**](../../linked_geo_data/Place_based_intro.md)<sup>2</sup>|[**Address geographies**](../../linked_geo_data/Place_based_intro.md)<sup>3</sup>|[**NHS Wales**](../../linked_health_data/NHS_Wales/NHSW_intro.md)<br>(Coming soon)|[**DWP**](../../linked_admin_data/DWP_data/DWP_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/HMRC_data/HMRC_data.md)<br>(Not yet available)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |[**AIRWAVE**](../LPS%20profiles/AIRWAVE.ipynb)|✓|✓|Full address|✗|✗|✗|
 |[**BCS70**](../LPS%20profiles/BCS70.ipynb)|✓|✗|✗|✓|✓|✓|
@@ -30,18 +30,19 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 |[**TEDS**](../LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✓|✓|✓|
 |[**TWINSUK**](../LPS%20profiles/TWINSUK.ipynb)|✓|✓|Postcode|✗|✗|✗|
 |[**UKHLS**](../LPS%20profiles/UKHLS.ipynb)|✓|✗|✗|✓|✓|✓|
-|**UKREACH**<sup>3</sup>|✓|✓|✗|✓|✗|✗|
+|**UKREACH**<sup>4</sup>|✓|✓|✗|✓|✗|✗|
 
 **Notes**  
-<sup>1</sup> Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
-<sup>2</sup> Household level, using Unique Property Reference Number (UPRN), or postcode level  
-<sup>3</sup> Data from UKREACH is not yet available in the UK LLC TRE
+<sup>1</sup> The purpose of any sub-licence must be restricted to purpose intended and expected to achieve benefit to the UK health and social care system  
+<sup>2</sup> Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
+<sup>3</sup> Household level, using Unique Property Reference Number (UPRN), or postcode level  
+<sup>4</sup> Data from UKREACH is not yet available in the UK LLC TRE
 
 <br>
 
 ## Table 2: LPS that can ONLY be included in COVID-19 research
 
-|**LPS**|[**NHS England**](../../linked_health_data/NHS_England/NHSE.html)|[**Neighbourhood geographies**](../../linked_geo_data/Place_based_intro.md)<sup>1</sup>|[**Address geographies**](../../linked_geo_data/Place_based_intro.md)<sup>2</sup>|[**NHS Wales**](../../linked_health_data/NHS_Wales/NHSW_intro.md)<br>(Coming soon)|[**DWP**](../../linked_admin_data/DWP_data/DWP_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/HMRC_data/HMRC_data.md)<br>(Not yet available)|
+|**LPS**|[**NHS England**](../../linked_health_data/NHS_England/NHSE.html)<sup>1</sup>|[**Neighbourhood geographies**](../../linked_geo_data/Place_based_intro.md)<sup>2</sup>|[**Address geographies**](../../linked_geo_data/Place_based_intro.md)<sup>3</sup>|[**NHS Wales**](../../linked_health_data/NHS_Wales/NHSW_intro.md)<br>(Coming soon)|[**DWP**](../../linked_admin_data/DWP_data/DWP_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/HMRC_data/HMRC_data.md)<br>(Not yet available)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |[**ALSPAC**](../LPS%20profiles/ALSPAC.ipynb)|✓|✓|Postcode|✓|✓|✓|
 |[**EPICN**](../LPS%20profiles/EPICN.ipynb)|✓|✗|✗|✗|✗|✗|
@@ -52,5 +53,6 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 |[**TRACKC19**](../LPS%20profiles/TRACKC19.ipynb)|✓|✓|Postcode|✓|✗|✗|
 
 **Notes**  
-<sup>1</sup> Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
-<sup>2</sup> Household level, using Unique Property Reference Number (UPRN), or postcode level
+<sup>1</sup> The purpose of any sub-licence must be restricted to purpose intended and expected to achieve benefit to the UK health and social care system   
+<sup>2</sup> Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
+<sup>3</sup> Household level, using Unique Property Reference Number (UPRN), or postcode level
