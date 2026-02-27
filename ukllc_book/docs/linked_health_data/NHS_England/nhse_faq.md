@@ -1,5 +1,5 @@
 # FAQs about NHS England data
->Last modified: 24 Nov 2025
+>Last modified: 27 Feb 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
 
@@ -57,6 +57,12 @@ Variable labelling is primarily sourced from an NHS metadata API, but is not ful
 * GDPPR, CVS, CVAR: 70% 
 * PCM: 40%
 * DEMOGRAPHICS, CHESS, IELISA: not available.
+</details>
+
+<details>
+<summary>Why do some variable labels include the phrase <b>‘label added by UK LLC’</b>?</summary>
+
+A minority of the variables in NHSE datasets flowed into the UK LLC without labels. Where possible, UK LLC has infilled these from NHSE documentation available online. Where we have been unable to find variable labels, but where labels can be confidently inferred from the variable name, we have added them to the NHSE datasets. These labels derived from variable names include the phrase ‘label added by UK LLC’.
 </details>
 
 <details>
