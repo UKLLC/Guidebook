@@ -1,5 +1,5 @@
 # Understanding the GDPPR dataset
->Last modified: 09 Feb 2026
+>Last modified: 27 Feb 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The General Practice Extraction Service (GPES) Data for Pandemic Planning and Research dataset contains an extract of coded data items from primary care (GP) records from General Practices across England.</strong></div>  
 
 ## 1. Introduction
@@ -61,7 +61,7 @@ The UK LLC TRE holds an extract of the GDPPR dataset, going back to the 1940s. T
 
 ## 10. Missing information
 * **Variable and value labels**  
-UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent in the variable label.  
+UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent by the phrase 'label added by UK LLC' being included in the variable label.  
 * **Missing data**  
 The amount of missing data varies widely between variables and across datasets. Throughout 2026, we will update this section with information about missingness in GDPPR.  
 

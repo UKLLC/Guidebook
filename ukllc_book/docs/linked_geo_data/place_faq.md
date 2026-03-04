@@ -1,6 +1,6 @@
 # FAQs about working with place-based data 
 
-> Last modified: 24 Nov 2025
+> Last modified: 02 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -39,7 +39,13 @@ Place-based data provides information about the attributes and environment of wh
 
 During our place-based risk assessment we identify and evaluate the potential risks of disclosing sensitive geographic information that could result in the spontaneous recognition of a participant or place. During the variable transformation stage of the risk assessment, perturbation techniques such as removing identifiers and aggregating data are applied. The perturbation method for each variable is selected based on the transformation that preserves the most utility. Utility measurement is used to assess the usefulness of each variable after anonymisation. As data are updated, the associated risk assessment is also updated, ensuring that UK LLC is continuously refining the balance between risk and utility through an iterative process. 
 </details>
- 
+
+<details>
+<summary>What information will I be able to see about where a participant lives?</summary>
+
+Any information about where a study participant lives that is smaller than an English region (e.g. the South-West) or devolved nation (Wales, Scotland, Northern Ireland) is encrypted. This means that all addresses, postcodes and Lower Super Output Areas (LSOAs) are encrypted. The English regions that are in the clear are those defined by the <a href="https://geoportal.statistics.gov.uk/documents/bfe6f7099f9e4cc59f8064962959bfb5/explore" target="_blank" rel="noopener noreferrer">Office for National Statistics</a>.
+</details>
+
 <details>
 <summary>How does UK LLC make sure that I can’t see where people live?</summary>    
 
