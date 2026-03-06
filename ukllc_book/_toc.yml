@@ -358,6 +358,8 @@ parts:
               file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/education_harmonised.ipynb
         - title: DATAMIND collection
           file: docs/ukllc_managed_data/Datasets/Datamind/Datamind_datasets.md
+        - title: UK Biobank collection
+          file: docs/ukllc_managed_data/Datasets/Biobank/UKBB_datasets.md
         - title: NHS England reference datasets
           file: docs/ukllc_managed_data/Datasets/NHSE_reference/NHSE_reference.md
           sections:
