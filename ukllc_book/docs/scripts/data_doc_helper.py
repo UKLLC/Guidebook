@@ -234,33 +234,38 @@ class DocHelper:
         dfm['Dataset descriptor'] = dfm['Dataset descriptor'].str.replace('_', ' ')
         return dfm
 
-
     def style_table(self, df):
         '''
-
         Parameters
         ----------
-        df : dataframe
-            df to be styled
+        df : pandas.DataFrame
+            The DataFrame to be styled.
 
         Returns
         -------
-        df : dataframe
-            df with styling applied
-
+        pandas.io.formats.style.Styler
+            A styled representation of the input DataFrame suitable for
+            HTML rendering in notebooks, Jupyter Book pages, or other
+            reporting outputs.
         '''
 
-        # apply styling
-        df = df.style.set_table_attributes('style="font-size: 14px"')\
-        .set_table_styles([dict(selector='th', props=[('text-align', 'left'),])])\
-        .set_properties(**{'text-align': 'left'})
+        s = df.style
+
+        # table level styling
+        s = s.set_table_attributes('style="font-size:14px"')
+
+        # align everything left
+        s = s.set_properties(**{'text-align': 'left'})
+
         # LPS tables
         if 'LPS' in df.columns:
-            df.set_properties(subset = ['LPS'], **{'font-weight' : 'bold'})\
-            .set_properties(subset = df.index[-1], **{'font-weight' : 'bold'})
-        # hide index as don't want to display
-        df.hide()
-        return df
+            s = s.set_properties(subset=['LPS'], **{'font-weight': 'bold'})
+            s = s.set_properties(subset=df.index[-1], **{'font-weight': 'bold'})
+
+        # hide index
+        s = s.hide(axis="index")
+
+        return s
 
 
 class LPSDataSet:
