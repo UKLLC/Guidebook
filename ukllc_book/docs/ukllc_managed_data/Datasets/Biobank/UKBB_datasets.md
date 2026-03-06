@@ -27,20 +27,20 @@ In brief, the ADOs identify two key features of health outcomes:
 
 
 ### UK LLC's approach  
-The key difference between UK Biobank'a methodology and UK LLC's is that UK LLC has not yet incorporated self-reported diagnoses into the derived datasets. Researchers interested in self-reported health data for individual LPS are encouraged to use <a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a> to identify variables of interest.  
+The key difference between UK Biobank's methodology and UK LLC's is that UK LLC has not yet incorporated self-reported diagnoses into the derived datasets. Researchers interested in self-reported health data for individual LPS are encouraged to use <a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a> to identify variables of interest.  
 
 The different data sources used by UK Biobank and UK LLC are shown below.
 |<div stype="width: 20px;">Data source</div> | UK Biobank| UK LLC |
 |:---|:---:|:---:|
 | <b>Hospital admission data: 
-|[HES APC (England)](../../../linked_health_data/NHS_England/HES%20datasets/APC/HESAPC.ipynb)                 |✓|✓|
-|PEDW (Wales) <sup>1</sup>         |✓|✗|
-|SMR01 (Scotland)  <sup>1</sup>    |✓|✗|
+|&emsp;&emsp;[HES APC (England)](../../../linked_health_data/NHS_England/HES%20datasets/APC/HESAPC.ipynb)                 |✓|✓|
+|&emsp;&emsp;PEDW (Wales) <sup>1</sup>         |✓|✗|
+|&emsp;&emsp;SMR01 (Scotland)  <sup>1</sup>    |✓|✗|
 | <b>[Death register data](../../../linked_health_data/NHS_England/Registration%20datasets/MORTALITY/MORTALITY.ipynb)           |✓|✓|
 | <b>Self-reported data from LPS</b> <sup>2</sup> |✓|✗|
 
-<sup>1</sup> UK LLC's derived datasets will be updated to included linked hospital data from NHS Wales and NHS Scotland once these data are available.  
-<sup>2</sup> UK LLC is hoping to harmonise self-reported diagnoses of each of the 7 health outcomes.
+<sup>1</sup> UK LLC's derived datasets will be updated to include linked hospital data from NHS Wales and NHS Scotland once these data are available.  
+<sup>2</sup> UK LLC is hoping to harmonise LPS participants' self-reported diagnoses of each of the 7 health outcomes.
 
 ## Health outcomes: derived datasets
 UK Biobank's ADOs include clinical codes from both <strong><a href="https://icd.who.int/browse10/2019/en" target="_blank" rel="noopener noreferrer">ICD-10</a></strong> and ICD-9, for hospital admission data, and ICD-10 only for mortality data. The HES datasets in the UK LLC Trusted Research Environment (TRE) do not include ICD-9 codes, so only ICD-10 codes have been included. These are summarised, by health outcome, [below](#icd-10-codes-for-each-health-outcome).
