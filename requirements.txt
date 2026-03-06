@@ -2,7 +2,7 @@ jupyter-book==1.0.4
 matplotlib
 numpy
 docutils==0.21.2
-pandas==2.1.4
+pandas
 pymysql
 psycopg2-binary
 standard-imghdr
