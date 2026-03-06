@@ -4,7 +4,7 @@ import os
 import sqlalchemy
 import pandas as pd
 import mdapi_functions as md
-from IPython.display import display, Markdown
+from IPython.display import display, Markdown, HTML
 import markdown
 from bokeh.plotting import figure, show
 from bokeh.models import (Span, TabPanel, Tabs, ColumnDataSource, DataCube,
@@ -265,7 +265,7 @@ class DocHelper:
         # hide index
         s = s.hide(axis="index")
 
-        return s
+        return HTML(s.to_html())
 
 
 class LPSDataSet:
