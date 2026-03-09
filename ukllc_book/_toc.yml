@@ -28,6 +28,8 @@ parts:
         - title: UK LLC sample
           file: docs/ukllc_key_facts/Sample/UKLLC_sample.md
           sections:
+            - title: Freeze 15 | Feb 2026
+              file: docs/ukllc_key_facts/Sample/freezes/freeze15.ipynb
             - title: Freeze 14 | Nov 2025
               file: docs/ukllc_key_facts/Sample/freezes/freeze14.ipynb
             - title: Freeze 13 | Aug 2025
@@ -356,6 +358,8 @@ parts:
               file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/education_harmonised.ipynb
         - title: DATAMIND collection
           file: docs/ukllc_managed_data/Datasets/Datamind/Datamind_datasets.md
+        - title: UK Biobank collection
+          file: docs/ukllc_managed_data/Datasets/Biobank/UKBB_datasets.md
         - title: NHS England reference datasets
           file: docs/ukllc_managed_data/Datasets/NHSE_reference/NHSE_reference.md
           sections:

@@ -1,5 +1,9 @@
 # Understanding the IAPT dataset
+<<<<<<< HEAD
 >Last modified: 09 Mar 2026
+=======
+>Last modified: 27 Feb 2026
+>>>>>>> c4284325c2c34b8f26e44f468cf74043cd7170cc
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px; "><strong>IAPT includes adults who are referred in England for depression, anxiety, or related conditions under the NHS Talking Therapies for Anxiety and Depression Service.</strong></div>
 
 ## 1. Introduction
@@ -144,7 +148,7 @@ The UK LLC TRE includes IAPT records for participants in partner LPS and only wh
 
 ## 10. Missing information
 * **Variable and value labels**  
-UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent in the variable label.  
+UK LLC is infilling missing variable and value labels in the NHSE datasets in the TRE. Where variable labels have been added by UK LLC, rather than being found in NHSE documentation, this is made apparent by the phrase 'label added by UK LLC' being included in the variable label.  
 * **Missing data**  
 The amount of missing data varies widely between variables and across datasets. Throughout 2026, we will update this section with information about missingness in the IAPT dataset.
 

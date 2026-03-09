@@ -1,15 +1,18 @@
 # FAQs about working with LPS data
->Last modified: 30 Jan 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with LPS data.</strong></div style>  
+>Last modified: 02 Mar 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with Longitudinal Population Study (LPS) data.</strong></div style>  
 <br>
 
 **Data availability and usage**
 
 <details>
-<summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
+<summary>How can I search for LPS variables on a specific topic?</summary>
 
-UK LLC's [**publication policy**](https://ukllc.ac.uk/governance) requires researchers to complete a checklist to confirm which LPS data they used in their research. Before publications are submitted, and at the end of a project, UK LLC will let LPS know whether their data was used in each research project. It is helpful if researchers share their reasons for not using some datasets so UK LLC can share this information with future potential users.
+You can search for key words (in both LPS and linked data) by using UK LLC's data catalogue (<strong><a href="https://explore.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>).  
+The **'Data'** tab at the top of the page provides the option to search in Study (LPS) data and/or Linked data, and returns results which can be viewed by source (LPS and linked data), dataset, and variable. 
+ 
 </details>
+
 <details>
 <summary>How can I request additional LPS data for my project?</summary>
 
@@ -23,9 +26,22 @@ UK LLC is currently working with our partner LPS to increase the both the number
 </details>
 
 <details>
+<summary>Why are there fewer LPS participants in the UK LLC TRE than there are in the same datasets accessed directly from LPS?</summary>
+
+LPS datasets uploaded to the TRE may have slightly fewer participants than the original LPS dataset as some participants may not have consented to being included in the UK LLC resource.
+</details>
+
+<details>
 <summary>Is UK LLC planning on increasing the number of LPS with data in the TRE?</summary>
 Yes, we are encouraging more LPS to become part of UK LLC. Updates will be added to Guidebook and the <a href="https://ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC website</a> whenever new data are deposited into the TRE.
 </details>
+
+<details>
+<summary>What should I do if I don't use data from an LPS provisioned to my project?</summary>
+
+UK LLC's [**publication policy**](https://ukllc.ac.uk/governance) requires researchers to complete a checklist to confirm which LPS data they used in their research. Before publications are submitted, and at the end of a project, UK LLC will let LPS know whether their data was used in each research project. It is helpful if researchers share their reasons for not using some datasets so UK LLC can share this information with future potential users.
+</details>
+
 <br>
 
 **Practicalities**
