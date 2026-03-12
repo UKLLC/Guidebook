@@ -1,6 +1,6 @@
 # Understanding the IAPT dataset
 <<<<<<< HEAD
->Last modified: 09 Mar 2026
+>Last modified: 12 MAR 2026
 =======
 >Last modified: 27 Feb 2026
 >>>>>>> c4284325c2c34b8f26e44f468cf74043cd7170cc
@@ -82,7 +82,6 @@ The IAPT dataset is comprised of several tables (i.e. individual datasets). Thes
 ## 7. Coding systems used
 The IAPT dataset uses **ICD-10** and **SNOMED CT** codes according to the [**NHS Data Model and Dictionary**.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 
 Understanding which tables use ICD-10, SNOMED CT, or both, as this helps in identifying the appropriate coding system when working with the data. Table 1 summarises the key variables and presents the percentage of records coded using each coding system. Coding system I denotes ICD-10, and Coding system II denotes SNOMED CT. Only variables with coding-system usage greater than 10% in at least one coding system are included in the table. The variables are grouped into four main categories to make the table easier to interpret. The categories and their descriptions are as follows.
-
 ### Care / Contact  Activity
 Variables used to identify information about clinical activities, procedures, or observations captured during care contact.
 ### Coded Assessment Tool
@@ -113,7 +112,6 @@ Variables used to identify diagnosis codes used to record clinical information a
 For SNOMED CT lookups and definitions see [**SNOMED International – service migration**.](https://www.snomed.org/)
 
 Further information about coding systems can be found in the [coded variables guide.](../../Coding/coding_intro.md) 
-
 
 ## 8. Evolution of the dataset
 The IAPT dataset has been collected **since 2012** and has evolved through incremental changes over time (summarised in Table 2). These have included: mandating previously optional items, introducing or discontinuing variables, alterations to response options, incorporating pilot datsets, and aligning with NHS-wide standards such as SNOMED CT coding and the [NHS data model and dictionary.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 

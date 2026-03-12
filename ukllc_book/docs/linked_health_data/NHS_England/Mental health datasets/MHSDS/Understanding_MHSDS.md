@@ -68,7 +68,6 @@ MHSDS is comprised of more than **60 tables or datasets**, which are grouped int
 ## 7. Coding systems used
 MHSDS uses both **ICD-10** codes and **SNOMED CT** codes, according to the [**NHS Data Model and Dictionary**.](https://www.datadictionary.nhs.uk/data_sets/clinical_data_sets/mental_health_services_data_set.html?hl=mhsds). Understanding which tables use ICD-10, SNOMED CT, or both, helps identify the appropriate coding system when working with the data. Table 2 summarises the key variables and presents the percentage of records coded using each coding system. Coding system I denotes ICD-10, and Coding system II denotes SNOMED CT. Only variables with coding-system usage greater than 10% in at least one coding system are included in the table.
 The variables are grouped into four main categories to make the table easier to interpret. The categories and their descriptions are as follows.
-
 ### Care / Contact Activity
 Variables used to identify information about clinical activities, procedures, or observations captured during care contact.
 ### Coded Assessment Tool
@@ -102,6 +101,7 @@ Variables used to identify diagnosis codes used to record clinical information a
 |nhsd.MHSDS_MHS605SecDiag_v0003|mastersnomedctsecdiagcode|NO|SNOMED CT|0|100|Clinical Terminology / Diagnosis|
 |nhsd.MHSDS_MHS606CodedScoreAssessmentRefer_v0003|codedasstooltype|NO|SNOMED CT|0|100|Coded Assessment Tool|
 |nhsd.MHSDS_MHS607CodedScoreAssessmentAct_v0003|codedasstooltype|NO|SNOMED CT|0|100|Coded Assessment Tool|
+
 
 Formatting issues such as loss of precision in 16-digit SNOMED CT codes and conversion to scientific notation, have impacted their usability. These codes are now defined as numeric values in the NHS Data Model and Dictionary. More information is available via [**SNOMED International - Service Migration**.](https://www.snomed.org/)
 
