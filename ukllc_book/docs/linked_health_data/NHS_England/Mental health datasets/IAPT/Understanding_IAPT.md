@@ -81,17 +81,34 @@ The IAPT dataset is comprised of several tables (i.e. individual datasets). Thes
 
 ## 7. Coding systems used
 The IAPT dataset uses **ICD-10** and **SNOMED CT** codes according to the [**NHS Data Model and Dictionary**.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 
+Understanding which tables use ICD-10, SNOMED CT, or both, as this helps in identifying the appropriate coding system when working with the data. Table 1 summarises the key variables and presents the percentage of records coded using each coding system. Coding system I denotes ICD-10, and Coding system II denotes SNOMED CT. Only variables with coding-system usage greater than 10% in at least one coding system are included in the table. The variables are grouped into four main categories to make the table easier to interpret. The categories and their descriptions are as follows.
 
-**ICD-10 codes** are used to identify the patient’s main presenting problem as well as any additional mental or physical health conditions. ICD-10 codes appear in the following tables:
+### Care / Contact  Activity
+Variables used to identify information about clinical activities, procedures, or observations captured during care contact.
+### Coded Assessment Tool
+Variables used to identify information about clinical assessment tools used to measure patient outcomes.
+### Patient Demographics 
+Variables used to identify lifestyle or social factors captured during assessments.
+### Clinical Terminology / Diagnosis
+Variables used to identify diagnosis codes used to record clinical information about the health-related conditions of patients.
 
-- IAPT care activities
-- IAPT mental and physical health conditions 
+ **Table 1** Key variables and the coding systems used with percentage of records codes
 
-**SNOMED CT codes** are used to capture clinical and procedural terms as well as some sociodemographic information (e.g. religious affiliation). SNOMED CT codes appear in the following tables:
-- IAPT demographics and referral 
-- IAPT care activities 
-- IAPT mental and physical health conditions
-- IAPT coded scored assessments 
+| **Table_name**|**Column_name**|**Coding_system_1**|**Coding_system_2**|**%_coding_system_1**|**%_coding_system_2**|**Category**|
+|:---|:---|:---|:---|:---|:---|:---|
+| nhsd.IAPT_care_activities_v0003 | codeprocandprocstatus | NO | SNOMED CT | 0 | 100 |Care / Contact Activity|
+| nhsd.IAPT_care_activities_v0003 | codeobs | NO | SNOMED CT | 0 | 100 |Care / Contact Activity|
+| nhsd.IAPT_coded_scored_assessments_v0003 | codedasstooltype | NO | SNOMED CT | 0 | 99.7| Coded Assessment Tool |
+| nhsd.IAPT_demographics_and_referral_v0003 | religion_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
+| nhsd.IAPT_demographics_and_referral_v0003 | sexorien_socpercircumstance | NO | SNOMED CT | 0 |100 | Patient Demographics  |
+| nhsd.IAPT_demographics_and_referral_v0003 | smokingstatus_socpercircumstance | NO | SNOMED CT | 0 | 73 | Patient Demographics |
+| nhsd.IAPT_demographics_and_referral_v0003 | asylumstatus_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
+| nhsd.IAPT_demographics_and_referral_v0003 | alcoholusestatus_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
+| nhsd.IAPT_demographics_and_referral_v0003 | drugusestatus_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
+| nhsd.IAPT_demographics_and_referral_v0003 | gamblingstatus_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
+| nhsd.IAPT_demographics_and_referral_v0003 | other_socpercircumstance | NO | SNOMED CT | 0 | 98.6 | Patient Demographics  |
+| nhsd.IAPT_mental_and_physical_health_conditions_v0003 | menphyshealthcondition | ICD-10 | SNOMED CT | 43.6 | 33.8 | Clinical Terminology / Diagnosis |
+| nhsd.IAPT_mental_and_physical_health_conditions_v0003|menphyshealthconddescription_icd10_master | ICD-10 | SNOMED CT | 54.7 | 41.8 | Clinical Terminology / Diagnosis|
 
 For SNOMED CT lookups and definitions see [**SNOMED International – service migration**.](https://www.snomed.org/)
 
@@ -99,14 +116,14 @@ Further information about coding systems can be found in the [coded variables gu
 
 
 ## 8. Evolution of the dataset
-The IAPT dataset has been collected **since 2012** and has evolved through incremental changes over time (summarised in Table 1). These have included: mandating previously optional items, introducing or discontinuing variables, alterations to response options, incorporating pilot datsets, and aligning with NHS-wide standards such as SNOMED CT coding and the [NHS data model and dictionary.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 
+The IAPT dataset has been collected **since 2012** and has evolved through incremental changes over time (summarised in Table 2). These have included: mandating previously optional items, introducing or discontinuing variables, alterations to response options, incorporating pilot datsets, and aligning with NHS-wide standards such as SNOMED CT coding and the [NHS data model and dictionary.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 
 
 The current version of the IAPT dataset is **v2.1** which was **released 20 July 2021** and **implemented in 2022.** 
 
 **Important:** When working with IAPT data spanning multiple years, researchers should ensure they check for differences in variables availability, coding and response options. For full details of the changes across versions see NHS Engalnd's [Change Specification documents](https://digital.nhs.uk/data-and-information/information-standards/governance/latest-activity/standards-and-collections/dapb-1520-improving-access-to-psychological-therapies-data-set) published by NHS England for current and previous versions. 
 
 
-**Table 1** A summary of IAPT dataset versions since 2012.
+**Table 2** A summary of IAPT dataset versions since 2012.
 
 |**Version**|**Year released<sup>1</sup>**|**Year implemented**|**Summary of major changes from previous version**|
 |:---|:---|:---|:---|
@@ -123,7 +140,7 @@ The current version of the IAPT dataset is **v2.1** which was **released 20 July
 
 ## 9. Availability in the UK LLC TRE
 
-The UK LLC TRE currently holds an extract of the IAPT dataset from **2020 onwards** organised into **9 linked tables**. A detailed overview of these tables is provided below **(Table 2)** as well as a pictorial representation of the relationships between these tables **(Figure 1)**.  
+The UK LLC TRE currently holds an extract of the IAPT dataset from **2020 onwards** organised into **9 linked tables**. A detailed overview of these tables is provided below **(Table 3)** as well as a pictorial representation of the relationships between these tables **(Figure 1)**.  
 
 The UK LLC TRE includes IAPT records for participants in partner LPS and only where individual or LPS permissions allow linkage to NHS data. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHS data not be shared via UK LLC.
 
@@ -132,7 +149,7 @@ The UK LLC TRE includes IAPT records for participants in partner LPS and only wh
 
 **Figure 1** Relationships between the IAPT tables available in the UK LLC TRE.
 
-**Table 2** IAPT tables available in the UK LLC TRE, including summary and key variables.
+**Table 3** IAPT tables available in the UK LLC TRE, including summary and key variables.
 
 |**Table name**|**Summary of constituent tables**|**Key variables**|
 |--------------|-----------|-----------------|
