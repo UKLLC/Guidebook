@@ -1,6 +1,6 @@
 # Understanding the IAPT dataset
 <<<<<<< HEAD
->Last modified: 12 MAR 2026
+>Last modified: 12 Mar 2026
 =======
 >Last modified: 27 Feb 2026
 >>>>>>> c4284325c2c34b8f26e44f468cf74043cd7170cc

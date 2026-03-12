@@ -1,5 +1,5 @@
  # Understanding the MHSDS dataset
->Last modified: 27 Feb 2026
+>Last modified: 12 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>MHSDS records secondary care services that support people with severe or complex mental health conditions, e.g. psychosis, bipolar disorder, gambling, eating disorders and learning disabilities.</strong></div>
 <br>
 
@@ -66,7 +66,7 @@ MHSDS is comprised of more than **60 tables or datasets**, which are grouped int
 |MHS901-MHS903|Staff, service and ward|Details of staff who attended the service|
 
 ## 7. Coding systems used
-MHSDS uses both **ICD-10** codes and **SNOMED CT** codes, according to the [**NHS Data Model and Dictionary**.](https://www.datadictionary.nhs.uk/data_sets/clinical_data_sets/mental_health_services_data_set.html?hl=mhsds). Understanding which tables use ICD-10, SNOMED CT, or both, helps identify the appropriate coding system when working with the data. Table 2 summarises the key variables and presents the percentage of records coded using each coding system. Coding system I denotes ICD-10, and Coding system II denotes SNOMED CT. Only variables with coding-system usage greater than 10% in at least one coding system are included in the table.
+MHSDS uses both **ICD-10** codes and **SNOMED CT** codes, according to the [**NHS Data Model and Dictionary**.](https://www.datadictionary.nhs.uk/data_sets/clinical_data_sets/mental_health_services_data_set.html?hl=mhsds). Understanding which tables use ICD-10, SNOMED CT, or both, helps identify the appropriate coding system when working with the data. Table 3 summarises the key variables and presents the percentage of records coded using each coding system. Coding system I denotes ICD-10, and Coding system II denotes SNOMED CT. Only variables with coding-system usage greater than 10% in at least one coding system are included in the table.
 The variables are grouped into four main categories to make the table easier to interpret. The categories and their descriptions are as follows.
 ### Care / Contact Activity
 Variables used to identify information about clinical activities, procedures, or observations captured during care contact.
@@ -77,7 +77,7 @@ Variables used to identify lifestyle or social factors captured during assessmen
 ### Clinical Terminology / Diagnosis
 Variables used to identify diagnosis codes used to record clinical information about the health-related conditions of patients.
 
- **Table 2** Key variables and the percentage of coding systems used
+ **Table 3** Key variables and the percentage of coding systems used
 
 |**Table_name**|**Column_name**|**Coding_system_1**|**Coding_system_2**|**%_coding_system_1**|**%_coding_system_2**|**Category**|
 |:---|:---|:---|:---|:---|:---|:---|
@@ -135,13 +135,13 @@ The Data Sharing Agreement between University of Bristol (Data Controller of UK 
 - Package 3 Mental Health Services All Users: this package provides full information about the people using services, but excludes details of contact with services. 
 - Package 4 Mental Health Services All Users: this package provides detailed information about mental health currency assessments and assignments.
 
-These packages cover more than **60 MHSDS tables**. However, the extract from NHS England that flowed in 2024, only included **33 tables**. UK LLC has worked with NHS England to ensure that all tables will flow in the latest extract. This section will be updated with more information once the extract is complete. A detailed overview of the tables available in the UK LLC TRE is provided below, including a pictorial representation of table relationships (**Figure 2**) followed by a summary table of categories and linkages (**Table 3**).
+These packages cover more than **60 MHSDS tables**. However, the extract from NHS England that flowed in 2024, only included **33 tables**. UK LLC has worked with NHS England to ensure that all tables will flow in the latest extract. This section will be updated with more information once the extract is complete. A detailed overview of the tables available in the UK LLC TRE is provided below, including a pictorial representation of table relationships (**Figure 2**) followed by a summary table of categories and linkages (**Table 5**).
 
 <img src="../../../../images/Structure_MHSDS_24112025.jpg" width="800"/>
 
 **Figure 2** Relationships between the MHSDS tables available in the UK LLC TRE
 
-**Table 3** MHSDS tables available in the UK LLC TRE, including summary, key variables and linkages 
+**Table 5** MHSDS tables available in the UK LLC TRE, including summary, key variables and linkages 
 
 |**Table name**|**Summary**|**Key variables**|**Linkages**|
 |--------------|-----------|-----------------|------------|

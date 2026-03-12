@@ -1,6 +1,6 @@
 # DATAMIND Collection
 
->Last modified: 10 MAR 2026
+>Last modified: 10 Mar 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has worked with DATAMIND to create a number of derived mental health and neurodevelopmental datasets.</strong></div>
 
