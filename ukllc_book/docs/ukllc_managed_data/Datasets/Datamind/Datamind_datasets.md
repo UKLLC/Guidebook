@@ -1,18 +1,18 @@
 # DATAMIND Collection
 
->Last modified: 10 Mar 2026
+>Last modified: 13 Mar 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has worked with DATAMIND to create a number of derived mental health and neurodevelopmental datasets.</strong></div>
 
 ## Introduction
 **Datasets will be available for selection shortly**. 
 
-Identifying the earliest diagnosis date, as captured in secondary data sources, is critical for designing research projects, establishing clear inclusion criteria, distinguishing incident from prevalent cases, and examining changes in disease patterns over time. To support researchers in this work, UK LLC has undertaken an initiative to derive the earliest recorded diagnosis date for selected mental health conditions using a combination of linked NHS England datasets and predefined diagnostic codes (ICD-10 and SNOMED CT) from the [**DATAMIND collection in the HDR UK Phenotype Library**](https://phenotypes.healthdatagateway.org/phenotypes/?collections=27). This initiative covers a range of mental health and neurodevelopmental conditions. The conditions included, and the NHS England datasets used to derive the earliest diagnosis dates are summarised in Table 1.
+Identifying the earliest diagnosis date, as captured in secondary data sources, is critical for designing research projects, establishing clear inclusion criteria, distinguishing incident from prevalent cases, and examining changes in disease patterns over time. To support researchers in this work, UK LLC has undertaken an initiative to derive the earliest recorded diagnosis date for selected mental health conditions using a combination of linked NHS England datasets and predefined diagnostic codes (ICD-10 and SNOMED CT) from the [**DATAMIND collection in the HDR UK Phenotype Library**](https://phenotypes.healthdatagateway.org/phenotypes/?collections=27). This initiative covers a range of mental health and neurodevelopmental conditions. The conditions included, and the NHS England datasets used, to derive the earliest diagnosis dates are summarised in Table 1.
 This approach allows researchers to use derived outcomes directly, without needing to select diagnostic or procedural codes from phenotype libraries or to manually combine multiple datasets. However, the derived outcomes depend on the completeness and accuracy of diagnoses recorded in the underlying datasets. 
 
 <aside class="admonition info"><p class="admonition-title">This initiative, undertaken by UK LLC to identify the first occurrence of mental health conditions, was funded by DATAMIND (grant number: MR/Z504816/1).</aside>
 
-**Table 1** Mental health conditions included, and NHS England datasets used to derive the earliest diagnosis dates. (Click on each condition name to download the corresponding codelist)
+**Table 1** Mental health conditions included, and NHS England datasets used, to derive the earliest diagnosis dates. (Click on each condition name to download the corresponding codelist)
 
 | **Datasets**|**HES APC**|**HES OP**|**MHSDS**|**IAPT**|**Mortality**|
 |:---|:---|:---|:---|:---|:---|
@@ -60,21 +60,21 @@ Participants diagnosed with specific mental health conditions were identified us
 ### Derivation of Outcomes 
 The first date of diagnosis is defined as the earliest recorded inpatient admission date, appointment date, diagnosis date, or referral date within secondary care datasets. For all conditions, this date was derived from the NHS England datasets based on predefined criteria and assumptions (see below), using code list for specific mental health outcome. Records containing relevant mental health-related codes were identified and filtered, and the algorithm selected the earliest applicable date and its corresponding data source. The resulting diagnoses were subsequently processed according to the conventions of each dataset. 
 
-###### MHSDS 
+##### MHSDS 
 The MHSDS contains two date columns: Diagnosis Date and Coded Diagnosis Timestamp. Only the earliest diagnosed date was considered. The dates were obtained using the following steps: 
 1. If a date was present in either column, or only in the Coded Diagnosis Timestamp column, it was retained. If the date was present in the Diagnosis Date column, it was copied into the Coded Diagnosis Timestamp column, which was then considered the primary diagnosis date. 
 2. Participants with missing diagnosis dates in both date columns were removed. 
 3. The dates and diagnosis codes were filtered accordingly. 
 
-###### HES
+##### HES
  1. HES OP records used the appointment date, and HES APC records used the admission date, which was considered to represent the first diagnosis of mental health outcome. No missing dates were identified for these cases. 
  2. Dates and diagnosis codes from HES OP and HES APC were filtered.  
 
-###### IAPT
+##### IAPT
  1. In IAPT records, the Mental and Physical Health Recorded Date was used as the earliest available indication of the mental health outcome. All records contained valid dates,  and no missing values were identified. 
  2. Relevant dates and diagnosis codes from this field were then selected according to the specific mental health outcome.
 
- ###### Mortality
+ ##### Mortality
  1. Mortality records were used to identify the date of disease occurrence based on the death date associated with the underlying condition. The recorded death date and the corresponding underlying ICD-10 codes were used as indicators of relevant mental health outcomes. 
  2. Deaths related to other mental health conditions, specifically schizophrenia and eating disorders, were assigned to their respective mental health datasets as defined by the Datamind collection.
  3. All remaining death-related mental health conditions were maintained as conditions within the death by mental and behavioural disorders dataset.

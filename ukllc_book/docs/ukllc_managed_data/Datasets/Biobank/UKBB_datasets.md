@@ -1,6 +1,6 @@
-# UK Biobank collection
+# UK Biobank Collection
 
->Last modified: 06 Mar 2026
+>Last modified: 13 Mar 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is working towards reproducing UK Biobank's 'algorithmically-defined outcomes' (ADOs) for a range of health outcomes.</strong></div>
 

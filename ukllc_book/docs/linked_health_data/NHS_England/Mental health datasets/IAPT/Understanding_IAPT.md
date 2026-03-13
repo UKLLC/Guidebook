@@ -1,9 +1,5 @@
 # Understanding the IAPT dataset
-<<<<<<< HEAD
->Last modified: 12 Mar 2026
-=======
->Last modified: 27 Feb 2026
->>>>>>> c4284325c2c34b8f26e44f468cf74043cd7170cc
+>Last modified: 13 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px; "><strong>IAPT includes adults who are referred in England for depression, anxiety, or related conditions under the NHS Talking Therapies for Anxiety and Depression Service.</strong></div>
 
 ## 1. Introduction
@@ -81,8 +77,8 @@ The IAPT dataset is comprised of several tables (i.e. individual datasets). Thes
 
 ## 7. Coding systems used
 The IAPT dataset uses **ICD-10** and **SNOMED CT** codes according to the [**NHS Data Model and Dictionary**.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 
-Understanding which tables use ICD-10, SNOMED CT, or both, as this helps in identifying the appropriate coding system when working with the data. Table 1 summarises the key variables and presents the percentage of records coded using each coding system. Coding system I denotes ICD-10, and Coding system II denotes SNOMED CT. Only variables with coding-system usage greater than 10% in at least one coding system are included in the table. The variables are grouped into four main categories to make the table easier to interpret. The categories and their descriptions are as follows.
-### Care / Contact  Activity
+Understanding which tables use ICD-10, SNOMED CT, or both, helps in identifying the appropriate coding system when working with the data. Table 1 summarises the key variables and presents the percentage of records coded using each coding system. Coding system I denotes ICD-10, and Coding system II denotes SNOMED CT. Only variables with coding system usage greater than 10% in at least one coding system are included in the table. The variables are grouped into four main categories to make the table easier to interpret. The categories and their descriptions are as follows.
+### Care / Contact Activity
 Variables used to identify information about clinical activities, procedures, or observations captured during care contact.
 ### Coded Assessment Tool
 Variables used to identify information about clinical assessment tools used to measure patient outcomes.
@@ -95,8 +91,8 @@ Variables used to identify diagnosis codes used to record clinical information a
 
 | **Table_name**|**Column_name**|**Coding_system_1**|**Coding_system_2**|**%_coding_system_1**|**%_coding_system_2**|**Category**|
 |:---|:---|:---|:---|:---|:---|:---|
-| nhsd.IAPT_care_activities_v0003 | codeprocandprocstatus | NO | SNOMED CT | 0 | 100 |Care / Contact Activity|
-| nhsd.IAPT_care_activities_v0003 | codeobs | NO | SNOMED CT | 0 | 100 |Care / Contact Activity|
+| nhsd.IAPT_care_activities_v0003 | codeprocandprocstatus | NO | SNOMED CT | 0 | 100 |Care/Contact Activity|
+| nhsd.IAPT_care_activities_v0003 | codeobs | NO | SNOMED CT | 0 | 100 |Care/Contact Activity|
 | nhsd.IAPT_coded_scored_assessments_v0003 | codedasstooltype | NO | SNOMED CT | 0 | 99.7| Coded Assessment Tool |
 | nhsd.IAPT_demographics_and_referral_v0003 | religion_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
 | nhsd.IAPT_demographics_and_referral_v0003 | sexorien_socpercircumstance | NO | SNOMED CT | 0 |100 | Patient Demographics  |
@@ -106,8 +102,8 @@ Variables used to identify diagnosis codes used to record clinical information a
 | nhsd.IAPT_demographics_and_referral_v0003 | drugusestatus_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
 | nhsd.IAPT_demographics_and_referral_v0003 | gamblingstatus_socpercircumstance | NO | SNOMED CT | 0 | 100 | Patient Demographics  |
 | nhsd.IAPT_demographics_and_referral_v0003 | other_socpercircumstance | NO | SNOMED CT | 0 | 98.6 | Patient Demographics  |
-| nhsd.IAPT_mental_and_physical_health_conditions_v0003 | menphyshealthcondition | ICD-10 | SNOMED CT | 43.6 | 33.8 | Clinical Terminology / Diagnosis |
-| nhsd.IAPT_mental_and_physical_health_conditions_v0003|menphyshealthconddescription_icd10_master | ICD-10 | SNOMED CT | 54.7 | 41.8 | Clinical Terminology / Diagnosis|
+| nhsd.IAPT_mental_and_physical_health_conditions_v0003 | menphyshealthcondition | ICD-10 | SNOMED CT | 43.6 | 33.8 | Clinical Terminology/Diagnosis |
+| nhsd.IAPT_mental_and_physical_health_conditions_v0003|menphyshealthconddescription_icd10_master | ICD-10 | SNOMED CT | 54.7 | 41.8 | Clinical Terminology/Diagnosis|
 
 For SNOMED CT lookups and definitions see [**SNOMED International – service migration**.](https://www.snomed.org/)
 
