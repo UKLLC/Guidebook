@@ -27,7 +27,7 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 |[**NCDS58**](../LPS%20profiles/NCDS58.ipynb)|✓|✗|✗|✓|✓|✓|
 |[**NEXTSTEP**](../LPS%20profiles/NEXTSTEP.ipynb)|✓|✗|✗|✗|✓|✓|
 |[**NSHD46**](../LPS%20profiles/NSHD46.ipynb)|✓|✓|Full address|✗|✗|✗|
-|[**TEDS**](../LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✓|✓|✓|
+|[**TEDS**](../LPS%20profiles/TEDS.ipynb)|✓|✓|Full address|✓|✓<sup>5</sup>|✓<sup>5</sup>|
 |[**TWINSUK**](../LPS%20profiles/TWINSUK.ipynb)|✓|✓|Postcode|✗|✗|✗|
 |[**UKHLS**](../LPS%20profiles/UKHLS.ipynb)|✓|✗|✗|✓|✓|✓|
 |**UKREACH**<sup>4</sup>|✓|✓|✗|✓|✗|✗|
@@ -36,7 +36,8 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 <sup>1</sup> The purpose of any sub-licence must be restricted to purpose intended and expected to achieve benefit to the UK health and social care system  
 <sup>2</sup> Geographies used to produce official statistics, including administrative, health and statistical geographies (e.g. census geographies such as LSOA)  
 <sup>3</sup> Household level, using Unique Property Reference Number (UPRN), or postcode level  
-<sup>4</sup> Data from UKREACH is not yet available in the UK LLC TRE
+<sup>4</sup> Data from UKREACH is not yet available in the UK LLC TRE  
+<sup>5</sup> Linkage to DWP and HMRC data is restricted to TEDS participants who have consented to be part of the Environmental Risk (E-Risk) Longitudinal Twin Study
 
 <br>
 
