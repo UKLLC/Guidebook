@@ -270,6 +270,8 @@ parts:
             sections:
               - title: CSDS (general)
                 file: docs/linked_health_data/NHS_England/Community datasets/CSDS/CSDS.ipynb
+          - title: Derived datasets
+            file: docs/linked_health_data/NHS_England/Derived_datasets/Derived_datasets.md
         - title: NHS Wales
           file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
           sections:
