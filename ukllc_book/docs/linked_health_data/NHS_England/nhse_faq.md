@@ -1,5 +1,5 @@
 # FAQs about NHS England data
->Last modified: 27 Feb 2026
+>Last modified: 19 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
 
@@ -46,6 +46,13 @@ More information creating a codelist is available here: [**Codelists**](../NHS_E
 <summary>How can I quantify the <b>effect of applying codelists</b> to my dataset?</summary> 
 
 The file [**'NHSE patient service usage'**](../../ukllc_managed_data/UKLLC_generated/Datasets/Linked_derived/nhse_patient_service_usage.ipynb) contains the number of appearances and the date of the most recent appearance for each participant for each available NHS data source. Comparing LPS participants' presence in NHS data sources against the data provisioned to a project will identify which participants appear in the data source but are not included in the provisioned data. 
+</details>
+
+<details>
+<summary>Can UK LLC advise on how to identify participants with <b>specific diagnoses</b>?</summary>
+
+UK LLC has generated derived datasets for specific physical and mental health outcomes, based on work undertaken by DATAMIND and UK Biobank. These are described on Guidebook's [**Derived datasets**](../NHS_England/Derived_datasets/Derived_datasets.md) page.  
+For health outcomes not covered by these derived datasets, we recommend that researchers either use pre-defined codelists (as outlined on the [**Codelists**](../NHS_England/Coding/codelists.md#how-do-i-create-a-codelist) page), or work with clinicians to define codelists relevant to their research.
 </details>
 
 <details>

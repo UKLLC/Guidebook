@@ -1,5 +1,5 @@
 # Available software
->Last modified: 06 Jan 2026
+>Last modified: 19 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
@@ -156,11 +156,12 @@ Once you have created a your python environment, click on the Youtube link below
 The Stata helper script is provided in the folder '**S:\ReadAll\stata_help**'. The batch file 'run_stata_helper.bat' runs the script 'py_stata_helper.py'. This python script will extract data from your project views, add variable and value labels and save **stata format (.dta) files** to your project working space in the folder 'S:\LLC_XXXX\data\stata_w_labs'.  
 
 To use the helper:
-1. Create your own python environment if you have not already done so (see ['Creating a new environment'](#creating-a-new-environment) above).
-2. When the new environment has been created, double click on 'S:\ReadAll\stata_help\run_stata_helper.bat'.
-3. When asked, input your project number as four numbers, e.g. 9999.
-4. The command prompt will print to inform you when a dataset has been retrieved and whether value and variable labels have been found. 
-5. The files will be saved in .dta format in 'S:\LLC_XXXX\data\stata_w_labs' and can be opened in Stata.
+1. Search for Stata19 in the Windows Start Menu, then open and immediately close the Stata19 app. (This step 'delivers' the software to the virtual desktop.)
+2. Create your own python environment if you have not already done so (see ['Creating a new environment'](#creating-a-new-environment) above).
+3. When the new environment has been created, double click on 'S:\ReadAll\stata_help\run_stata_helper.bat'.
+4. When asked, input your project number as four numbers, e.g. 9999.
+5. The command prompt will print to inform you when a dataset has been retrieved and whether value and variable labels have been found. 
+6. The files will be saved in .dta format in 'S:\LLC_XXXX\data\stata_w_labs' and can be opened in Stata.
 
 **Note**: if your project has been provisioned a large number of views this process can take up to an hour to complete.
 
