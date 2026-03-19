@@ -1,5 +1,5 @@
 # NHS England hospital datasets
->Last modified: 18 Nov 2025
+>Last modified: 19 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The hospital datasets cover all NHS funded hospital activity in England.</strong></div>
 <br>
 
@@ -16,7 +16,7 @@
  [Hospital Episode Statistics (HES) Outpatients](../HES%20datasets/OP/HESOP.ipynb), [HES Admitted Patient Care](../HES%20datasets/APC/HESAPC.ipynb), [HES Accident & Emergency (retired)](../HES%20datasets/AE/) and [Emergency Care](../HES%20datasets/ECDS/).
 <br>
 * **HES Admitted Patient Care (HESAPC)** encompasses three further datasets:  
-  [HES Critical Care](../HES%20datasets/CC/), HES Augmented Care Periods (retired) and HES Maternity.
+  [HES Critical Care](../HES%20datasets/CC/), [HES Augmented Care Periods (retired)](../HES%20datasets/ACP/HESAPC_ACP.ipynb) and [HES Maternity](../HES%20datasets/MAT/HESAPC_MAT.ipynb).
 <br>
 * The datasets in the UK LLC TRE span **1998 onwards**.
 <br>

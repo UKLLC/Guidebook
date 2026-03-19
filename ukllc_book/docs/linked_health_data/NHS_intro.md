@@ -1,5 +1,5 @@
 # National Health Service (NHS) data
->Last modified: 02 Dec 2025
+>Last modified: 19 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is committed to four nation NHS coverage, i.e. England, Northern Ireland, Scotland and Wales.</strong></div>  
 <br>
 
@@ -16,7 +16,7 @@
 
 See the [**Linkages guide**](../LPS_data/Linkages/LPS_linkages.md) for details of which Longitudinal Population Studies (LPS) have permitted linkage of their participants to the NHS England and NHS Wales datasets. We will add information about the NHS Scotland and NHS Northern Ireland datasets in due course.
 
->**Note**: Even if an LPS permits linkage to an NHS dataset, the individual participants in that LPS can choose to opt out of UK LLC altogether or to opt out of all or a particular type of  data linkage. If a participant opts out, no new data about them will be shared, but data that has already been provisioned can still be used until the project ends. Please see the [**UK LLC Privacy Notice**](https://ukllc.ac.uk/privacy-policy) for further information.
+>**Note**: Even if an LPS permits linkage to an NHS dataset, the individual participants in that LPS can choose to opt out of UK LLC altogether or to opt out of all or a particular type of  data linkage. If a participant opts out, no new data about them will be shared, but data that has already been provisioned can still be used until the project ends. Please see the [**UK LLC Privacy Notice**](https://ukllc.ac.uk/safeguards) for further information.
 
 ## UK LLC documentation of NHS datasets
 We have organised our NHS data documentation by nation. Within each nation we have included (where the information is available to us) the following:
