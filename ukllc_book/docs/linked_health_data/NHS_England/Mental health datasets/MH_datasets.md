@@ -1,5 +1,5 @@
 # NHS England mental health datasets
->Last modified: 19 Mar 2026
+>Last modified: 20 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The mental health datasets cover inpatient and community mental health services.</strong></div>
 <br>
 
@@ -22,7 +22,7 @@ For further information see the **individual dataset guides.**
 
 **Table 1** Names, geographical coverage and availability of mental health datasets in the UK LLC TRE
 
-| **Dataset**|**Dataset name**|**Other name**|Grouping**|**Coverage**|**Data available in TRE**|
+| **Dataset**|**Dataset name**|**Other name**|**Grouping**|**Coverage**|**Data available in TRE**|
 |---|:---:|:---:|:---:|:---:|:---:|
 |[**MHSDS**<sup>1</sup>](../Mental%20health%20datasets/MHSDS/MHSDS.ipynb)|Mental Health Services Data Set|N/A|General|England|01/04/2016 onwards|
 |[**IAPT**](../Mental%20health%20datasets/IAPT/IAPT.ipynb)|Improving Access to Psychological Therapies|NHS Talking Therapies for Anxiety and Depression|Talking therapies|England|01/04/2012 onwards| |

@@ -1,5 +1,5 @@
 # NHS England primary care datasets
->Last modified: 19 Mar 2026
+>Last modified: 20 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Primary care datasets cover tests, diagnoses and prescriptions recorded by General Practitioners (GPs) in England.</strong></div>  
 <br>  
 
@@ -17,10 +17,10 @@
 For further information see the **individual dataset guides.**  
 
 **Table 1** Names, geographical coverage and availability of Primary Care datasets in the UK LLC TRE
-|**Dataset**|**Dataset name**|**Grouping**|**Coverage**|**Data available in TRE**|**Data owner**|
-|---|:---:|:---:|:---:|:---:|:---:|
-|[**GDPPR**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research|GP records|England|1940s onwards|NHSE|
-|[**PCM**](../Primary_care_datasets/PCM/PCM.ipynb)|Medicines Dispensed in Primary Care (NHSBSA data)|Prescriptions|England|01/04/2015 onwards|NHSE||  
+|**Dataset**|**Dataset name**|**Grouping**|**Coverage**|**Data available in TRE**|
+|---|:---:|:---:|:---:|:---:|
+|[**GDPPR**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)|General Practice Extraction Service (GPES) Data for Pandemic Planning and Research|GP records|England|1940s onwards|
+|[**PCM**](../Primary_care_datasets/PCM/PCM.ipynb)|Medicines Dispensed in Primary Care (NHSBSA data)|Prescriptions|England|01/04/2015 onwards||  
 
 
 
