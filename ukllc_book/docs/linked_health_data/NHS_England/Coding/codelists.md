@@ -1,5 +1,5 @@
 # Codelists and NHS England data
->Last modified: 20 Jun 2025
+>Last modified: 19 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>When requesting access to certain NHS England datasets, researchers must submit a codelist to ensure data minimisation.</strong></div>
 <br>
 
@@ -11,7 +11,7 @@ Data minimisation in this context is referred to as **‘subsetting’**, where 
 * [**HES Admitted Patient Care (HESAPC)**](../HES%20datasets/APC/HESAPC.ipynb)
 * [**HES Accident & Emergency (HESAE)**](../HES%20datasets/AE/HESAE.ipynb)
 * [**General Practice Extraction Service (GPES) Data for Pandemic Planning and Research (GDPPR)**](../Primary_care_datasets/GDPPR/GDPPR.ipynb)
-* [**Primary Care Medicines (PCM)**](../Primary_care_datasets/PCM/PCM.ipynb)
+* [**Medicines Dispensed in Primary Care (NHSBSA data) (PCM)**](../Primary_care_datasets/PCM/PCM.ipynb)
 * [**Cancer Registrations (CANCER)**](../Registration%20datasets/CANCER/CANCER.ipynb)
 
 ## How do I create a codelist?

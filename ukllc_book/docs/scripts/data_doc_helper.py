@@ -1208,7 +1208,7 @@ class NHSEDataSet:
             self.apa_cite, # Citation
             self.dl_cites, # Download Cite
             md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/NHS_England/NHSE_intro", self.df_ds.iloc[0]["source_name"]), # Series
-            self.df_ds.iloc[0]["Owner"], # Owner
+            "NHS England", # self.df_ds.iloc[0]["Owner"], # Owner
             "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format("2026"), # Copyright
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
@@ -1530,7 +1530,7 @@ class NHSESource:
         [
             self.apa_cite,
             self.dl_cites,
-            self.df_ss.iloc[0]["Owner"],
+            "NHS England", # self.df_ss.iloc[0]["Owner"],
             "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format(datetime.now().strftime("%Y")),
             self.df_ss.iloc[0]["geographic_coverage_Nations"],
             "1940s (GDPPR)",
@@ -1641,14 +1641,14 @@ class NHSESource:
                 "table_name",
                 "grouping",
                 "date_available",
-                "owner_abbr"
+                # "owner_abbr"
             ]].rename(
                 columns={
                 "table": "Dataset",
                 "table_name": "Dataset Name",
                 "grouping": "Grouping",
                 "date_available": "Data Available in TRE",
-                "owner_abbr": "Data Owner"
+                # "owner_abbr": "Data Owner"
             })
 
         return DocHelper.style_table("_", df)

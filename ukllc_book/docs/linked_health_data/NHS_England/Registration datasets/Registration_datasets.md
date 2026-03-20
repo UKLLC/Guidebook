@@ -1,5 +1,5 @@
 # NHS England registration datasets
->Last modified: 18 Jul 2025
+>Last modified: 19 Mar 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The registration datasets cover deaths, cancer and basic demographics.</strong></div>
 <br>
 
@@ -17,10 +17,10 @@ For further information see the **individual dataset guides.**
 
 **Table 1** Names, geographical coverage and availability of registration datasets in the UK LLC TRE
 
-| **Dataset**|**Dataset name**|**Grouping**|**Coverage**|**Data available in TRE**|**Data owner**|
-|---|:---:|:---:|:---:|:---:|:---:|
-|[**CANCER**](../Registration%20datasets/CANCER/CANCER.ipynb)|Cancer Registration Data|Cancer|England|01/01/1971 onwards|NHSE|
-|[**DEMOGRAPHICS**](../Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb)|Demographics Registration Data|Demographics|England & Wales|01/06/2004 onwards|NHSE|
-|[**MORTALITY**](../Registration%20datasets/MORTALITY/MORTALITY.ipynb)|Civil Registrations of Death|Deaths|England & Wales|01/01/1993 onwards|ONS|  |
+| **Dataset**|**Dataset name**|**Grouping**|**Coverage**|**Data available in TRE**|
+|---|:---:|:---:|:---:|:---:|
+|[**CANCER**](../Registration%20datasets/CANCER/CANCER.ipynb)|Cancer Registration Data|Cancer|England|01/01/1971 onwards|
+|[**DEMOGRAPHICS**](../Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb)|Demographics Registration Data|Demographics|England & Wales|01/06/2004 onwards|
+|[**MORTALITY**](../Registration%20datasets/MORTALITY/MORTALITY.ipynb)|Civil Registrations of Death|Deaths|England & Wales|01/01/1993 onwards|  |
 
 ONS: Office for National Statistics
