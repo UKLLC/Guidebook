@@ -6,6 +6,6 @@ pandas==2.1.4
 pymysql
 psycopg2-binary
 standard-imghdr
-markdown
+markdown==3.9
 bokeh
 geopandas
