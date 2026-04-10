@@ -29,6 +29,9 @@ jobs:
 
       - name: Build the book
         working-directory: ukllc_book
+        env:
+          FASTAPI_KEY: ${{ secrets.FASTAPI_KEY }}
+          DATACITE_PROD_PW: ${{ secrets.DATACITE_PROD_PW }}
         run: |
           jupyter-book build .
 
