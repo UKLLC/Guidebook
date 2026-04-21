@@ -1,5 +1,5 @@
 # Policy on the use of AI models within the UK LLC TRE
->Last modified: 11 Dec 2025
+>Last modified: 20 Apr 2025
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers cannot bring AI models into the UK LLC Trusted Research Environment (TRE) or export them, but this policy is subject to ongoing review in line with best practices within the wider TRE community.</strong></div> 
 <br>
 
