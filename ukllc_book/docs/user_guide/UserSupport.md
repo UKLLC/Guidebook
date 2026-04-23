@@ -1,10 +1,10 @@
 # User support
->Last modified: 11 Dec 2025
+>Last modified: 23 Apr 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC is committed to helping all researchers to work effectively in the UK LLC Trusted Research Environment.</strong></div style>
 
 ## Self-service user tools
 UK LLC maintains a library of **self-service** user help tools in multiple formats.  These include this User Guide, helper syntax and <strong><a href="https://www.youtube.com/@ukllcollab" target="_blank" rel="noopener noreferrer">YouTube videos</a></strong>.
-All active researchers are invited to join the monthly **UK LLC User Group meetings** (via Teams). Active researchers can also request a **1:1 support session** with a member of the UK LLC Data Team.
+All researchers who have submitted an application or are already working in the TRE are invited to join the monthly **UK LLC User Group meetings** (via Teams). Those working in the TRE can also request a **1:1 support session** with a member of the UK LLC Data Team.
 
 ## Accessing help
 <aside class="admonition note"><p class="admonition-title">Assistance is available from the UK LLC and SeRP Data Teams</p>However, please note that neither UK LLC nor SeRP are able to offer specific advice on choice of software, or answer general queries about coding or analytical methods.</aside> 
