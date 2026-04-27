@@ -406,10 +406,10 @@ parts:
         - title: Rules for researchers
           file: docs/user_guide/RulesForResearchers.md
         - title: Research focus
-          file: docs/user_guide/Research_notes/Notes_intro.md
+          file: docs/user_guide/research_notes/notes_intro.md
           sections:
             - title: Focus on harmonisation
-              file: docs/user_guide/Research_notes/01_Calkin_Feb26.md
+              file: docs/user_guide/research_notes/01_calkin_feb26.md
         - title: Identifying individuals in multiple LPS
           file: docs/user_guide/alf2.md
     - title: FAQs
