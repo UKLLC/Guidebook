@@ -402,7 +402,7 @@ parts:
         - title: Publishing your research
           file: docs/user_guide/PublishingYourResearch.md
         - title: User support
-          file: docs/user_guide/UserSupport.md
+          file: docs/user_guide/user_support.md
         - title: Rules for researchers
           file: docs/user_guide/RulesForResearchers.md
         - title: Research focus
