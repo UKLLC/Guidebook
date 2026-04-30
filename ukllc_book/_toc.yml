@@ -394,7 +394,7 @@ parts:
           file: docs/user_guide/SDC.md
           sections:
             - title: Quiz on Statistical Disclosure Control
-              file: docs/user_guide/SDC quiz.md
+              file: docs/user_guide/sdc_quiz.md
         - title: Requesting an amendment
           file: docs/user_guide/RequestingAnAmendment.md
         - title: Finishing your project
@@ -413,5 +413,5 @@ parts:
         - title: Identifying individuals in multiple LPS
           file: docs/user_guide/alf2.md
     - title: FAQs
-      file: docs/FAQ/faq_intro.md
+      file: docs/faq/faq_intro.md
       
