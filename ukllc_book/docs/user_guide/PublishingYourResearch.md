@@ -1,10 +1,10 @@
 # Publishing or presenting your research
-> Last modified: 16 Mar 2026
+> Last modified: 30 Apr 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must send all papers and similar outputs to UK LLC for review before submitting them for publication.</strong></div style>
 
 
 ## Key messages for researchers
-1. You must only include **data** in papers/presentations that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md).
+1. You must only include **data** in papers/presentations that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](../user_guide/moving_files.md).
 
 2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to all your [**project-specific terms and conditions (Ts&Cs)**](https://guidebook.ukllc.ac.uk/docs/ukllc_key_facts/applying/paperwork#data-owners-terms-and-conditions-ts-cs).
 

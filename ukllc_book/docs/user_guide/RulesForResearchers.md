@@ -1,5 +1,5 @@
 # Rules for researchers
->Last modified: 05 Dec 2025
+>Last modified: 30 Apr 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must follow rules to safeguard the anonymity and security of LPS participants’ data in the UK LLC Trusted Research Environment (TRE).</strong></div style>
 <br>
 
@@ -16,7 +16,7 @@ You must only access the UK LLC TRE **from the UK** via a **secure private or co
 You must **never** take any screenshots of data in the UK LLC TRE (e.g. by using a phone or snipping tool), although you can **share your screen** with other **approved researchers on your project**. If you wish to share findings with a colleague who is not named on your research project, you must submit each output for [**statistical disclosure control checks**](../user_guide/SDC.md) via the official data out process described in rule 4 below. 
 
 ### 4. Taking data out of the TRE
-The **only way** you are permitted to take data out of the UK LLC TRE is via the official **data out process** detailed in the [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md). Even small outputs, such as a single number that you could easily remember or write down MUST be requested via this process. This ensures that all outputs are documented and that UK LLC is confident that your output is safe, i.e. non-disclosive. 
+The **only way** you are permitted to take data out of the UK LLC TRE is via the official **data out process** detailed in the [**Moving files in and out guide**](../user_guide/moving_files.md). Even small outputs, such as a single number that you could easily remember or write down MUST be requested via this process. This ensures that all outputs are documented and that UK LLC is confident that your output is safe, i.e. non-disclosive. 
 
 ### 5. Confidentiality of data
 You must maintain the **confidentiality** of the data you access in the UK LLC TRE. You must not try to **identify or contact any LPS participant**. If you inadvertently identify an LPS participant you must notify the UK LLC Data Team immediately: [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk).
@@ -47,7 +47,7 @@ You should also  **notify UK LLC** about **risks** and any **weaknesses** you id
 
 
 ### 11. Presenting/publishing your results
-You must only include data in papers/presentations that have been approved through UK LLC's output review process - see the [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md). You must share all papers and similar outputs with UK LLC for review at least two weeks prior to submission for publication - see the [**Publishing or presenting your research guide**](../user_guide/PublishingYourResearch.md).
+You must only include data in papers/presentations that have been approved through UK LLC's output review process - see the [**Moving files in and out guide**](../user_guide/moving_files.md). You must share all papers and similar outputs with UK LLC for review at least two weeks prior to submission for publication - see the [**Publishing or presenting your research guide**](../user_guide/PublishingYourResearch.md).
 
 ## Penalties for researchers
 You must adhere to the terms of the **Data Access Agreement (DAA)** and **Data User Responsibilities Agreement (DURA)** at all times. The DAA is a **legally binding contract**. Current and future access is at risk for you, your team and your organisation if you do not abide by the terms of these agreements. Serious breaches of these terms may be subject to prosecution to the full extent of civic or criminal law.

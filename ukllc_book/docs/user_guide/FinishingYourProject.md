@@ -1,5 +1,5 @@
 # Finishing your project
->Last modified: 20 Nov 2025
+>Last modified: 30 Apr 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>What to do when your time in the UK LLC Trusted Research Environment (TRE) is coming to an end.</strong></div style>  
 
@@ -17,9 +17,9 @@ If you need additional time to complete your research, you can submit an amendme
 <aside class="admonition note"><p class="admonition-title">You can request an amendment any time within the 6 month period following the end date of your project</aside>
 
 ## 2. Wrap up your project
-1. Submit final [**file outs**](../user_guide/MovingFilesInAndOut.md) required for your **publications or presentations**. Please ensure you adhere to the rules detailed in the [**Publishing or presenting your research guide**](../user_guide/PublishingYourResearch.md).
+1. Submit final [**file outs**](../user_guide/moving_files.md) required for your **publications or presentations**. Please ensure you adhere to the rules detailed in the [**Publishing or presenting your research guide**](../user_guide/PublishingYourResearch.md).
 2. Collate all of your **syntax, derived data** and accompanying **documentation** in your project-specific [**GitLab**](../user_guide/TeamDataScience.md).
-3. Share your **syntax** with documentation for integration into the resource, by making a **file-out request** and ticking the box **‘GitHub/Gitlab sharing’**. Approved files will be pushed to the shared subgroup in GitLab called ‘ReadAll’ - see [**Moving files in and out guide**](../user_guide/MovingFilesInAndOut.md). 
+3. Share your **syntax** with documentation for integration into the resource, by making a **file-out request** and ticking the box **‘GitHub/Gitlab sharing’**. Approved files will be pushed to the shared subgroup in GitLab called ‘ReadAll’ - see [**Moving files in and out guide**](../user_guide/moving_files.md). 
 4. Push the **approved syntax and documentation** files to your **project repository** on the external public **GitHub** - see [**Using Git guide**](../user_guide/TeamDataScience.md). You must set your UK LLC repository's visibility to **'Public'**
 5. Share your **derived data outputs** with documentation for integration into the resource by **emailing** the UK LLC Data Team at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). Make sure you include the **TRE file path of your data file(s)** - see [**Using Git guide**](../user_guide/TeamDataScience.md).
 
