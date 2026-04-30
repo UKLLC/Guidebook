@@ -389,7 +389,7 @@ parts:
         - title: Using Git
           file: docs/user_guide/TeamDataScience.md
         - title: Moving files in and out
-          file: docs/user_guide/MovingFilesInAndOut.md
+          file: docs/user_guide/moving_files.md
         - title: Statistical Disclosure Control
           file: docs/user_guide/SDC.md
           sections:
