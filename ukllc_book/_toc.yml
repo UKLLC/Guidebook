@@ -343,7 +343,7 @@ parts:
         - title: HM Revenue & Customs
           file: docs/linked_admin_data/HMRC_data/HMRC_data.md
         - title: Department for Work & Pensions
-          file: docs/linked_admin_data/DWP_data/DWP_data.md
+          file: docs/linked_admin_data/DWP_data/dwp_data.md
     - title: UK LLC-managed data
       file: docs/ukllc_managed_data/UKLLC_data.md
       sections:
