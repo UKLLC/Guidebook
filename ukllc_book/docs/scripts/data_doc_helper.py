@@ -1207,7 +1207,7 @@ class NHSEDataSet:
             self.df_ds.iloc[0]["source_table"], # DS in TRE
             self.apa_cite, # Citation
             self.dl_cites, # Download Cite
-            md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/NHS_England/NHSE_intro", self.df_ds.iloc[0]["source_name"]), # Series
+            md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/nhs_england/nhse", self.df_ds.iloc[0]["source_name"]), # Series
             "NHS England", # self.df_ds.iloc[0]["Owner"], # Owner
             "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format("2026"), # Copyright
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
@@ -1585,28 +1585,28 @@ class NHSESource:
         df["grouping"] = df["table"].apply(lambda x: grps[x])
 
         links = {
-            "PCM": "../NHS_England/Primary_care_datasets/PCM/PCM.html",
-            "HESOP": "../NHS_England/HES%20datasets/OP/HESOP.html",
-            "HESAPC": "../NHS_England/HES%20datasets/APC/HESAPC.html",
-            "HESAPC_ACP": "../NHS_England/HES%20datasets/ACP/HESAPC_ACP.html",
-            "HESAPC_MAT": "../NHS_England/HES%20datasets/MAT/HESAPC_MAT.html",
-            "HESCC": "../NHS_England/HES%20datasets/CC/HESCC.html",
-            "ECDS": "../NHS_England/HES%20datasets/ECDS/ECDS.html",
-            "HESAE": "../NHS_England/HES%20datasets/AE/HESAE.html",
-            "COVIDSGSS": "../NHS_England/COVID%20datasets/COVIDSGSS/COVIDSGSS.html",
-            "IELISA": "../NHS_England/COVID%20datasets/IELISA/IELISA.html",
-            "NPEX": "../NHS_England/COVID%20datasets/NPEX/NPEX.html",
-            "CHESS": "../NHS_England/COVID%20datasets/CHESS/CHESS.html",
-            "CVS": "../NHS_England/COVID%20datasets/CVS/CVS.html",
-            "CVAR": "../NHS_England/COVID%20datasets/CVAR/CVAR.html",
-            "GDPPR": "../NHS_England/Primary_care_datasets/GDPPR/GDPPR.html",
-            "CANCER": "../NHS_England/Registration%20datasets/CANCER/CANCER.html",
-            "DEMOGRAPHICS": "../NHS_England/Registration%20datasets/DEMOGRAPHICS/DEMOGRAPHICS.html",
-            "MORTALITY": "../NHS_England/Registration%20datasets/MORTALITY/MORTALITY.html",
-            "MHSDS": "../NHS_England/Mental%20health%20datasets/MHSDS/MHSDS.html",
-            "IAPT": "../NHS_England/Mental%20health%20datasets/IAPT/IAPT.html",
-            "CSDS": "../NHS_England/Community%20datasets/CSDS/CSDS.html",
-            "MSDS": "../NHS_England/Community%20datasets/MSDS/MSDS.html"
+            "PCM": "../nhs_england/primary_care_datasets/pcm/pcm.html",
+            "HESOP": "../nhs_england/hes_datasets/op/hesop.html",
+            "HESAPC": "../nhs_england/hes_datasets/apc/hesapc.html",
+            "HESAPC_ACP": "../nhs_england/hes_datasets/acp/hesapc_acp.html",
+            "HESAPC_MAT": "../nhs_england/hes_datasets/mat/hesapc_mat.html",
+            "HESCC": "../nhs_england/hes_datasets/cc/hescc.html",
+            "ECDS": "../nhs_england/hes_datasets/ecds/ecds.html",
+            "HESAE": "../nhs_england/hes_datasets/ae/hesae.html",
+            "COVIDSGSS": "../nhs_england/covid_datasets/covidsgss/covidsgss.html",
+            "IELISA": "../nhs_england/covid_datasets/ielisa/ielisa.html",
+            "NPEX": "../nhs_england/covid_datasets/npex/npex.html",
+            "CHESS": "../nhs_england/covid_datasets/chess/chess.html",
+            "CVS": "../nhs_england/covid_datasets/cvs/cvs.html",
+            "CVAR": "../nhs_england/covid_datasets/cvar/cvar.html",
+            "GDPPR": "../nhs_england/primary_care_datasets/gdppr/gdppr.html",
+            "CANCER": "../nhs_england/registration_datasets/cancer/cancer.html",
+            "DEMOGRAPHICS": "../nhs_england/registration_datasets/demographics/demographics.html",
+            "MORTALITY": "../nhs_england/registration_datasets/mortality/mortality.html",
+            "MHSDS": "../nhs_england/mental_health_datasets/mhsds/mhsds.html",
+            "IAPT": "../nhs_england/mental_health_datasets/iapt/iapt.html",
+            "CSDS": "../nhs_england/community_datasets/csds/csds.html",
+            "MSDS": "../nhs_england/community_datasets/msds/msds.html"
         }
 
         df = df.set_index("table", drop=False).reindex([
