@@ -8,14 +8,14 @@ This section is aimed primarily at researchers. It provides links to the FAQs fo
 
 Please follow the links below for FAQs on:
 
-- [Longitudinal Population Study (LPS) data](../LPS_data/lps_faq.md)
+- [Longitudinal Population Study (LPS) data](../lps_data/lps_faq.md)
 
-- [NHS England data](../linked_health_data/NHS_England/nhse_faq.md)
+- [NHS England data](../linked_health_data/nhs_england/nhse_faq.md)
 
-  - [Hospital (HES) datasets](../linked_health_data/NHS_England/HES%20datasets/hes_faq.md)  
-  - [COVID-19 datasets](../linked_health_data/NHS_England/COVID%20datasets/covid19_faq.md)  
-  - [Mental health datasets](../linked_health_data/NHS_England/Mental%20health%20datasets/mh_faq.md)
-  - [Medical codes (e.g. ICD-10, OPCS-4, SNOMED)](../linked_health_data/NHS_England/Coding/codes_faq.md)
+  - [Hospital (HES) datasets](../linked_health_data/nhs_england/hes_datasets/hes_faq.md)  
+  - [COVID-19 datasets](../linked_health_data/nhs_england/covid_datasets/covid19_faq.md)  
+  - [Mental health datasets](../linked_health_data/nhs_england/mental_health_datasets/mh_faq.md)
+  - [Medical codes (e.g. ICD-10, OPCS-4, SNOMED)](../linked_health_data/nhs_england/coding/codes_faq.md)
 
 - [Place-based data](../linked_geo_data/place_faq.md)
 

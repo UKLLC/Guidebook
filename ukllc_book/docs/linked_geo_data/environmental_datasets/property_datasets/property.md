@@ -17,7 +17,7 @@ The UK LLC's property datasets can also be used for research that informs policy
 
 The current UK LLC property datasets include:
 
-- [Energy Performance Certificates (EPC)](../property_datasets/EPC/Understanding_epc.md)  
+- [Energy Performance Certificates (EPC)](../property_datasets/epc/understanding_epc.md)  
 N.B. Available towards the end of 2026
 
 **Please click on each dataset for more information.**

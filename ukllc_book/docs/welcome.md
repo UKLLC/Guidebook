@@ -7,7 +7,7 @@
 
 [**UK LLC**](https://ukllc.ac.uk/) **is the national Trusted Research Environment (TRE) for data linkage in longitudinal research**, bringing together data from **Longitudinal Population Studies (LPS)** and linking these to study participants' **health**, **administrative** and **place-based** records.
 
-A <a href="https://ijpds.org/article/view/2468/6167" target="_blank" rel="noopener noreferrer">**published protocol paper**</a> explains how UK LLC works. Currently, researchers can request access to data from **22 LPS**. Participants' records are linked to [**NHS England**](../docs/linked_health_data/NHS_England/NHSE.ipynb) and [**place-based datasets**](../docs/linked_geo_data/Place_based_intro.md) wherever participant permissions allow.
+A <a href="https://ijpds.org/article/view/2468/6167" target="_blank" rel="noopener noreferrer">**published protocol paper**</a> explains how UK LLC works. Currently, researchers can request access to data from **22 LPS**. Participants' records are linked to [**NHS England**](../docs/linked_health_data/nhs_england/nhse.ipynb) and [**place-based datasets**](../docs/linked_geo_data/place_based_intro.md) wherever participant permissions allow.
 
 ## UK LLC is unique because:
 >* **Linkages are dynamic.** Linkages to NHS England datasets are refreshed every 12 months, and we can provide researchers with access to new or updated LPS datasets as they become available, ensuring the **temporal alignment** of LPS and linked data.  
@@ -18,11 +18,11 @@ A <a href="https://ijpds.org/article/view/2468/6167" target="_blank" rel="noopen
 <br>    
 >* **The range of linked health records.** UK LLC has the maximum number variables permitted by NHS England, across a wide set of linked health records, covering primary, secondary and community-based care.  
 <br>  
->* **[A dynamic library of research products](../docs/ukllc_managed_data/UKLLC_data.md).** Reusable syntax and derived variables are developed by UK LLC researchers and made available to all TRE users.  
+>* **[A dynamic library of research products](../docs/ukllc_managed_data/ukllc_data.md).** Reusable syntax and derived variables are developed by UK LLC researchers and made available to all TRE users.  
 <br>  
->* **[Harmonised variables](../docs/ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md).** Sex, gender, ethnicity, year of birth and education have been harmonised across all partner LPS, so researchers can quickly understand the socio-demographic makeup of their study population.  
+>* **[Harmonised variables](../docs/ukllc_managed_data/datasets/sociodemo_harmonised/sociodemo_harmonised.md).** Sex, gender, ethnicity, year of birth and education have been harmonised across all partner LPS, so researchers can quickly understand the socio-demographic makeup of their study population.  
 <br>  
->* [**The simplicity of the application process.**](../docs/ukllc_key_facts/Applying/Intro.md) Researchers complete just one form to apply for LPS or linked data. Researchers already working in the UK LLC TRE add additional data as it becomes available, via UK LLC's [amendment process](../docs/user_guide/RequestingAnAmendment.md).  
+>* [**The simplicity of the application process.**](../docs/ukllc_key_facts/applying/intro.md) Researchers complete just one form to apply for LPS or linked data. Researchers already working in the UK LLC TRE add additional data as it becomes available, via UK LLC's [amendment process](../docs/user_guide/requestinganamendment.md).  
 
 <br>Please  visit:  
 [**UK LLC Explore**](https://explore.ukllc.ac.uk/) (UK LLC's metadata catalogue) to discover the breadth of data held in the UK LLC TRE.  

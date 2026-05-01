@@ -12,7 +12,7 @@ everyone's daily life - such as education, employment, tax and benefits records.
 <details>
 <summary>Will admin data be available for all partner LPS?</summary>
 
-No, not all LPS will be included in the linkage to admin data. Each LPS has their own set of conditions that have been agreed with their participants. Some LPS may not yet have appropriate permissions in place and require further engagement with their participants before further linkages can take place. The LPS for which linkage to admin data has been confirmed are shown on the [Available linkages](../LPS_data/Linkages/LPS_linkages.md) page.
+No, not all LPS will be included in the linkage to admin data. Each LPS has their own set of conditions that have been agreed with their participants. Some LPS may not yet have appropriate permissions in place and require further engagement with their participants before further linkages can take place. The LPS for which linkage to admin data has been confirmed are shown on the [Available linkages](../lps_data/linkages/lps_linkages.md) page.
 </details>
 
 <details>

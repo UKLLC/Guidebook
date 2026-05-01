@@ -9,302 +9,302 @@ parts:
         - title: Where to find information
           file: docs/ukllc_key_facts/navigation/navigation.md
         - title: Can I apply?
-          file: docs/ukllc_key_facts/Eligibility/eligibility.md
+          file: docs/ukllc_key_facts/eligibility/eligibility.md
         - title: How do I apply?
-          file: docs/ukllc_key_facts/Applying/Intro.md
+          file: docs/ukllc_key_facts/applying/intro.md
           sections:
             - title: Submit EoI
-              file: docs/ukllc_key_facts/Applying/EoI.md
+              file: docs/ukllc_key_facts/applying/eoi.md
             - title: Complete application
-              file: docs/ukllc_key_facts/Applying/application.md
+              file: docs/ukllc_key_facts/applying/application.md
             - title: Review process
-              file: docs/ukllc_key_facts/Applying/review.md
+              file: docs/ukllc_key_facts/applying/review.md
             - title: Complete governance
-              file: docs/ukllc_key_facts/Applying/paperwork.md
+              file: docs/ukllc_key_facts/applying/paperwork.md
             - title: UK LLC policy on AI models
-              file: docs/ukllc_key_facts/Applying/ai_policy.md
+              file: docs/ukllc_key_facts/applying/ai_policy.md
         - title: UK LLC profile
-          file: docs/ukllc_key_facts/Profile/UKLLC_profile.md
+          file: docs/ukllc_key_facts/profile/ukllc_profile.md
         - title: UK LLC sample
-          file: docs/ukllc_key_facts/Sample/UKLLC_sample.md
+          file: docs/ukllc_key_facts/sample/ukllc_sample.md
           sections:
             - title: Freeze 15 | Feb 2026
-              file: docs/ukllc_key_facts/Sample/freezes/freeze15.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze15.ipynb
             - title: Freeze 14 | Nov 2025
-              file: docs/ukllc_key_facts/Sample/freezes/freeze14.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze14.ipynb
             - title: Freeze 13 | Aug 2025
-              file: docs/ukllc_key_facts/Sample/freezes/freeze13.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze13.ipynb
             - title: Freeze 12 | May 2025
-              file: docs/ukllc_key_facts/Sample/freezes/freeze12.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze12.ipynb
             - title: Freeze 11 | Feb 2025
-              file: docs/ukllc_key_facts/Sample/freezes/freeze11.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze11.ipynb
             - title: Freeze 10 | Nov 2024
-              file: docs/ukllc_key_facts/Sample/freezes/freeze10.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze10.ipynb
             - title: Freeze 9 | Aug 2024
-              file: docs/ukllc_key_facts/Sample/freezes/freeze9.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze9.ipynb
             - title: Freeze 8 | May 2024
-              file: docs/ukllc_key_facts/Sample/freezes/freeze8.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze8.ipynb
             - title: Freeze 7 | Feb 2024
-              file: docs/ukllc_key_facts/Sample/freezes/freeze7.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze7.ipynb
             - title: Freeze 6 | Nov 2023
-              file: docs/ukllc_key_facts/Sample/freezes/freeze6.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze6.ipynb
             - title: Freeze 5 | Aug 2023
-              file: docs/ukllc_key_facts/Sample/freezes/freeze5.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze5.ipynb
             - title: Freeze 4 | May 2023
-              file: docs/ukllc_key_facts/Sample/freezes/freeze4.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze4.ipynb
             - title: Freeze 3 | Feb 2023
-              file: docs/ukllc_key_facts/Sample/freezes/freeze3.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze3.ipynb
             - title: Freeze 2 | Nov 2022
-              file: docs/ukllc_key_facts/Sample/freezes/freeze2.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze2.ipynb
             - title: Freeze 1 | Aug 2022
-              file: docs/ukllc_key_facts/Sample/freezes/freeze1.ipynb
+              file: docs/ukllc_key_facts/sample/freezes/freeze1.ipynb
         - title: UK LLC database design
-          file: docs/ukllc_key_facts/Database/database_design.md
+          file: docs/ukllc_key_facts/database/database_design.md
         - title: Data security
-          file: docs/ukllc_key_facts/Data_security/data_security.md
+          file: docs/ukllc_key_facts/data_security/data_security.md
           sections:
             - title: Five Safes Framework
-              file: docs/ukllc_key_facts/Data_security/five_safes.md
+              file: docs/ukllc_key_facts/data_security/five_safes.md
     - title: LPS data
-      file: docs/LPS_data/LPS_introduction.md
+      file: docs/lps_data/lps_introduction.md
       sections:
         - title: FAQs about LPS data
-          file: docs/LPS_data/lps_faq.md
+          file: docs/lps_data/lps_faq.md
         - title: LPS characteristics
-          file: docs/LPS_data/Characteristics/Characteristics_intro.md
+          file: docs/lps_data/characteristics/characteristics_intro.md
         - title: Permitted linkages
-          file: docs/LPS_data/Linkages/LPS_linkages.md
+          file: docs/lps_data/linkages/lps_linkages.md
         - title: Temporal coverage
-          file: docs/LPS_data/Longevity of LPS/LPS_longevity.md
+          file: docs/lps_data/longevity_of_lps/lps_longevity.md
         - title: Discover LPS data
-          file: docs/LPS_data/Discover/Discover_LPS_data.md
+          file: docs/lps_data/discover/discover_lps_data.md
         - title: AIRWAVE
-          file: docs/LPS_data/LPS profiles/AIRWAVE.ipynb
+          file: docs/lps_data/lps_profiles/airwave.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/AIRWAVE/Datasets/AIRWAVE_datasets.ipynb
+              file: docs/lps_data/datasets/airwave/datasets/airwave_datasets.ipynb
         - title: ALSPAC
-          file: docs/LPS_data/LPS profiles/ALSPAC.ipynb
+          file: docs/lps_data/lps_profiles/alspac.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/ALSPAC/Datasets/ALSPAC_datasets.ipynb
+              file: docs/lps_data/datasets/alspac/datasets/alspac_datasets.ipynb
         - title: BCS70
-          file: docs/LPS_data/LPS profiles/BCS70.ipynb
+          file: docs/lps_data/lps_profiles/bcs70.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/BCS70/Datasets/BCS70_datasets.ipynb
+              file: docs/lps_data/datasets/bcs70/datasets/bcs70_datasets.ipynb
         - title: BIB
-          file: docs/LPS_data/LPS profiles/BIB.ipynb
+          file: docs/lps_data/lps_profiles/bib.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/BIB/Datasets/BIB_datasets.ipynb
+              file: docs/lps_data/datasets/bib/datasets/bib_datasets.ipynb
         - title: ELSA
-          file: docs/LPS_data/LPS profiles/ELSA.ipynb
+          file: docs/lps_data/lps_profiles/elsa.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/ELSA/Datasets/ELSA_datasets.ipynb
+              file: docs/lps_data/datasets/elsa/datasets/elsa_datasets.ipynb
         - title: EPICN
-          file: docs/LPS_data/LPS profiles/EPICN.ipynb
+          file: docs/lps_data/lps_profiles/epicn.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/EPICN/Datasets/EPICN_datasets.ipynb
+              file: docs/lps_data/datasets/epicn/datasets/epicn_datasets.ipynb
         - title: EXCEED
-          file: docs/LPS_data/LPS profiles/EXCEED.ipynb
+          file: docs/lps_data/lps_profiles/exceed.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/EXCEED/Datasets/EXCEED_datasets.ipynb
+              file: docs/lps_data/datasets/exceed/datasets/exceed_datasets.ipynb
         - title: FENLAND
-          file: docs/LPS_data/LPS profiles/FENLAND.ipynb
+          file: docs/lps_data/lps_profiles/fenland.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/FENLAND/Datasets/FENLAND_datasets.ipynb
+              file: docs/lps_data/datasets/fenland/datasets/fenland_datasets.ipynb
         - title: GENSCOT
-          file: docs/LPS_data/LPS profiles/GENSCOT.ipynb
+          file: docs/lps_data/lps_profiles/genscot.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/GENSCOT/Datasets/GENSCOT_datasets.ipynb
+              file: docs/lps_data/datasets/genscot/datasets/genscot_datasets.ipynb
         - title: GLAD
-          file: docs/LPS_data/LPS profiles/GLAD.ipynb
+          file: docs/lps_data/lps_profiles/glad.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/GLAD/Datasets/GLAD_datasets.ipynb
+              file: docs/lps_data/datasets/glad/datasets/glad_datasets.ipynb
         - title: MCS
-          file: docs/LPS_data/LPS profiles/MCS.ipynb
+          file: docs/lps_data/lps_profiles/mcs.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/MCS/Datasets/MCS_datasets.ipynb
+              file: docs/lps_data/datasets/mcs/datasets/mcs_datasets.ipynb
         - title: NCDS58
-          file: docs/LPS_data/LPS profiles/NCDS58.ipynb
+          file: docs/lps_data/lps_profiles/ncds58.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/NCDS58/Datasets/NCDS58_datasets.ipynb
+              file: docs/lps_data/datasets/ncds58/datasets/ncds58_datasets.ipynb
         - title: NEXTSTEP
-          file: docs/LPS_data/LPS profiles/NEXTSTEP.ipynb
+          file: docs/lps_data/lps_profiles/nextstep.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/NEXTSTEP/Datasets/NEXTSTEP_datasets.ipynb
+              file: docs/lps_data/datasets/nextstep/datasets/nextstep_datasets.ipynb
         - title: NICOLA
-          file: docs/LPS_data/LPS profiles/NICOLA.ipynb
+          file: docs/lps_data/lps_profiles/nicola.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/NICOLA/Datasets/NICOLA_datasets.ipynb
+              file: docs/lps_data/datasets/nicola/datasets/nicola_datasets.ipynb
         - title: NIHRBIO_COPING
-          file: docs/LPS_data/LPS profiles/NIHRBIO_COPING.ipynb
+          file: docs/lps_data/lps_profiles/nihrbio_coping.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/NIHRBIO_COPING/Datasets/NIHRBIO_COPING_datasets.ipynb
+              file: docs/lps_data/datasets/nihrbio_coping/datasets/nihrbio_coping_datasets.ipynb
         - title: NSHD46
-          file: docs/LPS_data/LPS profiles/NSHD46.ipynb
+          file: docs/lps_data/lps_profiles/nshd46.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/NSHD46/Datasets/NSHD46_datasets.ipynb
+              file: docs/lps_data/datasets/nshd46/datasets/nshd46_datasets.ipynb
         - title: SABRE
-          file: docs/LPS_data/LPS profiles/SABRE.ipynb
+          file: docs/lps_data/lps_profiles/sabre.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/SABRE/Datasets/SABRE_datasets.ipynb
+              file: docs/lps_data/datasets/sabre/datasets/sabre_datasets.ipynb
         - title: TEDS
-          file: docs/LPS_data/LPS profiles/TEDS.ipynb
+          file: docs/lps_data/lps_profiles/teds.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/TEDS/Datasets/TEDS_datasets.ipynb
+              file: docs/lps_data/datasets/teds/datasets/teds_datasets.ipynb
         - title: TRACKC19
-          file: docs/LPS_data/LPS profiles/TRACKC19.ipynb
+          file: docs/lps_data/lps_profiles/trackc19.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/TRACKC19/Datasets/TRACKC19_datasets.ipynb
+              file: docs/lps_data/datasets/trackc19/datasets/trackc19_datasets.ipynb
         - title: TWINSUK
-          file: docs/LPS_data/LPS profiles/TWINSUK.ipynb
+          file: docs/lps_data/lps_profiles/twinsuk.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/TWINSUK/Datasets/TWINSUK_datasets.ipynb
+              file: docs/lps_data/datasets/twinsuk/datasets/twinsuk_datasets.ipynb
         - title: UKHLS
-          file: docs/LPS_data/LPS profiles/UKHLS.ipynb
+          file: docs/lps_data/lps_profiles/ukhls.ipynb
           sections:
             - title: Datasets
-              file: docs/LPS_data/Datasets/UKHLS/Datasets/UKHLS_datasets.ipynb
+              file: docs/lps_data/datasets/ukhls/datasets/ukhls_datasets.ipynb
     - title: NHS data
-      file: docs/linked_health_data/NHS_intro.md
+      file: docs/linked_health_data/nhs_intro.md
       sections:
         - title: NHS England
-          file: docs/linked_health_data/NHS_England/NHSE.ipynb
+          file: docs/linked_health_data/nhs_england/nhse.ipynb
           sections:
           - title: FAQs about NHSE data
-            file: docs/linked_health_data/NHS_England/nhse_faq.md
+            file: docs/linked_health_data/nhs_england/nhse_faq.md
           - title: Restrictions to use
-            file: docs/linked_health_data/NHS_England/Restrictions/NHSE_restrictions.md
+            file: docs/linked_health_data/nhs_england/restrictions/nhse_restrictions.md
           - title: Temporal coverage
-            file: docs/linked_health_data/NHS_England/Longevity of datasets/longevity.ipynb
+            file: docs/linked_health_data/nhs_england/longevity_of_datasets/longevity.ipynb
           - title: Processing & linkage
-            file: docs/linked_health_data/NHS_England/Linkage and processing/linkage_processing.md
+            file: docs/linked_health_data/nhs_england/linkage_and_processing/linkage_processing.md
           - title: Coded variables
-            file: docs/linked_health_data/NHS_England/Coding/coding_intro.md
+            file: docs/linked_health_data/nhs_england/coding/coding_intro.md
             sections:
               - title: FAQs about coding
-                file: docs/linked_health_data/NHS_England/Coding/codes_faq.md
+                file: docs/linked_health_data/nhs_england/coding/codes_faq.md
               - title: Codelists 
-                file: docs/linked_health_data/NHS_England/Coding/codelists.md
+                file: docs/linked_health_data/nhs_england/coding/codelists.md
           - title: Primary care datasets
-            file: docs/linked_health_data/NHS_England/Primary_care_datasets/primary_intro.md
+            file: docs/linked_health_data/nhs_england/primary_care_datasets/primary_intro.md
             sections:
               - title: GDPPR
-                file: docs/linked_health_data/NHS_England/Primary_care_datasets/GDPPR/GDPPR.ipynb
+                file: docs/linked_health_data/nhs_england/primary_care_datasets/gdppr/gdppr.ipynb
               - title: PCM
-                file: docs/linked_health_data/NHS_England/Primary_care_datasets/PCM/PCM.ipynb
+                file: docs/linked_health_data/nhs_england/primary_care_datasets/pcm/pcm.ipynb
           - title: Hospital datasets
-            file: docs/linked_health_data/NHS_England/HES datasets/Hospital_intro.md
+            file: docs/linked_health_data/nhs_england/hes_datasets/hospital_intro.md
             sections:
               - title: FAQs about HES datasets
-                file: docs/linked_health_data/NHS_England/HES datasets/hes_faq.md
+                file: docs/linked_health_data/nhs_england/hes_datasets/hes_faq.md
               - title: HESOP (outpatient)
-                file: docs/linked_health_data/NHS_England/HES datasets/OP/HESOP.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/op/hesop.ipynb
               - title: HESAPC (inpatient)
-                file: docs/linked_health_data/NHS_England/HES datasets/APC/HESAPC.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/apc/hesapc.ipynb
               - title: HESAPC_MAT (inpatient maternity)
-                file: docs/linked_health_data/NHS_England/HES datasets/MAT/HESAPC_MAT.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/mat/hesapc_mat.ipynb
               - title: HESAPC_ACP (inpatient critical care)
-                file: docs/linked_health_data/NHS_England/HES datasets/ACP/HESAPC_ACP.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/acp/hesapc_acp.ipynb
               - title: HESCC (inpatient critical care)
-                file: docs/linked_health_data/NHS_England/HES datasets/CC/HESCC.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/cc/hescc.ipynb
               - title: ECDS (emergency)
-                file: docs/linked_health_data/NHS_England/HES datasets/ECDS/ECDS.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/ecds/ecds.ipynb
               - title: HESAE (emergency)
-                file: docs/linked_health_data/NHS_England/HES datasets/AE/HESAE.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/ae/hesae.ipynb
           - title: COVID-19 datasets
-            file: docs/linked_health_data/NHS_England/COVID datasets/COVID_datasets.md
+            file: docs/linked_health_data/nhs_england/covid_datasets/covid_datasets.md
             sections:
               - title: FAQs about COVID-19 datasets
-                file: docs/linked_health_data/NHS_England/COVID datasets/covid19_faq.md
+                file: docs/linked_health_data/nhs_england/covid_datasets/covid19_faq.md
               - title: COVIDSGSS (testing)
-                file: docs/linked_health_data/NHS_England/COVID datasets/COVIDSGSS/COVIDSGSS.ipynb
+                file: docs/linked_health_data/nhs_england/covid_datasets/covidsgss/covidsgss.ipynb
               - title: IELISA (testing)
-                file: docs/linked_health_data/NHS_England/COVID datasets/IELISA/IELISA.ipynb
+                file: docs/linked_health_data/nhs_england/covid_datasets/ielisa/ielisa.ipynb
               - title: NPEX (testing)
-                file: docs/linked_health_data/NHS_England/COVID datasets/NPEX/NPEX.ipynb
+                file: docs/linked_health_data/nhs_england/covid_datasets/npex/npex.ipynb
               - title: CHESS (hospitalisation)
-                file: docs/linked_health_data/NHS_England/COVID datasets/CHESS/CHESS.ipynb
+                file: docs/linked_health_data/nhs_england/covid_datasets/chess/chess.ipynb
               - title: CVS (vaccination)
-                file: docs/linked_health_data/NHS_England/COVID datasets/CVS/CVS.ipynb
+                file: docs/linked_health_data/nhs_england/covid_datasets/cvs/cvs.ipynb
               - title: CVAR (vaccination)
-                file: docs/linked_health_data/NHS_England/COVID datasets/CVAR/CVAR.ipynb
+                file: docs/linked_health_data/nhs_england/covid_datasets/cvar/cvar.ipynb
           - title: Registration datasets
-            file: docs/linked_health_data/NHS_England/Registration datasets/Registration_datasets.md
+            file: docs/linked_health_data/nhs_england/registration_datasets/registration_datasets.md
             sections:
               - title: CANCER
-                file: docs/linked_health_data/NHS_England/Registration datasets/CANCER/CANCER.ipynb
+                file: docs/linked_health_data/nhs_england/registration_datasets/cancer/cancer.ipynb
               - title: DEMOGRAPHICS
-                file: docs/linked_health_data/NHS_England/Registration datasets/DEMOGRAPHICS/DEMOGRAPHICS.ipynb
+                file: docs/linked_health_data/nhs_england/registration_datasets/demographics/demographics.ipynb
               - title: MORTALITY
-                file: docs/linked_health_data/NHS_England/Registration datasets/MORTALITY/MORTALITY.ipynb
+                file: docs/linked_health_data/nhs_england/registration_datasets/mortality/mortality.ipynb
           - title: Mental health datasets
-            file: docs/linked_health_data/NHS_England/Mental health datasets/MH_datasets.md
+            file: docs/linked_health_data/nhs_england/mental_health_datasets/mh_datasets.md
             sections:
               - title: FAQs about MH datasets
-                file: docs/linked_health_data/NHS_England/Mental health datasets/mh_faq.md
+                file: docs/linked_health_data/nhs_england/mental_health_datasets/mh_faq.md
               - title: MHSDS (general)
-                file: docs/linked_health_data/NHS_England/Mental health datasets/MHSDS/MHSDS.ipynb
+                file: docs/linked_health_data/nhs_england/mental_health_datasets/mhsds/mhsds.ipynb
               - title: IAPT (talking therapies)
-                file: docs/linked_health_data/NHS_England/Mental health datasets/IAPT/IAPT.ipynb
+                file: docs/linked_health_data/nhs_england/mental_health_datasets/iapt/iapt.ipynb
           - title: Community datasets
-            file: docs/linked_health_data/NHS_England/Community datasets/Community_datasets.md
+            file: docs/linked_health_data/nhs_england/community_datasets/community_datasets.md
             sections:
               - title: CSDS (general)
-                file: docs/linked_health_data/NHS_England/Community datasets/CSDS/CSDS.ipynb
+                file: docs/linked_health_data/nhs_england/community_datasets/csds/csds.ipynb
           - title: Derived datasets
-            file: docs/linked_health_data/NHS_England/Derived_datasets/Derived_datasets.md
+            file: docs/linked_health_data/nhs_england/derived_datasets/derived_datasets.md
         - title: NHS Wales
-          file: docs/linked_health_data/NHS_Wales/NHSW_intro.md
+          file: docs/linked_health_data/nhs_wales/nhsw_intro.md
           sections:
           - title: Processing & linkage
-            file: docs/linked_health_data/NHS_Wales/Linkage and processing/linkage_processing_NHSW.md
+            file: docs/linked_health_data/nhs_wales/linkage_and_processing/linkage_processing_nhsw.md
           - title: Coded variables
-            file: docs/linked_health_data/NHS_Wales/Coding/coding_intro_NHSW.md
+            file: docs/linked_health_data/nhs_wales/coding/coding_intro_nhsw.md
           - title: Hospital datasets
-            file: docs/linked_health_data/NHS_Wales/Hospital datasets/Hospital_datasets_NHSW.md
+            file: docs/linked_health_data/nhs_wales/hospital_datasets/hospital_datasets_nhsw.md
           - title: COVID-19 datasets
-            file: docs/linked_health_data/NHS_Wales/COVID datasets/COVID_datasets_NHSW.md
+            file: docs/linked_health_data/nhs_wales/covid_datasets/covid_datasets_nhsw.md
           - title: Registration datasets
-            file: docs/linked_health_data/NHS_Wales/Registration datasets/Registration_datasets_NHSW.md
+            file: docs/linked_health_data/nhs_wales/registration_datasets/registration_datasets_nhsw.md
           - title: Primary care dataset
-            file: docs/linked_health_data/NHS_Wales/Primary care/Primary_care_NHSW.md
+            file: docs/linked_health_data/nhs_wales/primary_care/primary_care_nhsw.md
           - title: Other datasets
-            file: docs/linked_health_data/NHS_Wales/Other datasets/Other_datasets_NHSW.md
+            file: docs/linked_health_data/nhs_wales/other_datasets/other_datasets_nhsw.md
         - title: NHS Scotland
-          file: docs/linked_health_data/NHS_Scotland/NHSS_intro.md
+          file: docs/linked_health_data/nhs_scotland/nhss_intro.md
         - title: Northern Ireland
-          file: docs/linked_health_data/NHS_Northern_Ireland/NHSNI_intro.md
+          file: docs/linked_health_data/nhs_northern_ireland/nhsni_intro.md
     - title: Place-based data
-      file: docs/linked_geo_data/Place_based_intro.md
+      file: docs/linked_geo_data/place_based_intro.md
       sections:
         - title: FAQs about place-based data
           file: docs/linked_geo_data/place_faq.md
         - title: Processing & linkage
-          file: docs/linked_geo_data/processing/Processing_and_linkage.md
+          file: docs/linked_geo_data/processing/processing_and_linkage.md
         - title: Population datasets
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
             - title: Index of Multiple Deprivation (IMD)
-              file: docs/linked_geo_data/population_datasets/IMD/IMD.ipynb
+              file: docs/linked_geo_data/population_datasets/imd/imd.ipynb
             - title: Townsend Deprivation Index (2011)
               file: docs/linked_geo_data/population_datasets/townsend/townsend_2011.ipynb
         - title: Environmental datasets
@@ -314,14 +314,14 @@ parts:
               file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/neighbourhood.md
               sections:
                 - title: Access to Healthy Assets and Hazards (AHAH)
-                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/AHAH/AHAH.ipynb
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/ahah/ahah.ipynb
                 - title: Greenspace
                   file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb
             - title: Property datasets
               file: docs/linked_geo_data/environmental_datasets/property_datasets/property.md
               sections:
                 - title: Energy Performance Certificates (EPC)
-                  file: docs/linked_geo_data/environmental_datasets/property_datasets/EPC/EPC.md
+                  file: docs/linked_geo_data/environmental_datasets/property_datasets/epc/epc.md
             - title: Pollution datasets
               file: docs/linked_geo_data/environmental_datasets/pollution_datasets/pollution.md
               sections:
@@ -341,70 +341,70 @@ parts:
         - title: FAQs about admin data
           file: docs/linked_admin_data/admin_faq.md
         - title: HM Revenue & Customs
-          file: docs/linked_admin_data/HMRC_data/HMRC_data.md
+          file: docs/linked_admin_data/hmrc_data/hmrc_data.md
         - title: Department for Work & Pensions
-          file: docs/linked_admin_data/DWP_data/DWP_data.md
+          file: docs/linked_admin_data/dwp_data/dwp_data.md
     - title: UK LLC-managed data
-      file: docs/ukllc_managed_data/UKLLC_data.md
+      file: docs/ukllc_managed_data/ukllc_data.md
       sections:
         - title: FAQs about UK LLC-managed data
           file: docs/ukllc_managed_data/ukllc_managed_faq.md
         - title: Harmonised sociodemographic datasets
-          file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md
+          file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/sociodemo_harmonised.md
           sections:
             - title: Demographic (full)
-              file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/demo_harmonised_full.ipynb
+              file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/demo_harmonised_full.ipynb
             - title: Demographic (reduced)
-              file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/demo_harmonised_reduced.ipynb
+              file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/demo_harmonised_reduced.ipynb
             - title: Highest educational qualification
-              file: docs/ukllc_managed_data/Datasets/sociodemo_harmonised/education_harmonised.ipynb
+              file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/education_harmonised.ipynb
         - title: DATAMIND collection
-          file: docs/ukllc_managed_data/Datasets/Datamind/Datamind_datasets.md
+          file: docs/ukllc_managed_data/datasets/datamind/datamind_datasets.md
         - title: UK Biobank collection
-          file: docs/ukllc_managed_data/Datasets/Biobank/UKBB_datasets.md
+          file: docs/ukllc_managed_data/datasets/biobank/ukbb_datasets.md
         - title: NHS England reference datasets
-          file: docs/ukllc_managed_data/Datasets/NHSE_reference/NHSE_reference.md
+          file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_reference.md
           sections:
             - title: Study permissions
-              file: docs/ukllc_managed_data/Datasets/NHSE_reference/study_permissions.ipynb
+              file: docs/ukllc_managed_data/datasets/nhse_reference/study_permissions.ipynb
             - title: NHSE patient service usage
-              file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_patient_service_usage.ipynb
+              file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_patient_service_usage.ipynb
             - title: NHSE patient demo mortality
-              file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_patient_demo_mortality.ipynb
+              file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_patient_demo_mortality.ipynb
             - title: NHSE lsoa11 dataset mappings
-              file: docs/ukllc_managed_data/Datasets/NHSE_reference/nhse_lsoa11_dataset_mapping.ipynb
+              file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb
         - title: Charlson comorbidity dataset
-          file: docs/ukllc_managed_data/Datasets/Charlson/Charlson.ipynb
+          file: docs/ukllc_managed_data/datasets/charlson/charlson.ipynb
     - title: TRE user guide
-      file: docs/user_guide/Introduction.md
+      file: docs/user_guide/introduction.md
       sections:
         - title: FAQs about the TRE
           file: docs/user_guide/tre_faq.md
         - title: Logging in
-          file: docs/user_guide/LoggingIn.md
+          file: docs/user_guide/loggingin.md
         - title: Getting started
-          file: docs/user_guide/GettingStarted.md
+          file: docs/user_guide/gettingstarted.md
         - title: Available software
-          file: docs/user_guide/UsingSoftware.md
+          file: docs/user_guide/usingsoftware.md
         - title: Using Git
-          file: docs/user_guide/TeamDataScience.md
+          file: docs/user_guide/teamdatascience.md
         - title: Moving files in and out
           file: docs/user_guide/moving_files.md
         - title: Statistical Disclosure Control
-          file: docs/user_guide/SDC.md
+          file: docs/user_guide/sdc.md
           sections:
             - title: Quiz on Statistical Disclosure Control
               file: docs/user_guide/sdc_quiz.md
         - title: Requesting an amendment
-          file: docs/user_guide/RequestingAnAmendment.md
+          file: docs/user_guide/requestinganamendment.md
         - title: Finishing your project
-          file: docs/user_guide/FinishingYourProject.md
+          file: docs/user_guide/finishingyourproject.md
         - title: Publishing your research
-          file: docs/user_guide/PublishingYourResearch.md
+          file: docs/user_guide/publishingyourresearch.md
         - title: User support
           file: docs/user_guide/user_support.md
         - title: Rules for researchers
-          file: docs/user_guide/RulesForResearchers.md
+          file: docs/user_guide/rulesforresearchers.md
         - title: Research focus
           file: docs/user_guide/research_notes/notes_intro.md
           sections:

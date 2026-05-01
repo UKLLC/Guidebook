@@ -16,9 +16,9 @@ You may want to move files that you hold **outside** the TRE (i.e. syntax, docum
 <aside class="admonition info"><p class="admonition-title">Average time for a file-in in 2024 was 1 day</a></p></aside>
 
 ## File-outs
-You will want to take out **analytical outputs** (e.g. tables, graphs) and **reusable research outputs** (e.g. syntax, documentation) from the TRE. Before any output is released it must be **screened** to ensure it is within the **scope** of the project, adheres to all your [**project-specific terms and conditions (Ts&Cs)**](../ukllc_key_facts/Applying/paperwork.md#3-data-owners-terms-and-conditions-tscs) and is **not disclosive**, i.e. safeguards the confidentiality of data subjects. The two categories of file outs follow different review paths as shown in figure 1.
+You will want to take out **analytical outputs** (e.g. tables, graphs) and **reusable research outputs** (e.g. syntax, documentation) from the TRE. Before any output is released it must be **screened** to ensure it is within the **scope** of the project, adheres to all your [**project-specific terms and conditions (Ts&Cs)**](../ukllc_key_facts/applying/paperwork.md#3-data-owners-terms-and-conditions-tscs) and is **not disclosive**, i.e. safeguards the confidentiality of data subjects. The two categories of file outs follow different review paths as shown in figure 1.
 
-All **analytical outputs** are reviewed independently by two members of the **SAIL Databank Statistical Disclosure Control (SDC) Team** based at Swansea University. An analytical file-out may take 7 to 10 working days to be processed depending on complexity. All **reusable research outputs** are reviewed by the **UK LLC Data Team**. A reusable research output may take up to 5 working days to be processed depending on complexity. For further information on reusable research outputs - see [**Using Git guide**.](../user_guide/TeamDataScience.md)
+All **analytical outputs** are reviewed independently by two members of the **SAIL Databank Statistical Disclosure Control (SDC) Team** based at Swansea University. An analytical file-out may take 7 to 10 working days to be processed depending on complexity. All **reusable research outputs** are reviewed by the **UK LLC Data Team**. A reusable research output may take up to 5 working days to be processed depending on complexity. For further information on reusable research outputs - see [**Using Git guide**.](../user_guide/teamdatascience.md)
 
 <aside class="admonition info"><p class="admonition-title">Average time for a file-out in 2024 was 6 days</a></p></aside>
 
@@ -29,15 +29,15 @@ All **analytical outputs** are reviewed independently by two members of the **SA
 </div>
 
 **Figure 1** The file-out review process for analytical outputs and reusable research outputs.
-**Note**: derived data (a type of reusable research output) are not permitted to leave the TRE - see [**Using Git guide.**](../user_guide/TeamDataScience.md)
+**Note**: derived data (a type of reusable research output) are not permitted to leave the TRE - see [**Using Git guide.**](../user_guide/teamdatascience.md)
 
 ##	File-out rules
-It is a **critical principle** of UK LLC that only **anonymous** population level aggregate data can be **filed out** from the TRE. It is the responsibility of researchers to ensure they understand and are able to apply the principles of SDC. This is explained in the [**SDC guide**](../user_guide/SDC.md) and in the **ONS Safe Researcher Training** that all researchers complete prior to being permitted access to the UK LLC TRE.
+It is a **critical principle** of UK LLC that only **anonymous** population level aggregate data can be **filed out** from the TRE. It is the responsibility of researchers to ensure they understand and are able to apply the principles of SDC. This is explained in the [**SDC guide**](../user_guide/sdc.md) and in the **ONS Safe Researcher Training** that all researchers complete prior to being permitted access to the UK LLC TRE.
 
 
 **All researchers** agree to uphold these **principles**:
 1. All outputs must comply with the project’s permissions and scope.
-2. The **SDC threshold is 10 data subjects**. Unweighted counts <10 and statistics (e.g. weighted counts, percentages, means, etc.) derived from groups containing <10 data subjects must be suppressed, i.e. counts ranging from zero to nine, inclusive, are not permitted. See the [**SDC guide**](../user_guide/SDC.md) for further details.
+2. The **SDC threshold is 10 data subjects**. Unweighted counts <10 and statistics (e.g. weighted counts, percentages, means, etc.) derived from groups containing <10 data subjects must be suppressed, i.e. counts ranging from zero to nine, inclusive, are not permitted. See the [**SDC guide**](../user_guide/sdc.md) for further details.
 3. All researchers must make best efforts to ensure outputs are anonymous before submitting them for file-out checks.
 4. The findings of the file-out review are binding and research users must **correct any identified issues**.
 
