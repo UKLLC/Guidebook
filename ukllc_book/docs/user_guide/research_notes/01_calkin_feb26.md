@@ -18,11 +18,11 @@ UK LLC provides harmonised variables for five key participant characteristics: s
 
 Perhaps the simplest variable to harmonise is (biological) sex<sup>1</sup> because, however the question is asked and the answer recorded, there are only two valid responses. Even here, though, the issue is complicated by categories of non-response such as ‘no answer’, ‘prefer not to say’, ‘not asked’. Harmonisation between LPS becomes much more complex when there are a wider range of options. For characteristics such as gender and ethnicity - where data collection practices vary substantially across LPS - UK LLC generates multiple hierarchical variables that reflect different levels of detail. Harmonising participants’ highest educational level is further complicated because not only do LPS collect different information, but qualifications awarded in the UK differ between the four nations and have changed over time. Here, the approach has been to create six datasets which are not hierarchical but, rather, reflect alternative ways of grouping qualifications. 
 
-The [detailed specifications](../../ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md#harmonisation-methodology) which describe how each source variable is translated into its harmonised counterpart are included in UK LLC’s data documentation.  
+The [detailed specifications](../../ukllc_managed_data/datasets/sociodemo_harmonised/sociodemo_harmonised.md#harmonisation-methodology) which describe how each source variable is translated into its harmonised counterpart are included in UK LLC’s data documentation.  
 
 While harmonisation makes it simpler for researchers to compare key characteristics between studies, the process does mean that variables in the harmonised datasets are less granular than the originals on which they are based. No information is lost, however, as UK LLC does not modify LPS datasets. Instead, we generate new datasets by mapping original variables onto a shared, harmonised representation which summarises the key characteristics of each variable. 
 
->For further information on harmonisation processes, please consult the data documentation elsewhere in [Guidebook](../../ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md).   
+>For further information on harmonisation processes, please consult the data documentation elsewhere in [Guidebook](../../ukllc_managed_data/datasets/sociodemo_harmonised/sociodemo_harmonised.md).   
 ## Benefits of harmonised data 
 
 The benefits of harmonised data have been outlined in detail elsewhere (e.g. [Cheng et al., 2024](https://doi.org/10.1038/s41597-024-02956-3)). For researchers working in UK LLC’s Trusted Research Environment (TRE), the specific benefits include:  
@@ -30,7 +30,7 @@ The benefits of harmonised data have been outlined in detail elsewhere (e.g. [Ch
 * Having access to ‘off the shelf’ datasets, meaning no additional coding or regrouping of variables is needed.  
 * Comprehensive documentation, and access to both the original and the harmonised datasets, enables researchers to assess the suitability of harmonised variables for their needs (or to construct alternatives if preferred). 
 * Each dataset in the TRE has a Digital Object Identifier ([DOI](https://www.doi.org/the-identifier/what-is-a-doi/)), enabling reliable and consistent citations. 
-* Harmonised variables are updated as more datasets are ingested into the TRE, so researchers wanting to [amend their project](../../user_guide/RequestingAnAmendment.md) to include additional LPS can be assured that the same harmonised variables are available for all studies<sup>2</sup>.  
+* Harmonised variables are updated as more datasets are ingested into the TRE, so researchers wanting to [amend their project](../../user_guide/requestinganamendment.md) to include additional LPS can be assured that the same harmonised variables are available for all studies<sup>2</sup>.  
 
 **Notes**  
  * Harmonised datasets include all LPS for which relevant variables exist; however, researchers have access only to data derived from the studies approved within their project application.  
@@ -40,6 +40,6 @@ The benefits of harmonised data have been outlined in detail elsewhere (e.g. [Ch
 <br>
 <sup>1</sup> <small>UK LLC harmonises sex and gender separately wherever LPS collect information on both characteristics.</small>   
 
-<sup>2</sup> <small>Availability of harmonised variables is dependent on LPS having deposited relevant source variables into the TRE. A summary of which LPS are included in the harmonised datasets is available [here](../../ukllc_managed_data/Datasets/sociodemo_harmonised/sociodemo_harmonised.md#table-1-lps-included-in-each-dataset).</small>
+<sup>2</sup> <small>Availability of harmonised variables is dependent on LPS having deposited relevant source variables into the TRE. A summary of which LPS are included in the harmonised datasets is available [here](../../ukllc_managed_data/datasets/sociodemo_harmonised/sociodemo_harmonised.md#table-1-lps-included-in-each-dataset).</small>
 
  

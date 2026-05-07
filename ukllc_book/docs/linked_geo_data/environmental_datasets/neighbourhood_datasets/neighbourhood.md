@@ -29,7 +29,7 @@ As suggested by <strong><a href="https://doi.org/10.1080/00420980120087063" targ
 
 
 The current UK LLC neighbourhood datasets include:
-- [Access to Healthy Assets and Hazards (AHAH)](../neighbourhood_datasets/AHAH/AHAH.ipynb)
+- [Access to Healthy Assets and Hazards (AHAH)](../neighbourhood_datasets/ahah/ahah.ipynb)
 - [Greenspace](../neighbourhood_datasets/greenspace/greenspace.ipynb)
 
 **Please click on each dataset for more information.**

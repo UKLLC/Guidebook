@@ -7,7 +7,7 @@ This file serves as the UK LLC's '**spine**' as it incorporates all participants
 
 Each project in the TRE is automatically provisioned a file named 'CORE_denominator_file1_v0000_YYYYMMDD'.  
 
-The date in the dataset name relates to the "File 1" [**freeze**](../../database/Sample/UKLLC_sample.md) (permissions) that a project is fixed to. Participant permissions are correct and applied to each dataset as of this date, and updated by the LPS on a quarterly basis. 
+The date in the dataset name relates to the "File 1" [**freeze**](../../database/sample/ukllc_sample.md) (permissions) that a project is fixed to. Participant permissions are correct and applied to each dataset as of this date, and updated by the LPS on a quarterly basis. 
 
 The core denomininator includes:
 * one row per UK LLC participant 
@@ -20,7 +20,7 @@ The denominator file enables users to:
 * contextualise LPS participants within UK LLC in relation to the LPS datasets. 
 <br>
 
-UK LLC also provides 'core' datasets based on [NHS England](../../linked_health_data/NHS_England/Core%20datasets/core_NHSE_summary.md) and [place-based data](../../linked_geo_data/datasets/Core/core_place_based.md).
+UK LLC also provides 'core' datasets based on [NHS England](../../linked_health_data/nhs_england/core_datasets/core_nhse_summary.md) and [place-based data](../../linked_geo_data/datasets/core/core_place_based.md).
 
 
 **More details to be added shortly**

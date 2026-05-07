@@ -11,7 +11,7 @@ All researchers who have submitted an application or are already working in the 
 
 
 ### Support from UK LLC
-If researchers are unable to find the help they require either in this Guidebook (including the [**FAQs**](../FAQ/faq_intro.md)) or via UK LLC's <strong><a href="https://www.youtube.com/@ukllcollab" target="_blank" rel="noopener noreferrer">YouTube videos</a></strong>, the UK LLC Data Team can be contacted at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). 
+If researchers are unable to find the help they require either in this Guidebook (including the [**FAQs**](../faq/faq_intro.md)) or via UK LLC's <strong><a href="https://www.youtube.com/@ukllcollab" target="_blank" rel="noopener noreferrer">YouTube videos</a></strong>, the UK LLC Data Team can be contacted at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). 
 
 > **The UK LLC Data Team** can provide assistance with:
 >* TRE account management

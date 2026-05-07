@@ -6,7 +6,7 @@
 
 This quiz acts as a refresher to the Office for National Statistics Accredited Researcher Training that all UK LLC users are required to undertake.
 
-[Click here](../user_guide/SDC.md) full details on the SDC rules UK LLC enforces on all information leaving the UK LLC Trusted Research Environment (TRE).
+[Click here](../user_guide/sdc.md) full details on the SDC rules UK LLC enforces on all information leaving the UK LLC Trusted Research Environment (TRE).
 
 ## 1. What is the UK LLC 'low count' threshold?
 
