@@ -416,8 +416,8 @@ class LPSDataSet:
              self.apa_cite,  # Citation
              self.dl_cites,  # Download Cite
              md.make_hlink_same_tab(
-                 "https://guidebook.ukllc.ac.uk/docs/lps_data/lps%20profiles/{}"
-                 .format(self.df_ds.iloc[0]["source"]),
+                 "https://guidebook.ukllc.ac.uk/docs/lps_data/lps_profiles/{}"
+                 .format(self.df_ds.iloc[0]["source"].lower()),
                  self.df_ds.iloc[0]["source_name"]
                  ),  # Series
              self.df_ds.iloc[0]["Owner"],  # Owner
