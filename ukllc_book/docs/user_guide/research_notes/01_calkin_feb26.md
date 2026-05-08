@@ -4,7 +4,7 @@
  
 ## Background 
 
-Researchers working with data collected at different time points, for different reasons, or through different methods will be familiar with the difficulties of combining such information to create a coherent picture ([O’Neill et al, 2019](https://doi.org/10.1093/ije/dyz004)). To support efficient and consistent analysis, UK LLC has created standardised, or **‘harmonised’**, variables that enable rapid understanding of key characteristics within datasets. 
+Researchers working with data collected at different time points, for different reasons, or through different methods will be familiar with the difficulties of combining such information to create a coherent picture (<a href="https://doi.org/10.1093/ije/dyz004" target="_blank" rel="noopener noreferrer">O’Neill et al., 2019</a>). To support efficient and consistent analysis, UK LLC has created standardised, or **‘harmonised’**, variables that enable rapid understanding of key characteristics within datasets. 
 
 Harmonisation involves understanding the range of data items recorded by each LPS, mapping responses to a standardised list that covers all the options presented by all LPS, and then generating a new dataset in which the original data is transformed to the new values. Each LPS employs its own conventions for variable naming, response coding, and data organisation, and these may vary across time. Harmonisation aligns these differing approaches, facilitating valid comparison across studies.  
 
@@ -25,11 +25,11 @@ While harmonisation makes it simpler for researchers to compare key characterist
 >For further information on harmonisation processes, please consult the data documentation elsewhere in [Guidebook](../../ukllc_managed_data/datasets/sociodemo_harmonised/sociodemo_harmonised.md).   
 ## Benefits of harmonised data 
 
-The benefits of harmonised data have been outlined in detail elsewhere (e.g. [Cheng et al., 2024](https://doi.org/10.1038/s41597-024-02956-3)). For researchers working in UK LLC’s Trusted Research Environment (TRE), the specific benefits include:  
+The benefits of harmonised data have been outlined in detail elsewhere (e.g. <a href="https://doi.org/10.1038/s41597-024-02956-3" target="_blank" rel="noopener noreferrer">Cheng et al., 2024</a>). For researchers working in UK LLC’s Trusted Research Environment (TRE), the specific benefits include:  
 
 * Having access to ‘off the shelf’ datasets, meaning no additional coding or regrouping of variables is needed.  
 * Comprehensive documentation, and access to both the original and the harmonised datasets, enables researchers to assess the suitability of harmonised variables for their needs (or to construct alternatives if preferred). 
-* Each dataset in the TRE has a Digital Object Identifier ([DOI](https://www.doi.org/the-identifier/what-is-a-doi/)), enabling reliable and consistent citations. 
+* Each dataset in the TRE has a Digital Object Identifier <a href="https://www.doi.org/the-identifier/what-is-a-doi/" target="_blank" rel="noopener noreferrer">DOI</a>, enabling reliable and consistent citations. 
 * Harmonised variables are updated as more datasets are ingested into the TRE, so researchers wanting to [amend their project](../../user_guide/requestinganamendment.md) to include additional LPS can be assured that the same harmonised variables are available for all studies<sup>2</sup>.  
 
 **Notes**  
