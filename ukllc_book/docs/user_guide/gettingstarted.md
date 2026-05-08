@@ -1,5 +1,5 @@
 # Getting started
->Last modified: 20 Nov 2025
+>Last modified: 08 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
@@ -14,7 +14,7 @@ Click on the YouTube link below for a short video guide (90 seconds). Alternativ
 <br>
 
 
-Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all researchers should follow the [**UK LLC Naming of Projects & Data-related Outputs Policy**](https://ukllc.ac.uk/governance).
+Each UK LLC project is allocated a **project folder** within the UK LLC TRE. The project folder is given the same unique project number that was assigned by the Applications Team when the application to access the TRE was submitted, e.g. LLC_9999. It is important for public/participant transparency, the reusability of content, and governance compliance that these project numbers are used in a clear and consistent way across the project lifecycle. Consequently, all researchers should follow the [**UK LLC Reproducible and Reusable Research Policy**](https://ukllc.ac.uk/governance).
 
 In order to access your project folder, open the ‘S drive’:  
 
