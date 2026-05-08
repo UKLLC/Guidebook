@@ -36,7 +36,7 @@ See Table 1 for the list of datasets, the coding schema included in each dataset
 |[**Death by suicide**](../../../../images/nhs_deathbysuicide_v1.0.xltm)|ICD10|✗|✗|✗|✗|✓|
 |[**Death by mental and behavioural disorders (natural cause)**](../../../../images/nhs_deathbymental_v1.0.xltm)|ICD10|✗|✗|✗|✗|✓|
 
-*The phenotype definitions from the HDR UK Phenotype Library include **READ codes**. However, the NHS England datasets available to UK LLC only contain diagnoses recorded using ICD-10 and SNOMED CT and so we have exclude READ codes from the codelists.
+*The phenotype definitions from the HDR UK Phenotype Library include **READ codes**. However, the NHS England datasets available to UK LLC only contain diagnoses recorded using ICD-10 and SNOMED CT and so we have excluded READ codes from the codelists.
 ## Methodology
 ### Data Sources
 Anonymised data from NHS England were used to identify the earliest diagnosis date for each condition. The datasets considered were: 
