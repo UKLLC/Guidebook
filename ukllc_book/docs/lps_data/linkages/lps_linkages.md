@@ -1,5 +1,5 @@
 # Linkages and research topics permitted for each LPS
->Last modified: 27 Feb 2026
+>Last modified: 13 May 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The linkages and breadth of research topics permitted by each Longitudinal Population Study (LPS).</strong></div>
 <br>
@@ -16,7 +16,7 @@ The tables below summarise the linkages that are either **currently available** 
 Definition of **public good**: UK LLC currently follows the <strong><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1124013/NDG_public_benefit_guidance_v1.0_-_14.12.22.pdf" target="_blank" rel="noopener noreferrer">National Data Guardian (NDG) guidance</a></strong> to assess public good. We are working with our public contributors to develop a context-specific public good definition (we will update this page in due course).
 |**LPS**|[**NHS England**](../../linked_health_data/nhs_england/nhse.html)<sup>1</sup>|[**Neighbourhood geographies**](../../linked_geo_data/place_based_intro.md)<sup>2</sup>|[**Address geographies**](../../linked_geo_data/place_based_intro.md)<sup>3</sup>|[**NHS Wales**](../../linked_health_data/nhs_wales/nhsw_intro.md)<br>(Coming soon)|[**DWP**](../../linked_admin_data/dwp_data/dwp_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/hmrc_data/hmrc_data.md)<br>(Not yet available)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-|[**AIRWAVE**](../lps_profiles/airwave.ipynb)|✓|✓|Full address|✗|✗|✗|
+|[**AIRWAVE**](../lps_profiles/airwave.ipynb)|✓|✓|Full address|✓|✗|✗|
 |[**BCS70**](../lps_profiles/bcs70.ipynb)|✓|✗|✗|✓|✓|✓|
 |[**BIB**](../lps_profiles/bib.ipynb)|✓|✓|Full address|✓|✗|✗|
 |[**ELSA**](../lps_profiles/elsa.ipynb)|✓|✗|✗|✗|✓|✓|
