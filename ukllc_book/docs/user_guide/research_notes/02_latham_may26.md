@@ -1,6 +1,6 @@
-# <span style= "color:red"/>DRAFT
+
 # The research potential of the IAPT dataset
-><span style= "color:red"/>Published 19 May 2026
+Published 19 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>By Rachel Latham, Research Fellow, King's College London, May 2026.</strong></div style>  
 
 ## Background  
@@ -32,7 +32,7 @@ A key feature of the NHS Talking Therapies service is the **systematic use of ro
 
 **<i><small>NHS Talking Therapies for anxiety and depression main outcome measures for anxiety, depression, specific anxiety disorders, and functional impairment</i></small>**
 
-Importantly, instead of relying on an outcome measured only at the end of treatment, measuring symptoms at every session ensures there is a last available score that can be used for outcome monitoring even if the treatment ends unexpectedly early. NHS England reports that that outcome data is obtained for 98.5% of all patients who have a course of treatment ([NHS England, 2024](https://www.england.nhs.uk/wp-content/uploads/2018/06/nhs-talking-therapies-manual-v7.1-updated.pdf)). Pairing patients' first and last symptom scores then allows key patient outcome metrics such as recovery, reliable improvement, reliable deterioration and no reliable change to be determined. 
+Importantly, instead of relying on an outcome measured only at the end of treatment, measuring symptoms at every session ensures there is a last available score that can be used for outcome monitoring even if the treatment ends unexpectedly early. NHS England reports that that outcome data is obtained for 98.5% of all patients who have a course of treatment (<a href="https://www.england.nhs.uk/wp-content/uploads/2018/06/nhs-talking-therapies-manual-v7.1-updated.pdf" target="_blank" rel="noopener noreferrer">NHS England, 2024</a>). Pairing patients' first and last symptom scores then allows key patient outcome metrics such as recovery, reliable improvement, reliable deterioration and no reliable change to be determined. 
 
 ## Research using the IAPT dataset
 Existing research has utilised the IAPT dataset – at both national and local levels – to explore a range of topics, including:  
@@ -47,7 +47,7 @@ Existing research has utilised the IAPT dataset – at both national and local l
 Linkage of the IAPT dataset with UK LLC’s partner LPS participants presents a unique opportunity to explore even more exciting research questions! 
 
 ### To make it easier for researchers to navigate and use the linked IAPT data we have:  
-* Documented the dataset in [**Guidebook**](../../linked_health_data/NHS_England/mental_health_datasets/iapt/understanding_iapt.md) – this provides a clear overview of the different versions of the IAPT dataset, its scope, main strengths and limitations, and key variables available.
+* Documented the dataset in [**Guidebook**](../../linked_health_data/nhs_england/mental_health_datasets/iapt/understanding_iapt.md) – this provides a clear overview of the different versions of the IAPT dataset, its scope, main strengths and limitations, and key variables available.
 * Provided guidance to understand the structure of the data and practical tips for handling the multiple rows of data per participant in IAPT.
 * Cross-referenced NHS documentation to fill in variable labels and value labels where these were incomplete.
 

@@ -410,6 +410,8 @@ parts:
           sections:
             - title: Focus on harmonisation
               file: docs/user_guide/research_notes/01_calkin_feb26.md
+            - title: Focus on IAPT
+              file: docs/user_guide/research_notes/02_latham_may26.md
         - title: Identifying individuals in multiple LPS
           file: docs/user_guide/alf2.md
     - title: FAQs
