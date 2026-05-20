@@ -4,7 +4,7 @@
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has worked with DATAMIND to create derived mental health and neurodevelopmental datasets.</strong></div>
 
-<aside class="admonition info"><p class="admonition-title">This initiative was funded by DATAMIND (grant number: MR/Z504816/1).</aside>
+<aside class="admonition note"><p class="admonition-title">This initiative was funded by DATAMIND (grant number: MR/Z504816/1).</aside>
 
 ## Introduction
 **Datasets will be available for selection shortly**. 
@@ -85,7 +85,7 @@ All health outcome-specific filtered data from each dataset were then combined. 
 
 The source diagnosis column indicated the dataset from which the first date of diagnosis was recorded, specifying whether the source was HESOP, HESAPC, MHSDS, IAPT or Mortality. For example, in cases where a participant had received diagnoses of both paranoid schizophrenia and simple schizophrenia on different dates, and these diagnoses originated from two separate data sources (HES and MHSDS, respectively), the source diagnosis column was populated with the data source linked to the earliest diagnosis date.
 
-<aside class="admonition info"><p class="admonition-title">The derived datasets are available in long format only.</p>Each row represents a diagnosis record for a participant.</aside>
+<aside class="admonition note"><p class="admonition-title">The derived datasets are available in long format only.</p>Each row represents a diagnosis record for a participant.</aside>
 
 </details>
 
