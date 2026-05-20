@@ -23,6 +23,6 @@ We have also written a guide about the [**application review process**.](../appl
 **Note**: the time it takes for a researcher’s organisation to sign a DAA with UK LLC can vary between less than a month to several months – this is outside the control of UK LLC.   
 **DAA**: Data Access Agreement; **DURA**: Data User Responsibilities Agreement; **EoI**: Expression of Interest; **Ts&Cs**: data owners' terms and conditions; **UKSA**: UK Statistics Authority.
 
-<aside class="admonition info"><p class="admonition-title">EoI metrics</p>On average it takes UK LLC 3.6 days to approve an expression of interest (from submission of final version of EoI).</aside> 
-<aside class="admonition info"><p class="admonition-title">Application metrics</p>On average it takes UK LLC and data owners 97.0 days to approve an application (from submission of final version of application).</aside> 
+<aside class="admonition note"><p class="admonition-title">EoI metrics</p>On average it takes UK LLC 3.6 days to approve an expression of interest (from submission of final version of EoI).</aside> 
+<aside class="admonition note"><p class="admonition-title">Application metrics</p>On average it takes UK LLC and data owners 97.0 days to approve an application (from submission of final version of application).</aside> 
 
