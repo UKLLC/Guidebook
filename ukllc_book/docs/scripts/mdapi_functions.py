@@ -330,7 +330,7 @@ def make_hlink_same_tab(url: str, text: str) -> str:
     return ' <a href="{}">{}</a>'.\
         format(url, text)
 
-
+# un-switched, 404
 def get_num_vars(source: str, table_name: str) -> int:
     """Reads dataset metadata endpoint to get number of variables
 
@@ -352,7 +352,7 @@ def get_num_vars(source: str, table_name: str) -> int:
     return len(pd.DataFrame(json.loads(response.text))
                ["variable_name"].unique())
 
-
+# switched and tested
 def get_md_api_frz_link_nhse() -> pd.DataFrame:
     """Returns dataframe of all freeze linkage rates (NHSE only for now)
 
@@ -360,9 +360,9 @@ def get_md_api_frz_link_nhse() -> pd.DataFrame:
         pd.DataFrame: dataframe of all freeze linkage metrics
     """
     r_d = requests.get(
-            "https://metadata-api-4a09f2833a54.herokuapp.com/"
+            api_url + 
             "freeze-linkage-nhse/",
-            headers={'access_token': API_KEY.strip()})
+            headers={'access-token': API_KEY.strip()})
 
     try:
         r_d.raise_for_status()
@@ -372,7 +372,7 @@ def get_md_api_frz_link_nhse() -> pd.DataFrame:
 
     return pd.DataFrame(json.loads(r_d.text))
 
-
+# unswitched - 404
 def get_freeze_profile():
     """Returns dataframe of freeze profile metrics (sex, age, ethnicity)
 
