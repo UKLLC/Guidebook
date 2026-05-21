@@ -1605,7 +1605,7 @@ class NHSESource:
             "MORTALITY": "../nhs_england/registration_datasets/mortality/mortality.html",
             "MHSDS": "../nhs_england/mental_health_datasets/mhsds/mhsds.html",
             "IAPT": "../nhs_england/mental_health_datasets/iapt/iapt.html",
-            "CSDS": "../nhs_england/community_datasets/csds/csds.html",
+            "CSDS": "../nhs_england/primary_care_datasets/csds/csds.html",
             "MSDS": "../nhs_england/community_datasets/msds/msds.html"
         }
 
