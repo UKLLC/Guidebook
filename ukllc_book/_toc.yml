@@ -8,21 +8,6 @@ parts:
       sections:
         - title: Where to find information
           file: docs/ukllc_key_facts/navigation/navigation.md
-        - title: Can I apply?
-          file: docs/ukllc_key_facts/eligibility/eligibility.md
-        - title: How do I apply?
-          file: docs/ukllc_key_facts/applying/intro.md
-          sections:
-            - title: Submit EoI
-              file: docs/ukllc_key_facts/applying/eoi.md
-            - title: Complete application
-              file: docs/ukllc_key_facts/applying/application.md
-            - title: Review process
-              file: docs/ukllc_key_facts/applying/review.md
-            - title: Complete governance
-              file: docs/ukllc_key_facts/applying/paperwork.md
-            - title: UK LLC policy on AI models
-              file: docs/ukllc_key_facts/applying/ai_policy.md
         - title: UK LLC profile
           file: docs/ukllc_key_facts/profile/ukllc_profile.md
         - title: UK LLC sample
@@ -65,19 +50,40 @@ parts:
           sections:
             - title: Five Safes Framework
               file: docs/ukllc_key_facts/data_security/five_safes.md
+    - title: Applying to UK LLC
+      file: docs/applying/apply_intro.md
+      sections:
+        - title: Am I eligible?
+          file: docs/applying/eligibility/eligibility.md
+        - title: How do I apply?
+          file: docs/applying/applying/intro.md
+          sections:
+            - title: Submit EoI
+              file: docs/applying/applying/eoi.md
+            - title: Complete application
+              file: docs/applying/applying/application.md
+            - title: Review process
+              file: docs/applying/applying/review.md
+            - title: Complete governance
+              file: docs/applying/applying/paperwork.md
+            - title: UK LLC policy on AI models
+              file: docs/applying/applying/ai_policy.md
+    - title: Our partner LPS
+      file: docs/lps_partner/lps_introduction.md
+      sections:
+        - title: LPS characteristics
+          file: docs/lps_partner/characteristics/characteristics_intro.md
+        - title: Permitted linkages
+          file: docs/lps_partner/linkages/lps_linkages.md
+        - title: Temporal coverage
+          file: docs/lps_partner/longevity_of_lps/lps_longevity.md
+        - title: Discover LPS data
+          file: docs/lps_partner/discover/discover_lps_data.md
     - title: LPS data
-      file: docs/lps_data/lps_introduction.md
+      file: docs/lps_data/lps_data_intro.md
       sections:
         - title: FAQs about LPS data
           file: docs/lps_data/lps_faq.md
-        - title: LPS characteristics
-          file: docs/lps_data/characteristics/characteristics_intro.md
-        - title: Permitted linkages
-          file: docs/lps_data/linkages/lps_linkages.md
-        - title: Temporal coverage
-          file: docs/lps_data/longevity_of_lps/lps_longevity.md
-        - title: Discover LPS data
-          file: docs/lps_data/discover/discover_lps_data.md
         - title: AIRWAVE
           file: docs/lps_data/lps_profiles/airwave.ipynb
           sections:
@@ -207,10 +213,12 @@ parts:
           - title: Primary care datasets
             file: docs/linked_health_data/nhs_england/primary_care_datasets/primary_intro.md
             sections:
-              - title: GDPPR
+              - title: GDPPR (GP)
                 file: docs/linked_health_data/nhs_england/primary_care_datasets/gdppr/gdppr.ipynb
-              - title: PCM
+              - title: PCM (prescriptions)
                 file: docs/linked_health_data/nhs_england/primary_care_datasets/pcm/pcm.ipynb
+              - title: CSDS (community)
+                file: docs/linked_health_data/nhs_england/primary_care_datasets/csds/csds.ipynb
           - title: Hospital datasets
             file: docs/linked_health_data/nhs_england/hes_datasets/hospital_intro.md
             sections:
@@ -265,11 +273,6 @@ parts:
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/mhsds/mhsds.ipynb
               - title: IAPT (talking therapies)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/iapt/iapt.ipynb
-          - title: Community datasets
-            file: docs/linked_health_data/nhs_england/community_datasets/community_datasets.md
-            sections:
-              - title: CSDS (general)
-                file: docs/linked_health_data/nhs_england/community_datasets/csds/csds.ipynb
           - title: Derived datasets
             file: docs/linked_health_data/nhs_england/derived_datasets/derived_datasets.md
         - title: NHS Wales
