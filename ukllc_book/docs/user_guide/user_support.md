@@ -1,5 +1,5 @@
 # User support
->Last modified: 23 Apr 2026
+>Last modified: 22 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>UK LLC is committed to helping all researchers to work effectively in the UK LLC Trusted Research Environment.</strong></div style>
 
 ## Self-service user tools
@@ -12,6 +12,9 @@ All researchers who have submitted an application or are already working in the 
 
 ### Support from UK LLC
 If researchers are unable to find the help they require either in this Guidebook (including the [**FAQs**](../faq/faq_intro.md)) or via UK LLC's <strong><a href="https://www.youtube.com/@ukllcollab" target="_blank" rel="noopener noreferrer">YouTube videos</a></strong>, the UK LLC Data Team can be contacted at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). 
+
+<aside class="admonition note"><p class="admonition-title">The Data Team offers 1:1 support sessions, via Teams, for researchers working in the TRE.</p>Please email the team to book a session.</aside>  
+
 
 > **The UK LLC Data Team** can provide assistance with:
 >* TRE account management

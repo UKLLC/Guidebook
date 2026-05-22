@@ -1,5 +1,5 @@
 # Understanding the HESAE dataset
->Last modified: 27 Feb 2026
+>Last modified: 22 May 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>HESAE is a record of Accident & Emergency (A&E) attendances in NHS hospitals in England.</strong></div>  
 
@@ -95,4 +95,4 @@ Below we will include syntax that may be helpful to other researchers in the UK 
 ## 13. Further reading  
 Hospital Episode Statistics as a whole are covered in more depth elsewhere in [Guidebook](../apc/understanding_hesapc.md).
 
-Information on the structure of HESAE and the coding systems used can be found in the <a href="https://www.datadictionary.nhs.uk/index.html" target="_blank" rel="noopener noreferrer">NHS Data Model and Dictionary</a>.
+Information on the structure of HESAE and the coding systems used can be found in the <a href="https://v2.datadictionary.nhs.uk/web_site_content/pages/codes/administrative_codes/a_amp_e_diagnosis_tables.asp@shownav=1.html" target="_blank" rel="noopener noreferrer">NHS Data Model and Dictionary</a>.

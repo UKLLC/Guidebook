@@ -1,5 +1,5 @@
 # FAQs about codes used in Electronic Health Records (EHRs)
->Last modified: 24 Nov 2025
+>Last modified: 22 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about diagnostic and procedural codes.</strong></div style>  
 <br>
 
@@ -61,4 +61,10 @@ There is not a a 1:1 relationship between the two coding systems, but there are 
 <summary>Which medical coding systems are used in the NHS England datasets in the UK LLC TRE?</summary>
 
 A summary of which datasets use which codes is on Guidebook's [Coded variables](../coding/coding_intro.md#classification-systems) page.
+</details>
+
+<details>
+<summary><b>HESAE</b> includes both ICD-10 and AEDIAG codes - which should I select?</summary>
+
+Although ICD-10 codes are permissible within HESAE, approx. 98% of the coding uses the AEDIAG ('Accident and Emergency Diagnosis') scheme. When requesting the HESAE, it is advisable to provide a code list based on AEDIAG rather than on ICD-10. More information on the HESAE dataset is [here](../hes_datasets/ae/understanding_hesae.md). An explanation of the AEDIAG coding system is available in the <a href="https://v2.datadictionary.nhs.uk/web_site_content/pages/codes/administrative_codes/a_amp_e_diagnosis_tables.asp@shownav=1.html" target="_blank" rel="noopener noreferrer">NHS Data Dictionary</a>.
 </details>

@@ -1,5 +1,5 @@
 # FAQs about working with mental health data
->Last modified: 06 Feb 2026
+>Last modified: 22 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with mental health data.</strong></div style>  
 <br>
 
@@ -89,5 +89,11 @@ Information about study participants diagnosed with mental health conditions, in
 <summary>What does the term “in contact with mental health services” mean in the context of reporting? </summary>
 
 The term refers to individuals who have an active referral to mental health services during the reporting period. An active referral means the case remains open at the end of the reporting month, regardless of whether the person has received any appointments, interventions, or recorded care activities under that referral.
-</details><br>
+</details>
 
+<details>
+<summary>Which Longitudinal Population Studies (LPS) are linked to the mental health datasets?
+</summary>
+
+LPS linkage to these datasets, and how many participants are included in each, is shown in the <b>'Metrics' sections</b> of the individual dataset pages: [MHSDS](../mental_health_datasets/mhsds/mhsds.ipynb) and [IAPT](../mental_health_datasets/iapt/iapt.ipynb).
+</details><br>

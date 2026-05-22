@@ -1,6 +1,6 @@
 # FAQs about working with place-based data 
 
-> Last modified: 02 Mar 2026
+> Last modified: 22 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -80,4 +80,16 @@ Geomodelled datasets have match scores i.e. only place-based datasets that requi
 <summary>What are the potential disclosure risks of linking at property level vs postcode level?</summary>  
 
 For household level data that is added to the UK LLC TRE, the datasets have passed disclosure control checks at the UPRN/household level. When a postcode is geocoded, it is associated with multiple UPRNs – on average there are 15 properties in a postcode. While the risk is marginally higher for full address level data, it is still minimal because of the robust disclosure checks prior to data entering the TRE. 
+</details>
+
+<details>
+<summary>Is there any geographic data available for LPS that do not currently have the permissions in place to link to place-based datasets?
+</summary>
+
+For LPS that do not currently permit place-based linkages, there are two sources of placed-based data:  
+1) Index of Multiple Deprivation (IMD) is available at participant level in some of the linked NHS England datasets (e.g. Mental Health Services Dataset (MHSDS) and Improving Access to Psychological Therapies (IAPT).  
+2) English regions and devolved nations (Scotland, Wales and Northern Ireland) are available 'in the clear' (i.e. not encrypted) in the UK LLC TRE.
+
+The linkages permitted by each LPS are summarised Guidebook's '[permitted linkages](../lps_partner/linkages/lps_linkages.md)' page. 
+
 </details>

@@ -1,5 +1,5 @@
 # FAQs about HES data
->Last modified: 03 Dec 2025
+>Last modified: 22 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked hospital data.</strong></div style>  
 <br>
 
@@ -18,6 +18,11 @@ Examples of non-specific codes include “R69=Not known” for diagnoses and “
 
 UK LLC is considering the way it makes linked health records available, by initially making unfiltered views available to researchers (with particularly sensitive records removed) rather than asking for codelists upfront. This will allow codelists to be developed whilst working with the data, but will also allow exploration of records which do not have specific codes assigned.
 </details> 
+
+<details>
+<summary>What is the difference between the <b>HES*</b> datasets and the <b>HES*_OTR</b> datasets?</summary>
+OTR stands for 'other'. These tables include information not found in the main HES* tables. They are provisioned automatically to all projects using HES data as they are a subset of HES. In the most recent extract of NHSE data (expected to be available in summer 2026), the _OTR versions don't exist. All the HES data will be in the main HES tables.
+</details>
 
 <details>
 <summary>What do the <B><i>_ACP</i> and <i>_MAT</i> </B> suffixes refer to in HES data?</summary>
