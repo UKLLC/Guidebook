@@ -663,6 +663,8 @@ class LPSSource:
             markdown/DF: markdown-formatted DF of info/metrics for study
         """
 
+        lps_website = self.df_ss.iloc[0]["Website"].split("(")[-1].replace(")","")
+        
         ss_info_list = [
         [
             "Citation (APA)",
@@ -692,7 +694,8 @@ class LPSSource:
             self.df_ss.iloc[0]["participant_pathway"],
             ", ".join([md.make_hlink("https://doi.org/" + i, i) for i in self.cohort_profile.split(",")]),
             #md.make_hlink("https://doi.org/" + self.cohort_profile, self.cohort_profile),
-            markdown.markdown(self.df_ss.iloc[0]["Website"]),
+            #markdown.markdown(self.df_ss.iloc[0]["Website"]),
+            md.make_hlink(lps_website, lps_website),
             md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
         ]
         ]
@@ -1075,7 +1078,7 @@ class NHSEDataSet:
             dss1 = md.get_md_api_dss()
             dss1["source_table"] = dss1["source"] + "_" + dss1["table"]
             dsvs1 = md.get_md_api_dsvs()
-            dsvs1 = dsvs1[dsvs1["source"] == "nhsd"]
+            dsvs1 = dsvs1[dsvs1["source"] == "NHSE"]
             dsvs1["source"] = "NHSE"
             dsvs1["version_num"] = dsvs1["version_num"].fillna("v0001")
             def rm_aux_dss(x):
@@ -1112,7 +1115,7 @@ class NHSEDataSet:
                         return vdate
 
             dsvs1["version_date"] = dsvs1.apply(lambda row: infill_vdates(row["version_date"], row["version_num"]), axis=1)
-            if dataset == "HESAPC":
+            if x == "HESAPC":
                 dsvs_i = dsvs1[dsvs1["source_table"] == "NHSE_" + x]
             else:
                 dsvs_i = dsvs1[dsvs1["source_table"].str.startswith("NHSE_" + x)]
@@ -1247,7 +1250,7 @@ class NHSEDataSet:
             else:
                 return x
         df["table"] = df["table"].apply(lambda x: fix_hes(x))
-        df = df[(df["source"] == "nhsd") & (df["table"].str.startswith(self.dataset))].drop_duplicates(subset="table")
+        df = df[(df["source"] == "NHSE") & (df["table"].str.startswith(self.dataset))].drop_duplicates(subset="table")
 
         df = df[~df["table"].isin(["MHSDS_MHS003AccommStatus", "MHSDS_MHS104RTT", "MHSDS_MHS301GroupSession", "MHSDS_MHS901StaffDetails", "CSDS_group_sessions"])]
 
@@ -1261,7 +1264,7 @@ class NHSEDataSet:
             dfcc = md.get_nhse_cohort_counts(df.iloc[i]["table"])
             dfcc = dfcc[~dfcc['cohort'].isin(['GENSCOT', 'NICOLA', 'SABRE'])]
             tbl_names += len(dfcc) * [df.iloc[i]["table"]]
-            dfcc["count"] = dfcc["count"].replace("<10", np.nan).astype(float)
+            dfcc["count"] = dfcc["count"].replace("-1", np.nan).astype(float)
             metrics_tables.append(dfcc)
 
         source = ColumnDataSource(data=dict(
@@ -1301,7 +1304,7 @@ class NHSEDataSet:
         dss1 = md.get_md_api_dss()
         dss1["source_table"] = dss1["source"] + "_" + dss1["table"]
         dsvs1 = md.get_md_api_dsvs()
-        dsvs1 = dsvs1[dsvs1["source"] == "nhsd"]
+        dsvs1 = dsvs1[dsvs1["source"] == "NHSE"]
         dsvs1["source"] = "NHSE"
         dsvs1["version_num"] = dsvs1["version_num"].fillna("v0001")
         def rm_aux_dss(x):
@@ -1605,7 +1608,7 @@ class NHSESource:
             "MORTALITY": "../nhs_england/registration_datasets/mortality/mortality.html",
             "MHSDS": "../nhs_england/mental_health_datasets/mhsds/mhsds.html",
             "IAPT": "../nhs_england/mental_health_datasets/iapt/iapt.html",
-            "CSDS": "../nhs_england/community_datasets/csds/csds.html",
+            "CSDS": "../nhs_england/primary_care_datasets/csds/csds.html",
             "MSDS": "../nhs_england/community_datasets/msds/msds.html"
         }
 
