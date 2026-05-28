@@ -1210,7 +1210,7 @@ class NHSEDataSet:
             self.df_ds.iloc[0]["source_table"], # DS in TRE
             self.apa_cite, # Citation
             self.dl_cites, # Download Cite
-            md.make_hlink("https://guidebook.ukllc.ac.uk/docs//linked_health_data/nhs_england/nhse", self.df_ds.iloc[0]["source_name"]), # Series
+            md.make_hlink("https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/nhse", self.df_ds.iloc[0]["source_name"]), # Series
             "NHS England", # self.df_ds.iloc[0]["Owner"], # Owner
             "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format("2026"), # Copyright
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
