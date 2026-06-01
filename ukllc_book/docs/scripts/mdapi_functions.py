@@ -5,7 +5,9 @@ import pandas as pd
 
 API_KEY = os.environ['FASTAPI_KEY']
 
+api_url = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
 
+# TBC - underlying table needs infilling
 def get_geo_locations():
     url = ('https://metadata-api-4a09f2833a54.herokuapp.com/geo-locations/')
     r = requests.get(url, headers={'access_token': API_KEY})
@@ -28,24 +30,27 @@ def get_geo_locations():
     return pd.json_normalize(json.loads(r.text)).rename(columns=col_rename)
 
 
+# switched and tested
 def get_place_dataset_info():
-    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/place-dataset-info/')
-    r = requests.get(url, headers={'access_token': API_KEY})
+    url = (api_url + "place-dataset-info/")
+    r = requests.get(url, headers={'access-token': API_KEY})
     return pd.json_normalize(json.loads(r.text))
 
 
+# switched and tested
 def get_place_var_info():
-    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/place-var-info/')
-    r = requests.get(url, headers={'access_token': API_KEY})
+    url = (api_url + 'place-var-info/')
+    r = requests.get(url, headers={'access-token': API_KEY})
     return pd.json_normalize(json.loads(r.text))
 
 
+# switched and tested
 def get_table_vars(source, table):
-    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/datasets/{{source_and_table_name}}?source={}&table_name={}'.format(source, table))
-    r = requests.get(url, headers={'access_token': API_KEY})
+    url = (api_url + f'datasets/{source}/{table}')
+    r = requests.get(url, headers={'access-token': API_KEY})
     return pd.json_normalize(json.loads(r.text))
 
-
+# switched and tested (aux tables not infilled, however)
 def get_nhse_cohort_counts(ds: str) -> pd.DataFrame:
     """Returns cohort counts per study for a given NHSE dataset
 
@@ -56,14 +61,30 @@ def get_nhse_cohort_counts(ds: str) -> pd.DataFrame:
         DF: dataframe of cohort participant counts
     """
 
-    url = ("https://metadata-api-4a09f2833a54.herokuapp.com/nhs-dataset-counts/"
+    url = (api_url + "nhs-dataset-counts/"
            + "?table={}".format(ds))
-    r = requests.get(url, headers={'access_token': API_KEY})
+    r = requests.get(url, headers={'access-token': API_KEY})
     data = r.text
     pj = json.loads(data)
-    return pd.json_normalize(pj)[["cohort", "count"]]
+    return pd.json_normalize(
+        pj
+        ).sort_values(
+            by="dataset", ascending=False
+            ).drop_duplicates(
+                subset=[
+                    "dataset_stem", 
+                    "cohort"
+                    ]
+                    ).sort_values(
+                        by="cohort"
+                        )[
+                            [
+                                "cohort", 
+                                "count"
+                            ]
+                        ]
 
-
+# switched and tested
 def get_nhs_gb_info(ds: str) -> pd.DataFrame:
     """Returns additional information for NHSE datasets not in "datasets"
     endpoint for GB pages
@@ -76,10 +97,10 @@ def get_nhs_gb_info(ds: str) -> pd.DataFrame:
         pd.DataFrame: additional info for dataset needed for GB
     """
     req = requests.get(
-        "https://metadata-api-4a09f2833a54.herokuapp.com/nhs-datasets-gb/"
+        api_url + "nhs-datasets-gb/" + 
         "?Name_of_dataset_in_TRE={}".format(ds),
-        headers={'access_token': API_KEY})
-
+        headers={'access-token': API_KEY})
+    
     df = pd.json_normalize(json.loads(req.text))
     return df[
         ["Name_of_dataset_in_TRE",
@@ -91,6 +112,7 @@ def get_nhs_gb_info(ds: str) -> pd.DataFrame:
                ].rename(columns={"Name_of_dataset_in_TRE": "table"})
 
 
+# switched and tested
 def get_md_api_ss() -> pd.DataFrame:
     """Returns all series metadata from MD API
 
@@ -99,8 +121,8 @@ def get_md_api_ss() -> pd.DataFrame:
     """
 
     r_d = requests.get(
-        "https://metadata-api-4a09f2833a54.herokuapp.com/source",
-        headers={'access_token': API_KEY.strip()})
+        api_url + "source",
+        headers={'access-token': API_KEY})
 
     # return error message if API response != 200
     try:
@@ -111,7 +133,7 @@ def get_md_api_ss() -> pd.DataFrame:
 
     return pd.DataFrame(json.loads(r_d.text))
 
-
+# switched and tested
 def get_md_api_profiles() -> pd.DataFrame:
     """Returns all cohort profile papers for all LPS
 
@@ -120,8 +142,8 @@ def get_md_api_profiles() -> pd.DataFrame:
     """
 
     r_d = requests.get(
-        "https://metadata-api-4a09f2833a54.herokuapp.com/all-source-profiles",
-        headers={'access_token': API_KEY.strip()})
+        api_url + "all-source-profiles",
+        headers={'access-token': API_KEY})
 
     # return error message if API response != 200
     try:
@@ -132,7 +154,7 @@ def get_md_api_profiles() -> pd.DataFrame:
 
     return pd.DataFrame(json.loads(r_d.text))
 
-
+# switched and tested
 def get_md_api_avg_ages() -> pd.DataFrame:
     """Returns average participant ages for all LPS
 
@@ -153,7 +175,7 @@ def get_md_api_avg_ages() -> pd.DataFrame:
 
     return pd.DataFrame(json.loads(r_d.text))
 
-
+# switched and tested
 def get_md_api_dss() -> pd.DataFrame:
     """Returns all metadata for all datasets in /all-datasets endpoing in API
 
@@ -162,8 +184,8 @@ def get_md_api_dss() -> pd.DataFrame:
     """
 
     r_d = requests.get(
-        "https://metadata-api-4a09f2833a54.herokuapp.com/all-datasets",
-        headers={'access_token': API_KEY.strip()})
+        api_url + "all-datasets",
+        headers={'access-token': API_KEY.strip()})
 
     # return error message if API response != 200
     try:
@@ -175,7 +197,7 @@ def get_md_api_dss() -> pd.DataFrame:
     dsall = pd.DataFrame(json.loads(r_d.text))
     return dsall[dsall["table"] != "Custom"]
 
-
+# switched and tested
 def get_md_api_dsvs() -> pd.DataFrame:
     """Returns all dataset versions from MD DB
 
@@ -184,8 +206,8 @@ def get_md_api_dsvs() -> pd.DataFrame:
     """
 
     r_d = requests.get(
-      "https://metadata-api-4a09f2833a54.herokuapp.com/all-datasets-versions",
-      headers={'access_token': API_KEY.strip()})
+      api_url + "all-datasets-versions",
+      headers={'access-token': API_KEY.strip()})
 
     # return error message if API response != 200
     try:
@@ -199,7 +221,7 @@ def get_md_api_dsvs() -> pd.DataFrame:
     # return dsall[(dsall["source"] != "nhsd") & (dsall["source"] != "GEO")]
     return dsall
 
-
+# tested
 def prep_dsvs_for_gb_pages() -> pd.DataFrame:
     """Reads datasets and datasets-versions endpoints to create necessary info
     for GB pages.
@@ -308,8 +330,8 @@ def make_hlink_same_tab(url: str, text: str) -> str:
     return ' <a href="{}">{}</a>'.\
         format(url, text)
 
-
-def get_num_vars(source: str, table_name: str) -> int:
+# switched and tested
+def get_num_vars(source: str, dataset: str) -> int:
     """Reads dataset metadata endpoint to get number of variables
 
     Args:
@@ -321,16 +343,14 @@ def get_num_vars(source: str, table_name: str) -> int:
     """
 
     response = requests.get(
-        "https://metadata-api-4a09f2833a54.herokuapp.com/datasets/"
-        "{{source_and_table_name}}?source={}&table_name={}".
-        format(source.lower(),
-               table_name.lower()),
-        headers={'access_token': API_KEY.strip()})
+        api_url + f'datasets/{source}/{dataset}',
+        headers={'access-token': API_KEY.strip()})
 
     return len(pd.DataFrame(json.loads(response.text))
-               ["variable_name"].unique())
+        ["variable_name"].unique())
 
 
+# switched and tested
 def get_md_api_frz_link_nhse() -> pd.DataFrame:
     """Returns dataframe of all freeze linkage rates (NHSE only for now)
 
@@ -338,9 +358,9 @@ def get_md_api_frz_link_nhse() -> pd.DataFrame:
         pd.DataFrame: dataframe of all freeze linkage metrics
     """
     r_d = requests.get(
-            "https://metadata-api-4a09f2833a54.herokuapp.com/"
+            api_url + 
             "freeze-linkage-nhse/",
-            headers={'access_token': API_KEY.strip()})
+            headers={'access-token': API_KEY.strip()})
 
     try:
         r_d.raise_for_status()
@@ -350,7 +370,7 @@ def get_md_api_frz_link_nhse() -> pd.DataFrame:
 
     return pd.DataFrame(json.loads(r_d.text))
 
-
+# switched and tested
 def get_freeze_profile():
     """Returns dataframe of freeze profile metrics (sex, age, ethnicity)
 
@@ -358,9 +378,9 @@ def get_freeze_profile():
         pd.DataFrame: dataframe of freeze profile metrics
     """
     r_d = requests.get(
-            "https://metadata-api-4a09f2833a54.herokuapp.com/"
+            api_url +
             "freeze-profile/",
-            headers={'access_token': API_KEY.strip()})
+            headers={'access-token': API_KEY.strip()})
 
     try:
         r_d.raise_for_status()
