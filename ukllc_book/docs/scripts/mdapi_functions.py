@@ -37,10 +37,10 @@ def get_place_dataset_info():
     return pd.json_normalize(json.loads(r.text))
 
 
-# un-switched - 500
+# switched and tested
 def get_place_var_info():
-    url = ('https://metadata-api-4a09f2833a54.herokuapp.com/place-var-info/')
-    r = requests.get(url, headers={'access_token': API_KEY})
+    url = (api_url + 'place-var-info/')
+    r = requests.get(url, headers={'access-token': API_KEY})
     return pd.json_normalize(json.loads(r.text))
 
 
@@ -330,8 +330,8 @@ def make_hlink_same_tab(url: str, text: str) -> str:
     return ' <a href="{}">{}</a>'.\
         format(url, text)
 
-# un-switched, 404
-def get_num_vars(source: str, table_name: str) -> int:
+# switched and tested
+def get_num_vars(source: str, dataset: str) -> int:
     """Reads dataset metadata endpoint to get number of variables
 
     Args:
@@ -343,14 +343,12 @@ def get_num_vars(source: str, table_name: str) -> int:
     """
 
     response = requests.get(
-        "https://metadata-api-4a09f2833a54.herokuapp.com/datasets/"
-        "{{source_and_table_name}}?source={}&table_name={}".
-        format(source.lower(),
-               table_name.lower()),
-        headers={'access_token': API_KEY.strip()})
+        api_url + f'datasets/{source}/{dataset}',
+        headers={'access-token': API_KEY.strip()})
 
     return len(pd.DataFrame(json.loads(response.text))
-               ["variable_name"].unique())
+        ["variable_name"].unique())
+
 
 # switched and tested
 def get_md_api_frz_link_nhse() -> pd.DataFrame:
@@ -372,7 +370,7 @@ def get_md_api_frz_link_nhse() -> pd.DataFrame:
 
     return pd.DataFrame(json.loads(r_d.text))
 
-# unswitched - 404
+# switched and tested
 def get_freeze_profile():
     """Returns dataframe of freeze profile metrics (sex, age, ethnicity)
 
@@ -380,9 +378,9 @@ def get_freeze_profile():
         pd.DataFrame: dataframe of freeze profile metrics
     """
     r_d = requests.get(
-            "https://metadata-api-4a09f2833a54.herokuapp.com/"
+            api_url +
             "freeze-profile/",
-            headers={'access_token': API_KEY.strip()})
+            headers={'access-token': API_KEY.strip()})
 
     try:
         r_d.raise_for_status()
