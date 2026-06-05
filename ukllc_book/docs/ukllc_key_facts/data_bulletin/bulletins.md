@@ -7,7 +7,7 @@
 Each edition contains:
 * News and updates  
 * Spotlight on a partner LPS  
-* A data-focussed research note
+* A data-focussed [Research Note](../../user_guide/research_notes/notes_intro.md)
 
 <br>
 
