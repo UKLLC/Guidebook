@@ -1,12 +1,12 @@
 # Understanding the harmonisation of LPS highest educational qualification variables
->Last modified: 23 Jan 2026
+>Last modified: 27 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has harmonised data on education for LPS participants and their parents (where available).</strong></div>  
 
 ## Introduction  
 
 Qualifications have been standardised to the closest equivalent in the current education system in England, Wales and Northern Ireland. These summarised as <strong><a href="https://www.gov.uk/what-different-qualification-levels-mean/list-of-qualification-levels" target="_blank" rel="noopener noreferrer">National Vocational Qualifications (NVQ)</a></strong> levels. Qualifications awarded in Scotland have been harmonised to their equivalents in England, Wales and Northern Ireland.  
 
-Where LPS asked participants a single question about their highest qualification, UK LLC uses this answer as the basis of the harmonised variable(s). Some LPS asked a multiple response question about all the qualifications participants had. In these case, UK LLC extracted the highest qualification from the list. 
+Where LPS asked participants a single question about their highest qualification, UK LLC uses this answer as the basis of the harmonised variable(s). Some LPS asked a multiple response question about all the qualifications participants had. In these cases, UK LLC extracted the highest qualification from the list. 
 
 > N.B. As qualifications have been asked about in different ways, and have changed over time, there is some overlap in the categories used to generate the harmonised variables.  
 
@@ -91,6 +91,7 @@ Doctorate
 </details>
 <details><summary>Other</summary>  
 
+NVQ level unspecified
 Foreign/overseas qualifications  
 Other academic qualifications  
 Other qualifications   

@@ -48,10 +48,12 @@ parts:
         - title: UK LLC database design
           file: docs/ukllc_key_facts/database/database_design.md
         - title: Data security
-          file: docs/ukllc_key_facts/data_security/data_security.md
+          file: docs/ukllc_key_facts/data_security/data_security.md 
           sections:
             - title: Five Safes Framework
               file: docs/ukllc_key_facts/data_security/five_safes.md
+        - title: Data Bulletins
+          file: docs/ukllc_key_facts/data_bulletin/bulletins.md
     - title: Applying to UK LLC
       file: docs/applying/apply_intro.md
       sections:
