@@ -1,21 +1,21 @@
 # Publishing or presenting your research
-> Last modified: 08 May 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must send all papers and similar outputs to UK LLC for review before submitting them for publication.</strong></div style>
+> Last modified: 11 Jun 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must send all scientific manuscripts to UK LLC for review before submitting them for publication.</strong></div style>
 
 
 ## Key messages for researchers
 1. You must only include **data** in papers/presentations that have been **approved** through UK LLC's output review process - see [**Moving files in and out guide**](../user_guide/moving_files.md).
 
-2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to all your [**project-specific terms and conditions (Ts&Cs)**](https://guidebook.ukllc.ac.uk/docs/ukllc_key_facts/applying/paperwork#data-owners-terms-and-conditions-ts-cs).
+2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to all your [**project-specific terms and conditions (Ts&Cs)**](https://guidebook.ukllc.ac.uk/docs/applying/applying/paperwork.html#data-owners-terms-and-conditions-ts-cs).
 
 3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available 
-[**here**](../user_guide/images/ukllc_acknowledgement_slide_publication_checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.1.docx).
+[**here**](../images/ukllc_acknowledgement_slide_publication_checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.1.docx).
 
-4. You must share **all papers and similar outputs** with **UK LLC for review** prior to submission for publication (UK LLC does **not require** to see your **presentations** before they are delivered).
+4. You must share **all manuscripts** with **UK LLC for review** prior to submission for publication (UK LLC does **not require** to see your **conference abstracts** or **presentations**).
 
 6. You should place your research findings into the **public domain** as quickly as possible. UK LLC encourages researchers to use a **preprint server** such as <strong><a href="https://www.medrxiv.org/" target="_blank" rel="noopener noreferrer">medRxiv</a></strong> to make your outputs publicly available while formal peer review is underway.
 
-7. You must publish **all papers and similar outputs** as **Open Access** in line with <strong><a href="https://www.ukri.org/publications/ukri-open-access-policy/" target="_blank" rel="noopener noreferrer">UKRI Open Access Policy</a></strong>. There are two main routes: **gold open access**, published under a Creative Commons CC-BY licence, or **green open access** whereby your accepted version is deposited in an open access repository with a CC-BY licence. **University library websites** tend to have good guidance and many will have grants from funders to pay for gold open access if your research is funded by them, e.g. see <strong><a href="https://library.bath.ac.uk/open-access/whatisopenaccess" target="_blank" rel="noopener noreferrer">University of Bath Library</a></strong>, <strong><a href="https://www.bristol.ac.uk/staff/researchers/open-access/" target="_blank" rel="noopener noreferrer">University of Bristol Library</a></strong> or <strong><a href="https://library.ed.ac.uk/research-support/publish-research/open-access" target="_blank" rel="noopener noreferrer">University of Edinburgh Library</a></strong>.
+7. You must publish **all papers** as **Open Access** in line with <strong><a href="https://www.ukri.org/publications/ukri-open-access-policy/" target="_blank" rel="noopener noreferrer">UKRI Open Access Policy</a></strong>. There are two main routes: **gold open access**, published under a Creative Commons CC-BY licence, or **green open access** whereby your accepted version is deposited in an open access repository with a CC-BY licence. **University library websites** tend to have good guidance and many will have grants from funders to pay for gold open access if your research is funded by them, e.g. see <strong><a href="https://library.bath.ac.uk/open-access/whatisopenaccess" target="_blank" rel="noopener noreferrer">University of Bath Library</a></strong>, <strong><a href="https://www.bristol.ac.uk/staff/researchers/open-access/" target="_blank" rel="noopener noreferrer">University of Bristol Library</a></strong> or <strong><a href="https://library.ed.ac.uk/research-support/publish-research/open-access" target="_blank" rel="noopener noreferrer">University of Edinburgh Library</a></strong>.
 
 8. If you are requested to write a **data availability statement**, we suggest you provide the following:  
 *‘Data used in this research are made available via UK Longitudinal Linkage Collaboration (UK LLC), which is a Trusted Research Environment (TRE) developed and operated by the Universities of Bristol and Edinburgh using an underlying ‘Secure eResearch Platform’ provided by Swansea University. These data cannot be used or shared outside this environment. Researchers can apply to access the UK LLC TRE using the procedure outlined in the <strong><a href="https://ukllc.ac.uk/governance" target="_blank" rel="noopener noreferrer">UK LLC Data Access and Acceptable Use Policy</a></strong>. UK LLC uses a system of managed open access for researchers who demonstrate their project is intended to improve the public good.’*
@@ -40,7 +40,7 @@ In addition, UK LLC reviews all manuscripts to check that they fall within the *
 The UK LLC Executive Group can withhold the right to publish any manuscript that may bring UK LLC or any of the contributing data owners into disrepute, or which could compromise the confidentiality of LPS participants. UK LLC also reserves the right to **submit letters or papers** in response to any paper or similar output to explain study procedures or to express an alternative scientific argument.  
 
 >**Note**  
-UK LLC **does not** conduct **peer-review** or **scientific assessment**.  
+UK LLC does **not** conduct **peer-review** or **scientific assessment**.  
 >UK LLC staff, partners and contributing LPS staff are **not expected** to be authors unless authorship is justified under <strong><a href="http://icmje.org/" target="_blank" rel="noopener noreferrer">ICMJE authorship guidelines</a></strong>.
 
 

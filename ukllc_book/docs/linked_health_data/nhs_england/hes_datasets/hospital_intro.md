@@ -1,9 +1,9 @@
 # NHS England hospital datasets
->Last modified: 20 Mar 2026
+>Last modified: 21 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The hospital datasets cover all NHS funded hospital activity in England.</strong></div>
 <br>
 
-<aside class="admonition warning"><p class="admonition-title">Hospital datasets are based on data collected for the reimbursement of hospital activities rather than for research purposes</p></aside>  
+<aside class="admonition danger"><p class="admonition-title">Hospital datasets are based on data collected for the reimbursement of hospital activities rather than for research purposes</p></aside>  
 
 ## Benefits of using hospital data for research
 * **National coverage** - all NHS-funded hospital care in England.

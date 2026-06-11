@@ -1,6 +1,6 @@
 
-# Can I apply?
->Last modified: 11 Dec 2025
+# Am I eligible?
+>Last modified: 21 May 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers must be UK-based and ONS accredited, and their project must be in the public good.</strong></div>
 <br>
 
