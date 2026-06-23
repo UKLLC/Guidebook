@@ -1,5 +1,5 @@
 # Understanding the IAPT dataset
->Last modified: 13 Mar 2026
+>Last modified: 23 Jun 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px; "><strong>IAPT includes adults who are referred in England for depression, anxiety, or related conditions under the NHS Talking Therapies for Anxiety and Depression Service.</strong></div>
 
 ## 1. Introduction
@@ -139,7 +139,7 @@ The UK LLC TRE currently holds an extract of the IAPT dataset from **2020 onward
 The UK LLC TRE includes IAPT records for participants in partner LPS and only where individual or LPS permissions allow linkage to NHS data. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHS data not be shared via UK LLC.
 
 
-<img src="../../../../images/IAPT_dataset_180226.jpg" width="600"/>
+<img src="../../../../images/iapt_dataset_20260623.jpg" width="600"/>
 
 **Figure 1** Relationships between the IAPT tables available in the UK LLC TRE.
 
