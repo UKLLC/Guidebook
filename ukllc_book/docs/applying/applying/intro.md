@@ -1,10 +1,20 @@
 
 # How do I apply?
->Last modified: 19 Jan 2026
+>Last modified: 24 Jun 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>All applications must be submitted via UK LLC's online application management system, UK LLC Apply.</strong></div>
 <br>
 
-To ensure the appropriate and fair use of LPS participants’ information, UK LLC operates a rigorous **multi-stage application process** (figure 1). Once an application is approved, each applicant must complete **legal documentation** before the UK LLC Data Team **provisions their approved data** in the UK LLC Trusted Research Environment (TRE). Take a look at the [**UK LLC Data Use Register**](https://ukllc.ac.uk/data-use-register) to see a list of applications already submitted to UK LLC.
+## Check feasibility of your proposed research project
+UK LLC may not hold all data collected by each LPS and some LPS do not permit certain linkages or research topics. You are **strongly advised** to check the feasibilty of your proposed research project, using the links below, before submitting your EoI:
+- [**UK LLC Explore**](https://explore.ukllc.ac.uk/) - UK LLC's data catalogue
+- [**UK LLC Guidebook permitted linkages and research topics guide**](../../lps_partner/linkages/lps_linkages.md) - a summary of the linkages and research topics each partner LPS permits. 
+
+## Register for a UK LLC Apply account
+If you feel that your proposed project is feasible within the UK LLC TRE, go to <strong><a href="https://ukllc.ac.uk/apply" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong> to register for an account.  
+
+**Note**: Researchers must be **based in the UK**, be an **Office for National Statistics (ONS) Accredited Researcher** and be proposing a project that is **not in any way commercial**.
+
+You may submit your EoI and complete the ONS accreditation process in parallel. Accreditation is managed by the Integrated Data Service’s (IDS) People & Project Services (PPS) - apply for an IDS account [**here**](https://integrateddataservice.gov.uk/apply-for-an-account). If you have any questions about accreditation, please email: [**Accredited.Researcher.Support@ons.gov.uk**](mailto:Accredited.Researcher.Support@ons.gov.uk)
 
 We have split our **application guidance** into the following pages:
  - Submit your [**expression of interest (EoI)**](../applying/eoi.md)
@@ -14,8 +24,6 @@ We have split our **application guidance** into the following pages:
 We have also written a guide about the [**application review process**.](../applying/review.md)
 
 <img src="../../images/UKLLC_access_summary_11112025.png" width="600"/>
-
-
 
 
 **Figure 1** A summary of UK LLC's application process with approximate timings for each stage - also see the metrics below   
