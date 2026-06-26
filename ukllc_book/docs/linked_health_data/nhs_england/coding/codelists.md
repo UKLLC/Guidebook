@@ -1,9 +1,11 @@
 # Codelists and NHS England data
->Last modified: 19 Mar 2026
+>Last modified: 26 Jun 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>When requesting access to certain NHS England datasets, researchers must submit a codelist to ensure data minimisation.</strong></div>
 <br>
 
-Data minimisation in this context is referred to as **‘subsetting’**, where only health records that relate directly to the research question are made available to researchers. Subsetting entails matching a list of clinical codes (a 'codelist') with linked health datasets. The researcher is only given access to records that appear in both the codelist and the linked health dataset(s). This reduces disclosure risk and ensures the project's scope remains as approved by UK LLC's application process.
+Data minimisation in this context is referred to as **'subsetting'**, where only health records that relate directly to the research question are made available to researchers. Subsetting entails matching a list of clinical codes (a 'codelist') with linked health datasets.
+
+<aside class="admonition note"><p class="admonition-title">Researchers are given access only to records that appear in both the codelist and the linked health dataset(s)</p>This reduces disclosure risk and ensures the project's scope remains as approved by UK LLC's application process.</aside> 
 
 ## Which NHS England datasets require a codelist?
 **Six NHS England datasets** in the UK LLC TRE require a clinical code list:
