@@ -1,6 +1,6 @@
 # Welcome to UK LLC Guidebook
 
->Last modified: 24 Jun 2026
+>Last modified: 01 Jul 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The home of UK LLC data documentation and user guide.</strong></div>
 <br>
 
@@ -9,7 +9,7 @@
 - [**UK LLC's ongoing development**](../docs/next_steps_ukllc.md) - expansion in partner LPS and data sources, and synthetic data and training TRE 
 - [**UK LLC's published protocol**](https://ijpds.org/article/view/2468/6167) - explains in detail how UK LLC works. 
 
-<img src="../docs/images/intro_slide_23062026.jpg" width="800"/>
+<img src="../docs/images/intro_slide_01072026.jpg" width="800"/>
  
 
 

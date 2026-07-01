@@ -1,12 +1,12 @@
 # LPS in the UK LLC partnership
->Last modified: 09 Mar 2026
+>Last modified: 01 Jul 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK has a world-leading portfolio of around 100 Longitudinal Population Studies (LPS) that have collected detailed  information on over three million members of the UK public. </strong></div>
 <br>
 
 Data collected by LPS include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples.
 
-Table 1 provides an overview of the **22 LPS that are part of UK LLC**. UK LLC remains open to additional LPS joining the partnership through a formalised onboarding process.
+Table 1 provides an overview of the **23 LPS that are part of UK LLC**. UK LLC remains open to additional LPS joining the partnership through a formalised onboarding process.
 
 >The table does not include LPS that are working to join the UK LLC partnership but have not yet notified their participants through ‘fair processing’ communications. No data flow into the UK LLC TRE until participants have been notified.
 
@@ -20,6 +20,7 @@ Most LPS have published **cohort profiles** which give detailed information abou
 |[**ALSPAC: Avon Longitudinal Study of Parents and Children**](../lps_data/lps_profiles/alspac.ipynb)|ALSPAC or **Children of the 90s** is a multigenerational study of the environmental and genetic factors that affect a person’s health and development.|England|<a href="https://doi.org/10.1093/ije/dys064" target="_blank" rel="noopener noreferrer">c. 14,000 pregnant women recruited between 1991 and 1992</a>|1991-|University of Bristol|
 |[**BCS70: 1970 British Cohort Study**](../lps_data/lps_profiles/bcs70.ipynb)|BCS70 or the **1970 Birth Cohort** follows the lives of people born in 1970. Data are collected about health, physical, cognitive and social development, education and employment, and home lives.|England, Scotland, Wales|<a href="https://doi.org/10.1093/ije/dyac148" target="_blank" rel="noopener noreferrer">c. 17,000 babies born in a single week of 1970</a>|1970-|University College London|
 |[**BIB: Born in Bradford**](../lps_data/lps_profiles/bib.ipynb)|BIB tracks the health and wellbeing of children from multiple ethnic backgrounds, from pregnancy, through childhood and into adult life, and their parents. BIB collects a wide range of data including health, environmental, educational and genetic.|England|<a href="https://doi.org/10.1093/ije/dys112" target="_blank" rel="noopener noreferrer">c. 13,500 children born at Bradford Royal Infirmary between March 2007 and December 2010 and their parents</a>|2007-|Bradford Teaching Hospitals NHS Foundation Trust|
+|**CaPS: Caerphilly Prospective Study**|CaPS was set up to examine the importance of lipids, haemostatic factors, and hormones in the development of ischaemic heart disease (IHD). With the ageing of the cohort, additional outcomes have been included, in particular stroke, hearing problems, cognitive function and dementia.|Wales|c. 3,000 men aged 45 to 59 years recruited 1979|1979-2011|University of Bristol|
 |[**ELSA: English Longitudinal Study of Ageing**](../lps_data/lps_profiles/elsa.ipynb)|ELSA collects data from people aged over 50 to understand all aspects of ageing, including physical and mental health, wellbeing, finances and attitudes around ageing.|England|<a href="https://doi.org/10.1093/ije/dys168" target="_blank" rel="noopener noreferrer">c. 18,000 adults aged 50 years and over, with recruitment ongoing</a>|2002-|University College London|
 |[**EPIC Norfolk: The European Prospective Investigation into Cancer Norfolk Study**](../lps_data/lps_profiles/epicn.ipynb)|EPIC Norfolk recruited at 35 GP practices in Norfolk. Data are collected about health, diet and physical activity.|England|<a href="https://doi.org/10.1093/ije/dyt086" target="_blank" rel="noopener noreferrer">c. 30,000 adults aged 40-79 years, recruited 1993-1998</a>|1993-|University of Cambridge|
 |[**EXCEED: Extended Cohort for E-health, Environment and DNA**](../lps_data/lps_profiles/exceed.ipynb)|EXCEED collects information from people about genes and lifestyle to provide insight into environmental influences on long-term health.|England|<a href="https://doi.org/10.1093/ije/dyz073" target="_blank" rel="noopener noreferrer">c. 11,000 adults aged 18 and over, with recruitment ongoing</a>|2013-|University of Leicester|
