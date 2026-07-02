@@ -1,5 +1,5 @@
 # Publishing or presenting your research
-> Last modified: 11 Jun 2026
+> Last modified: 02 Jul 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must send all scientific manuscripts to UK LLC for review before submitting them for publication.</strong></div style>
 
 
@@ -9,7 +9,7 @@
 2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to all your [**project-specific terms and conditions (Ts&Cs)**](https://guidebook.ukllc.ac.uk/docs/applying/applying/paperwork.html#data-owners-terms-and-conditions-ts-cs).
 
 3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available 
-[**here**](../images/ukllc_acknowledgement_slide_publication_checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.1.docx).
+[**here**](../images/ukllc_acknowledgement_slide_publication_checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.2.docx).
 
 4. You must share **all manuscripts** with **UK LLC for review** prior to submission for publication (UK LLC does **not require** to see your **conference abstracts** or **presentations**).
 
@@ -27,7 +27,7 @@ For further details see the <strong><a href="https://ukllc.ac.uk/governance" tar
 
 At least **two weeks prior to journal submission**, you must provide UK LLC with a copy of your manuscript. This can be done by logging into <strong><a href="https://apply.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong> and creating a publication record. You will be asked to upload a copy of your **manuscript**, a **lay summary** and to complete the **publication checklist** (see box below).  
 
-For your **supplementary materials** use the document DOC-DAT-032 'Information about LPS for researchers to include in the Supplementary Materials of their publications' available [**here.**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.1.docx)
+For your **supplementary materials** use the document DOC-DAT-032 'Information about LPS for researchers to include in the Supplementary Materials of their publications' available [**here.**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.2.docx)
 
 <aside class="admonition note"><p class="admonition-title">As part of the publication checklist, the submitting author is asked to confirm that:</p><li>UK LLC is described correctly and included as a key word</li>
 <li>data owners are cited based on their preferred reference citation</li>
