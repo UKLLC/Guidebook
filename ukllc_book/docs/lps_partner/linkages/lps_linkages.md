@@ -1,5 +1,5 @@
 # Linkages and research topics permitted for each LPS
->Last modified: 26 Jun 2026
+>Last modified: 02 Jul 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The linkages and breadth of research topics permitted by each Longitudinal Population Study (LPS).</strong></div>
 <br>
@@ -19,6 +19,7 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 |[**AIRWAVE**](../lps_profiles/airwave.ipynb)|✓|✓|Full address|✓|✗|✗|
 |[**BCS70**](../lps_profiles/bcs70.ipynb)|✓|✗|✗|✓|✓|✓|
 |[**BIB**](../lps_profiles/bib.ipynb)|✓|✓|Full address|✓|✗|✗|
+|**CaPS**|✓|✓|✗|✓|✗|✗|
 |[**ELSA**](../lps_profiles/elsa.ipynb)|✓|✗|✗|✗|✓|✓|
 |[**EXCEED**](../lps_profiles/exceed.ipynb)|✓|✓|Postcode|✓|✗|✗|
 |[**GENSCOT**](../lps_profiles/genscot.ipynb)|✗|✗|✗|✗|✗|✗|
