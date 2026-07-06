@@ -746,7 +746,7 @@ class LPSSource:
 
         df["Dataset"] = df["Dataset"].apply(
             lambda x: md.make_hlink_same_tab(
-                "{}.html".format(x), x))
+                "{}.html".format(x.lower()), x))
         df["# Observations"] = df["# Observations"].apply(lambda x: '' if x == '' else int(x))
         df["# Variables"] = df["# Variables"].apply(lambda x: int(x))
         return DocHelper.style_table("_", df)
@@ -762,7 +762,14 @@ class LPSSource:
                     e.g. NHSE, NHSW, PLACE, DWP etc...
         """
 
-        if self.source in ["AIRWAVE", "UKREACH", "GENSCOT", "NICOLA", "SABRE"]:
+        if self.source in [
+                            # "AIRWAVE",
+                            # "UKREACH",
+                            "GENSCOT",
+                            "NICOLA",
+                            "SABRE",
+                            "CAPS"
+                        ]:
             return display(Markdown("Linkage rates will be displayed for {} in due course.".format(self.source)))
 
         else:
