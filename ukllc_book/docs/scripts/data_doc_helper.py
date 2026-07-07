@@ -763,8 +763,7 @@ class LPSSource:
         """
 
         if self.source in [
-                            # "AIRWAVE",
-                            # "UKREACH",
+                            "FENLAND",
                             "GENSCOT",
                             "NICOLA",
                             "SABRE",
