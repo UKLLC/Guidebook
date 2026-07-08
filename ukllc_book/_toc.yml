@@ -105,6 +105,11 @@ parts:
           sections:
             - title: Datasets
               file: docs/lps_data/datasets/bib/datasets/bib_datasets.ipynb
+        - title: CaPS
+          file: docs/lps_data/lps_profiles/caps.ipynb
+          sections:
+            - title: Datasets
+              file: docs/lps_data/datasets/caps/datasets/caps_datasets.ipynb
         - title: ELSA
           file: docs/lps_data/lps_profiles/elsa.ipynb
           sections:
@@ -190,6 +195,11 @@ parts:
           sections:
             - title: Datasets
               file: docs/lps_data/datasets/ukhls/datasets/ukhls_datasets.ipynb
+        - title: UKREACH
+          file: docs/lps_data/lps_profiles/ukreach.ipynb
+          sections:
+            - title: Datasets
+              file: docs/lps_data/datasets/ukreach/datasets/ukreach_datasets.ipynb
     - title: NHS data
       file: docs/linked_health_data/nhs_intro.md
       sections:
