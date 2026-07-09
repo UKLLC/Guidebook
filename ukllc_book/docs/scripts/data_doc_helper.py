@@ -663,7 +663,7 @@ class LPSSource:
             markdown/DF: markdown-formatted DF of info/metrics for study
         """
 
-        lps_website = self.df_ss.iloc[0]["Website"].split("(")[-1].replace(")","")
+        lps_website = self.df_ss.iloc[0]["Website"].split("(")[-1].replace(")", "").replace("'", "").replace("}", "")
         
         ss_info_list = [
         [
