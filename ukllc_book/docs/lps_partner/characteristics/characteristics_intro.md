@@ -1,5 +1,5 @@
 # LPS characteristics and study focus
->Last modified: 07 Jul 2026
+>Last modified: 13 Jul 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>A summary of LPS characteristics and the original focus of each study.</strong></div style>  
 <br>
@@ -16,7 +16,7 @@ Table 1 summarises some of the key features of UK LLC's longitudinal population 
 |CaPS     |✓|✓|✗|✗|✗|<span style="color:blue">✗|<span style="color:blue">✓|<span style="color:blue">✗|<span style="color:blue">✗
 |ELSA     |✗|✓|✗|✗|✗|<span style="color:blue">✓|<span style="color:blue">✓|<span style="color:blue">✓|<span style="color:blue">✗|
 |EPIC-N   |✓|✗|✗|✗|✗|<span style="color:blue">✗|<span style="color:blue">✓|<span style="color:blue">✗|<span style="color:blue">✗|
-|EXCEED   |✗|✗|✗|✗|✗|<span style="color:blue">✗|<span style="color:blue">✓|<span style="color:blue">✗|<span style="color:blue">✓|
+|EXCEED   |✓|✗|✗|✗|✗|<span style="color:blue">✗|<span style="color:blue">✓|<span style="color:blue">✗|<span style="color:blue">✓|
 |FENLAND  |✓|✗|✗|✗|✗|<span style="color:blue">✗|<span style="color:blue">✓|<span style="color:blue">✗|<span style="color:blue">✓|
 |GENSCOT  |✗|✗|✓|✗|✗|<span style="color:blue">✗|<span style="color:blue">✓|<span style="color:blue">✗|<span style="color:blue">✗|
 |GLAD     |✗|✗|✗|✗|✗|<span style="color:blue">✗|<span style="color:blue">✓|<span style="color:blue">✗|<span style="color:blue">✓|
