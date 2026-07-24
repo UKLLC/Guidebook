@@ -1,5 +1,5 @@
 # FAQs about working with UK LLC-managed data
->Last modified: 19 Mar 2026
+>Last modified: 24 Jul 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with UK LLC-managed data.</strong></div style>  
 <br>
 
@@ -26,7 +26,14 @@ All projects that started before these changes, were updated to use the new nami
 | <i>CORE_nhsd_lsoa11 | [UKLLC_nhse_lsoa11_dataset_mapping](../ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb) | LSOA11 lookup for participants with linkage to NHSE data | 
 
 <br>
-</details><br>
+</details>
+
+<details>
+<summary>Why are there discrepancies between participants' dates of birth in UK LLC's harmonised data and those recorded in NHS datasets?</summary>
+Both LPS and linked data are likely to include some errors and inconsistencies. For the LPS data, UK LLC only reports year of birth (YoB) as, in many cases, harmoised YoB has been derived from variables such as 'age today' combined with 'date of survey', so could be up to a year out. In the NHS data, there are likely to be inaccuracies due to typos and incomplete data.
+</details>
+
+<br>
 
 >**Further information will be added to this page as the UK LLC generated datasets become more widely available.**  
 > Any queries about these datasets should be emailed to [support@ukllc.ac.uk](mailto:support@ukllc.ac.uk).

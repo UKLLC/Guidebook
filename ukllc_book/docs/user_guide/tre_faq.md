@@ -1,5 +1,5 @@
 # FAQs about working in the TRE
->Last modified: 30 Jan 2026
+>Last modified: 24 Jul 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
@@ -157,7 +157,7 @@ You must notify UK LLC when a researcher leaves a project so their access to the
 <details>
 <summary>Can I get in touch with researchers working on other projects in the UK LLC TRE?</summary>
 
-UK LLC hosts a user group which meets online monthly. All active TRE users are invited to attend this meeting where updates are shared and issues facing users can be discussed.
+UK LLC hosts a user group which meets online monthly. All active TRE users are invited to attend this meeting where updates are shared and issues facing users can be discussed.<br>If you are already working in the TRE but have not received an invitation to the user group meetings, please contact [support@ukllc.ac.uk](mailto:support@ukllc.ac.uk). 
 </details>
 <br>
 
@@ -241,6 +241,13 @@ The data owners' Ts&Cs for all projects are listed on <a href="https://apply.ukl
 
 Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../user_guide/requestinganamendment.md)  requires a different level of review before being approved. 
 </details>  
+
+<details>
+<summary>If I know that new data will soon be available, can I request access to it before it is in the TRE?</summary>
+
+Datasets cannot be requested before they are surfaced on <a href="https://explore.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Explore</a>. All requests for data, either for a new project or as an [amendment](../user_guide/requestinganamendment.md#request-new-data) to an existing project, must include a Data Request Form which is generated Explore.
+
+</details>
 
 <details>
 <summary>What should I do if I have concerns about data in the TRE?</summary>  

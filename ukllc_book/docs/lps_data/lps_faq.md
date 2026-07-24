@@ -1,5 +1,5 @@
 # FAQs about working with LPS data
->Last modified: 02 Mar 2026
+>Last modified: 24 Jul 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with Longitudinal Population Study (LPS) data.</strong></div style>  
 <br>
 
@@ -26,7 +26,7 @@ UK LLC is currently working with our partner LPS to increase the both the number
 </details>
 
 <details>
-<summary>Why are there fewer LPS participants in the UK LLC TRE than there are in the same datasets accessed directly from LPS?</summary>
+<summary>Why are there fewer LPS participants in the UK LLC TRE than there are in the same datasets accessed directly from the LPS themselves?</summary>
 
 LPS datasets uploaded to the TRE may have slightly fewer participants than the original LPS dataset as some participants may not have consented to being included in the UK LLC resource.
 </details>
@@ -61,6 +61,12 @@ In most cases LPS data is one row per person. However, there are a few exception
 <details>
 <summary>Why are some of my tables split into more than one part?</summary>
 Datasets which are >1000 variables wide are split on loading to the UKSERPUKLLC database because of the SQL field limit of 1024 variables. Where this is the case the table name will contain a _1_, _2_ etc nested between the version and date in the table name. In most cases the 2 (or more) parts can be merged/joined on LLC_XXXX_stud_id. This can be done when the table has a 1 row per participant.  
+</details>
+
+<details>
+<summary>Where can I find information on when data were collected?</summary>
+
+Some LPS datasets include variables giving either the full date, or the month and year on which the data were collected. Others may include the age of each participant at the point of data collection. However, neither of these are consistent between LPS or between datasets. Where the information is not available in datasets, or in the LPS documentation, UK LLC is working to derive proxy dates for each dataset in the TRE. 
 </details>
 
 <details>
