@@ -32,13 +32,13 @@ The data are split over 2 tables/datasets:
 1) **GEO_air_pollution_hh** where addresses are geocoded to the household (hh) level.
 2) **GEO_air_pollution_pc** where addresses are geocoded to the postcode (pc) level.
 
-See the [Linkage and processing of address data guide](../processing_&_linkage.md) for further information on geo-linkage resolution. Variables are common between the household and postcode level datasets to allow the datasets to be easily unioned or appended.
+See the [Linkage and processing of address data guide](../processing_and_linkage.md) for further information on geo-linkage resolution. Variables are common between the household and postcode level datasets to allow the datasets to be easily unioned or appended.
 
 ### Address start and end dates
 Address start and end dates are provided by each LPS to indicate when the participant moved into and out of each address location. In many cases these **dates are null, address periods are not contiguous**, and do not cover the full time periods where participants are part of an LPS. These are **data quality issues** and the UK LLC Data Team is exploring solutions to improve the usability of these data. This documentation will be updated once these improvements are in place.
 
 ### Matchcodes
-The files contain a *matchcode* variable which indicates how successfully the Experian geocoding software was able to match the address. The *matchcode* also contains an indicator for confidence and whether any actions took place to correct postcode or address elements during the geocoding process. See the [Linkage and processing of address data guide](../../../processing/processing_&_linkage.md) for background information on this. For full documentation on how to interpret the Experian *matchcode* see the <a href="https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success" target="_blank" rel="noopener noreferrer">Experian documentation</a>.
+The files contain a *matchcode* variable which indicates how successfully the Experian geocoding software was able to match the address. The *matchcode* also contains an indicator for confidence and whether any actions took place to correct postcode or address elements during the geocoding process. See the [Linkage and processing of address data guide]((../processing_and_linkage.md)) for background information on this. For full documentation on how to interpret the Experian *matchcode* see the <a href="https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success" target="_blank" rel="noopener noreferrer">Experian documentation</a>.
 
 ### Air pollution variables
 Air pollution variables in the form *no2_YYYY/pm_YYYY* are annual averages. These should be used in **conjunction with the address start and end dates** to assign the annual averages for the years that correspond to when the participant was at that address. Note, the UK LLC Data Team will build a transformed version of this dataset with this pre-processing step already completed in due course. This documentation will be updated when this is place.
