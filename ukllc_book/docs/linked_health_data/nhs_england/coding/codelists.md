@@ -1,5 +1,5 @@
 # Codelists and NHS England data
->Last modified: 26 Jun 2026
+>Last modified: 27 Jul 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>When requesting access to certain NHS England datasets, researchers must submit a codelist to ensure data minimisation.</strong></div>
 <br>
 
@@ -25,6 +25,9 @@ UK LLC is committed to supporting reproducible and transparent research practice
 
 ## What should a codelist look like?
 UK LLC provides a codelist template as a <strong><a href="https://apply.ukllc.ac.uk/apply/view_document/codelist_template/" target="_blank" rel="noopener noreferrer">downloadable MS Excel file</a></strong>. The template contains information on which coding systems should be used for each of the NHS England datasets. The coding systems used by each dataset are outlined on the [**Coded variables**](../coding/coding_intro.md) page.
+
+<aside class="admonition danger"><p class="admonition-title">Do NOT alter the format of any part of the codelist template.</p>Our data provisioning script will not work if the format is changed.</aside>
+
 
 
 ## What happens if I need to update my codelist during my project?
