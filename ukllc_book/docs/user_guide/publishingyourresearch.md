@@ -1,5 +1,5 @@
 # Publishing or presenting your research
-> Last modified: 02 Jul 2026
+> Last modified: 03 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must send all scientific manuscripts to UK LLC for review before submitting them for publication.</strong></div style>
 
 
@@ -9,7 +9,7 @@
 2. You must ensure that your analyses and outputs fall within the **scope** of your approved project and adhere to all your [**project-specific terms and conditions (Ts&Cs)**](https://guidebook.ukllc.ac.uk/docs/applying/applying/paperwork.html#data-owners-terms-and-conditions-ts-cs).
 
 3. You must **acknowledge** UK LLC and its partners, collaborators, funders and contributing data owners appropriately. For **presentations**, an acknowledgement slide containing logos is available 
-[**here**](../images/ukllc_acknowledgement_slide_publication_checklist_v4.pptx). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.2.docx).
+[**here**](../images/acknowledgement_slide_publication_checklist_UKLLCv4.pdf). For **papers**, detailed information about LPS for supplementary materials is available in DOC-DAT-032 [**here**](../images/doc-dat-032_ukllc_lps_supplementary_info_v2.2.docx).
 
 4. You must share **all manuscripts** with **UK LLC for review** prior to submission for publication (UK LLC does **not require** to see your **conference abstracts** or **presentations**).
 
