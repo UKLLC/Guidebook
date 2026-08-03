@@ -1,5 +1,5 @@
 # FAQs about working with LPS data
->Last modified: 24 Jul 2026
+>Last modified: 03 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with Longitudinal Population Study (LPS) data.</strong></div style>  
 <br>
 
@@ -11,6 +11,11 @@
 You can search for key words (in both LPS and linked data) by using UK LLC's data catalogue (<strong><a href="https://explore.ukllc.ac.uk" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>).  
 The **'Data'** tab at the top of the page provides the option to search in Study (LPS) data and/or Linked data, and returns results which can be viewed by source (LPS and linked data), dataset, and variable. 
  
+</details>
+
+<details><summary>How can I find out which LPS permit linkage to which datasets?</summary>
+
+The [Permitted Linkages](../lps_partner/linkages/lps_linkages.md) page summarises the linkage permissions associated with each of our partner LPS.
 </details>
 
 <details>

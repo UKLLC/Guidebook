@@ -1,6 +1,6 @@
 # FAQs about working with place-based data 
 
-> Last modified: 22 May 2026
+> Last modified: 03 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -33,7 +33,13 @@ These data are matched using a database lookup to convert the physical address i
 
 Place-based data provides information about the attributes and environment of where participants live. The linked data can be used to investigate the impact of environmental exposures on participants’ health. In addition, spatial covariates (risk factors) can be introduced into your models to reduce the error in the model to increase the power of the factor tests e.g. analysis attempting to understand environmental triggering of a disease. 
 </details>
- 
+
+<details>
+<summary>How can I find out which LPS permit linkage to place-based datasets?</summary>
+
+The [Permitted Linkages](../lps_partner/linkages/lps_linkages.md) page summarises the linkage permissions associated with each of our partner LPS.
+</details>
+
 <details>
 <summary>How much pre-processing of the datasets has UK LLC done?</summary>  
 
