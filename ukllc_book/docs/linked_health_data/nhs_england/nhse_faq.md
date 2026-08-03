@@ -1,7 +1,12 @@
 # FAQs about NHS England data
->Last modified: 19 Mar 2026
+>Last modified: 03 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
+
+<details><summary>How can I find out <b>which LPS</b> permit linkage to NHS England datasets?</summary>
+
+The [Permitted Linkages](../../lps_partner/linkages/lps_linkages.md) page summarises the linkage permissions associated with each of our partner LPS.
+</details>
 
 <details>
 <summary>Does UK LLC check the <B>accuracy</B> of health records?</summary>
