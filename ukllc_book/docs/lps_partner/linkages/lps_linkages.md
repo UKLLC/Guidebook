@@ -1,5 +1,5 @@
 # Linkages and research topics permitted for each LPS
->Last modified: 09 Jul 2026
+>Last modified: 04 Aug 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The linkages and breadth of research topics permitted by each Longitudinal Population Study (LPS).</strong></div>
 <br>
@@ -17,20 +17,20 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 |**LPS**|[**NHS England**](../../linked_health_data/nhs_england/nhse.ipynb)<sup>1</sup>|[**Neighbourhood geographies**](../../linked_geo_data/place_based_intro.md)<sup>2</sup>|[**Address geographies**](../../linked_geo_data/place_based_intro.md)<sup>3</sup>|[**NHS Wales**](../../linked_health_data/nhs_wales/nhsw_intro.md)<sup>4</sup><br>(Not yet available)|[**DWP**](../../linked_admin_data/dwp_data/dwp_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/hmrc_data/hmrc_data.md)<br>(Not yet available)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |[**AIRWAVE**](../../lps_data/lps_profiles/airwave.ipynb)|✓|✓|Full address|✓|✗|✗|
-|[**BCS70**](../../lps_profiles/bcs70.ipynb)|✓|✗|✗|✓|✓|✓|
-|[**BIB**](../../lps_profiles/bib.ipynb)|✓|✓|Full address|✓|✗|✗|
+|[**BCS70**](../../lps_data/lps_profiles/bcs70.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**BIB**](../../lps_data/lps_profiles/bib.ipynb)|✓|✓|Full address|✓|✗|✗|
 |[**CaPS**](../../lps_data/lps_profiles/caps.ipynb)|✓|✓|✗|✓|✗|✗|
-|[**ELSA**](../../lps_profiles/elsa.ipynb)|✓|✗|✗|✗|✓|✓|
-|[**EXCEED**](../../lps_profiles/exceed.ipynb)|✓|✓|Postcode|✓|✗|✗|
-|[**GENSCOT**](../../lps_profiles/genscot.ipynb)|✗|✗|✗|✗|✗|✗|
-|[**GLAD**](../../lps_profiles/glad.ipynb)|✓|✓|Full address|✓|✗|✗|
-|[**MCS**](../../lps_profiles/mcs.ipynb)|✓|✗|✗|✗|✓|✓|
-|[**NCDS58**](../../lps_profiles/ncds58.ipynb)|✓|✗|✗|✓|✓|✓|
-|[**NEXTSTEP**](../../lps_profiles/nextstep.ipynb)|✓|✗|✗|✗|✓|✓|
-|[**NSHD46**](../../lps_profiles/nshd46.ipynb)|✓|✓|Full address|✗|✗|✗|
-|[**TEDS**](../../lps_profiles/teds.ipynb)|✓|✓|Full address|✓|✓<sup>6</sup>|✓<sup>6</sup>|
-|[**TWINSUK**](../../lps_profiles/twinsuk.ipynb)|✓|✓|Postcode|✗|✗|✗|
-|[**UKHLS**](../../lps_profiles/ukhls.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**ELSA**](../../lps_data/lps_profiles/elsa.ipynb)|✓|✗|✗|✗|✓|✓|
+|[**EXCEED**](../../lps_data/lps_profiles/exceed.ipynb)|✓|✓|Postcode|✓|✗|✗|
+|[**GENSCOT**](../../lps_data/lps_profiles/genscot.ipynb)|✗|✗|✗|✗|✗|✗|
+|[**GLAD**](../../lps_data/lps_profiles/glad.ipynb)|✓|✓|Full address|✓|✗|✗|
+|[**MCS**](../../lps_data/lps_profiles/mcs.ipynb)|✓|✗|✗|✗|✓|✓|
+|[**NCDS58**](../../lps_data/lps_profiles/ncds58.ipynb)|✓|✗|✗|✓|✓|✓|
+|[**NEXTSTEP**](../../lps_data/lps_profiles/nextstep.ipynb)|✓|✗|✗|✗|✓|✓|
+|[**NSHD46**](../../lps_data/lps_profiles/nshd46.ipynb)|✓|✓|Full address|✗|✗|✗|
+|[**TEDS**](../../lps_data/lps_profiles/teds.ipynb)|✓|✓|Full address|✓|✓<sup>6</sup>|✓<sup>6</sup>|
+|[**TWINSUK**](../../lps_data/lps_profiles/twinsuk.ipynb)|✓|✓|Postcode|✗|✗|✗|
+|[**UKHLS**](../../lps_data/lps_profiles/ukhls.ipynb)|✓|✗|✗|✓|✓|✓|
 |[**UKREACH**](../../lps_data/lps_profiles/ukreach.ipynb)<sup>5</sup>|✓|✓|✗|✓|✗|✗|
 
 **Notes**  
@@ -47,13 +47,13 @@ Definition of **public good**: UK LLC currently follows the <strong><a href="htt
 
 |**LPS**|[**NHS England**](../../linked_health_data/nhs_england/nhse.ipynb)<sup>1</sup>|[**Neighbourhood geographies**](../../linked_geo_data/place_based_intro.md)<sup>2</sup>|[**Address geographies**](../../linked_geo_data/place_based_intro.md)<sup>3</sup>|[**NHS Wales**](../../linked_health_data/nhs_wales/nhsw_intro.md)<sup>4</sup><br>(Not yet available)|[**DWP**](../../linked_admin_data/dwp_data/dwp_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/hmrc_data/hmrc_data.md)<br>(Not yet available)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-|[**ALSPAC**](../../lps_profiles/alspac.ipynb)|✓|✓|Postcode|✓|✓|✓|
-|[**EPICN**](../../lps_profiles/epicn.ipynb)|✓|✗|✗|✗|✗|✗|
-|[**FENLAND**](../../lps_profiles/fenland.ipynb)|✓|✗|✗|✗|✗|✗|
-|[**NICOLA**](../../lps_profiles/nicola.ipynb)|✗|✗|✗|✗|✗|✗|
-|[**NIHRBIO_COPING**](../../lps_profiles/nihrbio_coping.ipynb)|✓|✓|Postcode|✗|✗|✗|
-|[**SABRE**](../../lps_profiles/sabre.ipynb)|✗|✓|Full address|✗|✗|✗|
-|[**TRACKC19**](../../lps_profiles/trackc19.ipynb)|✓|✗|✗|✗|✗|✗|
+|[**ALSPAC**](../../lps_data/lps_profiles/alspac.ipynb)|✓|✓|Postcode|✓|✓|✓|
+|[**EPICN**](../../lps_data/lps_profiles/epicn.ipynb)|✓|✗|✗|✗|✗|✗|
+|[**FENLAND**](../../lps_data/lps_profiles/fenland.ipynb)|✓|✗|✗|✗|✗|✗|
+|[**NICOLA**](../../lps_data/lps_profiles/nicola.ipynb)|✗|✗|✗|✗|✗|✗|
+|[**NIHRBIO_COPING**](../../lps_data/lps_profiles/nihrbio_coping.ipynb)|✓|✓|Postcode|✗|✗|✗|
+|[**SABRE**](../../lps_data/lps_profiles/sabre.ipynb)|✗|✓|Full address|✗|✗|✗|
+|[**TRACKC19**](../../lps_data/lps_profiles/trackc19.ipynb)|✓|✗|✗|✗|✗|✗|
 
 **Notes**  
 <sup>1</sup> The purpose of any sub-licence must be restricted to purpose intended and expected to achieve benefit to the UK health and social care system   
