@@ -1,5 +1,5 @@
 # Understanding the HESAE dataset
->Last modified: 22 May 2026
+>Last modified: 05 Aug 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>HESAE is a record of Accident & Emergency (A&E) attendances in NHS hospitals in England.</strong></div>  
 
@@ -36,7 +36,7 @@ Data about each attendance at an A&E department were input into local record sys
 >Each record (line) represents a single visit to an emergency care department. 
 
 **Clinical information:**
-Each record contains coded information on up to **12 diagnoses made in A&E** (fields **diag_01** to _12). There also up to 12 coded fields for anatomical area of diagnosis, investigations and treatments. All medical codes are presented as two character codesm with a third character being included where further details are available.
+Each record contains coded information on up to **12 diagnoses made in A&E** (fields **diag_01** to _12). There also up to 12 coded fields for anatomical area of diagnosis, investigations and treatments. All medical codes are presented as two character codes with a third character being included where further details are available.
 
 **Dates and times:** HESAE includes multiple date and time fields which facilitate the tracking of a patients' progress through A&E experience from arrival to discharge, e.g. 'arrivaldate' (ddmmmyyyy) and 'arrivaltime' (hhmm).
 
