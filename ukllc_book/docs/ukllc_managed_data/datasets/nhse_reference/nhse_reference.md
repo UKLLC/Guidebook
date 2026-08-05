@@ -1,7 +1,6 @@
 # NHS England reference datasets
->Last modified: 23 Jan 2026
+>Last modified: 05 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has created a number of summary and derived datasets enabling researchers greater and faster insight into their provisioned sample.</strong></div>
-<br>
 
 ## Introduction
 UK LLC makes available a number of derived linked datasets. These files contain information that enables researchers to understand their sample and define the denominator for their project. The datasets also enable quicker retrieval of key demographic and **NHS England** service use information.

@@ -1,5 +1,5 @@
 # FAQs about working with UK LLC-managed data
->Last modified: 24 Jul 2026
+>Last modified: 05 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with UK LLC-managed data.</strong></div style>  
 <br>
 
@@ -14,7 +14,7 @@ Once additional linked data is available (e.g. NHS Wales, HMRC), it is likely th
 <summary>Where are the CORE datasets that UK LLC used to provision to all projects?
 </summary>  
 
-Prior to October 2025, UK LLC projects were provisioned 4 'CORE' datasets (outlined in column 1 of the table below). In response to feedback from LPS around participant permissions, and following internal review of our dataset naming conventions, these datasets were renamed and relocated into the UK LLC-managed schema as [**NHS England reference datasets**](../ukllc_managed_data/datasets/nhse_reference/nhse_reference.md).  
+Prior to October 2025, UK LLC projects were provisioned 4 'CORE' datasets (outlined in column 1 of the table below). In response to feedback from LPS around participant permissions, and following internal review of our dataset naming conventions, these datasets were renamed and relocated into the UK LLC-managed schema as [NHS England reference datasets](../ukllc_managed_data/datasets/nhse_reference/nhse_reference.md).  
 
 All projects that started before these changes, were updated to use the new naming conventions in October 2025.
 
