@@ -1,6 +1,6 @@
 # Rules for researchers
->Last modified: 30 Apr 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must follow rules to safeguard the anonymity and security of LPS participants’ data in the UK LLC Trusted Research Environment (TRE).</strong></div style>
+>Last modified: 12 Aug 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Researchers must follow rules to safeguard the anonymity and security of LPS participants’ data in the UK LLC TRE.</strong></div style>
 <br>
 
 Below is a summary of the rules that **researchers agree to abide by** when accessing data in the UK LLC TRE. This is followed by a summary of the [**penalties**](#penalties-for-researchers) researchers may be subject to if they breach UK LLC rules, and a list of relevant [**UK LLC policies**](#uk-llc-policies).
@@ -13,7 +13,9 @@ To be active in the UK LLC TRE you must be an **Office for National Statistics (
 You must only access the UK LLC TRE **from the UK** via a **secure private or corporate network** using **organisation owned/approved machines**, which are automatically maintained (so that they are fully patched and up to date with relevant virus protection). Where using a private network, you must make all reasonable efforts to ensure this is maintained and the equipment is secure (strong password) and kept patched and up to date. You must keep your **UK LLC TRE access password private** and your **2FA secure** and you must **not share** these with anyone else. You must ensure that your **display screen** is **not overlooked** by unauthorised persons when accessing the UK LLC TRE and you must **lock your computer** when you leave it unattended.
 
 ### 3. Screenshots of the TRE
-You must **never** take any screenshots of data in the UK LLC TRE (e.g. by using a phone or snipping tool), although you can **share your screen** with other **approved researchers on your project**. If you wish to share findings with a colleague who is not named on your research project, you must submit each output for [**statistical disclosure control checks**](../user_guide/sdc.md) via the official data out process described in rule 4 below. 
+You must **never take any screenshots** of the UK LLC TRE (e.g. by using a phone or snipping tool) to share outside the TRE. However, you can **share your screen** with other **approved researchers on your project**. If you wish to share findings with a colleague who is not named on your research project, you must submit each output for [**statistical disclosure control checks**](../user_guide/sdc.md) via the official data out process described in rule 4 below.  
+
+If you wish to share screenshots with the **UK LLC Data Team** (e.g for help with retrieving files from the database), save the images in your **TRE project folder** before contacting [support@ukllc.ac.uk](mailto:support@ukllc.a.cuk).
 
 ### 4. Taking data out of the TRE
 The **only way** you are permitted to take data out of the UK LLC TRE is via the official **data out process** detailed in the [**Moving files in and out guide**](../user_guide/moving_files.md). Even small outputs, such as a single number that you could easily remember or write down MUST be requested via this process. This ensures that all outputs are documented and that UK LLC is confident that your output is safe, i.e. non-disclosive. 
