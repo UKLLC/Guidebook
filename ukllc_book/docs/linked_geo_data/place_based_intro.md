@@ -2,13 +2,11 @@
 
 > Last modified: 14 Aug 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has established data pipelines to ingest both open-source place-based data and datasets provided by agreed partners into the UK LLC Trusted Research Environment (TRE).</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC brings together place-based datasets from a range of open and partner sources and makes them available for research in the Trusted Research Environment (TRE).</strong></div>  
 <br>
 <aside class="admonition note"><p class="admonition-title">The <a 
 href="https://guidebook.ukllc.ac.uk/docs/lps_partner/linkages/lps_linkages.html" target="_blank" rel="noopener 
 noreferrer"><b>Permitted Linkages</b></a> page outlines which LPS permit linkage of their participants to place-based datasets.</p></aside>
-
-## Introduction
 
 ## Introduction
 
