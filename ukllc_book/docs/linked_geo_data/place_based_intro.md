@@ -1,6 +1,6 @@
 # Place-based data
 
-> Last modified: 03 Aug 2026
+> Last modified: 14 Aug 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has established data pipelines to ingest both open-source place-based data and datasets provided by agreed partners into the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
@@ -9,6 +9,28 @@ href="https://guidebook.ukllc.ac.uk/docs/lps_partner/linkages/lps_linkages.html"
 noreferrer"><b>Permitted Linkages</b></a> page outlines which LPS permit linkage of their participants to place-based datasets.</p></aside>
 
 ## Introduction
+
+## Introduction
+
+<div style="text-align: center; margin: 20px 0;">
+  <iframe
+    width="800"
+    height="450"
+    src="https://www.youtube.com/embed/C8xBwxk0jNM"
+    title="Introduction to UK LLC Place-based Data"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+*Watch this short video for an overview of place-based data in UK LLC, including how datasets are linked, governed and made available for research.*
+
+
+We are continually expanding the range of place-based datasets available within the UK LLC TRE. If you are interested in using a place-based dataset that is not currently listed, please submit an Expression of Interest (EOI) through [UK LLC Apply](https://apply.ukllc.ac.uk/).
+>**Note**  
+Once an EOI has been submitted, the UK LLC Applications Team will review the request and contact you with further information, including a quotation where applicable. While access to standard place-based datasets is provided free of charge, the preparation and curation of bespoke datasets may incur a cost depending on the complexity of the request.
+
 Place-based data can be linked to participants using address data provided by Longitudinal Population Studies (LPS) or linked area indicators (e.g. Lower Super Output Area, LSOA) in participants’ NHS records. All geographic identifiers in the UK LLC TRE below the region/devolved nation level are encrypted.
 
 The place-based datasets cover a variety of domains and time periods, as summarised in Table 1. Their geographic coverage varies per dataset based on availability across the four UK nations. Further details, including external links to publications and metadata, are available in the individual dataset guides.
@@ -19,7 +41,8 @@ Place-based data can be linked using LPS-provided address data or linked area in
 
 All address data are sent by the LPS to our trusted third party – NHS Digital Health and Care Wales (DHCW). This address data is only used for place-based linkage and geocoding, subject to individual LPS approval.
 
-Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong> to discover more about each place-based dataset, including variable names, labels, and values.  
+Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong> to discover more about each place-based dataset, including variable names, labels, and values.
+
 
 **Table 1** A summary of the place-based datasets in the UK LLC TRE, grouped by theme.
 
@@ -27,7 +50,7 @@ Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopen
 |--------------|----------------|------------------|---------|----------|---------------------------|------------------------|--------|
 | [Access to Healthy Assets and Hazards (AHAH)](../linked_geo_data/environmental_datasets/neighbourhood_datasets/ahah/ahah.ipynb) | Environmental | Neighbourhood | A multi-dimensional index measuring how ‘healthy’ neighbourhoods are. | England, Scotland, Wales | Lower Super Output Area/Data Zone | 2022 | [Geographic Data Service](https://data.geods.ac.uk/) |
 | [Greenspace](../linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb) | Environmental | Neighbourhood | Greenspace metrics on greenspace coverage, access and walkability. | England, Scotland, Wales, Northern Ireland (selected variables) | Address | 2018 | University of Leicester |
-| [Energy Performance Certificates (EPC)](../linked_geo_data/environmental_datasets/property_datasets/epc/understanding_epc.md) <br>*Coming in 2026* | Environmental | Property | Energy efficiency and property qualities. | England, Wales | Address | 2008–2024 | Department for Levelling Up, Housing & Communities |
+| [Energy Performance Certificates (EPC)](../linked_geo_data/environmental_datasets/property_datasets/epc/understanding_epc.md) <br>*Coming in 2027* | Environmental | Property | Energy efficiency and property qualities. | England, Wales | Address | 2008–2024 | Department for Levelling Up, Housing & Communities |
 | [Air pollution NO2 & PM](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb) | Environmental | Pollution | Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposure data. | England, Scotland, Wales | Address | 2010–2019 | University of Leicester and St George's, University of London |
 | [Air pollution NOx, NO2 and O3](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.ipynb) | Environmental | Pollution | Annual average assessments (hourly and 24-hour) for NOx, NO2 and O3. | England, Wales | Address | 2018–2020 | University of Leicester and St George's, University of London |
 | [Noise pollution](../linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb) | Environmental | Pollution | Modelled road-transport noise estimates. | England, Wales | Address | 2013 | University of Leicester and St George's, University of London |
@@ -37,7 +60,4 @@ Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopen
 
 <br>
 
-We are currently in the process of adding new place-based datasets into the TRE. If you require a specific dataset, or additional variables in an existing dataset to provide a higher level of granularity, please contact **support@ukllc.ac.uk**.  
 
->**Note**  
-While access to standard place-based datasets is free, the preparation of bespoke datasets may involve a cost depending on the complexity of the request.  
