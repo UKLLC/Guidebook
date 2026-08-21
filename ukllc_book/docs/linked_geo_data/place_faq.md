@@ -1,6 +1,6 @@
 # FAQs about working with place-based data 
 
-> Last modified: 03 Aug 2026
+> Last modified: 21 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -97,5 +97,12 @@ For LPS that do not currently permit place-based linkages, there are two sources
 2) English regions and devolved nations (Scotland, Wales and Northern Ireland) are available 'in the clear' (i.e. not encrypted) in the UK LLC TRE.
 
 The linkages permitted by each LPS are summarised Guidebook's '[permitted linkages](../lps_partner/linkages/lps_linkages.md)' page. 
+
+</details>
+
+<details>
+<summary>Is ethnicity data available at LSOA level?</summary>
+
+No, UK LLC does not hold any ethnicity at LSOA level. However, if you are able to prepare the data using the 2011 census boundaries, UK LLC can provide a quote for ingesting this dataset into the TRE and linking it to LPS data. Any datasets uploaded to the TRE in this way will be added to the resource and made available for all researchers to request.
 
 </details>
