@@ -1,5 +1,5 @@
 # Complete your project governance
->Last modified: 02 Apr 2026
+>Last modified: 24 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>You must be covered by a UK LLC Data Access Agreement and have accepted UK LLC's and data owners' terms and conditions of data use before you can access the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
@@ -16,8 +16,7 @@ In addition, they may be required to complete a **System Level Security Policy (
 A DAA must be signed between the organisation(s) hosting researcher(s) named on the project and the University of Bristol (the owner of UK LLC). The DAA is a legal document and defines the terms and conditions for accessing and using data within the UK LLC TRE. Where a researcher is employed by multiple organisations, the DAA must be in place with the organisation sponsoring the research and taking accountability for it. The signing of the DAA is managed using **Docusign**.
 
 ## 2. Data User Responsibilities Agreement (DURA)
-Each researcher named on a project must accept UK LLC's terms of use listed on the UK LLC DURA. Researchers can access their DURA by logging into [**UK LLC Apply**](https://apply.ukllc.ac.uk/). 
-
+Each researcher named on a project must accept UK LLC's terms of use listed on the UK LLC DURA. If you would like to read through the UK LLC DURA **before applying**, please [**click here**](../../images/doc-dat-019_ukllc_dura_v1.7.pdf). Researchers already active in the UK LLC TRE can access their DURA by logging into [**UK LLC Apply**](https://apply.ukllc.ac.uk/).
 
 ## 3. Data owners’ terms and conditions (Ts&Cs)
 Different data owners and indeed different datasets sometimes specify particular terms and conditions (Ts&Cs). It is imperative that researchers adhere to their project-specific Ts&Cs throughout the lifecycle of their project, i.e. when they are analysing and publishing their analyses. Data owners' Ts&Cs must be accepted by each researcher named on a project by logging into [**UK LLC Apply**](https://apply.ukllc.ac.uk/). You can view your Ts&Cs by logging into UK LLC Apply, going to your project homepage and selecting the Terms & Conditions module:
