@@ -13,7 +13,7 @@ In addition, they may be required to complete a **System Level Security Policy (
 
 ## 1. Data Access Agreement (DAA)
 
-A DAA must be signed between the organisation(s) hosting researcher(s) named on the project and the University of Bristol (the owner of UK LLC). The DAA is a legal document and defines the terms and conditions for accessing and using data within the UK LLC TRE. Where a researcher is employed by multiple organisations, the DAA must be in place with the organisation sponsoring the research and taking accountability for it. The signing of the DAA is managed using **Docusign**.
+A DAA must be signed between the organisation(s) hosting researcher(s) named on the project and the University of Bristol (the owner of UK LLC). The DAA is a legal document and defines the terms and conditions for accessing and using data within the UK LLC TRE. Where a researcher is employed by multiple organisations, the DAA must be in place with the organisation sponsoring the research and taking accountability for it. The signing of the DAA is managed using **Docusign**. If you would like to read through the UK LLC DAA **before applying**, please [**click here**](../../images/doc-ope-029_ukllc_daa_v8.0.pdf).
 
 ## 2. Data User Responsibilities Agreement (DURA)
 Each researcher named on a project must accept UK LLC's terms of use listed on the UK LLC DURA. If you would like to read through the UK LLC DURA **before applying**, please [**click here**](../../images/doc-dat-019_ukllc_dura_v1.7.pdf). Researchers already active in the UK LLC TRE can access their DURA by logging into [**UK LLC Apply**](https://apply.ukllc.ac.uk/).
