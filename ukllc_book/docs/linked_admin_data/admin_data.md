@@ -1,7 +1,9 @@
 # Non-health administrative data
->Last modified: 19 Nov 2025
+>Last modified: 25 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is working with the Office for National Statistics (ONS) to build data pipelines to flow non-health administrative data into the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
+
+<aside class="admonition danger"><p class="admonition-title">Please note that non-health administrative data have not yet flowed into the UK LLC TRE.</p>We anticipate data being available for request from early 2027 onwards.</aside>
 
 UK LLC has been approved by the **UK Statistics Authority** as an <strong><a href="https://uksa.statisticsauthority.gov.uk/digitaleconomyact-research-statistics/better-access-to-data-for-research-information-for-processors/list-of-digital-economy-act-accredited-processing-environments/" target="_blank" rel="noopener noreferrer">accredited processing environment</a></strong> under the **Digital Economy Act (DEA) 2017**. This permits UK LLC to oversee the linkage, matching, curation and de-identification of administrative data; and  the storage and provision of access to de-identified administrative data. **To date, no non-health administrative data have flowed into the UK LLC TRE.**
 
