@@ -1,5 +1,5 @@
 # FAQs about working in the TRE
->Last modified: 24 Jul 2026
+>Last modified: 27 Aug 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
@@ -26,8 +26,7 @@ You do not have to work at a university, but you cannot apply to access the TRE 
 <details>
 <summary>Can I apply as a Master's or PhD student?</summary>
 
-UK LLC welcomes applications from Master's and PhD students provided that their supervisor is the main applicant. The supervisor must also access the UK LLC TRE so that they can actively supervise the student.  
-*N.B. Master's students cannot currently apply to access linked NHS England data in the TRE.*   
+UK LLC welcomes applications from both Master's and PhD students provided that their supervisor is the main applicant. The supervisor must also access the UK LLC TRE so that they can actively supervise the student.     
 </details>
 
 <details>
