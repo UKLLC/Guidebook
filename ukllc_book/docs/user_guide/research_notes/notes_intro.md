@@ -7,7 +7,7 @@
 |---:|---|---|---|
 | 1 |17.02.2026| Rachel Calkin, Research Manager (Data), UK LLC | [**Harmonisation: UK LLC's approach**](01_calkin_feb26.md) |
 | 2 | 19.05.2026 | Rachel Latham, Research Fellow, King's College London | [**The research potential of the IAPT dataset**](02_latham_may26.md) |
-| 3 | 07.092026 | Joseph Lam, Research Fellow, UCL | [**Beyond the linkage rate: understanding linkage quality in UK LLC**](03_lam_sept26.md)
+| 3 | 07.09.2026 | Joseph Lam, Research Fellow, UCL | [**Beyond the linkage rate: understanding linkage quality in UK LLC**](03_lam_sept26.md)
 
 <br>
 
