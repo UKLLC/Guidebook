@@ -18,7 +18,7 @@ If you need additional time to complete your research, you can submit an amendme
 
 ## 2. Wrap up your project
 1. Submit final [**file outs**](../user_guide/moving_files.md) required for your **publications or presentations**. Please ensure you adhere to the rules detailed in the [**Publishing or presenting your research guide**](../user_guide/publishingyourresearch.md).
-2. Collate all of your **syntax, derived data** and accompanying **documentation** in your project-specific [**GitLab**](../user_guide/teamdatascience.md).
+2. Collate all of your **syntax** and accompanying **documentation** in your project-specific [**GitLab**](../user_guide/teamdatascience.md).
 3. Share your **syntax** with documentation for integration into the resource, by making a **file-out request** and ticking the box **‘GitHub/Gitlab sharing’**. Approved files will be pushed to the shared subgroup in GitLab called ‘ReadAll’ - see [**Moving files in and out guide**](../user_guide/moving_files.md). 
 4. Push the **approved syntax and documentation** files to your **project repository** on the external public **GitHub** - see [**Using Git guide**](../user_guide/teamdatascience.md). You must set your UK LLC repository's visibility to **'Public'**
 
