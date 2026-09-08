@@ -21,7 +21,6 @@ If you need additional time to complete your research, you can submit an amendme
 2. Collate all of your **syntax, derived data** and accompanying **documentation** in your project-specific [**GitLab**](../user_guide/teamdatascience.md).
 3. Share your **syntax** with documentation for integration into the resource, by making a **file-out request** and ticking the box **‘GitHub/Gitlab sharing’**. Approved files will be pushed to the shared subgroup in GitLab called ‘ReadAll’ - see [**Moving files in and out guide**](../user_guide/moving_files.md). 
 4. Push the **approved syntax and documentation** files to your **project repository** on the external public **GitHub** - see [**Using Git guide**](../user_guide/teamdatascience.md). You must set your UK LLC repository's visibility to **'Public'**
-5. Share your **derived data outputs** with documentation for integration into the resource by **emailing** the UK LLC Data Team at [**support@ukllc.ac.uk**](mailto:support@ukllc.ac.uk). Make sure you include the **TRE file path of your data file(s)** - see [**Using Git guide**](../user_guide/teamdatascience.md).
 
 
 
