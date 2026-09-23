@@ -1,6 +1,6 @@
 # Data Bulletins
 
->Last modified: 05 Jun 2026
+>Last modified: 23 Sep 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC's quarterly newsletter published by the Data Team.</strong></div>
 <br>
 
@@ -30,7 +30,11 @@ Each edition contains:
 </details>
 
 <details>
-<summary>No. 3 September 2026 (forthcoming)</summary>
+<summary>No. 3 <a href="https://campaign.emailblaster.cloud/MjAxNjU/243.html" target="_blank" rel="noopener noreferrer">September 2026</a></summary>
+
+* Spotlight on EXCEED (the Extended Cohort for E-health, Environment and DNA)  
+* Research focus on linkage quality
+
 
 </details>
 <br>
