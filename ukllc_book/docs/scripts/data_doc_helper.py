@@ -404,7 +404,6 @@ class LPSDataSet:
              "Owner",
              "Temporal Coverage",
              "Keywords",
-             "Participants Invited",
              "Participant Count",
              "Number of variables",
              "Number of observations",
@@ -424,8 +423,7 @@ class LPSDataSet:
              (self.df_ds.iloc[0]["collection_start"]
               + " - " + self.df_ds.iloc[0]["collection_end"]),  # Temp Coverage
              self.df_ds.iloc[0]["topic_tags"],  # Keywords
-             self.df_ds.iloc[0]["participants_invited"],  # part invited
-             self.df_ds.iloc[0]["participants_included"],  # part included
+             int(self.df_ds.iloc[0]["num_participants"]) if self.df_ds.iloc[0]["num_participants"] != "" else "",  # part count
              md.get_num_vars(
                  self.df_ds.iloc[0]["source"],
                  self.df_ds.iloc[0]["table"]
@@ -518,6 +516,10 @@ class LPSDataSet:
                             "id": "DOI",
                             "act": "Change Log"}
                             ).set_index("Version Number")
+
+        # Quick bugfix to filter out duplicate File2 dataset for GLAD
+        if self.source == "GLAD" and self.dataset == "FILE2":
+            dsvs2 = dsvs2[dsvs2["Version Date"] != "25 Feb 2025"].reset_index(drop=True)   
 
         dsvs2_T = dsvs2.T.reset_index().rename(columns={"index": "Version"})
 
@@ -733,13 +735,13 @@ class LPSSource:
         df = df[[
             "table",
             "table_name",
-            "participants_included",
+            "num_participants",
             "num_rows",
             "num_columns"
         ]].rename(columns={
             "table": "Dataset",
             "table_name": "Dataset Name",
-            "participants_included": "# Participants",
+            "num_participants": "# Participants",
             "num_rows": "# Observations",
             "num_columns": "# Variables"
             })
@@ -748,8 +750,10 @@ class LPSSource:
             lambda x: md.make_hlink_same_tab(
                 "{}.html".format(x.lower()), x))
         df["# Observations"] = df["# Observations"].apply(lambda x: '' if x == '' else int(x))
-        df["# Variables"] = df["# Variables"].apply(lambda x: int(x))
-        return DocHelper.style_table("_", df)
+        df["# Variables"] = df["# Variables"].apply(lambda x: '' if x == '' else int(x))
+        df["# Participants"] = df["# Participants"].apply(lambda x: '' if x == '' else int(x))
+
+        return DocHelper.style_table("_", df.sort_values(by="Dataset"))
 
     def linkages_plot(self):
         """Returns linkage plot for latest freeze as bar chart
@@ -2051,7 +2055,7 @@ class UKLLCDataSet:
              (self.df_ds.iloc[0]["collection_start"]
               + " - " + self.df_ds.iloc[0]["collection_end"]),  # Temp Coverage
              self.df_ds.iloc[0]["topic_tags"],  # Keywords
-             self.df_ds.iloc[0]["participants_included"],  # part included
+             int(self.df_ds.iloc[0]["num_participants"]) if self.df_ds.iloc[0]["num_participants"] != "" else "",  # part count
              md.get_num_vars(
                  self.df_ds.iloc[0]["source"],
                  self.df_ds.iloc[0]["table"]

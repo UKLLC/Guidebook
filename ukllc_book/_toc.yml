@@ -7,10 +7,12 @@ parts:
       file: docs/ukllc_key_facts/key_facts.md
       sections:
         - title: UK LLC profile
-          file: docs/ukllc_key_facts/profile/ukllc_profile.md
+          file: docs/ukllc_key_facts/profile/ukllc_profile.ipynb
         - title: UK LLC sample
           file: docs/ukllc_key_facts/sample/ukllc_sample.md
           sections:
+            - title: Freeze 17 | Aug 2026
+              file: docs/ukllc_key_facts/sample/freezes/freeze17.ipynb
             - title: Freeze 16 | May 2026
               file: docs/ukllc_key_facts/sample/freezes/freeze16.ipynb
             - title: Freeze 15 | Feb 2026
