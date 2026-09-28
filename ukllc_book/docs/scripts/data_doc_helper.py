@@ -732,6 +732,7 @@ class LPSSource:
 
         df = md.prep_dsvs_for_gb_pages()
         df = df[df["source"] == self.source]
+        df = df[df["num_participants"] != ""]
         df = df[[
             "table",
             "table_name",
