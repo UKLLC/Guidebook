@@ -1,11 +1,14 @@
 # Getting started
->Last modified: 23 Sep 2026
+>Last modified: 30 Sep 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The basics of working in the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
 
 [![Image alt text](https://img.youtube.com/vi/io6yO6I3utQ/0.jpg)](https://www.youtube.com/watch?v=io6yO6I3utQ)
+
+<aside class="admonition tip"><p class="admonition-title">This Guidebook is 'white-listed' so can be accessed from inside the TRE</p>Please note that external links embedded in Guidebook will not work in the TRE.</aside>
+</a>
 
 ## 1. Your project folders and project naming
 <aside class="admonition danger"><p class="admonition-title">ALWAYS SAVE YOUR WORK ON THE P:\ OR S:\ DRIVE</p>Once you log off, restart or shutdown the virtual machine that you are using, the machine is rebuilt and the majority of the C:\ drive wiped.</aside>  

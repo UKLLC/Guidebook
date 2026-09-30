@@ -1,5 +1,5 @@
 # FAQs about working in the TRE
->Last modified: 27 Aug 2026
+>Last modified: 30 Sep 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
@@ -240,6 +240,11 @@ The data owners' Ts&Cs for all projects are listed on <a href="https://apply.ukl
 
 Requests for new data should be submitted via an amendment to UK LLC. You may apply for additional data from already approved LPS, data from additional LPS, and/or additional linked data. N.B. each type of data [**amendment**](../user_guide/requestinganamendment.md)  requires a different level of review before being approved. 
 </details>  
+
+<details><summary>Can I bring LPS data into the TRE?</summary>
+
+Individual-level data cannot be brought into the TRE by researchers under any circumstances.
+</details>
 
 <details>
 <summary>If I know that new data will soon be available, can I request access to it before it is in the TRE?</summary>

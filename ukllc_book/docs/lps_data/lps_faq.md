@@ -1,5 +1,5 @@
 # FAQs about working with LPS data
->Last modified: 03 Aug 2026
+>Last modified: 30 Sep 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with Longitudinal Population Study (LPS) data.</strong></div style>  
 <br>
 
@@ -100,6 +100,11 @@ Some LPS datasets include variables giving either the full date, or the month an
 |TRACKC19|No|TRACKC19 has not calculated sampling weights.|
 |TWINSUK|No|Most of the data in the TRE is derived from the CoPE questionnaires. For more details on how to deal with missing data visit: [Wellcome Open Research Gateways.](https://wellcomeopenresearch.org/gateways/twinsuk)|
 |UKHLS|Yes|See UKHLS's guidance on [selecting the correct weight for your analysis](https://www.understandingsociety.ac.uk/documentation/mainstage/user-guides/main-survey-user-guide/selecting-the-correct-weight-for-your-analysis/0). Search for weighting variables (e.g. ‘xw’) using the Variables search in [Explore](https://ukllc-data-catalogue-96b71e84a70e.herokuapp.com/) and use the Advanced Options to filter on UKHLS.|
+</details>
+
+<details><summary>How can I find out which LPS participants consented to linkage?</summary>
+
+All projects are provisioned a table called 'study_permissions' which includes consent variables for all permissions for all linkages (NHSE, place-based, HMRC, etc.) This enables researchers to calculate linkage rates for each LPS.
 </details>
 <br>
 
