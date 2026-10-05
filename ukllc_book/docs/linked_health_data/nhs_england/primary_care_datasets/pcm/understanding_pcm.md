@@ -1,5 +1,5 @@
 # Understanding the Primary Care Medicines (PCM) Dataset
->Last modified: 27 Feb 2026
+>Last modified: 05 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>PCM is a record of prescriptions dispensed and fulfilled in community settings in England.</strong></div>  
 
@@ -48,10 +48,10 @@ The **dm+d** is a subset of **SNOMED** codes, and is currently limited to medici
 The **BNF** is used by healthcare professionals as a reference when prescribing medications. BNF codes are hierarchical and alphanumeric, reflecting the BNF chapter and section structure.
 
 ## 8. Evolution of the dataset
-The PCM data has been collected consistently since 2015. It is a very stable dataset, having comprised the same 57 variables since its inception. 
+The PCM data has been collected since 2015, with monthly patient-level data collection fully established in 2020. It is a very stable dataset, having comprised the same 57 variables since its inception. 
 
 ## 9. Availability in the UK LLC TRE
-The UK LLC TRE holds an extract of the PCM, going back to 2015. The PCM records of participants in UK LLC's partner LPS, where individual or LPS permissions allow linkage to NHS data, are included in the TRE. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHSE data not be shared via UK LLC.
+The UK LLC TRE holds an extract of the PCM, going back to 2018. The PCM records of participants in UK LLC's partner LPS, where individual or LPS permissions allow linkage to NHS data, are included in the TRE. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHSE data not be shared via UK LLC.
 
 More detailed information about the UK LLC's PCM extract is [here](../pcm/pcm.ipynb).
 
