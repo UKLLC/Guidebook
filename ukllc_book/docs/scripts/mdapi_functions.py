@@ -281,17 +281,17 @@ def prep_dsvs_for_gb_pages() -> pd.DataFrame:
         rename(columns={"table_x": "table", "source_name_x": "source_name"})
 
     # manual change of version for GLAD_FILE2 from 1 to 2
-    dsvs_t2.loc[
-        (dsvs_t2["source_table"] == "GLAD_FILE2") &
-        (dsvs_t2["version_date"] == 20231107.0), "version_num"] = 2
+    # dsvs_t2.loc[
+    #     (dsvs_t2["source_table"] == "GLAD_FILE2") &
+    #     (dsvs_t2["version_date"] == 20231107.0), "version_num"] = 2
 
-    dsvs_t2.loc[
-            (dsvs_t2["source_table"] == "GENSCOT_SMOKING") &
-            (dsvs_t2["version_date"] == 20220302.0), "version_num"] = 2
+    # dsvs_t2.loc[
+    #         (dsvs_t2["source_table"] == "GENSCOT_SMOKING") &
+    #         (dsvs_t2["version_date"] == 20220302.0), "version_num"] = 2
 
-    dsvs_t2.loc[
-            (dsvs_t2["source_table"] == "GENSCOT_SPQ") &
-            (dsvs_t2["version_date"] == 20220302.0), "version_num"] = 2
+    # dsvs_t2.loc[
+    #         (dsvs_t2["source_table"] == "GENSCOT_SPQ") &
+    #         (dsvs_t2["version_date"] == 20220302.0), "version_num"] = 2
 
     dsvs_t3 = dsvs_t2.sort_values('version_num').drop_duplicates(subset=['source','table'],
                                                                  keep='last')

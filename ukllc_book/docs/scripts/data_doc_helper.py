@@ -464,17 +464,17 @@ class LPSDataSet:
         dsvs["num_rows"] = dsvs["num_rows"].fillna(0.0)
 
         # manual editing v nums to avoid duplicates
-        dsvs.loc[
-            (dsvs["source_table"] == "GLAD_FILE2") &
-            (dsvs["version_date"] == 20231107.0), "version_num"] = 2
+        # dsvs.loc[
+        #     (dsvs["source_table"] == "GLAD_FILE2") &
+        #     (dsvs["version_date"] == 20231107.0), "version_num"] = 2
 
-        dsvs.loc[
-            (dsvs["source_table"] == "GENSCOT_SMOKING") &
-            (dsvs["version_date"] == 20220302.0), "version_num"] = 2
+        # dsvs.loc[
+        #     (dsvs["source_table"] == "GENSCOT_SMOKING") &
+        #     (dsvs["version_date"] == 20220302.0), "version_num"] = 2
 
-        dsvs.loc[
-            (dsvs["source_table"] == "GENSCOT_SPQ") &
-            (dsvs["version_date"] == 20220302.0), "version_num"] = 2
+        # dsvs.loc[
+        #     (dsvs["source_table"] == "GENSCOT_SPQ") &
+        #     (dsvs["version_date"] == 20220302.0), "version_num"] = 2
 
         ds_dois = dcf.get_doi_datasets()
         ds_dois = ds_dois[ds_dois["state"] == "findable"]
@@ -516,10 +516,6 @@ class LPSDataSet:
                             "id": "DOI",
                             "act": "Change Log"}
                             ).set_index("Version Number")
-
-        # Quick bugfix to filter out duplicate File2 dataset for GLAD
-        if self.source == "GLAD" and self.dataset == "FILE2":
-            dsvs2 = dsvs2[dsvs2["Version Date"] != "25 Feb 2025"].reset_index(drop=True)   
 
         dsvs2_T = dsvs2.T.reset_index().rename(columns={"index": "Version"})
 
