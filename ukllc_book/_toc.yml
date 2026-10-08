@@ -333,6 +333,8 @@ parts:
                   file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/ahah/ahah.ipynb
                 - title: Greenspace
                   file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb
+                - title: Met Office climate observations
+                  file: docs/linked_geo_data/environmental_datasets/neighbourhood_datasets/met_office/met_office.ipynb
             - title: Property datasets
               file: docs/linked_geo_data/environmental_datasets/property_datasets/property.md
               sections:
@@ -349,6 +351,9 @@ parts:
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb
         - title: Mobility datasets
           file: docs/linked_geo_data/mobility_datasets/mobility.md
+          sections:
+            - title: Public Transport Accessibility Indicators
+              file: docs/linked_geo_data/mobility_datasets/public_transport/public_transport.ipynb
         - title: Health datasets
           file: docs/linked_geo_data/health_datasets/health.md
     - title: Administrative data
