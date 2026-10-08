@@ -1,6 +1,6 @@
 # FAQs about working with place-based data 
 
-> Last modified: 21 Aug 2026
+> Last modified: 08 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -104,5 +104,39 @@ The linkages permitted by each LPS are summarised Guidebook's '[permitted linkag
 <summary>Is ethnicity data available at LSOA level?</summary>
 
 No, UK LLC does not hold any ethnicity at LSOA level. However, if you are able to prepare the data using the 2011 census boundaries, UK LLC can provide a quote for ingesting this dataset into the TRE and linking it to LPS data. Any datasets uploaded to the TRE in this way will be added to the resource and made available for all researchers to request.
+
+</details>
+
+<details>
+<summary>How can I incorporate the Index of Multiple Deprivation (IMD) into my project?</summary>
+
+If you have selected LPS that have the permissions in place to link to place-based datasets at neighbourhood level then you can use the Lower Super Output Area (or equivalent) to link to the [2011 UK harmonised Index of Multiple Deprivation Dataset](../linked_geo_data/population_datasets/imd/imd.ipynb) which provides IMD as quintiles. You will need to request this dataset to be provisioned to your project. The linkages permitted by each LPS are summarised on Guidebook's '[permitted linkages](../lps_partner/linkages/lps_linkages.md)' page.
+
+If your project uses LPS that do not have permission for place-based linkages, but you are using linked NHS England datasets then you could use the IMD variable in the linked health data. The NHS England datasets [HESAPC](../linked_health_data/nhs_england/hes_datasets/apc/hesapc.ipynb), [HESAE](../linked_health_data/nhs_england/hes_datasets/ae/hesae.ipynb) and [HESOP](../linked_health_data/nhs_england/hes_datasets/op/hesop.ipynb) contain the IMD 2004 variable as deciles.
+
+
+</details>
+
+
+<details>
+<summary>How do I request linkages to place-based datasets that are not already in the UK LLC resource?</summary>
+
+If there are additional place-based datasets that you require for your project, we are able to link to LSOA 2011 level datasets.
+UK LLC has a cost-recovery model to ingest place-based data into the UK LLC Trusted Research Environment (TRE). This includes time to assess disclosure risk, processing and uploading the data, time for metadata ingest, time to add relevant information to UK LLC Guidebook and time for administrative support around data ingest, including issuing any necessary contracts.
+
+**Please contact access@ukllc.ac.uk for a quote**
+
+**Data ingest is subject to a number of conditions that we would need to ensure are fulfilled:**
+- Ensure that there are permissions in place for onward sharing from the data owner and address any issues with T&Cs and contracts. This should include making the dataset available in the UK LLC TRE for future requests and inclusion of metadata in UK LLC public facing metadata systems e.g. https://explore.ukllc.ac.uk/.
+
+- Data would need to be provided with descriptive metadata, labelling, and documentation so we can integrate into our resource and systems. UK LLC will provide a format and template for these.
+
+- The data must also be disclosure risk assessed by UK LLC prior to being added to the TRE, we have a standard process around place-based data for this. As part of this the data may be processed to a less granular level e.g. rounding, suppression.
+
+- Once the dataset is linked and made available to your project, a condition is that it is added to the overall resource, so will be available to request by other researchers for their projects.
+
+ **Please note, all geographical identifiers smaller than UK region e.g. LSOA are encrypted in the UK LLC TRE. Encryption of geographical units/identifiers is consistent between place-based datasets and linked sources enabling linkage.** 
+ 
+ **UK LLC are only currently able to ingest encrypted Lower Super Output Area codes from using the 2011 census boundaries into the Trusted Research Environment.**
 
 </details>
