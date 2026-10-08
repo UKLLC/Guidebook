@@ -1,6 +1,6 @@
 # Place-based data
 
-> Last modified: 14 Aug 2026
+> Last modified: 08 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC brings together place-based datasets from a range of open and partner sources and makes them available for research in the Trusted Research Environment (TRE).</strong></div>  
 <br>
@@ -47,14 +47,16 @@ Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopen
 | Dataset name | Primary domain | Secondary domain | Summary | Coverage | Smallest data resolution | Data available in TRE | Owner |
 |--------------|----------------|------------------|---------|----------|---------------------------|------------------------|--------|
 | [Access to Healthy Assets and Hazards (AHAH)](../linked_geo_data/environmental_datasets/neighbourhood_datasets/ahah/ahah.ipynb) | Environmental | Neighbourhood | A multi-dimensional index measuring how ‘healthy’ neighbourhoods are. | England, Scotland, Wales | Lower Super Output Area/Data Zone | 2022 | [Geographic Data Service](https://data.geods.ac.uk/) |
+| [Met Office climate observation data](../linked_geo_data/environmental_datasets/neighbourhood_datasets/met_office/met_office.ipynb) |
+Environmental | Neighbourhood | CLimate variables derived from the network of UK land surface observations | England, Scotland, Wales, Northern Ireland | Lower Super Output Area/Data Zone/Super Output Area | 2010-2024 | [Met Office](https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid/haduk-grid) |
 | [Greenspace](../linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb) | Environmental | Neighbourhood | Greenspace metrics on greenspace coverage, access and walkability. | England, Scotland, Wales, Northern Ireland (selected variables) | Address | 2018 | University of Leicester |
 | [Energy Performance Certificates (EPC)](../linked_geo_data/environmental_datasets/property_datasets/epc/understanding_epc.md) <br>*Coming in 2027* | Environmental | Property | Energy efficiency and property qualities. | England, Wales | Address | 2008–2024 | Department for Levelling Up, Housing & Communities |
 | [Air pollution NO2 & PM](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb) | Environmental | Pollution | Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposure data. | England, Scotland, Wales | Address | 2010–2019 | University of Leicester and St George's, University of London |
 | [Air pollution NOx, NO2 and O3](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.ipynb) | Environmental | Pollution | Annual average assessments (hourly and 24-hour) for NOx, NO2 and O3. | England, Wales | Address | 2018–2020 | University of Leicester and St George's, University of London |
 | [Noise pollution](../linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb) | Environmental | Pollution | Modelled road-transport noise estimates. | England, Wales | Address | 2013 | University of Leicester and St George's, University of London |
 | [Index of Multiple Deprivation](../linked_geo_data/population_datasets/imd/imd.ipynb)| Population | Deprivation | A relative indicator of deprivation, urban/rural classification and population density |England, Scotland, Wales, Northern Ireland | Lower Super Output Area/Data Zone/Super Output Area | 2011-2020 | UK LLC |
-| [Townsend Index](../linked_geo_data/population_datasets/townsend/townsend_2011.ipynb) | Population | Material deprivation | A relative indicator of material deprivation | England, Wales, Scotland and Northern Ireland | Lower Super Output Area | 2011 | UK Data Service |
-
+| [Townsend Index](../linked_geo_data/population_datasets/townsend/townsend_2011.ipynb) | Population | Material deprivation | A relative indicator of material deprivation | England, Scotland, Wales and Northern Ireland | Lower Super Output Area | 2011 | [UK Data Service](https://ukdataservice.ac.uk/) |
+| [Public Transport Accessibility Indicators](../linked_geo_data/mobility_datasets/public_transport/public_transport.ipynb) | Mobility | Transport | Accessibility indicators to a key range of services | England, Scotland and Wales | Lower Super Output Area/Data Zone | 2021 | [Urban Big Data Centre](https://www.ubdc.ac.uk/) | 
 
 <br>
 
