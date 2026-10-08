@@ -63,8 +63,8 @@ The original Met Office HadUK-Grid Gridded Climate Observations dataset was deve
 
 ## Met Office HadUK-Grid Gridded Climate Observations dataset visualisation
 
-**Figure 1** UK gridded climate observations (HadUK‑Grid) at 1 km resolution, 1981-2010 derived from Met Office station data and interpolated across the UK. **Source:** https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid/overview
-
+**Figure 1** UK gridded climate observations (HadUK‑Grid) at 1 km resolution for temperature and rainfall, 1981-2010 derived from Met Office station data and interpolated across the UK. **Source:** https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid/overview
+<img src= "../met_office/metoffice_resolutions_temp.png" width="900">
 <img src= "../met_office/metoffice_resolution_rain.png" width="900">
 
 
