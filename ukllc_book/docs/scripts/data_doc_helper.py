@@ -1110,12 +1110,23 @@ class NHSEDataSet:
                 apply(lambda x: int(x.replace("v", "")))
             def rename_reg_dss(table, vdate):
                 return table + "_" + str(int(vdate))
-            dsvs1["table"] = dsvs1.apply(lambda row: rename_reg_dss(row["table"], row["version_date"]) if row["table"] in ["CANCER", "DEMOGRAPHICS", "MORTALITY"] else row["table"], axis=1)
+            dsvs1["table"] = dsvs1.apply(
+                lambda row: rename_reg_dss(
+                    row["table"], 
+                    row["version_date"]) if row["table"] in [
+                        "CANCER", 
+                        "DEMOGRAPHICS", 
+                        "MORTALITY"] and not np.isnan(row["version_date"])
+                    else row["table"], axis=1)
+            
             def rename_reg_src_tbl(src, tbl):
                 return src + "_" + tbl
             dsvs1["source_table"] = dsvs1.apply(lambda row: rename_reg_src_tbl(row["source"], row["table"]) if row["source_table"] in ["NHSE_CANCER", "NHSE_DEMOGRAPHICS", "NHSE_MORTALITY"] else row["source_table"], axis=1)
             def infill_vdates(vdate, vnum):
-                    vdict = {1: 20221221.0, 2: 20230413.0, 3: 20240426.0}
+                    vdict = {1: 20221221.0, 
+                             2: 20230413.0, 
+                             3: 20240426.0,
+                             4: 20250909.0}
                     if np.isnan(vdate):
                         return vdict[vnum]
                     else:
@@ -1337,14 +1348,24 @@ class NHSEDataSet:
 
         def rename_reg_dss(table, vdate):
             return table + "_" + str(int(vdate))
-        dsvs1["table"] = dsvs1.apply(lambda row: rename_reg_dss(row["table"], row["version_date"]) if row["table"] in ["CANCER", "DEMOGRAPHICS", "MORTALITY"] else row["table"], axis=1)
+        dsvs1["table"] = dsvs1.apply(lambda row: rename_reg_dss(
+            row["table"], 
+            row["version_date"]
+            ) if row["table"] in [
+                "CANCER", 
+                "DEMOGRAPHICS", 
+                "MORTALITY"] and not np.isnan(row["version_date"]) 
+            else row["table"], axis=1)
 
         def rename_reg_src_tbl(src, tbl):
             return src + "_" + tbl
         dsvs1["source_table"] = dsvs1.apply(lambda row: rename_reg_src_tbl(row["source"], row["table"]) if row["source_table"] in ["NHSE_CANCER", "NHSE_DEMOGRAPHICS", "NHSE_MORTALITY"] else row["source_table"], axis=1)
 
         def infill_vdates(vdate, vnum):
-                vdict = {1: 20221221.0, 2: 20230413.0, 3: 20240426.0}
+                vdict = {1: 20221221.0, 
+                         2: 20230413.0, 
+                         3: 20240426.0,
+                         4: 20250909.0}
                 if np.isnan(vdate):
                     return vdict[vnum]
                 else:
