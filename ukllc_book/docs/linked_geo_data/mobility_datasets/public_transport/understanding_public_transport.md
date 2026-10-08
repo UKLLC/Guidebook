@@ -39,11 +39,11 @@ Detailed information on how the original Public Transport Accessibility Indicato
 
 - Cumulative accessibility (used if a service can be easily replaced or they compete with each other (e.g., employment, groceries)): 
 
-***The total number of services or opportunities that can be reached within a given travel time.***  
+    ***The total number of services or opportunities that can be reached within a given travel time.***  
 
 - Dual or travel time to the nearest facility (used if a service cannot be easily interchanged or is scarce): 
 
-***The travel time to the closest service, e.g. to the main urban centre or hospital.***
+    ***The travel time to the closest service, e.g. to the main urban centre or hospital.***
 
 **Public transport travel times:**
 
@@ -81,5 +81,5 @@ Verduzsco Torres and McArthur [(2024)](https://www.nature.com/articles/s41597-02
 
 ## Accessibility to employment by public transport in Great Britain
 
-**Figure 1** Visualisation of public transport accessibility indicator to employment as percent of the total for 90 minutes and 120 minutes. **Source:** Public transport accessibility indicators to urban and regional services in Great Britain by J. Rafael Verduzco Torres and David P. McArthur, published in Scientific Data (2024). Data source: Urban Big Data Centre. Licensed under CC BY 4.0. Available at https://www.nature.com/articles/s41597-023-02890-w.
-<img src= "../public_transport\public_transport_2024.png" width="900">
+**Figure 1** Visualisation of public transport accessibility indicator to employment as percent of the total for 90 minutes and 120 minutes. **Source:** Public transport accessibility indicators to urban and regional services in Great Britain by J. Rafael Verduzco Torres and David P. McArthur, published in Scientific Data (2024). Data source: Urban Big Data Centre. Licensed under CC BY 4.0. Available at: https://www.nature.com/articles/s41597-023-02890-w.
+<img src= "../public_transport/public_transport_2024.png" width="900">
