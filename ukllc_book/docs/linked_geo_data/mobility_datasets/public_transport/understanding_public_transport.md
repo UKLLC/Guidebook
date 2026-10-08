@@ -9,13 +9,13 @@ The dataset offers [Public Transport Accessibility Indicators for Great Britain]
 
 ### Methodology
 
-Detailed information on how the original Public Transport Accessibility Indicators dataset was created by Verduzsco Torres and McArthur (2024) can be found in the following publication: https://www.nature.com/articles/s41597-023-02890-w
+Detailed information on how the original Public Transport Accessibility Indicators dataset was created by Verduzsco Torres and McArthur (2024) can be found in the [following publication](https://www.nature.com/articles/s41597-023-02890-w)
 
 * Verduzsco Torres and McArthur [(2022)](https://zenodo.org/records/8037156) represented the transportation origins as LSOA/DZ population-weighted centroids based on the boundaries defined for the 2011 Census. 
 
-* The LSOA centroids for England and Wales were sourced from the Office for National Statistics (ONS) via the UK Government open data portal (https://data.gov.uk/) on 2021-12-12 (version last updated on 2019-12-21).  
+* The LSOA centroids for England and Wales were sourced from the Office for National Statistics (ONS) via the [UK Government open data portal](https://data.gov.uk/) on 2021-12-12 (version last updated on 2019-12-21).  
 
-* The DZ centroids for Scotland were sourced from the Scottish Government via the UK Government’s [open data portal](https://data.gov.uk/) (version last updated on 2021-03-26). 
+* The DZ centroids for Scotland were sourced from the Scottish Government via the [UK Government’s open data portal](https://data.gov.uk/) (version last updated on 2021-03-26). 
 
 **Table 1** Summary of groups of variables available in the Public Transport Accessibility Indicators dataset available within the UK LLC Trusted Research Environment and their definition
 
@@ -38,14 +38,16 @@ Detailed information on how the original Public Transport Accessibility Indicato
 **Public transport accessibility indicators were calculated using location-based measures:** 
 
 - Cumulative accessibility (used if a service can be easily replaced or they compete with each other (e.g., employment, groceries)): 
+
 ***The total number of services or opportunities that can be reached within a given travel time.***  
 
 - Dual or travel time to the nearest facility (used if a service cannot be easily interchanged or is scarce): 
+
 ***The travel time to the closest service, e.g. to the main urban centre or hospital.***
 
-**Public transport travel times**
+**Public transport travel times:**
 
-Verduzsco Torres and McArthur (2024)[https://www.nature.com/articles/s41597-023-02890-w] estimated public transport travel times between each origin and all potential destinations, represented by population-weighted Lower Super Output Areas/ Data Zone centroids, to form a complete origin and destination travel time matrix.
+Verduzsco Torres and McArthur [(2024)](https://www.nature.com/articles/s41597-023-02890-w) estimated public transport travel times between each origin and all potential destinations, represented by population-weighted Lower Super Output Areas/ Data Zone centroids, to form a complete origin and destination travel time matrix.
 
 - Journeys were simulated for a typical weekday during the morning peak (Tuesday 22 November 2021), with departure times spanning a three‑hour window from 07:00 to 10:00. 
 
@@ -61,23 +63,23 @@ Verduzsco Torres and McArthur (2024)[https://www.nature.com/articles/s41597-023-
 
 ## Caveats:
 
-* Within the modelling framework Verduzsco Torres and McArthur (2024)[https://www.nature.com/articles/s41597-023-02890-w] have included walking-only journeys, as walking access and egress distances are unconstrained, provided the maximum travel time of 120 minutes is not exceeded. A small proportion of the routes (approximately 0.3%) are completed entirely on foot, which might marginally overstate public transport accessibility in areas with limited services. The walking speed has been set at 4.8 km/h and results are therefore sensitive to assumptions about pedestrian mobility. 
+* Within the modelling framework Verduzsco Torres and McArthur [(2024)](https://www.nature.com/articles/s41597-023-02890-w) have included walking-only journeys, as walking access and egress distances are unconstrained, provided the maximum travel time of 120 minutes is not exceeded. A small proportion of the routes (approximately 0.3%) are completed entirely on foot, which might marginally overstate public transport accessibility in areas with limited services. The walking speed has been set at 4.8 km/h and results are therefore sensitive to assumptions about pedestrian mobility. 
 
 * While accessibility measures are often used as equity indicators, they capture potential access at the area level but do not account for individual constraints such as income, disability or caring responsibilities. 
 
 ## Limitations:
 
-* The location-based accessibility measures have been calculated at LSOA and Data Zone level and therefore, like any spatially aggregated measure, are susceptible to the Modifiable Areal Unit Problem (MAUP). Consequently, larger zones, especially in rural areas are likely to introduce additional measurement error and further internal heterogeneity of the population and the features represented by each unit. Results should therefore be interpreted cautiously, especially when drawing comparisons between urban and rural areas (Verduzsco Torres and McArthur, 2024)[https://www.nature.com/articles/s41597-023-02890-w]. 
+* The location-based accessibility measures have been calculated at LSOA and Data Zone level and therefore, like any spatially aggregated measure, are susceptible to the Modifiable Areal Unit Problem (MAUP). Consequently, larger zones, especially in rural areas are likely to introduce additional measurement error and further internal heterogeneity of the population and the features represented by each unit. Results should therefore be interpreted cautiously, especially when drawing comparisons between urban and rural areas [(Verduzsco Torres and McArthur, 2024)](https://www.nature.com/articles/s41597-023-02890-w). 
 
-* The maximum travel time allowed is limited to 120 minutes, regardless of the distance travelled and the maximum number of in-vehicle rides is set to three (Verduzsco Torres and McArthur, 2024)[https://www.nature.com/articles/s41597-023-02890-w]. Therefore, longer or more complex journeys are excluded which could potentially underestimate accessibility in poorly connected areas. 
+* The maximum travel time allowed is limited to 120 minutes, regardless of the distance travelled and the maximum number of in-vehicle rides is set to three [(Verduzsco Torres and McArthur, 2024)](https://www.nature.com/articles/s41597-023-02890-w). Therefore, longer or more complex journeys are excluded which could potentially underestimate accessibility in poorly connected areas. 
 
 * The indicators measure potential access to services, but do not include measures of service quality, opening hours, capacity or affordability. 
 
-* The employment data exclude some worker categories such as voluntary workers, self-employed, and those who do not pay their taxes on pay as you earn (PAYE) basis (Verduzsco Torres and McArthur, 2024)[https://www.nature.com/articles/s41597-023-02890-w]. This may bias accessibility to jobs in areas with higher informal or self-employed work. 
+* The employment data exclude some worker categories such as voluntary workers, self-employed, and those who do not pay their taxes on pay as you earn (PAYE) basis [(Verduzsco Torres and McArthur, 2024)](https://www.nature.com/articles/s41597-023-02890-w). This may bias accessibility to jobs in areas with higher informal or self-employed work. 
 
-* The supermarket locations have been derived from an OpenStreetMap open-source dataset, which Verduzsco Torres and McArthur (2024)[https://www.nature.com/articles/s41597-023-02890-w] estimate to capture 80% of locations compared to commercially obtained Ordnance Survey data. 
+* The supermarket locations have been derived from an OpenStreetMap open-source dataset, which Verduzsco Torres and McArthur [(2024)](https://www.nature.com/articles/s41597-023-02890-w) estimate to capture 80% of locations compared to commercially obtained Ordnance Survey data. 
 
 ## Accessibility to employment by public transport in Great Britain
 
 **Figure 1** Visualisation of public transport accessibility indicator to employment as percent of the total for 90 minutes and 120 minutes. **Source:** Public transport accessibility indicators to urban and regional services in Great Britain by J. Rafael Verduzco Torres and David P. McArthur, published in Scientific Data (2024). Data source: Urban Big Data Centre. Licensed under CC BY 4.0. Available at https://www.nature.com/articles/s41597-023-02890-w.
-<img src= "../mobility_datasets/public_transport/public_transport_2024.png" width="900">
+<img src= "../public_transport\public_transport_2024.png" width="900">
