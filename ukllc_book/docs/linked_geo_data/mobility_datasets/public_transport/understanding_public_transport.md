@@ -2,7 +2,7 @@
 
 >Last modified: 08 Oct 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>TThe Public Transport Accessibility Indicators dataset offers indicators to a key range of services, namely: employment, general practices (GP), hospitals, supermarkets, primary schools, secondary schools, and urban centres.</strong></div>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The Public Transport Accessibility Indicators dataset offers indicators to a key range of services, namely: employment, general practices (GP), hospitals, supermarkets, primary schools, secondary schools, and urban centres.</strong></div>
 <br>
 
 The dataset offers [Public Transport Accessibility Indicators for Great Britain](https://zenodo.org/records/8037156) aggregated by 2011 statistical geographies to a range of key services including: employment, general practices (GP), hospitals, supermarkets, primary schools, secondary schools, and urban centres. The original accessibility indicators were estimated for all 41,729 Lower Super Output Areas (LSOA) in England and Wales and Data Zones (DZ) in Scotland. This dataset contains the Public Transport Accessibility Indicators as quintiles.
