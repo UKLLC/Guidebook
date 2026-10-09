@@ -3,7 +3,7 @@
 
 title: UK LLC Dataset Documentation
 author: UK LLC Data Team
-logo: docs/images/GB_full_REG_cropped.png
+logo: docs/images/UKLLC_Lockup_Logo_Guidebook_Black+Coral_RGB.png
 email: support@ukllc.ac.uk
 
 # Force re-execution of notebooks on each build.
@@ -80,6 +80,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  css_files:
+    - custom.css
   extra_navbar: Visit our <a href="https://github.com/UKLLC/jupyter-book">GitHub Repository</a>
     <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>
   extra_footer: |
