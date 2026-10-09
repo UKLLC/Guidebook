@@ -1645,7 +1645,7 @@ class NHSESource:
             "IAPT_v1_5": "../nhs_england/mental_health_datasets/iapt/iapt.html",
             "MSDS_v1_5": "../nhs_england/hes_datasets/msds_v1_5/msds_v1_5.html",
             "MHLDDS": "../nhs_england/mental_health_datasets/mhldds/mhldds.html",
-            "MHMDS": "../nhs_england/mental_health_datasets/mhmmds/mhmmds.html"
+            "MHMDS": "../nhs_england/mental_health_datasets/mhmds/mhmds.html"
         }
 
         df = df.set_index("table", drop=False).reindex([
