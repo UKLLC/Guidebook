@@ -102,6 +102,7 @@ def get_nhs_gb_info(ds: str) -> pd.DataFrame:
         headers={'access-token': API_KEY})
     
     df = pd.json_normalize(json.loads(req.text))
+
     return df[
         ["Name_of_dataset_in_TRE",
          "Keywords",

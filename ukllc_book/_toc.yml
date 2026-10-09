@@ -251,6 +251,10 @@ parts:
                 file: docs/linked_health_data/nhs_england/hes_datasets/ecds/ecds.ipynb
               - title: HESAE (emergency)
                 file: docs/linked_health_data/nhs_england/hes_datasets/ae/hesae.ipynb
+              - title: MSDS (maternity)
+                file: docs/linked_health_data/nhs_england/hes_datasets/msds/msds.ipynb
+              - title: MSDS (maternity) - V1.5
+                file: docs/linked_health_data/nhs_england/hes_datasets/msds/msds_v1_5.ipynb
           - title: COVID-19 datasets
             file: docs/linked_health_data/nhs_england/covid_datasets/covid_datasets.md
             sections:
@@ -284,8 +288,14 @@ parts:
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/mh_faq.md
               - title: MHSDS (general)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/mhsds/mhsds.ipynb
+              - title: MHMDS
+                file: docs/linked_health_data/nhs_england/mental_health_datasets/mhmds/mhmds.ipynb
+              - title: MHLDDS
+                file: docs/linked_health_data/nhs_england/mental_health_datasets/mhldds/mhldds.ipynb
               - title: IAPT (talking therapies)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/iapt/iapt.ipynb
+              - title: IAPT (talking therapies) - V1.5
+                file: docs/linked_health_data/nhs_england/mental_health_datasets/iapt/iapt_v1_5.ipynb
           - title: Derived datasets
             file: docs/linked_health_data/nhs_england/derived_datasets/derived_datasets.md
         - title: NHS Wales

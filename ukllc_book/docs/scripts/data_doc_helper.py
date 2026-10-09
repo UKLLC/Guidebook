@@ -1089,7 +1089,7 @@ class NHSEDataSet:
             dsvs1["source"] = "NHSE"
             dsvs1["version_num"] = dsvs1["version_num"].fillna("v0001")
             def rm_aux_dss(x):
-                if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+                if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE", "MSDS", "MHMDS", "MHLDDS"] and x != "IAPT_v1_5" and x != "MSDS_v1_5":
                     return x.split("_")[0].upper()
                 else:
                     return x.upper()
@@ -1097,7 +1097,7 @@ class NHSEDataSet:
             dsvs1["table"] = dsvs1["table"].apply(lambda x: rm_aux_dss(x))
 
             def rm_aux_dss_full(x):
-                if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+                if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE", "MSDS", "MHMDS", "MHLDDS"] and "IAPT_v1_5" not in x and "MSDS_v1_5" not in x:
                     return x.split("_")[0] + "_" + x.split("_")[-1]
                 else:
                     return x
@@ -1118,33 +1118,34 @@ class NHSEDataSet:
                         "DEMOGRAPHICS", 
                         "MORTALITY"] and not np.isnan(row["version_date"])
                     else row["table"], axis=1)
-            
+
             def rename_reg_src_tbl(src, tbl):
                 return src + "_" + tbl
             dsvs1["source_table"] = dsvs1.apply(lambda row: rename_reg_src_tbl(row["source"], row["table"]) if row["source_table"] in ["NHSE_CANCER", "NHSE_DEMOGRAPHICS", "NHSE_MORTALITY"] else row["source_table"], axis=1)
             def infill_vdates(vdate, vnum):
                     vdict = {1: 20221221.0, 
-                             2: 20230413.0, 
-                             3: 20240426.0,
-                             4: 20250909.0}
+                                2: 20230413.0, 
+                                3: 20240426.0,
+                                4: 20250909.0}
                     if np.isnan(vdate):
                         return vdict[vnum]
                     else:
                         return vdate
 
             dsvs1["version_date"] = dsvs1.apply(lambda row: infill_vdates(row["version_date"], row["version_num"]), axis=1)
-            if x == "HESAPC":
-                dsvs_i = dsvs1[dsvs1["source_table"] == "NHSE_" + x]
+            if x in ["HESAPC", "MSDS", "IAPT" ]:
+                dsvs_i = dsvs1[dsvs1["source_table"] == "NHSE_" + x.upper()]
             else:
-                dsvs_i = dsvs1[dsvs1["source_table"].str.startswith("NHSE_" + x)]
+                dsvs_i = dsvs1[dsvs1["source_table"].str.startswith("NHSE_" + x.upper())]
 
             dsvs_i = dsvs_i.sort_values("version_date", ascending=False).head(1)
-            dsvs_i["num_columns"] = dsvs_i["num_columns"].apply(lambda x: int(x))
-            dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x))
+            dsvs_i["num_columns"] = dsvs_i["num_columns"].apply(lambda x: int(x) if not np.isnan(x) else "N/A")
+            dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x) if not np.isnan(x) else "N/A")
+
             return dsvs_i
 
         def cohort_total(ds):
-            if ds in ["MHSDS", "IAPT", "CSDS"]:
+            if ds in ["MHSDS", "IAPT", "CSDS", "MSDS", "MHMDS", "MHLDDS"]:
                 return "N/A - Dataset comprises of multiple auxiliary tables"
             else:
                 df = md.get_nhse_cohort_counts(ds)
@@ -1234,8 +1235,8 @@ class NHSEDataSet:
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
             self.participants, # Participant Count
-            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
-            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
+            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
+            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
             md.make_hlink(self.df_ds.iloc[0]["Key_link"], self.df_ds.iloc[0]["Key_link"]),
             self.df_ds.iloc[0]["Keywords"], # Keywords
             self.ed,
@@ -1326,7 +1327,7 @@ class NHSEDataSet:
         dsvs1["source"] = "NHSE"
         dsvs1["version_num"] = dsvs1["version_num"].fillna("v0001")
         def rm_aux_dss(x):
-            if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+            if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE", "MSDS", "MHLDDS", "MHMDS"] and x != "IAPT_v1_5" and x != "MSDS_v1_5":
                 return x.split("_")[0].upper()
             else:
                 return x.upper()
@@ -1334,7 +1335,7 @@ class NHSEDataSet:
         dsvs1["table"] = dsvs1["table"].apply(lambda x: rm_aux_dss(x))
 
         def rm_aux_dss_full(x):
-            if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE"]:
+            if x.split("_")[0] in ["CSDS", "IAPT", "MHSDS", "HESOP", "HESAE", "MSDS", "MHLDDS", "MHMDS"] and x != "IAPT_v1_5" and x != "MSDS_v1_5":
                 return x.split("_")[0] + "_" + x.split("_")[-1]
             else:
                 return x
@@ -1395,14 +1396,13 @@ class NHSEDataSet:
 
         dsvs_i["version_date"] = dsvs_i["version_date"].apply(lambda x: datetime.strftime(datetime.strptime(str(int(x)), "%Y%m%d"), "%d %b %Y"))
         dsvs_i["num_participants"] = dsvs_i["num_participants"].apply(lambda x: "N/A" if np.isnan(x) else int(x))
-        dsvs_i["num_columns"] = dsvs_i["num_columns"].apply(lambda x: int(x))
-        dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x))
+        dsvs_i["num_columns"] = dsvs_i["num_columns"].apply(lambda x: int(x) if not np.isnan(x) else "N/A")
+        dsvs_i["num_rows"] = dsvs_i["num_rows"].apply(lambda x: int(x) if not np.isnan(x) else "N/A")
 
         # infill missing DOIs as TBC
         dsvs_i["id"] = dsvs_i["id"].fillna("TBC")
         dsvs_i["Change Log"] = dsvs_i["id"].apply(lambda x: "TBC" if x == "TBC" else md.make_hlink("https://api.datacite.org/dois/{}/activities".format(x), x + "/activities"))
         dsvs_i["id"] = dsvs_i["id"].apply(lambda x: "TBC" if x == "TBC" else md.make_hlink("https://doi.org/" + x, x))
-
 
 
         if self.dataset in ["CANCER", "MORTALITY", "DEMOGRAPHICS"]:
