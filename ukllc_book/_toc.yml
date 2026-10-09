@@ -254,7 +254,7 @@ parts:
               - title: MSDS (maternity)
                 file: docs/linked_health_data/nhs_england/hes_datasets/msds/msds.ipynb
               - title: MSDS (maternity) - V1.5
-                file: docs/linked_health_data/nhs_england/hes_datasets/msds/msds_v1_5.ipynb
+                file: docs/linked_health_data/nhs_england/hes_datasets/msds_v1_5/msds_v1_5.ipynb
           - title: COVID-19 datasets
             file: docs/linked_health_data/nhs_england/covid_datasets/covid_datasets.md
             sections:
