@@ -262,6 +262,10 @@ class DocHelper:
             s = s.set_properties(subset=['LPS'], **{'font-weight': 'bold'})
             s = s.set_properties(subset=df.index[-1], **{'font-weight': 'bold'})
 
+        if 'LPS' not in df.columns:
+            s = s.set_table_styles(
+                [{'selector': 'th', 'props': [('text-align', 'left')]}])
+
         # hide index
         s = s.hide(axis="index")
 
@@ -1434,6 +1438,55 @@ class NHSEDataSet:
                 "which will show changes to the dataset's metadata."
                     ))
 
+
+    def documentation_new(self):
+            """Creates and displays docs showing change log for the dataset DOIs
+    
+            Returns:
+                markdown: placeholder "TBC" text in markdown format
+            """
+    
+            df_understanding = pd.DataFrame(data = {
+                "Document Type": ["Overview"],
+                "Title": [md.make_hlink(
+                    f"./understanding_{self.dataset.lower()}.html",
+                    f"Understanding {self.dataset}"
+                )],
+                "Author/Organisation": ["UKLLC"],
+                "Description": [f"Describes how the {self.dataset} should be used and interpreted in the UK LLC context. The guide includes strengths and limitations, tips for researchers, scope and coverage, structure, coding systems used, and evolution of the dataset."]}
+            )
+    
+            df_doc = md.get_document_metadata_dataset()
+            df_doc = df_doc[df_doc["table"] == self.dataset]
+            df_doc["Document Type"] = "Overview"
+            df_doc["Title"] = df_doc.apply(lambda row: md.make_hlink(
+                row["file_url"],
+                f"""{row["title"]} V{row["document_version"]} ({int(row["published_year"])!s})"""), axis=1
+            )
+    
+            df_doc = df_doc[
+                [
+                    "Document Type",
+                    "Title",
+                    "author",
+                    "description"
+                ]
+            ].rename(
+                columns={
+                    "author": "Author/Organisation",
+                    "description": "Description"
+                }
+            )
+    
+            df_doc = pd.concat(
+                [
+                    df_understanding,
+                    df_doc
+                ]
+            )
+    
+            return DocHelper.style_table("_", df_doc)
+    
     def documentation(self):
         """Creates and displays docs showing change log for the dataset DOIs
 

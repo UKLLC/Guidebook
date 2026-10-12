@@ -389,3 +389,55 @@ def get_freeze_profile():
         return "HTTP Error: " + str(err)
 
     return pd.DataFrame(json.loads(r_d.text))
+
+
+def get_document_metadata_dataset():
+    r_d = requests.get(
+        api_url + "document-metadata",
+        headers={'access-token': API_KEY.strip()})
+
+    # return error message if API response != 200
+    try:
+        r_d.raise_for_status()
+
+    except requests.exceptions.HTTPError as err:
+        return "HTTP Error: " + str(err)
+
+    df_doc = pd.DataFrame(json.loads(r_d.text))
+
+    dss = get_md_api_dss()[
+        [
+            "dataset_id",
+            "table"
+        ]
+    ]
+
+    return df_doc.merge(dss, 
+                        how='inner',
+                        on="dataset_id")
+
+
+def get_document_metadata_source():
+    r_d = requests.get(
+        api_url + "document-metadata",
+        headers={'access-token': API_KEY.strip()})
+
+    # return error message if API response != 200
+    try:
+        r_d.raise_for_status()
+
+    except requests.exceptions.HTTPError as err:
+        return "HTTP Error: " + str(err)
+
+    df_doc = pd.DataFrame(json.loads(r_d.text))
+
+    ss = get_md_api_ss()[
+        [
+            "data_source_id",
+            "source"
+        ]
+    ]
+
+    return df_doc.merge(ss, 
+                        how='inner',
+                        on="data_source_id")
