@@ -319,7 +319,7 @@ parts:
           file: docs/linked_health_data/nhs_scotland/nhss_intro.md
         - title: Northern Ireland
           file: docs/linked_health_data/nhs_northern_ireland/nhsni_intro.md
-    - title: Place-based data
+    - title: Geographic data
       file: docs/linked_geo_data/place_based_intro.md
       sections:
         - title: FAQs about place-based data
