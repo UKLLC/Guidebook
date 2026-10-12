@@ -1,5 +1,5 @@
  # Understanding the MHSDS dataset
->Last modified: 04 Sep 2026
+>Last modified: 12 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>MHSDS records secondary care services that support people with severe or complex mental health conditions, e.g. psychosis, bipolar disorder, gambling, eating disorders and learning disabilities.</strong></div>
 <br>
 
@@ -17,11 +17,13 @@ Data about mental health services was introduced in **April 2000** to provide cl
 
 | **Dataset**|**Summary**|**Coverage**|**Available in TRE?**|
 |---|:---|:---:|:---:|
-|MHMDS|Adults with mental health issues, including those with drug or alcohol dependence|2003-2014|No|
-|MHLDDS|Adults as above, plus information about learning disabilities services and autistic spectrum disorder services|2014-2016|No|
-|MHSDS|Adults as above, plus Child and Adolescent Mental Health Services (CAMHS), Children and Young People’s Improving Access to Psychological Therapies Programme (CYP-IAPT), Eating Disorders in Children and Young People, Problem Gambling services|2016 onwards|Yes|
+|MHMDS|Adults with mental health issues, including those with drug or alcohol dependence|2003-2014|Yes<sup>*</sup>|
+|MHLDDS|Adults as above, plus information about learning disabilities services and autistic spectrum disorder services|2014-2016|Yes<sup>*</sup> |
+|MHSDS|Adults as above, plus Child and Adolescent Mental Health Services (CAMHS), Children and Young People’s Improving Access to Psychological Therapies Programme (CYP-IAPT), Eating Disorders in Children and Young People, Problem Gambling services|2016 onwards|Yes|  
 
-<aside class="admonition note"><p class="admonition-title">The rest of this guide focuses on MHSDS because this is the only dataset of the three currently in the UK LLC TRE. If MHMDS and MHLDDS flow into the TRE, we will update this guide.</a></p></aside> 
+<sup>*</sup> These datasets have only been available in the UK LLC TRE since October 2026.
+
+<aside class="admonition note"><p class="admonition-title">This guide focuses on MHSDS because as this was the first dataset of the three to be ingested into the UK LLC TRE. </a></p>Additional information on the MHMDS and MHLDDS will be made available later in 2026.</aside> 
 
 ## 2. Strengths of MHSDS 
 - MHSDS is designed for administrative purposes; however, it provides comprehensive coverage of NHS-funded mental health, learning disability, and autism services, promoting a better understanding of mental health conditions.
