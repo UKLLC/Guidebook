@@ -1252,7 +1252,25 @@ class NHSEDataSet:
         df_ss_info = pd.DataFrame(ds_info_list, index=["Dataset Descriptor", "Dataset-specific Information"]).T
         return DocHelper.style_table("_", df_ss_info)
 
+
     def metrics(self):
+        """Basic metrics table (DataCube version retired for now)
+
+        Returns:
+            markdown/DF: markdown-formatted DF of cohort breakdown for DS
+        """
+        
+        df = md.get_nhse_cohort_counts("IAPT_v1_5").rename(
+            columns={
+                "cohort": "Cohort",
+                "count": "Participant Count"
+            }
+        )
+
+        return DocHelper.style_table("_", df)
+
+    
+    def metrics_cube(self):
         """Returns cohort counts for datasets and auxiliary dataset
             if applicable (e.g. for IAPT and MHSDS)
 
@@ -1312,6 +1330,7 @@ class NHSEDataSet:
         cube = DataCube(source=source, columns=columns, grouping=grouping, target=target)
         display(Markdown("Click on the plus sign to see the number of participants represented in each dataset."))
         display(Markdown("**Table 2:** Participants from each LPS represented in the {} dataset in the UK LLC TRE. **Note:** Individual cohort counts of less than 10 are suppressed to <10 and excluded from total participant counts for datasets.".format(self.dataset)))
+        
         show(cube)
 
     def version_history(self):
