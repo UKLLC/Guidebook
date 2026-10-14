@@ -106,7 +106,9 @@ parts:
           file: docs/lps_data/lps_profiles/bib.ipynb
           sections:
             - title: Datasets
-              file: docs/lps_data/datasets/bib/datasets/bib_datasets.ipynb          
+              file: docs/lps_data/datasets/bib/datasets/bib_datasets.ipynb
+            - title: BIB tips & FAQs
+              file: docs/lps_data/lps_profiles/tips/bib_tips.md            
         - title: CaPS
           file: docs/lps_data/lps_profiles/caps.ipynb
           sections:
