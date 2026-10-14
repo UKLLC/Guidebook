@@ -1,5 +1,5 @@
 # Understanding the harmonisation of LPS sex variables
->Last modified: 23 Jan 2026
+>Last modified: 13 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has harmonised how participants' sex is recorded across all LPS </strong></div>  
 
 ## Introduction  

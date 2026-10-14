@@ -1,10 +1,9 @@
 # Frequently Asked Questions
->Last modified: 19 May 2026
+>Last modified: 14 Oct 2026
 
 
-Last modified: 19 May 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>FAQs based on enquiries received by researchers working in the UK LLC Trusted Research Environment.</strong></div style>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>FAQs based on enquiries received by researchers working in the UK LLC TRE.</strong></div style>  
 <br>
 
 This section is aimed primarily at researchers. It provides links to the FAQs for each section of Guidebook. More FAQs will be added as more datasets become available in the TRE.

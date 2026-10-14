@@ -1,5 +1,5 @@
 # Understanding the harmonisation of LPS gender variables
->Last modified: 23 Jan 2026
+>Last modified: 14 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>A minority of LPS have provided information about their participants' gender</strong></div>  
 
 ## Introduction  

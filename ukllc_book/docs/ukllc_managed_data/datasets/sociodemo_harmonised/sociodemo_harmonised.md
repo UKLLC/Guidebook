@@ -1,13 +1,13 @@
 # Harmonised sociodemographic datasets
->Last modified: 23 Jan 2026
+>Last modified: 14 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is creating a range of derived datasets applicable across Longitudinal Population Studies (LPS).</strong></div>
 
 ## Introduction
-Longitudinal Population Studies (LPS) collect data in different ways, using different variable names and values, so it is not always easy to make comparisons between them. To help researchers understand the profile of the UK LLC resource as a whole, UK LLC standardises (‘harmonises’) key characteristics about participants across all partner LPS. UK LLC has so far harmonised the following demographic variables: **sex, gender, year of birth and ethnic group**. UK LLC has also harmonised information about LPS participants' **highest educational qualifications**. Table 1 below lists the LPS that are included in each of the harmonised datasets.
+Longitudinal Population Studies (LPS) collect data in different ways, using different variable names and values, so it is not always easy to make comparisons between them. To help researchers understand the profile of the UK LLC resource as a whole, UK LLC standardises ('harmonises') key characteristics about participants across all partner LPS.  
+
+UK LLC has harmonised the following demographic variables: **sex, gender, year of birth** and **ethnic group**. UK LLC has also harmonised information about LPS participants' **highest educational qualifications**. Table 1 below lists the LPS that are included in each of the harmonised datasets.
 
 >**Note**: UK LLC has not changed the original LPS data for these variables.
-
-
 
 ## 1. Demographic data
 <details><summary>There are two versions of the harmonised demographic dataset: full and reduced.</summary>
@@ -29,8 +29,7 @@ Longitudinal Population Studies (LPS) collect data in different ways, using diff
 ## 2. Education data
 <details><summary>LPS participants' highest educational qualification has been harmonised.</summary>
 
-Fifteen LPS contributing to UK LLC have deposited information educational qualifications of either their participants, their participants' parents, or both. Because of changes in qualifications awarded in the UK over time, and differences between the four nations, UK LLC has harmonised data about education into four categories for LPS participants and two categories for participants' parents. Harmonised education information is provided for each LPS at the most granular level available.
-<br>
+Seventeen LPS contributing to UK LLC have deposited information educational qualifications of either their participants, their participants' parents, or both. Because of changes in qualifications awarded in the UK over time, and differences between the four nations, UK LLC has harmonised data about education into four categories for LPS participants and two categories for participants' parents. Harmonised education information is provided for each LPS at the most granular level available.
 
 </details>
 
@@ -41,37 +40,39 @@ The figures in the Table below show, for each LPS, what percentage of participan
 
 <br>  
  
-<aside class="admonition info"><p class="admonition-title">N.B. This table reflects only the LPS datasets currently available in the UK LLC TRE.</p></aside>
+<aside class="admonition note"><p class="admonition-title">N.B. This table reflects only the LPS datasets currently available in the UK LLC TRE.</p>Due to a delay between LPS uploading datasets to the TRE and them being incorporated into the harmonised datasets, these figures may under-represent the proportion of participants for whom sociodemographic information is available.</aside>
 
 
 | LPS | Sex | Gender | Year of birth | Ethnicity | Education:<br>participant | Education:<br> parent(s) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| AIRWAVE<sup>1</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
-| ALSPAC | 75%+ | ✗ | 75%+ | <25% | ✗ | 75%+ |
-| BCS70 | 50-74% | ✗ | 75%+ | 75%+ | 75%+ | 75%+ |
-| BIB | 75%+ | ✗ | 75%+ | 75%+ | ✗ | 75%+ |
-| ELSA | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
-| EPICN | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
-| EXCEED | <25% | 75%+ | 75%+ | 75%+ | ✗ | ✗ |
-| FENLAND | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
-| GENSCOT | 75%+ | <25% | 75%+ | 75%+ | ✗ | ✗ |
+| AIRWAVE | 75-95% | ✗ | 75-95% | ✗ | <25% | ✗ |
+| ALSPAC | 50-74% | ✗ | 25-49% | <25% | ✗ | 25-49% |
+| BCS70 | 25-49% | ✗ | 50-74% | 50-74% | 25-49% | 50-74% |
+| BIB | >95% | ✗ | >95% | >95% | ✗ | 75-95% |
+| <small>CAPS<sup>1</sup> | - | - | - | - | - | - |
+| <small>CSSBIO<sup>1</sup> | - | - | - | - | - | - |
+| ELSA | 25-49% | ✗ | 25-49% | 25-49% | 25-49% | ✗ |
+| EPICN | >95% | ✗ | >95% | >95% | >95% | ✗ |
+| EXCEED | <25% | 75-95% | 75-95% | 75-95% | ✗ | ✗ |
+| FENLAND | >95% | ✗ | >95% | >95% | >95% | ✗ |
+| GENSCOT | >95% | <25% | >95% | 75-95% | ✗ | ✗ |
 | GLAD | 25-49% | 25-49% | 25-49% | 25-49% | 25-49% | ✗ |
-| MCS | 25-49% | ✗ | 50-74% | 75%+| 50-74% | ✗ |
-| NCDS58 | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
-| NEXTSTEP | 75%+ | ✗ | 75%+ | 75%+ | 75%+ | ✗ |
-| NICOLA | 75%+ | ✗ | 75%+ | ✗ |75%+ | ✗ |
-| NIHRBIO_COPING | 75%+ | 75%+ | 75%+ | 50-74% | ✗ | ✗ |
-| NSHD46 | 75%+ | ✗ | 75%+ | ✗ | 75%+ | ✗ |
-| SABRE | 75%+ | ✗ | <25% | <25% | <25% | ✗ |
-| TEDS | 75%+ | 50-74% | 50-74% | 50-74% | 75%+ | 25-49% |
-| TRACKC19 | 75%+ | ✗ | 75%+ | 75%+ | ✗ | ✗ |
-| TWINSUK | 75%+ | ✗ | 75%+ | 50-74% | ✗ | ✗ |
+| <small>INTERVAL<sup>1</sup> | - | - | - | - | - | - |
+| MCS | 25-49% | ✗ | 50-74% | >95% | 25-49% | ✗ |
+| NCDS58 | 25-49% | ✗ | 50-74% | 50-74% | 25-49% | ✗ |
+| NEXTSTEP | 25-49% | ✗ | 50-74% | >95% | 50-74% | ✗ |
+| NICOLA | >95% | ✗ | >95% | ✗ | >95% | ✗ |
+| NIHRBIO_COPING | 75-95% | 75-95% | 75-95% | 50-74% | ✗ | ✗ |
+| NSHD46 | >95% | ✗ | >95% | ✗ | >95% | ✗ |
+| SABRE | >95% | ✗ | <25% | <25% | <25%> | ✗ |
+| TEDS | 75-95% | 50-74% | 50-74% | 50-74% | 50-74% | 25-49% |
+| TRACKC19 | >95% | ✗ | >95% | >95% | ✗ | ✗ |
+| TWINSUK | 75-95% | ✗ | 75-95% | 50-74% | ✗ | ✗ |
 | UKHLS | <25% | ✗ | <25% | <25% | <25% | ✗ |
-| UKREACH<sup>2</sup> | n/a | n/a | n/a | n/a | n/a | n/a |
+| <small>UKREACH<sup>1</sup> | - | - | - | - | - | - |
 
 **Notes:**  
-<sup>1</sup> Data from AIRWAVE are now available in the TRE but have not yet been harmonised.   
-<sup>2</sup> Data from UKREACH are not yet available in the TRE.
+<sup>1</sup> Data from these partner LPS are not yet available in the TRE.
 </details>
 
 
