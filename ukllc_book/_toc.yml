@@ -10,6 +10,17 @@ parts:
           file: docs/available_linkages/lps_actual_health.md
         - title: Geographic linkages
           file: docs/available_linkages/lps_actual_geographic.md
+    - title: Our partner LPS
+      file: docs/lps_partner/lps_introduction.md
+      sections:
+        - title: LPS characteristics
+          file: docs/lps_partner/characteristics/characteristics_intro.md
+        - title: Permitted linkages
+          file: docs/lps_partner/linkages/lps_linkages.md
+        - title: Temporal coverage
+          file: docs/lps_partner/longevity_of_lps/lps_longevity.md
+        - title: Discover LPS data
+          file: docs/lps_partner/discover/discover_lps_data.md
     - title: Understanding UK LLC
       file: docs/ukllc_key_facts/key_facts.md
       sections:
@@ -78,17 +89,6 @@ parts:
           file: docs/applying/applying/review.md
         - title: Policy on AI models
           file: docs/applying/applying/ai_policy.md
-    - title: Our partner LPS
-      file: docs/lps_partner/lps_introduction.md
-      sections:
-        - title: LPS characteristics
-          file: docs/lps_partner/characteristics/characteristics_intro.md
-        - title: Permitted linkages
-          file: docs/lps_partner/linkages/lps_linkages.md
-        - title: Temporal coverage
-          file: docs/lps_partner/longevity_of_lps/lps_longevity.md
-        - title: Discover LPS data
-          file: docs/lps_partner/discover/discover_lps_data.md
     - title: LPS data
       file: docs/lps_data/lps_data_intro.md
       sections:
