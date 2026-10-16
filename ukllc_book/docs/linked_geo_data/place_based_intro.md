@@ -9,7 +9,7 @@
 
 <aside class="admonition note"><p class="admonition-title">The <a 
 href="https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_linkages.html" target="_blank" rel="noopener 
-noreferrer"><b>Permitted Linkages</b></a> page outlines which LPS permit linkage of their participants to each of the available place-based datasets.</p></aside>
+noreferrer"><b>Available Linkages</b></a> page outlines which LPS permit linkage of their participants to each of the available place-based datasets.</p></aside>
 
 **Geographic data**, also known as geospatial or spatial data, refers to any information that is linked to a specific location. Examples of geographic data include coordinates of amenities, addresses, administrative boundaries, and layered datasets showing features such as elevation or land use.
 
