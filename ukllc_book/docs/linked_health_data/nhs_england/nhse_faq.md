@@ -1,5 +1,5 @@
 # FAQs about NHS England data
->Last modified: 30 Sep 2026
+>Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
 
@@ -111,5 +111,5 @@ For health outcomes not covered by these derived datasets, we recommend that res
 **Availability of data**
 <details><summary>How can I find out <b>which LPS</b> permit linkage to NHS England datasets?</summary>
 
-The [Permitted Linkages](../../lps_partner/linkages/lps_linkages.md) page summarises the linkage permissions associated with each of our partner LPS.
+The [Available NHS Health Linkages](../../available_linkages/lps_actual_health.md) guide details which LPS are linked to NHS England datasets.
 </details>

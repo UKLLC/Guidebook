@@ -12,11 +12,11 @@
 * [**NHS Northern Ireland**](../linked_health_data/nhs_northern_ireland/nhsni_intro.md) <span style="color:red">**(discussions ongoing)**: <span style="color:black">negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI) - more details will follow in due course.  
 
 <aside class="admonition note"><p class="admonition-title">The <a 
-href="https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_linkages.html" target="_blank" rel="noopener 
-noreferrer"><b>Permitted Linkages</b></a> page outlines which LPS permit linkage of their participants to NHS England and NHS Wales datasets.</p>We will add information about the NHS Scotland and NHS Northern Ireland datasets in due course.</aside>
+href="https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_health.html" target="_blank" rel="noopener 
+noreferrer"><b>Available NHS health linkages</b></a> guide details the linked NHS records available for each LPS.</p></aside>
 <br>
 
->**Note**: Even if an LPS permits linkage to an NHS dataset, the individual participants in that LPS can choose to opt out of UK LLC altogether or to opt out of all or a particular type of  data linkage. If a participant opts out, no new data about them will be shared, but data that has already been provisioned can still be used until the project ends. Please see the <strong><a href="https://ukllc.ac.uk/safeguards" target="_blank" rel="noopener noreferrer">UK LLC Privacy Notice</a></strong> for further information.
+>**Note**: Even if an LPS permits linkage to an NHS dataset, the individual participants in that LPS can choose to opt out of UK LLC altogether or to opt out of all or a particular type of  data linkage. If a participant opts out, no new data about them will be shared, but data that has already been provisioned can still be used until the project ends. Please see the <strong><a href="https://ukllc.ac.uk/safeguards" target="_blank" rel="noopener noreferrer">UK LLC Privacy Notice for LPS Participants</a></strong> for further information.
 
 ## UK LLC documentation of NHS datasets
 We have organised our NHS data documentation by nation. Within each nation we have included (where the information is available to us) the following:
