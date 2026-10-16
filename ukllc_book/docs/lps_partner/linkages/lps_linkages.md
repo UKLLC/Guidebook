@@ -1,5 +1,5 @@
 # Linkages permitted for each LPS
->Last modified: 15 Oct 2026
+>Last modified: 16 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The data linkages permitted by each partner Longitudinal Population Study (LPS).</strong></div>
 <br>
@@ -20,6 +20,7 @@ See the [**NHS England dataset restrictions**](../linked_health_data/nhs_england
 |[**BCS70**](../../lps_data/lps_profiles/bcs70.ipynb)|✓|✓|✗|✓|✓|
 |[**BIB**](../../lps_data/lps_profiles/bib.ipynb)|✓|✓|✓|✗|✗|
 |[**CaPS**](../../lps_data/lps_profiles/caps.ipynb)|✓|✓|✓|✗|✗|
+|**CSSBIO** |✓|✓|✓|✗|✗| 
 |[**ELSA**](../../lps_data/lps_profiles/elsa.ipynb)|✓|✓|✗|✓|✓|
 |[*EPICN*](../../lps_data/lps_profiles/epicn.ipynb)|✓|✗|✗|✗|✗|
 |[**EXCEED**](../../lps_data/lps_profiles/exceed.ipynb)|✓|✓|✓|✗|✗|
