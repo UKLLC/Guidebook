@@ -1,14 +1,51 @@
-# Place-based data
+# Geographic and place-based data
 
-> Last modified: 08 Oct 2026
+> Last modified: 16 Oct 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC brings together place-based datasets from a range of open and partner sources and makes them available for research in the Trusted Research Environment (TRE).</strong></div>  
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides access to geographic and place-based datasets for research in the TRE.</strong></div>  
 <br>
-<aside class="admonition note"><p class="admonition-title">The <a 
-href="https://guidebook.ukllc.ac.uk/docs/lps_partner/linkages/lps_linkages.html" target="_blank" rel="noopener 
-noreferrer"><b>Permitted Linkages</b></a> page outlines which LPS permit linkage of their participants to place-based datasets.</p></aside>
 
-## Introduction
+## 1. Introduction
+
+<aside class="admonition note"><p class="admonition-title">The <a 
+href="https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_linkages.html" target="_blank" rel="noopener 
+noreferrer"><b>Available Linkages</b></a> page outlines which LPS permit linkage of their participants to each of the available place-based datasets.</p></aside>
+
+**Geographic data**, also known as geospatial or spatial data, refers to any information that is linked to a specific location. Examples of geographic data include coordinates of amenities, addresses, administrative boundaries, and layered datasets showing features such as elevation or land use.
+
+**Place-based data**, meanwhile, refers to data about the social, economic, environmental, or built characteristics of a location or area. While place-based data is usually linked to geography, its primary purpose is to help understand and analyse the conditions and context of a place. Examples include demographic statistics, deprivation indices, community assets, environmental exposures, and area-level health indicators.
+
+UK LLC maintains encrypted versions of geographic data, including addresses and administrative boundary identifiers, which are used to link participants to place-based datasets. These place-based datasets include measures of air pollution, deprivation, and public transport accessibility, among other environmental and neighbourhood characteristics.
+
+
+## 2. Summary
+
+* Place-based data are linked using participant address histories or area-level indicators (such as [LSOAs](https://www.ons.gov.uk/methodology/geography/ukgeographies/statisticalgeographies)).
+
+* Researchers never have access to participant addresses. Within the UK LLC TRE, only high-level geographies (for example, English region or devolved nation) are visible, while finer geographic identifiers are encrypted to protect confidentiality.
+
+* Not all Longitudinal Population Studies (LPS) permit linkage to the same place-based datasets. Before developing your project, check the [Available Linkages](https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_linkages.html) page to confirm which datasets can be linked for the studies you wish to use.
+
+
+## 3. Overview of Geographic and Place-based datasets
+| Dataset | Dataset name | Domain | Years available in TRE |
+|----------|----------|----------------|------------------------|
+| AHAH | [Access to Healthy Assets and Hazards (AHAH)](../linked_geo_data/environmental_datasets/neighbourhood_datasets/ahah/ahah.ipynb) | Environmental | 2022 |
+| met_office | [Met Office climate data](../linked_geo_data/environmental_datasets/neighbourhood_datasets/met_office/met_office.ipynb) | Environmental | 2010-2024 |
+| greenspace | [Greenspace](../linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb) | Environmental | 2018 |
+| EPC | [Energy Performance Certificates](../linked_geo_data/environmental_datasets/property_datasets/epc/understanding_epc.md) | Environmental | *Coming in 2027* | 
+| hades_air_pollution | [Air pollution NOx, NO2 and O3](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/) | Environmental | 2018-2020 |
+| air_pollution_no2_pm25 | [Air pollution NO2 & PM2.5](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb) | Environmental | 2010-2019 |
+| traffic_noise | [Noise pollution](../linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb) | Environmental | 2013 |
+| imd | [Index of Multiple Deprivation](../linked_geo_data/population_datasets/imd/imd.ipynb) | Population | 2011 |
+| townsend | [Townsend Index](../linked_geo_data/population_datasets/townsend/townsend_2011.ipynb) | Population | 2011 |
+| public_transport | [Public Transport Accessibility Indicators](../linked_geo_data/mobility_datasets/public_transport/public_transport.ipynb) | Mobility | 2021 |
+
+<br>
+
+## 4. Research Uses and Considerations
+
+*Watch this short video for an introduction to place-based data at UK LLC, including how datasets are linked, governed and can be used for research.*
 
 <div style="text-align: center; margin: 20px 0;">
   <iframe
@@ -22,41 +59,12 @@ noreferrer"><b>Permitted Linkages</b></a> page outlines which LPS permit linkage
   </iframe>
 </div>
 
-*Watch this short video for an overview of place-based data in UK LLC, including how datasets are linked, governed and made available for research.*
 
 
-We are continually expanding the range of place-based datasets available within the UK LLC TRE. If you are interested in using a place-based dataset that is not currently listed, please submit an Expression of Interest (EOI) through [UK LLC Apply](https://apply.ukllc.ac.uk/).
->**Note**  
-Once an EOI has been submitted, the UK LLC Applications Team will review the request and contact you with further information, including a quotation where applicable. While access to standard place-based datasets is provided free of charge, the preparation and curation of bespoke datasets may incur a cost depending on the complexity of the request.
-
-Place-based data can be linked to participants using address data provided by Longitudinal Population Studies (LPS) or linked area indicators (e.g. Lower Super Output Area, LSOA) in participants’ NHS records. All geographic identifiers in the UK LLC TRE below the region/devolved nation level are encrypted.
-
-The place-based datasets cover a variety of domains and time periods, as summarised in Table 1. Their geographic coverage varies per dataset based on availability across the four UK nations. Further details, including external links to publications and metadata, are available in the individual dataset guides.
-
-Researchers never access participants’ address data – the only location variables in the clear in the UK LLC TRE are English region (e.g. South West England) or devolved nation (e.g. Scotland).
-
-Place-based data can be linked using LPS-provided address data or linked area indicators (e.g., LSOA, which is in participants’ NHS records).
-
-All address data are sent by the LPS to our trusted third party – NHS Digital Health and Care Wales (DHCW). This address data is only used for place-based linkage and geocoding, subject to individual LPS approval.
-
-Visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong> to discover more about each place-based dataset, including variable names, labels, and values.
 
 
-**Table 1** A summary of the place-based datasets in the UK LLC TRE, grouped by theme.
 
-| Dataset name | Primary domain | Secondary domain | Summary | Coverage | Smallest data resolution | Data available in TRE | Owner |
-|--------------|----------------|------------------|---------|----------|---------------------------|------------------------|--------|
-| [Access to Healthy Assets and Hazards (AHAH)](../linked_geo_data/environmental_datasets/neighbourhood_datasets/ahah/ahah.ipynb) | Environmental | Neighbourhood | A multi-dimensional index measuring how ‘healthy’ neighbourhoods are. | England, Scotland, Wales | Lower Super Output Area/Data Zone | 2022 | [Geographic Data Service](https://data.geods.ac.uk/) |
-| [Met Office climate observation data](../linked_geo_data/environmental_datasets/neighbourhood_datasets/met_office/met_office.ipynb) | Environmental | Neighbourhood | Climate variables derived from the network of UK land surface observations | England, Scotland, Wales, Northern Ireland | Lower Super Output Area/Data Zone/Super Output Area | 2010-2024 | [Met Office](https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid/haduk-grid) |
-| [Greenspace](../linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb) | Environmental | Neighbourhood | Greenspace metrics on greenspace coverage, access and walkability. | England, Scotland, Wales, Northern Ireland (selected variables) | Address | 2018 | University of Leicester |
-| [Energy Performance Certificates (EPC)](../linked_geo_data/environmental_datasets/property_datasets/epc/understanding_epc.md) <br>*Coming in 2027* | Environmental | Property | Energy efficiency and property qualities. | England, Wales | Address | 2008–2024 | Department for Levelling Up, Housing & Communities |
-| [Air pollution NO2 & PM](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb) | Environmental | Pollution | Annual-average nitrogen dioxide (NO2) and fine particulate matter (PM2.5) exposure data. | England, Scotland, Wales | Address | 2010–2019 | University of Leicester and St George's, University of London |
-| [Air pollution NOx, NO2 and O3](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.ipynb) | Environmental | Pollution | Annual average assessments (hourly and 24-hour) for NOx, NO2 and O3. | England, Wales | Address | 2018–2020 | University of Leicester and St George's, University of London |
-| [Noise pollution](../linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb) | Environmental | Pollution | Modelled road-transport noise estimates. | England, Wales | Address | 2013 | University of Leicester and St George's, University of London |
-| [Index of Multiple Deprivation](../linked_geo_data/population_datasets/imd/imd.ipynb)| Population | Deprivation | A relative indicator of deprivation, urban/rural classification and population density |England, Scotland, Wales, Northern Ireland | Lower Super Output Area/Data Zone/Super Output Area | 2011-2020 | UK LLC |
-| [Townsend Index](../linked_geo_data/population_datasets/townsend/townsend_2011.ipynb) | Population | Material deprivation | A relative indicator of material deprivation | England, Scotland, Wales and Northern Ireland | Lower Super Output Area | 2011 | [UK Data Service](https://ukdataservice.ac.uk/) |
-| [Public Transport Accessibility Indicators](../linked_geo_data/mobility_datasets/public_transport/public_transport.ipynb) | Mobility | Transport | Accessibility indicators to a key range of services | England, Scotland and Wales | Lower Super Output Area/Data Zone | 2021 | [Urban Big Data Centre](https://www.ubdc.ac.uk/) | 
 
-<br>
+
 
 

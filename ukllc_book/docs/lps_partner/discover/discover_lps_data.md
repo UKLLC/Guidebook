@@ -1,10 +1,10 @@
 # Discover LPS data
 
->Last modified: 19 Nov 2025
+>Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Various online resources provide information about the data held by Longitudinal Population Studies (LPS).</strong></div>
 
 ## Discover LPS data in the UK LLC TRE
-See the [**LPS in the UK LLC partnership guide**](../lps_introduction.md) for a list of all the LPS that contribute data to the UK LLC TRE. Elsewhere in Guidebook you can access information about each LPS and their available datasets. The [**Permitted linkages guide**](../linkages/lps_linkages.md) summarises which LPS are linked to which routine records.
+See the [**LPS in the UK LLC partnership guide**](../lps_introduction.md) for a list of all the LPS that contribute data to the UK LLC TRE. Elsewhere in Guidebook you can access information about each LPS and their available datasets. The [**Available linkages guide**](../../available_linkages/lps_actual_linkages.md) summarises which LPS are linked to which routine records.
 <br>
 
 If you want to see greater detail (variable names, labels and values) and **build a data request**, go to [**UK LLC Explore**](https://explore.ukllc.ac.uk/).

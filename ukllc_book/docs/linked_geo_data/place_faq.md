@@ -1,6 +1,7 @@
+
 # FAQs about working with place-based data 
 
-> Last modified: 08 Oct 2026
+> Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -37,7 +38,7 @@ Place-based data provides information about the attributes and environment of wh
 <details>
 <summary>How can I find out which LPS permit linkage to place-based datasets?</summary>
 
-The [Permitted Linkages](../lps_partner/linkages/lps_linkages.md) page summarises the linkage permissions associated with each of our partner LPS.
+The [Available Linkages](../available_linkages/lps_actual_geographic.md) page summarises the linkage permissions associated with each of our partner LPS and place-based datasets.
 </details>
 
 <details>
@@ -138,5 +139,17 @@ UK LLC has a cost-recovery model to ingest place-based data into the UK LLC Trus
  **Please note, all geographical identifiers smaller than UK region e.g. LSOA are encrypted in the UK LLC TRE. Encryption of geographical units/identifiers is consistent between place-based datasets and linked sources enabling linkage.** 
  
  **UK LLC are only currently able to ingest encrypted Lower Super Output Area codes from using the 2011 census boundaries into the Trusted Research Environment.**
+
+</details>
+
+
+<details>
+<summary>Which year of Lower Super Output Area (LSOA) geography is available in the UK LLC Trusted Research Environment?</summary>
+
+Currently, researchers can access encrypted 2011 census Lower Super Output Areas (LSOAs) for England and Wales, Data Zones for Scotland, and Super Output Areas (SOAs) for Northern Ireland.
+ 
+Because these geographic identifiers are encrypted, you can determine whether participants live within the same small-area geography, but you cannot identify the actual LSOA, Data Zone, or SOA. You will be able to see the participant's English region or UK nation (Scotland, Wales, or Northern Ireland), but you will not be able to determine the exact area or whether areas are geographically adjacent.
+
+The encrypted geographic identifiers (2011 LSOA or equivalent) can be used to link participants to place-based datasets and derive area-level socio-demographic, environmental, and other contextual measures for analysis.
 
 </details>
