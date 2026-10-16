@@ -1681,7 +1681,7 @@ class NHSESource:
             'COVIDSGSS': "COVID-19",
             'NPEX': "COVID-19",
             'IELISA': "COVID-19",
-            'CSDS': "Community",
+            'CSDS': "Primary Care",
             'IAPT': "Mental Health",
             "IAPT_v1_5": "Mental Health",
             "MSDS_v1_5": "Hospital",
@@ -1714,7 +1714,7 @@ class NHSESource:
             "IAPT": "../nhs_england/mental_health_datasets/iapt/iapt.html",
             "CSDS": "../nhs_england/primary_care_datasets/csds/csds.html",
             "MSDS": "../nhs_england/hes_datasets/msds/msds.html",
-            "IAPT_v1_5": "../nhs_england/mental_health_datasets/iapt/iapt.html",
+            "IAPT_v1_5": "../nhs_england/mental_health_datasets/iapt/iapt_v1_5.html",
             "MSDS_v1_5": "../nhs_england/hes_datasets/msds_v1_5/msds_v1_5.html",
             "MHLDDS": "../nhs_england/mental_health_datasets/mhldds/mhldds.html",
             "MHMDS": "../nhs_england/mental_health_datasets/mhmds/mhmds.html"
@@ -1723,6 +1723,7 @@ class NHSESource:
         df = df.set_index("table", drop=False).reindex([
             "GDPPR",
             "PCM",
+            "CSDS",
             "HESOP",
             "HESAPC",
             "HESAPC_ACP",
@@ -1730,6 +1731,8 @@ class NHSESource:
             "HESCC",
             "ECDS",
             "HESAE",
+            "MSDS",
+            "MSDS_v1_5",
             "COVIDSGSS",
             "IELISA",
             "NPEX",
@@ -1740,13 +1743,10 @@ class NHSESource:
             "DEMOGRAPHICS",
             "MORTALITY",
             "MHSDS",
-            "IAPT",
-            "CSDS",
-            "MSDS",
-            "IAPT_v1_5",
-            "MSDS_v1_5",
             "MHLDDS",
-            "MHMDS"
+            "MHMDS",
+            "IAPT",
+            "IAPT_v1_5",
         ])
 
         df["table"] = df["table"].apply(lambda x: md.make_hlink_same_tab(links[x], x))

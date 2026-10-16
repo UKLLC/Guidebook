@@ -3,6 +3,24 @@ format: jb-book
 root: docs/welcome.md
 parts:
   - chapters:
+    - title: Available linkages
+      file: docs/available_linkages/lps_actual_linkages.md
+      sections:
+        - title: Health linkages
+          file: docs/available_linkages/lps_actual_health.md
+        - title: Geographic linkages
+          file: docs/available_linkages/lps_actual_geographic.md
+    - title: Our partner LPS
+      file: docs/lps_partner/lps_introduction.md
+      sections:
+        - title: LPS characteristics
+          file: docs/lps_partner/characteristics/characteristics_intro.md
+        - title: Permitted linkages
+          file: docs/lps_partner/linkages/lps_linkages.md
+        - title: Temporal coverage
+          file: docs/lps_partner/longevity_of_lps/lps_longevity.md
+        - title: Discover LPS data
+          file: docs/lps_partner/discover/discover_lps_data.md
     - title: Understanding UK LLC
       file: docs/ukllc_key_facts/key_facts.md
       sections:
@@ -71,17 +89,6 @@ parts:
           file: docs/applying/applying/review.md
         - title: Policy on AI models
           file: docs/applying/applying/ai_policy.md
-    - title: Our partner LPS
-      file: docs/lps_partner/lps_introduction.md
-      sections:
-        - title: LPS characteristics
-          file: docs/lps_partner/characteristics/characteristics_intro.md
-        - title: Permitted linkages
-          file: docs/lps_partner/linkages/lps_linkages.md
-        - title: Temporal coverage
-          file: docs/lps_partner/longevity_of_lps/lps_longevity.md
-        - title: Discover LPS data
-          file: docs/lps_partner/discover/discover_lps_data.md
     - title: LPS data
       file: docs/lps_data/lps_data_intro.md
       sections:
@@ -253,9 +260,9 @@ parts:
                 file: docs/linked_health_data/nhs_england/hes_datasets/ecds/ecds.ipynb
               - title: HESAE (emergency)
                 file: docs/linked_health_data/nhs_england/hes_datasets/ae/hesae.ipynb
-              - title: MSDS (maternity)
+              - title: MSDS V2 (maternity)
                 file: docs/linked_health_data/nhs_england/hes_datasets/msds/msds.ipynb
-              - title: MSDS (maternity) - V1.5
+              - title: MSDS V1.5 (maternity)
                 file: docs/linked_health_data/nhs_england/hes_datasets/msds_v1_5/msds_v1_5.ipynb
           - title: COVID-19 datasets
             file: docs/linked_health_data/nhs_england/covid_datasets/covid_datasets.md
@@ -290,13 +297,13 @@ parts:
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/mh_faq.md
               - title: MHSDS (general)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/mhsds/mhsds.ipynb
-              - title: MHMDS
+              - title: MHMDS (general)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/mhmds/mhmds.ipynb
-              - title: MHLDDS
+              - title: MHLDDS (general)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/mhldds/mhldds.ipynb
-              - title: IAPT (talking therapies)
+              - title: IAPT V2 (talking therapies)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/iapt/iapt.ipynb
-              - title: IAPT (talking therapies) - V1.5
+              - title: IAPT V1.5 (talking therapies)
                 file: docs/linked_health_data/nhs_england/mental_health_datasets/iapt/iapt_v1_5.ipynb
           - title: Derived datasets
             file: docs/linked_health_data/nhs_england/derived_datasets/derived_datasets.md

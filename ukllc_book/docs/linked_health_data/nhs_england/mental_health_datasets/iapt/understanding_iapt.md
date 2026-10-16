@@ -1,6 +1,6 @@
-# Understanding the IAPT dataset
->Last modified: 23 Jun 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px; "><strong>IAPT includes adults who are referred in England for depression, anxiety, or related conditions under the NHS Talking Therapies for Anxiety and Depression Service.</strong></div>
+# Understanding the IAPT V2 dataset
+>Last modified: 15 Oct 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px; "><strong>IAPT includes adults who are referred in England for depression, anxiety, or related conditions under the NHS Talking Therapies for Anxiety and Depression Service. The IAPT V2 dataset covers referrals received from October 2019 onwards.</strong></div>
 
 ## 1. Introduction
 The IAPT dataset contains information about adults in England referred to the NHS Talking Therapies for Anxiety and Depression service. This service offers **psychological therapy for anxiety and/or depression as well as other related mental health conditions (e.g. obsessive compulsive disorder, body dysmorphic disorder).** It was launched in **2008** as **Improving Access to Psychological Therapies (IAPT)** and was rebranded in **January 2023** though the associated dataset retains the IAPT name until its next formal revision. We therefore continue to refer to this dataset as IAPT.     
@@ -14,9 +14,9 @@ Central data collection has been in place for IAPT since **2012** by which time 
 <aside class="admonition warning"><p class="admonition-title">The IAPT dataset is designed to support service delivery and inform clinical decision-making and has secondary uses related to commissioning, service improvement and service design.</p>As with all NHS England datasets, it is not designed to be used for research.</aside>
 
 
-## 2. Strengths of IAPT
+## 2. Strengths of IAPT V2
 
-Although not designed for research, the IAPT dataset can be a useful research resource as its strengths include: 
+Although not designed for research, the IAPT V2 dataset can be a useful research resource as its strengths include: 
 
 1. Comprehensive coverage – captures care pathway (e.g. referral, appointments, treatment type), sociodemographic information (e.g. age, gender, ethnicity, employment/benefit status), long term physical health conditions, and patient outcomes (e.g. recovery, improvement, deterioration). 
 
@@ -30,7 +30,7 @@ Although not designed for research, the IAPT dataset can be a useful research re
 
 6. National consistency – standardised data collection enables comparison across services and geographical areas of England. 
 
-## 3. Limitations of IAPT
+## 3. Limitations of IAPT V2
 
 1. Scope – limited to NHS-funded talking therapies for anxiety, depression and related conditions. Does not capture private mental health care, other NHS mental health services, or treatment outside of England.
 
@@ -71,9 +71,7 @@ NHS England collects data for the IAPT dataset through monthly submissions from 
 
 
 ## 6. Structure of the dataset
-The IAPT dataset is comprised of several tables (i.e. individual datasets). These constituent tables flow from NHS England to UK LLC grouped into 9 themed tables capturing patient demographics and referral, care activities, care cluster, scored assessments, employment status, internet enabled therapies, mental and physical health conditions, onward referrals and waiting time pauses. See [Availability in the UK LLC TRE](#9-availability-in-the-UK-LLC-TRE) below for more detail. 
-
-<aside class="admonition note"><p class="admonition-title">There can be multiple rows of data for the same participant within a table</p>It is key that researchers consider how to de-duplicate the data prior to analysis - see the Tips for researchers section below.</aside>
+Version 2 of the IAPT dataset is comprised of 9 linked tables which capture details about patient demographics and referral, care activities, care cluster, scored assessments, employment status, internet enabled therapies, mental and physical health conditions, onward referrals and waiting time pauses. See [Availability in the UK LLC TRE](#9-availability-in-the-UK-LLC-TRE) below for more detail. 
 
 ## 7. Coding systems used
 The IAPT dataset uses **ICD-10** and **SNOMED CT** codes according to the [**NHS Data Model and Dictionary**.](https://archive.datadictionary.nhs.uk/DD%20Release%20May%202024/data_sets/clinical_data_sets/improving_access_to_psychological_therapies_data_set.html) 
@@ -134,16 +132,16 @@ The current version of the IAPT dataset is **v2.1** which was **released 20 July
 
 ## 9. Availability in the UK LLC TRE
 
-The UK LLC TRE currently holds an extract of the IAPT dataset from **2020 onwards** organised into **9 linked tables**. A detailed overview of these tables is provided below **(Table 3)** as well as a pictorial representation of the relationships between these tables **(Figure 1)**.  
+The UK LLC TRE holds an extract of the IAPT V2 dataset which covers referrals received from **October 2019 onwards** organised into **9 linked tables**. A detailed overview of these tables is provided below **(Table 3)** as well as a pictorial representation of the relationships between these tables **(Figure 1)**.  
 
-The UK LLC TRE includes IAPT records for participants in partner LPS and only where individual or LPS permissions allow linkage to NHS data. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHS data not be shared via UK LLC.
+The UK LLC TRE includes IAPT V2 records for participants in partner LPS and only where individual or LPS permissions allow linkage to NHS data. UK LLC does not hold any information about people who are not part of a partner LPS or about LPS participants who have requested that their NHS data not be shared via UK LLC.
 
 
 <img src="../../../../images/iapt_dataset_20260623.jpg" width="600"/>
 
 **Figure 1** Relationships between the IAPT tables available in the UK LLC TRE.
 
-**Table 3** IAPT tables available in the UK LLC TRE, including summary and key variables.
+**Table 3** IAPT V2 tables available in the UK LLC TRE, including summary and key variables.
 
 |**Table name**|**Summary of constituent tables**|**Key variables**|
 |--------------|-----------|-----------------|
@@ -163,9 +161,9 @@ UK LLC is infilling missing variable and value labels in the NHSE datasets in th
 * **Missing data**  
 The amount of missing data varies widely between variables and across datasets. Throughout 2026, we will update this section with information about missingness in the IAPT dataset.
 
-## 11. Tips for researchers using IAPT in the UK LLC TRE
+## 11. Tips for researchers using IAPT V2 in the UK LLC TRE
 Please also see the list of [**mental health FAQs**](../mh_faq.md)
-1. Descriptions of the variables included in the dataset can be downloaded from the **Enhanced Technical Output Specification** available from [**NHS England.**](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/improving-access-to-psychological-therapies-data-set/implementing-iapt-tools-and-guidance) 
+1. Descriptions of the variables included in the V2 dataset can be downloaded from the **Enhanced Technical Output Specification** available from [**NHS England.**](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/improving-access-to-psychological-therapies-data-set/implementing-iapt-tools-and-guidance) 
 2. Linking between tables: Use the cohort key variable (cohortkey_e) to link patients across IAPT tables and use the pathway ID variable (pathwayid) to link pathways (i.e. distinct referrals/episodes of care for a patient) across IAPT tables.  
 3. Multiple referrals per patient: Some patients have been referred on more than one occasion and therefore have records for multiple referrals (each referral has its own unique pathway ID). It may be appropriate for your analysis to select one per patient (e.g. first referral, most recent referral, or meeting other specific criteria). To understand more and to read practical tips about how to de-duplicate data, please read our detailed [**Multiple rows per participant guide**.](../iapt/iapt_multiple_rows.md) 
 4. Defining a course of treatment: A patient is deemed to have had a ‘course’ of treatment if they had at least two clinical sessions before discharge. Patients with only one session or assessment-only contacts are not considered to have received a course of treatment. Inspecting the type of contact that occured in each session is therefore important for understanding a patient's care pathway.
