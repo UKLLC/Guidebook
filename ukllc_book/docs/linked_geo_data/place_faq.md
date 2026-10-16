@@ -1,7 +1,7 @@
 
 # FAQs about working with place-based data 
 
-> Last modified: 15 Oct 2026
+> Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with place-based data.</strong></div style>  
 <br>
  <details>
@@ -38,7 +38,7 @@ Place-based data provides information about the attributes and environment of wh
 <details>
 <summary>How can I find out which LPS permit linkage to place-based datasets?</summary>
 
-The [Permitted Linkages](../lps_partner/linkages/lps_linkages.md) page summarises the linkage permissions associated with each of our partner LPS.
+The [Available Linkages](../available_linkages/lps_actual_geographic.md) page summarises the linkage permissions associated with each of our partner LPS and place-based datasets.
 </details>
 
 <details>
