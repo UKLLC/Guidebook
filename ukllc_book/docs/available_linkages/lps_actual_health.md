@@ -1,11 +1,11 @@
 # Available NHS health linkages for each LPS
 >Last modified: 16 Oct 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Linked NHS health data available for each partner Longitudinal Population Study (LPS).</strong></div>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Explore the linked NHS health data available for each partner Longitudinal Population Study (LPS).</strong></div>
 <br>
 
 
-The table below summarises the **NHS health linkages** that are **currently available** for each LPS. All applications to access NHS England data must be intended and expected to achieve **benefit to the UK health and social care system.**  
+The table below summarises the **NHS health linkages** that are **currently available** for each LPS. All applications to access **NHS England** data must be intended and expected to achieve **benefit to the UK health and social care system.**  
 
 <aside class="admonition danger"><p class="admonition-title">Some LPS and some NHS England datasets can only be included in research related to COVID-19</p>In the table below the COVID-19 only LPS are non-bolded and in italics.</aside>
 

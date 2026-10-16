@@ -1,7 +1,7 @@
 # Available geographic linkages for each LPS
->Last modified: 15 Oct 2026
+>Last modified: 16 Oct 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Linked geographic data available for each partner Longitudinal Population Study (LPS).</strong></div>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Explore the linked geographic data available for each partner Longitudinal Population Study (LPS).</strong></div>
 <br>
 
 The table below summarises the **geographic linkages** that are **currently available** for each LPS. The full name of each dataset is listed underneath the table. 
