@@ -1,13 +1,13 @@
 
 # How do I apply?
->Last modified: 24 Jun 2026
+>Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>All applications must be submitted via UK LLC's online application management system, UK LLC Apply.</strong></div>
 <br>
 
 ## Check feasibility of your proposed research project
 UK LLC may not hold all data collected by each LPS and some LPS do not permit certain linkages or research topics. You are **strongly advised** to check the feasibilty of your proposed research project, using the links below, before submitting your EoI:
 - [**UK LLC Explore**](https://explore.ukllc.ac.uk/) - UK LLC's data catalogue
-- [**UK LLC Guidebook permitted linkages and research topics guide**](../../lps_partner/linkages/lps_linkages.md) - a summary of the linkages and research topics each partner LPS permits. 
+- [**UK LLC Guidebook available linkages guide**](../../available_linkages/lps_actual_linkages.md) - a summary of the linked data currently available for request. 
 
 ## Register for a UK LLC Apply account
 If you feel that your proposed project is feasible within the UK LLC TRE, go to <strong><a href="https://ukllc.ac.uk/apply" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong> to register for an account.  

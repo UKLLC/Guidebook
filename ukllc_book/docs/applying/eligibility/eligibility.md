@@ -1,6 +1,6 @@
 
 # Am I eligible?
->Last modified: 24 Jun 2026
+>Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Researchers must be UK-based and ONS accredited, and their project must be in the public good.</strong></div>
 <br>
 
@@ -45,7 +45,7 @@ Applications must:
 
 Please note that UK LLC may not hold all data collected by each LPS. Before proceeding with your EoI, check availability of data using the links below:
 - [**UK LLC Explore**](https://explore.ukllc.ac.uk/) - UK LLC's data catalogue
-- [**UK LLC Guidebook permitted linkages and research topics guide**](../../lps_partner/linkages/lps_linkages.md) - a summary of the linkages and research topics each partner LPS permits. 
+- [**UK LLC Guidebook available linkages guide**](../../available_linkages/lps_actual_linkages.md) - a summary of the linked data currently available for request. 
 
 As summarised in the diagram below, you can apply to UK LLC to access data from **multiple LPS**, or one or more LPS in **conjunction with linked data**. If you require non-linked LPS data from one LPS only, please contact that LPS directly. If you require access to linked data only (e.g. NHS data), please contact the linked data owner directly.  
 <img src="../../images/application_requirements_summary.jpg" width="800"/>

@@ -1,5 +1,5 @@
 # FAQs about working with LPS data
->Last modified: 30 Sep 2026
+>Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with Longitudinal Population Study (LPS) data.</strong></div style>  
 <br>
 
@@ -15,7 +15,7 @@ The **'Data'** tab at the top of the page provides the option to search in Study
 
 <details><summary>How can I find out which LPS permit linkage to which datasets?</summary>
 
-The [Permitted Linkages](../lps_partner/linkages/lps_linkages.md) page summarises the linkage permissions associated with each of our partner LPS.
+The [Available Linkages](../available_linkages/lps_actual_linkages.md) guide details the linked data available for each partner LPS. The [Permitted Linkages](../lps_partner/linkages/lps_linkages.md) guide includes linked data that will flow into the TRE in the future when the required governance and data pipeline requirements are completed.
 </details>
 
 <details>

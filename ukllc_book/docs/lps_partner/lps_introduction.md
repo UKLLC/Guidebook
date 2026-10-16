@@ -4,15 +4,15 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK has a world-leading portfolio of around 100 Longitudinal Population Studies (LPS) that have collected detailed  information on over three million members of the UK public. </strong></div>
 <br>
 
-Data collected by LPS include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples.
+Data collected by Longitudinal Population Studies (LPS) include in-depth measures of physical and mental health, lifestyle, environmental and socio-economic measures, alongside biological samples.
 
 Table 1 provides an overview of the **LPS that are part of UK LLC**. UK LLC remains open to additional LPS joining the partnership through a formalised onboarding process.
 
->The table does not include LPS that are working to join the UK LLC partnership but have not yet notified their participants through ‘fair processing’ communications. No data flow into the UK LLC TRE until participants have been notified.
+<aside class="admonition note"><p class="admonition-title">The table does not include LPS that are working to join the UK LLC partnership but have not yet notified their participants through ‘fair processing’ communications. </p>No data flow into the UK LLC TRE until participants have been notified.</aside>
 
 Most LPS have published **cohort profiles** which give detailed information about each LPS - to access these, click on the cohort information in Table 1 (some publications may require library licences to access, but most will be free and publicly accessible). **Click on the LPS name** to discover more about each LPS and their datasets. To build a data request, visit <strong><a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a></strong>.<br>
 
-**Table 1** A summary of the Longitudinal Population Studies (LPS) that are in the UK LLC partnership (listed in alphabetical order)
+**Table 1** A summary of the LPS that are in the UK LLC partnership (listed in alphabetical order)
 
 |**LPS Name**|**Summary**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Coverage**|**Cohort**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Years**|**Owner**|
 |:--|:--|:--|:--|:--|:--|

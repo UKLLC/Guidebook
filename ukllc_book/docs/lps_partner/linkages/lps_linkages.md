@@ -12,7 +12,7 @@ The table below summarises the linkages that are **permitted** for each LPS. Ple
 
 See the [**NHS England dataset restrictions**](../linked_health_data/nhs_england/restrictions/nhse_restrictions.md) guide for a full list of research restrictions. 
 
-
+**Table 1** Linkages permitted by each LPS
 |**LPS**|[**NHS England**](../../linked_health_data/nhs_england/nhse.ipynb)<sup>1</sup>|[**NHS Wales**](../../linked_health_data/nhs_wales/nhsw_intro.md)<br>(Not yet available)|[**Geographies**](../../linked_geo_data/place_based_intro.md)<sup>2</sup>|[**DWP**](../../linked_admin_data/dwp_data/dwp_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/hmrc_data/hmrc_data.md)<br>(Not yet available)|
 |---|:---:|:---:|:---:|:---:|:---:|
 |[**AIRWAVE**](../../lps_data/lps_profiles/airwave.ipynb)|✓|✓|✓|✗|✗|

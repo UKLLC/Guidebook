@@ -1,10 +1,10 @@
 # UK LLC sample
->Last modified: 15 Jul 2026
+>Last modified: 16 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK LLC Trusted Research Environment (TRE) contains data about participants from multiple LPS. We call this pooled population the UK LLC sample. </strong></div>  
 <br>
 
 
-##  Summary: 
+##  Summary 
 * The UK LLC sample is **complex and dynamic** because:  
     (i) Each Longitudinal Population Study (LPS) provides information to UK LLC on a sub-set of their participants;  
     (ii) The sample provided by each LPS will change as new participants join or some withdraw consent to be included in different linkages and/or the UK LLC as a whole; and  
