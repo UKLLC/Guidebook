@@ -1,10 +1,9 @@
 
 # UK LLC database design
 >Last modified: 19 Oct 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Understand how datasets, schemas and views are organised in the UK LLC TRE.</strong></div>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>An overview of how datasets, schemas and views are organised in the UK LLC TRE.</strong></div>
 
 ##  Summary
-
 > The UK LLC Database, named *UKSERPUKLLC* in the TRE, is a **relational database** that contains all the datasets, provided to us by our partner data owners, as **SQL** tables. These tables are organised by different database schemas, where **one schema corresponds to each data owner** (e.g. ALSPAC, NHSE, SABRE). The main software used in the TRE to manage and explore the database is **Microsoft SQL Server Management Studio (SSMS)**.
 
 ## Relational database
@@ -37,4 +36,4 @@ Rather than provisioning datasets by granting direct read access to the tables, 
 
 <sup>1</sup>The schema 'nhsd' incorporates linked data from NHS England (previously called NHS Digital).
 
-**Dates and updates**: the date suffix (yyyymmdd) for each View, refers to the date on which the data were shared with UK LLC, rather than the date on which the data were collected. Many LPS datasets contain variables indicating the date of data collection (e.g. questionnaire completion, clinic visit), which may pre-date the LPS joining the UK LLC partnership.
+**Dates and updates**: the date suffix (yyyymmdd) for each View, refers to the date on which the data were shared with UK LLC, rather than the date on which the data were collected. Many LPS datasets contain variables indicating the date of data collection (e.g. questionnaire completion, clinic visit), which may pre-date the LPS joining the UK LLC.

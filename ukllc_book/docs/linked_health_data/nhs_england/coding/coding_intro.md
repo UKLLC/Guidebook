@@ -1,27 +1,27 @@
 # Coded variables in NHS England datasets
->Last modified: 12 Dec 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Clinical classification systems are used to code information collected about patients in the NHS England datasets.</strong></div>
+>Last modified: 19 Oct 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>An overview of the classification and coding systems used in NHS England datasets.</strong></div>
 <br>
 
 Codes are used for a range of **statistical, clinical** and **management purposes**, e.g. by Integrated Care Boards (ICBs) to reimburse hospitals for the care they have provided.
 
-The main **clinical classifications** mandated by NHS England are **SNOMED CT, ICD-10 and OPCS-4**. However, you'll also find **Read codes**, **NHS national codes**, **dm+d codes** and **non-clinical classifications** in the datasets. The clinical domains covered by these different systems vary, as shown in Figure 1 below.
 
-In **hospital settings**, specialist clinical coders translate medical information in patients' case notes into codes **post-discharge**. In **other settings**, clinicians directly record information in the electronic patient record (EPR) at the **point of care**.
+## Classification systems used in NHS England datasets
+
+The main **clinical classifications** mandated by NHS England are **SNOMED CT, ICD-10 and OPCS-4**. However, you'll also find **Read codes**, **NHS national codes**, **dm+d codes** and **non-clinical classifications** in the datasets. The clinical domains covered by these different systems vary, as shown in Figure 1 below. In **hospital settings**, specialist clinical coders translate medical information in patients' case notes into codes **post-discharge**. In **other settings**, clinicians directly record information in the electronic patient record (EPR) at the **point of care**.
 
 <img src= "../../../images/Coding_Figure1_domains.jpg" width="600">
 
 
 **Figure 1** Scopes of the clinical classification systems used in NHS England datasets
 **Note**: Figure 1 is adapted from the Bennett Institute for Applied Data Science's blog: <strong><a href="https://www.bennett.ox.ac.uk/blog/2023/06/an-introduction-to-clinical-codes-and-terminology-systems/" target="_blank" rel="noopener noreferrer">An Introduction to Clinical Codes and Terminology</a></strong>
-## Classification systems
 
 Table 1 lists the systems used in each NHS England dataset in the UK LLC TRE. Below the table we summarise the key aspects of each system.  
 >For the datasets marked with an asterisk (*) and in italics, you [**must submit a clinical code list**](../coding/codelists.md) alongside your data request when you apply to access data in the UK LLC TRE.
 
 **Note:** The information in the table was originally obtained from the NHS England API, apart from DEMOGRAPHICS and MORTALITY - for these two datasets information was obtained from the <strong><a href="https://digital.nhs.uk/services/data-access-request-service-dars/dars-products-and-services/metadata-dashboard" target="_blank" rel="noopener noreferrer">NHS England Metadata dashboard</a></strong> We are aware that the information from the API is not comprehensive and we are working to update this table.
 
-**Table 1 Classification systems used in NHS England datasets**
+**Table 1** Classification systems used in NHS England datasets
 | Dataset name in TRE | SNOMED-CT | ICD-10 | ICD-9 | OPCS-4 | Read |dm+d| BNF | National codes |Other|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ****HESOP***   |✗|✓|✗|✓|✗|✗|✗|✓|✓|
@@ -44,14 +44,14 @@ Table 1 lists the systems used in each NHS England dataset in the UK LLC TRE. Be
 | **CVS**        |✓|✗|✗|✗|✗|✗|✗|✗|✗|
 | **IELISA**     |✓|✗|✗|✗|✗|✗|✗|✗|✓|
 
- ## Clinical classifications
-**SNOMED CT:**  Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT) is an international system used to classify many types of medical data, including diagnoses, procedures, symptoms, family history, assessment tools, observations and medications. The UK edition of SNOMED CT contains the UK extensions, which include UK-specific screening procedures and assessment scales. In contrast to OPCS-4 and ICD-10, SNOMED CT is designed for direct management and care of patients. Codes are in numeric format, e.g. '85189001' represents ‘Acute appendicitis’. All NHS healthcare providers in England must now use SNOMED CT for capturing clinical terms within EPR systems. <strong><a href="https://termbrowser.nhs.uk/?" target="_blank" rel="noopener noreferrer">Click here to browse SNOMED CT codes</a></strong>.
+ ## Classification system summaries
+**SNOMED CT:** Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT) is an international system used to classify many types of medical data, including diagnoses, procedures, symptoms, family history, assessment tools, observations and medications. The UK edition of SNOMED CT contains the UK extensions, which include UK-specific screening procedures and assessment scales. In contrast to OPCS-4 and ICD-10, SNOMED CT is designed for direct management and care of patients. Codes are in numeric format, e.g. '85189001' represents ‘Acute appendicitis’. All NHS healthcare providers in England must now use SNOMED CT for capturing clinical terms within EPR systems. <strong><a href="https://termbrowser.nhs.uk/?" target="_blank" rel="noopener noreferrer">Click here to browse SNOMED CT codes</a></strong>.
 
-**ICD-10:** World Health Organization’s International Classification of Diseases (ICD), version 10, is used to classify diagnosis information. Codes are in alphanumeric format, e.g. 'K351' represents 'Acute appendicitis'. ICD-9 was superseded in 1995 by ICD-10. ICD-11 officially came into effect in January 2022, but is not expected to be mandated across the NHS until April 2026. <strong><a href="https://classbrowser.nhs.uk/#/" target="_blank" rel="noopener noreferrer">Click here to browse ICD-10 codes</a></strong>
+**ICD-10:** World Health Organization’s International Classification of Diseases (ICD), version 10, is used to classify diagnosis information. Codes are in alphanumeric format, e.g. 'K351' represents 'Acute appendicitis'. ICD-9 was superseded in 1995 by ICD-10. ICD-11 officially came into effect in January 2022, but is not expected to be mandated across the NHS until April 2026. <strong><a href="https://classbrowser.nhs.uk/#/" target="_blank" rel="noopener noreferrer">Click here to browse ICD-10 codes</a></strong>.
 
-**ICD-9:** the WHO's International Classification of Diseases version 9 was superseded by ICD-10 in 1995.
+**ICD-9:** The WHO's International Classification of Diseases version 9 was superseded by ICD-10 in 1995.
 
-**OPCS-4:** Office of Population Censuses and Surveys (OPCS), 4th revision, is used to classify treatments and procedures in the UK. Codes are in alphanumeric format, e.g. 'H01' represents 'Emergency excision of appendix'. OPCS-4 is updated every three years; the current version is OPCS-4.10, which was implemented across the NHS in April 2023. <strong><a href="https://classbrowser.nhs.uk/#/" target="_blank" rel="noopener noreferrer">Click here to browse OPCS-4 codes</a></strong>
+**OPCS-4:** Office of Population Censuses and Surveys (OPCS), 4th revision, is used to classify treatments and procedures in the UK. Codes are in alphanumeric format, e.g. 'H01' represents 'Emergency excision of appendix'. OPCS-4 is updated every three years; the current version is OPCS-4.10, which was implemented across the NHS in April 2023. <strong><a href="https://classbrowser.nhs.uk/#/" target="_blank" rel="noopener noreferrer">Click here to browse OPCS-4 codes</a></strong>.
 
 **Read codes:** Read/Clinical Terms Version 3 (CTV3) codes are classed by NHS England as a deprecated standard that should be replaced by SNOMED CT. They were used in England in primary care until around 2018 and they were permitted for use in secondary care, including mental health care settings, until March 2020. SNOMED CT was formed by a merger of Read codes with SNOMED RT (the original SNOMED Reference Terminology). Read codes are in alphanumeric format. NHS England no longer supports a browser.
 

@@ -1,11 +1,14 @@
 # Processing and linkage to NHS England datasets
->Last modified: 20 Jun 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The linkage of participants to their English health records (where permissions allow) is a multi-step process overseen by UK LLC.</strong></div>
+>Last modified: 19 Oct 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The process used to link Longitudinal Population Study (LPS) participants to their NHS England health records.</strong></div>
 <br>
 
-Datasets are submitted by health and social care organisations via a range of pathways, including upload to the <strong><a href="https://digital.nhs.uk/services/secondary-uses-service-sus" target="_blank" rel="noopener noreferrer">Seconday Uses Service (SUS)</a></strong>, the <strong><a href="https://digital.nhs.uk/services/strategic-data-collection-service-in-the-cloud-sdcs-cloud" target="_blank" rel="noopener noreferrer">Strategic Data Collection Service in the cloud (SDCS Cloud)</a></strong> or the <strong><a href="https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh" target="_blank" rel="noopener noreferrer">Message Exchange for Social Care and Health (MESH)</a></strong>. The degree of data validation and derivation of variables depends on the dataset.
 
-## Flow of LPS participants' NHS England data into the UK LLC TRE
+The linkage of participants to their English health records (where permissions allow) is a multi-step process overseen by UK LLC.
+
+Datasets are submitted by health and social care organisations via a range of pathways, including upload to the <a href="https://digital.nhs.uk/services/secondary-uses-service-sus" target="_blank" rel="noopener noreferrer">Seconday Uses Service (SUS)</a></strong>, the <a href="https://digital.nhs.uk/services/strategic-data-collection-service-in-the-cloud-sdcs-cloud" target="_blank" rel="noopener noreferrer">Strategic Data Collection Service in the cloud (SDCS Cloud)</a> or the <a href="https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh" target="_blank" rel="noopener noreferrer">Message Exchange for Social Care and Health (MESH)</a>. The degree of data validation and derivation of variables depends on the dataset.
+
+## Flow of NHS England data into the UK LLC TRE
 Flows of data from contributing Longitudinal Population Studies (LPS) and NHS England are conducted through a ‘split file’ protocol where the **flow of LPS participants' identifiers** (File 1s) is entirely separate from the **flow of LPS participants' NHS England data** (File 2s) - see figure 1. Updates to NHS England datasets flow on an **annual basis** into the UK LLC TRE.
 
 <img src="../../../images/Linkage_UKLLCDataFlows_Figure1b.jpg" width="600"/>
@@ -44,7 +47,7 @@ The UK LLC Data Team checks that all the NHS England data that are uploaded to t
 * **Load and integrate variable and value labelling**, where available from the NHS API and other web sources, into master metadata tables.
 * **Run the automated disclosure control risk assessment** and manually review all flagged risks.
 
-## LPS participants can opt out of linkage to their NHS England data
+## LPS participants can opt out of this linkage
 LPS can send **quarterly updates** of their File 1s (participant identifiers and permission flags) to DHCW. If a participant has decided to **opt out** of UK LLC altogether or to opt out of linkage to their NHS records, or conversely has decided to **opt into** linkage to their NHS records, their instructions are communicated to **NHS England** in a **delta file**, which is based on the permission flags in the File 1. If a participant opts out, no further data about them will flow into the UK LLC TRE and the participant’s data will not be provisioned to new research projects. However, researchers who already have access to that individual’s information will be permitted to retain that access until the end of the project, but they will not obtain any new data about that individual.
 
 While some LPS that contribute data to UK LLC’s TRE only use consent to determine inclusion of participants in the UK LLC TRE, other LPS operate a blended consent/section 251 (for English and Welsh participants) model to reduce bias and to improve research inclusivity. **NHS National Data Opt Out** is applied to all NHS data extractions, which means that any participant included using s251 as a legal basis is excluded if they have set a national data opt-out.

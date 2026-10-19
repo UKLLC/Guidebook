@@ -1,7 +1,7 @@
-# Security of data in the UK LLC TRe
+# Security of data in the UK LLC TRE
 
 >Last modified: 19 Oct 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Understand the standards, accreditations and safeguards that protect data in the UK LLC TRE.</strong></div>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The standards, accreditations and safeguards that protect data in the UK LLC TRE.</strong></div>
 <br>
 
 UK LLC's Trusted Research Environment (TRE) adheres to the highest national and international standards of information security. UK LLC has developed a comprehensive and robust **information security management system (ISMS)** which is regularly audited by independent experts.

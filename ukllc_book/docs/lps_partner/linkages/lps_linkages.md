@@ -1,7 +1,7 @@
 # Linkages permitted for each LPS
->Last modified: 16 Oct 2026
+>Last modified: 19 Oct 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Explore the data linkages permitted by each partner Longitudinal Population Study (LPS).</strong></div>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Understand the data linkages permitted by each partner Longitudinal Population Study (LPS).</strong></div>
 <br>
 
 The table below summarises the linkages that are **permitted** for each LPS. Please note that not all of these linkages are available yet because LPS, linked data owners and UK LLC need time to complete the necessary **governance** and **data pipelines** to enable data to flow into the UK LLC Trusted Research Environment (TRE). The [**Available linkages**](../../available_linkages/lps_actual_linkages.md) guide provides researchers with a list of the LPS that are already linked to their participants' [**NHS England health records**](../available_linkages/lps_actual_health.md) and [**geographic datasets**](../available_linkages/lps_actual_geographic.md) and can therefore be included in an application to UK LLC.

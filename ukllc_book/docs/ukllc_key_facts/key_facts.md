@@ -1,7 +1,7 @@
 # Where to find the information you need
 >Last modified: 19 Oct 2026
 
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Find information tailored to researchers, Longitudinal Population Study (LPS) participants and staff, and the public.</strong></div>
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Find information for researchers, Longitudinal Population Study (LPS) participants and staff, and the public.</strong></div>
 <br>
 
 UK LLC Guidebook is **aimed primarily at researchers** to help them understand the data available and how to work in the UK LLC Trusted Research Environment (TRE). The table below suggests places to find information, depending on whether you're a researcher, LPS data manager, LPS participant or other member of the public.
