@@ -1,29 +1,23 @@
 # National Health Service (NHS) data
->Last modified: 16 Oct 2026
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC is committed to four nation NHS coverage, i.e. England, Northern Ireland, Scotland and Wales.</strong></div>  
+>Last modified: 19 Oct 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The current status of NHS health data linkage and dataset documentation across the four UK nations.</strong></div>  
 
-## Four nation linkage:
-* [**NHS England**](../linked_health_data/nhs_england/nhse.ipynb) <span style="color:red">**(data flowing)**:<span style="color:black"> participants are linked to their English health records (where permissions are in place).   
-<br>
-* [**NHS Wales**](../linked_health_data/nhs_wales/nhsw_intro.md) <span style="color:red">**(linkage approved)**:<span style="color:black"> SAIL Databank has approved the extraction of participants' Welsh health records (where permissions are in place) - more details will follow in due course.  
-<br>
-* [**NHS Scotland**](../linked_health_data/nhs_scotland/nhss_intro.md) <span style="color:red">(**linkage conditionally approved)**: <span style="color:black">NHS Scotland Public Benefit and Privacy Panel for Health and Social Care (HSC-PBPP) has conditionally approved the flow of data - more details will follow in due course.  
-<br>
-* [**NHS Northern Ireland**](../linked_health_data/nhs_northern_ireland/nhsni_intro.md) <span style="color:red">**(discussions ongoing)**: <span style="color:black">negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI) - more details will follow in due course.  
+## Current status of NHS linkage across the four UK nations
+* [**NHS England**](../linked_health_data/nhs_england/nhse.ipynb) <span style="color:red">**(data flowing)**:<span style="color:black"> Participants are linked to their English health records (where permissions are in place).   
+* [**NHS Wales**](../linked_health_data/nhs_wales/nhsw_intro.md) <span style="color:red">**(linkage approved)**:<span style="color:black"> Extraction of participants' Welsh health records has been approved by SAIL Databank (where permissions are in place). More details will follow in due course.  
+* [**NHS Scotland**](../linked_health_data/nhs_scotland/nhss_intro.md) <span style="color:red">(**linkage conditionally approved)**: <span style="color:black">The flow of health data has been conditionally approved by the NHS Scotland Public Benefit and Privacy Panel for Health and Social Care (HSC-PBPP). More details will follow in due course.  
+* [**NHS Northern Ireland**](../linked_health_data/nhs_northern_ireland/nhsni_intro.md) <span style="color:red">**(discussions ongoing)**: <span style="color:black">Negotiations are ongoing with Health & Social Care Northern Ireland (HSCNI). More details will follow in due course.  
 
-<aside class="admonition note"><p class="admonition-title">The <a 
-href="https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_health.html" target="_blank" rel="noopener 
-noreferrer"><b>Available NHS health linkages</b></a> guide details the linked NHS records available for each LPS.</p></aside>
-<br>
+The [**Available health linkages**](../available_linkages/lps_actual_health.md) guide details the linked NHS records available for each LPS.
 
->**Note**: Even if an LPS permits linkage to an NHS dataset, the individual participants in that LPS can choose to opt out of UK LLC altogether or to opt out of all or a particular type of  data linkage. If a participant opts out, no new data about them will be shared, but data that has already been provisioned can still be used until the project ends. Please see the <strong><a href="https://ukllc.ac.uk/safeguards" target="_blank" rel="noopener noreferrer">UK LLC Privacy Notice for LPS Participants</a></strong> for further information.
+<aside class="admonition note"><p class="admonition-title">Even if an LPS permits linkage to an NHS dataset, the individual participants in that LPS can choose to opt out of UK LLC altogether or to opt out of all or a particular type of data linkage.</p>If a participant objects, no new data about them will be shared, but data that have already been provisioned to a research project can still be used until the project ends.</aside> 
 
-## UK LLC documentation of NHS datasets
-We have organised our NHS data documentation by nation. Within each nation we have included (where the information is available to us) the following:
-* A summary of the **datasets** we hold for each nation.
-* A summary of the **restrictions** to use of the datasets.
-* A summary of the **temporal coverage** of the datasets.
-* An explanation of how LPS participants are **linked** to their health records and how they can **opt out**.
-* A summary of the various classification or **coding systems** used by each nation. 
-* Multiple **groupings guides** that summarise the datasets that belong to the same domain, e.g. mental health datasets, hospital datasets. 
-* Multiple **individual guides** that provide details about each of the datasets, e.g. NHS England's Hospital Episode Statistics (HES) Outpatients.  
+## How UK LLC structures NHS dataset documentation
+UK LLC's NHS documentation is organised by nation. Within each nation, researchers will find the following information (where available):
+* A summary of the **datasets** we hold for each nation
+* A summary of the **restrictions** to use of the datasets
+* A summary of the **temporal coverage** of the datasets
+* An explanation of how LPS participants are **linked** to their health records and how they can **opt out**
+* A summary of the various classification or **coding systems** used by each nation 
+* **Groupings guides** that summarise datasets belonging to the same domain, e.g. mental health datasets, hospital datasets 
+* **Dataset guides** that provide detailed information about individual datasets, e.g. NHS England's Hospital Episode Statistics (HES) Outpatients.  
