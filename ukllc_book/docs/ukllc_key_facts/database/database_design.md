@@ -1,6 +1,6 @@
 
 # UK LLC database design
->Last modified: 15 Jul 2025
+>Last modified: 19 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK LLC database holds the data available to researchers as a vast collection of SQL tables.</strong></div>
 
 ##  Summary
@@ -30,10 +30,10 @@ So, while researchers in the TRE will not be inserting or updating data to *UKSE
 Rather than provisioning datasets by granting direct read access to the tables, they are made available to researchers as Views in the database. This allows us to adhere to principes of *Data minimisation*, where researchers only have access to the data they need for their specific research question(s). Moreover, datasets in the UK LLC TRE are made available to researchers in the same format as they are provided to UK LLC by the data owners.
 
 **UK LLC naming convention** ensures the name of each View includes the project number, source/owner, dataset name, version number, and the date the file was last updated. For example, Views provisioned to project LLC_9999 might include:
-* LLC_9999.CORE_denominator_file1_v0001_yyyymmdd
-* LLC_9999.LPSNAME_COVID_W1_v0001_yyyymmdd
-* LLC_9999.nhsd_HESAPC_v0003<sup>1</sup>
-* LLC_9999.RETURNED_sociodemo_harmonised_selfreport_v0004_yyyymmdd<sup>1</sup>
+
+* LLC_9999.LPSNAME_COVID_W1_v0002_yyyymmdd
+* LLC_9999.nhsd_HESAPC_v0004<sup>1</sup>
+* LLC_9999.UKLLC_study_permissions_v0001_yyyymmdd
 <br>
 
 <sup>1</sup>The schema 'nhsd' incorporates linked data from NHS England (previously called NHS Digital).

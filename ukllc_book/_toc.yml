@@ -161,6 +161,8 @@ parts:
           sections:
             - title: Datasets
               file: docs/lps_data/datasets/ncds58/datasets/ncds58_datasets.ipynb
+            - title: NCDS58 tips & FAQs
+              file: docs/lps_data/lps_profiles/tips/ncds58_tips.md                 
         - title: NEXTSTEP
           file: docs/lps_data/lps_profiles/nextstep.ipynb
           sections:
@@ -405,13 +407,13 @@ parts:
         - title: NHS England reference datasets
           file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_reference.md
           sections:
-            - title: Study permissions
+            - title: Linkage permissions
               file: docs/ukllc_managed_data/datasets/nhse_reference/study_permissions.ipynb
-            - title: NHSE patient service usage
+            - title: Health service usage
               file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_patient_service_usage.ipynb
-            - title: NHSE patient demo mortality
+            - title: Demographics
               file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_patient_demo_mortality.ipynb
-            - title: NHSE lsoa11 dataset mappings
+            - title: LSOA from health records
               file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb
         - title: Charlson comorbidity dataset
           file: docs/ukllc_managed_data/datasets/charlson/charlson.ipynb

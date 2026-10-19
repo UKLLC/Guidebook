@@ -1,5 +1,5 @@
 # FAQs about working with LPS data
->Last modified: 16 Oct 2026
+>Last modified: 19 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with Longitudinal Population Study (LPS) data.</strong></div style>  
 <br>
 
@@ -136,18 +136,4 @@ This section is work-in-progress and will be updated as further quirks are broug
 * Some GLAD participants are also in the NIRHBIO_COPING study. It is not yet possible to identify these individuals, but UK LLC is working on a new ID which will enable this. The new ID will be provisioned to all projects early in 2026.
 
 >Information about data from the Genetic Links to Anxiety and Depression (GLAD) Study held in the TRE is [here](../lps_data/lps_profiles/glad.ipynb).
-</details>
-
-<details>
-<summary>NCDS58_ncds5_mother_child_v0001</summary>
-
-Two **NCDS** tables do not conform to the convention that tables split as part of the TRE loading process can be joined by the variable LLC_XXXX_stud_id alone (described in **Practicalities** above). 
-
-The exceptions are:
-* ncds58_ncds5_mother_child_vXXXX_1_YYYYMMDD
-* ncds58_ncds5_mother_child_vXXXX_2_YYYYMMDD. 
-
-These tables are at the child-level whereas the key ID LLC_XXXX_stud_id is at the parent-level, so they require a join on 2 fields: **LLC_XXXX_stud_id** and **person**.
-
->Information about data from the 1958 National Child Development (NCDS58) Study held in the TRE is [here](../lps_data/lps_profiles/ncds58.ipynb).
 </details>
