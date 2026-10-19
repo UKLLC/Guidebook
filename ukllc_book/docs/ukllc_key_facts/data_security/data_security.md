@@ -1,13 +1,13 @@
-# Security of data in the UK LLC Trusted Research Environment (TRE)
+# Security of data in the UK LLC TRE
 
->Last modified: 10 Sep 2025
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC employs a range of methods to ensure the security and confidentiality of LPS participants' personal data</strong></div>
+>Last modified: 19 Oct 2026
+<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The standards, accreditations and safeguards that protect data in the UK LLC TRE.</strong></div>
 <br>
 
-UK LLC's TRE adheres to the highest national and international standards of information security. We have developed a comprehensive and robust **information security management system (ISMS)** which is regularly audited by independent experts.
+UK LLC's Trusted Research Environment (TRE) adheres to the highest national and international standards of information security. UK LLC has developed a comprehensive and robust **information security management system (ISMS)** which is regularly audited by independent experts.
 <br> 
 
->The UK LLC TRE contains de-identified data about people enrolled in partner LPS. Protecting the confidentiality and security of LPS participants’ data and maintaining the integrity and availability of data accessed by approved researchers, are of critical importance.  
+>The UK LLC TRE contains de-identified data about people enrolled in partner LPS. Protecting the confidentiality and security of LPS participants’ data and maintaining the integrity and availability of data accessed by approved researchers, are of critical importance to UK LLC.  
 
 The security of data held in the UK LLC TRE is assured by a range of accreditations and safeguards.
 
@@ -19,9 +19,10 @@ The security of data held in the UK LLC TRE is assured by a range of accreditati
 <br>
 * UK LLC completes the NHS England **Data Security and Protection Toolkit (DSPT)** every year, as a requirement for accessing NHS England patient data.  
 <br>
-* The well-established <strong><a href="https://ukdataservice.ac.uk/help/secure-lab/what-is-the-five-safes-framework/" target="_blank" rel="noopener noreferrer">‘Five Safes’ Framework</a></strong>  underpins all projects undertaken in the UK LLC TRE.    
+* The well-established [**Five Safes Framework**](../data_security/five_safes.md) underpins all projects undertaken in the UK LLC TRE.    
 <br>
-> More information on UK LLC's <a href="https://ukllc.ac.uk/data-security" target="_blank" rel="noopener noreferrer">data security</a> and <a href="https://ukllc.ac.uk/safeguards" target="_blank" rel="noopener noreferrer">safeguards</a> are available on the UK LLC website (<a href="https://ukllc.ac.uk" target="_blank" rel="noopener noreferrer">https://.ukllc.ac.uk</a>).
+
+Visit the **UK LLC website** for more information about UK LLC's <a href="https://ukllc.ac.uk/data-security" target="_blank" rel="noopener noreferrer">data security</a> and <a href="https://ukllc.ac.uk/safeguards" target="_blank" rel="noopener noreferrer">safeguards</a>.
 
 
 
