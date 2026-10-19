@@ -7,7 +7,7 @@
 UK LLC's Trusted Research Environment (TRE) adheres to the highest national and international standards of information security. UK LLC has developed a comprehensive and robust **information security management system (ISMS)** which is regularly audited by independent experts.
 <br> 
 
->The UK LLC TRE contains de-identified data about people enrolled in partner LPS. Protecting the confidentiality and security of LPS participants’ data and maintaining the integrity and availability of data accessed by approved researchers, are of critical importance to UK LLC.  
+>The UK LLC TRE contains **de-identified data** about people enrolled in partner LPS. Protecting the confidentiality and security of LPS participants’ data and maintaining the integrity and availability of data accessed by approved researchers, are of critical importance to UK LLC.  
 
 The security of data held in the UK LLC TRE is assured by a range of accreditations and safeguards.
 

@@ -1,11 +1,7 @@
 
 # UK LLC database design
 >Last modified: 19 Oct 2026
-<<<<<<< HEAD
-<div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The UK LLC database holds the data available to researchers as a vast collection of SQL tables.</strong></div>
-=======
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>An overview of how datasets, schemas and views are organised in the UK LLC TRE.</strong></div>
->>>>>>> 3826d64cfbb24539e4a4ba835736f1829cbaa3f5
 
 ##  Summary
 > The UK LLC Database, named *UKSERPUKLLC* in the TRE, is a **relational database** that contains all the datasets, provided to us by our partner data owners, as **SQL** tables. These tables are organised by different database schemas, where **one schema corresponds to each data owner** (e.g. ALSPAC, NHSE, SABRE). The main software used in the TRE to manage and explore the database is **Microsoft SQL Server Management Studio (SSMS)**.
@@ -32,18 +28,10 @@ So, while researchers in the TRE will not be inserting or updating data to *UKSE
 
 Rather than provisioning datasets by granting direct read access to the tables, they are made available to researchers as Views in the database. This allows UK LLC to adhere to principes of **data minimisation**, where researchers only have access to the data they need for their specific research question(s). Moreover, datasets in the UK LLC TRE are made available to researchers in the same format as they are provided to UK LLC by the data owners.
 
-<<<<<<< HEAD
-**UK LLC naming convention** ensures the name of each View includes the project number, source/owner, dataset name, version number, and the date the file was last updated. For example, Views provisioned to project LLC_9999 might include:
-
-* LLC_9999.LPSNAME_COVID_W1_v0002_yyyymmdd
-* LLC_9999.nhsd_HESAPC_v0004<sup>1</sup>
-* LLC_9999.UKLLC_study_permissions_v0001_yyyymmdd
-=======
 **UK LLC naming convention**: this ensures the name of each View includes the project number, source/owner, dataset name, version number, and the date the file was last updated. For example, Views provisioned to project LLC_9999 might include:
 * LLC_9999.LPSNAME_COVID_W1_v0001_yyyymmdd
 * LLC_9999.nhsd_HESAPC_v0003<sup>1</sup>
 * LLC_9999.RETURNED_sociodemo_harmonised_selfreport_v0004_yyyymmdd<sup>1</sup>
->>>>>>> 3826d64cfbb24539e4a4ba835736f1829cbaa3f5
 <br>
 
 <sup>1</sup>The schema 'nhsd' incorporates linked data from NHS England (previously called NHS Digital).
