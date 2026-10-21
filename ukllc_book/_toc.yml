@@ -386,25 +386,27 @@ parts:
           file: docs/linked_admin_data/hmrc_data/hmrc_data.md
         - title: Department for Work & Pensions
           file: docs/linked_admin_data/dwp_data/dwp_data.md
+    - title: Harmonised data
+      file: docs/harmonisation/harmonised_intro.md
+      sections:
+        - title: FAQs about harmonised dataset
+          file: docs/harmonisation/harmonisation_faq.md
+        - title: Demographic (full)
+          file: docs/harmonisation/demo_harmonised_full.ipynb
+        - title: Demographic (reduced)
+          file: docs/harmonisation/demo_harmonised_reduced.ipynb
+        - title: Highest educational qualification
+          file: docs/harmonisation/education_harmonised.ipynb
     - title: UK LLC-managed data
       file: docs/ukllc_managed_data/ukllc_data.md
       sections:
         - title: FAQs about UK LLC-managed data
           file: docs/ukllc_managed_data/ukllc_managed_faq.md
-        - title: Harmonised sociodemographic datasets
-          file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/sociodemo_harmonised.md
-          sections:
-            - title: Demographic (full)
-              file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/demo_harmonised_full.ipynb
-            - title: Demographic (reduced)
-              file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/demo_harmonised_reduced.ipynb
-            - title: Highest educational qualification
-              file: docs/ukllc_managed_data/datasets/sociodemo_harmonised/education_harmonised.ipynb
         - title: DATAMIND collection
           file: docs/ukllc_managed_data/datasets/datamind/datamind_datasets.md
         - title: UK Biobank collection
           file: docs/ukllc_managed_data/datasets/biobank/ukbb_datasets.md
-        - title: NHS England reference datasets
+        - title: Reference datasets
           file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_reference.md
           sections:
             - title: Linkage permissions

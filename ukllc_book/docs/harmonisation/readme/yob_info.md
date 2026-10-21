@@ -1,5 +1,5 @@
 # Understanding the harmonisation of LPS year of birth (age) variables
->Last modified: 14 Oct 2026
+>Last modified: 21 Oct 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC has harmonised participants' year of birth as recorded across all LPS. </strong></div>  
 
 ## Introduction  
