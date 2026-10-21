@@ -2175,6 +2175,7 @@ class UKLLCDataSet:
             ).T
         df_ss_info = DocHelper.style_table("_", df_ss_info)
         return df_ss_info
+    
 
     def variable_table(self):
         df = md.get_table_vars("ukllc", self.dataset)[["variable_name", "variable_label"]]
