@@ -1260,7 +1260,7 @@ class NHSEDataSet:
             markdown/DF: markdown-formatted DF of cohort breakdown for DS
         """
         
-        df = md.get_nhse_cohort_counts("IAPT_v1_5").rename(
+        df = md.get_nhse_cohort_counts(self.dataset).rename(
             columns={
                 "cohort": "Cohort",
                 "count": "Participant Count"
