@@ -48,21 +48,29 @@ To request files out of the TRE **follow the steps below**:
 
 <img src="../images/user_guide/FileOut_2_22102026.png" width="100" height="100"/>  
 
-2.	Select ‘**Request File(s) Out**’.  
 
-<img src="../images/user_guide/FileOut_3_22102026.png" width="400"/>   
+
+2.	Select ‘**New File Out Request**’.  
+
+<img src="../images/user_guide/FileOut_3_22102026.png" width="300"/>   
+
+
 
 3.	Choose your **files**.  
 
-<img src="../images/user_guide/FileOut_4_22102026.png" width="400"/>  
+<img src="../images/user_guide/FileOut_4_22102026.png" width="600"/>  
+
+
 
 4. Select your **UK LLC project number**.
 
-<img src="../images/user_guide/FileOut_1_22102026.png" width="400"/>  
+<img src="../images/user_guide/FileOut_1_22102026.png" width="700"/>  
+
+
 
 5. If your file-out is a **reusable research output** please tick the '**GitHub/GitLab sharing**' box. You **must** include a **description** of your file-out within the text box or refer to the text file that includes the description. 
 
-<img src="../images/user_guide/FileOut_5_22102026.png" width="600"/>
+<img src="../images/user_guide/FileOut_5_22102026.png" width="800"/>
 
 
 6. If the reviewer has any **questions** they will email you to seek clarity (but note, this will delay your file-out).
