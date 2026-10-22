@@ -401,6 +401,7 @@ parts:
       file: docs/ukllc_managed_data/ukllc_data.md
       sections:
         - title: FAQs about UK LLC-managed data
+          file: docs/ukllc_managed_data/ukllc_managed_faq.md
         - title: Reference datasets
           file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_reference.md
           sections:
@@ -411,7 +412,7 @@ parts:
             - title: Demographics
               file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_patient_demo_mortality.ipynb
             - title: LSOA from health records
-              file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb          file: docs/ukllc_managed_data/ukllc_managed_faq.md
+              file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb
         - title: DATAMIND collection
           file: docs/ukllc_managed_data/datasets/datamind/datamind_datasets.md
         - title: UK Biobank collection
