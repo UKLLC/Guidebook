@@ -13,7 +13,7 @@ parts:
     - title: Our partner LPS
       file: docs/lps_partner/lps_introduction.md
       sections:
-        - title: LPS characteristics
+        - title: Characteristics
           file: docs/lps_partner/characteristics/characteristics_intro.md
         - title: Permitted linkages
           file: docs/lps_partner/linkages/lps_linkages.md
@@ -63,7 +63,7 @@ parts:
               file: docs/ukllc_key_facts/sample/freezes/freeze2.ipynb
             - title: Freeze 1 | Aug 2022
               file: docs/ukllc_key_facts/sample/freezes/freeze1.ipynb
-        - title: UK LLC database design
+        - title: Database design
           file: docs/ukllc_key_facts/database/database_design.md
         - title: Data security
           file: docs/ukllc_key_facts/data_security/data_security.md 
@@ -83,7 +83,7 @@ parts:
           file: docs/applying/applying/eoi.md
         - title: Submit application
           file: docs/applying/applying/application.md
-        - title: Sign UK LLC contracts
+        - title: Sign contracts
           file: docs/applying/applying/paperwork.md
         - title: Review process
           file: docs/applying/applying/review.md
@@ -333,7 +333,7 @@ parts:
     - title: Geographic data
       file: docs/linked_geo_data/place_based_intro.md
       sections:
-        - title: FAQs about place-based data
+        - title: FAQs about geo data
           file: docs/linked_geo_data/place_faq.md
         - title: Processing & linkage
           file: docs/linked_geo_data/processing/processing_and_linkage.md
@@ -342,7 +342,7 @@ parts:
           sections:
             - title: Index of Multiple Deprivation (IMD)
               file: docs/linked_geo_data/population_datasets/imd/imd.ipynb
-            - title: Townsend Deprivation Index (2011)
+            - title: Townsend Index
               file: docs/linked_geo_data/population_datasets/townsend/townsend_2011.ipynb
         - title: Environmental datasets
           file: docs/linked_geo_data/environmental_datasets/environment.md
@@ -364,9 +364,9 @@ parts:
             - title: Pollution datasets
               file: docs/linked_geo_data/environmental_datasets/pollution_datasets/pollution.md
               sections:
-                - title: Air pollution NO2 & PM
+                - title: Air pollution NO2 & PM2.5
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb
-                - title: Air pollution NOx, NO2 and O3
+                - title: Air pollution NOx, NO2 & O3
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.ipynb
                 - title: Noise pollution
                   file: docs/linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb
@@ -389,23 +389,18 @@ parts:
     - title: Harmonised data
       file: docs/harmonisation/harmonised_intro.md
       sections:
-        - title: FAQs about harmonised dataset
+        - title: FAQs about harmonised data
           file: docs/harmonisation/harmonisation_faq.md
         - title: Demographic (full)
           file: docs/harmonisation/demo_harmonised_full.ipynb
         - title: Demographic (reduced)
           file: docs/harmonisation/demo_harmonised_reduced.ipynb
-        - title: Highest educational qualification
+        - title: Education
           file: docs/harmonisation/education_harmonised.ipynb
     - title: UK LLC-managed data
       file: docs/ukllc_managed_data/ukllc_data.md
       sections:
         - title: FAQs about UK LLC-managed data
-          file: docs/ukllc_managed_data/ukllc_managed_faq.md
-        - title: DATAMIND collection
-          file: docs/ukllc_managed_data/datasets/datamind/datamind_datasets.md
-        - title: UK Biobank collection
-          file: docs/ukllc_managed_data/datasets/biobank/ukbb_datasets.md
         - title: Reference datasets
           file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_reference.md
           sections:
@@ -416,7 +411,11 @@ parts:
             - title: Demographics
               file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_patient_demo_mortality.ipynb
             - title: LSOA from health records
-              file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb
+              file: docs/ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb          file: docs/ukllc_managed_data/ukllc_managed_faq.md
+        - title: DATAMIND collection
+          file: docs/ukllc_managed_data/datasets/datamind/datamind_datasets.md
+        - title: UK Biobank collection
+          file: docs/ukllc_managed_data/datasets/biobank/ukbb_datasets.md
         - title: Charlson comorbidity dataset
           file: docs/ukllc_managed_data/datasets/charlson/charlson.ipynb
     - title: TRE user guide
@@ -434,10 +433,10 @@ parts:
           file: docs/user_guide/teamdatascience.md
         - title: Moving files in and out
           file: docs/user_guide/moving_files.md
-        - title: Statistical Disclosure Control
+        - title: Statistical disclosure control
           file: docs/user_guide/sdc.md
           sections:
-            - title: Quiz on Statistical Disclosure Control
+            - title: Quiz on SDC
               file: docs/user_guide/sdc_quiz.md
         - title: Requesting an amendment
           file: docs/user_guide/requestinganamendment.md
@@ -452,11 +451,11 @@ parts:
         - title: Research focus
           file: docs/user_guide/research_notes/notes_intro.md
           sections:
-            - title: Focus on harmonisation
+            - title: Harmonisation
               file: docs/user_guide/research_notes/01_calkin_feb26.md
-            - title: Focus on IAPT
+            - title: IAPT
               file: docs/user_guide/research_notes/02_latham_may26.md
-            - title: Focus on linkage quality
+            - title: Linkage quality
               file: docs/user_guide/research_notes/03_lam_sept26.md
         - title: Identifying individuals in multiple LPS
           file: docs/user_guide/alf2.md
