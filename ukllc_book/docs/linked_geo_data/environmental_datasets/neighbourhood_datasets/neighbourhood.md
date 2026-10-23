@@ -1,6 +1,6 @@
 # Neighbourhood datasets
 
-> Last modified: 21 Aug 2025
+> Last modified: 23 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC links to several place-based datasets that describe characteristics of participants' neighbourhoods.</strong></div>
 <br>
@@ -26,14 +26,6 @@ As suggested by <strong><a href="https://doi.org/10.1080/00420980120087063" targ
 - Leisure activities
 - Planning
 - Housing market
-
-
-The current UK LLC neighbourhood datasets include:
-- [Access to Healthy Assets and Hazards (AHAH)](../neighbourhood_datasets/ahah/ahah.ipynb)
-- [Greenspace](../neighbourhood_datasets/greenspace/greenspace.ipynb)
-
-**Please click on each dataset for more information.**
-
 
 Place-based neighbourhood datasets can be useful for research topics that investigate both the environmental and economic determinants of health. For example, research on low food security often incorporates both physical access to food in stores and economic access in terms of food affordability
 <strong><a href="https://bris.idm.oclc.org/login?url=https://www.proquest.com/scholarly-journals/food-choices-security-policy/docview/1522799677/se-2?accountid=9730" target="_blank" rel="noopener noreferrer">(Dimitri and Rogus, 2014)</a></strong>.

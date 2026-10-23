@@ -1,21 +1,23 @@
 # Understanding: Access to Healthy Assets and Hazards (AHAH) Index
 
->Last modified: 18 Jul 2025
+>Last modified: 23 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The Access to Healthy Assets and Hazards (AHAH) dataset provides a suite of open-access health indicators, including a novel multidimensional index that summarises health-related features of neighbourhoods across Great Britain.</strong></div>
 <br>
 
-## Access to Healthy Assets and Hazards (AHAH)
+## Introduction
+
+The Access to Healthy Assets and Hazards dataset provides national open source low-level geographical measures of accessibility to health-related features for Great Britain. It includes measures across three domains: retail environment (fast food outlets, gambling outlets, pubs/bars/nightclubs, off-licences, tobacconists), health services (General Practitioners, pharmacies, dentists, hospitals, leisure centres) and the physical environment (green space and air quality). 
 
 Information on the full version history of the AHAH index can be found on the <a href="https://data.geods.ac.uk/dataset/access-to-healthy-assets-hazards-ahah-previous-versions" target="_blank" rel="noopener noreferrer">Geographic Data Service</a> website.
 
-### Methodology
+## Methodology
 
 The AHAH index has been created by a ranked combination of the time-weighted distance required to travel by road between every postcode in Great Britain and a selection of health-related points of interest.
 
 The index defines 'access' through the average time-weighted road network distance for each postcode within each Lower Super Output Area/Data Zone to the nearest point of interest of a particular type. The road highways network and road speed estimates provided through Ordnance Survey were used, in combination with the ONS Postcode Directory, which provides centroids for every postcode in Great Britain.
 
-The authors <a href="https://doi.org/10.1038/s41597-019-0114-6" target="_blank" rel="noopener noreferrer">(Konstantinos et al., 2019)</a> describe the index calculation as computationally intense, as the total road network used has ~3.8 million edges, and ~3.2 million nodes. Access to each nearest health-related point of interest was calculated using the <a href="https://github.com/ESRC-CDRC/ahah/blob/main/ahah/route.py" target="_blank" rel="noopener noreferrer">Multi Source Shortest Path algorithm</a>, for all ~1.7 million postcodes in Great Britain.
+The authors <a href="https://doi.org/10.1038/s41597-019-0114-6" target="_blank" rel="noopener noreferrer">(Konstantinos et al., 2019)</a> describe the index calculation as computationally intense, as the total road network used has ~3.8 million edges, and ~3.2 million nodes. Access to each nearest health-related point of interest was calculated using the <a href="https://github.com/GeographicDataService/ahah" target="_blank" rel="noopener noreferrer">Multi Source Shortest Path algorithm</a>, for all ~1.7 million postcodes in Great Britain.
 
 The full methodology and code used to develop the index can be found <a href="https://github.com/ESRC-CDRC/ahah?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">here.</a>
 

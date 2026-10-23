@@ -1,13 +1,13 @@
 # Understanding: Greenspace metrics
 
 
->Last modified: 21 Jul 2025
+>Last modified: 23 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The greenspace dataset from the University of Leicester includes metrics on vegetation, greenspace coverage, tree density, walkability, and the size and number of greenspaces.</strong></div>
 <br>
 
 
-## Greenspace
+## Introduction
 
 Greenspace metrics have been developed by the University of Leicester for residential addresses/postcodes for cohorts partnering with UK LLC, where the appropriate permissions are in place.
 
@@ -34,7 +34,7 @@ Some variables cover the entire United Kingdom (UK), while others are limited to
 | NTDIST2NAP       | Network distance to nearest access point                          | GB                       |
 
 
-### Methodology
+## Methodology
 
 Each greenspace metric is available for either circular buffers (CB – a circle around a specific address point) or network polygons (NP - given distance along a road and path network from a specific address point) for a range of distances.
 
