@@ -1,27 +1,25 @@
 # Understanding: Index of Multiple Deprivation (IMD)
 
-> Last modified: 18 Aug 2025
+> Last modified: 23 Oct 2026
 
-## IMD, urban/rural classification and population estimates
+## Introduction
+ These datasets include measures of deprivation for all 4 nations, population estimates and an urban-rural classification. The small area geographies are those developed using the 2011 census (Lower Super Output Area, Data Zone and Super Output Area). The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries. 
 
-This file is intended to be linked to the health record dataset, CORE_NHSD_LSOA11. It adds geographical indicators to each encrypted small area geography (Lower Super Output Area for England and Wales, Data Zone for Scotland or Super Output Area for Northern Ireland). The indicators include measures of deprivation for all 4 nations, population estimates and urban-rural classification. The small area geographies are those developed using the 2011 census. The associated data for each geographical unit is the most up to date available data that uses the 2011 boundaries, this is due to not all of the indicators yet available using the new 2021 census boundaries. 
-
-### Methodology
+## Methodology
 
 Each of the 4 nations has its own versions of the Index of Multiple Deprivation, please see below for the individual statistical release information:
 
-**England:** The English Indices of Deprivation [(2019)](../../../images/iod2019_statistical_release.pdf)
+**England:** The English Indices of Deprivation [(2019)](../../../images/IoD2019_Statistical_Release.pdf)
 
 **Wales:** Welsh Index of Multiple Deprivation [(2019)](../../../images/welsh-index-multiple-deprivation-2019-results-report.pdf)
 
-**Scotland:** Scottish Index of Multiple Deprivation [(2020)](../../../images/simd+2020+technical+notes.pdf)
+**Scotland:** Scottish Index of Multiple Deprivation [(2020)](../../../images/SIMD+2020+technical+notes.pdf)
 
-**Northern Ireland:** Northern Ireland Multiple Deprivation Measures [(2017)](../../../images/nimdm_2017_technical_report.pdf)
-
+**Northern Ireland:** Northern Ireland Multiple Deprivation Measures [(2017)](../../../images/NIMDM 2017_Technical Report.pdf)
 
 England and Wales have a combined urban-rural classification, while Scotland and Northern Ireland have a separate classification system. The supporting documentation for each classification can be found below:
 
-**England and Wales:** Rural Urban Clasification of Statistical Geographies, England and Wales [(2021)](../../../images/ruc_2021_methodology.pdf)
+**England and Wales:** Rural Urban Clasification of Statistical Geographies, England and Wales [(2021)](../../../images/RUC_2021_methodology.pdf)
 
 **Scotland:** Scottish Government Urban Rural Classification [(2020)](../../../images/scottish-government-urban-rural-classification-2020.pdf)
 
@@ -52,7 +50,7 @@ To harmonise the urban-rural classifications across England, Wales, Scotland and
 
 ## Useful Syntax
 
-The [**UKLLC_nhse_lsoa11_dataset_mapping**](../../../ukllc_managed_data/ukllc_generated/datasets/linked_derived/nhse_lsoa11_dataset_mapping.md) dataset can be linked to **PLACE_IMD_XXX_v0000_YYYYMMDD** to add in geographical indicator variables associated with encrypted LSOA11 (lsoa11cd_e) from health records
+The [**UKLLC_nhse_lsoa11_dataset_mapping**](../../../../docs/ukllc_managed_data/datasets/nhse_reference/nhse_lsoa11_dataset_mapping.ipynb) dataset can be linked to **PLACE_IMD_XXX_v0000_YYYYMMDD** to add in geographical indicator variables associated with encrypted LSOA11 (lsoa11cd_e) from health records
  
 England, Wales, Scotland and Northern Ireland each have their own Index of Multiple Deprivation dataset.
 
