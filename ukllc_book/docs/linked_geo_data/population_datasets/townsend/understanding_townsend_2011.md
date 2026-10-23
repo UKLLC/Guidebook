@@ -1,17 +1,17 @@
 # Understanding: Townsend Deprivation Index (2011)
 
 
->Last modified: 08 Oct 2026
+>Last modified: 23 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides a 2011 version of the Townsend Deprivation Index for England and Wales, which was developed by the UK Data Service, at the Census Lower Super Output Area level (or equivalent).</strong></div>  
 <br>
 
-The Townsend Deprivation Index, first introduced by Peter Townsend in [1987](https://www.cambridge.org/core/journals/journal-of-social-policy/article/deprivation/071B5D2C0917B508551AC72D941D6054), is a widely used measure of material deprivation. A Townsend score combines census variables to produce an overall deprivation score for geographical areas. The index is frequently applied in health, sociological and education research to examine if there are relationships between deprivation and outcomes. In the dataset available in the UK LLC TRE, Townsend scores for 2011 were calculated by the [UK Data Service](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores) using data from the 2011 Census.
+The Townsend Deprivation Index, first introduced by Peter Townsend in 1987, is a widely used measure of material deprivation. A Townsend score combines census variables to produce an overall deprivation score for geographical areas. The index is frequently applied in health, sociological and education research to examine if there are relationships between deprivation and outcomes. In the dataset available in the UK LLC TRE, Townsend scores for 2011 were calculated by the [UK Data Service](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores) using data from the 2011 Census.
 
 
 ### Methodology
 
-Detailed information on how the Townsend scores were calculated can be found in Yousaf and Bonsall’s report (2017) which can be downloaded [**here**](../townsend/uk_townsend_deprivation_scores_from_2011_census_data.pdf). 
+Detailed information on how the Townsend scores were calculated can be found in Yousaf and Bonsall’s report (2017) which can be downloaded [**here**](../townsend/UKTownsendDeprivationScoresfrom2011censusdata.pdf).
 
 - Yousaf and Bonsall (2017) selected the census variables which best measured each of the indicators of material deprivation defined by Townsend (Table 1). 
 
