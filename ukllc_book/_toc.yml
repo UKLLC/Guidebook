@@ -335,8 +335,6 @@ parts:
       sections:
         - title: FAQs about geo data
           file: docs/linked_geo_data/place_faq.md
-        - title: Processing & linkage
-          file: docs/linked_geo_data/processing/processing_and_linkage.md
         - title: Population datasets
           file: docs/linked_geo_data/population_datasets/population.md
           sections:
@@ -377,6 +375,8 @@ parts:
               file: docs/linked_geo_data/mobility_datasets/public_transport/public_transport.ipynb
         - title: Health datasets
           file: docs/linked_geo_data/health_datasets/health.md
+        - title: Processing & linkage
+          file: docs/linked_geo_data/processing/processing_and_linkage.md
     - title: Administrative data
       file: docs/linked_admin_data/admin_data.md
       sections:

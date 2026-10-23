@@ -1,10 +1,9 @@
 # Geographic and place-based data
 
-> Last modified: 16 Oct 2026
+> Last modified: 23 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides access to geographic and place-based datasets for research in the TRE.</strong></div>  
 <br>
-
 ## 1. Introduction
 
 <aside class="admonition note"><p class="admonition-title">The <a 
@@ -34,7 +33,7 @@ UK LLC maintains encrypted versions of geographic data, including addresses and 
 | met_office | [Met Office climate data](../linked_geo_data/environmental_datasets/neighbourhood_datasets/met_office/met_office.ipynb) | Environmental | 2010-2024 |
 | greenspace | [Greenspace](../linked_geo_data/environmental_datasets/neighbourhood_datasets/greenspace/greenspace.ipynb) | Environmental | 2018 |
 | EPC | [Energy Performance Certificates](../linked_geo_data/environmental_datasets/property_datasets/epc/understanding_epc.md) | Environmental | *Coming in 2027* | 
-| hades_air_pollution | [Air pollution NOx, NO2 and O3](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/) | Environmental | 2018-2020 |
+| hades_air_pollution | [Air pollution NOx, NO2 and O3](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_o3/air_pollution_o3.ipynb) | Environmental | 2018-2020 |
 | air_pollution_no2_pm25 | [Air pollution NO2 & PM2.5](../linked_geo_data/environmental_datasets/pollution_datasets/air_pollution_pm25_no2/air_pollution_pm25_no2.ipynb) | Environmental | 2010-2019 |
 | traffic_noise | [Noise pollution](../linked_geo_data/environmental_datasets/pollution_datasets/noise_pollution/noise_pollution.ipynb) | Environmental | 2013 |
 | imd | [Index of Multiple Deprivation](../linked_geo_data/population_datasets/imd/imd.ipynb) | Population | 2011 |
