@@ -1212,40 +1212,32 @@ class NHSEDataSet:
 
         ds_info_list = [
         [
-            "Name of Dataset in TRE",
+            "Name of dataset in TRE",
             "Citation (APA)",
-            "Download Citation",
+            "Download citation",
             "Series",
-            "Owner",
             "Copyright",
-            "Temporal Coverage in the TRE",
-            "Geographical Coverage",
-            "Participant Count",
-            "Number of Variables",
-            "Number of Observations",
-            "Key Link",
-            "Keywords",
-            "Latest Extract Date",
-            "Specific Restrictions to Data Use",
-            "Build a Data Request"
+            "Temporal coverage in TRE",
+            "Geographical coverage",
+            "Participants included",
+            "Number of variables",
+            "Number of observations",
+            "Latest extract date",
+            "Restrictions on use in UK LLC",
         ],
         [
             self.df_ds.iloc[0]["source_table"], # DS in TRE
             self.apa_cite, # Citation
             self.dl_cites, # Download Cite
             md.make_hlink("https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/nhse", self.df_ds.iloc[0]["source_name"]), # Series
-            "NHS England", # self.df_ds.iloc[0]["Owner"], # Owner
             "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format("2026"), # Copyright
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
             self.participants, # Participant Count
             "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
             "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
-            md.make_hlink(self.df_ds.iloc[0]["Key_link"], self.df_ds.iloc[0]["Key_link"]),
-            self.df_ds.iloc[0]["Keywords"], # Keywords
             self.ed,
             self.df_ds.iloc[0]["Specific_restrictions_to_data_use"], # Restrictions to Data Use
-            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/") # Build a data request
         ]
         ]
 
@@ -1472,7 +1464,7 @@ class NHSEDataSet:
                     f"Understanding {self.dataset}"
                 )],
                 "Author/Organisation": ["UKLLC"],
-                "Description": [f"Describes how the {self.dataset} should be used and interpreted in the UK LLC context. The guide includes strengths and limitations, tips for researchers, scope and coverage, structure, coding systems used, and evolution of the dataset."]}
+                "Description": [f"Get the most from {self.dataset} by reading the UK LLC dataset guide. It explains the dataset structure, strengths, limitations, evolution, coding systems used and tips for researchers."]}
             )
     
             df_doc = md.get_document_metadata_dataset()
