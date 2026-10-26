@@ -1149,8 +1149,8 @@ class NHSEDataSet:
             return dsvs_i
 
         def cohort_total(ds):
-            if ds in ["MHSDS", "IAPT", "CSDS", "MSDS", "MHMDS", "MHLDDS"]:
-                return "N/A - Dataset comprises of multiple auxiliary tables"
+            if ds in ["MHSDS", "IAPT", "IAPT_v1_5", "CSDS", "MSDS", "MHMDS", "MHLDDS"]:
+                return "N/A - Dataset comprised of multiple auxiliary tables"
             else:
                 df = md.get_nhse_cohort_counts(ds)
                 df["count"] = df["count"].apply(lambda x: int(x.replace("<10", "0")))
@@ -1234,8 +1234,8 @@ class NHSEDataSet:
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
             self.participants, # Participant Count
-            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
-            "N/A - Dataset comprises of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
+            "N/A - Dataset comprised of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
+            "N/A - Dataset comprised of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
             self.ed,
             self.df_ds.iloc[0]["Specific_restrictions_to_data_use"], # Restrictions to Data Use
         ]
