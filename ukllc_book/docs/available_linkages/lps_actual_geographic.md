@@ -1,5 +1,5 @@
 # Available geographic linkages for each LPS
->Last modified: 16 Oct 2026
+>Last modified: 27 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Explore the linked geographic data available for each partner Longitudinal Population Study (LPS).</strong></div>
 <br>
@@ -19,9 +19,16 @@ The table below summarises the **geographic linkages** that are **currently avai
 |[**NSHD46**](../lps_data/lps_profiles/nshd46.ipynb)|✓|✓|✓|Household|✓|Household|Household|Household|✓|
 |[*SABRE*](../lps_data/lps_profiles/sabre.ipynb)|✓|✓|✓|Household|✓|Household|Household|Household|✓|
 |[**TEDS**](../lps_data/lps_profiles/teds.ipynb)|✓|✓|✓|✗|✓|✗|✗|✗|✓|
-|[**TWINSUK**](../lps_data/lps_profiles/twinsuk.ipynb)|✓|✓|✓|Postcode|✓|Postcode|Postcode|Postcode|✓|
+|[**TWINSUK**](../lps_data/lps_profiles/twinsuk.ipynb)|✓|✓|✓|Postcode|✓|Postcode|Postcode|Postcode|✓|  
+<br>
 
- 
+>**Explanatory notes**  
+**Postcode:** The LPS has permitted a participant's postcode to be geocoded. Environmental exposure metrics have been assigned using the participant's residential postcode. In UK LLC place-based datasets, this is indicated by dataset names ending in "_pc" (as displayed in <a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a>).  
+>
+>**Household:** The LPS has permitted a participant's full residential address to be geocoded. Environmental exposure metrics have been assigned using the participant's geocoded residential address. In UK LLC place-based datasets, this is indicated by dataset names ending in "_hh" (as displayed in <a href="https://explore.ukllc.ac.uk/" target="_blank" rel="noopener noreferrer">UK LLC Explore</a>).  
+
+<br>
+
 **Full names of datasets**:
 - Townsend Deprivation Index (2011)
 - Index of Multiple Deprivation (IMD)
