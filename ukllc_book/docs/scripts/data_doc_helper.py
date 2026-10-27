@@ -1148,8 +1148,8 @@ class NHSEDataSet:
 
             return dsvs_i
 
-        def cohort_total(ds):
-            if ds in ["MHSDS", "IAPT", "IAPT_v1_5", "CSDS", "MSDS", "MHMDS", "MHLDDS"]:
+        def cohort_total(ds, aux_ds):
+            if ds in aux_ds:
                 return "N/A - Dataset comprised of multiple auxiliary tables"
             else:
                 df = md.get_nhse_cohort_counts(ds)
@@ -1163,7 +1163,14 @@ class NHSEDataSet:
         self.ed = get_ed(self.dataset)
         self.apa_cite, self.dl_cites = cites(self.doi)
         self.latest_v = get_latest_dsvs(self.dataset)
-        self.participants = cohort_total(self.dataset)
+        self.aux_ds = ["IAPT", 
+                       "MHSDS", 
+                       "CSDS",  
+                       "IAPT_v1_5",  
+                       "MSDS",
+                       "MHLDDS", 
+                       "MHMDS"] 
+        self.participants = cohort_total(self.dataset, self.aux_ds)
 
     def title(self):
         """Returns title of dataset
@@ -1234,8 +1241,8 @@ class NHSEDataSet:
             self.df_ds.iloc[0]["collection_start"] + " - " + self.df_ds.iloc[0]["collection_end"], # Temporal Coverage
             self.df_ds.iloc[0]["Geographical_coverage"], # Geo Coverage
             self.participants, # Participant Count
-            "N/A - Dataset comprised of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_columns"], # Number of Variables
-            "N/A - Dataset comprised of multiple auxiliary tables" if self.dataset in ["IAPT", "MHSDS", "CSDS", "IAPT_v1_5", "MSDS"] else self.latest_v.iloc[0]["num_rows"], # Number of Observations
+            "N/A - Dataset comprised of multiple auxiliary tables" if self.dataset in self.aux_ds else self.latest_v.iloc[0]["num_columns"], # Number of Variables
+            "N/A - Dataset comprised of multiple auxiliary tables" if self.dataset in self.aux_ds else self.latest_v.iloc[0]["num_rows"], # Number of Observations
             self.ed,
             self.df_ds.iloc[0]["Specific_restrictions_to_data_use"], # Restrictions to Data Use
         ]
