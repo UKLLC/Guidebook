@@ -95,7 +95,7 @@ The table below gives a summary of the key greenspace metrics. This represents a
 | EUDIST2NAP      | 4 decimal places |	integer |
 | NTDIST2NAP      | 4 decimal places |	integer |
 
-**Table 3 – Original environmental exposure values for greenspace (and their attribute name) as well as the disclosure control exposure values available in the UK LLC TRE. **
+**Table 3 – Original environmental exposure values for greenspace (and their attribute name) as well as the disclosure control exposure values available in the UK LLC TRE.**
 
 ## Limitations:
 
