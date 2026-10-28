@@ -1,7 +1,7 @@
 # Understanding: Greenspace metrics
 
 
->Last modified: 23 Oct 2026
+>Last modified: 28 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The greenspace dataset from the University of Leicester includes metrics on vegetation, greenspace coverage, tree density, walkability, and the size and number of greenspaces.</strong></div>
 <br>
@@ -74,6 +74,28 @@ The table below gives a summary of the key greenspace metrics. This represents a
 | Network distance to nearest access point     | ✓           | ✓          | ✓          |            |            |
 
 **Table 2 – Best recommended options of greenspace metrics if exact residential locations are available (NP = network polygons, CB = circular buffer)**
+
+- Following disclosure control checks the original environmental exposure values have been rounded prior to be made available in the UK LLC TRE. Please see Table 3 for more details.
+
+| **Variable**                                 | **Original value** | **Value in UK LLC TRE** |
+|---------------------------------------------|-------------|------------|
+| LSNDVI2020                      | 4 decimal places           | 2 decimal places           |
+| LSNDVI2010                       | 4 decimal places           | 2 decimal places          |
+| LSNDVI2000                     | 4 decimal places           | 2 decimal places          |
+| LSNDVI1990                        | 4 decimal places           | 2 decimal places          |
+| S2NDVI2020                           | 4 decimal places           | 2 decimal places          |
+| OSGS_AREA     | 3 decimal places           |  integer          |
+| OSGS_PCT       | 6 decimal places |	2 decimal places |
+| OSGS_AP        | integer |	integer |
+| OSGS_CNT       | integer |	integer |
+| TCD_MEAN        | 4 decimal places |	1 decimal place |
+| TC_PCT          | 2 decimal places |	2 decimal places |
+| IMD_MEAN        | 4 decimal places |	1 decimal place |
+| IMD_PCT         | 2 decimal places |	2 decimal places |
+| EUDIST2NAP      | 4 decimal places |	integer |
+| NTDIST2NAP      | 4 decimal places |	integer |
+
+**Table 3 – Original environmental exposure values for greenspace (and their attribute name) as well as the disclosure control exposure values available in the UK LLC TRE. **
 
 ## Limitations:
 
