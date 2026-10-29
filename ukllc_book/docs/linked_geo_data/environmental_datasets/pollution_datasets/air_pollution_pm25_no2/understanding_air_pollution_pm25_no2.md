@@ -120,10 +120,21 @@ In order to derive the environmental characteristics and exposures associated wi
 
 #### Dataset/table split
 The data are split over 2 tables/datasets:
-1) **PLACE_air_pollution_hh** where addresses are geocoded to the household (hh) level.
-2) **PLACE_air_pollution_pc** where addresses are geocoded to the postcode (pc) level.
+1) **PLACE_air_pollution_hh** which contain LPS that have permitted a participant’s full residential address to be geocoded and the environmental exposure metrics have been assigned using the participant’s geocoded residential address. 
+2) **PLACE_air_pollution_pc** which contain LPS that have permitted a participant’s postcode to be geocoded and the environmental exposure metrics have been assigned using the participant’s residential postcode.
 
+Further details on which LPS are in which dataset can be found [here](https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_geographic.html). 
 
+### Air pollution variables
+Air pollution variables in the form *no2_YYYY/pm_YYYY* are annual averages. These should be used in **conjunction with the address start and end dates** to assign the annual averages for the years that correspond to when the participant was at that address.
 
+#### Geographical units
+Additional to the air pollution measures, these data contain a number of geographical units/levels:
+* UK region
+* Lower Super Output Area (LSOA) for England and Wales/ Data Zone (DZ) for Scotland and Super Output Area (SOA) for Northern Ireland,encrypted.
+* Middle Super Output Area (MSOA) encrypted
+* Postcode encrypted
+* Unique Property Reference Number (UPRN) encrypted.
 
+These allow participants to be **grouped into common geographical units**. The encryption is a disclosure control measure due to the elevated risk in providing individual level geolocation data. However, statistics about the encrypted LSOA/equivalent can be added by linking to the [Index of Multiple Deprivation (**PLACE_imd**)](../../../population_datasets/IMD/imd.ipynb) datasets. These datasets are available to request and can be linked to LPS with the [appropriate permissions](../../../../available_linkages/lps_actual_geographic.md). The datasets contain deciles of Indices of Multiple Deprivation (IMD) including sub domains, population density, and an urban rural indicator. When linked to the air pollution dataset, this will enable **additional economic and environmental insight** into the geographical area.
 
