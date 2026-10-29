@@ -1,13 +1,15 @@
 # Understanding: Met Office Datasets
 
->Last modified: 28 Oct 2026
+>Last modified: 29 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides a version of the Met Office HadUK-Grid Gridded Climate Observations dataset, aggregated to Census Lower Super Output Area level (or equivalent). </strong></div>
 <br>
 
+## Introduction
+
 The original [HadUK-Grid](https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid) dataset from the Met Office is a collection of gridded climate variables derived from the network of UK land surface observations [(Met Office, 2019)](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.78) .The original data have been interpolated from meteorological station data onto a uniform grid to provide complete and consistent coverage across the UK. This dataset covers the UK and has been aggregated to Census Lower Super Output Area Level (or equivalent) and spans the period from 2010-2024. The data have been produced for monthly and annual timescales. The variables included in the dataset are: air temperature (maximum, minimum and mean), precipitation, sunshine, mean sea level pressure, wind speed, relative humidity, vapour pressure, days of snow lying, and days of ground frost.  
 
-### Methodology
+## Methodology
 
 Detailed information on how the original [HadUK-Grid dataset](https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid/haduk-grid) has been created by the Met Office and can be found in the following publication, [(Hollis et al., 2019)](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.78).
 
@@ -61,11 +63,10 @@ The original Met Office HadUK-Grid Gridded Climate Observations dataset was deve
 
 * A new version of the HadUK-Grid dataset is released each year, as well as adding data for new calendar years additional changes can occur between dataset versions including for example: additional of newly digitised data, correction of corrupted or incorrect data and methodological updates. As a result, values can change slightly between dataset versions.  Updates between versions can be found on the [CEDA Archive website](https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb/).
 
-## Met Office HadUK-Grid Gridded Climate Observations dataset visualisation
+#### Met Office HadUK-Grid Gridded Climate Observations dataset visualisation
 
-**Figure 1** UK gridded climate observations (HadUK‑Grid) at 1 km resolution for temperature and rainfall, 1981-2010 derived from Met Office station data and interpolated across the UK. **Source:** https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid/overview
 <img src= "../met_office/met_office_resolutions_temp.png" width="900">
 
 <img src= "../met_office/metoffice_resolution_rain.png" width="900">
 
-
+**Figure 1** UK gridded climate observations (HadUK‑Grid) at 1 km resolution for temperature and rainfall, 1981-2010 derived from Met Office station data and interpolated across the UK. **Source:** [https://www.metoffice.gov.uk/research/climate/maps-and-data/data/haduk-grid/overview]

@@ -1,6 +1,6 @@
 # Processing and linkage to place-based datasets 
 
->Last modified: 23 Oct 2026
+>Last modified: 29 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC securely links study participants’ addresses with environmental data using a method that keeps personal and location data separate.</strong></div>  
 <br>
@@ -70,6 +70,107 @@ To further protect privacy, randomly selected UK addresses are included alongsid
 - The resulting datasets contain derived environmental measures and encrypted linkage identifiers only. These de-identified data are sent to Swansea University for re-encryption of the linkage identifiers and ingested into the UK LLC TRE.
 
 - Additional disclosure control and Quality Control checks are made. The data are then added to the UK LLC database, documented, and made available for research.
+
+</details>
+
+<details>
+
+<summary>Find out more about how participant addresses were geocoded</summary>
+
+- Depending on the permissions available for a participant, exposures were assigned using either a full-address geocoding file or a postcode-based geocoding file.
+
+- The software used to geocode the dataset was the Experian QAS Batch API. The QAS Batch API software geocodes address records by verifying them against the official postal address files for the relevant country. Cleaned records are then assigned a match result based on the accuracy of the original address.
+
+- The Address matching process consists of five stages:
+
+**Stage 1:Pre-process address**
+Baselines address are imported as a CSV standard format. Address records are submitted as a single line, with individual elements separated by commas. The Encoded anonymised participant ID and Postcode fields were type specified as ‘REFERENCE’ and ‘POSTCODE’ when inputting the CSV attributes to ensure that the fields occurred in the same order as the input CSV. 
+The output columns for the returned address are also specified during this stage. To note, the outputs will be returned in the following order as a string type along with the original CSV inputs. The output columns specified include:
+
+| Variable | Description |
+|----------|-------------|
+| Encoded anonymised participant ID (Reference) | The ID code provided by [DATA PROVIDER]. |
+| \<Auto\> | Automatically generated field. |
+| \<Auto\> | Automatically generated field. |
+| \<Auto\> | Automatically generated field. |
+| Town English | Town name (e.g. "London"). |
+| Administrative Area English | The local government subdivision in which an address is located. This may be a county, London borough, or unitary authority. |
+| Postcode | Full postcode. |
+| BLPU Easting | Easting (British National Grid) coordinate of the BLPU (Basic Land and Property Unit) in metres (1 cm resolution). Only produced for verified addresses. |
+| BLPU Northing | Northing (British National Grid) coordinate of the BLPU (Basic Land and Property Unit) in metres (1 cm resolution). Only produced for verified addresses. |
+| Matchcode | Indicates the nature of processing undertaken and any changes made to the address record (see Matchcode definitions below). |
+
+**Stage 2: Match Country**
+Once formatting is complete, QAS batch tries to identify the country that the input address relates to. Does this by matching the contents of the last two lines against a list of countries. If there is not match, batch api will mark the address as ‘Country not available’
+
+**Stage 3: Match Street, Organisation, PO Box and Place**
+Batch goes onto to match Street, Organisation, PO Box and Place. Rd and Ave are expanded to aid analysis
+
+**Stage 4: Match Premises**
+At this stage, QAS batch has matched the input address as far as the street. After match a place, was compares the property information in the input address against all the premises in the dataset for that street. If no match is achieved, the input address is marked as ‘partial address found’.
+
+**Stage 5: Select Best match**
+QAS bath API now retrieves the full verified address and assigns it a ‘quality’ score by comparing it with the original input address. During this stage, QAS evaluates a number of matching rules and assigns them a match score. If there is one or more matches, these as verified as ‘multiple matches’.
+
+<img src="../processing/QAS.png.jpg" width="700"/>
+
+**Figure 2.** Summary diagram of the QAS Batch API process.
+
+For more information on each stage, visit the: [QAS Batch API Guide](https://www.edq.com/globalassets/documentation/bat_api.pdf)
+
+</details>
+
+<details>
+
+<summary>Find out more about the match success and confidence level of the geocoding</summary>
+
+- The environmental exposure datasets contain a *matchcode* variable which indicates how successfully the Experian geocoding software was able to match the address. The *matchcode* also contains an indicator for confidence and whether any actions took place to correct postcode or address elements during the geocoding process. For full documentation on how to interpret the Experian *matchcode* see the <a href="https://docs.experianaperture.io/address-validation/batch-api/api-process/address-match-codes/#k-s~match-success" target="_blank" rel="noopener noreferrer">Experian documentation</a>.
+
+<img src="../processing/matchcode.jpg" width="700"/>
+
+**Figure 3.** Diagram presenting a full match code.
+
+- The letter at the beginning of the match code indicates how successfully QAS Batch API was able to match your input address in an Experian Data Quality datasets. Letters ‘A – D’ denote that the input address was not processed, whereas letters ‘K – S’ denote that the input address was processed. 
+
+- The match quality is then indicated by the following letter returned: 0 (low confidence), 5, (intermediate confidence) and 9 (high confidence).
+
+- If QAS Batch API returns a Q or R match, along with a match confidence level of 9, you can be confident that it has found the right match.
+
+- R9 matches are accepted automatically for both business and residential data. These equate to verified and good full match types in the batch reports.
+
+- Batch may still return an R9 match code (indicating a full address match with high confidence) even if a UPRN match has not been found, or does not match the supplied data. If this occurs the UPRN supplied extended information will be returned as part of the match code. 
+
+</details>
+
+<details>
+
+<summary>Find out more about the accuracy and completeness of the geocoding process</summary>
+
+- In February 2023, environmental exposure modellers from the University of Leicester, Centre for Environmental Health and Sustainability were provided with either the full address level information or postcodes of participants from 7 Longitudinal Population Studies (ALSPAC, BIB, EXCEED, NIHRBIO_COPING, NSHD46, SABRE, TWINSUK) depending on the permitted linkage permissions. Details of this process can be found under the "Find out more about the environmental exposure linkage process" dropdown section above.
+
+**Geocoding of addresses where full address was provided**:
+
+The Experian QAS Batch API used for geocoding returned 299,301 geocoded address records out of 329,766 addresses within ~12minutes. 290,758 addresses (88.2%) classified as ‘Verified Correct’ or ‘Good’ matches. These matches suggest that there is a high level of confidence that the match address is correct, or the input data was fully accurate.
+
+- Other address processing results by QAS Batch API are as follows:
+ * 1.4% of addresses received a Good Premise Partial match.
+ * 2.7% of addresses received a Tentative match.
+ * 0.8%, 0.1% and 0.2% addresses received a partial, poor or had multiple matches.
+ * 0.0% of addresses were matched as foreign addresses
+ * 6.6% of addresses were unmatched
+
+ **Geocoding of addresses where only postcodes were provided**:
+
+In total, QAS Batch API returned 241,342 address records out of 477,668 addresses within ~14minutes. No addresses were classified as ‘Verified Correct’ or ‘Good’ matches. These matches suggest that there is a high level of confidence that the match address is correct, or the input data was fully accurate. All addresses received either a poor, multiple, and partial match with low confidence. 
+
+- Other address processing results by QAS Batch API are as follows:
+ * 51.6% of addresses received a Poor match.
+ * 10.5% of addresses received a Multiple match.
+ * 0.7% of addresses received a Partial match.
+ * 0.0% of addresses were matched as foreign addresses
+ * 37.2% of addresses were unmatched
+
+It would be difficult to manually clean this address file since no address lines are provided for comparison.
 
 </details>
 

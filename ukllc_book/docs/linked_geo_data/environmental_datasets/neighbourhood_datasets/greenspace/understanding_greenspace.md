@@ -1,7 +1,7 @@
 # Understanding: Greenspace metrics
 
 
->Last modified: 28 Oct 2026
+>Last modified: 29 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The greenspace dataset from the University of Leicester includes metrics on vegetation, greenspace coverage, tree density, walkability, and the size and number of greenspaces.</strong></div>
 <br>
@@ -44,6 +44,10 @@ Figure 1 shows example circular buffers and network polygons.
 ***Figure 1 : Comparison of 300m circular buffers and network polygons for randomly selected addresses in different locations***
 
 Given that some metrics are correlated with each other, the metrics could be slimmed down to a smaller subset but it depends on the individual researcher as to whether they want to explore the full set.
+
+#### Geocoding of participant addresses
+
+In order to derive the environmental characteristics and exposures associated with residential locations, participant addresses were geocoded. More information on this process can be found on the Guidebook page: [Environmental Exposure](Estimates https://guidebook.ukllc.ac.uk/docs/linked_geo_data/processing/processing_and_linkage.html#environmental-exposure-estimates)
 
 ## Caveats:
 
@@ -99,4 +103,9 @@ The table below gives a summary of the key greenspace metrics. This represents a
 
 ## Limitations:
 
-- The greenspace metrics were developed for residential addresses in the Longitudinal Linkage Collaboration (LLC). These can be re-run for any cohort of participants where latitude / longitude point locations are available for participant addresses.  They can also be run for postcode mean delivery points but this approach may not be suitable for rural households as, in these cases, postcode mean points can be significant distances from specific households.
+*  The greenspace metrics were developed for residential addresses in the Longitudinal Linkage Collaboration (LLC). These can be re-run for any cohort of participants where latitude / longitude point locations are available for participant addresses.  They can also be run for postcode mean delivery points but this approach may not be suitable for rural households as, in these cases, postcode mean points can be significant distances from specific households.
+
+* Geocoding accuracy and completeness are dependent on the quality, completeness and specificity of the source address information, resulting in varying match confidence, positional uncertainty and a proportion of unmatched records. More information on the match success and confidence level of the geocoding used in the datasets can be found [here](https://guidebook.ukllc.ac.uk/docs/linked_geo_data/processing/processing_and_linkage.html#environmental-exposure-estimates).
+
+## Useful Syntax
+
