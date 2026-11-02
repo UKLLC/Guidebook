@@ -1,6 +1,6 @@
 # Understanding: Air pollution NOx, NO2 and O3 
 
->Last modified: 29 Oct 2026
+>Last modified: 02 Nov 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides high-resolution national exposure surfaces for NO₂ and O₃ in England and Wales (2018–2020), modelled using the HADES framework and linked to residential locations and Census geographies for population-level analysis.</div>  
 <br>
@@ -47,7 +47,7 @@ Individual household hourly-annual and annual average air pollution estimates fr
 
 #### Geocoding of participant addresses
 
-In order to derive the environmental characteristics and exposures associated with residential locations, participant addresses were geocoded. More information on this process can be found on the Guidebook page: [Environmental Exposure](Estimates https://guidebook.ukllc.ac.uk/docs/linked_geo_data/processing/processing_and_linkage.html#environmental-exposure-estimates)
+In order to derive the environmental characteristics and exposures associated with residential locations, participant addresses were geocoded. More information on this process can be found on the Guidebook page: [Environmental Exposure](https://guidebook.ukllc.ac.uk/docs/linked_geo_data/processing/processing_and_linkage.html#environmental-exposure-estimates)
 
 ## Caveats: 
 
