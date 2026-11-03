@@ -32,7 +32,7 @@ The unique **Person_ID** derived by the MPS for each LPS participant therefore c
 
 See <strong><a href="https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook" target="_blank" rel="noopener noreferrer">The Person_ID Handbook for HES users</a></strong> for more details about the algorithms MPS uses to derive a Person_ID. The accuracy of matching will be higher for datasets that reliably have accurate NHS numbers attached, compared to those that rely on other personal identifiers, which may be incomplete, inconsistently recorded or not unique.
 
-<aside class="admonition note"><p class="admonition-title">UK LLC has undertaken a <a href="https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/linkage_and_processing/nhse_v3_v4/" target="_blank" rel="noopener noreferrer">comparison of the linkage rates</a> for the two most recent extracts of NHSE data</p></aside>  
+<aside class="admonition note"><p class="admonition-title">UK LLC has undertaken a <a href="https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/linkage_and_processing/nhse_v3_v4.html" target="_blank" rel="noopener noreferrer">comparison of the linkage rates</a> for the two most recent extracts of NHSE data</p></aside>  
 
 NHS England uses the Person_ID to create extractions of datasets and sends these as **File 2s containing LPS participants' de-identified health data** and the encrypted STUDY_ID, to Swansea University for re-encryption of the STUDY_IDs and preparation of the data for **ingest into the UK LLC TRE**.
 
