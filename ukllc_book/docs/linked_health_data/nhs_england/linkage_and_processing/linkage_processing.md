@@ -1,12 +1,12 @@
 # Processing and linkage to NHS England datasets
->Last modified: 19 Oct 2026
+>Last modified: 03 Nov 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The process used to link Longitudinal Population Study (LPS) participants to their NHS England health records.</strong></div>
 <br>
 
 
 The linkage of participants to their English health records (where permissions allow) is a multi-step process overseen by UK LLC.
 
-Datasets are submitted by health and social care organisations via a range of pathways, including upload to the <a href="https://digital.nhs.uk/services/secondary-uses-service-sus" target="_blank" rel="noopener noreferrer">Seconday Uses Service (SUS)</a></strong>, the <a href="https://digital.nhs.uk/services/strategic-data-collection-service-in-the-cloud-sdcs-cloud" target="_blank" rel="noopener noreferrer">Strategic Data Collection Service in the cloud (SDCS Cloud)</a> or the <a href="https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh" target="_blank" rel="noopener noreferrer">Message Exchange for Social Care and Health (MESH)</a>. The degree of data validation and derivation of variables depends on the dataset.
+Datasets are submitted by health and social care organisations via a range of pathways, including upload to the <a href="https://digital.nhs.uk/services/secondary-uses-service-sus" target="_blank" rel="noopener noreferrer">Seconday Uses Service (SUS)</a></strong>, the <a href="https://digital.nhs.uk/services/strategic-data-collection-service-in-the-cloud-sdcs-cloud" target="_blank" rel="noopener noreferrer">Strategic Data Collection Service in the cloud (SDCS Cloud)</a> or the <a href="https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh" target="_blank" rel="noopener noreferrer">Message Exchange for Social Care and Health (MESH)</a>. The degree of data validation and derivation of variables depends on the dataset. 
 
 ## Flow of NHS England data into the UK LLC TRE
 Flows of data from contributing Longitudinal Population Studies (LPS) and NHS England are conducted through a ‘split file’ protocol where the **flow of LPS participants' identifiers** (File 1s) is entirely separate from the **flow of LPS participants' NHS England data** (File 2s) - see figure 1. Updates to NHS England datasets flow on an **annual basis** into the UK LLC TRE.
@@ -31,6 +31,8 @@ The MPS first tries to match the participant to their record in the <strong><a h
 The unique **Person_ID** derived by the MPS for each LPS participant therefore corresponds to: (i) their **NHS number** from the PDS; or (ii) the **MPS-ID** from the MPS record bucket; or (iii) a **one-time-use ID**.
 
 See <strong><a href="https://digital.nhs.uk/services/personal-demographics-service/master-person-service/the-person_id-handbook" target="_blank" rel="noopener noreferrer">The Person_ID Handbook for HES users</a></strong> for more details about the algorithms MPS uses to derive a Person_ID. The accuracy of matching will be higher for datasets that reliably have accurate NHS numbers attached, compared to those that rely on other personal identifiers, which may be incomplete, inconsistently recorded or not unique.
+
+<aside class="admonition note"><p class="admonition-title">UK LLC has undertaken a <a href="https://guidebook.ukllc.ac.uk/docs/linked_health_data/nhs_england/linkage_and_processing/nhse_v3_v4/" target="_blank" rel="noopener noreferrer">comparison of the linkage rates</a> for the two most recent extracts of NHSE data</p></aside>  
 
 NHS England uses the Person_ID to create extractions of datasets and sends these as **File 2s containing LPS participants' de-identified health data** and the encrypted STUDY_ID, to Swansea University for re-encryption of the STUDY_IDs and preparation of the data for **ingest into the UK LLC TRE**.
 
