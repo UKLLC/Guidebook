@@ -151,6 +151,8 @@ parts:
           sections:
             - title: Datasets
               file: docs/lps_data/datasets/glad/datasets/glad_datasets.ipynb
+            - title: GLAD tips & FAQs
+              file: docs/lps_data/lps_profiles/tips/glad_tips.md  
         - title: MCS
           file: docs/lps_data/lps_profiles/mcs.ipynb
           sections:

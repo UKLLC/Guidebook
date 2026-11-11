@@ -1,5 +1,5 @@
 # Available software
->Last modified: 19 Mar 2026
+>Last modified: 11 Nov 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide details the software available in the UK LLC Trusted Research Environment (TRE).</strong></div>  
 <br>
 
@@ -65,6 +65,9 @@ Click on the YouTube link below for a short video guide (60 seconds).
 [![Image alt text](https://img.youtube.com/vi/29pMeZ3DQPw/0.jpg)](https://www.youtube.com/watch?v=29pMeZ3DQPw)
 
 We recommend using **Juypter notebook** and we have prepared a template notebook with a comprehensive suite of helper functions. You will find this in: '**S:\ReadAll\python_help\notebook_helper**'. There are two files of note here, '**notebook_template.ipynb** and '**notebook_helper.py**'. Make sure to copy them both into your project’s working directory. The notebook template will guide you through how to pull your data and operate on it, using functions from the notebook helper program. You needn’t look into the underlying code in the notebook helper, but you are welcome to make changes should you wish. 
+
+<aside class="admonition note"><p class="admonition-title">Using VS Code in the TRE</p>To use VS Code with extensions enabled, you need to launch it from the desktop icon: Visual Studio Code with Extensions.</aside>
+
 
 **Note**: for **Jupyter notebooks** you may want to change directory to your working directory **before running the application**.
 

@@ -1,5 +1,5 @@
 # FAQs about NHS England data
->Last modified: 16 Oct 2026
+>Last modified: 11 Nov 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with linked NHS England data.</strong></div style>  
 <br>
 
@@ -56,7 +56,7 @@ The NIC number refers to UK LLC's Data Sharing Agreement (DSA) with NHSE. Partic
 For almost all datasets, dates are provided exactly as recorded by NHSE. In the **MORTALITY** dataset, only month and year of death are provided as exact dates of death present an increased risk of re-identification.
 </details>
 
-<details><summary>Do hospital datasets (HES) include information about use of **mental health services**?</summary>
+<details><summary>Do hospital datasets (HES) include information about use of <b>mental health services</b>?</summary>
 
 There is some information about mental health in the HES datasets, but it is only a partial record. Mental Health Trusts submit data to the MHSDS, rather than to HES, so only activities taking place in hospitals which are **not** part of Mental Health Trusts are recorded in HES datasets.
 </details>

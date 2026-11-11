@@ -1,5 +1,5 @@
 # FAQs about working in the TRE
->Last modified: 30 Sep 2026
+>Last modified: 11 Nov 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' queries about accessing and working in the UK LLC TRE.</strong></div style>  
 <br>  
 
@@ -79,6 +79,11 @@ No, you must only access the UK LLC TRE from the UK, in line with the user secur
   </details>
   
 <details>
+<summary>How can I connect to the SQL Server Management Studio?</summary>
+To connect to the SSMS for the first time, use <b>Windows Authentication</b> and tick the 'Trust Server Certificate'. Use your UK LLC username as available via <b>UK LLC Apply</b>
+</details>
+
+<details>
 <summary>What should I do if I have forgotten my password for the TRE?</summary>
 You can request a new password from SeRP by by entering either your TRE username or email address at: <a href="https://portal.ukllc.ukserp.ac.uk/requestnewpassword" target="_blank" rel="noopener noreferrer">https://portal.ukllc.ukserp.ac.uk/requestnewpassword</a>  
 </details>  
@@ -110,7 +115,7 @@ Your access to the TRE will automatically end when your AR status expires. If yo
  </details>
 
 <details id="main-window">
-<summary>Maintenance windows</summary>
+<summary>TRE Maintenance Windows</summary>
 The SeRP system will undergo regular maintenance windows on the 3rd Thursday of each month between 10:00 AM and 1:00 PM to ensure it continues to operate smoothly and securely. During this time you will not be able to login to the UK LLC TRE. For a full schedule of upcoming maintenance dates and further information, please see <a href="https://ukserp.atlassian.net/wiki/spaces/HDK/pages/16711839/Maintenance+Windows" target="_blank" rel="noopener noreferrer">Maintenance Windows</a>
 </details>
 <br>

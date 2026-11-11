@@ -1,5 +1,5 @@
 # Logging in
->Last modified: 07 Oct 2025
+>Last modified: 11 Nov 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>This guide covers initial and subsequent login to the UK LLC Trusted Research Environment (TRE).</strong></div>
 <br>
 Click on the YouTube link below for a short video guide (90 seconds). Alternatively, scroll down to follow the written step-by-step instructions.
@@ -12,7 +12,7 @@ Click on the YouTube link below for a short video guide (90 seconds). Alternativ
 
 
 ## Account setup
-The UK LLC TRE is based on the **SeRP UK infrastructure**. When your project is approved and all paperwork completed, the UK LLC Data Team will notify you that your data has been provisioned to your TRE project space.  
+The UK LLC TRE is based on the **SeRP UK infrastructure**. When your project is approved and all paperwork completed, UK LLC will notify you that your data has been provisioned to your TRE project space.  
 
 To log into the TRE, you will need a **SeRP username** and **QR code** (for 2-factor authentication (2FA)). Both of these will be available in your user profile in <strong><a href="https://apply.ukllc.ac.uk/summary" target="_blank" rel="noopener noreferrer">UK LLC Apply</a></strong>. You will also need a 'One-Time Password' (OTP) app on your smartphone (we recommend FreeOTP).
 

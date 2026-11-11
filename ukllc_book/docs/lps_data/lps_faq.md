@@ -1,5 +1,5 @@
 # FAQs about working with LPS data
->Last modified: 19 Oct 2026
+>Last modified: 11 Nov 2026
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 10px; border-radius: 5px;"><strong>Answers to researchers' questions about working with Longitudinal Population Study (LPS) data.</strong></div style>  
 <br>
 
@@ -122,18 +122,4 @@ Currently, participants who are in multiple LPS cannot be linked. However, this 
 There is a dataset of harmonised metadata about the Wellcome Trust (WT) standardised COVID-19 questionnaire that is accessible to all researchers in the TRE. The dataset provides a score as to how closely each LPS’s COVID-19 questionnaire aligns to the WT's COVID-19 questionnaire. The dataset is called Wellcome Trust COVID questionnaire; there is documentation in the TRE 'ReadAll' folder.
 </details>
 
-<br>
 
-**Dataset quirks**  
-This section is work-in-progress and will be updated as further quirks are brought to our attention – if you identify quirks, please notify the UK LLC Data Team at [support@ukllc.ac.uk](mailto:support@ukllc.ac.uk). The quirks are listed by LPS and dataset name.  
-
-
-<details>
-<summary>GLAD_FILE2_v0001</summary>
-
-* GLAD's data in the TRE is currently in a single table which combines information from several data collection sweeps. There are variables with similar names (e.g. demographics_, employment_) which were collected as part of different studies. UK LLC is working with GLAD to expand the information available about which variables relate to which time points.  
-
-* Some GLAD participants are also in the NIRHBIO_COPING study. It is not yet possible to identify these individuals, but UK LLC is working on a new ID which will enable this. The new ID will be provisioned to all projects early in 2026.
-
->Information about data from the Genetic Links to Anxiety and Depression (GLAD) Study held in the TRE is [here](../lps_data/lps_profiles/glad.ipynb).
-</details>
