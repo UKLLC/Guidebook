@@ -1,15 +1,17 @@
 # Understanding: Townsend Deprivation Index (2011)
 
 
->Last modified: 23 Oct 2026
+>Last modified: 29 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>UK LLC provides a 2011 version of the Townsend Deprivation Index for England and Wales, which was developed by the UK Data Service, at the Census Lower Super Output Area level (or equivalent).</strong></div>  
 <br>
 
+## Introduction
+
 The Townsend Deprivation Index, first introduced by Peter Townsend in 1987, is a widely used measure of material deprivation. A Townsend score combines census variables to produce an overall deprivation score for geographical areas. The index is frequently applied in health, sociological and education research to examine if there are relationships between deprivation and outcomes. In the dataset available in the UK LLC TRE, Townsend scores for 2011 were calculated by the [UK Data Service](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores) using data from the 2011 Census.
 
 
-### Methodology
+## Methodology
 
 Detailed information on how the Townsend scores were calculated can be found in Yousaf and Bonsall’s report (2017) which can be downloaded [**here**](../townsend/UKTownsendDeprivationScoresfrom2011censusdata.pdf).
 
@@ -63,6 +65,6 @@ The percentages of the 4 indicators were weighted equally in the calculation.
 
 ## Townsend Index visualisation, 2011
 
+<img src= "../townsend/Townsend_2011_UKDS.png" width="900">
 
 **Figure 1** UK Townsend Deprivation scores from the 2011 census data, developed by [Yousaf and Bonsall (2017)](https://statistics.ukdataservice.ac.uk/dataset/2011-uk-townsend-deprivation-scores/resource/194aa538-50dc-4dbc-8ce5-a74d3a2d7c02) displayed at Lower Super Output Area/Data Zone/ Super Output Area. Data source: Office for National Statistics; National Records of Scotland; Northern Ireland Statistics and Research Agency; UK Data Service.
-<img src= "../townsend/Townsend_2011_UKDS.png" width="900">

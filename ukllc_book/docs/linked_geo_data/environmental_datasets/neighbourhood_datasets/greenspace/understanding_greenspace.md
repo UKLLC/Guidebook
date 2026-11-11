@@ -1,7 +1,7 @@
 # Understanding: Greenspace metrics
 
 
->Last modified: 23 Oct 2026
+>Last modified: 29 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>The greenspace dataset from the University of Leicester includes metrics on vegetation, greenspace coverage, tree density, walkability, and the size and number of greenspaces.</strong></div>
 <br>
@@ -45,6 +45,10 @@ Figure 1 shows example circular buffers and network polygons.
 
 Given that some metrics are correlated with each other, the metrics could be slimmed down to a smaller subset but it depends on the individual researcher as to whether they want to explore the full set.
 
+#### Geocoding of participant addresses
+
+In order to derive the environmental characteristics and exposures associated with residential locations, participant addresses were geocoded. More information on this process can be found on the Guidebook page: [Environmental Exposure]( https://guidebook.ukllc.ac.uk/docs/linked_geo_data/processing/processing_and_linkage.html#environmental-exposure-estimates)
+
 ## Caveats:
 
 - Network polygons are always smaller than circular buffers of an equivalent size. i.e. a network polygon of 300m will always be smaller than a circular buffer of 300m.
@@ -75,6 +79,49 @@ The table below gives a summary of the key greenspace metrics. This represents a
 
 **Table 2 – Best recommended options of greenspace metrics if exact residential locations are available (NP = network polygons, CB = circular buffer)**
 
+- Following disclosure control checks the original environmental exposure values have been rounded prior to be made available in the UK LLC TRE. Please see Table 3 for more details.
+
+| **Variable**                                 | **Original value** | **Value in UK LLC TRE** |
+|---------------------------------------------|-------------|------------|
+| LSNDVI2020                      | 4 decimal places           | 2 decimal places           |
+| LSNDVI2010                       | 4 decimal places           | 2 decimal places          |
+| LSNDVI2000                     | 4 decimal places           | 2 decimal places          |
+| LSNDVI1990                        | 4 decimal places           | 2 decimal places          |
+| S2NDVI2020                           | 4 decimal places           | 2 decimal places          |
+| OSGS_AREA     | 3 decimal places           |  integer          |
+| OSGS_PCT       | 6 decimal places |	2 decimal places |
+| OSGS_AP        | integer |	integer |
+| OSGS_CNT       | integer |	integer |
+| TCD_MEAN        | 4 decimal places |	1 decimal place |
+| TC_PCT          | 2 decimal places |	2 decimal places |
+| IMD_MEAN        | 4 decimal places |	1 decimal place |
+| IMD_PCT         | 2 decimal places |	2 decimal places |
+| EUDIST2NAP      | 4 decimal places |	integer |
+| NTDIST2NAP      | 4 decimal places |	integer |
+
+**Table 3 – Original environmental exposure values for greenspace (and their attribute name) as well as the disclosure control exposure values available in the UK LLC TRE.**
+
 ## Limitations:
 
-- The greenspace metrics were developed for residential addresses in the Longitudinal Linkage Collaboration (LLC). These can be re-run for any cohort of participants where latitude / longitude point locations are available for participant addresses.  They can also be run for postcode mean delivery points but this approach may not be suitable for rural households as, in these cases, postcode mean points can be significant distances from specific households.
+*  The greenspace metrics were developed for residential addresses in the Longitudinal Linkage Collaboration (LLC). These can be re-run for any cohort of participants where latitude / longitude point locations are available for participant addresses.  They can also be run for postcode mean delivery points but this approach may not be suitable for rural households as, in these cases, postcode mean points can be significant distances from specific households.
+
+* Geocoding accuracy and completeness are dependent on the quality, completeness and specificity of the source address information, resulting in varying match confidence, positional uncertainty and a proportion of unmatched records. More information on the match success and confidence level of the geocoding used in the datasets can be found [here](https://guidebook.ukllc.ac.uk/docs/linked_geo_data/processing/processing_and_linkage.html#environmental-exposure-estimates).
+
+## Useful Syntax
+
+#### Dataset/table split
+The data are split over 2 tables/datasets:
+1) **PLACE_greenspace_hh** which contain LPS that have permitted a participant’s full residential address to be geocoded and the environmental exposure metrics have been assigned using the participant’s geocoded residential address. 
+2) **PLACE_greenspace_pc** which contain LPS that have permitted a participant’s postcode to be geocoded and the environmental exposure metrics have been assigned using the participant’s residential postcode.
+
+Further details on which LPS are in which dataset can be found [here](https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_geographic.html). 
+
+#### Geographical units
+Additional to the air pollution measures, these data contain a number of geographical units/levels:
+* UK region
+* Lower Super Output Area (LSOA) for England and Wales/ Data Zone (DZ) for Scotland and Super Output Area (SOA) for Northern Ireland,encrypted.
+* Middle Super Output Area (MSOA) encrypted
+* Postcode encrypted
+* Unique Property Reference Number (UPRN) encrypted.
+
+These allow participants to be **grouped into common geographical units**. The encryption is a disclosure control measure due to the elevated risk in providing individual level geolocation data. However, statistics about the encrypted LSOA/equivalent can be added by linking to the [Index of Multiple Deprivation (**PLACE_imd**)](../../../population_datasets/IMD/imd.ipynb) datasets. These datasets are available to request and can be linked to LPS with the [appropriate permissions](../../../../available_linkages/lps_actual_geographic.md). The datasets contain deciles of Indices of Multiple Deprivation (IMD) including sub domains, population density, and an urban rural indicator. When linked to the air pollution dataset, this will enable **additional economic and environmental insight** into the geographical area.

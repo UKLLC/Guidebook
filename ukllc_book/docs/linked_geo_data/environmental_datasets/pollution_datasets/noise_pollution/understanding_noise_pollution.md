@@ -1,19 +1,18 @@
 # Understanding: Noise pollution
 
->Last modified: 21 Jul 2025
-
+>Last modified: 29 Oct 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong> </strong>UK LLC provides modelled road-traffic noise estimates using the CNOSSOS-EU framework, incorporating traffic volumes, speeds, land cover, building heights and environmental conditions.</div>
 <br>
 
-## Common framework for noise assessment methods (CNOSSOS-EU) noise modelling
+## Introduction
 
 Modelled road-transport noise estimates have been calculated by University of Leicester/City St George’s, University of London in accordance with the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the <a href="https://www.researchgate.net/publication/280894153_Common_noise_assessment_methods_in_Europe_CNOSSOS-EU" target="_blank" rel="noopener noreferrer">European Commission (2002/49/EC)</a>. These noise propagation algorithms are implemented in PostgreSQL via the PostGIS v2.1 extension, following the protocol described in <a href="https://doi.org/10.1016/j.envsoft.2014.12.022" target="_blank" rel="noopener noreferrer">Gulliver et al. (2015)</a> and <a href="https://doi.org/10.1016/j.envpol.2015.07.031" target="_blank" rel="noopener noreferrer">Morley et al. (2015)</a>.
 
 Annual Average Daily Traffic (AADT) counts and traffic speeds across the UK road-network in 2013 enter the model, along with information relating to the surface roughness of land cover, building heights, wind profiles and average temperatures. The road-transport noise estimates for 2013 are then scaled to other years by considering the average change in AADT at a Local Authority level, using traffic count sites recorded in the <a href="https://roadtraffic.dft.gov.uk/regions" target="_blank" rel="noopener noreferrer">Department for Transport’s regional traffic statistics</a> dataset.
 
 
-### Methodology
+## Methodology
 
 Modelled road-transport noise estimates are calculated in accordance to the ‘Common framework for noise assessment methods’ (CNOSSOS-EU) framework, developed by the <a href="https://www.researchgate.net/publication/280894153_Common_noise_assessment_methods_in_Europe_CNOSSOS-EU" target="_blank" rel="noopener noreferrer">European Commission (2002/49/EC)</a>. For the purposes of this study, the CNOSSOS-EU model algorithms are to be implemented in PostgreSQL via the PostGIS v2.1 extension, following the protocol described in <a href="https://doi.org/10.1016/j.envpol.2015.07.031" target="_blank" rel="noopener noreferrer">Morley et al. (2015)</a>.
 
@@ -34,6 +33,11 @@ The workflow of the CNOSSOS-EU model is described in Figure 1, adapted from <a h
 
 **Figure 1: CNOSSOS-EU noise modelling workflow**
 
+- Following disclosure control checks the original environmental exposure values have been rounded prior to be made available in the UK LLC TRE. The variables: Lday, Leve, Lnight, LAeq16 and Lden have been rounded from 2 decimal places to 1, with upper values rounded at 90 dBA.
+
+#### Geocoding of participant addresses
+
+In order to derive the environmental characteristics and exposures associated with residential locations, participant addresses were geocoded. More information on this process can be found on the Guidebook page: [Environmental Exposure](Estimates https://guidebook.ukllc.ac.uk/docs/linked_geo_data/processing/processing_and_linkage.html#environmental-exposure-estimates)
 
 ## Caveats:
 
@@ -48,3 +52,22 @@ The workflow of the CNOSSOS-EU model is described in Figure 1, adapted from <a h
 - The model is not ‘dynamic’ in terms of representing varying vehicle speeds along road links. Others (Guarnaccia, 2013, Iannone et al., 2013) have shown that noise levels are different around road intersections (acceleration/deceleration) than at mid-block (i.e. the free-flowing section of a road link) for the same volume of traffic, which means that the model may have variable errors in modelled noise levels associated with changes in vehicle speeds along road links relative the average vehicle speeds that we have applied.
 
 - Further information on the strengths and limitations of the model are outlined in <a href="https://doi.org/10.1016/j.envsoft.2014.12.022" target="_blank" rel="noopener noreferrer">Gulliver et al. (2015)</a>.
+
+## Useful Syntax
+
+#### Dataset/table split
+The data are split over 2 tables/datasets:
+1) **PLACE_traffic_noise_hh** which contain LPS that have permitted a participant’s full residential address to be geocoded and the environmental exposure metrics have been assigned using the participant’s geocoded residential address. 
+2) **PLACE_traffic_noise_pc** which contain LPS that have permitted a participant’s postcode to be geocoded and the environmental exposure metrics have been assigned using the participant’s residential postcode.
+
+Further details on which LPS are in which dataset can be found [here](https://guidebook.ukllc.ac.uk/docs/available_linkages/lps_actual_geographic.html). 
+
+#### Geographical units
+Additional to the air pollution measures, these data contain a number of geographical units/levels:
+* UK region
+* Lower Super Output Area (LSOA) for England and Wales/ Data Zone (DZ) for Scotland and Super Output Area (SOA) for Northern Ireland,encrypted.
+* Middle Super Output Area (MSOA) encrypted
+* Postcode encrypted
+* Unique Property Reference Number (UPRN) encrypted.
+
+These allow participants to be **grouped into common geographical units**. The encryption is a disclosure control measure due to the elevated risk in providing individual level geolocation data. However, statistics about the encrypted LSOA/equivalent can be added by linking to the [Index of Multiple Deprivation (**PLACE_imd**)](../../../population_datasets/IMD/imd.ipynb) datasets. These datasets are available to request and can be linked to LPS with the [appropriate permissions](../../../../available_linkages/lps_actual_geographic.md). The datasets contain deciles of Indices of Multiple Deprivation (IMD) including sub domains, population density, and an urban rural indicator. When linked to the air pollution dataset, this will enable **additional economic and environmental insight** into the geographical area.
