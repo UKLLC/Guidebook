@@ -3,7 +3,7 @@
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>From application to data provision takes at least 12 weeks, so researchers need to give themselves enough time.</strong></div>
 <br>
 
-<img src="../../images/UKLLC_access_summary_11112025.png" width="600"/>
+<img src="../../images/review_timeline3_brandcolours.png" width="600"/>
 
 
 **Figure 1** A summary of UK LLC's application process with **approximate timings** for each stage - also see the metrics below
