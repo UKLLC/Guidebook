@@ -75,6 +75,10 @@ parts:
     - title: Applying to UK LLC
       file: docs/applying/apply_intro.md
       sections:
+        - title: Application process
+          file: docs/applying/applying/application_process
+        - title: How long does it take?
+          file: docs/applying/applying/process_timeline
         - title: Am I eligible?
           file: docs/applying/eligibility/eligibility.md
         - title: How do I apply?
@@ -83,10 +87,10 @@ parts:
           file: docs/applying/applying/eoi.md
         - title: Submit application
           file: docs/applying/applying/application.md
-        - title: Sign contracts
-          file: docs/applying/applying/paperwork.md
         - title: Review process
           file: docs/applying/applying/review.md
+        - title: Contracts
+          file: docs/applying/applying/paperwork.md
         - title: Policy on AI models
           file: docs/applying/applying/ai_policy.md
     - title: LPS data
