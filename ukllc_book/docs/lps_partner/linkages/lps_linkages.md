@@ -1,5 +1,5 @@
 # Linkages permitted for each LPS
->Last modified: 19 Oct 2026
+>Last modified: 19 Nov 2026
 
 <div style="background-color: rgba(0, 178, 169, 0.3); padding: 5px; border-radius: 5px;"><strong>Understand the data linkages permitted by each partner Longitudinal Population Study (LPS).</strong></div>
 <br>
@@ -13,38 +13,37 @@ The table below summarises the linkages that are **permitted** for each LPS. Ple
 See the [**NHS England dataset restrictions**](../linked_health_data/nhs_england/restrictions/nhse_restrictions.md) guide for a full list of research restrictions. 
 
 **Table 1** Linkages permitted by each LPS
-|**LPS**|[**NHS England**](../../linked_health_data/nhs_england/nhse.ipynb)<sup>1</sup>|[**NHS Wales**](../../linked_health_data/nhs_wales/nhsw_intro.md)<br>(Not yet available)|[**Geographies**](../../linked_geo_data/place_based_intro.md)<sup>2</sup>|[**DWP**](../../linked_admin_data/dwp_data/dwp_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/hmrc_data/hmrc_data.md)<br>(Not yet available)|
-|---|:---:|:---:|:---:|:---:|:---:|
-|[**AIRWAVE**](../../lps_data/lps_profiles/airwave.ipynb)|✓|✓|✓|✗|✗|
-|[*ALSPAC*](../../lps_data/lps_profiles/alspac.ipynb)|✓|✓|✓|✓|✓|
-|[**BCS70**](../../lps_data/lps_profiles/bcs70.ipynb)|✓|✓|✗|✓|✓|
-|[**BIB**](../../lps_data/lps_profiles/bib.ipynb)|✓|✓|✓|✗|✗|
-|[**CaPS**](../../lps_data/lps_profiles/caps.ipynb)|✓|✓|✓|✗|✗|
-|**CSSBIO** |✓|✓|✓|✗|✗| 
-|[**ELSA**](../../lps_data/lps_profiles/elsa.ipynb)|✓|✓|✗|✓|✓|
-|[*EPICN*](../../lps_data/lps_profiles/epicn.ipynb)|✓|✗|✗|✗|✗|
-|[**EXCEED**](../../lps_data/lps_profiles/exceed.ipynb)|✓|✓|✓|✗|✗|
-|[*FENLAND*](../../lps_data/lps_profiles/fenland.ipynb)|✓|✗|✗|✗|✗|
-|[**GENSCOT**](../../lps_data/lps_profiles/genscot.ipynb)|✗|✗|✗|✗|✗|
-|[**GLAD**](../../lps_data/lps_profiles/glad.ipynb)|✓|✓|✓|✗|✗|
-|[**MCS**](../../lps_data/lps_profiles/mcs.ipynb)|✓|✓|✗|✓|✓|
-|[**NCDS58**](../../lps_data/lps_profiles/ncds58.ipynb)|✓|✓|✗|✓|✓|
-|[**NEXTSTEP**](../../lps_data/lps_profiles/nextstep.ipynb)|✓|✗|✗|✓|✓|
+|**LPS**|[**NHS England**](../../linked_health_data/nhs_england/nhse.ipynb)<sup>1</sup>|[**NHS Wales**](../../linked_health_data/nhs_wales/nhsw_intro.md)<br>(Not yet available)|[**NHS Scotland**](../../linked_health_data/nhs_scotland/nhss_intro.md)<br>(Not yet available)|[**Geographies**](../../linked_geo_data/place_based_intro.md)<sup>2</sup>|[**DWP**](../../linked_admin_data/dwp_data/dwp_data.md)<br>(Not yet available)|[**HMRC**](../../linked_admin_data/hmrc_data/hmrc_data.md)<br>(Not yet available)|
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+|[**AIRWAVE**](../../lps_data/lps_profiles/airwave.ipynb)|✓|✓|✓|✓|✗|✗|
+|[*ALSPAC*](../../lps_data/lps_profiles/alspac.ipynb)|✓|✓|✓|✓|✓|✓|
+|[**BCS70**](../../lps_data/lps_profiles/bcs70.ipynb)|✓|✓|✓|✗|✓|✓|
+|[**BIB**](../../lps_data/lps_profiles/bib.ipynb)|✓|✓|✗|✓|✗|✗|
+|[**CaPS**](../../lps_data/lps_profiles/caps.ipynb)|✓|✓|✗|✓|✗|✗|
+|**CSSBIO** |✓|✓|✗|✓|✗|✗| 
+|[**ELSA**](../../lps_data/lps_profiles/elsa.ipynb)|✓|✓|✗|✗|✓|✓|
+|[*EPICN*](../../lps_data/lps_profiles/epicn.ipynb)|✓|✗|✗|✗|✗|✗|
+|[**EXCEED**](../../lps_data/lps_profiles/exceed.ipynb)|✓|✓|✗|✓|✗|✗|
+|[*FENLAND*](../../lps_data/lps_profiles/fenland.ipynb)|✓|✗|✗|✗|✗|✗|
+|[**GENSCOT**](../../lps_data/lps_profiles/genscot.ipynb)|✗|✗|✓|✗|✗|✗|
+|[**GLAD**](../../lps_data/lps_profiles/glad.ipynb)|✓|✓|✓|✓|✗|✗|
+|[**MCS**](../../lps_data/lps_profiles/mcs.ipynb)|✓|✓|✓|✗|✓|✓|
+|[**NCDS58**](../../lps_data/lps_profiles/ncds58.ipynb)|✓|✓|✓|✗|✓|✓|
+|[**NEXTSTEP**](../../lps_data/lps_profiles/nextstep.ipynb)|✓|✗|✗|✗|✓|✓|
 |[*NICOLA*](../../lps_data/lps_profiles/nicola.ipynb)|✗|✗|✗|✗|✗|✗|
-|[*NIHRBIO_COPING*](../../lps_data/lps_profiles/nihrbio_coping.ipynb)|✓|✗|✓|✗|✗|
-|[**NSHD46**](../../lps_data/lps_profiles/nshd46.ipynb)|✓|✗|✓|✗|✗|
-|[*SABRE*](../../lps_data/lps_profiles/sabre.ipynb)|✗|✗|✓|✗|✗|
-|[**TEDS**](../../lps_data/lps_profiles/teds.ipynb)|✓|✓|✓|✓<sup>4</sup>|✓<sup>4</sup>|
-|[*TRACKC19*](../../lps_data/lps_profiles/trackc19.ipynb)|✓|✓|✗|✗|✗|
-|[**TWINSUK**](../../lps_data/lps_profiles/twinsuk.ipynb)|✓|✓|✓|✗|✗|
-|[**UKHLS**](../../lps_data/lps_profiles/ukhls.ipynb)|✓|✓|✗|✓|✓|
-|[**UKREACH**](../../lps_data/lps_profiles/ukreach.ipynb)<sup>3</sup>|✓|✓|✓|✗|✗|
+|[*NIHRBIO_COPING*](../../lps_data/lps_profiles/nihrbio_coping.ipynb)|✓|✗|✗|✓|✗|✗|
+|[**NSHD46**](../../lps_data/lps_profiles/nshd46.ipynb)|✓|✗|✓|✓|✗|✗|
+|[*SABRE*](../../lps_data/lps_profiles/sabre.ipynb)|✗|✗|✗|✓|✗|✗|
+|[**TEDS**](../../lps_data/lps_profiles/teds.ipynb)|✓|✓|✗|✓|✓<sup>4</sup>|✓<sup>4</sup>|
+|[*TRACKC19*](../../lps_data/lps_profiles/trackc19.ipynb)|✓|✓|✗|✗|✗|✗|
+|[**TWINSUK**](../../lps_data/lps_profiles/twinsuk.ipynb)|✓|✓|✓|✓|✗|✗|
+|[**UKHLS**](../../lps_data/lps_profiles/ukhls.ipynb)|✓|✓|✓|✗|✓|✓|
+|[**UKREACH**](../../lps_data/lps_profiles/ukreach.ipynb)<sup>3</sup>|✓|✓|✓|✓|✗|✗|
 
 **Notes**  
 <sup>1</sup> All applications to access NHS England data must be intended and expected to achieve benefit to the UK health and social care system.  
 <sup>2</sup> For more detailed information about geographic datasets, please see the [Available geographic linkages](../../available_linkages/lps_actual_geographic.md) guide  
 <sup>3</sup> Data from UKREACH are not yet available in the UK LLC TRE  
 <sup>4</sup> Linkage to DWP and HMRC data is restricted to TEDS participants who have consented to be part of the Environmental Risk (E-Risk) Longitudinal Twin Study  
-Linkage to [Scottish health records](../../linked_health_data/nhs_scotland/nhss_intro.md) is conditionally approved.  
 
 <br>
