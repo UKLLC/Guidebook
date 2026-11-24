@@ -583,6 +583,7 @@ class LPSSource:
         self.source = source
         self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
         self.cohort_profile = md.get_md_api_profiles()[md.get_md_api_profiles()["source"] == self.source].iloc[0]["profile_doi"]
+        self.linkage_rates = md.get_source_linkage_rate(self.source)
 
         def ss_doi(x: str):
             """Returns UKLLC DOI of series
@@ -665,40 +666,61 @@ class LPSSource:
             markdown/DF: markdown-formatted DF of info/metrics for study
         """
 
+        def linkage_vals(provider: str) -> str: 
+
+            count = self.linkage_rates[self.linkage_rates["linkage_provider"] == provider]["count"].values[0]
+            percentage = self.linkage_rates[self.linkage_rates["linkage_provider"] == provider]["percentage"].values[0]
+
+            return f"{str(count)} ({str(percentage.round(1))}%)"
+        
         lps_website = self.df_ss.iloc[0]["Website"].split("(")[-1].replace(")", "").replace("'", "").replace("}", "")
         
         ss_info_list = [
         [
             "Citation (APA)",
-            "Download Citation",
+            "Download citation",
             "Owner",
-            "Cohort",
-            "Age at Recruitment",
-            "Geographical Coverage - Nations",
-            "Geographical Coverage - Regions",
-            "Start Date",
-            "Permitted Linkages",
-            "Inclusion in Linkages",
-            "Cohort Profile",
-            "LPS Homepage",
-            "Build a Data Request"
+            "Website",
+            # TBC "Cohort size",
+            "Participants sent to UK LLC",
+            "Start date",
+            # TBC "End date",
+            "Geographical coverage - nations",
+            "Geographical coverage - regions",
+            "Study type",
+            "Age at recruitment",
+            "Years of birth",
+            "Sex",
+            # "Restrictions on use in UK LLC",
+            "Available linkages",
+            "Participants linked to NHS England records",
+            "Participants linked to NHS Wales records", # TBC
+            "Participants linked to geographic datasets - household level",
+            "Participants linked to geographic datasets - postcode level",
+            "Participants linked to geographic datasets - small area level",
         ],
         [
             self.apa_cite,
             self.dl_cites,
             self.df_ss.iloc[0]["Owner"],
-            self.df_ss.iloc[0]["sample_size_at_recruitment"],
-            self.df_ss.iloc[0]["age_at_recruitment"],
+            md.make_hlink(lps_website, lps_website),  # Website 
+            # self.df_ss.iloc[0]["sample_size_at_recruitment"], # Cohort size TBC
+            int(self.df_ss.iloc[0]["participant_count"]),
+            self.df_ss.iloc[0]["start_date"],
+            # self.df_ss.iloc[0]["end_date"], TBC
             self.df_ss.iloc[0]["geographic_coverage_Nations"],
             self.df_ss.iloc[0]["geographic_coverage_Regions"],
-            self.df_ss.iloc[0]["start_date"],
+            self.df_ss.iloc[0]["study_type"],
+            self.df_ss.iloc[0]["age_at_recruitment"],
+            self.df_ss.iloc[0]["year_of_birth"],
+            self.df_ss.iloc[0]["Sex"],
+            # TBC , 
             "See " + md.make_hlink("https://guidebook.ukllc.ac.uk/docs/lps_partner/linkages/lps_linkages","here"),
-            self.df_ss.iloc[0]["participant_pathway"],
-            ", ".join([md.make_hlink("https://doi.org/" + i, i) for i in self.cohort_profile.split(",")]),
-            #md.make_hlink("https://doi.org/" + self.cohort_profile, self.cohort_profile),
-            #markdown.markdown(self.df_ss.iloc[0]["Website"]),
-            md.make_hlink(lps_website, lps_website),
-            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
+            linkage_vals("NHS England"),
+            f"TBC",
+            linkage_vals("Place - household level"),
+            linkage_vals("Place - postcode level"),
+            linkage_vals("Place - small area level"),
         ]
         ]
 
@@ -1622,12 +1644,11 @@ class NHSESource:
         ss_info_list = [
         [
             "Citation (APA)",
-            "Download Citation",
+            "Download citation",
             "Owner",
             "Copyright",
-            "Geographical Coverage - Nations",
-            "Start Date of Data Available",
-            "Build a Data Request"
+            "Geographical coverage",
+            "Start date of data available",
         ],
         [
             self.apa_cite,
@@ -1636,7 +1657,6 @@ class NHSESource:
             "Copyright © ({}), NHS England. Data re-used with the permission of NHS England. All rights reserved.".format(datetime.now().strftime("%Y")),
             self.df_ss.iloc[0]["geographic_coverage_Nations"],
             "1940s (GDPPR)",
-            md.make_hlink("https://explore.ukllc.ac.uk/","https://explore.ukllc.ac.uk/")
         ]
         ]
 

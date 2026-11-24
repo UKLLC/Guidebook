@@ -7,6 +7,21 @@ API_KEY = os.environ['FASTAPI_KEY']
 
 api_url = "https://mms-production-3b476d9d2c44.herokuapp.com/meta/api/"
 
+# switched and tested
+def get_source_linkage_rate(source = "none"):
+    url = (api_url + f"source-linkage-rate/?source_name={source}")
+    r = requests.get(url, headers={"access-token": API_KEY})
+
+    return pd.json_normalize(json.loads(r.text))[
+        [
+            "linkage_provider",
+            "count",
+            "percentage"
+
+        ]
+    ]
+
+
 # TBC - underlying table needs infilling
 def get_geo_locations():
     url = ('https://metadata-api-4a09f2833a54.herokuapp.com/geo-locations/')
