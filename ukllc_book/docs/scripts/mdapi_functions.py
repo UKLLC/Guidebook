@@ -12,14 +12,24 @@ def get_source_linkage_rate(source = "none"):
     url = (api_url + f"source-linkage-rate/?source_name={source}")
     r = requests.get(url, headers={"access-token": API_KEY})
 
-    return pd.json_normalize(json.loads(r.text))[
-        [
-            "linkage_provider",
-            "count",
-            "percentage"
+    if len(json.loads(r.text)) == 0:
+        return pd.DataFrame(columns = 
+                [
+                    "linkage_provider",
+                    "count",
+                    "percentage"
+                ]
+                )
 
+    else:
+        return pd.json_normalize(json.loads(r.text))[
+            [
+                "linkage_provider",
+                "count",
+                "percentage"
+
+            ]
         ]
-    ]
 
 
 # TBC - underlying table needs infilling

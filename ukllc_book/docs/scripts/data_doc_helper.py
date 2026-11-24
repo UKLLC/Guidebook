@@ -582,7 +582,7 @@ class LPSSource:
         # define std input variables
         self.source = source
         self.df_ss = md.get_md_api_ss()[md.get_md_api_ss()["source"] == self.source]
-        self.cohort_profile = md.get_md_api_profiles()[md.get_md_api_profiles()["source"] == self.source].iloc[0]["profile_doi"]
+        # self.cohort_profile = md.get_md_api_profiles()[md.get_md_api_profiles()["source"] == self.source].iloc[0]["profile_doi"]
         self.linkage_rates = md.get_source_linkage_rate(self.source)
 
         def ss_doi(x: str):
@@ -668,10 +668,14 @@ class LPSSource:
 
         def linkage_vals(provider: str) -> str: 
 
-            count = self.linkage_rates[self.linkage_rates["linkage_provider"] == provider]["count"].values[0]
-            percentage = self.linkage_rates[self.linkage_rates["linkage_provider"] == provider]["percentage"].values[0]
+            if len(self.linkage_rates) == 0:
+                return "0 (0%) - linkage TBC."
 
-            return f"{str(count)} ({str(percentage.round(1))}%)"
+            else:    
+                count = self.linkage_rates[self.linkage_rates["linkage_provider"] == provider]["count"].values[0]
+                percentage = self.linkage_rates[self.linkage_rates["linkage_provider"] == provider]["percentage"].values[0]
+
+                return f"{str(count)} ({str(percentage.round(1))}%)"
         
         lps_website = self.df_ss.iloc[0]["Website"].split("(")[-1].replace(")", "").replace("'", "").replace("}", "")
         
@@ -728,9 +732,11 @@ class LPSSource:
         return DocHelper.style_table("_", df_ss_info)
 
     def table_caption_ds(self):
-        return display(Markdown("**Table 1:** Datasets and metrics in the UK "
-                                "LLC belonging to {}.".format(self.source)))
-
+        return display(Markdown(f"**Table 1:** Information about {self.source} datasets"
+                                " held in the UK LLC TRE.")
+        )
+    
+    
     def datasets(self):
         """Returns table of datasets for study
 
