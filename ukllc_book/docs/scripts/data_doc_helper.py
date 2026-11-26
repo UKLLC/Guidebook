@@ -401,11 +401,10 @@ class LPSDataSet:
 
         ds_info_list = [
             [
-             "Name of Dataset in TRE",
+             "Name of dataset in TRE",
              "Citation (APA)",
-             "Download Citation",
+             "Download citation",
              "Series",
-             "Owner",
              "Temporal Coverage",
              "Keywords",
              "Participant Count",
@@ -423,7 +422,6 @@ class LPSDataSet:
                  .format(self.df_ds.iloc[0]["source"].lower()),
                  self.df_ds.iloc[0]["source_name"]
                  ),  # Series
-             self.df_ds.iloc[0]["Owner"],  # Owner
              (self.df_ds.iloc[0]["collection_start"]
               + " - " + self.df_ds.iloc[0]["collection_end"]),  # Temp Coverage
              self.df_ds.iloc[0]["topic_tags"],  # Keywords
